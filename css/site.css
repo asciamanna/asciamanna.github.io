@@ -3,11 +3,42 @@
         max-width: 970px;
     }
 }*/
-@media (min-width: 768px) {
+
+body {
+    background-color: #222
+}
+
+.body-content {
+    background-color: #222
+}
+
+.links {
+    background-color: #1d1919;
+}
+
+/*@media (min-width: 768px) {
     .navbar-nav {
         float: none;
         margin: 0 auto;
         display: table;
         table-layout: fixed;
     }
+}*/
+
+.site-navbar {
+    border: none;
+}
+
+.masthead {
+	background-color: #1d1919;
+    color: #d0caca;
+    font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif
+}
+
+.masthead-margin {
+    margin: 40px 0 20px;
+}
+
+.content {
+    background-color: #d0caca;
 }
