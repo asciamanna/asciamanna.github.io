@@ -22,7 +22,7 @@ hr {
 }
 
 .links {
-    background-color: #1d1919;
+    background-color: #222
 }
 
 /*@media (min-width: 768px) {
@@ -36,10 +36,11 @@ hr {
 
 .site-navbar {
     border: none;
+    margin-bottom: 0;
 }
 
 .masthead {
-	background-color: #1d1919;
+	background-color: #222;
     color: #d0caca;
     font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif
 }
@@ -50,6 +51,7 @@ hr {
 
 .content {
     background-color: #d0caca;
+    border-radius: 8px;
 }
 
 .footer {
