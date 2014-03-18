@@ -56,14 +56,18 @@ hr {
 
 .footer {
     text-decoration: none;
-    color: #1d1919;
+    color: #d0caca;
 }
 
 .footer > a {
     text-decoration:none;
-    color: #1d1919;
+    color: #d0caca;
 }
 
 .footer > a:hover {
     text-decoration:underline;
+} 
+
+.twitter-timeline {
+    padding-top: 15px;
 }

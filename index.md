@@ -1,4 +1,24 @@
 ---
 layout: default
+title: About
 ---
-<h2>Hello Jekyll!</h2>
+##About
+<hr/>
+I'm a software developer with 14 years of experience developing a variety of
+applications. I'm currently focusing on .NET web technologies.
+<br/><br/>
+I work for [eMoney Advisor](http://www.emoneyadvisor.com).
+<br/><br/>
+I'm passionate about XP principles, test driven development (TDD), pair
+programming, and software
+design.
+<br/></br/>
+I've developed professionally in C++, Java, Perl, Ruby, and C#.
+
+###Interests
+* Music
+* Vinyl records
+* Drumming
+* Classic horror
+* Philadelphia Phillies
+* Philadelphia Flyers
