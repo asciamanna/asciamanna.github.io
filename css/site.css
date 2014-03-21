@@ -1,11 +1,5 @@
-/*@media (min-width: 1200px) {
-    .container-fluid {
-        max-width: 970px;
-    }
-}*/
-
 body {
-    background-color: #222
+    background-color: #222;
 }
 
 hr {	
@@ -18,21 +12,13 @@ hr {
 }
 
 .body-content {
-    background-color: #222
+    background-color: #222;
 }
 
 .links {
-    background-color: #222
+    background-color: #222;
+    font-size: 16px;
 }
-
-/*@media (min-width: 768px) {
-    .navbar-nav {
-        float: none;
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-    }
-}*/
 
 .site-navbar {
     border: none;
@@ -42,7 +28,7 @@ hr {
 .masthead {
 	background-color: #222;
     color: #d0caca;
-    font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif
+    font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif;
 }
 
 .masthead-margin {
