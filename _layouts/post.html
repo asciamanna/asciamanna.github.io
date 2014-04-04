@@ -20,16 +20,18 @@ layout: default
 <br/>
 <small>Posted by Anthony Sciamanna &middot; {{page.date | date: "%A %B %-d, %Y"}} </small>
 <br/>
+<div style="float:left;">
 <a href="https://twitter.com/share" class="twitter-share-button"
     data-via="asciamanna">Tweet</a>
 <script>!function(d,s,id){var
 js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,
 'script', 'twitter-wjs');</script>
-
-<div class="fb-like" data-href="http://www.anthonysciamanna.com{{page.url}}"
+</div>
+<div style="float:left;" class="fb-like" data-href="http://www.anthonysciamanna.com{{page.url}}"
 data-layout="standard" data-action="like" data-show-faces="true"
-data-share="true"></div>
-
+data-share="true">
+</div>
+<br/>
 {% if page.comments %}
 <hr/>
 <h1>Comments</h1>
@@ -37,16 +39,11 @@ data-share="true"></div>
         <script type="text/javascript">
                 var disqus_shortname = 'anthonysciamanna'; 
                         (function() {
-                                     var dsq =
-                                     document.createElement('script'); dsq.type
-                                     = 'text/javascript'; dsq.async = true;
-                                                 dsq.src = '//' +
-                                                 disqus_shortname +
-                                                 '.disqus.com/embed.js';
-                                                             (document.getElementsByTagName('head')[0]
-                                                              ||
+                                     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                                 dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                                             (document.getElementsByTagName('head')[0] ||
                                                               document.getElementsByTagName('body')[0]).appendChild(dsq);
-                                                                     })();
+                                     })();
     </script>
         <noscript>Please enable JavaScript to view the <a
                 href="http://disqus.com/?ref_noscript">comments powered by
