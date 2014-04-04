@@ -43,6 +43,7 @@ hr {
 .footer {
     text-decoration: none;
     color: #d0caca;
+    margin-bottom: 10px;
 }
 
 .footer > a {
