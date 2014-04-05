@@ -6,8 +6,9 @@ comments: true
 Software is read many more times than it is written and it lives on longer than
 most people expect. Because of this we professional software developers have a
 responsibility to write readable and maintainable code. Certainly well-designed
-software will help both the readability and maintainability. But in addition to the design of software, the types of
-comments that exist in a codebase also have a large impact on its readability.
+software will help both the readability and maintainability. But in addition to
+the software design, the types of
+comments that exist in a codebase also have a huge impact on its readability.
 
 I have spent a significant amount of time working in both codebases where the
 team took a "well commented" approach as well as a "self documenting" approach
@@ -56,7 +57,7 @@ so I didn't need the comment, I can honestly state that I was completely wrong.
 
 Bob Martin sums up my feelings about comments best in his book _Clean Code_.
 While he admits that some comments are necessary and beneficial he goes on to
-say...
+say&hellip;
 
 > "The only truly good comment is the comment you found a way not to write"  
 >&mdash; _Robert Martin, Clean Code, page 55_
@@ -64,8 +65,8 @@ say...
 Comments can be meaningful and beneficial but only after first trying to
 eliminate the need for the comment in the first place. The code is the
 truth, it is the only truth when determining what the software does.
-Comments all too often are inaccurate and misleading and developers struggle
-to keep comments accurate as the software changes over time.
+Comments all too often are inaccurate, misleading, and developers struggle
+to keep comments up to date as the software changes over time.
 
 ##Unit Tests Instead of Comments
 To an extent I agree with Dave Thomas, Andy Hunt, and Robert Martin.
@@ -77,7 +78,7 @@ Comments that describe the intent of the developer are generally useful.
 > &mdash; Dave Thomas and Andy Hunt, The Pragmatic Programmer: From Journeyman to Master, page 249
 
 Bob Martin lists the following in a section of _Clean Code_ entitled
-"Good Comments":
+"Good Comments:"
 > Sometimes a comment goes beyond just useful information about the
 > implementation and provides the intent behind a decision.
 
@@ -85,7 +86,7 @@ However, I would take this advice a step further. In a lot of cases
 documenting why something is done can be documented in a concise unit
 test case that clearly describes the intent of the software. I concede
 that not all of these types of comments can be adequately described in
-unit test cases so I still believe there is a need for comments to
+unit tests so I still believe there is a need for comments to
 describe the developer's intent.
 
 Let's look at some other types of comments.
@@ -136,7 +137,7 @@ methods and giving variables good semantic names will alleviate the
 need for the comment altogether. These types of comments end up being
 more trouble than they are worth and usually become bug breeding
 grounds. These comments violate the DRY principle so when the code is
-updated the comment must be updated too.
+updated the comment must be updated as well.
 
 ###Organizing sections of a function
 If comments are used to describe multiple parts of a method or
@@ -177,7 +178,7 @@ reading the software an enormous chore. These comments violate the
 are interspersed within the code. These comments in particular are
 supposed to help developers understand the code better but they instead
 insert huge gaps between executable code that breaks the readers'
-focus. As stated previously for APIs this type of documentation is
+focus. As I stated previously for APIs this type of documentation is
 invaluable and worth having but only on the public facing API. Internal
 code should avoid method headers entirely (whether it be for public or
 private methods).
@@ -197,7 +198,8 @@ limitations that prevent you from being as descriptive as possible.
 ###Credits
 I've referenced Robert Martin's _Clean Code_ book several times in this
 post. That book has the most comprehensive coverage of "meaningful
-comments" than any other I've found. He also describes the Single
+comments" than any other I've found. He has much more content about
+comments than I could cover here. He also describes the Single
 Responsibility Principle (SRP) in detail in the book. If you are
 interested in writing well-designed, readable software I highly
 recommend reading it.
