@@ -67,7 +67,7 @@ truth, it is the only truth when determining what the software does.
 Comments all too often are inaccurate and misleading and developers struggle
 to keep comments accurate as the software changes over time.
 
-##Unit Tests instead of Comments
+##Unit Tests Instead of Comments
 To an extent I agree with Dave Thomas, Andy Hunt, and Robert Martin.
 Comments that describe the intent of the developer are generally useful.
 
@@ -91,7 +91,7 @@ describe the developer's intent.
 Let's look at some other types of comments.
 
 ## Meaningful Comments
-###Optimized Code
+###Optimized code
 Describing code that required some obfuscation to meet performance
 requirements.
 This is important because a developer might try to simplify this code
@@ -119,7 +119,7 @@ thing about TODO comments is to address them in a timely manner,
 otherwise you are just incurring technical debt and littering your
 codebase with comments.
 
-###Javadoc / XML Doc Comments in APIs and public libraries
+###Javadoc / XML Doc comments in APIs and public libraries
 When developing a public API or a library for public use javadoc (or
 XML Doc for .NET) style comments are incredibly useful for the
 developers who are using the library.
@@ -128,7 +128,7 @@ developers who are using the library.
 Let's get into the types of comments that I think should be replaced
 when encountered in software.
 
-###How something works
+###Commenting how the code works
 If a comment describes how the code works it's either redundant or
 documenting a piece of complicated code which is an indicator that the
 code needs to be cleaned up. Refactoring blocks of code into well named
@@ -153,7 +153,7 @@ large. Ensuring that the class has a single responsibility and having
 it delegate to other objects for other responsibilities will help
 eliminate the need for these types of comments.
 
-###Bug History
+###Bug history
 These types of comments include a bug Id from a bug tracking system and
 sometimes an explanation of what was changed in the code. If a
 developer looks at this comment in the future it will be meaningless
@@ -163,14 +163,14 @@ keep the history of the software modifications (that is its
 responsibility) and let developers look there. Put bug Ids in commit
 comments if that is helpful, not in source code.
 
-###File Edit History
+###File edit history
 These types of comments are the ones that document which developer
 changed which part of the code on what date. I've seen enormous class
 headers to track the file edit history. Again these types of comments I
 group into the same category as bug tracking comments. Let the VCS keep
 the history of which developer modified the code.
 
-###Javadoc / XML doc method headers in non public code
+###Javadoc / XML doc method headers in non-public code
 I find these types of comments in internal code to be overkill and make
 reading the software an enormous chore. These comments violate the
 "Reduce Unimportant Information" guideline as huge blocks of comments
