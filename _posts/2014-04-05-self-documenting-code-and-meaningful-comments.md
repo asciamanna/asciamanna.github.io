@@ -124,7 +124,7 @@ When developing a public API or a library for public use javadoc (or
 XML Doc for .NET) style comments are incredibly useful for the
 developers who are using the library.
 
-##Not so meaningful comments
+##Not So Meaningful Comments
 Let's get into the types of comments that I think should be replaced
 when encountered in software.
 
