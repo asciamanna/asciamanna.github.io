@@ -56,10 +56,14 @@ that baseline and subscribing to the idea that I would try to change the code
 so I didn't need the comment, I can honestly state that I was completely wrong.
 
 Bob Martin sums up my feelings about comments best in his book _Clean Code_.
+
+> "The proper use of comments is to compensate for our failure to express
+> ourself in code."  
+>&mdash; _Robert Martin, Clean Code, page 54_
 While he admits that some comments are necessary and beneficial he goes on to
 say&hellip;
 
-> "The only truly good comment is the comment you found a way not to write"  
+> "The only truly good comment is the comment you found a way not to write."  
 >&mdash; _Robert Martin, Clean Code, page 55_
 
 Comments can be meaningful and beneficial but only after first trying to
@@ -70,7 +74,7 @@ to keep comments up to date as the software changes over time.
 
 ##Unit Tests Instead of Comments
 To an extent I agree with Dave Thomas, Andy Hunt, and Robert Martin.
-Comments that describe the intent of the developer are generally useful.
+Comments that describe the intent of the developer are generally useful. 
 
 > "In general, comments should discuss why something is done, its purpose
 > and its goal. The code already shows how it is done, so commenting on this
@@ -92,12 +96,15 @@ describe the developer's intent.
 Let's look at some other types of comments.
 
 ## Meaningful Comments
+In reality these meaningful comments are the exception not the rule. There
+shouldn't be a need for a lot of meaningful comments in a codebase.
+
 ###Optimized code
 Describing code that required some obfuscation to meet performance
 requirements.
 This is important because a developer might try to simplify this code
 in the future losing the performance gains in the refactoring. Bob
-Martin would include these in a category he calls "warning comments."
+Martin would include these in a category he calls "warning of consequences."
 His example of a warning comment is a comment that indicates that a
 test is disabled because of how long it takes to run.
 
@@ -127,7 +134,8 @@ developers who are using the library.
 
 ##Not So Meaningful Comments
 Let's get into the types of comments that I think should be replaced
-when encountered in software.
+when encountered in code. Most comments found in a codebase are going
+to fall into this category.
 
 ###Commenting how the code works
 If a comment describes how the code works it's either redundant or
@@ -183,6 +191,14 @@ invaluable and worth having but only on the public facing API. Internal
 code should avoid method headers entirely (whether it be for public or
 private methods).
 
+###Noise
+There are some comments that just restate the name of the method, variable or
+property.  If they aren't identical then they are just rephrasing the names. 
+I tend to categorize these with the method header comments as they tend to make
+reading the code much harder by having lots of these comments interspersed with
+executable code. These comments are the easiest to get rid of. Simply delete
+them and move on and watch the size of your classes shrink.
+
 ###Commented out code
 Commenting out code is fine when testing but it shouldn't be committed.
 Again, let the VCS control the history of the source code
@@ -191,9 +207,9 @@ modifications.
 ###Exceptions
 Obviously there are no absolutes in software developement. In general,
 if you try to remove or not write a comment by eliminating the need for
-it and find that you can't you most likely have a reasonable comment.
-There are all kinds of exceptions including if there are language
-limitations that prevent you from being as descriptive as possible.
+it and find that you can't you most likely have a reasonable comment. 
+However, if you find you need a lot of comments you should look closer
+at the code to see if changing the code can eliminate the need for the comment.
 
 ###Credits
 I've referenced Robert Martin's _Clean Code_ book several times in this
