@@ -86,7 +86,7 @@ Bob Martin lists the following in a section of _Clean Code_ entitled
 > Sometimes a comment goes beyond just useful information about the
 > implementation and provides the intent behind a decision.
 
-However, I would take this advice a step further. In a lot of cases
+However, I would take this advice a step further. In a majority of cases
 documenting why something is done can be documented in a concise unit
 test case that clearly describes the intent of the software. I concede
 that not all of these types of comments can be adequately described in
@@ -134,8 +134,7 @@ developers who are using the library.
 
 ##Not So Meaningful Comments
 Let's get into the types of comments that I think should be replaced
-when encountered in code. Most comments found in a codebase are going
-to fall into this category.
+when encountered in code. Most comments are going to fall into this category.
 
 ###Commenting how the code works
 If a comment describes how the code works it's either redundant or
