@@ -30,20 +30,17 @@ It's important to point out that the self documenting code style and applying
 comments to code are not mutually exclusive. At some point developers started
 thinking that self documenting code meant that no comments should exist in the
 codebase. The original intent of self documenting code was to have
-meaningful comments not no comments.
-
-However, the reality is that the vast majority of the comments found in code
+meaningful comments.
+<br/><br/>
+The reality is that the vast majority of comments found in code
 are completely unnecessary and actually detract from the readability of the
 software. In fact, most comments are an indicator that there is something wrong
-with the code. Those types of comments are not the meaningful ones. And that's
-probably why some developers assume that every comment is an unnecessary evil
-and prefer codebases without any comments.
-
+with the code. 
+<br/><br/>
 When shifting focus to meaningful comments developers begin to find better
 ways to describe the code and stop using comments as a crutch. As these
 meaningless comments get refactored out of the codebase eventually what's left
-is a codebase with very few comments. Those comments are the meaningful ones,
-the ones that actually help the developers working on the code in the future.
+is a codebase with very few comments. 
 
 ##Doubts?
 I certainly had my doubts about self documenting code. I went through college
@@ -66,11 +63,10 @@ say&hellip;
 > "The only truly good comment is the comment you found a way not to write."  
 >&mdash; _Robert Martin, Clean Code, page 55_
 
-Comments can be meaningful and beneficial but only after first trying to
-eliminate the need for the comment in the first place. The code is the
-truth, it is the only truth when determining what the software does.
+Comments can be beneficial but only after first trying to
+eliminate the need for the comment in the first place. 
 Comments all too often are inaccurate, misleading, and developers struggle
-to keep comments up to date as the software changes over time.
+to keep them in sync with the software.
 
 ##Unit Tests Instead of Comments
 To an extent I agree with Dave Thomas, Andy Hunt, and Robert Martin.
@@ -88,11 +84,8 @@ Bob Martin lists the following in a section of _Clean Code_ entitled
 
 However, I would take this advice a step further. In a majority of cases
 documenting why something is done can be documented in a concise unit
-test case that clearly describes the intent of the software. I concede
-that not all of these types of comments can be adequately described in
-unit tests so I still believe there is a need for comments to
-describe the developer's intent.
-
+test case that clearly describes the intent of the software. 
+<br/>
 Let's look at some other types of comments.
 
 ## Meaningful Comments
@@ -205,10 +198,10 @@ modifications.
 
 ###Exceptions
 Obviously there are no absolutes in software developement. In general,
-if you try to remove or not write a comment by eliminating the need for
-it and find that you can't you most likely have a reasonable comment. 
-However, if you find you need a lot of comments you should look closer
-at the code to see if changing the code can eliminate the need for the comment.
+if you try to eliminate the need for a comment and
+find that you can't, you most likely have a reasonable comment. 
+However, you should take a closer look at the code if you feel you need a lot
+of comments. 
 
 ###Credits
 I've referenced Robert Martin's _Clean Code_ book several times in this
