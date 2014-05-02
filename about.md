@@ -13,7 +13,7 @@ I'm passionate about XP principles, test driven development (TDD), pair
 programming, and software
 design.
 <br/><br/>
-I've developed professionally in C++, Java, Perl, Ruby, and C#.
+I've developed professionally in C#, JavaScript, Ruby, Java, C++, and Perl.
 
 ###Interests
 * Music
