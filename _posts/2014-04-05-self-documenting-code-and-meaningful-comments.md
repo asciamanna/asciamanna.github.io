@@ -2,6 +2,7 @@
 layout: post
 title: Self Documenting Code and Meaningful Comments
 comments: true
+category: Software Craftmanship
 ---
 Software is read many more times than it is written and it lives on longer than
 most people expect. Because of this we professional software developers have a
