@@ -4,10 +4,10 @@ title: Bloom Filters
 comments: true
 category: Algorithms
 ---
-I was first introduced to the Bloom Filter data structure through Dave Thomas'
+I was first introduced to the Bloom Filter data structure several years ago on Dave Thomas'
 code kata website. While working through his code katas I came across one for
 implementing a spell checker using a bloom filter. It can be found
-[here](http://codekata.com/kata/kata05-blu-filters/). Having never heard about
+[here](http://codekata.com/kata/kata05-blu-filters/). Having never encountered
 Bloom filters in algorithms or data structures classes I found it a fascinating way to address set membership when the set can be very large.  
 <!--more-->  
 
