@@ -32,7 +32,9 @@ of _m_ number of bits all initialized to 0.
 
 Then you add the items you want to check for set membership. You add these items by taking _k_ independent hash values for each item. Each hash is a number which is then used to index into the bit array setting the corresponding value to 1. Clashes will occur. A bit array location may already be set to 1 from a previous item addition. This is expected.  
 
-Now when you want to query the set for membership you perform the same hashes on it that were used to load the bit array. Then check to see if each of bits at the corresponding array locations are 1.  If all locations are 1 then the item "might be in your set." If any of the locations are 0, the item is "definitely not in the set."  
+Now when you want to query the set for membership you perform the same hashes
+on it that were used to load the bit array. Then check to see if each of the
+bits at the corresponding array locations are 1.  If all of the locations are 1 then the item "might be in your set." If any of the locations are 0, the item is "definitely not in the set."  
 
 These false positives occur when each independent hash for an item ends up corresponding to bits that were previously set by other items' hashes.  
 
