@@ -10,7 +10,7 @@ responsibility to write readable and maintainable code. Certainly well-designed
 software will help both the readability and maintainability. But in addition to
 the software design, the types of
 comments that exist in a codebase also have a huge impact on its readability.
-
+<!--more-->
 I have spent a significant amount of time working in both codebases where the
 team took a "well commented" approach as well as a "self documenting" approach
 with very few comments.

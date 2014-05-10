@@ -3,7 +3,7 @@ GEM
   specs:
     RedCloth (4.2.9)
     RedCloth (4.2.9-x86-mingw32)
-    activesupport (4.1.0)
+    activesupport (4.1.1)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
