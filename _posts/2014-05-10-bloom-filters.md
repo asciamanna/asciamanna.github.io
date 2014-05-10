@@ -12,7 +12,7 @@ Bloom filters in algorithms or data structures classes I found it a fascinating 
 <!--more-->  
 
 ##Definition
-Buton Howard Bloom developed the Bloom filter in 1970. A Bloom filter is a data structure that is used to test whether an element is a
+Burton Howard Bloom developed the Bloom filter in 1970. A Bloom filter is a data structure that is used to test whether an element is a
 member of a set. It differs from other data structures (bitmaps, hashes, etc.)
 in that it is **space-efficient** and appropriate to use when the set is very
 large or if you are operating in an environment with memory constraints.  
