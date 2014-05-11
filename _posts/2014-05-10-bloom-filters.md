@@ -4,7 +4,7 @@ title: Bloom Filters
 comments: true
 category: Algorithms
 ---
-I was first introduced to the Bloom Filter data structure several years ago on Dave Thomas'
+I was first introduced to the Bloom filter data structure several years ago on Dave Thomas'
 [code kata website](http://codekata.com/). While working through his code katas I came across one for
 implementing a spell checker using a bloom filter. It can be found
 [here](http://codekata.com/kata/kata05-blu-filters/). Having never encountered
@@ -83,7 +83,7 @@ Bloom filters are used in several applications. Here are a few exmaples:
 ##Example
 Here is an example of a simple Bloom filter I've implemented in C#. It uses the
 SHA-1, SHA-512, and MD5 cryptographic hash algorithms. In an actual Bloom
-Filter implementation non-cryptographic hash algorithms would be favored
+filter implementation non-cryptographic hash algorithms would be favored
 because they are faster. These include murmur hash and Jenkins hashing
 algorithms.  However, since the cryptographic algorithims are built in to the .NET cryptography libraries I decided to use them for this simple example.
 {% gist asciamanna/d35f3d3ded04d8aeffd0 %}
