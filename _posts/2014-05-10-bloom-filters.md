@@ -5,7 +5,7 @@ comments: true
 category: Algorithms
 ---
 I was first introduced to the Bloom Filter data structure several years ago on Dave Thomas'
-code kata website. While working through his code katas I came across one for
+[code kata website](http://codekata.com/). While working through his code katas I came across one for
 implementing a spell checker using a bloom filter. It can be found
 [here](http://codekata.com/kata/kata05-blu-filters/). Having never encountered
 Bloom filters in algorithms or data structures classes I found it a fascinating way to address set membership when the set can be very large.  
@@ -46,12 +46,15 @@ much data you will need to represent in the bit array and tuning the algorithm
 and data structure accordingly. It is possible to get the number of false
 positives below 1% by tuning your algorithm.  
 
-Thankfully there are some mathematical formulas that you can use to help tune the data structure for your specific use.  
+Thankfully there are some mathematical formulas that you can use to help tune
+the Bloom filter for your specific use.  
 
 ##Tuning the algorithm  
 
 ###Size of the bit array
-The following algorithm, found on [wikipedia](http://en.wikipedia.org/wiki/Bloom_filter) approximates the number of false positives.  So, plug the following in to the algorithm below.
+The following formula, found on
+[wikipedia](http://en.wikipedia.org/wiki/Bloom_filter) approximates the number
+of false positives.  So, plug the following in to the formula below.
 
 ####_k_ = Number of hashes  
 
@@ -64,7 +67,8 @@ The following algorithm, found on [wikipedia](http://en.wikipedia.org/wiki/Bloom
 ###Number of hashes to calculate
 This leads us to the next problem: determining how many hashing functions to use. Again, the more hashes calculated the slower the Bloom filter will be and it will fill up the bit array quicker. However, if you use too few hashes it will increase the number of false positives.  
 
-Thanks to [wikipedia](http://en.wikipedia.org/wiki/Bloom_filter) again, there is another algorithm to solve for _k_: the number of hashing functions.
+Thanks to [wikipedia](http://en.wikipedia.org/wiki/Bloom_filter) again, there
+is another formula to solve for _k_: the number of hashing functions.
 
 ####**_(m / n)ln (2)_**
 
