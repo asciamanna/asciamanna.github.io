@@ -214,6 +214,7 @@ interested in writing well-designed, readable software I highly
 recommend reading it.
 <br/>
 Robert Martin can be found online:
+
 * [Clean Coder](http://www.cleancoder.com)
 * [Clean Coders - His Clean Code Videos](http://www.cleancoders.com)
 * [8th Light](http://www.8thlight.com)
