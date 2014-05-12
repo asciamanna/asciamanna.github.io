@@ -75,10 +75,11 @@ is another formula to solve for _k_: the number of hashing functions.
 ##Practical applications
 Bloom filters are used in several applications. Here are a few examples:
 
-* Google's [BigTable](http://en.wikipedia.org/wiki/BigTable)
-* [Apache Cassandra](http://en.wikipedia.org/wiki/Apache_Cassandra)
-* Google Chrome
-* Bitcoin
+* Google's [BigTable](http://en.wikipedia.org/wiki/BigTable) - To reduce disk lookups
+* [Apache Cassandra](http://en.wikipedia.org/wiki/Apache_Cassandra) - To reduce disk lookups
+* Google Chrome - To identify malicious URLs
+* Bitcoin - To verify payments
+* Squid Web Proxy Cache - For cache digests
 
 ##Example
 Here is an example of a simple Bloom filter I've implemented in C#. It uses the
