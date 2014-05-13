@@ -7,7 +7,9 @@
     <meta name="author" content="Anthony Sciamanna">
     <meta name="keywords" content="software, software development, blog,
     craftsmanship, .NET, C#, HTML5, CSS3, JavaScript, jQuery, Philadelphia">
-    {% if page.description %}
+    {% if page.excerpt %}
+        <meta name="description" content="{{page.excerpt | strip_html}}">
+    {% elsif page.description %}
         <meta name="description" content="{{page.description}}">
     {% else %}
        <meta name="description" content="Anthony Sciamanna's Software development blog and personal
