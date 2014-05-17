@@ -1,0 +1,8 @@
+<h3>Categories</h3>
+{% for category in site.categories %}
+<div>
+    <a href="/{{category | first | handleize }}/">
+        {{category | first }}
+    </a>
+</div>
+{% endfor %}

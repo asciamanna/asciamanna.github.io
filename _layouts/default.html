@@ -5,19 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Anthony Sciamanna">
-    <meta name="keywords" content="software, software development,
-    craftsmanship, .NET, C#, HTML5, CSS3, JavaScript, jQuery, XP, Extreme
-    Programming, Pair Programming, TDD, Test Driven Development, Philadelphia">
+    <meta name="keywords" content="software, software development, craftsmanship, .NET, C#, HTML5, CSS3, JavaScript, jQuery, XP, Extreme
+    Programming, Pair Programming, TDD, Test Driven Development, Philadelphia"> 
     {% if page.excerpt %}
-        <meta name="description" content="{{page.excerpt | strip_html}}">
+    <meta name="description" content="{{page.excerpt | strip_html}}">
     {% elsif page.description %}
-        <meta name="description" content="{{page.description}}">
+    <meta name="description" content="{{page.description}}">
     {% else %}
-       <meta name="description" content="Anthony Sciamanna's Software development blog and personal
-       site">
+    <meta name="description" content="Anthony Sciamanna's personal site and blog"> 
     {% endif %}
-    <title>{{page.title}} - Anthony Sciamanna</title>
-
+    <title>{% if page.title %} {{page.title}} - Anthony Sciamanna {% else %}Anthony Sciamanna{% endif %}</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/fonts/font-awesome-4.0.3/css/font-awesome.min.css">
     <link href="/css/site.css" rel="stylesheet" />
@@ -31,15 +28,14 @@
     <![endif]-->
 
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
      Date();a=s.createElement(o),
        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-49263473-1', 'anthonysciamanna.com');
+    ga('create', 'UA-49263473-1', 'anthonysciamanna.com');
     ga('send', 'pageview');
-
     </script>
 </head>
 <body>
@@ -83,6 +79,7 @@
                 <a class="twitter-timeline" href="https://twitter.com/asciamanna" data-widget-id="444990454707146752">Tweets by @asciamanna</a>
                 <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
             </div>
+                
         </div>
              <div class="footer text-center">
                  <hr/>
