@@ -1,3 +1,6 @@
 permalink: /:year/:month/:day/:title.html
 excerpt_separator: <!--more-->
 markdown: kramdown
+name: Anthony Sciamanna
+description: Anthony Sciamanna's Software Development Blog
+url: http://www.anthonysciamanna.com
