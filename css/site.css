@@ -66,3 +66,13 @@ hr {
 .post-nav {
     clear: both;
     margin: 10px 0px 10px 0px;
+}
+
+.body404 {
+    margin-top: 60px;
+}
+
+.image404 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
