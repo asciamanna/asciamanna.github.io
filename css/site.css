@@ -62,3 +62,7 @@ hr {
 .date-section {
     margin-top: 15px;
 }
+
+.post-nav {
+    clear: both;
+    margin-top: 20px;

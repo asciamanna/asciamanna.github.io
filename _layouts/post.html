@@ -49,9 +49,22 @@ js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';i
    </script>
    <script type="IN/Share" data-counter="right"></script>
 </div>
-<div style="float:left;" class="fb-like" data-href="http://www.anthonysciamanna.com{{page.url}}"
+<div style="float:left" class="fb-like" data-href="http://www.anthonysciamanna.com{{page.url}}"
 data-layout="standard" data-action="like" data-show-faces="true"
 data-share="true">
+</div>
+<br/>
+<div class="post-nav">
+    <div class="pull-left">
+        {% if page.previous.url %}
+        <a href="{{ page.previous.url }}"><i class="fa fa-long-arrow-left"></i> {{ page.previous.title }}</a>
+        {% endif %}
+    </div>
+    <div class="pull-right">
+        {% if page.next.url %}
+        <a href="{{ page.next.url }}">{{ page.next.title }} <i class="fa fa-long-arrow-right"></i></a>
+        {% endif %}
+    </div>
 </div>
 <br/>
 {% if page.comments %}
