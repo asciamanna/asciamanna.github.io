@@ -1,0 +1,27 @@
+.last-fm-list {
+    list-style: none;
+    margin: 0;
+}
+
+.last-fm-list-item {
+    margin-top: 10px;
+}
+
+.album-art {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.track-info {
+    margin-left: 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.nav-custom {
+    margin-top: 15px;
+}
