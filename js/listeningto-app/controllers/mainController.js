@@ -13,7 +13,6 @@ app.controller('mainController', function($scope, $http) {
             .success(function(data) {
                 $scope.recentTracks.length = 0;
                 angular.forEach(data, function(track, index) {
-                    track.LastPlayedDate = new Date(track.LastPlayed).toLocaleString();
                     $scope.recentTracks.push(track);
                 });
                 $scope.showRecentTrakcs = true;
