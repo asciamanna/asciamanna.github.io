@@ -15,10 +15,10 @@ layout: default
         <li ng-repeat="track in recentTracks">
             <div class='last-fm-list-item'>
                 <div class='album-art'>
-                    <img class='img-thumbnail album-art'
+                    <img ng-cloak class='ng-cloak img-thumbnail album-art'
                     alt='{{track.Artist}}-{{track.Album}}' src='{{track.AlbumArtLocation}}'>
                 </div>
-                <div class='track-info'>
+                <div ng-cloak class='ng-cloak track-info'>
                     <h3>
                         {{track.Artist}}
                     </h3>
@@ -35,10 +35,10 @@ layout: default
         <li ng-repeat="artist in topArtists">
             <div class='last-fm-list-item'>
                 <div class='album-art'>
-                    <img class='img-thumbnail album-art'
+                    <img ng-cloak class='ng-cloak img-thumbnail album-art'
                     alt='{{track.Artist}}' src='{{artist.ArtistImageLocation}}'>
                 </div>
-                <div class='track-info'>
+                <div ng-cloak class='ng-cloak track-info'>
                     <h3>
                         {{artist.Name}}
                     </h3>
@@ -52,3 +52,4 @@ layout: default
     </ul>
 </div>
 {% endraw %}
+
