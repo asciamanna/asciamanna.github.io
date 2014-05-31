@@ -81,3 +81,12 @@ hr {
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none;
 }
+
+.field {
+   font-weight: bold;
+}
+
+.nowplaying {
+   font-weight: bold;
+   color: #006b00;
+}

@@ -22,9 +22,9 @@ layout: default
                     <h3>
                         {{track.Artist}}
                     </h3>
-                    <strong>Track:</strong> {{track.Name}}<br/>
-                    <strong>Album:</strong> {{track.Album}}<br/>
-                    <strong>Last Played:</strong> {{track.LastPlayed}}
+                    <span class='field'>Track:</span> {{track.Name}}<br/>
+                    <span class='field'>Album:</span> {{track.Album}}<br/>
+                    <span class='field'>Last Played:</span><span class='{{track.nowPlayingClass}}'> {{track.LastPlayed}}</span><br/>
                 </div>
             </div>
             <div class='clear'></div>

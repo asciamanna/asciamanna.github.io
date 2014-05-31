@@ -13,6 +13,7 @@ app.controller('mainController', function($scope, $http) {
             .success(function(data) {
                 $scope.recentTracks.length = 0;
                 angular.forEach(data, function(track, index) {
+		    track.nowPlayingClass = track.LastPlayed === "Now Playing" ? "nowplaying" : "";
                     $scope.recentTracks.push(track);
                 });
                 $scope.showRecentTrakcs = true;
@@ -25,6 +26,7 @@ app.controller('mainController', function($scope, $http) {
             .error(function(error) {
             });
     };
+
 
     $scope.getTopArtists = function() {
         $http.jsonp('http://listeningto.apphb.com/api/topArtists?callback=JSON_CALLBACK')
