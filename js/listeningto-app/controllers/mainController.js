@@ -5,23 +5,23 @@ app.controller('mainController', function($scope, $http) {
     $scope.showTopArtists = false;
     $scope.hideRecentTracks = false;
     $scope.hideTopArtists = true;
-    $scope.recentTracksActive="active";
-    $scope.topArtistsActive="";
+    $scope.recentTracksActive = true;
+    $scope.topArtistsActive = false;
 
     $scope.getRecentTracks = function() {
         $http.jsonp('http://listeningto.apphb.com/api/recenttracks?callback=JSON_CALLBACK')
             .success(function(data) {
                 $scope.recentTracks.length = 0;
                 angular.forEach(data, function(track, index) {
-		    track.nowPlayingClass = track.LastPlayed === "Now Playing" ? "nowplaying" : "";
+		    track.IsNowPlaying = track.LastPlayed === 'Now Playing';
                     $scope.recentTracks.push(track);
                 });
                 $scope.showRecentTrakcs = true;
                 $scope.showTopArtists = false;
                 $scope.hideRecentTracks = false;
                 $scope.hideTopArtists = true;
-                $scope.recentTracksActive = "active";
-                $scope.topArtistsActive = "";
+                $scope.recentTracksActive = true; 
+                $scope.topArtistsActive = false;
             })
             .error(function(error) {
             });
@@ -39,8 +39,8 @@ app.controller('mainController', function($scope, $http) {
                 $scope.showTopArtists = true;
                 $scope.hideRecentTracks = true;
                 $scope.hideTopArtists = false;
-                $scope.recentTracksActive = "";
-                $scope.topArtistsActive = "active";
+                $scope.recentTracksActive = false;
+                $scope.topArtistsActive = true; 
             })
             .error(function(error) {
             });

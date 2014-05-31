@@ -88,5 +88,6 @@ hr {
 
 .nowplaying {
    font-weight: bold;
+   font-style: italic;
    color: #006b00;
 }

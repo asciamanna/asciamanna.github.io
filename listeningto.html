@@ -7,8 +7,8 @@ layout: default
 <div ng-app='ListeningToApp' ng-controller='mainController' ng-init='getRecentTracks()'>
     <div class="nav-custom"></div>
     <ul class="nav nav-pills nav-justified"> 
-        <li class="{{recentTracksActive}}" ng-click="getRecentTracks()"><a href="#">Recent Tracks</a></li>
-        <li class="{{topArtistsActive}}" ng-click="getTopArtists()"><a href="#">Top Artists</a></li>
+        <li ng-class="{active: recentTracksActive}" ng-click="getRecentTracks()"><a href="#">Recent Tracks</a></li>
+        <li ng-class="{active: topArtistsActive}" ng-click="getTopArtists()"><a href="#">Top Artists</a></li>
     </ul>
     <ul class='last-fm-list' ng-show="showRecentTracks"
         ng-hide="hideRecentTracks">
@@ -24,7 +24,7 @@ layout: default
                     </h3>
                     <span class='field'>Track:</span> {{track.Name}}<br/>
                     <span class='field'>Album:</span> {{track.Album}}<br/>
-                    <span class='field'>Last Played:</span><span class='{{track.nowPlayingClass}}'> {{track.LastPlayed}}</span><br/>
+                    <span class='field' ng-hide='track.IsNowPlaying'>Last Played:</span><span ng-class='{nowplaying: track.IsNowPlaying}'> {{track.LastPlayed}}</span><br/>
                 </div>
             </div>
             <div class='clear'></div>
