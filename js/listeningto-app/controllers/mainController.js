@@ -14,6 +14,9 @@ app.controller('mainController', function($scope, $http) {
                 $scope.recentTracks.length = 0;
                 angular.forEach(data, function(track, index) {
 		    track.IsNowPlaying = track.LastPlayed === 'Now Playing';
+		    if(!track.AlbumArtLocation) {
+			track.AlbumArtLocation = '/images/No_Cover.gif';
+		    }		
                     $scope.recentTracks.push(track);
                 });
                 $scope.showRecentTrakcs = true;
