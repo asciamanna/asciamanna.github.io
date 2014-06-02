@@ -3,8 +3,6 @@ app.controller('mainController', function($scope, $http) {
     $scope.recentTracks = [];
     $scope.showRecentTracks = true;
     $scope.showTopArtists = false;
-    $scope.hideRecentTracks = false;
-    $scope.hideTopArtists = true;
     $scope.recentTracksActive = true;
     $scope.topArtistsActive = false;
 
@@ -19,10 +17,8 @@ app.controller('mainController', function($scope, $http) {
 		    }		
                     $scope.recentTracks.push(track);
                 });
-                $scope.showRecentTrakcs = true;
+                $scope.showRecentTracks = true;
                 $scope.showTopArtists = false;
-                $scope.hideRecentTracks = false;
-                $scope.hideTopArtists = true;
                 $scope.recentTracksActive = true; 
                 $scope.topArtistsActive = false;
             })
@@ -38,10 +34,8 @@ app.controller('mainController', function($scope, $http) {
                 angular.forEach(data, function(artist, index) {
                     $scope.topArtists.push(artist);
                 });
-                $scope.showRecentTrakcs = false;
+                $scope.showRecentTracks = false;
                 $scope.showTopArtists = true;
-                $scope.hideRecentTracks = true;
-                $scope.hideTopArtists = false;
                 $scope.recentTracksActive = false;
                 $scope.topArtistsActive = true; 
             })

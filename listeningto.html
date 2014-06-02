@@ -10,8 +10,7 @@ layout: default
         <li ng-class="{active: recentTracksActive}" ng-click="getRecentTracks()"><a href="#">Recent Tracks</a></li>
         <li ng-class="{active: topArtistsActive}" ng-click="getTopArtists()"><a href="#">Top Artists</a></li>
     </ul>
-    <ul class='last-fm-list' ng-show="showRecentTracks"
-        ng-hide="hideRecentTracks">
+    <ul class='last-fm-list' ng-show="showRecentTracks">
         <li ng-repeat="track in recentTracks">
             <div class='last-fm-list-item'>
                 <div class='album-art'>
@@ -31,7 +30,7 @@ layout: default
             <hr/>
         </li>
     </ul>
-    <ul class='last-fm-list' ng-show="showTopArtists" ng-hide="hideTopArtists">
+    <ul class='last-fm-list' ng-show="showTopArtists">
         <li ng-repeat="artist in topArtists">
             <div class='last-fm-list-item'>
                 <div class='album-art'>
