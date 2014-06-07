@@ -4,7 +4,7 @@ title: Projects
 ---
 ##Projects
 <hr/>
-Here are a few projects I'm working on in my free time.
+Here are a few projects I'm working on in my free time:
 <br/>
 
 * [Listening To](/listeningto.html) - A .NET Web API app (using my

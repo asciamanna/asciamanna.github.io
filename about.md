@@ -5,13 +5,12 @@ title: About
 ##About
 <hr/>
 I'm a software developer with 14 years of experience developing a variety of
-applications. I'm currently focusing on .NET web technologies.
+applications. My current focus is .NET web technologies.
 <br/><br/>
-I currently work for [eMoney Advisor](http://www.emoneyadvisor.com) in Conshohocken, PA.
+I'm currently working for [eMoney Advisor](http://www.emoneyadvisor.com) in Conshohocken, PA.
 <br/><br/>
-I'm passionate about XP principles, test driven development (TDD), pair
-programming, and software
-design.
+I'm passionate about XP principles, Test-driven development (TDD), pair
+programming, and software design.
 <br/><br/>
 I've developed professionally in C#, JavaScript, Ruby, Java, C++, and Perl.
 
