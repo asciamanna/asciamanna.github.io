@@ -5,6 +5,7 @@ app.controller('mainController', function($scope, $http) {
     $scope.showTopArtists = false;
     $scope.recentTracksActive = true;
     $scope.topArtistsActive = false;
+    $scope.connectError = false;
 
     $scope.getRecentTracks = function() {
         $http.jsonp('http://listeningto.apphb.com/api/recenttracks?callback=JSON_CALLBACK')
@@ -21,8 +22,10 @@ app.controller('mainController', function($scope, $http) {
                 $scope.showTopArtists = false;
                 $scope.recentTracksActive = true; 
                 $scope.topArtistsActive = false;
+		$scope.connectError = false;
             })
             .error(function(error) {
+		$scope.connectError = true;
             });
     };
 
@@ -38,8 +41,10 @@ app.controller('mainController', function($scope, $http) {
                 $scope.showTopArtists = true;
                 $scope.recentTracksActive = false;
                 $scope.topArtistsActive = true; 
+		$scope.connectError = false;
             })
             .error(function(error) {
+		$scope.connectError = true;
             });
     };
 });

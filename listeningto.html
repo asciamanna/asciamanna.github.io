@@ -10,7 +10,7 @@ layout: default
         <li ng-class="{active: recentTracksActive}" ng-click="getRecentTracks()"><a href="#">Recent Tracks</a></li>
         <li ng-class="{active: topArtistsActive}" ng-click="getTopArtists()"><a href="#">Top Artists</a></li>
     </ul>
-    <ul class='last-fm-list' ng-show="showRecentTracks">
+    <ul class='last-fm-list' ng-show="showRecentTracks && !connectError">
         <li ng-repeat="track in recentTracks">
             <div class='last-fm-list-item'>
                 <div class='album-art'>
@@ -30,7 +30,7 @@ layout: default
             <hr/>
         </li>
     </ul>
-    <ul class='last-fm-list' ng-show="showTopArtists">
+    <ul class='last-fm-list' ng-show="showTopArtists && !connectError">
         <li ng-repeat="artist in topArtists">
             <div class='last-fm-list-item'>
                 <div class='album-art'>
@@ -49,6 +49,10 @@ layout: default
             <hr/>
         </li>
     </ul>
+   <div class="error" ng-show="connectError">
+	Cannot connect to the Last.fm Service to access music data.<br/>
+	Check the <a href='http://status.last.fm'>Last.fm Status Site</a> for more information.
+   </div>
 </div>
 {% endraw %}
 
