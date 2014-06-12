@@ -43,7 +43,7 @@
    border: 2px solid black;
    padding: 10px;
    width: 20%;
-   margin-top: 30px;
+   margin-top: 50px;
    margin-left: auto;
    margin-right: auto;
    border-radius: 5px;
@@ -51,4 +51,8 @@
    text-align: center;
    font-size: 20px;
    z-index: 1;
+}
+
+.app {
+  min-height: 400px; /* starting height */
 }

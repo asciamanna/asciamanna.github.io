@@ -4,7 +4,7 @@ listeningToApp: true
 layout: default
 ---
 {% raw %}
-<div ng-app='ListeningToApp' ng-controller='mainController' ng-init='getRecentTracks()'>
+<div class='app' ng-app='ListeningToApp' ng-controller='mainController' ng-init='getRecentTracks()'>
     <div class="nav-custom"></div>
     <ul class="nav nav-pills nav-justified"> 
         <li ng-class="{active: recentTracksActive}" ng-click="getRecentTracks()"><a href="#">Recent Tracks</a></li>
