@@ -53,11 +53,12 @@ from the time I first started programming. After several years of working in
 that baseline and subscribing to the idea that I would try to change the code
 so I didn't need the comment, I can honestly state that I was completely wrong.
 
-Bob Martin sums up my feelings about comments best in his book _Clean Code_.
+Bob Martin sums up my feelings about comments best in his book _Clean Code_.  
 
 > "The proper use of comments is to compensate for our failure to express
 > ourself in code."  
->&mdash; _Robert Martin, Clean Code, page 54_
+>&mdash; _Robert Martin, Clean Code, page 54_  
+
 While he admits that some comments are necessary and beneficial he goes on to
 say&hellip;
 
@@ -78,8 +79,8 @@ Comments that describe the intent of the developer are generally useful.
 > is redundant."   
 > &mdash; Dave Thomas and Andy Hunt, The Pragmatic Programmer: From Journeyman to Master, page 249
 
-Bob Martin lists the following in a section of _Clean Code_ entitled
-"Good Comments:"
+Bob Martin lists the following in a section of _Clean Code_ entitled "Good Comments:"  
+
 > Sometimes a comment goes beyond just useful information about the
 > implementation and provides the intent behind a decision.
 
