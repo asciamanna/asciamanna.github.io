@@ -49,6 +49,9 @@ layout: default
             <hr/>
         </li>
     </ul>
+   <div ng-cloak class="ng-cloak spinner" ng-show="showSpinner">
+	<i class="fa fa-spinner fa-spin loading-label"></i>Loading
+   </div>
    <div ng-cloak class="ng-cloak error" ng-show="connectError">
 	Cannot connect to the Last.fm Service to access music data.<br/>
 	Check the <a href='http://status.last.fm'>Last.fm Status Site</a> for more information.

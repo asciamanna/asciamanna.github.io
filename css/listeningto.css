@@ -33,3 +33,22 @@
     text-align: center;
     margin: 20px 0px;
 }
+
+.loading-label {
+   margin-right: 5px;
+}
+
+.spinner {
+   background: #FAFAFA;
+   border: 2px solid black;
+   padding: 10px;
+   width: 20%;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5px;
+   box-shadow: 10px 10px 5px #888888;
+   text-align: center;
+   font-size: 20px;
+   z-index: 1;
+}
