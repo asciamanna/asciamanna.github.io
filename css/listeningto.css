@@ -59,7 +59,7 @@
 .spinner.ng-hide-add {
   opacity: 1.0;
   display: block !important;
-  transition: opacity 2.5s;
+  transition: opacity 2s;
 }
 
 .spinner.ng-hide-add-active { 
