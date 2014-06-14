@@ -8,7 +8,7 @@ app.controller('mainController', function($scope, $http) {
     $scope.connectError = false;
 
     $scope.getRecentTracks = function() {
-        $scope.showSpinner = true;
+        $scope.hideSpinner = false;
         $http.jsonp('http://listeningto.apphb.com/api/recenttracks?callback=JSON_CALLBACK')
             .success(function(data) {
                 $scope.recentTracks.length = 0;
@@ -24,7 +24,7 @@ app.controller('mainController', function($scope, $http) {
                 $scope.recentTracksActive = true; 
                 $scope.topArtistsActive = false;
 		$scope.connectError = false;
-        	$scope.showSpinner = false;
+        	$scope.hideSpinner = true;
             })
             .error(function(error) {
 		$scope.connectError = true;
@@ -34,7 +34,7 @@ app.controller('mainController', function($scope, $http) {
 
 
     $scope.getTopArtists = function() {
-        $scope.showSpinner = true;
+        $scope.hideSpinner = false;
         $http.jsonp('http://listeningto.apphb.com/api/topArtists?callback=JSON_CALLBACK')
             .success(function(data) {
                 $scope.topArtists.length = 0;
@@ -50,7 +50,7 @@ app.controller('mainController', function($scope, $http) {
             })
             .error(function(error) {
 		$scope.connectError = true;
-		$scope.showSpinner = false;
+		$scope.hideSpinner = true;
             });
     };
 });
