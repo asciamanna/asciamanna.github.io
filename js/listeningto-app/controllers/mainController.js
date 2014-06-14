@@ -6,6 +6,7 @@ app.controller('mainController', function($scope, $http) {
     $scope.recentTracksActive = true;
     $scope.topArtistsActive = false;
     $scope.connectError = false;
+    $scope.hideSpinner = true;
 
     $scope.getRecentTracks = function() {
         $scope.hideSpinner = false;
@@ -28,7 +29,7 @@ app.controller('mainController', function($scope, $http) {
             })
             .error(function(error) {
 		$scope.connectError = true;
-        	$scope.showSpinner = false;
+        	$scope.hideSpinner = true;
             });
     };
 
@@ -46,7 +47,7 @@ app.controller('mainController', function($scope, $http) {
                 $scope.recentTracksActive = false;
                 $scope.topArtistsActive = true; 
 		$scope.connectError = false;
-                $scope.showSpinner = false;
+                $scope.hideSpinner = true;
             })
             .error(function(error) {
 		$scope.connectError = true;
