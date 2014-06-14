@@ -38,6 +38,20 @@
    margin-right: 5px;
 }
 
+[ng\:cloak], [ng-cloak], .ng-cloak {
+   display: none !important;
+}
+
+.field {
+   font-weight: bold;
+}
+
+.nowplaying {
+   font-weight: bold;
+   font-style: italic;
+   color: #006b00;
+}
+
 .spinner {
    background: #FAFAFA;
    border: 2px solid black;

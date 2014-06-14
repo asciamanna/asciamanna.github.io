@@ -77,17 +77,3 @@ hr {
     padding-bottom: 20px;
     max-width: 70%;
 }
-
-[ng\:cloak], [ng-cloak], .ng-cloak {
-    display: none;
-}
-
-.field {
-   font-weight: bold;
-}
-
-.nowplaying {
-   font-weight: bold;
-   font-style: italic;
-   color: #006b00;
-}
