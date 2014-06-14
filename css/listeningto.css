@@ -66,15 +66,22 @@
   opacity: 0;
 }
 
-/* smartphones (portrait) ----------- */
-@media only screen and (device-width: 320px) and (orientation: portrait) {
+/* iPhone 5 portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
    .spinner {
-	left: 30%;
-   }	
+      left: 30%;
+   }
 }
 
-/* smartphones (landscape) ----------- */
-@media only screen and (device-width: 480px) and (orientation: landscape) {
+/* iPhone 5 - landscape  */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
    .spinner {
       left: 40%;
+   }
 }
