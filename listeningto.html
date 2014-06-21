@@ -4,11 +4,11 @@ listeningToApp: true
 layout: default
 ---
 {% raw %}
-<div class='app' ng-app='ListeningToApp' ng-controller='mainController' ng-init='getRecentTracks()'>
+<div class='app' ng-app='ListeningToApp' ng-controller='MainController' ng-init='getRecentTracks()'>
     <div class="nav-custom"></div>
     <ul class="nav nav-pills nav-justified"> 
-        <li ng-class="{active: recentTracksActive}" ng-click="getRecentTracks()"><a href="#">Recent Tracks</a></li>
-        <li ng-class="{active: topArtistsActive}" ng-click="getTopArtists()"><a href="#">Top Artists</a></li>
+        <li ng-class="{active: showRecentTracks}" ng-click="getRecentTracks()"><a href="#">Recent Tracks</a></li>
+        <li ng-class="{active: !showRecentTracks}" ng-click="getTopArtists()"><a href="#">Top Artists</a></li>
     </ul>
     <ul class='last-fm-list' ng-show="showRecentTracks && !connectError">
         <li ng-repeat="track in recentTracks">
@@ -30,7 +30,7 @@ layout: default
             <hr/>
         </li>
     </ul>
-    <ul class='last-fm-list' ng-show="showTopArtists && !connectError">
+    <ul class='last-fm-list' ng-show="!showRecentTracks && !connectError">
         <li ng-repeat="artist in topArtists">
             <div class='last-fm-list-item'>
                 <div class='album-art'>

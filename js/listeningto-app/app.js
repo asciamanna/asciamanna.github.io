@@ -1,12 +1,9 @@
 var app = angular.module('ListeningToApp', ['ngAnimate']);
 
-function mainController($scope, $http) {
+function MainController($scope, $http) {
     $scope.topArtists = [];
     $scope.recentTracks = [];
     $scope.showRecentTracks = true;
-    $scope.showTopArtists = false;
-    $scope.recentTracksActive = true;
-    $scope.topArtistsActive = false;
     $scope.connectError = false;
     $scope.hideSpinner = true;
 
@@ -23,9 +20,6 @@ function mainController($scope, $http) {
                     $scope.recentTracks.push(track);
                 });
                 $scope.showRecentTracks = true;
-                $scope.showTopArtists = false;
-                $scope.recentTracksActive = true;
-                $scope.topArtistsActive = false;
                 $scope.connectError = false;
                 $scope.hideSpinner = true;
              })
@@ -44,9 +38,6 @@ function mainController($scope, $http) {
                  $scope.topArtists.push(artist);
               });
               $scope.showRecentTracks = false;
-              $scope.showTopArtists = true;
-              $scope.recentTracksActive = false;
-              $scope.topArtistsActive = true;
               $scope.connectError = false;
               $scope.hideSpinner = true;
             })
