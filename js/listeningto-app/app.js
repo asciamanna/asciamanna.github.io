@@ -3,47 +3,49 @@ var app = angular.module('ListeningToApp', ['ngAnimate']);
 function MainController($scope, $http) {
     $scope.topArtists = [];
     $scope.recentTracks = [];
-    $scope.showRecentTracks = true;
-    $scope.connectError = false;
-    $scope.hideSpinner = true;
+    $scope.displayData = {
+       showRecentTracks: true,
+       connectError: false,
+       hideSpinner: true
+    };
 
-    $scope.getRecentTracks = function() {
-        $scope.hideSpinner = false;
+    $scope.getRecentTracks = function(recentTracks, displayData) {
+        displayData.hideSpinner = false;
         $http.jsonp('http://listeningto.apphb.com/api/recenttracks?callback=JSON_CALLBACK')
             .success(function(data) {
-                $scope.recentTracks.length = 0;
+                recentTracks.length = 0;
                 angular.forEach(data, function(track, index) {
                     track.IsNowPlaying = track.LastPlayed === 'Now Playing';
                     if(!track.AlbumArtLocation) {
                         track.AlbumArtLocation = '/images/No_Cover.gif';
                     }
-                    $scope.recentTracks.push(track);
+                    recentTracks.push(track);
                 });
-                $scope.showRecentTracks = true;
-                $scope.connectError = false;
-                $scope.hideSpinner = true;
+                displayData.showRecentTracks = true;
+                displayData.connectError = false;
+                displayData.hideSpinner = true;
              })
              .error(function(error) {
-                $scope.connectError = true;
-                $scope.hideSpinner = true;
+                displayData.connectError = true;
+                displayData.hideSpinner = true;
              });
     };   
 
-    $scope.getTopArtists = function() {
-       $scope.hideSpinner = false;
+    $scope.getTopArtists = function(topArtists, displayData) {
+       displayData.hideSpinner = false;
        $http.jsonp('http://listeningto.apphb.com/api/topArtists?callback=JSON_CALLBACK')
            .success(function(data) {
-              $scope.topArtists.length = 0;
+              topArtists.length = 0;
               angular.forEach(data, function(artist, index) {
-                 $scope.topArtists.push(artist);
+                 topArtists.push(artist);
               });
-              $scope.showRecentTracks = false;
-              $scope.connectError = false;
-              $scope.hideSpinner = true;
+              displayData.showRecentTracks = false;
+              displayData.connectError = false;
+              displayData.hideSpinner = true;
             })
             .error(function(error) {
-               $scope.connectError = true;
-                $scope.hideSpinner = true;
+               dispayData.connectError = true;
+               displayData.hideSpinner = true;
             });
     };
 }

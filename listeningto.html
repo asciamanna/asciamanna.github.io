@@ -4,13 +4,13 @@ listeningToApp: true
 layout: default
 ---
 {% raw %}
-<div class='app' ng-app='ListeningToApp' ng-controller='MainController' ng-init='getRecentTracks()'>
+<div class='app' ng-app='ListeningToApp' ng-controller='MainController' ng-init='getRecentTracks(recentTracks, displayData)'>
     <div class="nav-custom"></div>
     <ul class="nav nav-pills nav-justified"> 
-        <li ng-class="{active: showRecentTracks}" ng-click="getRecentTracks()"><a href="#">Recent Tracks</a></li>
-        <li ng-class="{active: !showRecentTracks}" ng-click="getTopArtists()"><a href="#">Top Artists</a></li>
+        <li ng-class="{active: displayData.showRecentTracks}" ng-click="getRecentTracks(recentTracks, displayData)"><a href="#">Recent Tracks</a></li>
+        <li ng-class="{active: !displayData.showRecentTracks}" ng-click="getTopArtists(topArtists, displayData)"><a href="#">Top Artists</a></li>
     </ul>
-    <ul class='last-fm-list' ng-show="showRecentTracks && !connectError">
+    <ul class='last-fm-list' ng-show="displayData.showRecentTracks && !displayData.connectError">
         <li ng-repeat="track in recentTracks">
             <div class='last-fm-list-item'>
                 <div class='album-art'>
@@ -30,7 +30,7 @@ layout: default
             <hr/>
         </li>
     </ul>
-    <ul class='last-fm-list' ng-show="!showRecentTracks && !connectError">
+    <ul class='last-fm-list' ng-show="!displayData.showRecentTracks && !displayData.connectError">
         <li ng-repeat="artist in topArtists">
             <div class='last-fm-list-item'>
                 <div class='album-art'>
@@ -49,10 +49,10 @@ layout: default
             <hr/>
         </li>
     </ul>
-   <div ng-cloak class="ng-cloak spinner" ng-hide="hideSpinner">
+   <div ng-cloak class="ng-cloak spinner" ng-hide="displayData.hideSpinner">
 	<i class="fa fa-spinner fa-spin loading-label"></i>Loading
    </div>
-   <div ng-cloak class="ng-cloak error" ng-show="connectError">
+   <div ng-cloak class="ng-cloak error" ng-show="displayData.connectError">
 	Cannot connect to the Last.fm Service to access music data.<br/>
 	Check the <a href='http://status.last.fm'>Last.fm Status Site</a> for more information.
    </div>
