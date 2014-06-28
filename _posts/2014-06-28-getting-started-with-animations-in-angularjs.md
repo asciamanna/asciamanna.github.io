@@ -67,7 +67,7 @@ The example listed above would look like this as a keyframe animation:
 {% gist asciamanna/5451e28122e48cd44591 %}
 
 ###JavaScript Callback Animations
-If the transition based or keyframe animations don't work for you, you can use JavaScript animations. I'm not going to discuss them here, but you can read about them in detail on the excellent blog post by [yearofmoo](http://www.yearofmoo.com/2013/08/remastered-animation-in-angularjs-1-2.html).
+If the transition based or keyframe animations don't work for you, you can use JavaScript animations. I'm not going to discuss them here, but you can read about them in detail in the excellent blog post by [yearofmoo](http://www.yearofmoo.com/2013/08/remastered-animation-in-angularjs-1-2.html).
 
 ###Custom Directive Animations
 Animations for custom directives are possible using the $animate service, which replaces the $animator service in pre-1.2 versions of AngularJS. That could be the subject of its own blog post. However, if you'd like to explore custom directive animations further you can take a look at the [AngularJS $animate reference](https://docs.angularjs.org/api/ngAnimate/service/$animate).
