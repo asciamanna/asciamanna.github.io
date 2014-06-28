@@ -19,7 +19,7 @@ There are only a few simple steps before you are ready to start using the new an
     {% gist asciamanna/f499cf5da34af273ea3a %}  
 3. Ensure that the element that you want to animate has a class associated with it.  
 
-That's it! We're ready to animate! But...before we start animating let's take a quick look at the ways AngularJS lets you animate elements.
+That's it! We're ready to animate! But before we start animating let's take a quick look at the ways AngularJS lets you animate elements.
 
 ##Types of Animations
 There are three types of animations that AngularJS provides support for. CSS Transition based animations, CSS Keyframe animations, and JavaScript callback animations. It also supports defining animations for custom directives. We will look at the first two types of animations in more detail to get you started. 
