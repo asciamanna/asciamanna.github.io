@@ -15,7 +15,7 @@ additional information.
 There are only a few simple steps before you are ready to start using the new animations API.  
 1. Include the angular animate JavaScript library in your HTML.
     {% gist asciamanna/0bc460d7fe4d46876e22 %}  
-2. Load the ngAnimate module into your Angular application by adding it as a dependent module.     
+2. Load the ngAnimate module into your Angular application by adding it as a dependent module.       
     {% gist asciamanna/f499cf5da34af273ea3a %}  
 3. Ensure that the element that you want to animate has a class associated with it.  
 
@@ -85,8 +85,8 @@ Now using the same example let's implement it using Keyframe animations instead 
 
 <a href="http://embed.plnkr.co/rZu3gagbi22FI42gICHU/preview" target="_blank">View example in Plunker.</a>
 
-##Third-Party Library Example
-Including third party animation libraries is quite simple. Take a look at the same example, one more time, but using
+###Third-Party Library Example
+Including third-party animation libraries is quite simple. Take a look at the same example, one more time, but using
 the **fadeOut** animation provided by the [animate.css](http://daneden.github.io/animate.css/) library. Integrating animate.css is quite easy because it uses keyframe animations. So, simply remove your keyframe animation definition from the previous example, add a link to animate.css in the head of your HTML, and reference the animate **fadeOut** animation in your CSS.  It's that simple.
 
 <a href="http://embed.plnkr.co/jNQrFW8LY2FuOI0ffLYj/preview" target="_blank">View example in Plunker.</a>
