@@ -57,6 +57,7 @@
    border: 2px solid black;
    padding: 5px 20px;
    left: 50%;
+   margin-left: -65px;
    top: 90px;
    position: absolute;
    border-radius: 5px;
@@ -78,24 +79,4 @@
 
 .spinner.ng-hide-add-active { 
   opacity: 0;
-}
-
-/* iPhone 5 portrait */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) {
-   .spinner {
-      left: 30%;
-   }
-}
-
-/* iPhone 5 - landscape  */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : landscape) {
-   .spinner {
-      left: 40%;
-   }
 }
