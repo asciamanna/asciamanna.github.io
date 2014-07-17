@@ -4,7 +4,7 @@ title: About
 ---
 ##About
 <hr/>
-I'm a software developer with 14 years of experience developing a variety of
+I'm a software developer with {{site.time | date: "%Y" | minus:2000}}  years of experience developing a variety of
 applications. My current focus is .NET web technologies and JavaScript.
 <br/><br/>
 I'm currently working for [eMoney Advisor](http://www.emoneyadvisor.com) in Conshohocken, PA.
