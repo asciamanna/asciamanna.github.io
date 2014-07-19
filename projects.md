@@ -17,6 +17,8 @@ to and my top 25 artists.
 the Last.fm REST API. 
 <a href='https://ci.appveyor.com/project/asciamanna/lastfmclient'><img src='https://ci.appveyor.com/api/projects/status/e703ayk1nydyngqm' /></a>
 
+* [iTunes Library Parser](https://www.github.com/asciamanna/iTunesLibraryParser) - A C# LINQ-To-XML implementation. Parses an iTunes Library file into a collection of track objects. <a href='https://ci.appveyor.com/project/asciamanna/ituneslibraryparser'><img src='https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq' /></a>
+
 * [Music Collection](http://musiccollection.apphb.com) - A .NET MVC4 / Bootstrap app to manage my music collection.  
 
  If you'd like to see some other things I'm working on you
