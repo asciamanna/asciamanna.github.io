@@ -5,7 +5,7 @@ comments: true
 category: Software Craftsmanship
 tags: [Unit Testing, Mock Objects]
 ---
-Mock objects are a fantastic tool for writing unit tests. However, more often I am seeing developers taking a hard stand about the usefulness of mock objects. It seems you either need to be for or against them. Instead of arguing the extremes we should be looking at the tradeoffs you make when using a mock object. Once there is a good understanding of the tradeoffs, we can decide on a case-by-case basis when and where to use mocks.  
+Mock objects are a fantastic tool for writing unit tests, but their overuse can lead to poorly designed code and brittle tests. More often I am seeing developers taking a hard stand about the usefulness of mock objects. It seems you either need to be for or against them. Instead of arguing the extremes we should be looking at the tradeoffs you make when using a mock object. Once there is a good understanding of the tradeoffs, we can decide on a case-by-case basis when and where to use mocks.  
 <!--more-->  
 
 ##Terminology  
@@ -70,6 +70,9 @@ I can't remember where I first saw this strategy, so I apologize for the lack of
 This strategy encourages you not to build objects that both collaborate **AND** do work.   
 Build collaborator objects that are strictly responsible for having multiple objects exchange information. Think of a controller object if that helps.  Then build worker objects to actually do the work. 
 Worker object tests don't use mocks and instead assert that the work being done is correct using XUnit-style assertions. Collaborator object tests use mocks and test expectations.
+
+###No Mocks
+There are several strategies to not use mocks at all. These strategies use XUnit-style tests for all the code that does not interact with external resources. They choose to test the code that interacts with external dependencies in end-to-end or integration level tests which require the system (or some reasonable facsimile of the system) to be stood up for testing.  This is a great strategy for avoiding the drawbacks of mock objects. While I think 
 
 ##Experience
 As the old adage goes, experience is the best teacher. If you use mocks all the time try not to use them in every test. If you don't use mocks try using them in places you can see they may be a benefit. I started out not using mocks when I first started unit testing. I then joined a team that mocked all object dependencies. And only once I did that did I understand the issues associated with over-mocking.  
