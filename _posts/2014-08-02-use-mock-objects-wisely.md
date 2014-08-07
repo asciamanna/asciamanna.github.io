@@ -5,7 +5,7 @@ comments: true
 category: Software Craftsmanship
 tags: [Unit Testing, Mock Objects]
 ---
-Mock objects are a fantastic tool for writing unit tests, but their overuse can lead to poorly designed code and brittle tests. More often I am seeing developers taking a hard stand about the usefulness of mock objects. It seems you either need to be for or against them. Instead of arguing the extremes we should be looking at the tradeoffs you make when using a mock object. Once there is a good understanding of the tradeoffs, we can decide on a case-by-case basis when and where to use mocks.  
+Mock objects are a great  tool for writing unit tests, but their overuse can lead to poorly designed code and brittle tests. More often I am seeing developers taking a hard stand about the usefulness of mock objects. It seems you either need to be for or against them. Instead of arguing the extremes we should be looking at the tradeoffs you make when using a mock object. Once there is a good understanding of the tradeoffs, we can decide on a case-by-case basis when and where to use mocks.  
 <!--more-->  
 
 ##Terminology  
@@ -16,9 +16,9 @@ If you write tests and this terminology is new to you please read Martin Fowler'
 ##Inspiration  
 I was motivated to write this post because I increasingly hear developers take a hard stand on one side or the other about a development topic, refusing to increase the level of discourse so we can actually discuss the benefits, the drawbacks, and the appropriate use of a practice. It may just be part of human nature to want to oversimplify things or to continue working with familiar tools, techniques, and practices. But the reality is that every development practice is subject to tradeoffs, and we should be discussing them. 
 
-An example of this is the "TDD is Dead" argument from earlier this year. The initial argument was that "TDD is bad, it forces you to make bad design decisions." The resulting Google hangouts with Kent Beck and Martin Fowler did a lot of good to help raise that level of discourse about TDD. But sadly, there are many developers who only read the early blog posts and will adopt the "TDD is evil" mantra without ever having practiced TDD, thus never really understanding its benefits.
+An example of this is the "TDD is Dead" argument from earlier this year. The initial argument that was laid out in several blog posts was that "TDD is bad, it forces you to make bad design decisions." The resulting Google hangouts with Kent Beck and Martin Fowler did a lot of good to help raise that level of discourse about TDD. But sadly, there are many developers who only read the early blog posts and will adopt the "TDD is evil" mantra without ever having practiced TDD, thus never really understanding its benefits.
 
-I've noticed the same types of arguments when it comes to testing with mock objects. I see developers saying they hate mocks or they love mocks. Instead of a good-vs-evil argument, we should discuss why and when you should use mocks as well as the actual tradeoffs that you make when choosing to use a mock object. 
+I've noticed the same types of arguments when it comes to testing with mock objects. I see developers saying they hate mocks or they love mocks. Instead of a good-vs-evil argument, we should discuss the tradeoffs you make when deciding to use a mock object and based on that information we can decide why and when you might want to use a mock.
 
 It is no surprise that we ended up here. In fact the TDD community has been splintered on this issue since nearly the beginning. For as long as I have been practicing TDD I recall two camps:   
 
@@ -72,7 +72,10 @@ Build collaborator objects that are strictly responsible for having multiple obj
 Worker object tests don't use mocks and instead assert that the work being done is correct using XUnit-style assertions. Collaborator object tests use mocks and test expectations.
 
 ###No Mocks
-There are several strategies to not use mocks at all. These strategies use XUnit-style tests for all the code that does not interact with external resources. They choose to test the code that interacts with external dependencies in end-to-end or integration level tests which require the system (or some reasonable facsimile of the system) to be stood up for testing.  This is a great strategy for avoiding the drawbacks of mock objects. While I think 
+I would be remiss if I didn't mention that there are several successful strategies that avoid the use of mocks entirely.  [Arlo Belshee](http://www.arlobelshee.com) is one developer who comes to mind who has written about these strategies in the past.  
+One strategy uses XUnit-style tests for all the code that does not interact with external resources. Integration and end-to-end tests are created for the code that interacts with external dependencies. These tests require the system (or some reasonable facsimile of the system) to be stood up for testing.   
+Another strategy again uses XUnit-style tests for the code that does not interact with external resources. The code is designed such that any code that interacts with external resources is trivial so that the interaction is not tested in an automated test suite.  
+These are great strategies for avoiding the drawbacks of mock objects. While I think these are valid testing strategies it does not mean that there aren't equally valid strategies utilizing mock objects. 
 
 ##Experience
 As the old adage goes, experience is the best teacher. If you use mocks all the time try not to use them in every test. If you don't use mocks try using them in places you can see they may be a benefit. I started out not using mocks when I first started unit testing. I then joined a team that mocked all object dependencies. And only once I did that did I understand the issues associated with over-mocking.  
