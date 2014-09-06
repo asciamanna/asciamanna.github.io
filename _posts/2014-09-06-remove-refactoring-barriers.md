@@ -32,7 +32,7 @@ There is still an active debate over trunk based development versus feature bran
 Feature branches delay integration with other changes to the codebase. The longer this period of time the larger the integration is because other developers are presumably integrating their code into the mainline during that time period.  So, there is a very real reluctance of developers to change more than they "need to" for the feature they are working on for fear of a harder merge back into the mainline. It's easy to say *"well that's a developer's job they shouldn't shy away from those refactorings"* but that isn't reality. I've seen it countless times and have been in these situations myself.  When pressure is on and deadlines are looming (which they always are) a developer will try to avoid a large, risky merge at the end of their project. 
 
 ###Ways To Mitigate Feature Branch Risk
-Like any practice I'm not 100% against feature branch development. Some teams try to mitigate the risks of feature branches.
+Like most practices I'm not 100% against feature branch development. Some teams try to mitigate the risks of feature branches.
 
 One approach is to constantly pull trunk into the feature branch. This isn't a bad idea but I've not seen this work well in practice. It is a manual process, since a developer needs to be involved to resolve any potential conflicts. And it is something that developers tend to delay because they don't want to get sidetracked while developing features.
 
