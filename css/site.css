@@ -98,3 +98,7 @@ hr {
 .github-logo:hover, .github-logo:focus, .github-logo:active {
    color: #4183c4 !important;
 }
+
+.jekyll_pagination {
+   padding-bottom: 10px;
+}
