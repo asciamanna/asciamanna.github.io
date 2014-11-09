@@ -83,7 +83,7 @@ hr {
    border: 2px solid black;
 }
 
-.twitter-logo:hover {
+.twitter-logo:hover, .twitter-logo:focus, .twitter-logo:active {
    color: #55acee !important;
 }
 
