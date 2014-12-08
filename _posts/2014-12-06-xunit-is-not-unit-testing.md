@@ -52,6 +52,7 @@ As Bob Martin, Martin Fowler, and plenty of other proponents of TDD have previou
 * High cohesion
 * [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle "SRP")
 * [Law of Demeter / Principle of Least Knowledge](http://en.wikipedia.org/wiki/Law_of_Demeter "Law Of Demeter")
+* [Liskov Substitution Principle](http://en.wikipedia.org/wiki/Liskov_substitution_principle "Liskov Substitution Principle")
 * Small classes
 * Small methods
 * Small number of parameters on methods
