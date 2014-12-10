@@ -57,7 +57,7 @@ As Bob Martin, Martin Fowler, and plenty of other proponents of TDD have previou
 * Small methods
 * Small number of parameters on methods
 * Small number of class dependencies / collaborators
-* Limiting usage of static classes and static public methods
+* Limiting usage of static classes and public static methods
 * Reduce class constructors to strictly object construction (no business logic)
 
 All of these good OOD principles help you craft code that is testable and maintainable. Trying to get code under test that violates good OOD principles results in large, brittle, integration tests.
