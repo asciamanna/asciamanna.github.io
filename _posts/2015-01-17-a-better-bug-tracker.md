@@ -4,7 +4,7 @@ title: A Better Bug Tracker
 comments: true
 category: Development Practices
 ---
-It is surprising to me how many development organizations don't view bug tracking software as an indicator that there is a problem with their development practices. I am a firm believer that the need for a bug tracking system is problematic. It should be an eye-opener. It should be the topic of team retrospectives, and teams should strive to iterate over their codebase and their practices until there is no need for a bug tracking system. Given the current state of your organization, you may need a bug tracker. But working towards getting rid of it will pay huge dividends for the quality of your codebase, development practices, and the product you are building.  
+It is surprising to me how many development organizations don't view bug tracking software as an indicator that there is a problem with their development practices. I am a firm believer that the need for a bug tracking system is problematic. It should be an eye-opener. It should be the topic of team retrospectives, and teams should strive to iterate over their codebase and their practices until there is no need for a bug tracking system. Given the current state of your organization, you may not be able to stop using a bug tracker until you reduce your backlog. But working towards getting rid of it will pay huge dividends for the quality of your codebase, development practices, and the product you are building.  
 <!--more-->  
 Unfortunately the reality for a lot of organizations is that they continue to look for "better bug trackers" or "better feature trackers." Maybe they even decide that the myriad of products on the market don't meet their needs. So they decide to build their own in-house solution instead (gasp!).  
 
@@ -12,7 +12,7 @@ Unfortunately the reality for a lot of organizations is that they continue to lo
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ##No Bugs
-This is hardly new advice. I've heard [Uncle Bob Martin](https://twitter.com/unclebobmartin "Uncle Bob's Twitter") discuss this several times when I've had the pleasure to see him talk. It is also one of the tenets of eXtreme Programming: **No Bugs**. Details about the XP practices that support **No Bugs** can be found in [James Shore](http://www.jamesshore.com/ "James Shore's website")'s book, [*The Art of Agile Development*](http://www.jamesshore.com/Agile-Book/ "Website for The Art of Agile Development"). In fact that book will provide significantly more detail than I will describe here. I highly recommend reading it. The recommendations I'm making are really restating his suggestions from his book since my team worked closely with James to improve our development practices. 
+This is hardly new advice. I've heard [Uncle Bob Martin](https://twitter.com/unclebobmartin "Uncle Bob's Twitter") discuss this several times when I've had the pleasure to see him talk. It is also one of the tenets of eXtreme Programming: **No Bugs**. Details about the XP practices that support **No Bugs** can be found in [James Shore](http://www.jamesshore.com/ "James Shore's website")'s book, [*The Art of Agile Development*](http://www.jamesshore.com/Agile-Book/ "Website for The Art of Agile Development"). In fact that book will provide significantly more detail than I will describe here. I highly recommend reading it. The recommendations I'm making are really restating suggestions from his book since my team worked closely with James to improve our development practices. 
 
 
 ##Practices
