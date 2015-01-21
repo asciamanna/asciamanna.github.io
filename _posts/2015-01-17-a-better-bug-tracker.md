@@ -32,7 +32,7 @@ Our team practiced Test-Driven Development (TDD) so we had a very thorough unit 
 
 I am a big proponent of TDD and I highly recommend seriously dedicating time to getting good at it if you haven't practiced it before. It is a practice that will change the way you write code for the better. I have yet to meet a developer who has done it for any considerable amount of time and decided that they didn't like it. That post is for another day, so regardless of whether your team writes unit tests before or after the functionality you absolutely need to be writing them.  
 
-Unit tests should also be written for every bug that is found. A bug should not be fixed unless there is a failing test that exposes the bug. This will give your team the confidence that you will never have to fix the same bug twice.  
+Unit tests should also be written for every bug that is found. A bug should not be fixed until there is a failing test that exposes the bug. This will give your team the confidence that you will never have to fix the same bug twice.  
 
 ###Don't Accept Bugs
 When bugs do occur (and they will) talk about why they occurred and reflect on this often. Hopefully your team is already doing regular retrospectives so you have a medium to discuss these things. Most likely these bugs will point to a breakdown in the process or a development practice. Address those things and find root causes. Use that knowledge to change your processes and practices in ways to make creating certain bugs impossible for the development team.
