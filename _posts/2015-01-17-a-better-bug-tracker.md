@@ -2,7 +2,7 @@
 layout: post
 title: A Better Bug Tracker
 comments: true
-category: Development Practices
+category: Development Tools
 ---
 It is surprising to me how many development organizations don't view bug tracking software as an indicator that there is a problem with their development practices. I am a firm believer that the need for a bug tracking system is problematic. It should be an eye-opener. It should be the topic of team retrospectives, and teams should strive to iterate over their codebase and their practices until there is no need for a bug tracking system. Given the current state of your organization, you may not be able to stop using a bug tracker until you reduce your backlog. But working towards getting rid of it will pay huge dividends for the quality of your codebase, development practices, and the product you are building.  
 <!--more-->  
