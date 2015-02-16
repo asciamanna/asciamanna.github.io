@@ -15,6 +15,12 @@
     border-radius: 10px;
 }
 
+.last-fm-text {
+    padding-bottom: 10px;
+    font-style: italic; 
+    font-weight: bold;
+}
+
 .artist-name {
    margin-top: 10px;
 }
