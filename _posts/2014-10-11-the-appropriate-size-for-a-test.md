@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Appropriate Size For A Test
+title: The Appropriate Size for a Test
 comments: true
 category: Software Craftsmanship
 ---

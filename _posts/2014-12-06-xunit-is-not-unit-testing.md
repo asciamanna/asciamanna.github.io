@@ -1,6 +1,6 @@
 ---
 layout: post
-title: xUnit Is Not Unit Testing
+title: xUnit is not Unit Testing
 comments: true
 category: Software Craftsmanship
 ---

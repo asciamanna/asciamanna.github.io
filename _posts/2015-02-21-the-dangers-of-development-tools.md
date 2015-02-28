@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Dangers Of Development Tools
+title: The Dangers of Development Tools
 comments: true
 category: Development Tools
 ---
