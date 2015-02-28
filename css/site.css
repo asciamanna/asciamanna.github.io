@@ -55,10 +55,6 @@ hr {
     text-decoration:underline;
 } 
 
-.twitter-timeline {
-    margin-top: 15px;
-}
-
 .date-section {
     margin-top: 15px;
 }
@@ -104,5 +100,6 @@ hr {
 }
 
 .tweets {
+   margin-top: 15px;
    padding-bottom: 8px;
 }
