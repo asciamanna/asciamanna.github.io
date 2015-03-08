@@ -4,7 +4,7 @@ title: Creating a Great Development Culture - Continuous Learning & Lack of Crun
 comments: true
 category: Development Practices
 ---
-In my previous post I described that great development cultures emphasize code quality and have a shared set of values and development practices. In this post I will describe the other qualities great development teams have, **a culture of continuous learning** and a **lack of crunch mode or overtime**.
+In my previous post I described that great development cultures emphasize code quality and have a shared set of values and development practices. In this post, the second part of the series on creating a great development culture, I will describe the other qualities great development teams have, **a culture of continuous learning** and a **lack of crunch mode or overtime**.
 
 <!--more-->
 
@@ -14,8 +14,8 @@ Several of the practices described in the previous post are concerned with learn
 ###Lunch and Learn
 Teams should regularly get together to learn as a group. Whether it be team refactoring sessions, code katas, or watching a video of a talk or presentation. Encouraging teams to constantly get better and bring new information into the organization is critical. It is all too easy to get mired in the day-to-day work and stop improving your craft.
 
-###Bring in Thought Leaders
-The development community has plenty of thought leaders and many travel to speak at conferences. Get in touch with those who may be in your area or are visiting your area and bring them in to your office. I've found all of my heroes to be accessible and willing to share their expertise.
+###Bring in Experts 
+The development community has plenty of experts and thought leaders. Get in touch with those who may live in your area or are visiting and bring them in to your office to talk. I've found all of my heroes to be accessible and willing to share their expertise.
 
 ###Get Out of Your Codebase
 If you are working in a legacy codebase (one that is not unit tested or at least not well unit tested) it is important to get out of it for learning opportunities. Legacy codebases tend to be hard to make better without the required skills and time. Try out new techniques in well-factored codebases or smaller side projects before bringing them into your codebase if there are some refactoring hurdles you need to get past. 
@@ -38,11 +38,11 @@ Great development organizations avoid crunch mode and overtime. [Chad Fowler](ht
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ###Estimates?
-If you operate in an environment that requires estimates I would start by ensuring the the development team doing the work is providing the estimates. If a manager, or CEO, or someone else in the organization is coming up with arbitrary dates you are killing team morale and the negative affects on the codebase will be far reaching and cost your organization long term stability and speed. The worst possible environment to build software in is one where the team is racing to meet an unreasonable deadline that management has created while writing terrible code and believing they are doing the right thing as long as they hit the date. In fact, rewarding that ensures that it will continue to happen.
+If you operate in an environment that requires estimates I would start by ensuring the the development team doing the work is providing the estimates. If a manager, or CEO, or someone else in the organization is coming up with arbitrary dates you are killing team morale and the negative affects on the codebase will be far reaching and cost your organization long term stability and speed. The worst possible environment to build software in is one where the team is racing to meet an unreasonable deadline that management has created while writing terrible code and believing they are doing the right thing as long as they hit the date. In fact, rewarding that behavior ensures that it will continue to happen.
 
 [Esther Derby](http://www.estherderby.com/ "Esther Derby's website") has a fabulous post about the [usefulness of estimating but lack of usesfulness of the actual estimates](http://www.estherderby.com/2012/03/estimating-is-often-helpful-estimates-are-often-not.html). I highly recommend you read it. Remember that estimates are just that, estimates. Too often organizations treat them as the deadlines. Estimates, by their nature are inaccurate. Too many organizations get caught up in a  ridiculous cycle where teams spend time trying to "get better at estimating" instead of getting better at building great software. If you find yourself in this predicament the problem is not the team's ability to estimate but what the organization is doing with those estimates. So, focus some attention there instead.
 
-If there is a legitimate date that needs to be hit be flexible about what functionality is included. Rememeber **_you cannot fix both time and scope_**. While I've had more than one argument with project managers about this in my career it is an absolute truth. Trying to do so is costing your organization. I would argue that a vast majority of deadlines are arbitrary. There is some great work being done in the **No Estimates** community and I recommend you read about it and challenge your organization on how they estimate. Thought workers are not producing their best work when pressured to meet unreasonable deadlines. 
+If there is a legitimate date that needs to be hit be flexible about what functionality is included. Rememeber **_you cannot fix both time and scope_**. While I've had more than one argument with project managers about this in my career it is an absolute truth. Trying to do so is costing your organization. I would argue that a vast majority of deadlines are arbitrary. There is some great work being done in the **No Estimates** community and I recommend you read about it and challenge your organization on how they estimate. Thought workers do not produce their best work when pressured to meet unreasonable deadlines. 
 
 ##Conclusion
-Bring some of the practices and ideas I've described in these two posts back to your development organization and give them a try. Regardless of your domain, product, level of experience, etc. I guarantee that these suggestions will improve your team and your product.
+Take some of the practices and ideas I've described in these last two posts to your development organization and give them a try. Regardless of your domain, product, level of experience, team, etc. I guarantee that these suggestions will improve your team and your product.
