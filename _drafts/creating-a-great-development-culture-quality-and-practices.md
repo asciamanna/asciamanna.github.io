@@ -8,7 +8,7 @@ Over the years I've worked on some amazing development teams. Unfortunately, I'v
 
 This is one of my lengthier posts so I'll just be scratching the surface of some of these topics. I plan on going much deeper on several of these topics in future posts. When those posts are complete they will be linked from here. 
 
-The qualities that I've found on all of the best development organizations I've grouped into three main categories. And of course, they are interrelated. The first is a **focus on code quality and development practices**. I wanted to separate these but they are inextricably linked. The second is a **culture of continuous learning**. And lastly, a **lack of crunch mode or overtime**. 
+The qualities that I've found common to the best development organizations I've grouped into three main categories. And of course, they are interrelated. The first is a **focus on code quality and development practices**. I wanted to separate these but they are inextricably linked. The second is a **culture of continuous learning**. And lastly, a **lack of crunch mode or overtime**. 
 
 <!--more-->
 
@@ -40,7 +40,7 @@ Again, if you know me you know that I value unit testing more than nearly any ot
 Test-Driven Development (TDD) provides several benefits over writing unit tests after the production code. Combining TDD with pair programming creates a fantastic development workflow that results in creating high-quality code quickly. Pair programming is another fantastic way to spread knowledge throughout your team and mentor other developers.
 
 ###Continuous Refactoring
-Refactoring is possibly the most important practice of all. Code needs to be constantly refactored when adding functionality to keep the quality of the codebase high. See my post [**Removing Refactoring Barriers**](/2014/09/06/remove-refactoring-barriers.html) for more on that topic. Since you cannot continuously refactor without a unit test suite it makes unit testing just as important as continuous refactoring.
+Refactoring is possibly the most important practice of all. Code needs to be constantly refactored when adding functionality to keep the quality of the codebase high. See my post [**Remove Refactoring Barriers**](/2014/09/06/remove-refactoring-barriers.html) for more on that topic. Since you cannot continuously refactor without a unit test suite it makes unit testing just as important as continuous refactoring.
 
 ###Coding Standards
 For a team to operate like a team they need to have some common standards. While formatting standards and coding conventions may seem like they are trivial concerns, try working in an organization without them. When opening each new file you have no idea what to expect from the code and no idea what third-party libraries will be used, etc. Every part of the codebase looks different, there are tens of ways to do the same thing, duplicated code and concepts are found throughout the codebase.
