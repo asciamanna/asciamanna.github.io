@@ -15,7 +15,7 @@ Several of the practices described in the previous post are concerned with learn
 Teams should regularly get together to learn as a group. Whether it be team refactoring sessions, code katas, or watching a video of a talk or presentation. Encouraging teams to constantly get better and bring new information into the organization is critical. It is all too easy to get mired in the day-to-day work and stop improving your craft.
 
 ###Bring in Experts 
-The development community has plenty of experts and thought leaders. Get in touch with those who may live in your area or are visiting and bring them in to your office to talk. I've found all of my heroes to be accessible and willing to share their expertise.
+The development community has plenty of experts and thought leaders. Get in touch with those who may live in your area or are visiting and bring them in to your office to talk. I've found a vast majority of the software experts to be accessible and willing to share their expertise.
 
 ###Get Out of Your Codebase
 If you are working in a legacy codebase (one that is not unit tested or at least not well unit tested) it is important to get out of it for learning opportunities. Legacy codebases tend to be hard to make better without the required skills and time. Try out new techniques in well-factored codebases or side projects before bringing them into your codebase if there are some refactoring hurdles you need to get past. 
@@ -45,4 +45,4 @@ If you operate in an environment that requires estimates I would start by ensuri
 If there is a legitimate date that needs to be hit be flexible about what functionality is included. Rememeber **_you cannot fix both time and scope_**. While I've had more than one argument with project managers about this in my career it is an absolute truth. Trying to do so is costing your organization. I would argue that a vast majority of deadlines are arbitrary. There is some great work being done in the **No Estimates** community and I recommend you read about it and challenge your organization on how they estimate. Thought workers do not produce their best work when pressured to meet unreasonable deadlines. 
 
 ##Conclusion
-Take some of the practices and ideas I've described in these last two posts to your development organization and give them a try. Regardless of your domain, product, level of experience, team, etc. I guarantee that these suggestions will improve your team and your product.
+Take some of the practices and ideas I've described in these last two posts to your development organization and give them a try. Regardless of your domain, product, level of experience, team, etc. I guarantee that these suggestions will improve your team and your product, and hopefully make the work place more enjoyable.
