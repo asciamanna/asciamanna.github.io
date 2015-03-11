@@ -18,7 +18,7 @@ Teams should regularly get together to learn as a group. Whether it be team refa
 The development community has plenty of experts and thought leaders. Get in touch with those who may live in your area or are visiting and bring them in to your office to talk. I've found all of my heroes to be accessible and willing to share their expertise.
 
 ###Get Out of Your Codebase
-If you are working in a legacy codebase (one that is not unit tested or at least not well unit tested) it is important to get out of it for learning opportunities. Legacy codebases tend to be hard to make better without the required skills and time. Try out new techniques in well-factored codebases or smaller side projects before bringing them into your codebase if there are some refactoring hurdles you need to get past. 
+If you are working in a legacy codebase (one that is not unit tested or at least not well unit tested) it is important to get out of it for learning opportunities. Legacy codebases tend to be hard to make better without the required skills and time. Try out new techniques in well-factored codebases or side projects before bringing them into your codebase if there are some refactoring hurdles you need to get past. 
 
 Too often a team will accept the codebase as their reality, put blinders on and maintain that low quality. It helps to see what others are doing. It is a huge motivator to see well crafted code, how easy it is to maintain, to unit test, and to reason about. It gives the team a tangible goal to strive for.
 
