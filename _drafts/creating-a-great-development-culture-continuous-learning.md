@@ -23,7 +23,7 @@ If you are working in a legacy codebase (one that is not unit tested or at least
 Too often a team will accept the codebase as their reality, put blinders on and maintain that low quality. It helps to see what others are doing. It is a huge motivator to see well crafted code, how easy it is to maintain, to unit test, and to reason about. It gives the team a tangible goal to strive for.
 
 ###Read
-Start a reading group at work. There are so many great software development books and blogs today. You can seriously level-up your development skills by reading a few fantastic books. A reading group at work is another opportunity to learn and talk about quality and improvement as a team.
+Start a reading group at work. There are so many great software development books and blogs available. You can seriously level-up your development skills by reading a few fantastic books. A reading group at work is another opportunity to learn and talk about quality and improvement as a team.
 
 ###We are not Unique
 
@@ -32,8 +32,8 @@ Start a reading group at work. There are so many great software development book
 This line of thinking is very dangerous because it puts the development organization on an island and allows them to reason that taking advice from experts is not necessary. It is a breeding ground for "expert beginners." If you are not familiar with the concept of "expert beginners" I highly recommend you read the [series of blog posts](http://www.daedtech.com/tag/expert-beginner) by [Eric Dietrich](http://www.daedtech.com/blog "Eric Dietrich's Blog"), who coined the term.
 
 ##Lack of Crunch Mode
-Great development organizations avoid crunch mode and overtime. [Chad Fowler](http://chadfowler.com/ "Chad Fowler's website") has a fantastic post about [killing the crunch mode antipattern](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/). The fact is, when under pressure developers produce poor quality code. Poor quality code slows your organization down, thus creating more pressure, which in turn creates more poor quality code. It's a cycle that feeds itself and leads to low morale and a terrible codebase. 
-
+Great development organizations avoid crunch mode and overtime. [Chad Fowler](http://chadfowler.com/ "Chad Fowler's website") has a fantastic post about [killing the crunch mode antipattern](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/). The fact is, when under pressure developers produce poor quality code. Poor quality code slows your organization down, thus creating more pressure, which in turn creates more poor quality code. It's a cycle that feeds itself and leads to low morale and a terrible codebase. [Bryan Helmkamp](https://twitter.com/brynary "Brian Helmkamp's Twitter Account")
+discusses this vicious cycle (as well as many fantastic suggestions) in his talk at Baruco 2013, [Building a Culture of Quality](https://www.youtube.com/watch?v=Jsi1YTkXwxA).
 <blockquote class="twitter-tweet" lang="en"><p>Pressure tends to create the appearance of striving, but seldom increases the quality of work.</p>&mdash; estherderby (@estherderby) <a href="https://twitter.com/estherderby/status/572402741282152449">March 2, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 

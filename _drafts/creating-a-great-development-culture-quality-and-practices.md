@@ -8,7 +8,7 @@ Over the years I've worked on some amazing development teams. Unfortunately, I'v
 
 This is one of my lengthier posts so I'll just be scratching the surface of some of these topics. I plan on going much deeper on several of these topics in future posts. When those posts are complete they will be linked from here. 
 
-The qualities that I've found common to the best development organizations I've grouped into three main categories. And of course, they are interrelated. The first is a **focus on code quality and development practices**. The second is a **culture of continuous learning**. And lastly, a **lack of crunch mode or overtime**. 
+The qualities that I've found common to the best development organizations I've grouped into three main categories, which are interrelated. The first is a **focus on code quality and development practices**. The second is a **culture of continuous learning**. And lastly, a **lack of crunch mode or overtime**. 
 
 <!--more-->
 
