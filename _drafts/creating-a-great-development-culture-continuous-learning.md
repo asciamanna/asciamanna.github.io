@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Great Development Culture - Continuous Learning & Lack of Crunch Mode
+title: Creating a Great Development Culture - Part 2
 comments: true
 category: Development Practices
 ---
