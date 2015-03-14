@@ -23,7 +23,7 @@ The best teams I've worked on understood that producing working software was not
 Great teams have a set of shared values and adhere to practices that support those values. I will discuss this in greater detail in a future post. But I want to talk about some of the practices that encourage high quality code.
 
 ###Code Reviews
-Code needs to be reviewed. No one in the organization gets a pass on this. All too often I've seen code reviews for junior developers but once you meet some milestone they are no longer necessary. Unfortunately your status in the organization is usually not at all related to your ability to write high quality code. I've seen significant amounts of poor code written by senior developers trying to meet unreasonable deadlines which in turn makes significantly more work for the rest of the development staff to cleanup.  
+Code needs to be reviewed. No one in the organization gets a pass on this. All too often I've seen code reviews for junior developers but once you meet some milestone they are no longer necessary. Unfortunately your status in the organization is not directly related to your ability to write high quality code. I've seen significant amounts of poor code written by senior developers trying to meet unreasonable deadlines which in turn makes significantly more work for the rest of the development staff to cleanup.  
 
 My one caveat with respect to code reviews is that if you are pairing on 100% of your production code the pair can be considered the code review. I still prefer to get some input outside the pair at times but as long as the pair doesn't consist of two "green" developers the pair can be considered the second set of eyes on the code.
 
