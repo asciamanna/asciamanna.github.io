@@ -36,6 +36,7 @@ This line of thinking is very dangerous because it puts the development organiza
 ##Lack of Crunch Mode
 Great development organizations avoid crunch mode and overtime. [Chad Fowler](http://chadfowler.com/ "Chad Fowler's website") has a fantastic post about [killing the crunch mode antipattern](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/). The fact is, when under pressure developers produce poor quality code. Poor quality code slows your organization down, thus creating more pressure, which in turn creates more poor quality code. It's a cycle that feeds itself and leads to low morale and a terrible codebase. [Bryan Helmkamp](https://twitter.com/brynary "Bryan Helmkamp's Twitter Account")
 discusses this vicious cycle (as well as many fantastic suggestions to break out of it) in his talk at Baruco 2013, [Building a Culture of Quality](https://www.youtube.com/watch?v=Jsi1YTkXwxA). While attempting to apply schedule pressure to produce software faster the organization is instead slowing down the process of producing software. 
+
 <blockquote class="twitter-tweet" lang="en"><p>Pressure tends to create the appearance of striving, but seldom increases the quality of work.</p>&mdash; estherderby (@estherderby) <a href="https://twitter.com/estherderby/status/572402741282152449">March 2, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
