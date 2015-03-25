@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<div class="date-section">
-    {{ page.date | date: "%A %B %-d, %Y"}} 
+<div class="post-header">
+    {{ page.date | date: "%A %B %-d, %Y"}} &#x25cf;  <a href="#comments">Leave a Comment</a>
 </div>
 <h1>{{ page.title}}</h1>
 <hr/>
@@ -69,6 +69,7 @@ data-share="true">
 <br/>
 {% if page.comments %}
 <hr/>
+<a name="comments"></a>
 <h1>Comments</h1>
     <div id="disqus_thread"></div>
         <script type="text/javascript">
