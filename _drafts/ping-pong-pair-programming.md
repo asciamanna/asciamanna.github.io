@@ -10,15 +10,25 @@ I first heard of Ping Pong Pair Programming around 2005 or 2006. I have no idea 
 
 I didn't begin to practice Ping Pong Programming until I joined an eXtreme Programming (XP) team in 2008. I quickly took to the practice, finding it incredibly engaging and enjoyable. As someone who values collaborating with other developers this was collaborating at a level I had never previously experienced.  Further, this constant and close collaboration built a camaraderie with a team of developers which I have never been able to replicate. There are about eight to ten developers with whom I've worked that I feel an incredible bond with as a result of constant pair programming over a significant period of time. These are folks I would jump at the chance to work with again.
 
-Intersection of TDD and Pair Programming
 Ping Pong Pair Programming is the intersection of two XP practices:
 
 * Pair Programming
 * Test-driven Development
 
-Describe it
+##Description
+The idea of ping pong pair programming is deceptively simple. Given two developers Developers Developer A and Developer B:
 
-2 input devices are necessary
+* Developer A writes a failing test
+* Developer B makes the test pass writing only enough code to make it pass
+* Developer B writes the next test
+* Developer A writes only enough code to make that test pass
+* Either developer can refactor the code only while all tests are passing
+
+##Development Machine Setup
+The biggest struggle I see with development teams trying to work this way is they don't properly setup their development machine. The optimal setup is a single computer with two input devices. That's two monitors, two keyboards, and two mice. I frankly won't pair unless there are two input devices because I find it impossible to be comfortable working with a single set of input devices.
+
+Another very important aspect of pair programming is how the pair of developers are seated in relation to each other. The worst seating is one developer in front of another. This happens in some other forms of pair programming but makes Ping Pong Pair Programming impossible. 
+The most common seating is next to each other. While I don't find it the optimal seating it is usually the easiest in work environments that weren't originally designed with pair programming in mind.  Thus, I find myself resorting to it more than I'd like to.
 
 Benefits 
 Hyper learning
