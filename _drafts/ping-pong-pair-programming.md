@@ -18,7 +18,7 @@ Ping Pong Pair Programming is the intersection of two XP practices:
 NOTE: ADD IMAGE HERE
 
 ##Description
-The idea of ping pong pair programming is deceptively simple. Given two developers Developers, Developer A and Developer B:
+The idea of ping pong pair programming is deceptively simple. Given two developers, Developer A and Developer B:
 
 * Developer A writes a failing test
 * Developer B makes the test pass writing only enough code to make it pass
@@ -33,11 +33,13 @@ Another very important aspect of pair programming is how the pair of developers 
 The most common seating is next to each other. While I don't find it the optimal seating it is usually the easiest in work environments that weren't originally designed with pair programming in mind.  Thus, I find myself resorting to it more than I'd like to.
 The optimal seating that I've found through experimenting with a previous team is sitting either directly or diagonally across from one another. This enables pairs to easily look at the screen and look directly at each other at all times during the pairing session.
 
-Benefits 
+##Benefits 
 Hyper learning
 TDD teaching
 Constant state of Flow
 Mentoring devs
+
+###Coupled with Promiscuous Pairing Techniques
 
 other pairing not as effective 
 ###Driver / Navigator Pair Programming
