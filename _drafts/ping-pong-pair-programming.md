@@ -14,7 +14,7 @@ I didn't begin to practice Ping Pong Pair Programming until I joined an eXtreme 
 Ping Pong Pair Programming is the intersection of two XP practices:
 
 * Pair Programming
-* Test-driven Development
+* Test-Driven Development (TDD)
 
 NOTE: ADD IMAGE HERE
 
@@ -46,7 +46,7 @@ Ping Pong pairing avoids these issues as each developer is taking turns making t
 Given that conversations are constantly happening in the pairing session this is a very natural way to incorporate mentoring into your day. In fact, by working this way mentoring is something that is occuring constantly. Additionally, learning new techniques, 3rd party libraries, team practices, team coding conventions, etc. becomes very easy and built in to the pairing process.
 
 ####Teaching Test-Driven Development
-I am a huge proponent of Test-Driven Development. I have had a lot of success with it and I have yet to find a situation in which I don't want to practice TDD. Test-Driven development, while conceptually simple, takes a long time for developers to get truly comfortable with. It is a struggle for developers new to TDD to do the simplest thing to make a test pass, to not take too big of a step, to ensure that the tests they are writing are actually unit level tests and not integration tests, etc. Being introduced to TDD in a ping pong pair programming situation is the fastest way for a developer to get up to speed and comfortable with the practice. 
+I am a huge proponent of TDD. I have had a lot of success with it and I have yet to find a situation in which I don't want to practice TDD. Test-Driven development, while conceptually simple, takes a long time for developers to get truly comfortable with. It is a struggle for developers new to TDD to do the simplest thing to make a test pass, to not take too big of a step, to ensure that the tests they are writing are actually unit level tests and not integration tests, etc. Being introduced to TDD in a ping pong pair programming situation is the fastest way for a developer to get up to speed and comfortable with the practice. 
 
 Given the dynamics of Ping Pong Programming 
 In general pair programming 
