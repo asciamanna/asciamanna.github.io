@@ -11,13 +11,13 @@ Here are a few projects I'm working on in my free time:
 [Lastfm.NET](http://github.com/asciamanna/LastfmClient) library) with an
 AngularJS / Bootstrap front end.  It displays the last 25 songs I've listened
 to and my top 25 artists. 
-<a href='https://ci.appveyor.com/project/asciamanna/listeningto'><img src='https://ci.appveyor.com/api/projects/status/36vp224m7bpp5hk5' /></a>
+<a href='https://ci.appveyor.com/project/asciamanna/listeningto'><img src='https://ci.appveyor.com/api/projects/status/36vp224m7bpp5hk5?svg=true' /></a>
 
 * [Lastfm.NET](http://www.github.com/asciamanna/LastfmClient) - A .NET client for
 the Last.fm REST API. 
-<a href='https://ci.appveyor.com/project/asciamanna/lastfmclient'><img src='https://ci.appveyor.com/api/projects/status/e703ayk1nydyngqm' /></a>
+<a href='https://ci.appveyor.com/project/asciamanna/lastfmclient'><img src='https://ci.appveyor.com/api/projects/status/e703ayk1nydyngqm?svg=true' /></a>
 
-* [iTunes Library Parser](https://www.github.com/asciamanna/iTunesLibraryParser) - A C# implementation utilizing LINQ-to-XML. Parses an iTunes Library file into a collection of track objects. <a href='https://ci.appveyor.com/project/asciamanna/ituneslibraryparser'><img src='https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq' /></a>
+* [iTunes Library Parser](https://www.github.com/asciamanna/iTunesLibraryParser) - A C# implementation utilizing LINQ-to-XML. Parses an iTunes Library file into a collection of track objects. <a href='https://ci.appveyor.com/project/asciamanna/ituneslibraryparser'><img src='https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq?svg=true' /></a>
 
 * [Music Collection](http://musiccollection.apphb.com/) - A .NET MVC4 / Bootstrap application to manage my music collection.  
 
