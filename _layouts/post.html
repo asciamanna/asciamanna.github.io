@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post-header">
-    {{ page.date | date: "%A %B %-d, %Y"}} &#x25cf;  <a href="#disqus_thread">Leave a Comment</a>
+    {{ page.date | date: "%A %B %-d, %Y"}} &#x25cf;  <a href="http://www.anthonysciamanna.com{{page.url}}#disqus_thread">Leave a Comment</a>
 </div>
 <h1>{{ page.title}}</h1>
 <hr/>
@@ -85,4 +85,6 @@ data-share="true">
                 Disqus.</a></noscript>
             <a href="http://disqus.com" class="dsq-brlink">comments powered by
                 <span class="logo-disqus">Disqus</span></a>
-            {% endif %}                
+
+{% include disqus.html %}
+{% endif %}                
