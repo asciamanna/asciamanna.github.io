@@ -12,7 +12,7 @@ layout: default
         <br/>
         <br/>
         <p>
-        Posted in: {{post.category}}
+        Category: {{post.category}} | <a href="{{post.url}}#disqus_thread"></a>
         </p>
     </div>
      <hr/>
@@ -43,3 +43,4 @@ layout: default
     {% endif %}
   </div>
 {% endif %}
+{% include disqus.html %}
