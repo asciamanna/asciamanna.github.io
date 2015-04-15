@@ -6,7 +6,7 @@ category: Development Practices
 ---
 The most effective form of Pair Programming I've experienced is called Ping Pong Pair Programming. I find it so effective that I prefer not to pair at all if I cannot ping pong program. The majority of development teams I've encountered who occasionally pair program don't practice ping pong pair programming. They view "pairing" as one developer taking a much more passive role. I suspect these teams would enjoy pair programming more and identify its benefits if they tried ping pong pairing.
 <!--more-->
-I've read about Ping Pong Pair Programming as far back as 2002. However, I didn't begin to practice Ping Pong Pair Programming until I joined an eXtreme Programming (XP) team. I quickly took to the practice, finding it incredibly engaging and enjoyable. As someone who values collaborating with other developers this was collaboration at a level I had not previously experienced. Furthermore, this constant and close collaboration built a camaraderie with a team of developers which I have not been able to replicate since. There are about eight to ten developers with whom I've worked that I feel an incredible bond with as a result of constant pair programming over a significant period of time. These are folks I would jump at the chance to work with again.
+I've read about Ping Pong Pair Programming as far back as 2002. However, I didn't begin to practice it until I joined an eXtreme Programming (XP) team. I quickly took to the practice, finding it incredibly engaging and enjoyable. As someone who values collaborating with other developers this was collaboration at a level I had not previously experienced. Furthermore, this constant and close collaboration built a camaraderie with a team of developers which I have not been able to replicate since. There are about eight to ten developers with whom I've worked that I feel an incredible bond with as a result of constant pair programming over a significant period of time. These are folks I would jump at the chance to work with again.
 
 ##Description 
 Ping Pong Pair Programming is the intersection of two XP practices:
@@ -25,7 +25,7 @@ Ping pong pair programming is deceptively simple. Given two developers, Develope
 * Continue until Developer A and Developer B both agree that there are no more tests for the unit they are currently working on
 * Either developer can refactor the code only while all tests are passing
 
-##Development Machine Setup
+##Computer Setup
 One of the biggest struggles I see with development teams trying to pair program is that they don't properly setup their development machines to accommodate this way of working. The optimal setup is a single computer with two input devices. That's two monitors, two keyboards, and two mice. Frankly I won't pair unless there are two input devices because I find it impossible to be comfortable working with a single set of input devices, having to pass them back and forth between developers.
 
 ##Physical Environment
@@ -60,10 +60,13 @@ Pairing with a seasoned TDD practicioner, developers new to the practice will le
 * They will learn how to make unit tests as clear as possible so they can be an excellent documenting technique. 
 * Most importantly they will learn how to write testable code and begin to recognize the bad programming habits that they have accumulated over time that make unit testing their code impossible.
 
+##The Game
+As developers become better at Ping Pong Pair Programming it can begin to look like a game. A developer will do the minimum to make a test pass including hardcoding an expected result if there isn't a test to prevent them from doing so. Then they write the next test to make their pair implement the next piece of functionality. From the perspective of the uninitiated developer this seems silly or wasteful. If you **know** how the code is supposed to look why wouldn't you write it that way in the first place? But what looks like a game from the outside is a very important part of TDD and pair programming. It is doing the absolute minimum to make a test pass and no more without another failing test. 
+
 ##Pair Rotation
 When I first started Ping Pong Pair Programming we switched pairs on the team twice per day (two four hour sessions). In the early days of XP teams tended to keep the same pairs throughout an iteration. Switching pairs regularly has several benefits over keeping pairs together for the duration of an iteration. It alleviates the need for code reviews (as mentioned previously) and it spreads knowledge throughout the team very quickly. Every developer one the team paired with one another, thus there were no "favored pairs." Very rarely would a user story be completed in a single pairing session, this resulted in a true team-owned solution and team accountability.
 
-###Promiscuous Pairing
+##Promiscuous Pairing
 Promiscuous Pairing recommends switching pairs even more rapidly (e.g., I've read about teams switching pairs every 90 minutes). If you've never heard of Promiscuous Pairing read Alro Belshee's article on the topic here. <LINK>http://user.it.uu.se/~carle/softcraft/notes/PromiscuousPairing.pdf
 
 ##Conclusion
