@@ -70,7 +70,7 @@ I do like to use xUnit test harnesses for integration tests when the tests don't
 These integration tests should be able to be separated from unit tests and not be part of the suite that gets run constantly by the developers. Integration tests, even if you are using the same kinds of test harnesses for them, serve a very different purpose than unit tests.
 
 ##Conclusion
-<img src='/images/workingEffectivelyWithLegacyCode.jpg' width='25%' height='25%' style='float:left; padding-right:7px;' />
+<img src='/images/workingEffectivelyWithLegacyCode.jpg' width='25%' height='25%' class='post-image' />
 If you are struggling with unit testing and finding that you are not getting the value out of it that others appear to be compare your tests to the "unit test characteristics" above. 
 
 If you aren't refactoring existing code to get it under test you are not getting the most out of your tests. If you are working in an existing codebase and are struggling to get the existing code under test I strongly recommend Michael Feathers' _Working Effectively with Legacy Code_. It is the definitive source on the subject.  

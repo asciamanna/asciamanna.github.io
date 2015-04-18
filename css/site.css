@@ -103,3 +103,8 @@ hr {
    margin-top: 15px;
    padding-bottom: 8px;
 }
+
+.post-image {
+   float: left;
+   padding-right: 8px;
+}

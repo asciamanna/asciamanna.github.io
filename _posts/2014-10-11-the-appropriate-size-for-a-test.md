@@ -10,7 +10,7 @@ During the discussion that followed the video a team member mentioned that the t
 
 
 <!--more-->
-<img src='/images/TestAutomationPyramid.png' style='float:left; padding-right:7px' width='55%' height='55%'/>
+<img src='/images/TestAutomationPyramid.png' class='post-image' width='55%' height='55%'/>
 If you recall from the video Gerard uses Mike Cohn's test automation pyramid as one of the diagrams that are central to his talk. The pyramid shows a lot of small unit tests (which should have a small scope but a lot of detail). As you move up the pyramid you get to Integration or Acceptance tests which have a medium scope and medium level of detail. And finally you get to the top of the pyramid and get to system level tests (sometimes represented as UI-driven tests in some versions of the test automation pyramid I've seen) which should have the broadest scope but be very light on detail. There should be a lot less of these.
   
 So, I took the original question and extended it to discuss when you know you've crossed a boundary on the testing pyramid.
