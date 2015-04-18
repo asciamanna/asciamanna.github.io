@@ -63,11 +63,17 @@ I am a huge proponent of TDD. I have had a lot of success with it and I have yet
 
 Being introduced to TDD in a ping pong pair programming situation is the fastest way for a developer to get up to speed and comfortable with the practice. 
 
-Pairing with a seasoned TDD practicioner, developers new to the practice will learn how to:
-* Avoid external dependencies (database access, file system access, external services) that slow down unit tests.
+Pairing with a seasoned TDD practicioner, developers new to the practice will learn: 
+
+* How to avoid external dependencies (database access, file system access, external services) that slow down unit tests.
 * The recommended scope and size of a unit test. 
-* They will learn how to make unit tests as clear as possible so they can be an excellent documenting technique. 
-* Most importantly they will learn how to write testable code and begin to recognize the bad programming habits that they have accumulated over time that make unit testing their code impossible.
+* How to make unit tests as clear as possible so they can be an excellent documenting technique. 
+* Most importantly  how to write testable code and begin to recognize the bad programming habits that they have accumulated over time that make unit testing their code impossible.
+
+<blockquote>
+"The fact remains: Good design is testable, and design that isn't testable is bad."<br/>
+&mdash; Michael C. Feathers, <em>Working Effectively with Legacy Code</em>
+</blockquote>
 
 ##The Game
 As developers become better at Ping Pong Pair Programming it can begin to look like a game (hence the name Ping Pong Pair Programming). A developer will do the minimum to make a test pass including hardcoding an expected result if there isn't a test to prevent them from doing so. Then they write the next test to make their pair implement the next piece of functionality. If a developer writes a test to exercise a conditional statement but only one branch of the conditional statement is currently tested the implementor will not add the conditional statement. Two tests would be required to test both branches of the condition and therefore shouldn't be implemented until both tests exist. 
@@ -78,7 +84,7 @@ From the perspective of the uninitiated developer this can seem silly or wastefu
 When I first started Ping Pong Pair Programming we switched pairs on the team twice per day (two four hour sessions). In the early days of XP teams tended to keep the same pairs throughout an iteration. Switching pairs regularly has several benefits over keeping pairs together for the duration of an iteration. It alleviates the need for code reviews (as mentioned previously) and it spreads knowledge throughout the team very quickly. In my experience, every developer on the team paired with one another, thus there were no "favored pairs." Very rarely would a user story be completed in a single pairing session, this resulted in a true team-owned solution and team accountability for the success of every user story.
 
 ##Promiscuous Pairing
-Promiscuous Pairing recommends switching pairs even more rapidly (e.g., I've read about teams switching pairs every 90 minutes). If you've never heard of Promiscuous Pairing you can read about it in Alro Belshee's [article]. (http://user.it.uu.se/~carle/softcraft/notes/PromiscuousPairing.pdf)
+Promiscuous Pairing recommends switching pairs even more rapidly (e.g., I've read about teams switching pairs every 90 minutes). If you've never heard of Promiscuous Pairing you can read about it in Alro Belshee's [article](http://user.it.uu.se/~carle/softcraft/notes/PromiscuousPairing.pdf).
 
 ##Conclusion
 Like everything in software development, Ping Pong Pair Programming is no silver bullet. There are times when pair programming may not make sense based on the task, the team personalities, etc. But I would strongly encourage you to try Ping Pong Pairing before deciding that pair programming is not for you.
