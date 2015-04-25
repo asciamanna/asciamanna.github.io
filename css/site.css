@@ -79,19 +79,23 @@ hr {
    border: 2px solid black;
 }
 
-.twitter-logo:hover, .twitter-logo:focus, .twitter-logo:active {
+.link-image-reset {
+   color: #999 !important;
+}
+
+.twitter-logo:hover {
    color: #55acee !important;
 }
 
-.rss-logo:hover, .rss-logo:focus, .rss-logo:active {
+.rss-logo:hover {
    color: #f26522 !important;
 }
 
-.lastfm-logo:hover, .lastfm-logo:focus, .lastfm-logo:active {
+.lastfm-logo:hover {
    color: #c3000d !important; 
 }
 
-.github-logo:hover, .github-logo:focus, .github-logo:active {
+.github-logo:hover {
    color: #4183c4 !important;
 }
 
