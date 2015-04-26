@@ -2,8 +2,12 @@
 #Front matter for jekyll to read sass file
 ---
 
+$black-background: #222;
+$grey: #d0caca;
+$nav-element-grey: #999;
+
 body {
-    background-color: #222;
+    background-color: $black-background;
 }
 
 hr {	
@@ -16,11 +20,11 @@ hr {
 }
 
 .body-content {
-    background-color: #222;
+    background-color: $black-background;
 }
 
 .links {
-    background-color: #222;
+    background-color: $black-background;
     font-size: 16px;
 }
 
@@ -30,8 +34,8 @@ hr {
 }
 
 .masthead {
-	background-color: #222;
-    color: #d0caca;
+	background-color: $black-background;
+    color: $grey;
     font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif;
 }
 
@@ -40,19 +44,19 @@ hr {
 }
 
 .content {
-    background-color: #d0caca;
+    background-color: $grey;
     border-radius: 10px;
 }
 
 .footer {
     text-decoration: none;
-    color: #d0caca;
+    color: $grey;
     margin-bottom: 10px;
 }
 
 .footer > a {
     text-decoration:none;
-    color: #d0caca;
+    color: $grey;
 }
 
 .footer > a:hover {
@@ -84,7 +88,7 @@ hr {
 }
 
 .link-image-reset {
-   color: #999 !important;
+   color: $nav-element-grey !important;
 }
 
 .twitter-logo:hover {
