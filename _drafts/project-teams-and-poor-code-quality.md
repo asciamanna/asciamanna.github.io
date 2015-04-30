@@ -11,10 +11,10 @@ A large, and often overlooked, impact on code quality is how development teams a
 ##Problems
 There are a number of problems that occur when teams are organized around projects. 
 ###Temporary
-The organization around a project is temporary. A team comes together to work on a project, if they are lucky they meet their predefined deadline (that deadline in itself is a problem), the software is shipped, and the team dissolves as the developers get assimilated into new project teams. When bugs or feature requests arise the team no longer exists to address them. While the project is temporary the code that gets created is permanent. This problem, in my opinion, is the root of all of the additional issues that are created out of project team organization.
+The organization around a project is temporary. A team comes together to work on a project, if they are lucky they meet their predefined deadline (that deadline in itself is a problem), the software is shipped, and the team dissolves as the developers get assimilated into new project teams. When bugs or feature requests arise the team no longer exists to address them. While the project is temporary the code that gets created is permanent. This dissonance, in my opinion, is the root of all of the issues that are created out of project team organization.
 
 ###Lack of Code Ownership
-The temporary nature of the project leads to a lack of code ownership. I've have seen a direct correlation to the amount of refactoring done in a code base and the amount of ownership a team feels that is has. Code ownership is extremely important. Collective code ownership is such an important part of XP because it encouraged team-owned quality and made the team responsible for keeping the code clean and bug-free. Extending code ownership across multiple teams however causes team-owned quality to break down. When code is owned across multiple teams who don't regularly communicate and/or aren't all committing their code to the same repository branch refactoring stops. Teams are worried that the refactoring that they do may change the system in a way that is incompatible with another team. **Essentially, when code ownership extends beyond a single team no one owns the code.**
+The temporary nature of the project leads to a lack of code ownership. I have seen a direct correlation to the amount of refactoring done in a code base and the amount of ownership a team feels that is has. Code ownership is extremely important. Collective code ownership is such an important part of XP because it encouraged team-owned quality and made the team responsible for keeping the code clean and bug-free. Extending code ownership across multiple teams however causes team-owned quality to break down. When code is owned across multiple teams who don't regularly communicate and/or aren't all committing their code to the same repository branch refactoring stops. Teams worry that the refactoring that they do may change the system in a way that is incompatible with another team. **Essentially, when code ownership extends beyond a single team no one owns the code.**
 
 ###Large Merge Conflicts
 Yet another barrier to refactoring is that when organized by project, teams overlap areas of the code and this often results in regularly occurring large merge conflicts. These conflicts encourage developers to stop refactoring code because no one wants to manually merge large conflicts. You can read more about this in my post <LINK>Remove Refactoring Barriers</LINK>
@@ -23,7 +23,7 @@ Yet another barrier to refactoring is that when organized by project, teams over
 As people are constantly switching into and out of areas of the codebase a depth of knowledge that comes with working in the same area of the code for an extended period of time is lost. This leads to a decline in code quality and a lack of larger scale refactorings. 
 
 ####Design Rot
-Since so much of the code is new to the team and they are moving on before making lasting improvments on the code base the design degrades rapidly. One team will begin to steer the system in one direction with a set of refactorings only to be undone by the next team who had little or no knowledge of the design goals of the original team.
+A side-effect of the loss of institutional knowledge and the temporary work in an area of the codbase is that the design degrades rapidly. One project team will begin to steer the part of the system in one direction with a set of refactorings only to be undone by the next team who had little or no knowledge of the design goals of the original team.
 
 ###Project Size 
 Projects tend to be large and are at odds with the current trends for building quality software like shipping small incremental improvements and subscribing to practices like Continuous Integration and Continuous Delivery. 
@@ -48,5 +48,5 @@ Scalability is challenge in any organization. The way you work on a small system
 Organizing by product will scale. As the system increases in size and scope, additional product teams can be created to own areas of the system. 
 
 #Conclusion 
-If you find yourself struggling with code quality issues and your team is organizing around projects it may be time to discuss how your ogranize yourself in relation to the work.
+If you find yourself struggling with code quality issues and your team is organizing around projects it may be time to discuss how your teams are organized. Something that I find in a lot of systems that are organized by project is that there is no system architecture. In applications which lack architecture there is work that is necessary to start identifying and teasing apart product areas to enable this type of work.
 
