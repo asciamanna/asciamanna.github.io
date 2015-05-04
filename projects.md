@@ -7,6 +7,8 @@ title: Projects
 Here are a few projects I'm working on in my free time:
 <br/>
 
+* [Improved ITunes Parser](https://www.github.com/asciamanna/ImprovedItunesParser) - A Ruby iTunes Library parser using Nokogiri. <a href='https://travis-ci.org/asciamanna/ImprovedItunesParser'><img src='https://travis-ci.org/asciamanna/ImprovedItunesParser.svg?branch=master'/></a>
+
 * [Listening To](https://www.github.com/asciamanna/listeningto) - A .NET Web API app (using my
 [Lastfm.NET](http://github.com/asciamanna/LastfmClient) library) with an
 AngularJS / Bootstrap front end.  It displays the last 25 songs I've listened
