@@ -12,7 +12,7 @@ A large, and often overlooked, impact on code quality is how development teams a
 
 Organizing by product can be described by several names. Some teams call it "organizing by product area" or "business capability", or simply "organizing by product." Regardless of what it is called the way the teams organize around work is the same. If the codebase is large, "products" end up being sub-components of the larger system which are team-owned. Teams are permanent and own the code for their product. The software communicates with other "products" through defined interfaces. Each product team has a product owner who is empowered to make decisions about the direction of the product without requiring buy-in from the larger organization. The product owner is analogous to a funnel, taking feature requests from various sources (e.g., users, stake-holders, customer service, the CEO, etc.) and proiritizing the work
 
-##Problems
+##Problems with Project Teams
 There are a number of problems that occur when teams are organized around projects rather than products.
  
 ###Temporary
