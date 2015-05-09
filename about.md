@@ -4,12 +4,22 @@ title: About
 ---
 ##About
 <hr/>
-I am a software developer with {{site.time | date: "%Y" | minus:2000}}  years of experience in the industry. I graduated from [Drexel University](http://www.drexel.edu) with a degree in Computer Science. I currently work for [eMoney Advisor](http://www.emoneyadvisor.com) in Conshohocken, PA. View my professional timeline [here](/timeline.html).
-<br/><br/>
-I'm passionate about eXtreme Programming (XP) principles, Test-driven development (TDD), pair programming, and software design. I am a strong believer in Software Craftsmanship and a lifelong student always trying to improve my craft. I believe software quality is not subjective or a matter of preference. 
-I enjoy coaching and mentoring developers specifically about XP development practices, software quality, unit testing, and Test-driven development.
-<br/><br/>
-I've developed professionally in C#, JavaScript, Ruby, Java, C++, and Perl.
+I am a software developer with {{site.time | date: "%Y" | minus:2000}}+  years of experience building and delivering high quality software. I have specific expertise in: 
+
+* Leading and coaching software teams
+* Mentoring developers
+* Improving development processes and practices for cross-functional development teams
+* Test Driven Development (TDD)
+* Unit testing
+* Agile / eXtreme Programming practices
+* Pair programming 
+
+I’m passionate about eXtreme Programming (XP) principles, Test-driven development (TDD), and pair programming. I am a strong believer in Software Craftsmanship and a lifelong student always trying to improve my craft. I believe code quality is not subjective or a matter of preference. I enjoy mentoring and coaching developers specifically about code quality, unit testing, and Test-driven development. 
+<br/>
+I’ve developed professionally in C#, JavaScript, Ruby, Java, C++, and Perl.
+<br/>
+<br/>
+I graduated from [Drexel University](http://www.drexel.edu) with a degree in Computer Science. I currently work for [eMoney Advisor](http://www.emoneyadvisor.com) in Conshohocken, PA. View my professional timeline [here](/timeline.html).
 
 ###Interests
 * Music
