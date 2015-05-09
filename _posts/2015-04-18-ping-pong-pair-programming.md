@@ -90,7 +90,7 @@ From the perspective of the uninitiated developer this can seem silly or wastefu
 When I first started Ping Pong Pair Programming we switched pairs on the team twice per day (two four hour sessions). In the early days of XP teams tended to keep the same pairs throughout an iteration. Switching pairs regularly has several benefits over keeping pairs together for the duration of an iteration. It alleviates the need for code reviews (as mentioned previously) and it spreads knowledge throughout the team very quickly. In my experience, every developer on the team paired with one another, thus there were no "favored pairs." Very rarely would a user story be completed in a single pairing session, this resulted in a true team-owned solution and team accountability for the success of every user story.
 
 ##Promiscuous Pairing
-Promiscuous Pairing recommends switching pairs even more rapidly (e.g., I've read about teams switching pairs every 90 minutes). If you've never heard of Promiscuous Pairing you can read about it in Alro Belshee's [article](http://user.it.uu.se/~carle/softcraft/notes/PromiscuousPairing.pdf).
+Promiscuous Pairing recommends switching pairs even more rapidly (e.g., I've read about teams switching pairs every 90 minutes). If you've never heard of Promiscuous Pairing you can read about it in Arlo Belshee's [article](http://user.it.uu.se/~carle/softcraft/notes/PromiscuousPairing.pdf).
 
 ##Conclusion
 Like everything in software development, Ping Pong Pair Programming is no silver bullet. There are times when pair programming may not make sense based on the task, the team personalities, etc. But I would strongly encourage you to try Ping Pong Pairing before deciding that pair programming is not for you.
