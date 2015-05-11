@@ -10,10 +10,7 @@ A large, and often overlooked, impact on code quality is how development teams a
 <!--more-->
 ##Alternatives to Project Team Development
 
-There are alternatives to project team development like product teams, business capability teams and feature teams (depending on how they are organized). Regardless of what these types of teams are called they share some common characteristics that have a positive affect on the quality of the codebase. Teams are permanent and own their area of the code. They communicate with other areas of the code through defined interfaces where necessary. However, the code that they own is aligned in such a way that the cross-team communication is not required to complete features. 
-
-The team has a product owner who is empowered to make decisions about the direction of the product without requiring buy-in from the larger organization. 
-The product owner's request gathering is analogous to a filter, taking feature requests from various sources (customers, users, customer service, the CEO, etc.) and using it to create a prioritized backlog of features. The product owner and development team then translate these into user stories which then get prioritized for each sprint/iteration. The important thing to note is that the product owner has the final say in the priority of features.
+There are alternatives to project team development. Some examples are product teams, business capability teams and feature teams (depending on how they are organized). Regardless of what these types of teams are called they share some common characteristics that have a positive affect on the quality of the codebase. Teams are permanent and own their area of the code. They communicate with other areas of the code through defined interfaces where necessary. However, the code that they own is aligned in such a way that the cross-team communication is not required to complete features. The team has a product owner who is empowered to make decisions about the direction of the product and has the final say on feature priority without requiring buy-in from the larger organization. 
 
 ##Problems with Project Teams
 There are a number of problems that occur when teams are organized around projects.
@@ -39,7 +36,7 @@ A side-effect of the loss of institutional knowledge and the temporary work in a
 
 ###Focus on Short-term Deadlines 
 
-Projects tend to be large and, by their nature, organized like waterfall projects. The focus is on meeting a short-term deadline providing a predefined set of features. This is at odds with current trends in the software industry for building quality software like shipping small, incremental improvements and subscribing to practices like Continuous Integration and Continuous Delivery.
+Projects tend to be large and they organized like waterfall software projects. The focus is on meeting a short-term deadline providing a predefined set of features. This is at odds with current trends in the software industry for building quality software like shipping small, incremental improvements and subscribing to practices like Continuous Integration and Continuous Delivery.
 
 ###Scalability Problems
 
@@ -67,7 +64,7 @@ Another argument is keeping consistency across these product teams. I would cont
 
 ###One Product
 
-Another very popular argument is, *"We only have one big product not a lot of little products, there's no way to split the system up to accomplish this way of working."* I've worked on several large products that were designed in a way that allowed for smaller, team owned subsystems to exist. They had very small interfaces between subsystems so teams could work independently for a majority of their work. The line of thought that a large product cannot be broken into smaller subsystems is common when working in systems without an architecture. When the architecture is a big ball of mud it is difficult to see the lines where subsystems could be broken out. While effort is required to do this the benefits are worth the effort.  At a minimum your organization will not scale as project teams. 
+Another very popular argument is, *"We only have one big product not a lot of little products, there's no way to split the system up to accomplish this way of working."* I've worked on several large products that were designed in a way that allowed for smaller, team owned subsystems to exist. They had very small interfaces between subsystems so teams could work independently for nearly all of their work and only rarely need to message between subsystems. The line of thought that a large product cannot be broken into smaller subsystems is common when working in systems without an architecture. When the architecture is a big ball of mud it is difficult to see the lines where subsystems could be broken out. While effort is required to do this the benefits are worth the effort. 
 
 ##Conclusion 
 
