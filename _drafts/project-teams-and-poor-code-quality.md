@@ -5,7 +5,7 @@ comments: true
 category: Development Process
 ---
 
-A large, and often overlooked, impact on code quality is how development teams are organized. Several times in my career I have experienced software quality issues that are a result of teams organizing around projects. This is something that I have been concerned with for several years, so I am happy to see that there is now a "No Projects" movement gaining steam in the software industry. With the rise of microservices and some high profile successes that organizations have had organizing around products, it seems that the masses are starting to take notice. This way of organizing teams and work isn't new but it's certainly not as prevalent as it should be.
+A large, and often overlooked, impact on code quality is how development teams are organized. Several times in my career I have experienced software quality issues that are a result of teams organizing around projects. This is something that I have been concerned about for several years, so I am happy to see that there is now a "No Projects" movement gaining steam in the software industry. With the rise of microservices and some high profile successes that organizations have had organizing around products, it seems that the masses are starting to take notice. This way of organizing teams and work isn't new but it's certainly not as prevalent as it should be.
 
 <!--more-->
 ##Alternatives to Project Team Development
