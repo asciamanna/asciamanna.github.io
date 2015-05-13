@@ -5,7 +5,7 @@ comments: true
 category: Development Process
 ---
 
-A large, and often overlooked, impact on code quality is how development teams are organized. Several times in my career I have experienced software quality issues that are a result of teams organizing around projects. This is something that I have been concerned about for several years, so I am happy to see that there is now a "No Projects" movement gaining steam in the software industry. With the rise of microservices and some high profile successes that organizations have had organizing around products, it seems that the masses are starting to take notice. This way of organizing teams and work isn't new but it's certainly not as prevalent as it should be.
+A large, and often overlooked, impact on code quality is how development teams are organized. Several times in my career I have experienced software quality issues that are a result of teams organizing around projects. This is something that I have been concerned about for several years, so I am happy to see that there is now a "No Projects" movement gaining steam in the software industry. With the rise of agile software development practices, microservices and some high profile successes that organizations have had organizing around products, it seems that the masses are starting to take notice. This way of organizing teams and work isn't new but it's certainly not as prevalent as it should be.
 
 <!--more-->
 ##Alternatives to Project Team Development
@@ -20,13 +20,13 @@ The organization around a project is temporary. A team comes together to work on
 
 ###Lack of Code Ownership
 
-The temporary nature of the project leads to a lack of code ownership. I have seen a direct correlation between the amount of refactoring done in a code base and the amount of ownership a team feels that is has. Collective code ownership is such an important part of eXtreme Programming (XP) because it encourages team-owned quality and makes the entire team responsible for keeping the code and design clean and bug-free. Extending code ownership across multiple teams however causes team-owned quality to break down. When code is owned across multiple teams who don't regularly communicate and/or aren't all committing their code to the same repository branch, refactoring stops. Teams worry that any refactoring that they do may change the system in a way that is incompatible with another team. **Essentially, when code ownership extends beyond a single team no one owns the code.**
+The temporary nature of the project leads to a lack of code ownership. I have seen a direct correlation between the amount of refactoring done in a code base and the amount of ownership a team feels that it has. Collective code ownership is such an important part of eXtreme Programming (XP) because it encourages team-owned quality and makes the entire team responsible for keeping the code and design clean and bug-free. Extending code ownership across multiple teams however causes team-owned quality to break down. When code is owned across multiple teams who don't regularly communicate and/or aren't all committing their code to the same repository branch, refactoring stops. Teams worry that any refactoring that they do may change the system in a way that is incompatible with another team. **Essentially, when code ownership extends beyond a single team no one owns the code.**
 
 ###Large Merge Conflicts
 
 Yet another barrier to refactoring is that when organized by project, teams overlap areas of the code and this often results in regularly occurring large merge conflicts. These conflicts encourage developers to stop refactoring code because no one wants to manually merge large conflicts. You can read more about this in my post [Remove Refactoring Barriers](/2014/09/06/remove-refactoring-barriers.html)
 
-###Loss of Institutional Knowledge
+###Lack of Institutional Knowledge
 
 As people are constantly switching into and out of areas of the codebase a depth of knowledge that comes with working in the same area of the code for an extended period of time is lost. This leads to a decline in code quality and a lack of larger scale refactorings. 
 
@@ -34,15 +34,15 @@ As people are constantly switching into and out of areas of the codebase a depth
 
 A side-effect of the loss of institutional knowledge and the temporary work in an area of the codebase is that the design degrades rapidly. One project team will begin to steer the part of the system in one direction with a set of refactorings only to be undone by the next team who had little or no knowledge of the design goals of the original team.
 
+No developer, or group of developers, understand all of the design decisions as well as the constraints and tradeoffs that were made that resulted in the current design. The design is an unfortunate result of a lot of disparate teams making changes to the same area of code over a long period of time (often between months of inactivity in that area of the code). Often teams will churn repeating the same mistakes that previous teams in the same area of the code have made.
+
 ###Focus on Short-term Deadlines 
 
-Projects tend to be large and they organized like waterfall software projects. The focus is on meeting a short-term deadline providing a predefined set of features. This is at odds with current trends in the software industry for building quality software like shipping small, incremental improvements and subscribing to practices like Continuous Integration and Continuous Delivery.
+Projects tend to be large and they are organized like waterfall software projects. The focus is on meeting a short-term deadline providing a predefined set of features. This is at odds with current trends in the software industry for building quality software like shipping small, incremental improvements and subscribing to practices like Continuous Integration and Continuous Delivery.
 
 ###Scalability Problems
 
-Scalability is a challenge in any organization. The way you work effectively on a small system with a handful of developers is very different than how you work effectively on a large system with many developers. However, that transition tends to be a very painful one. One of the most important aspects of organizing teams around products is that it scales. Project teams are broken from the start but organizations may have more success when there is only two or three project teams. As the organization grows beyond that the negative effects of project teams will cripple the development organization.
-
-Organizing teams by product or features scales. As the system increases in size and scope, additional teams can be created to own areas of the growing system. 
+Scalability is a challenge in any organization. The way you work effectively on a small system with a handful of developers is very different than how you work effectively on a large system with many developers. However, that transition tends to be a very painful one. One of the most important aspects of organizing teams around products is that it scales. Organizations may have more success when there is only two or three project teams. As the organization grows beyond that the negative effects of project teams will cripple the development organization. By contrast, as the system increases in size and scope, additional product teams can be created to own areas of the growing system. 
 
 ##Why are Project Teams Popular?
 
@@ -69,3 +69,11 @@ Another very popular argument is, *"We only have one big product not a lot of li
 ##Conclusion 
 
 If you find yourself struggling with code quality issues and your team is organizing around projects it may be time to discuss how your teams are organized. If your system lacks an architecture or at least one that allows for the existence of subcomponents, start having lunch sessions where your team can brainstorm how to break out areas of the code. You may see after a few sessions some definite subcomponents starting to form. The lines between them may be blurry at first, but you can iterate on it until you find the right responsibilities of each subcomponent.
+
+##Other Resources
+The product vs. project team discussion has been active for a long time. I've seen a move away from project teams coincide with the focus on agile software practices. Here are some other great articles describing why project teams should be avoided in favor of product teams:
+
+* [No Projects - Beyond Projects](http://www.infoq.com/articles/kelly-beyond-projects "No Projects - Beyond Projects") by Allan Kelly
+* [Project vs. Product](http://www.thoughtworks.com/insights/blog/project-vs-product "Project vs. Product") by Tabassum Farooque Memon (Thoughtworks)
+* [Projects are Evil and Must Be Destroyed](http://evan.bottch.com/2010/08/29/projects-are-evil-and-must-be-destroyed/ "Projects are Evil and Must Be Destroyed") by Evan Bottcher
+* [Dedicated Product Teams](http://svpg.com/dedicated-product-teams/ "Dedicated Product Teams") by Marty Cagan
