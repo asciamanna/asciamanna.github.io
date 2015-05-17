@@ -72,7 +72,7 @@ Another very popular argument is, *"We only have one big product not a lot of li
 If you find yourself struggling with code quality issues and your team is organizing around projects, it may be time to discuss how your teams are organized. If your system lacks an architecture, start having lunch sessions where your team can brainstorm how to break out areas of the code. You may see after a few sessions some definite subcomponents starting to form. The lines between them may be blurry at first, but you can iterate on it until you find the right responsibilities of each subcomponent.
 
 ##Other Resources
-The product team vs. project team discussion has been active for a long time. I've seen a move away from project teams coincide with the focus on agile software practices. Here are some other great articles describing why project teams should be avoided in favor of product teams:
+The product team vs. project team discussion has been active for a long time. I've seen a move away from project teams coincide with the focus on agile software practices. Here are some great articles describing why project teams should be avoided in favor of product teams:
 
 * [No Projects - Beyond Projects](http://www.infoq.com/articles/kelly-beyond-projects "No Projects - Beyond Projects") by Allan Kelly
 * [Project vs. Product](http://www.thoughtworks.com/insights/blog/project-vs-product "Project vs. Product") by Tabassum Farooque Memon (Thoughtworks)
