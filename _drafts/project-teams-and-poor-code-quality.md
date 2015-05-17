@@ -5,7 +5,7 @@ comments: true
 category: Development Process
 ---
 
-A large, and often overlooked, impact on code quality is how development teams are organized. Several times in my career I have experienced software quality issues that are a result of teams organizing around projects. This is something that I have been concerned about for several years, so I am happy to see that there is now a "No Projects" movement gaining steam in the software industry. With the rise of agile software development practices, microservices and some high profile successes that organizations have had organizing around products, it seems that the masses are starting to take notice. This way of organizing teams and work isn't new but it's certainly not as prevalent as it should be.
+A large, and often overlooked impact on code quality is how development teams are organized. Several times in my career I have experienced software quality issues that are a direct result of teams being organized around projects. This is something that I have been concerned about for several years, so I am happy to see that there is now a "No Projects" movement gaining steam in the software industry. With the rise of agile software development practices, microservices and some high profile successes that organizations have had organizing around products, it seems that the masses are starting to take notice. This way of organizing teams and work isn't new, but it's certainly not as prevalent as it should be.
 
 <!--more-->
 ##Alternatives to Project Team Development
@@ -16,7 +16,7 @@ There are alternatives to project team development. Some examples are product te
 There are a number of problems that occur when teams are organized around projects.
  
 ###Temporary
-The organization around a project is temporary. A team comes together to work on a project, if they are lucky they meet their predefined deadline, the software is shipped, and the team dissolves as the developers get assimilated into new project teams. When bugs or feature requests arise the team no longer exists to address them. While the project is temporary the code that gets created is permanent. This dissonance, in my opinion, is the root of all of the other issues that are created out of project team organization.
+The organization around a project is temporary. A team comes together to work on a project, if they are lucky they meet their deadline, the software is shipped and the team dissolves as the developers get assimilated into new project teams. When bugs or feature requests arise the team no longer exists to address them. While the project is temporary the code that gets created is permanent. This dissonance, in my opinion, is the root of all of the other issues that are created out of project team organization.
 
 ###Lack of Code Ownership
 
@@ -28,27 +28,27 @@ Yet another barrier to refactoring is that when organized by project, teams over
 
 ###Lack of Institutional Knowledge
 
-As people are constantly switching into and out of areas of the codebase a depth of knowledge that comes with working in the same area of the code for an extended period of time is lost. This leads to a decline in code quality and a lack of larger scale refactorings. 
+As developers are constantly switching into and out of areas of the codebase, a depth of knowledge that comes with working in the same area of the code for an extended period of time is lost. This leads to a decline in code quality and a lack of larger scale refactorings. 
 
 ####Design Rot
 
-A side-effect of the loss of institutional knowledge and the temporary work in an area of the codebase is that the design degrades rapidly. One project team will begin to steer the part of the system in one direction with a set of refactorings only to be undone by the next team who had little or no knowledge of the design goals of the original team.
+A side-effect of temporarily working in an area of the codebase is that the design degrades rapidly. One project team will begin to steer the part of the system in one direction with a set of refactorings only to be undone by the next team who had little or no knowledge of the design goals of the previous team.
 
-No developer, or group of developers, understand all of the design decisions as well as the constraints and tradeoffs that were made that resulted in the current design. The design is an unfortunate result of a lot of disparate teams making changes to the same area of code over a long period of time (often between months of inactivity in that area of the code). Often teams will churn repeating the same mistakes that previous teams in the same area of the code have made.
+No single developer understands all of the design decisions, the design constraints, or the tradeoffs that were made that resulted in the current design. The design is an unfortunate result of several disparate teams making changes to the same area of code over a long period of time (often between months of inactivity in that area of the code). It is not uncommon for teams to churn, repeating the same mistakes as previous teams.
 
 ###Focus on Short-term Deadlines 
 
-Projects tend to be large and they are organized like waterfall software projects. The focus is on meeting a short-term deadline providing a predefined set of features. This is at odds with current trends in the software industry for building quality software like shipping small, incremental improvements and subscribing to practices like Continuous Integration and Continuous Delivery.
+Projects tend to be large and they are organized like waterfall software projects. The focus is on meeting a short-term deadline while providing a predefined set of features. This is at odds with current trends for building quality software like shipping small incremental improvements and subscribing to practices like Continuous Integration and Continuous Delivery.
 
 ###Scalability Problems
 
-Scalability is a challenge in any organization. The way you work effectively on a small system with a handful of developers is very different than how you work effectively on a large system with many developers. However, that transition tends to be a very painful one. One of the most important aspects of organizing teams around products is that it scales. Organizations may have more success when there is only two or three project teams. As the organization grows beyond that the negative effects of project teams will cripple the development organization. By contrast, as the system increases in size and scope, additional product teams can be created to own areas of the growing system. 
+Scalability is a challenge in any organization. The way you work effectively on a small system with a handful of developers is very different than how you work effectively on a large system with many developers. However, that transition tends to be a very painful one. One of the most important aspects of organizing teams around products is that it scales. Organizations may have more success when there is only two or three project teams. As the organization grows beyond that, the negative effects of project teams will cripple the development organization. By contrast, as the system increases in size and scope, additional product teams can be created to own areas of the growing system. 
 
 ##Why are Project Teams Popular?
 
-Given these issues why is organizing work this way so popular? One reason is that, on the surface, it seems like it is the easiest way to organize a team for work. It appears like it is going to make the project manager's job a piece of cake. And in the short term it may actually do that. Unfortunately, what appears to be less work for project managers in the short-term leads to code quality issues that will make all future work harder for the entire organization. Given that in the software industry project managers tend to have positions of authority over developers (some doubling as the team manager, etc.) it is no surprise that team organization is skewed towards making their jobs easier even if it is a misconception.
+Given all of these issues, why is organizing work this way so popular? One reason is that, on the surface, it seems like it is the easiest way to organize a team for work. It appears like it is going to make the project manager's job a piece of cake. And in the short term it may actually do that. Unfortunately, what appears to be less work for project managers in the short-term leads to code quality issues that will make all future work harder for the entire organization. Given that in the software industry project managers tend to have positions of authority over developers (some doubling as the team manager, etc.) it is no surprise that team organization is skewed towards making their jobs easier even if it is a misconception.
 
-The idea that a project manager can have some amount of work and create a team for it out of thin air is a seductive one. They can pick and choose from the development team members and customize a team for every project that comes along. As a colleague of mine once said, *"That way of working would be fantastic if we were bricklayers. But knowledge work doesn't work that way."* The complexities inherent to software development require specific effort to ensure that the code and design are of high quality and stay that way. So adding new features on year ten of a project is just as easy as adding features on day one.
+The idea that a project manager can have some amount of work and create a team for it out of thin air is a seductive one. They can pick and choose from the development team members and customize a team for every project that comes along. As a colleague of mine once said, *"That way of working would be fantastic if we were bricklayers. But knowledge work doesn't work that way."* The complexities inherent to software development require specific effort to ensure that the code and design are high quality and stay that way. So adding new features on year ten of a system is just as easy as adding features on day one.
 
 ##Arguments Against Product Team Organization
 
@@ -56,7 +56,7 @@ The idea that a project manager can have some amount of work and create a team f
 
 The often-used argument against product team organization is, *"What if we organize around products and one team has no work for a specific product? That's why it won't work here!"* This is an argument that is rooted in a project-thinking mindset. As teams coalesce around products and those teams have dedicated product owners, the team is now responsible for pushing that product forward. 
 
-Typically, products should be small enough that teams will have multiple products. This reduces the likelihood that one team starves for work. If a specific product team really does have no work, which is unlikely, products can be shifted but teams should be kept together. When products are shifted a team still owns that code and you still get the benefits of code ownership. While it's not ideal, you are trading institutional knowledge for team flexibility. 
+Typically, products should be small enough that teams will have ownership of multiple products. This reduces the likelihood that one team starves for work. If a specific product team really doesn't have work, which is unlikely, products can be shifted but teams should be kept together. When products are shifted a team still owns that code and you still get the benefits of code ownership. While it's not ideal, you are trading institutional knowledge for team flexibility. 
 
 ###Consistency
 
@@ -68,10 +68,10 @@ Another very popular argument is, *"We only have one big product not a lot of li
 
 ##Conclusion 
 
-If you find yourself struggling with code quality issues and your team is organizing around projects it may be time to discuss how your teams are organized. If your system lacks an architecture or at least one that allows for the existence of subcomponents, start having lunch sessions where your team can brainstorm how to break out areas of the code. You may see after a few sessions some definite subcomponents starting to form. The lines between them may be blurry at first, but you can iterate on it until you find the right responsibilities of each subcomponent.
+If you find yourself struggling with code quality issues and your team is organizing around projects, it may be time to discuss how your teams are organized. If your system lacks an architecture, start having lunch sessions where your team can brainstorm how to break out areas of the code. You may see after a few sessions some definite subcomponents starting to form. The lines between them may be blurry at first, but you can iterate on it until you find the right responsibilities of each subcomponent.
 
 ##Other Resources
-The product vs. project team discussion has been active for a long time. I've seen a move away from project teams coincide with the focus on agile software practices. Here are some other great articles describing why project teams should be avoided in favor of product teams:
+The product team vs. project team discussion has been active for a long time. I've seen a move away from project teams coincide with the focus on agile software practices. Here are some other great articles describing why project teams should be avoided in favor of product teams:
 
 * [No Projects - Beyond Projects](http://www.infoq.com/articles/kelly-beyond-projects "No Projects - Beyond Projects") by Allan Kelly
 * [Project vs. Product](http://www.thoughtworks.com/insights/blog/project-vs-product "Project vs. Product") by Tabassum Farooque Memon (Thoughtworks)
