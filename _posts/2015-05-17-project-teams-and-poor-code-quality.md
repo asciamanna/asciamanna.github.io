@@ -8,6 +8,7 @@ category: Development Process
 A large, and often overlooked impact on code quality is how development teams are organized. Several times in my career I have experienced software quality issues that are a direct result of teams being organized around projects. This is something that I have been concerned about for several years, so I am happy to see that there is now a "No Projects" movement gaining steam in the software industry. With the rise of agile software development practices, microservices and some high profile successes that organizations have had organizing around products, it seems that the masses are starting to take notice. This way of organizing teams and work isn't new, but it's certainly not as prevalent as it should be.
 
 <!--more-->
+
 ##Alternatives to Project Team Development
 
 There are alternatives to project team development. Some examples are product teams, business capability teams and feature teams (depending on how they are organized). Regardless of what these types of teams are called they share some common characteristics that have a positive affect on the quality of the codebase. Teams are permanent and own their area of the code. They communicate with other areas of the code through defined interfaces where necessary. However, the code that they own is aligned in such a way that the cross-team communication is not required to complete features. The team has a product owner who is empowered to make decisions about the direction of the product and has the final say on feature priority without requiring buy-in from the larger organization. 
@@ -71,7 +72,7 @@ Another very popular argument is, *"We only have one big product not a lot of li
 If you find yourself struggling with code quality issues and your team is organizing around projects, it may be time to discuss how your teams are organized. If your system lacks an architecture, start having lunch sessions where your team can brainstorm how to break out areas of the code. You may see after a few sessions some definite subcomponents starting to form. The lines between them may be blurry at first, but you can iterate on it until you find the right responsibilities of each subcomponent.
 
 ##Other Resources
-The product team vs. project team discussion has been active for a long time. I've seen a move away from project teams coincide with the focus on agile software practices. Here are some other great articles describing why project teams should be avoided in favor of product teams:
+The product team vs. project team discussion has been active for a long time. I've seen a move away from project teams coincide with the focus on agile software practices. Here are some great articles describing why project teams should be avoided in favor of product teams:
 
 * [No Projects - Beyond Projects](http://www.infoq.com/articles/kelly-beyond-projects "No Projects - Beyond Projects") by Allan Kelly
 * [Project vs. Product](http://www.thoughtworks.com/insights/blog/project-vs-product "Project vs. Product") by Tabassum Farooque Memon (Thoughtworks)
