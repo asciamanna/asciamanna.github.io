@@ -4,7 +4,7 @@ layout: default
 {% for post in paginator.posts %}
     <div class="post-list-item">
         <div class="post-header">
-            {{ post.date | date: "%A %B %-d, %Y" }}
+          <i class="fa fa-clock-o"></i> {{ post.date | date: "%A %B %-d, %Y" }}
         </div>
         <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
         {{post.excerpt }} <a href="{{ post.url}}">Continue Reading <i class="fa
@@ -12,7 +12,7 @@ layout: default
         <br/>
         <br/>
         <p>
-        Category: {{post.category}} | <a href="{{post.url}}#disqus_thread">Leave a Comment</a>
+        <i class="fa fa-folder-open"></i> {{post.category}} | <a href="{{post.url}}#disqus_thread">Leave a Comment</a>
         </p>
     </div>
      <hr/>
