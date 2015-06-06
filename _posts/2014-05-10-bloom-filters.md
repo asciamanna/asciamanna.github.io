@@ -8,7 +8,7 @@ tags: [code-kata]
 I was first introduced to the Bloom filter data structure several years ago on Dave Thomas'
 [code kata website](http://codekata.com/). While working through his code katas I came across one for
 implementing a spell checker using a bloom filter. It can be found
-[here](http://codekata.com/kata/kata05-blu-filters/). Having never encountered
+[here](http://codekata.com/kata/kata05-bloom-filters/). Having never encountered
 Bloom filters in algorithms or data structures classes I found it a fascinating way to address set membership when the set can be very large.  
 <!--more-->  
 
