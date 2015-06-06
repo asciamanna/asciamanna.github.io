@@ -3,6 +3,7 @@ layout: post
 title: Ping Pong Pair Programming 
 comments: true
 category: Development Practices
+tags: [pair-programming, tdd, unit-testing]
 ---
 The most effective form of pair programming I've experienced is called Ping Pong Pair Programming. I find it so effective that I prefer not to pair at all if I cannot ping pong program. The majority of development teams I've encountered who occasionally pair program don't practice ping pong pair programming. They view "pairing" as one developer taking a much more passive role. I suspect these teams would enjoy pair programming more and identify its benefits if they tried ping pong pairing.
 <!--more-->

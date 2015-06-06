@@ -3,6 +3,7 @@ layout: post
 title: xUnit is not Unit Testing
 comments: true
 category: Software Craftsmanship
+tags: [unit-testing, tdd, code-quality]
 ---
 As I interact with more developers who either have very little experience writing unit tests or have had negative experiences with it I am noticing a trend: The thought that a "unit test" is simply a test written in an xUnit test harness. 
 

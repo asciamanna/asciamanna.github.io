@@ -1,0 +1,44 @@
+- slug: code-comments
+  name: Code Comments
+
+- slug: clean-code
+  name: Clean Code
+
+- slug: angular-js
+  name: AngularJS
+
+- slug: javascript
+  name: JavaScript
+
+- slug: unit-testing
+  name: Unit Testing
+
+- slug: tdd
+  name: TDD
+
+- slug: code-quality
+  name: Code Quality
+
+- slug: project-teams
+  name: Project Teams
+
+- slug: pair-programming 
+  name: Pair Programming
+
+- slug: extreme-programming
+  name: eXtreme Programming
+
+- slug: agile-development
+  name: Agile Development
+
+- slug: refactoring
+  name: Refactoring
+
+- slug: code-kata
+  name: Code Kata
+ 
+- slug: retrospectives
+  name: Retrospectives
+
+- slug: code-ownership
+  name: Code Ownership

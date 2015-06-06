@@ -3,6 +3,7 @@ layout: post
 title: The Dangers of Development Tools
 comments: true
 category: Development Tools
+tags: [extreme-programming, agile-development]
 ---
 This is my second post in a series about development tools. In my  [previous post](/2015/01/17/a-better-bug-tracker.html "A Better Bug Tracker") I discussed why bug tracking software is a sign that there is a problem with the development practices / processes of an organization. This post will focus on the problems that development tools create in general.
 

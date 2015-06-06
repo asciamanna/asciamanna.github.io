@@ -3,6 +3,7 @@ layout: post
 title: Self Documenting Code and Meaningful Comments
 comments: true
 category: Software Craftsmanship
+tags: [code-comments, clean-code, code-quality]
 ---
 Software is read many more times than it is written and it lives on longer than
 most people expect. Because of this we professional software developers have a
