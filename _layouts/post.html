@@ -21,11 +21,12 @@ layout: default
 <br/>
 Posted by Anthony Sciamanna &#x25cf {{page.date | date: "%A %B %-d, %Y"}} &#x25cf {{content | number_of_words}} words
 <br/>
-<i class="fa fa-folder-open"></i>  {{ page.category}}
-{% assign post = page %}
-{% include tag_creation.html %}
- {{ tags_content}}
-<br/>
+<div class="category-and-tags-row">
+   <i class="fa fa-folder-open"></i>  {{ page.category}}
+   {% assign post = page %}
+   {% include tag_creation.html %}
+   {{ tags_content}}
+</div>
 <div style="float:left;">
 <a href="https://twitter.com/share" class="twitter-share-button"
     data-via="asciamanna">Tweet</a>
