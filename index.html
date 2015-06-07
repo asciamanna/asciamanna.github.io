@@ -2,23 +2,7 @@
 layout: default
 ---
 {% for post in paginator.posts %}
-    {% include tag_creation.html %}
-    <div class="post-list-item">
-        <div class="post-header">
-          <i class="fa fa-clock-o"></i> {{ post.date | date: "%A %B %-d, %Y" }}
-        </div>
-        <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
-        {{post.excerpt }} <a href="{{ post.url}}">Continue Reading <i class="fa
-                fa-long-arrow-right fa-fw"></i></a>
-        <br/>
-        <br/>
-        <p>
-        <i class="fa fa-folder-open"></i>  {{post.category}} 
-        {{tags_content}} 
-        <i class="fa fa-comments"></i>  <a href="{{post.url}}#disqus_thread">Leave a Comment</a>
-        </p>
-    </div>
-     <hr/>
+  {% include post_preview.html %}
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}

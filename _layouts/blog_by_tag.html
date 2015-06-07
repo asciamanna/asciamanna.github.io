@@ -5,12 +5,9 @@ layout: default
 <hr/>
 <div>
   {% if site.tags[page.tag] %}
-     <ul>
      {% for post in site.tags[page.tag] %}
-        <li><a href="{{ post.url }}/">{{ post.title }}</a></li>
-	<br/>
+        {% include post_preview.html %}
      {% endfor %}
-     </ul>
   {% else %}
 	<p>There are no posts for this tag.</p>
   {% endif %}
