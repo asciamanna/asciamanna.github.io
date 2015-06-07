@@ -2,8 +2,10 @@
 layout: default
 ---
 <div class="post-header">
-   <i class="fa fa-clock-o"></i> {{ page.date | date: "%A %B %-d, %Y"}} 
+   <span class="row-data"><i class="fa fa-clock-o"></i> {{ page.date | date: "%A %B %-d, %Y"}} </span>
+   <span class="row-data">
    <i class="fa fa-comments"></i> <a href="{{page.url}}#disqus_thread">Leave a Comment</a>
+   </span>
 </div>
 <h1>{{ page.title}}</h1>
 <hr/>
@@ -22,10 +24,12 @@ layout: default
 Posted by Anthony Sciamanna &#x25cf {{page.date | date: "%A %B %-d, %Y"}} &#x25cf {{content | number_of_words}} words
 <br/>
 <div class="category-and-tags-row">
-   <i class="fa fa-folder-open"></i>  {{ page.category}}
+   <span class="row-data"><i class="fa fa-folder-open"></i>  {{ page.category}}</span>
    {% assign post = page %}
    {% include tag_creation.html %}
+   <span class="row-data">
    {{ tags_content}}
+   </span>
 </div>
 <div style="float:left;">
 <a href="https://twitter.com/share" class="twitter-share-button"

@@ -9,9 +9,15 @@
         <br/>
         <br/>
         <p>
-        <i class="fa fa-folder-open"></i>  {{post.category}}
-        {{tags_content}}
-        <i class="fa fa-comments"></i>  <a href="{{post.url}}#disqus_thread">Leave a Comment</a>
+           <span class="row-data">
+              <i class="fa fa-folder-open"></i>  {{post.category}}
+           </span>
+           <span class="row-data">
+             {{tags_content}}
+           </span>
+           <span clas="row-data">
+              <i class="fa fa-comments"></i>  <a href="{{post.url}}#disqus_thread">Leave a Comment</a>
+           </span>
         </p>
     </div>
     <hr/>
