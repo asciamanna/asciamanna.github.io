@@ -2,7 +2,7 @@
 layout: post
 title: Project Teams and Poor Code Quality 
 comments: true
-category: Development Process
+category: Team Organization 
 tags: [code-quality, code-ownership, project-teams]
 ---
 
