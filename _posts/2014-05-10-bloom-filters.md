@@ -2,7 +2,7 @@
 layout: post
 title: Bloom Filters
 comments: true
-category: Algorithms
+category: algorithms
 tags: [code-kata]
 ---
 I was first introduced to the Bloom filter data structure several years ago on Dave Thomas'

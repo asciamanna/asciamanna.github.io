@@ -2,7 +2,7 @@
 layout: post
 title: Remove Refactoring Barriers
 comments: true
-category: Development Practices
+category: development-practices
 tags: [refactoring, code-quality, unit-testing, code-ownership]
 ---
 There are very few universal truths in software development. However, one that I would stand behind is that code needs to be continuously refactored. If developers are not constantly refactoring their code as they add functionality they are contributing to the rot of their system. 

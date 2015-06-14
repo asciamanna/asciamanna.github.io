@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Animations in AngularJS
 comments: true
-category: Web Development
+category: web-development
 tags: [angular-js, javascript] 
 ---
 Animations are becoming increasingly more important to create an engaging user experience on the web. Beginning with AngularJS 1.2 there is a new animation API using ngAnimate. While it might seem daunting at first, the animation API is quite easy to use, easy to integrate third-party animation libraries, and a marked improvement over the previous API.  

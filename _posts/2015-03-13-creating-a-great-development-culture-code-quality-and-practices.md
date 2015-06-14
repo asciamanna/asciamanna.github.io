@@ -2,7 +2,7 @@
 layout: post
 title: Creating a Great Development Culture - Part 1
 comments: true
-category: Development Practices
+category: development-practices
 tags: [code-quality, code-ownership, retrospectives, unit-testing]
 ---
 Over the years I've worked on some amazing development teams. Unfortunately, I've also worked on some I would consider fairly poor. Something I spend a lot of time thinking about is building great development teams. The amazing teams I've worked on had a lot of common qualities and I'm going to discuss those in this post. 

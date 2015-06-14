@@ -2,7 +2,7 @@
 layout: post
 title: Self Documenting Code and Meaningful Comments
 comments: true
-category: Software Craftsmanship
+category: software-craftsmanship
 tags: [code-comments, clean-code, code-quality]
 ---
 Software is read many more times than it is written and it lives on longer than

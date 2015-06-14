@@ -2,7 +2,7 @@
 layout: post
 title: Creating a Great Development Culture - Part 2
 comments: true
-category: Development Practices
+category: development-practices
 tags: [agile-development, code-kata]
 ---
 In my previous post I described that great development cultures emphasize code quality and have a shared set of values and development practices. In this post, the second part of the series on creating a great development culture, I will describe the other qualities great development teams have, **a culture of continuous learning** and a **lack of crunch mode or overtime**.

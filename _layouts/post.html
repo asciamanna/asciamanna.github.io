@@ -23,12 +23,15 @@ layout: default
 <br/>
 Posted by Anthony Sciamanna &#x25cf {{page.date | date: "%A %B %-d, %Y"}} &#x25cf {{content | number_of_words}} words
 <br/>
+{% assign post = page %}
 <div class="category-and-tags-row">
-   <span class="row-data"><i class="fa fa-folder-open"></i>  {{ page.category}}</span>
-   {% assign post = page %}
+   {% include category_creation.html %}
+   <span class="row-data">
+      {{category_content}}
+   </span>
    {% include tag_creation.html %}
    <span class="row-data">
-   {{ tags_content}}
+   {{tags_content}}
    </span>
 </div>
 <div style="float:left;">
