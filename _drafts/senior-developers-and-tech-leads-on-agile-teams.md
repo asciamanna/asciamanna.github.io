@@ -42,7 +42,7 @@ In some cases you may find the current senior developers are also the ones best 
 > &mdash; _Ron Jeffries, The Nature of Software Development, page 30_  
 >
 
-##Technical Leads
+##Technical Leads / Project Leads
 Slightly more controversial is the role of a technical lead. Once an organization has adapoted agile practices making a single person the "lead" of the group undermines a lot of the benefits the agile practices can provide. There are three agile practices in particular that I want to discuss. These are **self organizing teams**,  **cross-functional teams**, and **retrospectives**. 
 
 ###Self Organizing Teams
