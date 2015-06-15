@@ -5,7 +5,7 @@ comments: true
 category: team-organization
 tags: [agile-development, mentoring]
 ---
-As development organizations adopt agile practices the senior developer and technical lead roles change dramatically. It is very common for organizations to hold on to their previous conceptions of these roles and responsibilities. Trying to transform a development team into an agile team and not changing these roles accordingly will have a negative effect on the team. In doing so these teams will not realize their full potential, becoming less effective and less efficient than they could be.
+As development organizations adopt agile practices the senior developer and team lead roles change dramatically. It is very common for organizations to hold on to their previous conceptions of these roles and responsibilities. Trying to transform a development team into an agile team and not changing these roles accordingly will have a negative effect on the team. In doing so these teams will not realize their full potential, becoming less effective and less efficient than they could be.
 
 ##Senior Developers
 ###The Ones Who Get the Most Done
@@ -42,11 +42,15 @@ In some cases you may find the current senior developers are also the ones best 
 > &mdash; _Ron Jeffries, The Nature of Software Development, page 30_  
 >
 
-##Technical Leads / Project Leads
-Slightly more controversial is the role of a technical lead. Once an organization has adapoted agile practices making a single person the "lead" of the group undermines a lot of the benefits the agile practices can provide. There are three agile practices in particular that I want to discuss. These are **self organizing teams**,  **cross-functional teams**, and **retrospectives**. 
+##Technical Leads / Project Leads / Team Leads / etc.
+Once an organization has adapoted agile practices making a single person the "lead" of the group undermines a lot of the benefits the agile practices can provide. That is not to say that leaders don't exist. Some folks are natural leaders and people will rally around them. The team will respect these employees. These are the people who will be coaching and taking on a lot of the responsibilities discussed previously. However, it is important to know that this leadership is completely independent a title and on the best teams this leadership is not consolidated in a single person. 
+
+There are two agile practices in particular that I want to discuss that are at risk. These are **self organizing teams**,  and **retrospectives**. 
 
 ###Self Organizing Teams
 
+<JAMES SHORE QUOTE HERE>
+art of agile, page 52
 
 ###Cross-Functional Teams
 
