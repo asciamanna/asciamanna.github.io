@@ -5,13 +5,15 @@ comments: true
 category: team-organization
 tags: [agile-development, mentoring]
 ---
-As development organizations adopt agile practices the senior developer and team lead roles change dramatically. It is very common for organizations to hold on to their previous conceptions of these roles and responsibilities. Trying to transform a development team into an agile team and not changing these roles accordingly will have a negative effect on the team. In doing so these teams will not realize their full potential, becoming less effective and less efficient than they could be.
+As development organizations adopt agile practices the roles in the entire organization change. In this post I want to focus on the dramatically changing roles of senior developers and team leads. In future posts I will discuss how some other roles change. It is very common for organizations to hold on to their previous conceptions of these roles and responsibilities. Trying to transform a development team into an agile team and not changing these roles accordingly will have a negative effect on the team by undermining the agile principles. In doing so these teams will not realize their full potential, becoming less effective and less efficient than they could be.
 
 ##Senior Developers
 ###The Ones Who Get the Most Done
+
 Prior to an organization adopting agile practices development teams typically have individual work assignments. It is easy to see how much work one developer is working on versus another. I'm not saying this is a good metric for comparison mind you. I'm just saying when there are individual work assignments, the person doing the work is visible outside of the development team. Because of this the developers who are perceived as getting the most work done tend to be ones rewarded and the ones who are viewed as the senior developers in the organization.
 
 ###Agile Senior Developers - Coaches & Mentors
+
 Once an organization adopts agile development practices getting the most "work" done is __*NOT*__ the most important quality of a senior developer. The senior developers are the ones who are coaching and mentoring the other developers on the team. In addition to "getting work done," they are spending a significant part of their day on coaching and mentoring activities. Listed below are responsibilities I would expect of senior developers on agile teams. The list is a combination of some of my own thoughts and some responsibilities that [Esther Derby](http://www.estherderby.com/ "Esther Derby's website") describes in her post, [But are they Working Hard?](http://www.estherderby.com/2012/02/but-are-they-working-hard.html)
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">When you&#39;re the senior in junior/senior pair programming, the measure of your success is how much the junior learns</p>&mdash; Kent Beck (@KentBeck) <a href="https://twitter.com/KentBeck/status/602892538337337345">May 25, 2015</a></blockquote>
@@ -43,23 +45,24 @@ In some cases you may find the current senior developers are also the ones best 
 >
 
 ##Technical Leads / Project Leads / Team Leads / etc.
-Once an organization has adapoted agile practices making a single person the "lead" of the group undermines a lot of the benefits the agile practices can provide. That is not to say that leaders don't exist. Some folks are natural leaders and people will rally around them. The team will respect these employees. These are the people who will be coaching and taking on a lot of the responsibilities discussed previously. However, it is important to know that this leadership is completely independent of a title and on the best teams this leadership is not consolidated in a single person. 
+Once an organization has adapoted agile practices making a single person the "lead" of the group undermines a lot of the benefits the agile practices can provide. That is not to say that leaders don't exist. Some folks are natural leaders and people will rally around them. The team will respect and trust these employees, and the employee will serve as a great example for the rest of the team. These are the people who will be coaching and taking on a lot of the responsibilities discussed previously. However, it is important to know that this leadership is totally independent of a title and on the best teams this leadership is not consolidated in a single person. 
 
 There are two agile practices in particular that I want to discuss that are at risk. These are **self organizing teams**,  and **retrospectives**. 
 
 ###Self Organizing Teams
+> XP relies on self-organizing teams. This kind of team doesn't have a predefined hierarchy; instead, the team decides for  itself who is in charge of what. These roles are usually informal. In fact, in a mature XP team, there is no one leader. Team members seamlessly defer leadership responsibilities from one person to the next, moment to moment, depending on the task at hand and the expertise of those involved.
+> &mdash; _James Shore, The Art of Agile Development, page 52_
 
-<JAMES SHORE QUOTE HERE>
-art of agile, page 52
+Appointing a single lead on a team, whether it be a developer who is the technical lead or a business analyst or project manager who is considered the team lead, teams can no longer self organize. Once a lead is given a title there is the expectation that they are doing more than others on the team to justify this position. If the lead is making most of the decisions this is robbing the rest of the team of these opportunities. The self organizing team becomes a "lead organized" team.  Again quoting Esther Derby from her article, _But Are The Working Hard?_:
 
-###Cross-Functional Teams
+>If only senior level developers initiate good practices, I worry that they've created a pecking order on the team, and junior people with good ideas don't get a chance to contribute. (Its a variation on the HiPPO problem–deferring to the Highest Paid Person's Opinion).
+> &mdash; _Esther Derby_
+
+Teams are motivated by their autonomy, mastery, and a sense of purpose. Often a lead being put on one of these teams "coming from above" or rather coming from management will reduce the team's feeling of autonomy, mastery, and purpose.
 
 ###Retrospectives
+Retrospectives are an invaluable tool in every software organization. They provide regular opportunties and a framework for improvement, allowing a team time to reflect and build trust in one another by solving problems together.
 
-When a single person is the lead, whether it be a developer who is the technical lead or a business analyst / project manager who is considered the team lead, teams can no longer self organize.
-
-Cross-functional teams cannot truly be cross functional once a team lead is in place. When a project manager leads the team schedule becomes the highest priority and code quality tends to deteriorate. When a specific developer is appointed as technical lead, technical decisions don't get made without her buy in. This creates an environment where other developers stop growing as a single developer makes all of the "important" decisions about the software. Whether that is design, larger refactorings, architecture, etc.
-
-Retrospectives become inaffective if the team cannot work together to solve their problems. In the case where the lead needs to agree to or, worse yet, be the source of all improvements the retrospective is just going through the motions and a wasted effort. One of the great benefits of retrospectives is that they promote trust within the organization and allow teams who don't necessarily work well together the opportunities to learn how to work and solve problems as a team.  Calling a single person out to identify the problems and/or solve the problems robs the teams of these opportuntities.
+Once an individual lead is named retrospectives can easily become inaffective if the team cannot work together to solve their problems. In the case where the lead needs to agree to or, worse yet, be the source of all improvements the retrospective is just going through the motions and a wasted effort. 
 
 http://adamralph.com/2014/03/15/no-tech-lead/
