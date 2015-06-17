@@ -5,7 +5,7 @@ comments: true
 category: team-organization
 tags: [agile-development, mentoring]
 ---
-As development organizations adopt agile practices the roles in the entire organization change. In this post I want to focus on the dramatically changing roles of senior developers and team leads. In future posts I will discuss how some other roles change. It is very common for organizations to hold on to their previous conceptions of these roles and responsibilities. Trying to transform a development team into an agile team and not changing these roles accordingly will have a negative effect on the team by undermining the agile principles. In doing so these teams will not realize their full potential, becoming less effective and less efficient than they could be.
+As development organizations adopt agile practices the all of the roles in the organization change. In this post I want to focus on the dramatically changing roles of senior developers and team leads. In future posts I will discuss how some other roles in the organization change. It is very common for organizations to hold on to their previous conceptions of these roles and responsibilities. Trying to transform a development team into an agile team and not changing these roles accordingly will have a negative effect on the team by undermining the agile principles. In doing so these teams will not realize their full potential, becoming less effective and less efficient than they could be.
 
 ##Senior Developers
 ###The Ones Who Get the Most Done
@@ -35,6 +35,8 @@ Once an organization adopts agile development practices getting the most "work" 
 * organizing and running team retrospectives
 * encouraging junior developers to take the lead on all of the aforementioned responsibilities
 * ensuring that a team hierarchy / pecking order is not forming
+
+I'd like to call special attention to the second to last bullet point. One of the most effective things you can do as a coach is to allow the junior developers to do a lot of what you would consider "lead" work.  Some senior developers struggle with this worrying that they have to be the ones doing the "lead" work since they are considered the senior folks on the team.  However, one of the best ways to  mentor junior developers is giving them a safe environment to take on responsibilities that may seem like a stretch, and provbiding support and feedback along the way.
 
 ####Is there Overlap?
 In some cases you may find the current senior developers are also the ones best suited for coaching and mentoring. However, in a lot of situations this is not the case. While not exactly mutually exclusive, the skills that make a developer good at working alone and getting a lot of work done are not the same people skills that a developer is going to need to be a great coach and mentor. In these cases the organization is in a challenging position where it has to start rewarding a totally different set of behaviors than it has previously. 
