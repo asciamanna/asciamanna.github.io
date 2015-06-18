@@ -5,7 +5,7 @@
 $black-background: #222;
 $grey: #d0caca;
 $nav-element-grey: #999;
-$off-white: #f0f0f0;
+$white-text-background: #fefefe;
 
 body {
     background-color: $black-background;
@@ -45,7 +45,7 @@ hr {
 }
 
 .content {
-    background-color: $off-white;
+    background-color: $white-text-background;
     border-radius: 10px;
 }
 
