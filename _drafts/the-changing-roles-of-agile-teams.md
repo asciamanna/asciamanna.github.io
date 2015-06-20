@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Changing Roles on Agile Teams 
+title: The Changing Roles of Agile Teams 
 comments: true
 category: team-organization
 tags: [agile-development, mentoring]
@@ -56,16 +56,17 @@ There are two agile practices in particular that I want to discuss that are at r
 > XP relies on self-organizing teams. This kind of team doesn't have a predefined hierarchy; instead, the team decides for  itself who is in charge of what. These roles are usually informal. In fact, in a mature XP team, there is no one leader. Team members seamlessly defer leadership responsibilities from one person to the next, moment to moment, depending on the task at hand and the expertise of those involved.
 > &mdash; _James Shore, The Art of Agile Development, page 52_
 
-Appointing a single lead on a team, whether it be a developer who is the technical lead or a business analyst or project manager who is considered the team lead, teams can no longer self organize. Once a lead is given a title there is the expectation that they are doing more than others on the team to justify this position. If the lead is making most of the decisions this is robbing the rest of the team of these opportunities. The self organizing team becomes a "lead organized" team.  Again quoting Esther Derby from her article, _But Are The Working Hard?_:
+Appointing a single lead on a team, whether it be a developer who is the technical lead or a business analyst or project manager who is considered the team lead, results in teams that can no longer self organize. Once a lead is given a title there is the expectation that they are doing more than others on the team to justify this position. If the lead is making most of the decisions this is robbing the rest of the team of these opportunities. The self organizing team becomes a "lead organized" team. Again quoting Esther Derby from her article, _But Are The Working Hard?_:
 
 >If only senior level developers initiate good practices, I worry that they've created a pecking order on the team, and junior people with good ideas don't get a chance to contribute. (Its a variation on the HiPPO problem–deferring to the Highest Paid Person's Opinion).
 > &mdash; _Esther Derby_
 
-Teams are motivated by their autonomy, mastery, and a sense of purpose. Often a lead being put on one of these teams "coming from above" or rather coming from management will reduce the team's feeling of autonomy, mastery, and purpose.
+__Teams are motivated by their autonomy, mastery, and a sense of purpose.__ Often a lead being put on one of these teams "coming from above" or rather coming from management will reduce the team's feeling of autonomy, mastery, and purpose.
 
 ###Retrospectives
-Retrospectives are an invaluable tool in every software organization. They provide regular opportunties and a framework for improvement, allowing a team time to reflect and build trust in one another by solving problems together.
+Retrospectives are an invaluable tool in every software organization. They provide regular opportunities for improvement as well as a framework for surfacing and solving problems as a team. This allows a team time to reflect the work done and build trust in one another by solving problems together.
 
-Once an individual lead is named retrospectives can easily become inaffective if the team cannot work together to solve their problems. In the case where the lead needs to agree to or, worse yet, be the source of all improvements the retrospective is just going through the motions and a wasted effort. 
+Once an individual lead is named retrospectives can easily become ineffective if the team cannot work together to solve their problems. In the case where the lead needs to agree to or, worse yet, be the source of all improvements the retrospective is just going through the motions and a wasted effort. 
 
-http://adamralph.com/2014/03/15/no-tech-lead/
+##Conclusion
+One of the biggest challenges with adopting agile practices is the amount of change an organization needs to go through to do it right. The vast majority of organizations are not prepared to make the changes necessary. The result is a focus on their own customized / modified agile practices that are ignorant of the agile principles that the practices are designed to support. In a future post I will examine this in more detail. Specifically why you shouldn't be modifying agile processes before you have mastered ones taught to your organization by an expert.
