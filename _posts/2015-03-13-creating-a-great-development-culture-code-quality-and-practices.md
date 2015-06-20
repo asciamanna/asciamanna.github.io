@@ -18,8 +18,8 @@ This post will be split into two parts. Come back for the second part that will 
 ##Focus on Code Quality and Development Practices
 The best teams I've worked on understood that producing working software was not the goal. Working software is the low bar set by the industry. They believed that being a professional developer meant producing working software that communicated the intent of the code in the clearest manner possible. Well designed code that not only worked but was easy to maintain, easy to reason about, easy to test, and easy to extend. __*That*__ was the goal! 
 
-> "Communication is the professional developer's first order of business. Perhaps you thought that 'getting it working' was the first order of business for a professional developer. I hope by now, however, this book has disabused you of that idea."
-> &mdash; *[Robert Martin](https://twitter.com/unclebobmartin/following "Uncle Bob's Twitter "), Clean Code page 76*
+> Communication is the professional developer's first order of business. Perhaps you thought that 'getting it working' was the first order of business for a professional developer. I hope by now, however, this book has disabused you of that idea.<br/>
+> &mdash; [Robert Martin](https://twitter.com/unclebobmartin/following "Uncle Bob's Twitter "), Clean Code page 76
 
 Great teams have a set of shared values and adhere to practices that support those values. I will discuss this in greater detail in a future post. But I want to talk about some of the practices that encourage high quality code.
 

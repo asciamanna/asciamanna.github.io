@@ -78,7 +78,7 @@ Pairing with a seasoned TDD practitioner, developers new to the practice will le
 * How to write testable code and begin to recognize the bad programming habits that they have accumulated over time that make unit testing their code impossible.
 
 <blockquote>
-"The fact remains: Good design is testable, and design that isn't testable is bad."<br/>
+The fact remains: Good design is testable, and design that isn't testable is bad.<br/>
 &mdash; Michael C. Feathers, <em>Working Effectively with Legacy Code</em>
 </blockquote>
 

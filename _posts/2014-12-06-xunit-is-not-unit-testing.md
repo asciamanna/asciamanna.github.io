@@ -36,7 +36,7 @@ look at the failure, and determine where along the path from inputs to outputs t
 
 And on coverage:  
 
->[In a large test] it is hard to see the connection between a piece of code and the
+> In a large test it is hard to see the connection between a piece of code and the
 values that exercise it. We can usually find out whether a piece of code is exercised by a test using coverage tools, but when we add new code, we might have to do considerable work to create high-level tests that exercise
 the new code.  
 &mdash; _Michael Feathers, Working Effectively with Legacy Code, pages 12 -13_

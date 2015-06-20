@@ -48,7 +48,7 @@ In some cases you may find the current senior developers are also the ones best 
 
 ##Technical Leads / Project Leads / Team Leads / etc.
 
-Once an organization has adapoted agile practices making a single person the "lead" of the group undermines a lot of the benefits the agile practices can provide. That is not to say that leaders don't exist. Some folks are natural leaders and people will rally around them. The team will respect and trust these employees, and the employee will serve as a great example for the rest of the team. These are the people who will be coaching and taking on a lot of the responsibilities discussed previously. However, it is important to know that this leadership is totally independent of a title and on the best teams this leadership is not consolidated in a single person. 
+Once an organization has adapoted agile practices making a single person the "lead" of the group undermines a lot of the benefits that agile practices can provide. That is not to say that leaders don't exist. Some folks are natural leaders and people will rally around them. The team will respect and trust these employees, and the employee will serve as a great example for the rest of the team. These are the people who will be coaching and taking on a lot of the responsibilities discussed previously. However, it is important to know that this leadership is totally independent of a title and on the best teams this leadership is not consolidated in a single person. 
 
 There are two agile practices in particular that I want to discuss that are at risk. These are **self organizing teams**,  and **retrospectives**. 
 

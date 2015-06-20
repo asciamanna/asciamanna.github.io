@@ -56,14 +56,14 @@ so I didn't need the comment, I can honestly state that I was completely wrong.
 
 Bob Martin sums up my feelings about comments best in his book _Clean Code_.  
 
-> "The proper use of comments is to compensate for our failure to express
-> ourself in code."  
+> The proper use of comments is to compensate for our failure to express
+> ourself in code.  
 >&mdash; _Robert Martin, Clean Code, page 54_  
 
 While he admits that some comments are necessary and beneficial he goes on to
 say&hellip;
 
-> "The only truly good comment is the comment you found a way not to write."  
+> The only truly good comment is the comment you found a way not to write.    
 >&mdash; _Robert Martin, Clean Code, page 55_
 
 Comments can be beneficial but only after first trying to
@@ -75,9 +75,9 @@ to keep them in sync with the software.
 To an extent I agree with Dave Thomas, Andy Hunt, and Robert Martin.
 Comments that describe the intent of the developer are generally useful. 
 
-> "In general, comments should discuss why something is done, its purpose
+> In general, comments should discuss why something is done, its purpose
 > and its goal. The code already shows how it is done, so commenting on this
-> is redundant."   
+> is redundant.   
 > &mdash; Dave Thomas and Andy Hunt, The Pragmatic Programmer: From Journeyman to Master, page 249
 
 Bob Martin lists the following in a section of _Clean Code_ entitled "Good Comments:"  
@@ -167,7 +167,7 @@ keep the history of the software modifications (that is its
 responsibility) and let developers look there. Put bug Ids in commit
 comments if that is helpful, not in source code.
 
-###File edit history
+###File Edit History
 These types of comments are the ones that document which developer
 changed which part of the code on what date. I've seen enormous class
 headers to track the file edit history. Again these types of comments I
