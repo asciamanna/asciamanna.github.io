@@ -19,7 +19,7 @@ Once the style is out of the way it is time to focus on coding conventions.  Her
 
 ###But Aren't These Arbitrary Rules?
 
-One argument that comes up when specific rules are discussed is, __"Aren't these arbitrary? Why is class with 100 lines okay but a class of 101 lines not okay?"__. My response is that they are supposed to arbitrary, that is the point. There is nothing inherently better about 100 lines of code versus 101 lines of code for class. It's about drawing a line in the sand and saying we favor small classes over large classes so this is the line that we will not cross as a team. Sandi Metz addresses this specifically in her talk called, Rules that she gave at Baruco 2013. 
+One argument that comes up when specific rules are discussed is, __"Aren't these rules arbitrary? Why is a class with 100 lines okay but a class of 101 lines not okay?"__. My response is that they are supposed to arbitrary, that is the point. There is nothing inherently better about 100 lines of code versus 101 lines of code for class. It's about drawing a line in the sand and saying we favor small classes over large classes so this is the line that we will not cross as a team. Sandi Metz addresses this specifically in her talk called, Rules that she gave at Baruco 2013. 
 https://www.youtube.com/watch?v=npOGOmkxuio
 
 ###How to Break the Rules
