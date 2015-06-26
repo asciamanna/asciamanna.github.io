@@ -22,11 +22,11 @@ Once the style is out of the way it is time to focus on coding conventions.  The
 
 ###But Aren't These Arbitrary Rules?
 
-One argument that often arises when specific rules are discussed is, __"Aren't these rules arbitrary? Why is a class with 100 lines okay but a class of 101 lines not okay?"__. The intent of these arguments are usually to dismiss the validity of these types of rules for a development team. My response is that they are supposed to arbitrary, that is the point. There is nothing inherently better about 100 lines of code versus 101 lines of code for a class. It's about drawing a line in the sand and saying we favor small classes over large classes so this is the line that we will not cross as a team. Sandi Metz addresses these types of rules specifically in her talk called, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio) that she gave at Baruco 2013. 
+One argument that often arises when specific rules are discussed is, __"Aren't these rules arbitrary? Why is a class with 100 lines okay but a class of 101 lines not okay?"__ The intent of these arguments is usually to dismiss the validity of these types of rules for a development team. My response is that the rules are supposed to arbitrary, that is the point. There is nothing inherently better about 100 lines of code versus 101 lines of code for a class. It's about drawing a line in the sand and saying we favor small classes over large classes so this is the line that we will not cross as a team. Sandi Metz addresses these types of rules specifically in her talk called, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio) that she gave at Baruco 2013. 
 
 ###How to Break the Rules
 
-The recommendations that Sandi Metz makes in her talk about breaking the rules is really the best advice for a team. Any rule in your coding conventions can be broken if you can convince another developer on your team that it is the right thing to do. Preferably this would be someone you are pairing with on the problem. I usually document this in the coding conventions document I write so that it is understood that the intent of the rules is not to follow them blindly and that often software development involves trade-offs. In some situations breaking a team rule about the software is by far the best decision given the alternatives. 
+In her talk Sandi Metz makes the following recommendation about breaking these rules once they are agreed upon. Any rule in your coding conventions can be broken if you can convince another developer on your team that it is the right thing to do. Preferably this would be someone you are pairing with on the problem. I usually document this in the coding conventions document I write so that it is understood that the intent of the rules is not to follow them blindly and that software development always involves trade-offs. In some situations breaking a team rule about the software is by far the best decision given the alternatives. 
 
 ###Keep it Simple
 
@@ -46,18 +46,18 @@ Consider adding rationale for rules if there may be disagreement in the team. Th
 
 ####Reference Implementations
 
-If specific rules can benefit from further clarification consider linking to a refernce piece of code. It could either be online or within your own codebase.
+If specific rules can benefit from further clarification consider linking to a reference piece of code. It could either be online or within your own codebase.
 
 ###Make the Conventions Visible
 
 Once you have the initial cut of the coding conventions post them in area that is visible to the entire organization like a team website or blog and commit them to your VCS. Ensure that every new hire knows what they are and why they are important to the team. 
 
 ##Why is This So Important?
-I do hear some developers grumble over coding conventions. Things like __"We shouldn't need a document to tell us how to work together"__ or __"We have bigger problems that coding conventions can't solve."__ If you don't see the value in coding conventions I would again recommend watching Sandi Metz's talk I referenced earlier, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio). She makes a fantastic case for why rules on development teams are so important.  
+I do hear some developers grumble over coding conventions. Things like __"We shouldn't need a document to dictate how we need to work together"__ or __"We have bigger problems that coding conventions can't solve."__ If you don't see the value in coding conventions I would again recommend watching Sandi Metz's talk I referenced earlier, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio). She makes a fantastic case for why rules on development teams are so important.  
 
-As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams without coding standards will slow down. Adding new developers will slow the team down because of the huge learning curve required to understand code that looks like it was written by teams of developers who never worked together.  Furthermore having to come up to speed on a large number of third-party tools and libraries slows new developers down. This slows seasoned developers down to as they move to parts of the codebase they haven't worked in previously. Teams in these situations tend to add more developers to get faster which exacerbates the problem as there are now more developers working without a set of conventions.
+As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams who develop without a consistent coding standard will slow down. Bringing new developers up to speed on the team will take much longer due to  the huge learning curve required to understand code that looks like it was written by teams of developers who never worked together. Furthermore having to come up to speed on a large number of third-party tools and libraries slows new and seasoned developers down alike. Teams in these situations tend to add more developers to get faster which exacerbates the problem as there are now even more developers working without a set of conventions.
 
-The conding conventions can serve as tools to help locate problem areas of the code. Furthermore, coming up with these rules helps to surface what the teams values are.  And a team without a set of shared values isn't a team.  It is vitally important to share a set development values and make them known throughout the organization. Preferably by document these values as well.
+The coding conventions can serve as tools to help locate problem areas of the code. Furthermore, coming up with these rules helps to surface what the teams values are.  And a team without a set of shared values isn't a team.  It is vitally important to share a set development values and make them known throughout the organization. Preferably by document these values as well.
 
 ##Example
 
