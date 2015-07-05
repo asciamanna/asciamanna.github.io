@@ -44,11 +44,11 @@ There are several other things to consider documenting in your coding convention
 
 ####Third-Party Libraries and Frameworks
 
-If you team adopts many third-party libraries to address identical or even similar problems consider adding agreed upon libraries to your coding conventions document. This can be the used as the rationale to reject code reviews that add additional third-party libraries in favor of the agreed upon libraries.
+If your team adopts many third-party libraries to address identical or even similar problems consider adding agreed upon libraries to your coding conventions document. This can be the used as the rationale to reject code reviews that add additional third-party libraries in favor of the agreed upon libraries.
 
 ####Rule Rationale
 
-Consider adding rationale for rules if there may be disagreement on the team. This allows the document to serve as an educational tool in your organization and will help new developers who join your team. It helps to add links to articles that explain the rationale in more detail.
+Consider adding rationale for rules if there might be disagreement on the team. This allows the document to serve as an educational tool in your organization and will help new developers who join your team. It helps to add links to articles that explain the rationale in more detail.
 
 ####Reference Implementations
 
@@ -59,15 +59,15 @@ If specific rules can benefit from further clarification consider linking to a r
 Once you have the initial cut of the coding conventions post them in area that is visible to the entire organization like a team website or blog and commit them to your VCS. Ensure that every new hire knows what they are and why they are important to the team. 
 
 ##Why is This So Important?
-I do hear some developers grumble over coding conventions. Things like *"We shouldn't need a document to dictate how we need to work together"* or *"We have bigger problems that coding conventions can't solve."* If you don't see the value in coding conventions I would again recommend watching Sandi Metz's talk I referenced earlier, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio). She makes a fantastic case for why rules on development teams are so important.  
+I do hear some developers grumble over coding conventions. They'll say things like *"We shouldn't need a document to dictate how we work together"* or *"We have bigger problems that coding conventions can't solve."* If you don't see the value in coding conventions I would again recommend watching Sandi Metz's talk I referenced earlier, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio). She makes a fantastic case for why rules on development teams are so important.  
 
-As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams who develop without a consistent coding standard will slow down. Bringing new developers up to speed on the team will take much longer due to the huge learning curve required to understand code that looks like it was written by teams of developers who never worked together. Furthermore having to come up to speed on a large number of third-party tools and libraries slows new and seasoned developers down alike. Teams in these situations tend to add more developers to get faster which exacerbates the problem as there are now even more developers working without a set of conventions.
+As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams who develop without a consistent coding standard will slow down. Bringing new developers up to speed on the team will take much longer due to the huge learning curve required to understand code that looks like it was written by teams of developers who never worked together. Furthermore having to come up to speed on a large number of third-party tools and libraries slows new and seasoned developers down alike. Teams in these situations tend to add more developers in an attempt to go faster which exacerbates the problem as there are now even more developers working without a set of conventions.
 
 The coding conventions can serve as tools to help locate problem areas of the code. Furthermore, coming up with these rules helps to surface what the team's values are. And a team without a set of shared values isn't a team. It is vitally important to share a set development values and make them known throughout the organization. Preferably by documenting these values as well.
 
 ##Example
 
-In the following example you'll see one of the coding conventions I recently wrote for a team I work on.  You can see that it only focuses on coding standards and includes rationale since not everyone on the team necessarily agreed with the rules at the start. Also note that there is no reference to a style guide as the style was enforced by the IDE.
+In the following example you'll see one of the coding conventions I recently wrote for a team I work on. You can see that it only focuses on coding standards and includes rationale since not everyone on the team necessarily agreed with the rules at the start. Also note that there is no reference to a style guide as the style was enforced by the IDE.
 
 {% gist c4220fa53ece7ff374b2 %}
 
