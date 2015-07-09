@@ -12,8 +12,6 @@ Coding conventions are a necessity on development teams, but unfortunately they 
 
 If you are part of a new development team one of the first things you should do is develop your coding conventions. If you are part of an existing team without coding conventions, you have catch up work to do and I imagine the code reflects this. Creating coding conventions should be an immediate priority. Operating with an agreed upon set of coding conventions addresses a lot of issues that commonly arise in development organizations. Too often teams are too busy rushing to meet self-imposed deadlines to slow down and build a set of development standards and practices to improve the way they work. However, it is important to remember that **short-term pressure to go faster has the affect of making the entire organization slower over the long-term.**
 
-<!--more-->
-
 ##Style Guides
 
 The goal of adopting a single style is that the code reflects a certain professionalism. It looks like it could have been written by a single developer in a single sitting. This has far reaching affects when the team commits to this single style.
@@ -28,7 +26,7 @@ Once the team has agreed upon coding styles they should then shift their focus t
 
 ###But Aren't These Rules Arbitrary?
 
-One argument that often arises when very specific coding rules are discussed is, *"Aren't these rules arbitrary? Why is a class with 100 lines okay but a class of 101 lines not okay?"* The intent of arguments like this is usually to dismiss the validity of these types of rules for a development team. My response is that the rules are supposed to arbitrary, that is the point of them. There is nothing inherently better about 100 lines of code versus 101 lines of code for a class. It's about drawing a line in the sand and saying we favor small classes over large classes so this is the line that we will not cross as a team. Sandi Metz addresses these types of rules specifically in her talk, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio) that she gave at Baruco 2013. 
+One argument that often arises when very specific coding rules are discussed is, *"Aren't these rules arbitrary? Why is a class with 100 lines okay but a class of 101 lines not okay?"* The intent of arguments like this is usually to dismiss the validity of these types of rules for a development team. My response is that the rules are supposed to arbitrary, that is the point of them. There is nothing inherently better about 100 lines of code versus 101 lines of code for a class. It's about drawing a line in the sand and saying we favor small classes over large classes so this is the line that we will not cross as a team. Sandi Metz addresses these types of rules in her talk, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio) that she gave at Baruco 2013. 
 
 ###How to Break the Rules
 
@@ -44,7 +42,7 @@ There are several other things to consider documenting in your coding convention
 
 ####Third-Party Libraries and Frameworks
 
-If your team adopts many third-party libraries to address identical or even similar problems consider adding agreed upon libraries to your coding conventions document. This can be the used as the rationale to reject code reviews that add additional third-party libraries in favor of the agreed upon libraries.
+If your team adopts several third-party libraries to address identical or even similar problems consider adding agreed upon libraries to your coding conventions document. This can be the used as the rationale to reject code reviews that add additional third-party libraries in favor of the agreed upon libraries.
 
 ####Rule Rationale
 
@@ -61,7 +59,7 @@ Once you have the initial cut of the coding conventions post them in area that i
 ##Why is This So Important?
 I do hear some developers grumble over coding conventions. They'll say things like *"We shouldn't need a document to dictate how we work together"* or *"We have bigger problems that coding conventions can't solve."* If you don't see the value in coding conventions I would again recommend watching Sandi Metz's talk I referenced earlier, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio). She makes a fantastic case for why rules on development teams are so important.  
 
-As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams who develop without a consistent coding standard will slow down. Bringing new developers up to speed on the team will take much longer due to the huge learning curve required to understand code that looks like it was written by teams of developers who never worked together. Furthermore having to come up to speed on a large number of third-party tools and libraries slows new and seasoned developers down alike. Teams in these situations tend to add more developers in an attempt to go faster which exacerbates the problem as there are now even more developers working without a set of conventions.
+As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams who develop without a consistent coding standard will slow down. Bringing new developers up to speed on the team will take much longer due to the huge learning curve required to understand code that looks like it was written by teams of developers who never worked together. Furthermore having to come up to speed on a large number of third-party tools and libraries slows new and seasoned developers down alike. Teams in these situations tend to add more developers in an attempt to go faster which exacerbates the problem as there are now even more developers working without a common set of conventions.
 
 The coding conventions can serve as tools to help locate problem areas of the code. Furthermore, coming up with these rules helps to surface what the team's values are. And a team without a set of shared values isn't a team. It is vitally important to share a set development values and make them known throughout the organization. Preferably by documenting these values as well.
 
