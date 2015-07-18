@@ -6,19 +6,20 @@ category: development-practices
 tags: [code-quality]
 ---
 
-Coding conventions are a necessity on development teams, but unfortunately they are often overlooked. These conventions serve multiple purposes for a team. They foster a consistency in the code which has a positive affect on the overall code quality and enables a team to bring new developers up to speed quickly. This code consistency also makes future development and maintenance significantly easier. Furthermore, the conventions provide a mechanism to determine team rules for building the software that go beyond just stylistic decisions and affect the design quality. These types of rules have a large impact on the quality of the code but also provide one of the first opportunities for a team to find its values and identity.
+Coding conventions are a necessity on development teams, but unfortunately they are often overlooked. These conventions serve multiple purposes for a team. They foster a consistency in the code which has a positive effect on the overall code quality and enables a team to bring new developers up to speed quickly. This code consistency also makes future development and maintenance significantly easier. Furthermore, the conventions provide a mechanism to determine team rules for building the software that go beyond just stylistic decisions and affect the design quality. These types of rules have a large impact on the quality of the code but also provide one of the first opportunities for a team to find its values and identity.
  
 <!--more-->
 
-If you are part of a new development team one of your primary focuses should be developing your team's coding conventions. If you are part of an existing team working without coding conventions, you have catch up work to do and I imagine the code reflects this. Creating coding conventions should be an immediate priority. Operating with an agreed upon set of coding conventions addresses a lot of issues that commonly arise in development organizations. Too often teams are too busy rushing to meet self-imposed deadlines to slow down and build a set of development standards and practices to improve the way they work. However, it is important to remember that **short-term pressure to go faster has the affect of making the entire organization slower over the long-term.**
+If you are part of a new development team, one of your primary focuses should be developing your team's coding conventions. If you are part of an existing team working without coding conventions, you have catch up work to do and I imagine the codebase you work in reflects this. Creating coding conventions should be an immediate priority. Operating with an agreed upon set of coding standards addresses a lot of issues that commonly arise in development organizations. Too often teams are too busy rushing to meet self-imposed deadlines to slow down and build a set of development standards and practices to improve the way they work. However, it is important to remember that **short-term pressure to go faster has the effect of making the entire organization slower over the long-term.**
 
 ##Style Guides
 
-The goal of adopting a single style is that the code reflects a certain professionalism. It looks like it could have been written by a single developer in a single sitting. This has far reaching affects when the team commits to this single style.
+The goal of adopting a single style is that the code reflects a certain professionalism. It looks like it could have been written by a single developer in a single sitting. When the team commits to this single style it provides several benefits, including making them more productive and able to spot and avoid bugs. 
 
-I recommend that the first thing you do when coming up with coding conventions is adopt an existing style guide. This can help avoid a lot of discussions about the truly subjective parts of development. Remember for style standards, consistency is favored over any single approach. So if you prefer tabs to spaces, two spaces over four for tabstops, or a [K&R style variant ](https://en.wikipedia.org/wiki/Indent_style#K.26R_style) for curly braces, be flexible in the spirit of quickly coming to a consensus. Adopting a known style also has the benefit of having preset configuration options in IDEs. JavaScript linters also have the ability to enforce some of these styles for you.
+I recommend that the first thing you do when coming up with coding conventions is adopt an existing style guide. This can help avoid a lot of discussions about the truly subjective parts of software development. Remember for style standards, consistency is favored over any single approach. So if you prefer tabs to spaces, two spaces over four for tabstops, or a [K&R style variant](https://en.wikipedia.org/wiki/Indent_style#K.26R_style) for curly braces, be flexible in the spirit of quickly coming to a consensus. Adopting a known style also has the benefit of having preset configuration options in IDEs and enforcement in linters and other static analysis tools.
 
-The one style rule that I would include in my coding conventions document and not leave up to the style guide is variable naming. Specifically because older style guides may still use variable name encoding to convey the type and scope of variables. This goes beyond just style and affects the readability of the source code so I discuss this in the coding conventions.
+The one style rule that I would include in my coding conventions document and not leave up to the style guide is variable naming. Primarily this is because older style guides may still use variable name encoding to convey the type and scope of variables. This goes beyond just style and affects the readability of the source code.
+
 
 ##Coding Standards
 
@@ -42,7 +43,7 @@ There are several other things to consider documenting in your coding convention
 
 ####Third-Party Libraries and Frameworks
 
-If your team adopts several third-party libraries to address identical or even similar problems consider adding agreed upon libraries to your coding conventions document. This can be used as the rationale to reject code reviews that add additional third-party libraries in favor of the agreed upon libraries.
+If your team adopts several third-party libraries to address identical or even similar problems, consider adding agreed upon libraries to your coding conventions document. This can be used as the rationale to reject code reviews that add additional third-party libraries in favor of the agreed upon libraries.
 
 ####Rule Rationale
 
@@ -59,17 +60,17 @@ Once you have the initial cut of the coding conventions post them in area that i
 ##Why is This So Important?
 I do hear some developers grumble over coding conventions. They'll say things like *"We shouldn't need a document to dictate how we work together"* or *"We have bigger problems that coding conventions can't solve."* If you don't see the value in coding conventions I would again recommend watching Sandi Metz's talk I referenced earlier, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio). She makes a fantastic case for why rules on development teams are so important.  
 
-As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams who develop without a consistent coding standard will slow down. Bringing new developers up to speed on the team will take much longer due to the huge learning curve required to understand code that looks like it was written by teams of developers who never talked with each other let alone worked together. Furthermore having to come up to speed on a large number of third-party tools and libraries slows new and seasoned developers down alike. Teams in these situations tend to add more developers in an attempt to go faster which exacerbates the problem as there are now even more developers working without a common set of conventions.
+As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams who develop without a consistent coding standard will slow down. Bringing new developers up to speed on the team will take much longer due to the huge learning curve required to understand code that looks like it was written by teams of developers who never talked with each other let alone worked together. Furthermore, having to come up to speed on a large number of third-party tools and libraries slows new and seasoned developers down alike. Teams in these situations tend to add more developers in an attempt to go faster which exacerbates the problem as there are now even more developers working without a common set of conventions.
 
-The coding conventions can serve as tools to help locate problem areas of the code. Furthermore, coming up with these rules helps to surface what the team's values are. And a team without a set of shared values isn't a team. It is vitally important to share a set development values and make them known throughout the organization. Preferably by documenting these values as well.
+The coding conventions can serve as tools to help locate problem areas of the code and even avoid potential bugs. Furthermore, coming up with these rules helps to surface what the team's values are. And a team without a set of shared values isn't a team. It is vitally important to share a set development values and make them known throughout the organization. Preferably by documenting these values as well.
 
 ##Example
 
-In the following example you'll see one of the coding conventions I recently wrote for a team I work on. You can see that it only focuses on coding standards and includes rationale since not everyone on the team necessarily agreed with the rules at the start. Also note that there is no reference to a style guide as the style was enforced by the IDE.
+In the following example you'll see one of the coding conventions I recently wrote for a team I worked on.
 
 {% gist c4220fa53ece7ff374b2 %}
 
 
 ##Conclusion
 
-Having coding conventions is an extremely important part of every development team. I strongly encourage you to find 35 minutes in your day to watch Sandi Metz's [talk](https://www.youtube.com/watch?v=npOGOmkxuio) from Baruco 2013 and get started on a coding conventions document for your team if you don't already have one.
+Creating and maintaining coding conventions is an extremely important part of every development team. I strongly encourage you to find 35 minutes in your day to watch Sandi Metz's [talk](https://www.youtube.com/watch?v=npOGOmkxuio) from Baruco 2013 and get started on a coding conventions document for your team if you don't already have one.
