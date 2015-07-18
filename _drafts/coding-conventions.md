@@ -6,7 +6,7 @@ category: development-practices
 tags: [code-quality]
 ---
 
-Coding conventions are a necessity on development teams, but unfortunately they are often overlooked. These conventions serve multiple purposes for a team. They foster a consistency in the code which has a positive effect on the overall code quality and enables a team to bring new developers up to speed quickly. This code consistency also makes future development and maintenance significantly easier. Furthermore, the conventions provide a mechanism to determine team rules for building the software that go beyond just stylistic decisions and affect the design quality. These types of rules have a large impact on the quality of the code but also provide one of the first opportunities for a team to find its values and identity.
+Coding conventions are a necessity on development teams, but unfortunately they are often overlooked. These conventions serve multiple purposes for a team. They foster a consistency in the code which has a positive effect on the overall code quality and enable teams to bring new developers up to speed quickly. This code consistency also makes future development and maintenance significantly easier. Furthermore, the conventions provide a mechanism to determine team rules for building the software that go beyond just stylistic decisions and affect the design quality. These types of rules have a large impact on the quality of the code but also provide one of the first opportunities for a team to find its values and identity.
  
 <!--more-->
 
@@ -55,10 +55,10 @@ If specific rules can benefit from further clarification consider linking to a r
 
 ###Make the Conventions Visible
 
-Once you have the initial cut of the coding conventions post them in area that is visible to the entire organization like a team website or blog and commit them to your VCS. Ensure that every new hire knows what they are and why they are important to the team. 
+Once you have the initial version of the coding conventions post them in area that is visible to the entire organization like a team website or blog and commit them to your VCS. Ensure that every new hire knows what they are and why they are important to the team. 
 
 ##Why is This So Important?
-I do hear some developers grumble over coding conventions. They'll say things like *"We shouldn't need a document to dictate how we work together"* or *"We have bigger problems that coding conventions can't solve."* If you don't see the value in coding conventions I would again recommend watching Sandi Metz's talk I referenced earlier, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio). She makes a fantastic case for why rules on development teams are so important.  
+I do hear some developers grumble over coding conventions. They'll say things like *"We shouldn't need a document to dictate how we work together"* or *"We have bigger problems that coding conventions can't solve."* If you don't see the value in coding standards I would again recommend watching Sandi Metz's talk I referenced earlier, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio). She makes a fantastic case for why rules on development teams are so important.  
 
 As I pointed out in one of my previous posts, [Creating a Great Development Culture](/2015/03/13/creating-a-great-development-culture-code-quality-and-practices.html), teams who develop without a consistent coding standard will slow down. Bringing new developers up to speed on the team will take much longer due to the huge learning curve required to understand code that looks like it was written by teams of developers who never talked with each other let alone worked together. Furthermore, having to come up to speed on a large number of third-party tools and libraries slows new and seasoned developers down alike. Teams in these situations tend to add more developers in an attempt to go faster which exacerbates the problem as there are now even more developers working without a common set of conventions.
 
