@@ -27,7 +27,7 @@ Once the team has agreed upon coding styles they should then shift their focus t
 
 ###But Aren't These Rules Arbitrary?
 
-One argument that often arises when very specific coding rules are discussed is, *"Aren't these rules arbitrary? Why is a class with 100 lines okay but a class of 101 lines not okay?"* The intent of arguments like this is usually to dismiss the validity of these types of rules for a development team. My response is that the rules are supposed to arbitrary, that is the point of them. There is nothing inherently better about 100 lines of code versus 101 lines of code for a class. It's about drawing a line in the sand and saying we favor small classes over large classes so this is the line that we will not cross as a team. Sandi Metz addresses these types of rules in her talk, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio) that she gave at Baruco 2013. 
+One argument that often arises when very specific coding rules are discussed is, *"Aren't these rules arbitrary? Why is a class with 100 lines okay but a class of 101 lines not okay?"* The intent of arguments like this is usually to dismiss the validity of these types of rules for a development team. My response is that the rules are supposed to be arbitrary, that is the point of them. There is nothing inherently better about 100 lines of code versus 101 lines of code for a class. It's about drawing a line in the sand and saying we favor small classes over large classes so this is the line that we will not cross as a team. Sandi Metz addresses these types of rules in her talk, [Rules](https://www.youtube.com/watch?v=npOGOmkxuio) that she gave at Baruco 2013. 
 
 ###How to Break the Rules
 
