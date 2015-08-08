@@ -3,7 +3,7 @@ layout: post
 title: The Importance of Static Analysis Tools
 comments: true
 category: development-tools
-tags: [code-quality]
+tags: [code-quality, static-code-analysis]
 ---
 
 Static analysis tools are critically important to any development team that values code quality and continuous improvement. These tools serve several important purposes which I will discuss in this post.  
