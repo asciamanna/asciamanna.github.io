@@ -45,3 +45,6 @@
 
 - slug: mentoring
   name: Mentoring 
+
+- slug: static-code-analysis
+  name: Static Code Analysis
