@@ -97,4 +97,4 @@ Promiscuous Pairing recommends switching pairs even more rapidly (e.g., I've rea
 Like everything in software development, Ping Pong Pair Programming is no silver bullet. There are times when pair programming may not make sense based on the task, the team personalities, etc. But I would strongly encourage you to try Ping Pong Pairing before deciding that pair programming is not for you.
 
 ##Credit
-Thanks to my friend and colleague [Nick Goede](http://www.buildbroke.com) for the photo of our pairing workstations from his Barcamp Philly presentation.
+Thanks to my friend and colleague [Nick Goede](https://www.nickgoede.com/) for the photo of our pairing workstations from his Barcamp Philly presentation.
