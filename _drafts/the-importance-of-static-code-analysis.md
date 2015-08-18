@@ -33,6 +33,7 @@ This early warning system, your critical static analysis rules that will fail th
 
 ##Overwhelmed by Legacy Code
 
+If you are in a situation where you are working on a team that has ownership of a large amount of legacy code static analysis tools will help focus your efforts to improve the code quality. I'm using Michael Feathers definition of legacy code, any code that is written without unit tests. Often the lack of unit tests and code that is untestable go hand in hand. You may find yourself in a situation where you now have ownership of a large amount of code that is tightly coupled, not cohesive, has no unit tests, has huge classes, classes huge methods, using large amounts of static global classes. A system with no architectural shape
 
 ###The Boy Scout Rule & Opportunistic Refactoring
 
