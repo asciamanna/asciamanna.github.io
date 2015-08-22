@@ -20,7 +20,7 @@ The first thing you will notice is that the majority of these tools come pre-con
 
 ## Critical and Non-critical Rules
 
-NDepend, as well as other tools, have the concept of critical and non-critical rules. Critical rules are ones, if violated, will break your build. These should be reserved for your team's coding conventions and other serious code quality offenders. The non-critical rules should still be enabled so your team can continue to monitor them without failing the build. Non-critical breaches that continue to increase are a problem and you'll want to address those accordingly.
+[NDepend](http://www.ndepend.com/ "NDepend Home Page"), as well as other tools, have the concept of critical and non-critical rules. Critical rules are ones, if violated, will break your build. These should be reserved for your team's coding conventions and other serious code quality offenders. The non-critical rules should still be enabled so your team can continue to monitor them without failing the build. Non-critical breaches that continue to increase are a problem and you'll want to address those accordingly.
 
 This difference highlights the two ways that you should be using the tool to get the maximum benefit for your team. The critical errors should fail the build immediately and require a developer change before there will be another successful build. The non-critical rules along with other metrics collected via your static analysis tool (cyclomatic complexity, coupling, and test coverage for example) shouldn't fail the build but be part of a report that the team examines regularly. Armed with this information the team can focus their refactoring and clean-up efforts in a way that addresses the most problematic parts of the codebase first.
 
@@ -34,14 +34,14 @@ This early warning system, your critical static analysis rules that will fail th
 
 ##Overwhelmed by Legacy Code
 
-If you are in a situation where you are working on a team that has ownership of a large amount of legacy code static analysis tools will help focus your efforts to improve the code quality. Legacy code has several definitions and connotations. I start with Michael Feather's definition of legacy code: 
+If you are in a situation where you are working on a team that has ownership of a large amount of legacy code static analysis tools will help focus your efforts to improve the code quality. Legacy code has several definitions and connotations. I start with[ Michael Feather](https://michaelfeathers.silvrback.com/)'s definition of legacy code: 
 
 > 
 > To me, legacy code is simply code without tests.  
 > &mdash; _Michael Feathers, Working Effectively with Legacy Code_  
 >
 
-However, it is important to mention that often the lack of unit tests and code that is untestable go hand in hand. You may find yourself in a situation where you now have ownership of a large amount of code that is tightly coupled, not cohesive, has no unit tests, contains huge classes, the classes contain huge methods, and it uses large amounts of static global classes and methods making it even harder to modify. And this all exists in a system without an architecture where there are no boundaries or separation of concerns. This has happened to me more than once and it is overwhelming. Being in these situations can quickly increase the teams stress level and decrease morale. 
+However, it is important to mention that often the lack of unit tests and code that is untestable go hand in hand. You may find yourself in a situation where you now have ownership of a large amount of code that is tightly coupled, not cohesive, has no unit tests, contains huge classes, the classes contain huge methods, and it uses large amounts of static global classes and methods making it even harder to modify. And this all exists in a system without an architecture where there are no boundaries or separation of concerns. This has happened to me more than once and it is overwhelming. Being in these situations can quickly increase the team's stress level and decrease morale. 
 
 It is in these situations the static analysis tool can help you determine a path to start chipping away at the worst code first. The tool can give you instant feedback as to the progress of your team and can start changing that stress and low morale into a feeling of accomplishment.
 
@@ -51,13 +51,13 @@ Some may think using a static analysis tool in this way works against the Boy Sc
 
 Static analysis tools can be used in conjunction with these other refactoring techniques to optimize your approach to cleaning up the code. Using static analysis tools can show you the biggest problem areas and you can start coming up with ideas to address them. Maybe the next time you are in a class that you would normally just do some variable renaming and extract method refactorings you now go a step further since you are aware that is breaching several static analysis rules. 
 
-<HEAT MAP IMAGE HERE>
+HEAT MAP HERE
 
 ##Pressure to Ease the Rules
 If you don't have ownership of your entire codebase or you just took ownership of a large, legacy codebase you may need to relax the rules early in the process. While this isn't ideal you can use the concept of ratcheting to improve the software to the point where you can enable all of the critical rules you want to.
 
 ###Ratcheting 
-Ratcheting is typically employed as a way to ensure that the overall codebase is getting better over time by introducing a practice gradually. Jez Humble describes it in his book Continuous Delivery. In his example he states that instead of failing the build on a single compiler warning or TODO comment it only fails the build if the number of these breaches increase as compared to the previous build or, if your team is more aggressive, only pass if the number of these breaches decrease as compared to the previous build.
+Ratcheting is typically employed as a way to ensure that the overall codebase is getting better over time by introducing a practice gradually. [Jez Humble](https://twitter.com/jezhumble "Jez's twitter account") describes it in his book _[Continuous Delivery](http://continuousdelivery.com/)_. In his example he states that instead of failing the build on a single compiler warning or TODO comment it only fails the build if the number of these breaches increase as compared to the previous build or, if your team is more aggressive, only pass if the number of these breaches decrease as compared to the previous build.
 
 You can employ this same technique at a more granular level to determine if a specific rule should break the build or not. For example you may have a rule that states a class can't be more than 100 lines of code. If a legacy class is 300 lines of code and stays that size or gets smaller the rule can continue to pass. But if it becomes 301 lines of code the rule will break the build. It's also important to configure these rules so that all new classes will breach the rule if they are larger than 100 lines of code.
 
