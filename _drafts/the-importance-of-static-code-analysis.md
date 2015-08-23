@@ -6,7 +6,7 @@ category: development-tools
 tags: [code-quality, static-code-analysis]
 ---
 
-Static code analysis is a critical tool for development teams who value code quality and continuous improvement. My most recent experience with static code analysis tools is with [NDepend](http://www.ndepend.com/ "NDepend Home Page") for .NET. So I will specifically be discussing experiences I've had with that tool, however the ideas in this article can apply to a majority of the static analysis tools that are available. There are tools for all of the more popular programming languages, so regardless of your technology stack you will be able to find a tool for your team.
+Static code analysis is a critical tool for development teams who value code quality and continuous improvement. My most recent experience with static code analysis tools is with [NDepend](http://www.ndepend.com/ "NDepend Home Page") for .NET. So I will specifically discuss experiences I've had with that tool, however the ideas in this article can apply to a majority of the static analysis tools that are currently available.
 
 <!--more-->
  
@@ -14,7 +14,7 @@ This is a follow-up to my previous post about [Coding Conventions](/2015/07/18/c
 
 ##Rule Overload
 
-The first thing you will notice is that the majority of these tools come configured out of the box with a lot of rules. I recommend that you look at all of them closely. You may find that you are missing some critical rules and want to revise your team's coding conventions accordingly. While I think this is a great idea, be mindful that the coding conventions should be short. So resist the urge to enable every static code analysis rule and have their breaches break the build. Not all of the rules will provide the same benefit to your team.  Some rules will not provide any benefit. You should focus on the rules that will provide the maximum benefit, and like everything else in software development iterate on your static analysis configuration.
+One of the first things you will notice is that the majority of these tools come configured out of the box with a lot of rules. I recommend that you look at all of them closely. You may find that you are missing some critical rules and want to revise your team's coding conventions accordingly. While I think this is a great idea, be mindful that the coding conventions should be short. So resist the urge to enable every static code analysis rule and have their breaches break the build. Not all of the rules will provide the same benefit to your team.  Some rules will not provide any benefit. You should focus on the rules that will provide the maximum benefit, and like everything else in software development iterate on your static analysis configuration.
 
 ## Critical and Non-critical Rules
 
@@ -26,31 +26,31 @@ This difference highlights the two ways that you should be using the tool to get
 
 [Bryan Helmkamp](https://twitter.com/brynary "Bryan's twitter account") (founder and CEO of [Code Climate](https://codeclimate.com/)) gave a fantastic talk at Baruco 2013, [Building a Culture of Quality](https://www.youtube.com/watch?v=Jsi1YTkXwxA) which I have referenced in previous posts. In his talk he describes that the natural trajectory for a software project's quality is down. Because of this we developers need to employ several techniques to prevent this from happening. One recommendation is to implement an early warning system. Part of your early warning system should be a static analysis tool.
 
-There are several factors that can create environments where code quality suffers. These include schedule pressure, critical bugs that need to be fixed and deployed to production quickly, changes in the development team members, and changing business requirements just to name a few. Furthermore, refactoring is a challenging skill to learn so teams may struggle to make the code better when adding features or fixing bugs. Even the best teams with agreed upon coding standards can suffer this fate. But put developers who believe code quality is subjective or have the mantra of "just get it done" on teams who have no coding conventions and you have a recipe for disaster. 
+There are several factors that can create environments where code quality suffers. These include schedule pressure, critical bugs that need to be fixed and deployed to production quickly, and changes in the development team members just to name a few. Furthermore, refactoring is a challenging skill to learn so teams may struggle to make the code better when adding features or fixing bugs. Even the best teams with agreed upon coding standards can suffer this fate. But put developers who believe code quality is subjective or have the mantra of "just get it done" on teams who have no coding conventions and you have a recipe for disaster. 
 
-This early warning system, your critical static analysis rules that will fail the build, is your safety net against code quality deteriorating over time. You will be notified as soon as you breach a coding standard rule, which is the optimal time to fix the issue. You can fix these issues as they arise as part of your daily development process. Otherwise, these issues will accumulate until they become a much bigger problem which will cost your organization a lot more time and money to reverse. 
+This early warning system, your critical static analysis rules, is your safety net against code quality deteriorating over time. You will be notified as soon as you breach a rule, which is the optimal time to fix the issue. You can fix these issues as they arise as part of your daily development process. Otherwise, these issues will accumulate until they become a much bigger problem which will cost your organization a lot more time and money to reverse. 
 
 ##Overwhelmed by Legacy Code
 
-If you are in a situation where you are working on a team that has ownership of a large amount of legacy code static analysis tools will help focus your efforts to improve the code quality. Legacy code has several definitions and connotations. I start with [Michael Feather](https://michaelfeathers.silvrback.com/)'s definition of legacy code: 
+If you are in a situation where you are working on a team that has ownership of a large amount of legacy code static analysis tools will help focus your efforts to improve the code quality. Legacy code has several definitions. I start with [Michael Feather](https://michaelfeathers.silvrback.com/)'s definition of legacy code: 
 
 > 
 > To me, legacy code is simply code without tests.  
 > &mdash; _Michael Feathers, Working Effectively with Legacy Code_  
 >
 
-However, it is important to mention that often the lack of unit tests and code that is untestable go hand in hand. If there aren't any unit tests or the ones that you do find are terribly complicated, you can be fairly certain that the code under test is poorly designed and implemented. 
+However, it is important to mention that often the lack of unit tests and code that is untestable go hand in hand. If there aren't any unit tests or if the ones that do exist are  terribly complicated, you can be fairly certain that the code under test is poorly designed and implemented. 
 
-You may find yourself in a situation where you now have ownership of a large amount of code that is tightly coupled, not cohesive, has no unit tests, contains large classes, the classes contain large methods, and there are a lot of static global classes and methods making it even harder to modify. And all of this code exists in the context of a larger system without an architecture where there are no boundaries or separation of concerns. This has happened to me more than once and it is overwhelming. Being in these situations can quickly increase the team's stress level and decrease morale. 
+You may find yourself in a situation where you now have ownership of a large amount of code that is tightly coupled, not cohesive, has no unit tests, contains large classes, the classes contain large methods, and there are a lot of static global classes and methods making it even harder to modify. And all of this code exists in the context of a larger system without an architecture where there are no boundaries or separation of concerns. This has happened to me more than once and it can be overwhelming. Being in these situations can quickly increase the team's stress level and decrease morale. 
 
 It is in these situations the static analysis tool can help your team determine a path to start chipping away at the worst code first. The tool can give you instant feedback as to the progress of your team and can start changing that stress and low morale into a feeling of accomplishment and forward progress.
 
 
 ###The Boy Scout Rule & Opportunistic Refactoring
 
-Some may think using a static analysis tool in this way works against the Boy Scout Rule (coined I believe by [Uncle Bob Martin](https://blog.8thlight.com/uncle-bob/archive.html)) or [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html) by [Martin Fowler](http://www.martinfowler.com/). Both of these techniques describe cleaning up code you are currently working on. If you are not familiar with the Boy Scout Rule, Uncle Bob describes it as always checking in the code you are working on a little cleaner than you have found it. This is analogous to the Boy Scouts who leave the campground cleaner than they have found it. This same sentiment is echoed in [Martin Fowler](http://www.martinfowler.com/)'s writing on [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html). Take the time to read his post about it if the concept is new to you.
+Some may think using a static analysis tool in this way works against the Boy Scout Rule (coined I believe by [Uncle Bob Martin](https://blog.8thlight.com/uncle-bob/archive.html)) or [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html) by [Martin Fowler](http://www.martinfowler.com/). Both of these techniques describe cleaning up the code you are currently working on. If you are not familiar with the Boy Scout Rule, Uncle Bob describes it as always checking in the code you are working on a little cleaner than you have found it. This is analogous to the Boy Scouts who leave the campground cleaner than they have found it. This same sentiment is echoed in [Martin Fowler](http://www.martinfowler.com/)'s writing on [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html). Take the time to read his post about it if the concept is new to you.
 
-Static analysis tools can be used in conjunction with these other refactoring techniques to optimize your approach to cleaning up the code. Using static analysis tools can show you the biggest problem areas and you can start coming up with ideas to address them. The next time you are in a class that you would normally just do some variable renaming and extract method refactorings you can now go a step further since you are aware that is breaching several static analysis rules. 
+Static analysis tools can be used in conjunction with these other refactoring techniques to optimize your approach to cleaning up the code. Using static analysis tools can show you the biggest problem areas so you can devise a plan to address them. The next time you are in a class that you would normally just do some variable renaming and extract method refactorings you can now go a step further since you are aware that is breaching several static analysis rules. 
 
 HEAT MAP HERE
 
@@ -60,13 +60,13 @@ If you don't have ownership of your entire codebase or you just took ownership o
 
 ###Ratcheting 
 
-Ratcheting is typically employed as a way to ensure that the overall codebase is getting better over time by introducing a practice gradually. [Jez Humble](https://twitter.com/jezhumble "Jez's twitter account") describes it in his book _[Continuous Delivery](http://continuousdelivery.com/)_. In his example he states that instead of failing the build on a single compiler warning or TODO comment it only fails the build if the number of these breaches increase as compared to the previous build or, if your team is more aggressive, only pass if the number of these breaches decrease as compared to the previous build.
+Ratcheting is a technique to ensure that the overall codebase is getting better over time by introducing a practice gradually. [Jez Humble](https://twitter.com/jezhumble "Jez's twitter account") describes it in his book _[Continuous Delivery](http://continuousdelivery.com/)_. In his example he states that instead of failing the build on a single compiler warning or TODO comment it only fails the build if the number of these breaches increase as compared to the previous build or, if your team is more aggressive, only pass if the number of these breaches decrease as compared to the previous build.
 
 You can employ this same technique at a more granular level to determine if a specific rule should break the build or not. For example you may have a rule that states a class can't be more than 100 lines of code. If a legacy class is 300 lines of code and stays that size or gets smaller the rule can continue to pass. But if it becomes 301 lines of code the rule will break the build. It's also important to configure these rules so that all new classes will breach the rule if they are larger than 100 lines of code.
 
 ###Don't Go Backwards
 
-Once you have rules in place you may feel the same kinds of pressure I've mentioned earlier which may encourage you to ease the rules. While it may feel like the "pragmatic" thing to do in the moment I recommend that you fight this urge as you will lose your early warning system.
+Once you have rules in place you may feel the same kinds of pressure I've mentioned earlier which may encourage you to ease the rules. While it may feel like the "pragmatic" thing to do in the moment, I recommend that you fight this urge as you will lose your early warning system.
 
 ##Conclusion
 I will be writing more about static analysis tools in the future. In the meantime give one of these tools a try and you'll see that there are significant benefits that can be gained by having this level of detailed analysis of your codebase on every build.
