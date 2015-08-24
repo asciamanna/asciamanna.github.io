@@ -70,4 +70,4 @@ You can employ this same technique at a more granular level to determine if a sp
 Once you have rules in place you may feel the same kinds of pressure I've mentioned earlier which may encourage you to ease the rules. While it may feel like the "pragmatic" thing to do in the moment, I recommend that you fight this urge as you will lose your early warning system.
 
 ##Conclusion
-I will be writing more about static analysis tools in the future. In the meantime give one of these tools a try and you'll see that there are significant benefits that can be gained by having this level of detailed analysis of your codebase on every build.
+I will be writing more about static analysis tools in the future. In the meantime give one of these tools a try and you'll see that there are significant benefits that can be gained by having detailed analysis of your codebase on every build.
