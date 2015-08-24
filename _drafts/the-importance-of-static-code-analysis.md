@@ -41,18 +41,19 @@ If you are in a situation where you are working on a team that has ownership of 
 
 However, it is important to mention that often the lack of unit tests and code that is untestable go hand in hand. If there aren't any unit tests or if the ones that do exist are  terribly complicated, you can be fairly certain that the code under test is poorly designed and implemented. 
 
-You may find yourself in a situation where you now have ownership of a large amount of code that is tightly coupled, not cohesive, has no unit tests, contains large classes, the classes contain large methods, and there are a lot of static global classes and methods making it even harder to modify. And all of this code exists in the context of a larger system without an architecture where there are no boundaries or separation of concerns. This has happened to me more than once and it can be overwhelming. Being in these situations can quickly increase the team's stress level and decrease morale. 
+You may find yourself in a situation where you now have ownership of a large amount of code that is tightly coupled, not cohesive, has no unit tests, contains large classes, the classes contain large methods, and there are a lot of static global classes and methods making it even harder to modify. And all of this code exists in the context of a larger system without an architecture where there are no boundaries or separation of concerns. This has happened to me more than once and it can be overwhelming. Being in these situations can quickly increase the team's stress level and decrease team morale. 
 
 It is in these situations the static analysis tool can help your team determine a path to start chipping away at the worst code first. The tool can give you instant feedback as to the progress of your team and can start changing that stress and low morale into a feeling of accomplishment and forward progress.
 
 
 ###The Boy Scout Rule & Opportunistic Refactoring
 
-Some may think using a static analysis tool in this way works against the Boy Scout Rule (coined I believe by [Uncle Bob Martin](https://blog.8thlight.com/uncle-bob/archive.html)) or [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html) by [Martin Fowler](http://www.martinfowler.com/). Both of these techniques describe cleaning up the code you are currently working on. If you are not familiar with the Boy Scout Rule, Uncle Bob describes it as always checking in the code you are working on a little cleaner than you have found it. This is analogous to the Boy Scouts who leave the campground cleaner than they have found it. This same sentiment is echoed in [Martin Fowler](http://www.martinfowler.com/)'s writing on [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html). Take the time to read his post about it if the concept is new to you.
+Some may think using a static analysis tool in this way works against the Boy Scout Rule (coined I believe by [Uncle Bob Martin](https://blog.8thlight.com/uncle-bob/archive.html)) or [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html) techniques by [Martin Fowler](http://www.martinfowler.com/). Both of these techniques describe cleaning up the code you are currently working on. If you are not familiar with the Boy Scout Rule, Uncle Bob describes it as always checking in the code you are working on a little cleaner than you have found it. This is analogous to the Boy Scouts who leave the campground cleaner than they have found it. This same sentiment is echoed in [Martin Fowler](http://www.martinfowler.com/)'s writing on [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html). Take the time to read his post about it if the concept is new to you.
 
 Static analysis tools can be used in conjunction with these other refactoring techniques to optimize your approach to cleaning up the code. Using static analysis tools can show you the biggest problem areas so you can devise a plan to address them. The next time you are in a class that you would normally just do some variable renaming and extract method refactorings you can now go a step further since you are aware that is breaching several static analysis rules. 
 
-HEAT MAP HERE
+###Treemaps for Metric Visualization
+http://www.ndepend.com/docs/treemap-visualization-of-code-metrics
 
 ##Pressure to Ease the Rules
 
