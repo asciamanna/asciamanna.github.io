@@ -52,8 +52,12 @@ Some may think using a static analysis tool in this way works against the Boy Sc
 
 Static analysis tools can be used in conjunction with these other refactoring techniques to optimize your approach to cleaning up the code. Using static analysis tools can show you the biggest problem areas so you can devise a plan to address them. The next time you are in a class that you would normally just do some variable renaming and extract method refactorings you can now go a step further since you are aware that is breaching several static analysis rules. 
 
-###Treemaps for Metric Visualization
-http://www.ndepend.com/docs/treemap-visualization-of-code-metrics
+###Metric Visualization
+Static analysis tools use different techniques for visualizing metrics. These metric visualizations are a great place to start when trying to determine where to focus refactoring efforts when faced with a large amount of legacy code. 
+
+####Treemaps in NDepend
+NDepend uses [treemaps](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics) to visualize metrics which I have found to be incredibly useful.You can read about them in detail [here](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics).
+
 
 ##Pressure to Ease the Rules
 
