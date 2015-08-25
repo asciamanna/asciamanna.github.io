@@ -14,8 +14,8 @@ This is a follow-up to my previous post about [Coding Conventions](/2015/07/18/c
 
 ##Rule Overload
 
-One of the first things you will notice is that the majority of these tools come already configured with a set of code quality rules. I recommend that you look at all of them closely. You may find that you are missing some critical rules and want to revise your team's coding conventions accordingly. While I think this is a great idea, be mindful that the coding conventions should be short. So resist the urge to go back and add every rule into your coding conventions. Not all of the rules will provide the same benefit to your team. Some rules will not provide any benefit. You should focus on the rules that will provide the maximum benefit, and like everything else in software development iterate on your static analysis configuration. 
-[NDepend](http://www.ndepend.com/ "NDepend Home Page") does a great job of providing a fantastic set of critical and non-critical rules out of the box. But you'll still want to modify them to match your team's coding conventions.  
+One of the first things you will notice is that the majority of these tools come already configured with a set of static analysis rules. I recommend that you look at all of them closely. You may find that you are missing some critical rules and want to revise your team's coding conventions accordingly. While I think this is a great idea, be mindful that the coding conventions should be short. So resist the urge to go back and add every rule into your coding conventions. Not all of the rules will provide the same benefit to your team. Some rules will not provide any benefit. You should focus on the rules that will provide the maximum benefit, and like everything else in software development iterate on your static analysis configuration. 
+[NDepend](http://www.ndepend.com/ "NDepend Home Page") does a great job of providing a comprehensive set of critical and non-critical rules out of the box. But you'll still want to modify them and create your own to match your team's coding conventions.  
 
 ## Critical and Non-critical Rules
 
