@@ -61,7 +61,7 @@ NDepend uses [treemaps](http://www.ndepend.com/docs/treemap-visualization-of-cod
 
 ##Pressure to Ease the Rules
 
-If you don't have ownership of your entire codebase or you just took ownership of a large, legacy codebase you may need to relax the rules early in the process. While this isn't ideal you can use the concept of ratcheting to improve the software to the point where you can enable all of the critical rules you would otherwise enable if the codebase was cleaner.
+If you don't have ownership of your entire codebase or you just took ownership of a large, legacy codebase you may need to relax the rules early in the process. While this isn't ideal you can use the concept of ratcheting to improve the software to the point where you can enable all of the critical rules.
 
 ###Ratcheting 
 
