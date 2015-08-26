@@ -58,6 +58,7 @@ Static analysis tools use a variety of techniques to visualize metrics. These me
 ####Treemaps in NDepend
 NDepend uses [treemaps](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics) to visualize metrics which I have found to be incredibly useful.You can read about them in detail [here](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics).
 
+<img src="/images/TreemapColor.png"/>
 
 ##Pressure to Ease the Rules
 
@@ -75,4 +76,4 @@ Once you have rules in place you may feel the same kinds of pressure I've mentio
 
 ##Conclusion
 
-I will be writing more about static analysis tools and [NDepend](http://www.ndepend.com/ "NDepend Home Page"). I'm barely scratching the surface of the capabilities NDepend and other static analysis tools provides. In the meantime give one of these tools a try on your team and you'll see that there are significant benefits that can be gained by having detailed analysis of your codebase on every build.
+I will be writing more about static analysis tools and [NDepend](http://www.ndepend.com/ "NDepend Home Page"). I'm barely scratching the surface of the capabilities NDepend and other static analysis tools provide. In the meantime give one of these tools a try on your team and you'll see that there are significant benefits that can be gained by having detailed analysis of your codebase on every build.
