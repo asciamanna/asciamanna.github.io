@@ -14,8 +14,8 @@ This is a follow-up to my previous post about [Coding Conventions](/2015/07/18/c
 
 ##Rule Overload
 
-One of the first things you will notice is that the majority of these tools come already configured with a set of static analysis rules. I recommend that you look at all of them closely. You may find that you are missing some critical rules and want to revise your team's coding conventions accordingly. While I think this is a great idea, be mindful that the coding conventions should be short. So resist the urge to go back and add every rule into your coding conventions. Not all of the rules will provide the same benefit to your team. Some rules will not provide any benefit. You should focus on the rules that will provide the maximum benefit, and like everything else in software development iterate on your static analysis configuration. 
-[NDepend](http://www.ndepend.com/ "NDepend Home Page") does a great job of providing a comprehensive set of critical and non-critical rules out of the box. But you'll still want to modify them and create your own to match your team's coding conventions.  
+One of the first things you will notice is that the majority of these tools come pre-configured with a set of static analysis rules. I recommend that you look at all of them closely. You may find that you are missing some critical rules and want to revise your team's coding conventions accordingly. While I think this is a great idea, be mindful that the coding conventions should be short. So resist the urge to go back and add every rule into your coding conventions. Not all of the rules will provide the same benefit to your team. Some rules will not provide any benefit. You should focus on the rules that will provide the maximum benefit, and like everything else in software development iterate on your static analysis configuration. 
+[NDepend](http://www.ndepend.com/ "NDepend Home Page") in particular does a great job of providing a comprehensive set of critical and non-critical rules out of the box. But you'll still want to modify them and create your own to match your team's coding conventions.  
 
 ## Critical and Non-critical Rules
 
@@ -53,7 +53,7 @@ Some may think using a static analysis tool in this way works against the Boy Sc
 Static analysis tools can be used in conjunction with these other refactoring techniques to optimize your approach to cleaning up the code. Using static analysis tools can show you the biggest problem areas so you can devise a plan to address them. The next time you are in a class that you would normally just do some variable renaming and extract method refactorings you can now go a step further since you are aware that is breaching several static analysis rules. 
 
 ###Metric Visualization
-Static analysis tools use different techniques for visualizing metrics. These metric visualizations are a great place to start when trying to determine where to focus refactoring efforts when faced with a large amount of legacy code. 
+Static analysis tools use a variety of techniques to visualize metrics. These metric visualizations are a great place to start when trying to determine where to focus refactoring efforts when faced with a large amount of legacy code. 
 
 ####Treemaps in NDepend
 NDepend uses [treemaps](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics) to visualize metrics which I have found to be incredibly useful.You can read about them in detail [here](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics).
@@ -75,4 +75,4 @@ Once you have rules in place you may feel the same kinds of pressure I've mentio
 
 ##Conclusion
 
-I will be writing more about static analysis tools and [NDepend](http://www.ndepend.com/ "NDepend Home Page"). I'm barely scratching the surface of the capabilities NDepend provides. In the meantime give one of these tools a try on your team and you'll see that there are significant benefits that can be gained by having detailed analysis of your codebase on every build.
+I will be writing more about static analysis tools and [NDepend](http://www.ndepend.com/ "NDepend Home Page"). I'm barely scratching the surface of the capabilities NDepend and other static analysis tools provides. In the meantime give one of these tools a try on your team and you'll see that there are significant benefits that can be gained by having detailed analysis of your codebase on every build.
