@@ -76,4 +76,4 @@ Once you have rules in place you may feel the same kinds of pressure I've mentio
 
 ##Conclusion
 
-I will be writing more about static analysis tools and [NDepend](http://www.ndepend.com/ "NDepend Home Page"). I'm barely scratching the surface of the capabilities NDepend and other static analysis tools provide. In the meantime give one of these tools a try on your team and you'll see that there are significant benefits that can be gained by having detailed analysis of your codebase on every build.
+I will be writing more about static analysis tools and [NDepend](http://www.ndepend.com/ "NDepend Home Page") as I'm barely scratching the surface of the capabilities these tools provide. In the meantime give one of these tools a try on your team and you'll see that there are significant benefits that can be gained by having detailed analysis of your codebase on every build.
