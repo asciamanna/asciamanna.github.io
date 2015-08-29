@@ -56,9 +56,9 @@ Static analysis tools can be used in conjunction with these other refactoring te
 Static analysis tools use a variety of techniques to visualize metrics. These metric visualizations are a great place to start when trying to determine where to focus refactoring efforts when faced with a large amount of legacy code. 
 
 ####Treemaps in NDepend
-NDepend uses [treemaps](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics) to visualize metrics which I have found to be incredibly useful. A treemaps is a visualization algorithm to display data via nested rectangles. These rectangles can represent various code elements in the system (including methods, namespaces, types, and few others). The size of the rectangle can represent one metric (e.g., method length or cyclomatic complexity). Then the color of the rectangle can be used to represent a second metric like test coverage. This enables developers to correlate two metrics and use this information determine refactoring techniques and priorities. You can read about treemaps in detail [here](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics).
+NDepend uses [treemaps](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics) to visualize metrics which I have found to be incredibly useful. A treemap is a visualization algorithm to display data via nested rectangles. These rectangles can represent various code elements in the system (including methods, namespaces, types, and few others). The size of the rectangle represents one metric (e.g., method length or cyclomatic complexity). The color of the rectangle is used to  represent a second metric like test coverage. This enables developers to correlate two metrics and use this information determine refactoring techniques and priorities. You can read about treemaps in detail [here](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics).
 
-<img src="/images/TreemapColor.png"/>
+<img src="/images/TreemapColor.png" alt="NDepend treemap example"/>
 
 ##Pressure to Ease the Rules
 
