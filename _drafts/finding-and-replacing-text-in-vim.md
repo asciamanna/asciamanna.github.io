@@ -21,15 +21,13 @@ The substitute command allows you to execute any find and replace action across 
 
 ###The Anatomy of a Substitute Command
 ~~~  
-
-:[range]s[ubstitute]/{search-pattern}/{replacement-string}/[flags] [count]
-
+:[range]s[ubstitute]/{search-pattern}/{replacement-string}/[flags] [count]  
 ~~~  
 
 ####Range
 The range specifies how much of the file should be searched for the pattern to be replaced. Omitting the range results in the current line only being searched. If you want to search the entire file you would use the % character. See the following examples on other ways to use search ranges. 
 
-#####Range Examples
+####Range Examples
 
 ~~~
 :s/his/her/g
@@ -46,22 +44,42 @@ Replace every occurrence of the string 'his' with 'her' in the entire file.
 ~~~
 Replace every occurrence of the string 'his' with 'her' from lines 5 to 25 (inclusive) in the file.
 
-~~~
+~~~  
 :.,$s/his/her/g
-~~~
-Replace every occurrence of the string 'his' with 'her' from the current line to the last line of the file.
+~~~  
+Replace every occurrence of the string 'his' with 'her' from the current line (.) to the last line ($) of the file.
 
-~~~
-:.,+15s/his/her/g
-~~~
-Replace every occurrence of the string 'his' with 'her' from the current line through the next 15 lines.
+~~~  
+:.,+15s/his/her/g  
+~~~  
+Replace every occurrence of the string 'his' with 'her' from the current line (.) through the next 15 (+15) lines.
 
 ####Flags
 * **g** - Every occurrence of the search pattern should be replaced on the line.
 * **c** - The user should be prompted for confirmation before each text replacement.
-* **i** - The search should not be case-sensitive.
+* **i** - The search should be case-insensitive.
 * **I** - The search should be case-sensitive.
+* **n** - Don't perform the substitution
 
+####Flag examples
 
+We've already seen usages of the **g** flag. Let's see some of the others. 
 
- 
+~~~  
+:%s/his/her/gc  
+~~~  
+Replace every occurrence of the string 'his' with 'her' in the entire file. Prompt the user for confirmation on each match.
+
+~~~  
+:%s/his/her/gi  
+~~~  
+Replace every occurrence of the string 'his' (case-insensitive) with 'her' in the entire file. 
+
+The **n** flag may seem odd, however it allows for count commands. See the following example:
+
+~~~  
+:%s/his//gin  
+~~~  
+Count the number of occurrences of 'his' (case-insensitive) in the file.
+
+####Count 
