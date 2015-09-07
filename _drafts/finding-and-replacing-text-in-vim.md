@@ -6,12 +6,12 @@ category: development-tools
 tags: [vim]
 ---
 
-I've used vi/vim sporadically for the last 20 years. Early in my career vim was my editor of choice for writing C++ and Java programs (back in the old days before there were decent Java IDEs). These days I find myself using vim much less often while I prefer using IDEs.  Taking advantage of things like automated refactoring tools and other such benefits of modern IDEs makes me much more productive. However, at times I still like to use vim. As far as text editors go it is amazingly powerful and gets a bad rap as being unapproachable and overly complex. In this post I want to talk a bit about how to find and replace text using vim.
+I've used vi/vim sporadically for the last 20 years. Early in my career vim was my editor of choice for writing C++ and Java programs (back in the early days of Java before there were decent Java IDEs). These days I find myself using vim much less often while I prefer using IDEs. Taking advantage of things like automated refactoring tools and other such benefits of modern IDEs makes me much more productive. However, at times I still like to use vim. As far as text editors go it is amazingly powerful and gets a bad rap as being unapproachable and overly complex. In this post I want to talk a bit about how to find and replace text using vim.
 <!--more-->
 
 ##The Slash and Dot Commands
 
-Early in my vim usage if I was looking for a pattern of text that occurred multiple times in the file I would have used the slash command (for help type :h / in vim) to locate the pattern. I then would use the dot command (for help type :h . in vim) to replace each occurrence, using the n command to locate the next occurrence of the pattern in the file. For simple search and replace operations I still think this is the best approach since it requires the least amount of thought and interruption to your current work. However, if I was searching for a pattern that occurred more than a few times this becomes a relatively time consuming series of commands. 
+Early in my vim usage if I was looking for a pattern of text that occurred multiple times in the file I would have used the slash command (for help type :h / in vim) to locate the pattern. I then would use the dot command (for help type :h . in vim) to replace each occurrence, using the n command to locate the next occurrence of the pattern in the file. For simple search and replace operations I still think this is the best approach since it requires the least amount of thought as well as the least interruption to your current work. However, if I was searching for a pattern that occurred more than a few times this becomes a relatively time consuming series of commands. 
 
 [Drew Neil](https://twitter.com/nelstrom) author of _Practical Vim_ and creator of [VimCasts.org](http://vimcasts.org/) suggests that if you find yourself doing any repetitive command in vim there is a better way to do it. And in this case, there is. Enter the **Substitute Command**.
 
@@ -75,11 +75,18 @@ Replace every occurrence of the string 'his' with 'her' in the entire file. Prom
 ~~~  
 Replace every occurrence of the string 'his' (case-insensitive) with 'her' in the entire file. 
 
-The **n** flag may seem odd, however it allows for count commands. See the following example:
+The **n** flag may not seem very useful when you first encounter it, however it allows for count commands. See the following example:
 
 ~~~  
 :%s/his//gin  
 ~~~  
 Count the number of occurrences of 'his' (case-insensitive) in the file.
 
-####Count 
+####Count
+
+Adding a count value to the substitute command allows for searching N number lines beyond the current line. See the following example:
+
+~~~  
+:s/his/her/g 6  
+~~~   
+This command replaces every occurrence of 'his' with 'her' from the current line through the next six lines. 
