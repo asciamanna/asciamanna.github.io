@@ -58,7 +58,7 @@ Static analysis tools use a variety of techniques to visualize metrics. These me
 ####Treemaps in NDepend
 NDepend uses [treemaps](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics) to visualize metrics which I have found to be incredibly useful. A treemap is a visualization algorithm to display data via nested rectangles. These rectangles can represent various code elements in the system (including methods, namespaces, types, and  a few others). The size of the rectangle represents one metric (e.g., method length or cyclomatic complexity). The color of the rectangle is used to  represent a second metric like test coverage. This enables developers to correlate two metrics and use this information to determine refactoring techniques and priorities. You can read about treemaps in detail [here](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics).
 
-<img src="/images/TreemapColor.png" alt="NDepend treemap example"/>
+<img class="img-responsive" src="/images/TreemapColor.png" alt="NDepend treemap example"/>
 
 ##Pressure to Ease the Rules
 

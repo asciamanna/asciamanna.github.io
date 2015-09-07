@@ -11,7 +11,7 @@ I've used vi/vim sporadically for the last 20 years. Early in my career vim was 
 
 ##The Slash and Dot Commands
 
-Early in my vim usage if I was looking for a pattern of text that occurred multiple times in the file I would have used the slash command (for help type :h / in vim) to locate the pattern. I then would use the dot command (for help type :h . in vim) to replace each occurrence, using the n command to locate the next occurrence of the pattern in the file. For simple search and replace operations I still think this is the best approach since it requires the least amount of thought as well as the least interruption to your current work. However, if I was searching for a pattern that occurred more than a few times this becomes a relatively time consuming series of commands. 
+Early in my vim adoption if I was looking for a pattern of text that occurred multiple times in the file I would have used the slash command (for more information type :h / in vim) to locate the pattern. I then would use the dot command (for more information type :h . in vim) to replace each occurrence, using the n command to locate the next occurrence of the pattern in the file. For simple search and replace operations I still think this is the best approach since it requires the least amount of thought and interruption to your current work. However, if I was searching for a pattern that occurred more than a few times this becomes a relatively time consuming series of commands. 
 
 [Drew Neil](https://twitter.com/nelstrom) author of _Practical Vim_ and creator of [VimCasts.org](http://vimcasts.org/) suggests that if you find yourself doing any repetitive command in vim there is a better way to do it. And in this case, there is. Enter the **Substitute Command**.
 
@@ -55,15 +55,18 @@ Replace every occurrence of the string 'his' with 'her' from the current line (.
 Replace every occurrence of the string 'his' with 'her' from the current line (.) through the next 15 (+15) lines.
 
 ####Flags
+Omitting the flag from the command results in only the first occurrence of the match in a line being replaced. Here are some of the flag options:
+
 * **g** - Every occurrence of the search pattern should be replaced on the line.
 * **c** - The user should be prompted for confirmation before each text replacement.
-* **i** - The search should be case-insensitive.
-* **I** - The search should be case-sensitive.
+* **i** - The search should be **case-insensitive**.
+* **I** - The search should be **case-sensitive**.
 * **n** - Don't perform the substitution
 
 ####Flag examples
 
-We've already seen usages of the **g** flag. Let's see some of the others. 
+We've already seen usages of the **g** flag. The g flag results in every occruence of the match in a line to be replaced.
+Let's see some of the others.
 
 ~~~  
 :%s/his/her/gc  

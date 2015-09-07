@@ -21,7 +21,5 @@ the Last.fm REST API.
 
 * [iTunes Library Parser](https://www.github.com/asciamanna/iTunesLibraryParser) - A C# implementation utilizing LINQ-to-XML. Parses an iTunes Library file into a collection of track objects. <a href='https://ci.appveyor.com/project/asciamanna/ituneslibraryparser'><img src='https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq?svg=true' /></a>
 
-* [Music Collection](http://musiccollection.apphb.com/) - A .NET MVC4 / Bootstrap application to manage my music collection.  
-
  If you'd like to see some other things I'm working on you
  can view my [github account](http://www.github.com/asciamanna).

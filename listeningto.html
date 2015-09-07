@@ -24,9 +24,11 @@ layout: default
                     <span class='field'>Track:</span> {{track.Name}}<br/>
                     <span class='field'>Album:</span> {{track.Album}}<br/>
                     <span class='field' ng-hide='track.IsNowPlaying'>Last Played:</span><span ng-class='{nowplaying: track.IsNowPlaying}'> {{track.LastPlayed}}</span> 
-                    <span ng-class='{nowplaying: track.IsNowPlaying}' ng-show='track.IsNowPlaying'> from 
+                    <!-- Disabled until last.fm starts displaying music source information again -->
+                    <!--<span ng-class='{nowplaying: track.IsNowPlaying}' ng-show='track.IsNowPlaying'> from 
 			<a target='_blank' href='{{track.MusicServiceUrl}}'>{{track.MusicServiceName}}</a>
 		    </span>
+                    -->
                     <br/>
                 </div>
                 <div class='clear'></div>
