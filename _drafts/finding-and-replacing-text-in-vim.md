@@ -6,7 +6,7 @@ category: development-tools
 tags: [vim]
 ---
 
-I've used vi/vim sporadically for the last 20 years. Early in my career vim was my editor of choice for writing C++ and Java programs (back in the early days of Java before there were decent Java IDEs). These days I find myself using vim much less often while I prefer using IDEs. Taking advantage of things like automated refactoring tools and other such benefits of modern IDEs makes me much more productive. However, at times I still like to use vim. As far as text editors go it is amazingly powerful and gets a bad rap as being unapproachable and overly complex. In this post I want to talk a bit about how to find and replace text using vim.
+I've used vi/vim sporadically for the last 20 years. Early in my career vim was my editor of choice for writing C++ and Java programs (back in the early days of Java before there were decent Java IDEs). These days I find myself using vim much less often; preferring the advantages I get by using IDEs. Taking advantage of things like automated refactoring tools and other benefits of modern IDEs makes me much more productive. However, at times I still like to use vim, whether it is for text editing or working in a language that lacks a really fantastic IDE. As far as text editors go vim is amazingly powerful and gets a bad rap as being unapproachable and overly complex. In this post I want to talk a bit about how to find and replace text using vim.
 <!--more-->
 
 ##The Slash and Dot Commands
@@ -17,7 +17,7 @@ Early in my vim adoption if I was looking for a pattern of text that occurred mu
 
 ##The Substitute Command
 
-The substitute command allows you to execute any find and replace action across a file (or section of a file) in a single command. For those of you who are familiar with sed the syntax will appear very familiar. Like most things in vim it may seem complicated and cryptic at first, but armed with a little knowledge you will understand and appreciate the substitute command.
+The substitute command allows you to execute any find and replace action across a file (or section of a file) in a single command. For those of you who are familiar with sed the syntax will appear very familiar. Like a lot of things in vim it may seem complicated and cryptic at first, but armed with a little knowledge you will understand and appreciate the substitute command.
 
 ###The Anatomy of a Substitute Command
 ~~~  
