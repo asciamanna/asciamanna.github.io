@@ -63,7 +63,7 @@ Omitting the flag from the command results in only the first occurrence of the m
 * **I** - The search should be **case-sensitive**.
 * **n** - Don't perform the substitution
 
-####Flag examples
+####Flags examples
 
 We've already seen usages of the **g** flag. The g flag results in every occruence of the match in a line to be replaced.
 Let's see some of the others.
