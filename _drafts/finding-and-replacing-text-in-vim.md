@@ -21,7 +21,7 @@ The substitute command allows you to execute any find and replace action across 
 
 ###The Anatomy of a Substitute Command
 ~~~  
-:[range]s[ubstitute]/{search-pattern}/{replacement-string}/[flags] [count]  
+:[range]s[ubstitute]/[search-pattern]/[replacement-string]/[flags] [count]  
 ~~~  
 
 ####Range
@@ -65,7 +65,7 @@ Omitting the flag from the command results in only the first occurrence of the m
 
 ####Flags examples
 
-We've already seen usages of the **g** flag. The g flag results in every occruence of the match in a line to be replaced.
+We've already seen usages of the **g** flag. The g flag results in every occurrence of the match in a line to be replaced.
 Let's see some of the others.
 
 ~~~  
@@ -87,9 +87,49 @@ Count the number of occurrences of 'his' (case-insensitive) in the file.
 
 ####Count
 
-Adding a count value to the substitute command allows for searching N number lines beyond the current line. See the following example:
+Adding a count value to the substitute command allows for searching N number of lines beyond the current line. See the following example:
 
 ~~~  
 :s/his/her/g 6  
 ~~~   
 This command replaces every occurrence of 'his' with 'her' from the current line through the next six lines. 
+
+##Matching Words
+
+Let's say you have the following text:
+~~~
+This is his repository
+~~~
+You want to match his and replace it with her but not match the 'his' in the word 'This.'
+In order to match exact words you will use the \< and \> characters. The following command would match every occurrence of the word his with her on the current line.
+~~~
+:s/\<his\>/her/g
+~~~
+
+##Specifying Other Delimiters
+If you are trying to find and replace text with slashes (URLs for example) the command becomes difficult to read since each forward slash needs to be escaped by being prepended with a backslash.
+
+For example the following command replaces the / with the ! character as the delimiter:
+~~~
+:%s!http://www.asciamanna.com!http://www.anthonysciamanna.com!g
+~~~
+
+##Remove Duplicated Text from Find and Replace Patterns
+
+The previous example shows repeated text in the search and replace strings. I had to include the 'http://www.' in both the search and replace string if I wanted to specifically match the string 'http://www.asciamanna.com'
+
+You can use the \zs and \ze characters to match the replace string in the search text. Instead of repeating the text in this example:
+~~~
+:s/This document has been last updated in 2013/This document has been last updated in 2015/
+~~~
+
+Instead you can use:
+~~~
+:s/This document has been last updated in \zs2013\ze/2015/
+~~~
+
+##Conclusion
+The substitute command is very powerful. I've laid out enough to get you started. You can take a look at these sites and the vim documentation to dig deeper into the command.
+
+* [Vim Wikia: Search and Replace](http://vim.wikia.com/wiki/Search_and_replace)
+* [12 Powerful Find and Replace Examples](http://www.thegeekstuff.com/2009/04/vi-vim-editor-search-and-replace-examples/)
