@@ -48,3 +48,9 @@
 
 - slug: static-code-analysis
   name: Static Code Analysis
+
+- slug: vim
+  name: Vim
+
+- slug: text-editing
+  name: Text Editing
