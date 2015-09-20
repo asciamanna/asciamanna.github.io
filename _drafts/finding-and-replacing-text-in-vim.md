@@ -97,14 +97,18 @@ This command replaces every occurrence of 'his' with 'her' from the current line
 ##Matching Words
 
 Let's say you have the following text:  
+
 ~~~  
 This is his repository  
 ~~~  
+
 You want to match his and replace it with her but not match the 'his' in the word 'This.'
 In order to match exact words you will need to use the \< and \> characters. The following command would match every occurrence of the word his with her on the current line.
-~~~
-:s/\<his\>/her/g
-~~~
+
+~~~    
+:s/\<his\>/her/g   
+~~~  
+
 
 ##Specifying Other Delimiters
 If you are trying to find and replace text with slashes (URLs for example) the command becomes difficult to read since each forward slash needs to be escaped by being prepended with a backslash.
@@ -121,14 +125,15 @@ The previous example shows repeated text in the search and replace strings. I ha
 
 You can use the \zs and \ze characters to match the part of the search string that contains the replacement string. Instead of repeating the text in this example:  
 
-~~~  
+~~~   
 :s/This document has been last updated in 2013/This document has been last updated in 2015/  
-~~~
+~~~  
 
 Instead you can use:  
+
+~~~    
+:s/This document has been last updated in \zs2013\ze/2015/
 ~~~   
-:s/This document has been last updated in \zs2013\ze/2015/   
-~~~  
 
 ##Conclusion
 The substitute command is very powerful. I've laid out enough of the basics to get you started. You can take a look at these sites and the vim documentation to dig deeper into the command.
