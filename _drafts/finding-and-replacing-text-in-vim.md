@@ -109,24 +109,26 @@ In order to match exact words you will need to use the \< and \> characters. The
 ##Specifying Other Delimiters
 If you are trying to find and replace text with slashes (URLs for example) the command becomes difficult to read since each forward slash needs to be escaped by being prepended with a backslash.
 
-For example the following command replaces the / with the ! character as the delimiter:
-~~~
-:%s!http://www.asciamanna.com!http://www.anthonysciamanna.com!g
-~~~
+For example the following command replaces the / with the ! character as the delimiter:  
+
+~~~  
+:%s!http://www.asciamanna.com!http://www.anthonysciamanna.com!g  
+~~~  
 
 ##Remove Duplicated Text from Find and Replacement Patterns
 
 The previous example shows repeated text in the search and replace strings. I had to include the 'http://www.' in both the search and replacement string if I wanted to specifically match the string 'http://www.asciamanna.com'
 
-You can use the \zs and \ze characters to match the part of the search string that contains the replacement string. Instead of repeating the text in this example:
-~~~
-:s/This document has been last updated in 2013/This document has been last updated in 2015/
+You can use the \zs and \ze characters to match the part of the search string that contains the replacement string. Instead of repeating the text in this example:  
+
+~~~  
+:s/This document has been last updated in 2013/This document has been last updated in 2015/  
 ~~~
 
-Instead you can use:
-~~~
-:s/This document has been last updated in \zs2013\ze/2015/
-~~~
+Instead you can use:  
+~~~  
+:s/This document has been last updated in \zs2013\ze/2015/  
+~~~  
 
 ##Conclusion
 The substitute command is very powerful. I've laid out enough of the basics to get you started. You can take a look at these sites and the vim documentation to dig deeper into the command.
