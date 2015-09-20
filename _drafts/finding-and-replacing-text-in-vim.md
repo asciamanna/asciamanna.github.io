@@ -25,7 +25,7 @@ The substitute command allows you to execute any find and replace action across 
 ~~~  
 
 ####Range
-The range specifies how much of the file should be searched for the pattern to be replaced. Omitting the range results in the current line only being searched. If you want to search the entire file you would use the % character. See the following examples on other ways to use search ranges. 
+The range specifies how much of the file should be searched for the pattern to be replaced. Omitting the range results in the current line only being searched. If you want to search the entire file you would use the % character. See the following examples for other ways to use search ranges. 
 
 ####Range Examples
 
@@ -101,7 +101,7 @@ Let's say you have the following text:
 This is his repository
 ~~~
 You want to match his and replace it with her but not match the 'his' in the word 'This.'
-In order to match exact words you will use the \< and \> characters. The following command would match every occurrence of the word his with her on the current line.
+In order to match exact words you will need to use the \< and \> characters. The following command would match every occurrence of the word his with her on the current line.
 ~~~
 :s/\<his\>/her/g
 ~~~
@@ -114,11 +114,11 @@ For example the following command replaces the / with the ! character as the del
 :%s!http://www.asciamanna.com!http://www.anthonysciamanna.com!g
 ~~~
 
-##Remove Duplicated Text from Find and Replace Patterns
+##Remove Duplicated Text from Find and Replacement Patterns
 
-The previous example shows repeated text in the search and replace strings. I had to include the 'http://www.' in both the search and replace string if I wanted to specifically match the string 'http://www.asciamanna.com'
+The previous example shows repeated text in the search and replace strings. I had to include the 'http://www.' in both the search and replacement string if I wanted to specifically match the string 'http://www.asciamanna.com'
 
-You can use the \zs and \ze characters to match the replace string in the search text. Instead of repeating the text in this example:
+You can use the \zs and \ze characters to match the part of the search string that contains the replacement string. Instead of repeating the text in this example:
 ~~~
 :s/This document has been last updated in 2013/This document has been last updated in 2015/
 ~~~
@@ -129,7 +129,7 @@ Instead you can use:
 ~~~
 
 ##Conclusion
-The substitute command is very powerful. I've laid out enough to get you started. You can take a look at these sites and the vim documentation to dig deeper into the command.
+The substitute command is very powerful. I've laid out enough of the basics to get you started. You can take a look at these sites and the vim documentation to dig deeper into the command.
 
 * [Vim Wikia: Search and Replace](http://vim.wikia.com/wiki/Search_and_replace)
 * [12 Powerful Find and Replace Examples](http://www.thegeekstuff.com/2009/04/vi-vim-editor-search-and-replace-examples/)
