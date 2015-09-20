@@ -96,10 +96,10 @@ This command replaces every occurrence of 'his' with 'her' from the current line
 
 ##Matching Words
 
-Let's say you have the following text:
-~~~
-This is his repository
-~~~
+Let's say you have the following text:  
+~~~  
+This is his repository  
+~~~  
 You want to match his and replace it with her but not match the 'his' in the word 'This.'
 In order to match exact words you will need to use the \< and \> characters. The following command would match every occurrence of the word his with her on the current line.
 ~~~
@@ -126,8 +126,8 @@ You can use the \zs and \ze characters to match the part of the search string th
 ~~~
 
 Instead you can use:  
-~~~  
-:s/This document has been last updated in \zs2013\ze/2015/  
+~~~   
+:s/This document has been last updated in \zs2013\ze/2015/   
 ~~~  
 
 ##Conclusion
