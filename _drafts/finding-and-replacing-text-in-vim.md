@@ -6,7 +6,7 @@ category: development-tools
 tags: [vim, text-editing]
 ---
 
-I've used vi/vim sporadically for the last 20 years. Early in my career vim was my editor of choice for writing C++ and Java programs (back in the early days of Java before there were decent Java IDEs). These days I find myself using vim much less often; preferring the advantages I get by using IDEs. Taking advantage of things like automated refactoring tools and other benefits of modern IDEs makes me much more productive. However, at times I still like to use vim, whether it is for text editing or working in a language that lacks a really fantastic IDE. As far as text editors go vim is amazingly powerful and gets a bad rap as being unapproachable and overly complex. In this post I want to talk a bit about how to find and replace text using vim.
+I've used vi/vim sporadically for the last 20 years. Early in my career vim was my editor of choice for writing C++ and Java programs (back in the early days of Java before there were decent Java IDEs). These days I find myself using vim much less often; preferring the advantages I get from IDEs. Taking advantage of things like automated refactoring tools and other benefits of modern IDEs makes me much more productive. However, at times I still like to use vim, whether it is for text editing or working in a language that lacks a really fantastic IDE. As far as text editors go vim is amazingly powerful and gets a bad rap as being unapproachable and overly complex. In this post I want to talk a bit about how to find and replace text using vim.
 <!--more-->
 
 ##The Slash and Dot Commands
@@ -102,7 +102,7 @@ Let's say you have the following text:
 This is his repository  
 ~~~  
 
-You want to match his and replace it with her but not match the 'his' in the word 'This.'
+You want to match his and replace it with her but not match the 'his' contained within the word 'This.'
 In order to match exact words you will need to use the \< and \> characters. The following command would match every occurrence of the word his with her on the current line.
 
 ~~~    
@@ -126,17 +126,17 @@ The previous example shows repeated text in the search and replace strings. I ha
 You can use the \zs and \ze characters to match the part of the search string that contains the replacement string. Instead of repeating the text in this example:  
 
 ~~~   
-:s/This document has been last updated in 2013/This document has been last updated in 2015/  
+:s/This document was last updated in 2013/This document was last updated in 2015/  
 ~~~  
 
-Instead you can use:  
+You can use:  
 
 ~~~    
 :s/This document has been last updated in \zs2013\ze/2015/
 ~~~   
 
 ##Conclusion
-The substitute command is very powerful. I've laid out enough of the basics to get you started. You can take a look at these sites and the vim documentation to dig deeper into the command.
+The substitute command is very powerful. I've laid out enough of the basics to get you started. You can take a look at the following sites and the vim documentation to dig deeper into the command.
 
 * [Vim Wikia: Search and Replace](http://vim.wikia.com/wiki/Search_and_replace)
 * [12 Powerful Find and Replace Examples](http://www.thegeekstuff.com/2009/04/vi-vim-editor-search-and-replace-examples/)
