@@ -40,9 +40,9 @@ Replace every occurrence of the string 'his' with 'her' on the current line only
 Replace every occurrence of the string 'his' with 'her' in the entire file.
 
 ~~~
-:%5,25s/his/her/g
+:8,25s/his/her/g
 ~~~
-Replace every occurrence of the string 'his' with 'her' from lines 5 to 25 (inclusive) in the file.
+Replace every occurrence of the string 'his' with 'her' from lines 8 to 25 (inclusive) in the file.
 
 ~~~  
 :.,$s/his/her/g
@@ -55,7 +55,7 @@ Replace every occurrence of the string 'his' with 'her' from the current line (.
 Replace every occurrence of the string 'his' with 'her' from the current line (.) through the next 15 (+15) lines.
 
 ####Flags
-Omitting the flag from the command results in only the first occurrence of the match in a line being replaced. Here are some of the flag options:
+Omitting the flag from the command results in only the first occurrence of the match in a line being replaced (the default behavior). Here are some of the flag options:
 
 * **g** - Every occurrence of the search pattern should be replaced on the line.
 * **c** - The user should be prompted for confirmation before each text replacement.
