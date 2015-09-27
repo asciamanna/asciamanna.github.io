@@ -135,7 +135,7 @@ You can use:
 :s/This document has been last updated in \zs2013\ze/2015/  
 ~~~   
 
-##Conclusion
+##Next Steps
 The substitute command is very powerful. I've laid out enough of the basics to get you started. You can take a look at the following sites and the vim documentation to dig deeper into the command.
 
 * [Vim Wikia: Search and Replace](http://vim.wikia.com/wiki/Search_and_replace)
