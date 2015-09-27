@@ -132,7 +132,7 @@ You can use the \zs and \ze characters to match the part of the search string th
 You can use:  
 
 ~~~    
-:s/This document has been last updated in \zs2013\ze/2015/  
+:s/This document was last updated in \zs2013\ze/2015/  
 ~~~   
 
 ##Next Steps
