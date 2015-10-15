@@ -12,14 +12,14 @@ I am going to describe several code katas that can help reverse this trend. Thes
 
 ##The Intro Clean Code Kata
 The first kata should compare poorly written code with well written code and provide a mechanism for your team to start discussing the problems they see in the code.  Hopefully this is the one that starts convincing developers who don't see value in clean code that it actually matters. 
-1. Split the team up in pairs of developers.  Let them sift through the codebase and pick a single class.  In a tangly codebase most likey this class will suffer from some, if not all, clean code violations.
-2. Give them some time (approximately 15 minutes should be sufficient at first but you should decrease this over time) to look at the class.  Specifically they should be looking at the following:
-* It's unit tests (or lack thereof) and the names of the unit test cases that exercise the classes public methods
-* The class' public methods
+1. Split the team up in pairs of developers.  Let them sift through the codebase and pick a single class. The only restriction you should put on them is that it should not be a class they have worked on in the past six months. In a messy codebase most likey any class will suffer from some, if not all of the clean code violations.
+2. Give them some time to look at the class (approximately 15 minutes should be sufficient at first but you should decrease this over time).  Specifically they should be looking at the following for the class:
+* Its unit tests (or lack thereof) and the names of the unit test cases that exercise the class' public methods
+* Its public methods
 * Its dependencies and the public methods it calls on its dependencies (ask them not to look at the dependency classes other than their public interface that the class being investigated is using). 
-* It's private methods
-* It's attributes
-3. Given all of this information the pair of developers should be able describe what the classes responsibilities are, what it is doing, and why it is doing it.  
+* Its private methods
+* Its attributes
+3. Given all of this information the pair of developers should be able to describe what the class' responsibilities are, what it is doing, and why it is doing it.  
 
 In code with quality problems this will most likely be fairly difficult unless it is something the developer has written recently. 
 
