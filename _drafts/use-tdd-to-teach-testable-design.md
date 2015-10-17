@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Problems with Test Last Development
+title: Use TDD to Teach Testable Design 
 comments: true
 category: software-craftsmanship
 tags: [code-quality, tdd]
