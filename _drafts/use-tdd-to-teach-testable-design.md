@@ -51,8 +51,9 @@ There are several psychological benefits to practicing TDD. I believe this is wh
 
 > One of the hardest things to communicate about test-driven development is the mental state it puts you in. I remember a session on the original C3 project with Ralph Beattie...Progress was steady and unhurried; because it was unhurried it seemed slow, but looking back on how much we got done, it was clear that despite the unhurried feeling progress was really fast.  
 > &mdash; _[Martin Fowler](http://martinfowler.com/) from the afterword of Kent Beck's TDD By Example_
+
 <br/>
-<img src="http://ecx.images-amazon.com/images/I/51H4NaRMF4L._SX397_BO1,204,203,200_.jpg" />
+<img class="img-responsive center-block" src="http://ecx.images-amazon.com/images/I/51H4NaRMF4L._SX397_BO1,204,203,200_.jpg" />
  
 By introducing TDD you can show that instead of facing a large unknown set of features and struggling with where to begin developers are encouraged to break a large problem down into small achievable goals. These goals can be further broken down so that developers can focus on the larger problem one public method of one class at a time. It forces developers to come up with a set of micro-goals. 
 
