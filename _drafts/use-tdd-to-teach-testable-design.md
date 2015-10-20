@@ -3,23 +3,23 @@ layout: post
 title: Use TDD to Teach Testable Design 
 comments: true
 category: software-craftsmanship
-tags: [code-quality, tdd]
+tags: [code-quality, tdd, coaching]
 ---
 
-Test-driven development (TDD) is one of my essential development practices. It, along with the other XP practices, have helped me advance as a professional developer. There are several benefits that TDD has over test last development. And of course, TDD has enormous benefits over not writing any unit tests. It is common when trying to convince a team to start writing unit tests (and learn how to write testable code) to ignore TDD and take the stance that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it is a mistake. 
+Test-driven development (TDD) is one of my essential development practices. It, along with the other XP practices, have helped me advance as a professional developer. There are several benefits that TDD has over test last development. And of course, TDD has enormous benefits over not writing any unit tests. It is common when trying to convince developers to start writing unit tests (and to understand the importance of writing testable code) to ignore TDD and take the stance that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it is a mistake. 
 
 <!--more-->
 
 I do believe that people who have obtained a level of mastery of writing high quality unit tests and designing testable code can write tests first or last and they would be indistinguishable from each other after the fact. However, even developers who have achieved this level of mastery lean towards practicing TDD, and there is good reason for this. TDD is a practice, a workflow. It provides a way of working that allows developers to quickly add fully-tested, working features to the system incrementally. And the system is **ALWAYS** in a working state. Every developer is always in a position where they are one test (60 seconds or less) away from a perfectly working system.
 
 ##Why Avoid TDD?
-The reason I haven't focused on TDD when trying to coach developers on unit testing is that it remains somewhat controversial. Developers often protest even trying TDD because it is a dramatic change to how they are currently writing software. I thought by avoiding the challenge of convincing developers to get out of their comfort zone and try TDD I would be able to focus on just unit testing and selling why unit testing and testable code is important. But here's the rub, in my experience TDD is the best way to teach the skills necessary for writing high quality unit tests and designing testable code. 
+The reason I haven't focused on TDD when trying to coach developers on unit testing is that it remains somewhat controversial. Developers often protest even trying TDD because it is a dramatic change to how they are currently writing software. I thought by avoiding the challenge of convincing developers to get out of their comfort zone and try TDD I would be able to focus on unit testing and selling why unit testing and testable code is important. But here's the rub, in my experience TDD is the best way to teach the skills necessary for writing high quality unit tests and designing testable code. 
 
 ##Use Uncertainty as Leverage
-When coaching developers who haven't mastered writing testable code a drastic change in how they code can put them in a position to be ready to learn new things. They are in unknown territory and hopefully open to learn some new techniques. Otherwise it is too easy when pressure is on to fall back to what they know (which is probably years of experience of writing untestable code).
+When coaching developers who haven't mastered writing testable code a drastic change in how they code can put them in a position to be ready to learn new things. They are in unknown territory and hopefully open to learn some new techniques. Otherwise it is too easy when pressure is on to fall back to what they know (which could possibly be years of experience of writing untestable code).
 
 ##Old Habits Result in Untestable Code
-When feeling schedule pressure while trying to write unit tests developers will go back to what is comfortable. When trying to unit test under stress it is common to fall back to wrapping untestable code in tests. These tests embody all of the "poor unit test" attributes. They tend to:
+When feeling schedule pressure while trying to learn developers will go back to what is comfortable. When trying to unit test under stress it is common to fall back to wrapping untestable code in tests. These tests embody all of the "poor unit test" attributes. They tend to:
 
 * Be long
 * Be slow 
@@ -27,7 +27,7 @@ When feeling schedule pressure while trying to write unit tests developers will 
 * Have complicated and inappropriate inheritance structures
 	* Sometimes mirroring misused inheritance structures in the code. 
 	* Note that unit tests should never have an inheritance hierarchy.
-* Require complicated test setup because the code requires way too much system state.
+* Require complicated test setup because the code requires too much system state.
 * Obscure code coverage as a result of the complexity of the code under test.
 * Inappropriately use multiple forms of test doubles (e.g., mocks, fakes, or stubs) without rhyme or reason.
 
@@ -54,17 +54,31 @@ There are several psychological benefits to practicing TDD. I believe this is wh
 
 <br/>
 <img class="img-responsive center-block" src="http://ecx.images-amazon.com/images/I/51H4NaRMF4L._SX397_BO1,204,203,200_.jpg" />
- 
+
+###Concrete Progress on Small Goals
+
 By introducing TDD you can show that instead of facing a large unknown set of features and struggling with where to begin developers are encouraged to break a large problem down into small achievable goals. These goals can be further broken down so that developers can focus on the larger problem one public method of one class at a time. It forces developers to come up with a set of micro-goals. 
 
-As Martin Fowler has stated progress is swift but feels like it moves at a comfortable pace. There is now a very real and tangible indicator of forward progress on the problem, as the number of passing unit tests increase. This helps developers work stress free as there isn't this specter of murky progress towards an unclear goal hanging over them.
+As Martin Fowler has stated progress is swift but feels like it moves at a comfortable pace. There are concrete indicators of forward progress, as the number of passing unit tests increase. This helps developers work stress free as there isn't this specter of murky progress towards an unclear goal hanging over them.
 
-The other benefit that I mentioned at the beginning of the post is that the system is always in a working state. If a mistake is made, a developer can delete a test, losing at most a minute of their day. You are always one unit test away from a working system. Developers who work this way find themselves rarely, if ever, having to use the debugger or figuring out where in a huge amount of untested code a problem exists.
+###The System Always Works
+
+The other benefit that I mentioned at the beginning of the post is that the system is always in a working state. If a mistake is made, a developer can delete a test, losing at most a minute of their day. There is no faster feedback loop for developers. You are always one unit test away from a working system. Developers who work this way find themselves rarely, if ever, having to use the debugger or figuring out where in a huge amount of untested code a problem exists.
+
+###Fearless Refactoring
+
+Once a unit test suite exists for a feature developers will have confidence that they can safely refactor the code to continue to improve its design as requirements change over time.
+
+###Exeucatable Documentation
+
+As a developer going into a new part of the codebase for the first time unit tests serve as executable documentation. By its nature for the tests to pass they need to be kept up to date with the code. So they do not suffer from the problems that written specifications or code comments do.
 
 ##Ping Pong Pair Programming
+
 TDD and pair programming come together in a practice called Ping Pong Pair Programming. I won't talk about in detail because I wrote a blog post on it that you can read about here. As a coach pairing with developers to *show* them these practices is the best way to help them achieve mastery of these practices. Ping pong pair programming with the developers you are coaching provides the perfect environment to coach one-on-one.
 
 ###Starting with the Test
+
 When pairing as the coach you can write the first test and start the conversation. Show that by writing the test first it guides you to writing well designed software. Testable code is, by its nature, decoupled.
 
 > When you follow the three rules of TDD, all your code will be testable by definition! And another word for "testable" is "decoupled". In order to test a module in isolation, you must decouple it. So TDD forces you to decouple modules. Indeed, if you follow the three rules, you will find yourself doing much more decoupling than you may be used to. This forces you to create better, less coupled, designs.  
@@ -85,4 +99,4 @@ Use these conversations during pair programming as an opportunity to touch on al
 As you continue to pair with developers they will see how much easier the code is to maintain, understand, and reason about. Now they have a unit test suite which will enable them to refactor their code and continuously improve the design of the software.
 
 ##Conclusion
-TDD and pair programming provides the best framework to educate developers on the value of writing testable code and how to do it properly. If you are trying to sell an organization on unit testing and writing testable code, encourage the developers to pair with you and start the conversation with the first unit test you've written that they have to make pass.
+TDD and pair programming provides the best framework to educate developers on the value of writing testable code and how to do it properly. If you are trying to sell an organization on unit testing and writing testable code, encourage the developers to pair with you and start the conversation with the first unit test you write for them.
