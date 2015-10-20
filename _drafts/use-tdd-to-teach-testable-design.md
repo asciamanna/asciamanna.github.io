@@ -53,7 +53,7 @@ There are several psychological benefits to practicing TDD. I believe this is wh
 > &mdash; _[Martin Fowler](http://martinfowler.com/) from the afterword of Kent Beck's TDD By Example_
 
 <br/>
-<img class="img-responsive center-block" src="http://ecx.images-amazon.com/images/I/51H4NaRMF4L._SX397_BO1,204,203,200_.jpg" />
+<img class="img-responsive center-block" src="/images/tdd_by_example.jpg" />
 
 ###Concrete Progress on Small Goals
 
