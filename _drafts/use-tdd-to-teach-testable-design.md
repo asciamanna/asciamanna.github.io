@@ -6,7 +6,7 @@ category: software-craftsmanship
 tags: [code-quality, tdd, coaching]
 ---
 
-Test-driven development (TDD) is one of my essential development practices. It, along with the other XP practices, have helped me advance as a professional developer. There are several benefits that TDD has over test last development. And it goes without saying that TDD has enormous benefits over not writing any unit tests. It is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the stance that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it is a mistake. 
+Test-driven development (TDD), along with the other XP practices have helped me advance as a professional developer. There are several benefits that TDD has over test last development. And it goes without saying that TDD has enormous benefits over not writing any unit tests. It is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the stance that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it is a mistake. 
 
 <!--more-->
 
