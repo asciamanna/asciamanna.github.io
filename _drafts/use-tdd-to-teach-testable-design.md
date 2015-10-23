@@ -6,20 +6,20 @@ category: software-craftsmanship
 tags: [code-quality, tdd, coaching]
 ---
 
-Test-driven development (TDD), along with the other XP practices have helped me advance as a professional developer. There are several benefits that TDD has over test last development. And it goes without saying that TDD has enormous benefits over not writing any unit tests. It is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the stance that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it is a mistake. 
+Test-driven development (TDD) is an essential practice. It along with the other XP practices have helped me advance as a professional developer. There are several benefits that TDD has over test last development. And it goes without saying that TDD has enormous benefits over not writing any unit tests. It is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the stance that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it is a mistake. 
 
 <!--more-->
 
-I do believe that people who have obtained a level of mastery of writing high quality unit tests and designing testable code can write tests first or last and they would be indistinguishable from each other after the fact. However, even developers who have achieved this level of mastery lean towards practicing TDD, and there is good reason for this. TDD is a practice, a workflow. It provides a way of working that allows developers to quickly add fully-tested, working features to the system incrementally. And the system is **ALWAYS** in a working state. Every developer is always in a position where they are one test (60 seconds or less) away from a perfectly working system.
+I do believe that developers who have obtained a level of mastery of writing high quality unit tests and designing testable code can write tests first or last and they would be indistinguishable from each other after the fact. However, even developers who have achieved this level of mastery lean towards practicing TDD, and there is good reason for this. TDD is a practice, a workflow. It provides a way of working that allows developers to quickly add fully-tested, working features to the system incrementally. And the system is **ALWAYS** in a working state. Every developer is always in a position where they are one test (60 seconds or less) away from a perfectly working system.
 
 ##Why Avoid TDD?
 The reason I haven't focused on TDD when trying to coach developers on unit testing is that it remains somewhat controversial. Developers often protest even trying TDD because it is a dramatic change to how they are currently writing software. I thought by avoiding the challenge of convincing developers to get out of their comfort zone and try TDD I would be able to focus on selling why unit testing and testable code is important. But here's the rub, in my experience TDD is the best way to teach the skills necessary for writing high quality unit tests and designing testable code. 
 
 ##Use Uncertainty as Leverage
-When coaching developers who haven't mastered writing testable code a drastic change in how they code can put them in a position to be ready to learn new things. They are in unknown territory and hopefully open to learn some new techniques. Otherwise it is too easy when pressure is on to fall back to what they know (which is most likely years of experience writing untestable code).
+When coaching developers who haven't mastered writing testable code a drastic change in how they code can put them in the mindset to learn new things. They are in unknown territory and hopefully open to learn some new techniques. Otherwise it is too easy when pressure is on to fall back to what they know (which is most likely years of experience writing untestable code).
 
 ##Old Habits Result in Untestable Code
-When feeling schedule pressure while trying to learn developers will go back to what is comfortable. When trying to unit test under stress it is common to fall back to wrapping untestable code in tests. This results in poor unit tests. They tend to:
+When feeling schedule pressure while trying to learn developers will go back to what is comfortable. When trying to unit test under stress it is common to fall back to wrapping untestable code in tests. This results in poor quality unit tests. They tend to:
 
 * Be long
 * Be slow 
@@ -59,7 +59,7 @@ There are several psychological benefits to practicing TDD. I believe this is wh
 
 By introducing TDD you can show that instead of facing a large unknown set of features and struggling with where to begin developers are encouraged to break a large problem down into small achievable goals. These goals can be further broken down so that developers can focus on the larger problem one public method of one class at a time. It forces developers to come up with a set of micro-goals. 
 
-As Martin Fowler has stated progress is swift but feels like it moves at a comfortable pace. There are concrete indicators of forward progress, as the number of passing unit tests increase. This helps developers work stress free as there isn't a specter of murky progress towards an unclear goal hanging over them.
+As [Martin Fowler](http://martinfowler.com/) has stated progress is swift but feels like it moves at a comfortable pace. There are concrete indicators of forward progress, as the number of passing unit tests increase. This helps developers work stress free as there isn't a specter of murky progress towards an unclear goal hanging over them.
 
 ###The System Always Works
 
@@ -70,12 +70,11 @@ The other benefit that I mentioned at the beginning of the post is that the syst
 Once a unit test suite exists for a feature, developers will have confidence that they can safely refactor the code to continue to improve its design as requirements change over time. If you have read [Martin Fowler](http://martinfowler.com/)'s Refactoring book, several refactorings are considered "safe" because they preserve the behavior of the code. These safe refactorings are even easier now thanks to the refactoring tools for modern IDEs. However, a significant number of the refactorings from the book are not safe and require unit tests to ensure that the developer did not introduce an error.
 
 ###Exeucatable Documentation
-
-As a developer making a change to an unknown part of the codebase for the first time unit tests serve as executable documentation to demonstrate how the object should behave. By their nature, for unit tests to pass they need to be kept up to date with the code. So they do not suffer from the problems that written specifications or code comments do by quickly becoming out of date and untrustworthy.
+Unit tests serve as executable documentation to demonstrate how the object should behave in a variety of scenarios. By unit tests being versioned with the code, they need to be kept up to date to pass. So they do not suffer from the problems inherent in other forms of documentation such as written specifications or code comments. Those forms of documentation quickly become outdated, thus cannot be trusted.
 
 ##Ping Pong Pair Programming
 
-TDD and pair programming come together in a practice called Ping Pong Pair Programming. I won't talk about in detail because I wrote a blog post on it that you can read about here. As a coach pairing with developers to *show* them these practices is the best way to help them achieve mastery of these practices. Ping pong pair programming with the developers you are coaching provides the perfect environment to coach one-on-one.
+TDD and pair programming come together in a practice called Ping Pong Pair Programming. I won't talk about in detail because I wrote a blog post on it that you can read about here. As a coach, pairing with developers to *show* them these practices is the best way to help them achieve mastery. 
 
 ###Starting with the Test
 
