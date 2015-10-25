@@ -6,7 +6,7 @@ category: software-craftsmanship
 tags: [code-quality, tdd, coaching]
 ---
 
-Test-driven development (TDD) is an essential development practice. It along with the other XP practices have significantly helped me advance as a professional developer. However, it is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the position that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it is a mistake. 
+Test-driven development (TDD) is an essential development practice. It along with the other XP practices have significantly helped me advance as a professional developer. However, it is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the position that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am guilty of making this claim in the past and I think it is a mistake. 
 
 <!--more-->
 
@@ -34,7 +34,7 @@ When feeling schedule pressure while trying to learn developers will go back to 
 Most importantly these tests tend to be very difficult to understand. They suffer from the same code quality issues that the production code suffers from. Often developers in this situation come to the correct realization that these tests are hindering them instead of helping them. They decide that unit testing doesn't work, and now you have lost them.
 
 ###Tests are not First-Class Citizens
-Organizations who don't value unit testing obviously don't make unit tests a first-class citizen. Part of the role of the coach is to show that code without unit tests is incomplete. Again, under pressure teams will abandon unit testing when done after developing production code. I've heard it time and time again that *__"we ran out of time to write unit tests."__* This statement bothers me for several reasons. 
+Organizations that don't value unit testing obviously don't make unit tests a first-class citizen. Part of the role of the coach is to show that **code without unit tests is incomplete**. Again, under pressure teams will abandon unit testing when done after developing production code. I've heard it time and time again that *__"we ran out of time to write unit tests."__* This statement bothers me for several reasons. 
 
 * It removes any responsibility from the developer. The developer is essentially saying that it is the schedule, the company, the project manager or someone else's fault that unit tests did not get written.
 * It illuminates the obvious issue that tests are not important to the organization otherwise the work would not be complete without them. 
