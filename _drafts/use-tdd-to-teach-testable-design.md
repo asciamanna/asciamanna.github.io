@@ -6,14 +6,14 @@ category: software-craftsmanship
 tags: [code-quality, tdd, coaching]
 ---
 
-Test-driven development (TDD) is an essential development practice. It along with the other XP practices have significantly helped me advance as a professional developer. However, it is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the position that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it was a mistake. 
+Test-driven development (TDD) is an essential development practice. It along with the other XP practices have significantly helped me advance as a professional developer. However, it is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the position that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am absolutely guilty of making this claim in the past and I think it is a mistake. 
 
 <!--more-->
 
 I do believe that developers who have obtained a level of mastery writing high quality unit tests and designing testable code can write tests first or last and they would be indistinguishable from each other after the fact. However, even developers who have achieved this level of mastery lean towards practicing TDD, and there is good reason for this. TDD is a practice, a workflow. It provides a way of working that allows developers to quickly add fully-tested, working features to the system incrementally. And the system is **ALWAYS** in a working state. Every developer is always in a position where they are one test (60 seconds or less) away from a perfectly working system.
 
 ##Why Avoid TDD?
-The reason I haven't focused on TDD is that it remains somewhat controversial. Developers often protest even trying TDD because it is a dramatic change to how they are currently writing software. I thought by avoiding the challenge of convincing developers to get out of their comfort zone and try TDD I would be able to focus on selling why unit testing and testable code is important. But here's the rub, in my experience TDD is the best way to teach the skills necessary for writing high quality unit tests and designing testable code. 
+The reason I haven't focused on TDD is that it remains somewhat controversial. Developers often protest trying TDD because it is a dramatic change to how they are currently writing software. I thought by avoiding the challenge of convincing developers to get out of their comfort zone and try TDD I would be able to focus on selling why unit testing and testable code is important. But here's the rub, in my experience TDD is the best way to teach the skills necessary for writing high quality unit tests and designing testable code. 
 
 ##Use Uncertainty as Leverage
 When coaching developers who haven't mastered writing testable code a drastic change in how they code can put them in the mindset to learn new things. They are in unknown territory and hopefully open to learn some new techniques. Otherwise it is too easy when pressure is on to fall back to what they know (which is most likely years of experience writing untestable code).
@@ -67,14 +67,14 @@ The other benefit that I mentioned at the beginning of the post is that the syst
 
 ###Fearless Refactoring
 
-Once a unit test suite exists for a feature, developers will have confidence that they can safely refactor the code to continue to improve its design as requirements change over time. If you have read [Martin Fowler](http://martinfowler.com/)'s Refactoring book, several refactorings are considered "safe" because they preserve the behavior of the code. These safe refactorings are even easier now thanks to the refactoring tools for modern IDEs. However, a significant number of the refactorings from the book are not safe and require unit tests to ensure that the developer did not introduce an error.
+Once a unit test suite exists for a feature, developers will have confidence that they can safely refactor the code to continue to improve its design over time. If you have read [Martin Fowler](http://martinfowler.com/)'s Refactoring book, several refactorings are considered "safe" because they preserve the behavior of the code. These safe refactorings are even easier now thanks to the refactoring tools for modern IDEs. However, a significant number of the refactorings from the book are not safe and require unit tests to ensure that the developer did not introduce an error.
 
 ###Executable Documentation
-Unit tests serve as executable documentation to demonstrate how the object should behave in a variety of scenarios. By unit tests being versioned with the code, they need to be kept up to date to pass. So they do not suffer from the problems inherent in other forms of documentation such as written specifications or code comments. Those forms of documentation quickly become outdated, thus they cannot be trusted.
+Unit tests serve as executable documentation to demonstrate how the object should behave in a variety of scenarios. Since the unit tests are versioned with the code, they need to be kept up to date in order to pass. Therefore, they do not suffer from the problems inherent in other forms of documentation such as written specifications or code comments. Those forms of documentation quickly become outdated, thus they cannot be trusted.
 
 ##Ping Pong Pair Programming
 
-TDD and pair programming come together in a practice called [Ping Pong Pair Programming](/2015/04/18/ping-pong-pair-programming.html). I won't talk about in detail because I wrote a blog post on it that you can read about [here](/2015/04/18/ping-pong-pair-programming.html). As a coach, pairing with developers to *show* them these practices is the best way to help them achieve mastery. 
+TDD and pair programming come together in a practice called [Ping Pong Pair Programming](/2015/04/18/ping-pong-pair-programming.html). I won't talk about in detail because I wrote a blog post about the subject that you can read about [here](/2015/04/18/ping-pong-pair-programming.html). As a coach, pairing with developers to *show* them these practices is the best way to help them achieve mastery. 
 
 ###Starting with the Test
 
@@ -92,10 +92,10 @@ Use these conversations during pair programming as an opportunity to touch on al
 * Methods with no side effects are easier to test than methods with side effects. 
 * Classes using composition instead of inheritance are easier to test.
 * Classes that use small inheritance hierarchies are easier to test than large inheritance hierarchies.
-* Classes that follow the inversion of control principle are easier to test than classes that act as "God objects" and do all the work procedurally.
+* Classes that follow the inversion of control principle are easier to test than classes that act as "God objects" and do all their work procedurally.
 * Less test setup (i.e., less state required to execute a test) makes tests easier to write and understand.
 
-As you continue to pair with developers they will see how much easier the code is to maintain, understand, and reason about. Now they have a unit test suite which will enable them to refactor their code and continuously improve the design of the software.
+As you continue to pair with developers they will begin to see how much easier the code is to maintain, understand, extend, and reason about.
 
 ##Conclusion
 TDD and pair programming provides the best framework to educate developers on the value of writing testable code and how to do it properly. If you are trying to sell an organization on unit testing and writing testable code, encourage the developers to pair with you and start the conversation with the first unit test you write with them.
