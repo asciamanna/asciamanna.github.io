@@ -12,13 +12,13 @@ When adding a feature, if the only recourse a team feels it has is to rewrite a 
 It surprises me how many organizations believe that a code rewrite is an appropriate and even necessary course of action when adding features. This is failure of the development organization to build the code in a way that supports extension. These rewrites are not good for the organization. They require a large development and testing effort and are fantastic opportunities for **reappearing bugs**. Those bugs that have been fixed over time but reintroduced through poor programming practices. The time and effort spent on rewrites could be used in much more productive ways by the organization.
 
 ##Rewrite Scope
-One of the gray areas on this topic is how much rewritten code is an appropriate part of code maintenance and how much is not. Rewriting individual methods and even individual small classes, when the code is covered by unit tests, can be the appropriate decision when adding features. This __"rewrite in the small"__ can be part of a larger refactoring effort. In fact, [Martin Fowler](http://martinfowler.com/)'s book *Refactoring*, contains the ***[Substitute Algorithm Refactoring](http://www.refactoring.com/catalog/substituteAlgorithm.html)*** that describes rewriting a method covered by unit tests. However, in a lot of these cases there are refactoring steps that can get you from where you currently are to your destination design safely, without unintentionally modifying the behavior. 
+One of the gray areas on this topic is how much rewritten code is an appropriate part of code maintenance and how much is not. Rewriting individual methods and even individual small classes, when the code is covered by unit tests, can be the appropriate decision when adding features. This __"rewrite in the small"__ can be part of a larger refactoring effort. In fact, [Martin Fowler](http://martinfowler.com/)'s book *Refactoring*, contains the ***[Substitute Algorithm Refactoring](http://www.refactoring.com/catalog/substituteAlgorithm.html)*** that describes rewriting a method covered by unit tests. However, even in many of these cases there are refactoring steps that can get you from where you currently are to your destination design safely, without unintentionally modifying the behavior. 
 
 In well designed software, where methods and classes are very small, rewriting a method or class amounts to rewriting a very small amount of system functionality. In a recent [.NET Rocks podcast](https://www.dotnetrocks.com/?show=1207) featuring [Justin Searls](https://twitter.com/searls), he talks about Mature TDD. Specifically he describes how TDD allows him to break down problems into such small components that adding features usually results in rewriting some very small classes as part of his refactoring to add new features. This helps keep the code in a maintainable state such that a larger rewrite is never necessary.
 
 However, by contrast, in poorly designed systems deleting a public method or a class could result in a significant amount of functionality being deleted and rewritten. Often this is done without an existing unit test suite. In my experience developers will call this  delete and rewrite activity "refactoring." However, it bears absolutely no resemblance to actual refactoring and utilizes none of the techniques to ensure that behavior is maintained while deleting and rewriting.
 
-##The Cycle of Unmaintainable Code
+##The Circle of Unmaintainable Code
 The source of these rewrites is usually two-fold.
 
 ### Poorly Designed Code 
@@ -29,13 +29,15 @@ A common practice that leads to these code problems is that developers determine
 ###Lack of Refactoring
 _**The team does not continuously refactor code.**_ This results in every subsequent code change further degrading the quality of the code. The problem is compounded because the code started out in a state that makes it very difficult to maintain.
 
-Without breaking the cycle developers will continue rewriting and recreating unmaintainable code until eventually the entire system is deemed in need of a rewrite. **A significant amount of time and effort is put in to these feature rewrites which never result in increasing the overall quality of the code.** These rewrites only ensure that another rewrite is coming some time in the future.
+Without breaking the circle developers will continue rewriting and recreating unmaintainable code until eventually the entire system is deemed in need of a rewrite. **A significant amount of time and effort is put in to these feature rewrites which never result in increasing the overall quality of the code.** These rewrites only ensure that another rewrite is coming some time in the future.
 
 <img class="responsive-img" src="/images/circle_of_software_rewrite.png"/>
 
+##The Grand Redesign in the Sky
+If you haven't read Robert Martin's _Clean Code_ I highly recommend it for a number of reasons. Not the least of which is the a section from the first chapter on this topic. The section _The Grand Redesign in the Sky_, which in its short few paragraphs accurately describes how these redesigns continue to end up in the same place the systems they are replacing, as unmaintainable messes.
 
-##Breaking the Cycle
-To break this cycle the first step is that rewrites cannot be accepted by the development organization. 
+##Breaking the Circle
+To break this circle the first step is that rewrites cannot be accepted by the development organization. This needs to be made clear by the development leadership of the organization. 
 
 ###Working with Legacy Code
 Coaching the organization on working with poorly designed code without unit tests would be the first order of business. This is where [Michael Feather](https://twitter.com/mfeathers)'s book, _Working Effectively with Legacy Code_, can be used to teach techniques to improve poor code without unit tests while adding new functionality.
