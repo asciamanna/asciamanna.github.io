@@ -34,7 +34,7 @@ Without breaking the circle, developers will continue rewriting and recreating u
 <img class="img-responsive" src="/images/circle_of_software_rewrite.png"/>
 
 ##The Grand Redesign in the Sky
-If you haven't read [Robert Martin](https://twitter.com/unclebobmartin)'s _Clean Code_, I highly recommend it for many reasons. Not the least of which is a section from the first chapter on this topic. The section _The Grand Redesign in the Sky_, in its short few paragraphs, accurately describes how these redesigns end up suffering from the same problems as the systems that are replacing. They end up as unmaintainable messes unless the team that builds them changes the way they create software.
+If you haven't read [Robert Martin](https://twitter.com/unclebobmartin)'s _Clean Code_, I highly recommend it for many reasons. Not the least of which is a section from the first chapter on this topic. The section _The Grand Redesign in the Sky_, in its short few paragraphs, accurately describes how these redesigns end up suffering from the same problems as the systems they are replacing. They end up as unmaintainable messes unless the organization that builds them changes the way they create software.
 
 ##Breaking the Circle
 To break this circle the first step is that rewrites cannot be accepted by the development organization. This needs to be made clear by the development leadership of the organization. 
