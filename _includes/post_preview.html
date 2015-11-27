@@ -2,7 +2,7 @@
     {% include category_creation.html %}
     <div class="post-list-item">
         <div class="post-header">
-           <i class="fa fa-clock-o"></i> {{ post.date | date: "%A %B %-d, %Y" }}
+           <i class="fa fa-calendar"></i> {{ post.date | date: "%A %B %-d, %Y" }}
         </div>
         <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
         {{post.excerpt }} <a href="{{ post.url}}">Continue Reading <i class="fa
