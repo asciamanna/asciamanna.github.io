@@ -13,7 +13,7 @@ I have had a draft of this post in progress for a few months. Recently [Erik Die
 If you haven't read Erik's post you should. Erik's writing is brilliant and I agree with a lot of his points in that post. 
 
 ##What are Regions?
-If you aren't a .NET developer you may not be familiar with regions. Regions are pre-processor directives that allow you to make a section of code collapsible in Visual Studio (the .NET IDE).  Visual Studio allows for collapsing code by namespace, class, and method without the use of regions. However the region directive allows you to collapse any arbitrary area of the code. There are some rules about how they overlap with other pre-processor directives, but disregarding that, any block of code can be made collapsible. 
+If you aren't a .NET developer you may not be familiar with regions. Regions are preprocessor directives that allow you to make a section of code collapsible in Visual Studio (the .NET IDE).  Visual Studio allows for collapsing code by namespace, class, and method without the use of regions. However the region directive allows you to collapse any arbitrary area of the code. There are some rules about how they overlap with other preprocessor directives, but disregarding that, any block of code can be made collapsible. 
 
 ##But Regions are a Feature
 I am a very strong believer that regions are problematic. There is no reason to use regions in newly created code. But that doesn't mean there is no use for them. I'll discuss a reasonable usage for regions later in this post.  
