@@ -6,38 +6,38 @@ category: software-craftsmanship
 tags: [code-quality, refactoring]
 ---
 
-I have had a draft of this post in progress for a few months. Recently [Erik Dietrich](http://www.daedtech.com/) wrote a post called [Regions are a Code Smell](http://www.daedtech.com/regions-are-a-code-smell). Since it covers a lot of my thoughts on regions, I decided not to publish this post.  However, there are a few points Erik didn't make or places where our thoughts on regions may differ so I decided to finish this post and publish it after all.  
+I have had a draft of this post in progress for a few months. Recently [Erik Dietrich](http://www.daedtech.com/) wrote a post called [Regions are a Code Smell](http://www.daedtech.com/regions-are-a-code-smell). Since it covers a lot of my thoughts on regions, I decided not to publish this post. However, there are a few points Erik didn't make or places where our thoughts on regions may differ so I decided to finish this post and publish it after all.  
 
 <!--more-->
 
 If you haven't read Erik's post you should. Erik's writing is brilliant and I agree with a lot of his points in that post. 
 
 ##What are Regions?
-If you aren't a .NET developer you may not be familiar with regions. Regions are preprocessor directives that allow you to make a section of code collapsible in Visual Studio (the .NET IDE).  Visual Studio allows for collapsing code by namespace, class, and method without the use of regions. However the region directive allows you to collapse any arbitrary area of the code. There are some rules about how they overlap with other preprocessor directives, but disregarding that, any block of code can be made collapsible. 
+If you aren't a .NET developer you may not be familiar with regions. Regions are preprocessor directives that allow you to make a section of code collapsible in Visual Studio (the .NET IDE).  Visual Studio allows for collapsing code by namespace, class, and method without the use of regions. However the region directive allows you to collapse any arbitrary area of the code. There are some rules about how they overlap with other preprocessor directives, but ignoring those, any block of code can be made collapsible. 
 
 ##But Regions are a Feature
-I am a very strong believer that regions are problematic. There is no reason to use regions in newly created code. But that doesn't mean there is no use for them. I'll discuss a reasonable usage for regions later in this post.  
+I am a very strong believer that regions are problematic. There is no reason to use regions in newly created code. But that doesn't mean there is no use for them at all. I'll discuss a reasonable usage for regions later in this post.  
 
 Some developers struggle with the idea that a language feature is something that you would want to avoid in a majority of cases. As developers grow and mature they start to understand that not everything a language provides is going to increase the quality of the code. And most "bad features" still have some, albeit limited and very specific, uses that are valid. As developers get more experience these gray areas will start to make more sense to them. 
 
-Another example of this is the null propagation operator introduced in C# 6.0, which I will discuss in more detail in a future post.  While the null propagation operator can be used appropriately in limited use for data structures like JSON or XML data classes, wider use only encourages [Law of Demeter](http://c2.com/cgi/wiki/LawOfDemeter?LawOfDemeter) violations. As such, I would have preferred it never to be added to the language as I see its opportunity for misuse outweighing its benefits.
+Another example of this is the null propagation operator introduced in C# 6.0, which I will discuss in more detail in a future post.  While the null propagation operator can be used appropriately in limited use on data classes used to store deserialized JSON or XML, or other similar data objects, wider use only encourages [Law of Demeter](http://c2.com/cgi/wiki/LawOfDemeter?LawOfDemeter) violations. As such, I would have preferred it never to be added to the language as I see its opportunity for misuse outweighing its benefits.
 
 
 ##A Code Smell Heuristic
 I don't believe that regions themselves are code smells, but they are a code smell heuristic. They are an indicator of the presence of a code smell. They indicate that refactoring is necessary. 
 
 ###Large Class Code Smell
-The typical usage of regions are to make sections of a class collapsible. It should come as no surprise that if you require regions to organize your class you most likely have a class that is too large. Large Class is one of the code smells described in Martin Fowler's *Refactoring* book. Large classes have several problems not the least of which are violations of the Single Responsibility Principle (SRP). 
+The typical usage of regions are to make sections of a class collapsible. It should come as no surprise that if you require regions to organize your class you most likely have a class that is too large. **Large Class** is one of the code smells described in Martin Fowler's *Refactoring* book. Large classes have several problems not the least of which are violations of the Single Responsibility Principle (SRP). 
 
-Regions are a lot like code comments. Code comments are a heuristic used to identify the long method code smell and they indicate places where extract method refactorings should be utilized. The existence of regions organizing methods in a class are a heuristic used to identify the large class code smell and can potentially indicate places where extract class refactorings can be made.
+Regions are a lot like code comments. Code comments are a heuristic used to identify the long method code smell and they indicate places where extract method refactorings should be utilized. The existence of regions in a class are a heuristic used to identify the large class code smell and can potentially indicate places where extract class refactorings can be made.
 
 ###Long Method Code Smell
 While using regions to organize sections of a class is the most common usage, there are others. I have seen regions used inside of methods. People look at me like I'm crazy when I mention this, and I'm glad they do because they probably think this is an absurd usage of regions. I would agree with them, but I have seen it occur in legacy code quite frequently. 
 
-If you do come across regions in a method then you are dealing with the long method code smell. You can add regions to the list of heuristics used to diagnose the long method code smell provided by Martin Fowler in *Refactoring*. These heuristics are: 
+If you do come across regions in a method then you are dealing with the **Long Method** code smell. You can add regions to the list of heuristics used to diagnose the long method code smell. These heuristics include: 
 
-* Commenting blocks of code
-* White space creating blocks of code
+* Comments indicating blocks of code
+* White space indicating blocks of code
 * The existence of conditionals or loops in methods
 
 ##Reasonable Usage
@@ -46,7 +46,7 @@ While I feel quite strongly that regions should not be used in newly created cod
 ###TODO Comments
 TODO comments, much like regions, should not be used in new code. However, TODO comments can be used in a positive way. While working on a task you may encounter something that needs to change, but the change doesn't directly affect the current work, you can use a TODO comment so you don't forget about it. IDEs create task lists of all of the TODO comments that exist in the code to make it easier to work them off.
 
-These TODO comments can help you by not allowing you to get distracted when working on a task. Their use is a slippery slope however, since TODO comments existing for any long period of time are a problem. These TODO comments should be worked off before committing the code changes if possible. However, if these TODO comments indicate something that is not related to your current task, and you are committing small changes regularly, which you should be doing, it is likely that you will check in one or more of these TODO comments. That's okay, but they should be fixed quickly (i.e., the next thing you do after committing your last batch of changes).
+These TODO comments can help you by not allowing you to get distracted when working on a task. Their use is a slippery slope however, since TODO comments existing for any long period of time are a problem. These TODO comments should be worked off before committing the code changes if possible. However, if these TODO comments indicate something that is not related to your current task, and you are committing small changes regularly to your VCS, which you should be doing, it is likely that you will check in one or more of these TODO comments. That's okay, but they should be fixed quickly (i.e., the next thing you do after committing your last batch of changes).
 
 ###Regions as a Refactoring Visualization Technique
 When working with existing code and a large class is encountered there are several techniques which can be used to help break it down. Michael Feathers recommends several techniques in his book *Working Effectively with Legacy Code*. One technique he recommends is printing out the class and highlighting the methods, fields, and properties that belong together. Another technique he recommends is finding methods and fields with similar names or similar prefixes or suffixes. These can help determine what should be included when extracting classes.
