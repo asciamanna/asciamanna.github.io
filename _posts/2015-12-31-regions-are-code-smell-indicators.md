@@ -23,7 +23,7 @@ Some developers struggle with the idea that a language feature is something that
 Another example of this is the null propagation operator introduced in C# 6.0, which I will discuss in more detail in a future post. The null propagation operator does have an appropriate, albeit limited, use on data classes. For example, classes used to store deserialized JSON or XML, or other similar data objects. Wider use however only encourages [Law of Demeter](http://c2.com/cgi/wiki/LawOfDemeter?LawOfDemeter) violations. As such, I would have preferred that it was never added to the language as I see its opportunity for misuse outweighing its benefits.
 
 
-##A Heuristic for Identifying Code Smells
+##Heuristics for Identifying Code Smells
 I don't believe that regions themselves are code smells, but rather they are an indicator of the presence of a code smell. They indicate that refactoring is necessary. 
 
 ###Large Class Code Smell
@@ -48,7 +48,7 @@ While I feel quite strongly that regions should not be used in newly created cod
 ###TODO Comments
 TODO comments, much like regions, should not be used in new code. However, TODO comments can be used in a positive way. While working on a task you may encounter something that needs to change, but the change doesn't directly affect the current work. You can use a TODO comment to document its location so that you don't forget about it. IDEs create task lists of all of the TODO comments that exist in the code to make it easier to work them off.
 
-TODO comments can help you by not allowing you to get distracted when working on a task. Their use is a slippery slope however, since TODO comments existing for any long period of time are a problem. They can hang around forever, long after the developers who added them are long gone or have forgotten why they added them in the first place. At this point they just become meaningless comments. At best, long-term TODO comments suffer from all of the problems other types of code comments do. I recommend avoiding comments in code if possible as they provide more trouble than value and would also recommend avoiding any long-term TODO comments. 
+TODO comments can help you by not allowing you to get distracted when working on a task. Their use is a slippery slope however, since TODO comments existing for any long period of time are a problem. They can hang around forever, long after the developers who added them are long gone or have forgotten why they added them in the first place. At this point they just become meaningless comments that slow down and confuse future developers. At best, long-term TODO comments suffer from all of the problems other types of code comments do. I recommend avoiding comments in code if possible as they provide more trouble than value and would also recommend avoiding any long-term TODO comments. 
 
 These TODO comments should be worked off before committing the code changes if possible. However, if you are committing small changes regularly to your VCS, which you should be doing, it is likely that you will check in one or more of these TODO comments. That's okay, but they should be addressed and removed quickly (i.e., the next thing you do after committing your last batch of changes for your current task).
 
