@@ -12,22 +12,23 @@ This article is going to focus on a question that commonly arises when learning 
 
 <!--more-->
 ##Unit Tests Should Only Test Public Methods
-The quick answer is that you shouldn't test private methods directly but only their effect on the public methods that call them. Much like client objects that call public methods on the object under test, you can think of the unit test as another client. It should only be accessing the class' public interface. If a class is hard to test via its public interface it is more than likely hard to use and making the production code that calls it too complicated.
+The quick answer is that you shouldn't test private methods directly but only their effect on the public methods that call them. Much like client objects that call the public methods of the object under test, you can think of the unit test as another client. It should only be accessing the class' public interface. If a class is hard to test via its public interface it is hard to use, thus making the production code that calls it too complicated.
 
-This is not an unreasonable question though. There are frameworks that allow for the testing of private methods (e.g., the PrivateObject from Microsoft's MSTest framework). I am very happy to hear these questions being asked. It shows that the developers are taking the first steps towards building high quality unit tests and improving their production code's design. 
+The question as to whether to test private methods directly is not an unreasonable one. There are frameworks that allow for the testing of private methods (e.g., the PrivateObject from Microsoft's MSTest framework). I am very happy to hear these questions being asked. It shows that the developers are taking the first steps towards building high quality unit tests and improving their production code's design. 
 
 ##Motivation
-Developers who wish to test a private method directly usually want to do this because testing it through its public usage would make the test more cumbersome, redundant, add setup to test cases, and/or make the test harder to understand. Recognizing this is the first step towards using unit tests as a tool to improve the design of your code.
+Developers who wish to test a private method directly usually want to do this because testing it through its public usage would make the test more cumbersome, redundant, add setup to test cases, and/or make the test harder to understand. Recognizing this is the first step towards using unit tests as a tool to improve the design of your code. 
 
-There are plenty of developers who will wrap untestable production code in complex tests and be happy that their percentage of code coverage is increasing. The developers who ask how to test private methods are beginning to recognize the problems with complexity in unit tests.
+There are plenty of developers who will wrap untestable production code in complex tests and be happy that their percentage of code coverage is increasing. The developers who ask how to test private methods are beginning to recognize the problems with complexity in unit tests. 
 
 ##Complex Tests Indicate Design Problems
 The next step is to understand what to do when faced with the desire to test a private method. When you want to test a private method directly this is quite often an indication that the class under test is violating the Single Responsibility Principle (SRP) and consequently doing too much.
 
 ###SRP Violations
-Testing a private method directly as well as any additional public methods on a class is a good indicator of an SRP violation. One option, and often the easiest, is to perform an ***extract class*** refactoring to make the private method that you want to test a public method on a newly extracted class. Now that method can be tested directly in a unit test targeting the extracted class.  This new class now becomes a dependency of the original class.  
+Testing a private method directly as well as any additional public methods on a class is a good indicator of an SRP violation. One option, and often the easiest if the abstraction makes sense, is to perform an ***extract class*** refactoring to make the private method that you want to test a public method on a newly extracted class. Now that method can be tested directly in a unit test targeting the extracted class. This new class now becomes a dependency of the original class and can be replaced with a test double in the original class' test cases.  
 
-By testing private methods you are ignoring the complexity in the code under test and letting an opportunity to improve the code slip by. 
+By testing private methods you are ignoring the complexity in the code under test and letting an opportunity to improve the code slip away.
+
 ## Private Method Volatility
 
 ##Obscures Documentation
