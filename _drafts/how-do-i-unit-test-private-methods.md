@@ -8,7 +8,7 @@ tags: [unit-testing, code-quality]
 When developers start unit testing without a solid foundation in writing high quality code or when they try to get an existing codebase with quality problems under test they tend to end up with large, brittle, and confusing tests. The tests end up slowing them down instead of making them faster. As long as developers peservere and get better at writing unit tests it becomes an incredible tool for developing high quality, maintainable code. 
 <!--more-->
 
-> The solution to the problem of costly tests, however, is not to stop testing but instead to get better at it. Getting good value from tests requires clarity of intention and knowing what, when, and how to test.
+> The solution to the problem of costly tests, however, is not to stop testing but instead to get better at it. Getting good value from tests requires clarity of intention and knowing what, when, and how to test.  
 >&mdash; _Sandi Metz, Practical Object Oriented Design in Ruby, page 192_  
 
 This article is the first in a series about unit testing. My goal is to address the common questions that come up when teams start writing unit tests. This article is going to focus on a question that commonly arises when learning how to unit test in object-oriented programming languages, how to test private methods.
