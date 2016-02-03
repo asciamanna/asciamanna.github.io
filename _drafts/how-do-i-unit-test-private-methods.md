@@ -5,19 +5,26 @@ comments: true
 category: development-practices
 tags: [unit-testing, code-quality]
 ---
-When developers start unit testing without a solid foundation in writing high quality code or when they try to get an existing codebase with quality problems under test they tend to end up with large, brittle, and confusing tests. The tests end up slowing them down instead of making them faster. As long as developers peservere and get better at writing unit tests it becomes an incredible tool for developing high quality, maintainable code. 
+When developers begin unit testing without a solid foundation in writing high quality code or when they try to get an existing codebase with quality problems under test they tend to end up with large, brittle, and confusing tests. These kinds of tests slow them down instead of making them faster. They can feel tricked since there was this promise of unit testing making them faster and more efficient. Sadly some developers choose to abandon unit testing altogether deciding it is clearly not a tool for them. It is important to realize that, like most things in software development, the problem isn't with the tool or practice but with its execution. As long as developers peservere and improve at writing unit tests it becomes an incredible tool for developing high quality, maintainable code. 
 <!--more-->
+
+In fact it is one of three skills required to build quality, changeable code according to Sandi Metz:
+* Understanding Object-Oriented Design
+* Refactoring
+* Writing high-value, efficient tests
+
+She calls it the three-legged stool upon which changeable code rests.
 
 > The solution to the problem of costly tests, however, is not to stop testing but instead to get better at it. Getting good value from tests requires clarity of intention and knowing what, when, and how to test.  
 >&mdash; _Sandi Metz, Practical Object Oriented Design in Ruby, page 192_  
 
-This article is the first in a series about unit testing. My goal is to address the common questions that come up when teams start writing unit tests. This article is going to focus on a question that commonly arises when learning how to unit test in object-oriented programming languages, how to test private methods.
+This article is the first in a series about unit testing. My goal is to address the common questions that come up when teams start writing unit tests. This article is going to focus on a question that commonly arises when learning how to unit test in object-oriented programming languages; whether to test private methods.
 
 ##Unit Tests Should Only Test Public Methods
-The quick answer is that you shouldn't test private methods directly but only their effect on the public methods that call them. Much like client objects that call the public methods of the object under test, you can think of the unit test as another client. In fact, if you are practicing TDD it is your __first__ client of the object. It should only be accessing the class' public interface. If a class is hard to test via its public interface it is hard to use. This is an indicator that the production code that is client of the object is going to be hard to complicated and hard to understand.
+The quick answer is that you shouldn't test private methods directly but only their effect on the public methods that call them. Much like client objects that call the public methods of the object under test, you can think of the unit test as another client. In fact, if you are practicing TDD it is your __first__ client of the object. It should only be accessing the class' public interface. If a class is hard to test via its public interface it is going to be hard to use in the production code. 
 
 ##Motivation
-The question as to whether to test private methods directly is not an unreasonable one. There are frameworks that allow for the testing of private methods (e.g., the PrivateObject from Microsoft's MSTest framework). Furthermore, languages like Ruby make it easy to test private methods. I am very happy to hear these questions being asked. It shows that the developers are taking the first steps towards building high quality unit tests and improving their production code's design. 
+The question as to whether to test private methods directly is not an unreasonable one. There are frameworks that allow for the testing of private methods (e.g., the PrivateObject from Microsoft's MSTest framework). Furthermore, languages like Ruby make it easy to test private methods if the developer wishes to. I am very happy to hear these questions being asked. It shows that the developers are taking the first steps towards building high quality unit tests and improving their production code's design. 
 
 Developers who wish to test a private method directly usually want to do this because testing it through its public usage would make the test more cumbersome, redundant, add setup to test cases, and/or make the test harder to understand. Recognizing this is the first step towards using unit tests as a tool to improve the design of your code. 
 
@@ -32,7 +39,7 @@ Testing a private method directly as well as any additional public methods on a 
 By testing private methods you are ignoring the complexity in the code under test and letting an opportunity to improve the code slip away.
 
 ##Obscuring Documentation
-Another purpose for unit testing is to provide documentation about how to use a class. This documentation doesn't suffer from all of the problems that written documentation or code comments suffer from. This documentation is _executable_ so it has to be correct or else your team is faced with failing unit tests.  
+Another purpose for unit testing is to provide documentation about how to use a class. This documentation doesn't suffer from the problems that written documentation or code comments suffer from. This documentation is _executable_ so it has to be correct or else your team is faced with failing unit tests.  
 
 As developers grow in their role as unit testers and more of their code is covered in unit tests you will see a change in how they learn about code.  Their first stop will be to examine a unit test for the class in question.This allows them to learn all of the important aspects of a class:
 * Its public interface
