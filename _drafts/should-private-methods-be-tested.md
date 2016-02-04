@@ -5,15 +5,16 @@ comments: true
 category: development-practices
 tags: [unit-testing, code-quality]
 ---
-Developers new to unit testing often end up with large, brittle, and confusing tests. These kinds of tests typically expose underlying issues with the code under test that developers new to testing may not pick up on. In cases where the developers don't necessarily have a solid foundation in writing decoupled, high quality code or they are trying to get an existing codebase under test it is easy for this to happen. These kinds of tests slow teams down instead of making them faster. Some developers may even come away feeling tricked since there was this promise of unit testing making them faster and more efficient. Sadly, but not surprisingly, some developers choose to abandon unit testing altogether deciding it is not a tool for them. It is important to realize, like most issues in software development, that the problem isn't with the tool or practice but with its execution. As long as developers peservere and improve at writing unit tests it becomes an incredible tool for developing high quality, maintainable code. 
+Developers new to unit testing often end up with large, brittle, and confusing tests. These kinds of tests typically expose underlying issues with the code under test that developers new to testing may not pick up on. If developers don't necessarily have a solid foundation in writing decoupled, high quality code or they are trying to get an existing codebase under test it is easy for this to happen. These kinds of tests slow teams down instead of making them faster. Sadly, but not surprisingly, some developers choose to abandon unit testing altogether deciding it is not a tool for them. It is important to realize, like most issues in software development, that the problem isn't with the tool or practice but with its execution. As long as developers persevere and improve at writing unit tests it becomes an incredible tool for developing high quality, maintainable code. 
 <!--more-->
 
-In fact it is one of three skills required to build high quality, changeable code according to Sandi Metz:
-* Understanding Object-Oriented Design
-* Refactoring
-* Writing high-value, efficient tests
+In fact it is one of three skills required to build high quality, changeable code according to Sandi Metz:  
 
-She calls it the three-legged stool upon which changeable code rests.
+* Understanding Object-Oriented Design  
+* Refactoring  
+* Writing high-value, efficient tests  
+
+She calls this the three-legged stool upon which changeable code rests.
 
 > The solution to the problem of costly tests, however, is not to stop testing but instead to get better at it. Getting good value from tests requires clarity of intention and knowing what, when, and how to test.  
 >&mdash; _Sandi Metz, Practical Object Oriented Design in Ruby, page 192_  
@@ -21,7 +22,7 @@ She calls it the three-legged stool upon which changeable code rests.
 This article is the first in a series I plan on writing about unit testing. My goal is to address the common questions that come up when teams start writing unit tests. This article is going to focus on a question that commonly arises when learning how to unit test in object-oriented programming languages; whether to test private methods.
 
 ##Unit Tests Should Only Test Public Methods
-The short answer is that you shouldn't test private methods directly but only their effects on the public methods that call them. Unit tests are just clients of the object under test, much like the objects in production code that are dependent on the object. In fact, if you are practicing TDD it is your __first__ client of the object. It should only be accessing the class' public interface. If a class is hard to test via its public interface it is going to be hard to use in the production code. 
+The short answer is that you shouldn't test private methods directly but only their effects on the public methods that call them. Unit tests are just clients of the object under test, much like the other objects in the production code that are dependent on the object under test. In fact, if you are practicing TDD the unit test is your __first__ client of the object. It should only be accessing the class' public interface. If a class is hard to test via its public interface it is going to be hard to use in the production code. 
 
 ##Motivation
 The question as to whether to test private methods directly is not an unreasonable one. There are frameworks that allow for the testing of private methods (e.g., the PrivateObject from Microsoft's MSTest framework). Furthermore, languages like Ruby make it easy to test private methods if the developer wishes to do so. I am very happy to hear these questions being asked. It shows that the developers are taking the first steps towards building high quality unit tests and improving their production code's design. 
@@ -52,4 +53,4 @@ As developers grow in their role as unit testers and more of their code is cover
 When choosing to test a private method directly this obscures the documentation of the class. Private methods should _not_ be important to clients of the class. Now the developer who examines the unit test to learn about the class needs to figure out which tests cover private methods and ignore those. As someone who is programming a client of the class in question they should not be concerned with internals of the class unless they need to change them. This impedes the developer when trying to understand the important aspects of a class.
 
 ##Conclusion
-Instead of testing private methods directly use this as a heuristic to perform [***extract class***](http://refactoring.com/catalog/extractClass.html)  refactorings to simplify your production code. Understand that the motivation to test a private method directly is an indicator that the class under test is doing too many things.
+Instead of testing private methods directly use this as a heuristic to perform [***extract class***](http://refactoring.com/catalog/extractClass.html) refactorings to simplify your production code. Understand that the motivation to test a private method directly is an indicator that the class under test is doing too many things and more than likely violating the Single Responsibility Principle.
