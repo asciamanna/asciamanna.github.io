@@ -2,7 +2,7 @@
 layout: post
 title: Should Private Methods Be Tested?
 comments: true
-category: development-practices
+category: software-craftsmanship
 tags: [unit-testing, code-quality]
 ---
 Developers new to unit testing often end up with large, brittle, and confusing tests. These kinds of tests typically expose underlying issues with the code under test that developers new to testing may not realize. If developers don't necessarily have a solid foundation in writing decoupled, high quality code or they are trying to get an existing codebase under test it is easy for this to happen. These kinds of tests slow teams down instead of making them faster. Sadly, but not surprisingly, some developers choose to abandon unit testing altogether deciding it is not a tool for them. It is important to realize, like most issues in software development, that the problem isn't with the tool or practice but with its execution. As long as developers persevere and improve at writing unit tests it becomes an incredible tool for developing high quality, maintainable code. 
