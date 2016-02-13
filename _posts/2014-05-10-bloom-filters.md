@@ -73,7 +73,7 @@ is another formula to solve for _k_: the number of hashing functions.
 
 #### **_(m / n)ln (2)_**
 
-##Practical applications
+## Practical applications
 Bloom filters are used in several applications. Here are a few examples:
 
 * Google's [BigTable](http://en.wikipedia.org/wiki/BigTable) - To reduce disk lookups
