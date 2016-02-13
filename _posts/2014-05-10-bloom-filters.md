@@ -12,7 +12,7 @@ implementing a spell checker using a bloom filter. It can be found
 Bloom filters in algorithms or data structures classes I found it a fascinating way to address set membership when the set can be very large.  
 <!--more-->  
 
-##Definition
+## Definition
 Burton Howard Bloom developed the Bloom filter in 1970. A Bloom filter is a data structure that is used to test whether an element is a
 member of a set. It differs from other data structures (bitmaps, hashes, etc.)
 in that it is **space-efficient** and appropriate to use when the set is very
@@ -27,7 +27,7 @@ the Bloom filter will return "possibly in set" or "definitely not in set."
 
 An additional trade-off is that while elements can be added to the filter they can never be removed.  If deletes are necessary a separate data structure, a counting filter, can be used instead.  
 
-##Algorithm
+## Algorithm
 The Bloom filter starts out empty. In its initial state it is a large bit array
 of _m_ number of bits all initialized to 0.  
 
@@ -50,28 +50,28 @@ positives below 1% by tuning your algorithm.
 Thankfully there are some mathematical formulas that you can use to help tune
 the Bloom filter for your specific use.  
 
-##Tuning the algorithm  
+## Tuning the algorithm  
 
-###Size of the bit array
+### Size of the bit array
 The following formula, found on
 [wikipedia](http://en.wikipedia.org/wiki/Bloom_filter) approximates the number
 of false positives.  So, plug the following in to the formula below.
 
-####_k_ = Number of hashes  
+#### _k_ = Number of hashes  
 
-####_m_ = Number of bits in the bit array  
+#### _m_ = Number of bits in the bit array  
 
-####_n_ = Expected number of elements in your set  
+#### _n_ = Expected number of elements in your set  
 
-####**_(1 - e<sup>-kn/m</sup>)<sup>k</sup>_**
+#### **_(1 - e<sup>-kn/m</sup>)<sup>k</sup>_**
 
-###Number of hashes to calculate
+### Number of hashes to calculate
 This leads us to the next problem: determining how many hashing functions to use. Again, the more hashes calculated the slower the Bloom filter will be and it will fill up the bit array quicker. However, if you use too few hashes it will increase the number of false positives.  
 
 Thanks to [wikipedia](http://en.wikipedia.org/wiki/Bloom_filter) again, there
 is another formula to solve for _k_: the number of hashing functions.
 
-####**_(m / n)ln (2)_**
+#### **_(m / n)ln (2)_**
 
 ##Practical applications
 Bloom filters are used in several applications. Here are a few examples:
@@ -82,7 +82,7 @@ Bloom filters are used in several applications. Here are a few examples:
 * Bitcoin - To verify payments
 * Squid Web Proxy Cache - For cache digests
 
-##Example
+## Example
 Here is an example of a simple Bloom filter I've implemented in C#. It uses the
 SHA-1, SHA-512, and MD5 cryptographic hash algorithms. In an actual Bloom
 filter implementation non-cryptographic hash algorithms would be favored
@@ -90,6 +90,6 @@ because they are faster. These include murmur hash and Jenkins hashing
 algorithms.  However, since the cryptographic algorithims are built in to the .NET cryptography libraries I decided to use them for this simple example.
 {% gist asciamanna/d35f3d3ded04d8aeffd0 %}
 
-##References
+## References
 1. [Dave Thomas' Bloom Filter Code Kata](http://codekata.com/kata/kata05-bloom-filters/)
-1. [Wikipedia - Bloom Filter](http://en.wikipedia.org/wiki/Bloom_filter)
+2. [Wikipedia - Bloom Filter](http://en.wikipedia.org/wiki/Bloom_filter)
