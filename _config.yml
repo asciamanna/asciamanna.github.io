@@ -5,3 +5,6 @@ name: Anthony Sciamanna
 description: Anthony Sciamanna's Software Development Blog
 url: http://www.anthonysciamanna.com
 paginate: 5
+gems :
+  - jekyll-paginate
+  - jekyll-gist
