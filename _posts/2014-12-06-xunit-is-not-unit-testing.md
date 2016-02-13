@@ -12,10 +12,10 @@ Unfortunately, I've encountered developers who have written off unit testing bec
 
 One argument that developers use who have fallen into the trap of writing integration tests instead of unit tests is that _"unit tests come at a cost and you should carefully consider whether you should write a unit test."_ Now I won't argue that your development team needs to become proficient in unit testing so there is a cost associated with that. Additionally, there is more code in the codebase when unit testing so there is a cost to maintain more code rather than less code. But the argument that the "cost of a unit test" is a reason not to write one is a tell-tale sign that the unit tests are not, in fact, unit tests. I've mentioned this in my [previous post](/2014/10/11/the-appropriate-size-for-a-test.html "The Appropriate Size For A Test"), there is a reason why developers who practice TDD don't ever discuss the "cost of a unit test." That is because the benefits of a well written unit test far outweigh the maintenance cost of the unit test. Furthermore, the cost of **_not_** having a unit test is far greater than the cost to maintain one.
 
-##What is a Unit Test?
+## What is a Unit Test?
 While there are decent definitions of unit testing (see [wikipedia](http://en.wikipedia.org/wiki/Unit_testing "Unit Testing") for its definition), like all development practices there is a learning curve associated with becoming proficient in writing quality  unit tests. In order to do so developers need to change the way they write code to make it testable. It seems this  is why so many beginners struggle with unit testing. For developers who have been writing tests and practicing TDD for a while it's very easy to spot a test that isn't a unit test.
 
-###Unit Test Characteristics
+### Unit Test Characteristics
 There are, however, characteristics of good unit tests that you'll want to model your tests after:
   
 * Unit tests should be **short**. They should be as short as possible. If you have more than a dozen or so lines that's a good indicator you are venturing into integration test territory. 
@@ -28,7 +28,7 @@ There are, however, characteristics of good unit tests that you'll want to model
 * Unit tests should **make code coverage obvious.** 
 
 
-###Error Localization & Coverage
+### Error Localization & Coverage
 Error localization and coverage are important concepts that [Michael Feathers](https://twitter.com/mfeathers "Michael Feathers' Twitter Account") discusses in his book [_Working Effectively with Legacy Code_](http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/ref=sr_1_1?ie=UTF8&qid=1417864348&sr=8-1&keywords=working+effectively+with+legacy+code). Here is what he has to say about error localization:
 
 > As tests get further from what they test, it is harder to determine what a test failure means. Often it takes considerable work to pinpoint the source of a test failure. You have to look at the test inputs,
@@ -42,11 +42,11 @@ values that exercise it. We can usually find out whether a piece of code is exer
 the new code.  
 &mdash; _Michael Feathers, Working Effectively with Legacy Code, pages 12 -13_
 
-##Design for "Testability"
+## Design for "Testability"
 
 Developers who focus on writing tests after the code and don't understand how to design their code for "testability" tend to focus too heavily on integration tests. **If code is not organized into units it cannot be unit tested.** I've seen these developers try to get code into test harnesses without refactoring it to support unit testing. In the end they are left with large integration tests because the code lacked the appropriate seams for testing.  
 
-###Testable Code
+### Testable Code
 
 As Bob Martin, Martin Fowler, and plenty of other proponents of TDD have previously described one of the major benefits of unit testing is that writing "testable code" also means that you are adhering to good object-oriented design (OOD) principles:
 
@@ -66,7 +66,7 @@ As Bob Martin, Martin Fowler, and plenty of other proponents of TDD have previou
 
 All of these good OOD principles help you craft code that is testable and maintainable. Trying to get code under test that violates good OOD principles results in large, brittle, integration tests.
 
-##xUnit Integration Tests
+## xUnit Integration Tests
 
 Integration tests are still an important part of your testing suite but they should not replace unit tests and there should be a lot less of them then your unit tests.
 
@@ -74,7 +74,7 @@ I do like to use xUnit test harnesses for integration tests when the tests don't
 
 These integration tests should be able to be separated from unit tests and not be part of the suite that gets run constantly by the developers. Integration tests, even if you are using the same kinds of test harnesses for them, serve a very different purpose than unit tests.
 
-##Conclusion
+## Conclusion
 
 <img src='/images/workingEffectivelyWithLegacyCode.jpg' width='25%' height='25%' class='post-image' />
 If you are struggling with unit testing and finding that you are not getting the value out of it that others appear to be compare your tests to the "unit test characteristics" above. 
