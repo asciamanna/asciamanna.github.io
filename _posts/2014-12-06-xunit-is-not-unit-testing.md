@@ -15,7 +15,7 @@ One argument that developers use who have fallen into the trap of writing integr
 ##What is a Unit Test?
 While there are decent definitions of unit testing (see [wikipedia](http://en.wikipedia.org/wiki/Unit_testing "Unit Testing") for its definition), like all development practices there is a learning curve associated with becoming proficient in writing quality  unit tests. In order to do so developers need to change the way they write code to make it testable. It seems this  is why so many beginners struggle with unit testing. For developers who have been writing tests and practicing TDD for a while it's very easy to spot a test that isn't a unit test.
 
-### Unit Test Characteristics
+###Unit Test Characteristics
 There are, however, characteristics of good unit tests that you'll want to model your tests after:
   
 * Unit tests should be **short**. They should be as short as possible. If you have more than a dozen or so lines that's a good indicator you are venturing into integration test territory. 
@@ -26,6 +26,7 @@ There are, however, characteristics of good unit tests that you'll want to model
 * Unit tests should **run very quickly**. A suite of tests should run in seconds not minutes. An extremely short feedback loop is required for unit tests to provide the benefits necessary for developers.
 * Unit tests should **provide error localization.** It should be very simple to pinpoint the source code causing a failing test.
 * Unit tests should **make code coverage obvious.** 
+
 
 ###Error Localization & Coverage
 Error localization and coverage are important concepts that [Michael Feathers](https://twitter.com/mfeathers "Michael Feathers' Twitter Account") discusses in his book [_Working Effectively with Legacy Code_](http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/ref=sr_1_1?ie=UTF8&qid=1417864348&sr=8-1&keywords=working+effectively+with+legacy+code). Here is what he has to say about error localization:
@@ -42,9 +43,11 @@ the new code.
 &mdash; _Michael Feathers, Working Effectively with Legacy Code, pages 12 -13_
 
 ##Design for "Testability"
+
 Developers who focus on writing tests after the code and don't understand how to design their code for "testability" tend to focus too heavily on integration tests. **If code is not organized into units it cannot be unit tested.** I've seen these developers try to get code into test harnesses without refactoring it to support unit testing. In the end they are left with large integration tests because the code lacked the appropriate seams for testing.  
 
 ###Testable Code
+
 As Bob Martin, Martin Fowler, and plenty of other proponents of TDD have previously described one of the major benefits of unit testing is that writing "testable code" also means that you are adhering to good object-oriented design (OOD) principles:
 
 * Dependency Injection (constructor injection, DI Framework, etc.)
@@ -64,6 +67,7 @@ As Bob Martin, Martin Fowler, and plenty of other proponents of TDD have previou
 All of these good OOD principles help you craft code that is testable and maintainable. Trying to get code under test that violates good OOD principles results in large, brittle, integration tests.
 
 ##xUnit Integration Tests
+
 Integration tests are still an important part of your testing suite but they should not replace unit tests and there should be a lot less of them then your unit tests.
 
 I do like to use xUnit test harnesses for integration tests when the tests don't require visibility outside of the development team. I prefer xUnit because I can test the production code directly. For any integration tests that require external visibility I would need to create additional adapter code to communicate with a tool like [FitNesse](http://www.fitnesse.org/ "FitNesse") or some other acceptance testing framework. This additional adapter code makes these tests increasingly brittle. While there are absolutely benefits to using acceptance test frameworks in a subset of your test suite, if it is not beneficial for a certain class of tests it should be avoided.
@@ -71,6 +75,7 @@ I do like to use xUnit test harnesses for integration tests when the tests don't
 These integration tests should be able to be separated from unit tests and not be part of the suite that gets run constantly by the developers. Integration tests, even if you are using the same kinds of test harnesses for them, serve a very different purpose than unit tests.
 
 ##Conclusion
+
 <img src='/images/workingEffectivelyWithLegacyCode.jpg' width='25%' height='25%' class='post-image' />
 If you are struggling with unit testing and finding that you are not getting the value out of it that others appear to be compare your tests to the "unit test characteristics" above. 
 
