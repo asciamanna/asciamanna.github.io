@@ -34,7 +34,7 @@ Most people who are familiar with me would probably be surprised that I recommen
 #### Discuss Code Quality
 Once code reviews become commonplace developers will begin to get comfortable discussing the quality of the code. If your development organization doesn't frequently talk about code quality, code reviews are even more important to kickstart those discussions. The developers in your organization who think software design is purely subjective or a matter of preference will not be able to disregard valid advice when it is documented. Or if they do it will at least be visible to the entire team. More than anything else, it is a fantastic opportunity to share knowledge and learn. Great teams never pass up practices that help them learn.
 
-###Unit Testing
+### Unit Testing
 Again, if you know me you know that I value unit testing more than nearly any other practice. Great teams test their code themselves. They don't rely on a QA department to do it for them. They also understand the value in unit testing: That it promotes a high quality (loosely coupled, highly cohesive) software design and provides a safety net for refactoring. Furthermore, it leaves your team with a fast, automated test suite that should be finding problems as they arise (e.g., integration bugs).
 
 #### Test-Driven Development & Pair Programming
