@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-##About
+## About
 <hr/>
 I am a software developer with {{site.time | date: "%Y" | minus:2000}}+  years of experience building and delivering high quality software. I have specific expertise in: 
 
@@ -21,7 +21,7 @@ I’ve developed professionally in C#, JavaScript, Ruby, Java, C++, and Perl.
 <br/>
 I graduated from [Drexel University](http://www.drexel.edu) with a degree in Computer Science. I currently work for [eMoney Advisor](http://www.emoneyadvisor.com) in Radnor, PA. View my professional timeline [here](/timeline.html).
 
-###Interests
+### Interests
 * Music
 * Vinyl records
 * Drumming
