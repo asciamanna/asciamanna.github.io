@@ -18,7 +18,7 @@ with very few comments.
 After years of working in both types of baselines I find code with less
 comments and self documenting to be much easier to read and maintain.
 
-##Defining Self Documenting Code
+## Defining Self Documenting Code
 
 Self documenting code is defined as code that explains itself without the need
 of extraneous documentation. It consists of a set of guidelines including
@@ -27,7 +27,7 @@ hungarian notation, emphasizing important information, reducing unimportant
 information, and delaying optimization (among several others). You can read
 more about it [here](http://c2.com/cgi/wiki?SelfDocumentingCode).
 
-##Self Documenting _and_ Comments
+## Self Documenting _and_ Comments
 It's important to point out that the self documenting code style and applying
 comments to code are not mutually exclusive. At some point developers started
 thinking that self documenting code meant that no comments should exist in the
@@ -44,7 +44,7 @@ ways to describe the code and stop using comments as a crutch. As these
 meaningless comments get refactored out of the codebase eventually what's left
 is a codebase with very few comments. 
 
-##Doubts?
+## Doubts?
 I certainly had my doubts about self documenting code. I went through college
 being taught that well-commented code was part of being a software
 professional. When I first encountered a baseline with nearly no comments my
@@ -71,7 +71,7 @@ eliminate the need for the comment in the first place.
 Comments all too often are inaccurate, misleading, and developers struggle
 to keep them in sync with the software.
 
-##Unit Tests Instead of Comments
+## Unit Tests Instead of Comments
 To an extent I agree with Dave Thomas, Andy Hunt, and Robert Martin.
 Comments that describe the intent of the developer are generally useful. 
 
@@ -95,7 +95,7 @@ Let's look at some other types of comments.
 In reality these meaningful comments are the exception not the rule. There
 shouldn't be a need for a lot of meaningful comments in a codebase.
 
-###Optimized code
+### Optimized Code
 Describing code that required some obfuscation to meet performance
 requirements.
 This is important because a developer might try to simplify this code
@@ -104,7 +104,7 @@ Martin would include these in a category he calls "warning of consequences."
 His example of a warning comment is a comment that indicates that a
 test is disabled because of how long it takes to run.
 
-###Amplifying importance
+### Amplifying importance
 This is a category Bob Martin describes in _Clean Code_ where you use a
 comment to amplify the importance of something that may seem
 inconsequential. I tend to categorize these with the types of comments
@@ -113,7 +113,7 @@ the important piece of code rather than commenting it. But if for some
 reason the unit test cannot convey the importance or you don't have
 unit tests I feel that these are reasonable and helpful comments.
 
-###TODO comments
+### TODO comments
 If I am working on a task and see something unrelated that I want to
 address, but I don't want to get sidetracked, I'll drop in a TODO
 comment and come back to it later. Several IDEs build task lists based
@@ -123,16 +123,16 @@ thing about TODO comments is to address them in a timely manner,
 otherwise you are just incurring technical debt and littering your
 codebase with comments.
 
-###Javadoc / XML Doc comments in APIs and public libraries
+### Javadoc / XML Doc comments in APIs and public libraries
 When developing a public API or a library for public use javadoc (or
 XML Doc for .NET) style comments are incredibly useful for the
 developers who are using the library.
 
-##Not So Meaningful Comments
+## Not So Meaningful Comments
 Let's get into the types of comments that I think should be replaced
 when encountered in code. Most comments are going to fall into this category.
 
-###Commenting how the code works
+### Commenting how the code works
 If a comment describes how the code works it's either redundant or
 documenting a piece of complicated code which is an indicator that the
 code needs to be cleaned up. Refactoring blocks of code into well named
@@ -142,7 +142,7 @@ more trouble than they are worth and usually become bug breeding
 grounds. These comments violate the DRY principle so when the code is
 updated the comment must be updated as well.
 
-###Organizing sections of a function
+### Organizing sections of a function
 If comments are used to describe multiple parts of a method or
 function, this is an indicator that the method is too large. These
 types of comments can be removed by extracting methods for the
@@ -150,14 +150,14 @@ different sections and naming them well. If you need large methods in a
 class this can be an indicator that the class is too large. Take a look
 at the class and see if it has only one responsibility.
 
-###Organizing a class
+### Organizing a class
 Similar to the previous example if comments or (in .NET) regions exist
 to organize the class, this is a good indicator that the class is too
 large. Ensuring that the class has a single responsibility and having
 it delegate to other objects for other responsibilities will help
 eliminate the need for these types of comments.
 
-###Bug history
+### Bug history
 These types of comments include a bug Id from a bug tracking system and
 sometimes an explanation of what was changed in the code. If a
 developer looks at this comment in the future it will be meaningless
@@ -167,14 +167,14 @@ keep the history of the software modifications (that is its
 responsibility) and let developers look there. Put bug Ids in commit
 comments if that is helpful, not in source code.
 
-###File Edit History
+### File Edit History
 These types of comments are the ones that document which developer
 changed which part of the code on what date. I've seen enormous class
 headers to track the file edit history. Again these types of comments I
 group into the same category as bug tracking comments. Let the VCS keep
 the history of which developer modified the code.
 
-###Javadoc / XML doc method headers in non-public code
+### Javadoc / XML doc method headers in non-public code
 I find these types of comments in internal code to be overkill and make
 reading the software an enormous chore. These comments violate the
 "Reduce Unimportant Information" guideline as huge blocks of comments
@@ -186,7 +186,7 @@ invaluable and worth having but only on the public facing API. Internal
 code should avoid method headers entirely (whether it be for public or
 private methods).
 
-###Noise
+### Noise
 There are some comments that just restate the name of the method, variable or
 property.  If they aren't identical then they are just rephrasing the names. 
 I tend to categorize these with the method header comments as they tend to make
@@ -194,19 +194,19 @@ reading the code much harder by having lots of these comments interspersed with
 executable code. These comments are the easiest to get rid of. Simply delete
 them and move on and watch the size of your classes shrink.
 
-###Commented out code
+### Commented out code
 Commenting out code is fine when testing but it shouldn't be committed.
 Again, let the VCS control the history of the source code
 modifications.
 
-###Exceptions
+### Exceptions
 Obviously there are no absolutes in software developement. In general,
 if you try to eliminate the need for a comment and
 find that you can't, you most likely have a reasonable comment. 
 However, you should take a closer look at the code if you feel you need a lot
 of comments. 
 
-###Credits
+### Credits
 I've referenced Robert Martin's _Clean Code_ book several times in this
 post. That book has the most comprehensive coverage of "meaningful
 comments" than any other I've found. He has much more content about
