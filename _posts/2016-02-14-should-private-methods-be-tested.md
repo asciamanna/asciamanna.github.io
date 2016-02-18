@@ -5,8 +5,10 @@ comments: true
 category: software-craftsmanship
 tags: [unit-testing, code-quality]
 ---
-Developers new to unit testing often end up with large, brittle, and confusing tests. These kinds of tests typically expose underlying issues with the code under test. Developers new to testing may not recognize this. If developers don't have a solid foundation in writing loosely-coupled code or they are trying to get an existing codebase under test, it is common for them to produce these large and brittle tests. 
+Developers new to unit testing often end up with large, brittle, and confusing tests. These kinds of tests typically expose underlying issues with the code under test. This often goes unnoticed as developers try to learn how to build effective unit tests. If developers don't have a solid foundation in writing loosely-coupled code or they are trying to get an existing codebase under test, it is common for them to produce these large and brittle tests.  
+
 <!--more-->
+
 These kinds of tests slow teams down instead of making them faster. Sadly, but not surprisingly, some developers choose to abandon unit testing altogether deciding it is not a tool for them. It is important to recognize, like most issues in software development, that the problem isn't with the tool or practice but with its execution. As long as developers persevere and improve at writing unit tests it becomes an incredible tool for developing high quality and maintainable code. 
 
 In fact it is one of three skills required to build high quality, changeable code according to Sandi Metz:  
