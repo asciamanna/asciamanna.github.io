@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: Coding Conventions
 comments: true
-category: development-practices
-tags: [code-quality]
+category: development practices
+tags: ['code quality']
 ---
 
 Coding conventions are a necessity on development teams, but unfortunately they are often overlooked. These conventions serve multiple purposes for a team. They foster a consistency in the code which has a positive effect on the overall code quality and enable teams to bring new developers up to speed quickly. This code consistency also makes future development and maintenance significantly easier. Furthermore, the conventions provide a mechanism to determine team rules for building the software that go beyond just stylistic decisions and affect the design quality. These types of rules have a large impact on the quality of the code but also provide one of the first opportunities for a team to find its values and identity.

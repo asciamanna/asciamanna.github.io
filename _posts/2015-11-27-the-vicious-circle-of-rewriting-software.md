@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: The Vicious Circle of Rewriting Software
 comments: true
-category: software-craftsmanship
-tags: [code-quality, coaching]
+category: software craftsmanship
+tags: ['code quality', 'coaching']
 ---
 
 When adding a feature, if the only recourse a team feels it has is to rewrite a significant amount of code, this is indicative of code quality issues in the organization. This should be a red flag, and it should be something that is addressed in team retrospectives until it is remedied. This rewrite cycle is something that is so commonplace in some organizations that it is not questioned. *"This is version 3 of feature x, version 5 of feature y."*  Each one of those versions has been a delete and rewrite cycle. Unfortunately, this prevents the developers involved from ever mastering the skills necessary for creating and maintaining high-quality code.

@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: Use TDD to Teach Testable Design 
 comments: true
-category: software-craftsmanship
-tags: [code-quality, tdd, coaching]
+category: software craftsmanship
+tags: ['code quality', 'tdd', 'coaching']
 ---
 
 Test-driven development (TDD) is an essential development practice. It along with the other XP practices have significantly helped me advance as a professional developer. However, it is common when trying to sell developers on the benefits of unit testing (and the importance of writing testable code) to ignore TDD and take the position that _"as long as you are writing tests it doesn't matter whether you are writing them first or last."_ I am guilty of making this claim in the past and I think it is a mistake. 

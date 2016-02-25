@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: Use Mock Objects Wisely
 comments: true
-category: software-craftsmanship
-tags: [unit-testing]
+category: software craftsmanship
+tags: ['unit testing']
 ---
 Mock objects are a great  tool for writing unit tests, but their overuse can lead to poorly designed code and brittle tests. More often I am seeing developers taking a hard stand about the usefulness of mock objects. It seems you either need to be for or against them. Instead of arguing the extremes we should be looking at the tradeoffs you make when using a mock object. Once there is a good understanding of the tradeoffs, we can decide on a case-by-case basis when and where to use mocks.  
 <!--more-->  

@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: Should Private Methods Be Tested?
 comments: true
-category: software-craftsmanship
-tags: [unit-testing, code-quality]
+category: software craftsmanship
+tags: ['unit testing', 'code quality']
 ---
 Developers new to unit testing often end up with large, brittle, and confusing tests. These kinds of tests typically expose underlying issues with the code under test. This often goes unnoticed as developers try to learn how to build effective unit tests. If developers don't have a solid foundation in writing loosely-coupled code or they are trying to get an existing codebase under test, it is common for them to produce these large and brittle tests.  
 

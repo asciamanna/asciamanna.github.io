@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: Regions are Code Smell Indicators
 comments: true
-category: software-craftsmanship
-tags: [code-quality, refactoring]
+category: software craftsmanship
+tags: ['code quality', 'refactoring']
 ---
 
 I have had a draft of this post in progress for a few months. Recently [Erik Dietrich](http://www.daedtech.com/) wrote a post called [Regions are a Code Smell](http://www.daedtech.com/regions-are-a-code-smell). Since it covers a lot of my thoughts on regions, I decided not to publish this post. However, there are a few points Erik didn't make or places where our thoughts on regions may differ so I decided to finish this post and publish it after all.  

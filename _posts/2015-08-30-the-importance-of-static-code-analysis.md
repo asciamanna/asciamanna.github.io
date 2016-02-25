@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: The Importance of Static Code Analysis
 comments: true
-category: development-tools
-tags: [code-quality, static-code-analysis]
+category: development tools
+tags: ['code quality', 'static code analysis']
 ---
 
 Static code analysis is a critical tool for development teams who value code quality and continuous improvement. My most recent experience with static code analysis tools is with [NDepend](http://www.ndepend.com/ "NDepend Home Page") for .NET. So I will specifically discuss experiences I've had with that tool. However, a lot of the ideas in this article can apply to a majority of the static analysis tools that are currently available.

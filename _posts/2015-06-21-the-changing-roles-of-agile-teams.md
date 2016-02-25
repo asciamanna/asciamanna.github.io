@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: The Changing Roles of Agile Teams 
 comments: true
-category: team-organization
-tags: [agile-development, mentoring, retrospectives]
+category: team organization
+tags: ['agile development', 'mentoring', 'retrospectives']
 ---
 When development organizations start to adopt agile practices, all of the roles in the organization need to change. In this post I want to focus on the dramatically changing roles of senior developers and team leads. In future posts, I will discuss how some other roles in the organization change as well. It is very common for organizations to hold on to their current conceptions of these roles and responsibilities. Trying to transform a development team into an agile team and not changing these roles accordingly will have a negative effect on the team by undermining the agile principles. In doing so, these teams will not realize their full potential, become less effective and less efficient than they could be.
 <!--more-->
