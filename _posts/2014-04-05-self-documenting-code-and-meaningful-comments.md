@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title: Self Documenting Code and Meaningful Comments
 comments: true
-category: software-craftsmanship
-tags: [code-comments, clean-code, code-quality]
+category: software craftsmanship
+tags: [code comments, clean code, code quality]
 ---
 Software is read many more times than it is written and it lives on longer than
 most people expect. Because of this we professional software developers have a
@@ -11,7 +12,7 @@ responsibility to write readable and maintainable code. Certainly well-designed
 software will help both the readability and maintainability. But in addition to
 the software design, the types of
 comments that exist in a codebase also have a huge impact on its readability.
-<!--more-->
+
 I have spent a significant amount of time working in both codebases where the
 team took a "well commented" approach as well as a "self documenting" approach
 with very few comments.
