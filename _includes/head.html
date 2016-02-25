@@ -1,42 +1,51 @@
+
+<!-- HEAD Start -->
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Anthony Sciamanna">
-    <meta name="keywords" content="software, software development, software craftsmanship, .NET, C#, HTML5, CSS3, JavaScript, jQuery, XP, Extreme
-    Programming, Pair Programming, TDD, Test Driven Development, unit testing, code quality, Philadelphia"> 
-    {% if page.excerpt %}
-    <meta name="description" content="{{page.excerpt | strip_html}}">
-    {% elsif page.description %}
-    <meta name="description" content="{{page.description}}">
-    {% else %}
-    <meta name="description" content="Anthony Sciamanna's personal site and blog"> 
-    {% endif %}
-    <title>{% if page.title %} {{page.title}} - Anthony Sciamanna {% else %}Anthony Sciamanna{% endif %}</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="/css/site.css" rel="stylesheet" />
-    {% if page.listeningToApp %}
-    <link href="/css/listeningto.css" rel="stylesheet" />
-    {% endif %}
-    <link rel="shortcut icon" href="/icon.ico" type="image/x-icon" />
-    <link href="http://www.anthonysciamanna.com/feed.xml" rel="alternate" type="application/atom+xml">
+  {% include force-https.html %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{site.description}}">
+  <meta name="author" content="{{site.author}}">
+  <meta name="keywords" content="{{site.keywords}}">
+  <link rel="canonical" href="{{page.url | replace:'index.html','' | prepend: site.baseurl}}">
+  <title>{{site.title}}{% if page.title %} | {{page.title}}{% endif %}</title>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
-     Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <!-- Custom CSS -->
+  <link href="{{site.baseurl}}/css/grayscale.css" rel="stylesheet">
+  {% if page.section-type == "index" %}
+  <link href="{{site.baseurl}}/css/timeline.css" rel="stylesheet">
+  {% endif %}
 
-    ga('create', 'UA-49263473-1', 'anthonysciamanna.com');
-    ga('send', 'pageview');
-    </script>
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/rrssb.css" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  {% if site.favicon %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}{{site.favicon}}">
+  {% endif %}
+
+  {% if page.url == "/404.html" | prepend: {{site.baseurl}} %}
+    <meta http-equiv="refresh" content="20; url={{site.baseurl}}/">
+  {% endif %}
+
+  {% include web-app.html %}
+
+  {% include color-browser.html %}
+
+  {% include syntax-highlight.html %}
+
 </head>
+
+<!-- HEAD End -->

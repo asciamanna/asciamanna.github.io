@@ -1,102 +1,49 @@
----
-layout: default
----
-<div class="post-header">
-   <span class="row-data"><i class="fa fa-calendar"></i> {{ page.date | date: "%A %B %-d, %Y"}} </span>
-   <span class="row-data">
-   <i class="fa fa-comments"></i> <a href="{{page.url}}#disqus_thread">Leave a Comment</a>
-   </span>
-</div>
-<h1>{{ page.title}}</h1>
-<hr/>
-{{content}}
 
-<!-- facebook plugin JS SDK -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-          fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));</script>
-<br/>
-Posted by Anthony Sciamanna &#x25cf {{page.date | date: "%A %B %-d, %Y"}} &#x25cf {{content | number_of_words}} words
-<br/>
-{% assign post = page %}
-<div class="category-and-tags-row">
-   {% include category_creation.html %}
-   <span class="row-data">
-      {{category_content}}
-   </span>
-   {% include tag_creation.html %}
-   <span class="row-data">
-   {{tags_content}}
-   </span>
-</div>
-<div style="float:left;">
-<a href="https://twitter.com/share" class="twitter-share-button"
-    data-via="asciamanna">Tweet</a>
-<script>!function(d,s,id){var
-js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,
-'script', 'twitter-wjs');</script>
-</div>
-<div style="float:left;">
-    <div class="g-plusone"
-        data-href="http://www.anthonysciamanna.com{{page.url}}"></div>
-    <!-- Place this tag after the last +1 button tag. -->
-    <script type="text/javascript">
-  (function() {
-       var po = document.createElement('script'); po.type = 'text/javascript';
-       po.async = true;
-           po.src = 'https://apis.google.com/js/platform.js';
-               var s = document.getElementsByTagName('script')[0];
-               s.parentNode.insertBefore(po, s);
-                 })();
-    </script>
-</div>
-<div style="float:left;padding-right:30px;">
-   <script src="//platform.linkedin.com/in.js" type="text/javascript">
-    lang: en_US
-   </script>
-   <script type="IN/Share" data-counter="right"></script>
-</div>
-<div style="float:left" class="fb-like" data-href="http://www.anthonysciamanna.com{{page.url}}"
-data-layout="standard" data-action="like" data-show-faces="true"
-data-share="true">
-</div>
-<br/>
-<div class="post-nav">
-    <div class="pull-left">
-        {% if page.previous.url %}
-        <a href="{{ page.previous.url }}"><i class="fa fa-long-arrow-left"></i> {{ page.previous.title }}</a>
-        {% endif %}
-    </div>
-    <div class="pull-right">
-        {% if page.next.url %}
-        <a href="{{ page.next.url }}">{{ page.next.title }} <i class="fa fa-long-arrow-right"></i></a>
-        {% endif %}
-    </div>
-</div>
-<br/>
-{% if page.comments %}
-<hr/>
-<h1>Comments</h1>
-    <div id="disqus_thread"></div>
-        <script type="text/javascript">
-                var disqus_shortname = 'anthonysciamanna'; 
-                        (function() {
-                                     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                                                 dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                                                             (document.getElementsByTagName('head')[0] ||
-                                                              document.getElementsByTagName('body')[0]).appendChild(dsq);
-                                     })();
-    </script>
-        <noscript>Please enable JavaScript to view the <a
-                href="http://disqus.com/?ref_noscript">comments powered by
-                Disqus.</a></noscript>
-            <a href="http://disqus.com" class="dsq-brlink">comments powered by
-                <span class="logo-disqus">Disqus</span></a>
+<!-- Post Layout Start -->
 
-{% include disqus.html %}
-{% endif %}                
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          {% include swipe-instructions.html %}
+
+          <h1><strong>{{ page.title }}</strong></h1>
+          <h4><strong>{{ page.date | date_to_string }}</strong>
+            <small> . {{ page.category }} . <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+            {% for tag in page.tags %}
+              <a href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
+            {% endfor %}
+            </small>
+          </h4>
+
+          {{ page.content | markdownify }}
+
+          {% include share.html %}
+
+          {% if jekyll.environment == "production" %}
+            {% include comments.html %}
+          {% endif %}
+
+          {% include social-buttons.html %}
+
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+    {% include js.html %}
+
+  </body>
+</html>
+
+<!-- Post Layout End -->
