@@ -36,7 +36,7 @@ title: "Anthony Sciamanna"
 description: "Anthony Sciamanna's Software Development Blog"
 keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, pair programming, agile, refactoring" 
 favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
+404-img: "/img/adam-bomb.jpg"
 
 ################
 # Header layout #
@@ -147,7 +147,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: "/img/adam-bomb.jpg"
 
 ################################################################################
 
