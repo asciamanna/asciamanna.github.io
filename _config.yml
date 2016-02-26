@@ -134,12 +134,14 @@ email: "asciamanna@gmail.com"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/asciamanna"
   - title: "twitter"
     url: "https://twitter.com/asciamanna"
   - title: "github"
     url: "https://github.com/asciamanna"
+  - title: "facebook"
+    url: "https://facebook.com/asciamanna"
+  - title: "lastfm"
+    url: "http://last.fm/user/asciamanna"
   - title: "rss"
     url: "/feed.xml"
 
