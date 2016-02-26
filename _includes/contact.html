@@ -1,7 +1,7 @@
 
 <!-- Contact Start -->
 
-<section id="{{ page.section-type }}" class="container content-section text-center">
+<section id="{{ page.section-type }}" class="container content-section">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 
@@ -10,7 +10,7 @@
       {% if site.email %}
         {% if site.email contains '@' %}
           {% assign newemail = site.email | split: '@' %}
-            <p>
+            <p class="text-center">
             <script>
               function join_at_email(user, domain){
               return (user && domain)?(user + "@" + domain):"";
@@ -24,7 +24,7 @@
               </script>
             </p>
         {% else %}
-          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          <p class="text-center"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         {% endif %}
       {% endif %}
 
