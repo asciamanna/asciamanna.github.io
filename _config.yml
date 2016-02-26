@@ -1,5 +1,4 @@
 permalink: /:year/:month/:day/:title.html
-excerpt_separator: <!--more-->
 markdown: kramdown
 name: Anthony Sciamanna
 
