@@ -77,9 +77,7 @@ These integration tests should be able to be separated from unit tests and not b
 
 ## Conclusion
 
-<img src='/images/workingEffectivelyWithLegacyCode.jpg' width='25%' height='25%' class='post-image' />
+<img src='/img/workingEffectivelyWithLegacyCode.jpg' width='35%' height='35%' class='img-responsive' />
 If you are struggling with unit testing and finding that you are not getting the value out of it that others appear to be compare your tests to the "unit test characteristics" above. 
 
 If you aren't refactoring existing code to get it under test you are not getting the most out of your tests. If you are working in an existing codebase and are struggling to get the existing code under test I strongly recommend Michael Feathers' _Working Effectively with Legacy Code_. It is the definitive source on the subject.  
-
-<div style='clear:both'></div>

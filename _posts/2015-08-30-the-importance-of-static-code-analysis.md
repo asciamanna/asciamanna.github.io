@@ -9,8 +9,6 @@ tags: ['code quality', 'static code analysis']
 
 Static code analysis is a critical tool for development teams who value code quality and continuous improvement. My most recent experience with static code analysis tools is with [NDepend](http://www.ndepend.com/ "NDepend Home Page") for .NET. So I will specifically discuss experiences I've had with that tool. However, a lot of the ideas in this article can apply to a majority of the static analysis tools that are currently available.
 
-<!--more-->
- 
 This is a follow-up to my previous post about [Coding Conventions](/2015/07/18/coding-conventions.html). If you have read that post you know that I describe how important coding conventions are to a development team.  Once conventions have been documented the next step is to enforce them via a static analysis tool.  
 
 ## Rule Overload
@@ -59,7 +57,7 @@ Static analysis tools use a variety of techniques to visualize metrics. These me
 #### Treemaps in NDepend
 NDepend uses [treemaps](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics) to visualize metrics which I have found to be incredibly useful. A treemap is a visualization algorithm to display data via nested rectangles. These rectangles can represent various code elements in the system (including methods, namespaces, types, and  a few others). The size of the rectangle represents one metric (e.g., method length or cyclomatic complexity). The color of the rectangle is used to  represent a second metric like test coverage. This enables developers to correlate two metrics and use this information to determine refactoring techniques and priorities. You can read about treemaps in detail [here](http://www.ndepend.com/docs/treemap-visualization-of-code-metrics).
 
-<img class="img-responsive" src="/images/TreemapColor.png" alt="NDepend treemap example"/>
+<img class="img-responsive" src="/img/TreemapColor.png" alt="NDepend treemap example"/>
 
 ## Pressure to Ease the Rules
 

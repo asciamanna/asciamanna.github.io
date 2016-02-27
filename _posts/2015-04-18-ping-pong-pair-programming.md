@@ -7,7 +7,6 @@ category: development practices
 tags: ['pair programming', 'tdd', 'unit testing']
 ---
 The most effective form of pair programming I've experienced is called Ping Pong Pair Programming. I find it so effective that I prefer not to pair at all if I cannot ping pong program. The majority of development teams I've encountered who occasionally pair program don't practice ping pong pair programming. They view "pairing" as one developer taking a much more passive role. I suspect these teams would enjoy pair programming more and identify its benefits if they tried ping pong pairing.
-<!--more-->
 
 I've read about Ping Pong Pair Programming as far back as 2002. However, I didn't begin to practice it until I joined an eXtreme Programming (XP) team. I quickly took to the practice, finding it incredibly engaging and enjoyable. As someone who values collaborating with other developers this was collaboration at a level I had not previously experienced. Furthermore, this constant and close collaboration built a camaraderie with a team of developers which I have not been able to replicate since. There are about eight to ten developers with whom I've worked that I feel an incredible bond with as a result of constant pair programming over a significant period of time. These are folks I would jump at the chance to work with again.
 
@@ -17,7 +16,7 @@ Ping Pong Pair Programming is the intersection of two XP practices:
 * Test-Driven Development (TDD)
 * Pair Programming
 
-<img src='/images/ping-pong-pair-programming.png' width='75%' height='75%' />
+<img class="img-responsive" src='/img/ping-pong-pair-programming.png' />
 
 Ping pong pair programming is deceptively simple. Given two developers, Developer A and Developer B:
 
@@ -33,13 +32,12 @@ One of the biggest struggles I see with development teams trying to pair program
 
 ## Physical Environment
 
-<img class='post-image' src='/images/pairing_workstation_opt.jpg' height='40%' width='40%'>
+<img class='img-responsive' src='/img/pairing_workstation_opt.jpg' height='50%' width='50%'>
 
 Another very important aspect of pair programming is how the pair of developers are seated in relation to one other. The worst way to sit while pair programming is one developer in front of the other sharing the same monitor. Both developers need to be comfortably seated and able to take control of the computer at any point in the pairing process without any additional effort. The most common seating arrangement is two developers seated next to each other. While I don't find this to be the optimal seating arrangement, it is usually the easiest in work environments that weren't designed with pair programming in mind. I do however find myself resorting to it more often than I'd like to.
 
 The ideal seating arrangement that I've found through experimenting with a previous team is sitting either directly or diagonally across from one another. This enables pairs to easily look at the screen and look directly at each other at all times during the pairing session (see the photo of one of our pairing workstations).
 
-<div style='clear: both'></div>
 
 ## Benefits 
 

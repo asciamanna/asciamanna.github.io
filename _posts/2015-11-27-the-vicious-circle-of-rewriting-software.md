@@ -9,7 +9,6 @@ tags: ['code quality', 'coaching']
 
 When adding a feature, if the only recourse a team feels it has is to rewrite a significant amount of code, this is indicative of code quality issues in the organization. This should be a red flag, and it should be something that is addressed in team retrospectives until it is remedied. This rewrite cycle is something that is so commonplace in some organizations that it is not questioned. *"This is version 3 of feature x, version 5 of feature y."*  Each one of those versions has been a delete and rewrite cycle. Unfortunately, this prevents the developers involved from ever mastering the skills necessary for creating and maintaining high-quality code.
 
-<!--more-->
 It surprises me how many organizations believe that a code rewrite is an appropriate and even necessary course of action when adding features. This is a failure of the development organization to build the code in a way that supports extension. These rewrites are not good for the organization. They require a large development and testing effort and are fantastic opportunities for **reappearing bugs**. Those bugs that have been fixed over time but reintroduced through poor programming practices. The time and effort spent on rewrites could be used in much more productive ways by the organization.
 
 ## Rewrite Scope
@@ -32,7 +31,7 @@ _**The team does not continuously refactor code.**_ This results in every subseq
 
 Without breaking the circle, developers will continue rewriting and recreating unmaintainable code until eventually the entire system is deemed in need of a rewrite. **A significant amount of time and effort is put into these feature rewrites which never result in increasing the overall quality of the code.** These rewrites only ensure that another rewrite is coming some time in the future.
 
-<img class="img-responsive" src="/images/circle_of_software_rewrite.png"/>
+<img class="img-responsive" src="/img/circle_of_software_rewrite.png"/>
 
 ## The Grand Redesign in the Sky
 If you haven't read [Robert Martin](https://twitter.com/unclebobmartin)'s _Clean Code_, I highly recommend it for many reasons. Not the least of which is a section from the first chapter on this topic. The section _The Grand Redesign in the Sky_, in its short few paragraphs, accurately describes how these redesigns end up suffering from the same problems as the systems they are replacing. They end up as unmaintainable messes unless the organization that builds them changes the way they create software.

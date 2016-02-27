@@ -51,10 +51,8 @@ However, the challenge with collective code ownership is that if the team gets t
 It seems, to scale a team and properly maintain strong collective code ownership large codebases should be segmented to achieve isolation and build teams around those isolated parts of the code base. Those smaller teams can then take ownership of their code. 
 
 ## Learning How To Refactor
-<img src='/images/refactoringBook.jpg' width='25%' height='25%' class='post-image'/>
+<img src='/img/refactoringBook.jpg' width='35%' height='35%' class='img-responsive'/>
 Refactoring is its own development skill much like unit testing. Deleting an entire class and starting over is probably not the best approach in a majority of situations. The most comprehensive book and reference on the subject that I have read is Martin Fowler's [*Refactoring - Improving the Design of Existing Code*](http://www.refactoring.com).
-
-<div style='clear:both'> </div>
 
 
 ## Conclusion
