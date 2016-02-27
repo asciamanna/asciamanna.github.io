@@ -139,6 +139,8 @@ social:
     url: "https://github.com/asciamanna"
   - title: "facebook"
     url: "https://facebook.com/asciamanna"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/asciamanna"
   - title: "lastfm"
     url: "http://last.fm/user/asciamanna"
   - title: "rss"
@@ -179,6 +181,10 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+#######################
+#      Code Page      #
+#######################
 
 projects:
   - name: "Improved iTunes Parser"
