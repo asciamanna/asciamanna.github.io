@@ -9,10 +9,10 @@ Here are a few projects I have worked on in my free time:
 
 {% for project in site.projects %}
 <h4>
-<a href="{{project.url}}">{{project.name}}</a>
-<a href="{{project.ci_url}}">
-   <img class="code-img" src="{{project.build_image}}" />
-</a>
+   <a href="{{project.url}}">{{project.name}}</a>
+   <a href="{{project.ci_url}}">
+      <img class="code-img" src="{{project.build_image}}" />
+   </a>
 </h4>
 <p>
    {{project.description | markdownify}}

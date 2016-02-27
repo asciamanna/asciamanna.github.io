@@ -27,6 +27,8 @@
 
           {{ page.content | markdownify }}
 
+	  {% include post-footer.html %}
+
           {% include share.html %}
 
           {% if jekyll.environment == "production" %}
