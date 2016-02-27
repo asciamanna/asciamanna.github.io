@@ -21,38 +21,40 @@ Early in my vim adoption if I was looking for a pattern of text that occurred mu
 The substitute command allows you to execute any find and replace action across a file (or section of a file) in a single command. For those of you who are familiar with sed the syntax will appear very familiar. Like a lot of things in vim it may seem complicated and cryptic at first, but armed with a little knowledge you will understand and appreciate the substitute command.
 
 ### The Anatomy of a Substitute Command
-~~~  
+<pre><code class="vim">  
 :[range]s[ubstitute]/[search-pattern]/[replacement-string]/[flags] [count]  
-~~~  
+</code></pre>
 
 #### Range
 The range specifies how much of the file should be searched for the pattern to be replaced. Omitting the range results in the current line only being searched. If you want to search the entire file you would use the % character. See the following examples for other ways to use search ranges. 
 
 #### Range Examples
 
-~~~
+<pre><code class="vim">
 :s/his/her/g
-~~~
+</code></pre>
 Replace every occurrence of the string 'his' with 'her' on the current line only.
 
-~~~
+<pre><code class="vim">
 :%s/his/her/g
-~~~
+</code></pre>
 Replace every occurrence of the string 'his' with 'her' in the entire file.
 
-~~~
+<pre><code class="vim">
 :8,25s/his/her/g
-~~~
+</code></pre>
+
 Replace every occurrence of the string 'his' with 'her' from lines 8 to 25 (inclusive) in the file.
 
-~~~  
+<pre><code class="vim">
 :.,$s/his/her/g
-~~~  
+</code></pre>
 Replace every occurrence of the string 'his' with 'her' from the current line (.) to the last line ($) of the file.
 
-~~~  
+<pre><code class="vim">
 :.,+15s/his/her/g  
-~~~  
+</code></pre>
+
 Replace every occurrence of the string 'his' with 'her' from the current line (.) through the next 15 (+15) lines.
 
 #### Flags
@@ -69,46 +71,46 @@ Omitting the flag from the command results in only the first occurrence of the m
 We've already seen usages of the **g** flag. The g flag results in every occurrence of the match in a line to be replaced.
 Let's see some of the others.
 
-~~~  
+<pre><code class="vim">
 :%s/his/her/gc  
-~~~  
+</code></pre>
 Replace every occurrence of the string 'his' with 'her' in the entire file. Prompt the user for confirmation on each match.
 
-~~~  
+<pre><code class="vim">
 :%s/his/her/gi  
-~~~  
+</code></pre>
 Replace every occurrence of the string 'his' (case-insensitive) with 'her' in the entire file. 
 
 The **n** flag may not seem very useful when you first encounter it, however it allows for count commands. See the following example:
 
-~~~  
+<pre><code class="vim">
 :%s/his//gin  
-~~~  
+</code></pre>
 Count the number of occurrences of 'his' (case-insensitive) in the file.
 
 #### Count
 
 Adding a count value to the substitute command allows for searching N number of lines beyond the current line. See the following example:
 
-~~~  
+<pre><code class="vim">
 :s/his/her/g 6  
-~~~   
+</code></pre>
 This command replaces every occurrence of 'his' with 'her' from the current line through the next six lines. 
 
 ## Matching Words
 
 Let's say you have the following text:  
 
-~~~  
+<pre><code class="nohighlight">
 This is his repository  
-~~~  
+</code></pre>
 
 You want to match his and replace it with her but not match the 'his' contained within the word 'This.'
 In order to match exact words you will need to use the \< and \> characters. The following command would match every occurrence of the word his with her on the current line.
 
-~~~    
+<pre><code class="vim">    
 :s/\<his\>/her/g   
-~~~  
+</code></pre>
 
 
 ## Specifying Other Delimiters
@@ -116,9 +118,9 @@ If you are trying to find and replace text with slashes (URLs for example) the c
 
 For example the following command replaces the / with the ! character as the delimiter:  
 
-~~~  
+<pre><code class="vim">
 :%s!http://www.asciamanna.com!http://www.anthonysciamanna.com!g  
-~~~  
+</code></pre>
 
 ## Remove Duplicated Text from Find and Replacement Patterns
 
@@ -126,15 +128,15 @@ The previous example shows repeated text in the search and replace strings. I ha
 
 You can use the \zs and \ze characters to match the part of the search string that contains the replacement string. Instead of repeating the text in this example:  
 
-~~~   
+<pre><code class="vim">
 :s/This document was last updated in 2013/This document was last updated in 2015/  
-~~~  
+</code></pre>
 
 You can use:  
 
-~~~    
+<pre><code class="vim">
 :s/This document was last updated in \zs2013\ze/2015/  
-~~~   
+</code></pre>
 
 ## Next Steps
 The substitute command is very powerful. I've laid out enough of the basics to get you started. You can take a look at the following sites and the vim documentation to dig deeper into the command.
