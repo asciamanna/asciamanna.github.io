@@ -162,6 +162,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Code: 'code'
+  "Listening To": 'listening-to'
 #  Timeline: 'timeline'
   Contact: 'contact'
 
