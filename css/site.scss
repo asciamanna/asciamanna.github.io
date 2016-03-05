@@ -62,7 +62,7 @@ blockquote p {
 }
 
 .code-img { 
-   display: inline-block !important;
+  display: inline-block !important;
 }
 
 .code-heading {
@@ -75,4 +75,16 @@ blockquote p {
 
 .img-me {
   border: 2px solid #f1f1f1 !important;
+}
+
+.intro-text-container {
+  position: absolute;
+  left-margin: auto;
+  right-margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.spacer {
+  margin-bottom: 60px;
 }
