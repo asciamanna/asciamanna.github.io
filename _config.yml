@@ -2,7 +2,6 @@ permalink: /:year/:month/:day/:title.html
 markdown: kramdown
 name: Anthony Sciamanna
 
-
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
@@ -43,7 +42,8 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/favicon.ico"
 
-background-img: "../img/intro-bg.jpg"
+#background-img: "../img/background.jpg"
+background-img: "../img/wood1.jpg"
 
 ##############################
 # Dynamic Text on the Header #
