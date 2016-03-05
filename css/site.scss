@@ -15,8 +15,13 @@ body {
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
-.reset-list-align ul {
+.reset-list-align {
+  ul {
    text-align: left; 
+  }
+  ol {
+   text-align: left;
+  }
 }
 
 ul.social-buttons {
