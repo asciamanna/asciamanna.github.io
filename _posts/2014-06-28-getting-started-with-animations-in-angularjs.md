@@ -10,7 +10,6 @@ Animations are becoming increasingly more important to create an engaging user e
 
 There is enough information about the AngularJS animation API to fill several blog posts. I will focus on the basics to get you started and link to
 additional information.
-<!--more-->  
 
 ## Setup
 There are only a few simple steps before you are ready to start using the new animations API.  
@@ -34,7 +33,7 @@ You need to specify CSS for the starting animation and the destination animation
 As you can see the convention is .ng-{event} for your starting animation and .ng-{event}-active for your destination animation. The events that are supported are **enter**, **leave**, and **move**. Additionally, hiding and showing elements as well as adding and removing a class from an element can also be animated using a similar convention.
 The following table combines information from the [yearofmoo blog post](http://www.yearofmoo.com/2013/08/remastered-animation-in-angularjs-1-2.html) about angular animations and the [AngularJS developer guide](https://docs.angularjs.org/guide/animations).  It describes the supported animations, the directives that trigger them, and the CSS classes that are required for CSS Transition based animations:
   
-<table class='table table-striped table-bordered' markdown='0'>
+<table class='table table-bordered' markdown='0'>
 <tr>
 <th>Animation</th><th>Directives that Trigger Animation</th><th>Beginning Class</th><th>Ending Class</th>
 </tr>
