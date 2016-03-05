@@ -181,7 +181,6 @@ function addTohistory() {
     var post = document.getElementById('post');
 
     new Hammer(post).on('swipeleft', function(event) {
-      debugger;
       addTohistory();
       {% if site.baseurl == "" and page.previous == nil %}
         document.location.replace("/");
@@ -191,7 +190,6 @@ function addTohistory() {
     });
 
     new Hammer(post).on('swiperight', function(event) {
-      debugger;
       addTohistory();
       {% if site.baseurl == "" and page.next == nil %}
         document.location.replace("/");
@@ -215,7 +213,6 @@ function addTohistory() {
     var page = document.getElementById('page');
 
     new Hammer(page).on('swipeleft', function(event) {
-      debugger;
       addTohistory();
       {% if site.baseurl == "" and paginator.next_page_path == nil %}
         document.location.replace("/");
@@ -224,7 +221,6 @@ function addTohistory() {
       {% endif %}
     });
     new Hammer(page).on('swiperight', function(event) {
-      debugger;
       addTohistory();
       {% if site.baseurl == "" and paginator.previous_page_path == nil %}
         document.location.replace("/");
