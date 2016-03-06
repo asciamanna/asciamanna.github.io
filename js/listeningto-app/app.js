@@ -15,9 +15,9 @@ function MainController($scope, $http) {
             .success(function(data) {
                 recentTracks.length = 0;
                 angular.forEach(data, function(track, index) {
-                    track.IsNowPlaying = track.LastPlayed === 'Now Playing';
+                    track.IsNowPlaying = track.LastPlayed === "Now Playing";
                     if(!track.AlbumArtLocation) {
-                        track.AlbumArtLocation = '/img/No_Cover.gif';
+                        track.AlbumArtLocation = "/img/no-image-available.png";
                     }
                     recentTracks.push(track);
                 });
