@@ -1,8 +1,10 @@
+---
 layout: post
 section-type: post
 title: The Better Code Book
 category: development tools
 tags: ['code quality', 'static code analysis']
+---
 
 The past summer I wrote an article for my blog about [the importance of static code analysis](2015-08-30-the-importance-of-static-code-analysis.html). While writing this article I reached out to [Patrick Smacchia](http://codebetter.com/patricksmacchia/) and the folks at [NDepend](http://www.ndepend.com/). A few months later they approached me about the article being included in an e-book about NDepend. 
 
