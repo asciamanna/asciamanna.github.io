@@ -23,7 +23,7 @@ She calls this the three-legged stool upon which changeable code rests.
 > The solution to the problem of costly tests, however, is not to stop testing but instead to get better at it. Getting good value from tests requires clarity of intention and knowing what, when, and how to test.  
 >&mdash; _Sandi Metz, Practical Object Oriented Design in Ruby, page 192_  
 
-This article is the first in a series I plan on writing about unit testing. My goal is to address the common questions that come up when teams start writing unit tests. This article in particular is going to focus on a question that commonly arises when learning how to unit test in object-oriented programming languages; whether to test private methods.
+This article is the first in a series I plan on writing about unit testing. My goal is to address the common questions and issues that arise when teams start writing unit tests. This article in particular is going to focus on a question that commonly comes up when learning how to unit test in object-oriented programming languages; whether to test private methods.
 
 ## Unit Tests Should Only Test Public Methods
 The short answer is that you shouldn't test private methods directly, but only their effects on the public methods that call them. Unit tests are clients of the object under test, much like the other classes in the code that are dependent on the object. In fact, if you are practicing test-driven development (TDD), the unit test is your __first__ client of the object. The test should only be accessing the class' public interface. If an object is hard to test via its public interface, it is going to be hard to use in the production code. This is one of many examples where a unit test is exposing potential design issues.
