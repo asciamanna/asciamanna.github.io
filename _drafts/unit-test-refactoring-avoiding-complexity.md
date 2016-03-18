@@ -7,7 +7,7 @@ category: software craftsmanship
 tags: ['unit testing', 'code quality']
 ---
 
-This is the second post in my series about questions and challenges that typically arise when teams begin unit testing. In the first post I addressed the question [should private methods be tested?](/2016/02/14/should-private-methods-be-tested.html) In this post I'm going to focus on two related issues: refactoring unit tests and avoiding test complexity.
+This is the second post in my series about writing effective unit tests. This series covers questions and challenges that typically arise when teams begin unit testing. In the first post I addressed the question [should private methods be tested?](/2016/02/14/should-private-methods-be-tested.html) In this post I'm going to focus on two related issues: refactoring unit tests and avoiding test complexity.
 
 For those new to unit testing it is common to not apply the same vigor to keep unit tests clean as they would to keep production code clean. There are several reasons for this. There is a learning curve associated with effective unit testing. Developers almost certainly don't know the common patterns and practices for unit tests when first start writing them. They are learning as they write unit tests and it tends to show in the quality of these early tests. This is not a bad thing. I continually learn and improve my tests. I've been unit testing for ten years now and my tests today look different than my tests just two months ago, thanks to brilliant colleagues and people like [Justin Searls](https://twitter.com/searls) and [Robert Martin](https://twitter.com/unclebobmartin) who write and talk about these topics frequently. 
 
