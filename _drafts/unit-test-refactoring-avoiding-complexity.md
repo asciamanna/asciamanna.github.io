@@ -29,7 +29,7 @@ Remember that one of the great benefits to unit testing that I discussed in the 
 ## Refactoring to Simplicity
 Once developers are convinced that tests need to be maintained with the same amount of dedication as production code the next challenge they face is how to refactor tests. While a significant amount of what they've learned about refactoring production code applies, there are nuanced differences that tend to trip developers up. 
 
-**The primary goal of unit test refactoring is to make tests simpler and easier to understand.** If any refactorings lead you away from this you should stop and reconsider the refactoring. 
+**The primary goal of unit test refactoring is to make tests simpler and easier to understand.** If any refactorings lead you away from this you should stop and reconsider the refactoring. For example, if removing duplication leads to adding complexity to the test I would favor a small amount of duplication if it makes the tests easier to understand.
 
 ## Tests are Untested Code!
 The reason for this nuanced difference is that tests are untested code. Because of this tests need to be as simple as possible. Bugs in tests lead to bugs in production code, and bugs in tests are harder to find since they themselves have no tests. Justin Searls talks about this at length in his RubyConf 2015 talk [How to Stop Hating Your Test Suite](https://www.youtube.com/watch?v=VD51AkG8EZw). He describes that, above all else, tests should be obvious and boring.
