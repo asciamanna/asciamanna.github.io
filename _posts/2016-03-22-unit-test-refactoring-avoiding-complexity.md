@@ -19,8 +19,7 @@ It is just too easy to fall into the trap and think, ***"This code doesn't get r
 ## Clean Tests First
 It is vitally important to keep tests clean and apply the same dedication to refactoring unit tests as one would apply to refactoring production code. To get the most value from unit tests they need to be kept clean and extremely simple. They should be optimized for readability above all else. This sentiment is echoed by many experts. Robert Martin talks about this in detail in his post, [Test First](https://blog.8thlight.com/uncle-bob/2013/09/23/Test-first.html). 
 
->...we should consider our tests as being first. We already know we should write them first; but we should also clean them first, maintain them first, think of them first, and keep them first. We should give our tests the highest priority.
->  
+>...we should consider our tests as being first. We already know we should write them first; but we should also clean them first, maintain them first, think of them first, and keep them first. We should give our tests the highest priority.    
 > &mdash; _Robert Martin - Test First_
  
 ### Tests are Executable Specs
@@ -38,8 +37,7 @@ The reason for this nuanced difference is that tests are untested code. Because 
 One practice to achieve this simplicity is to follow common patterns and conventions in tests, which I'll discuss in detail in the next post. Another practice is to avoid logic in tests altogether. Specifically, tests should not contain any flow control statements (i.e., conditional statements or loops). These types of statements make tests more complicated and are ideal places for bugs to hide. This is another great point Justin Searls made in his recent RubyConf 2015 talk. 
 
 > Logic in tests confuses the story of what’s being tested.
-Test-scoped logic is hard to read and errors are easy to miss.
->  
+Test-scoped logic is hard to read and errors are easy to miss.  
 > &mdash; _Justin Searls, RubyConf 2015_
 
 When testing production code every branch of a condition needs to be tested. Loops typically require tests that cover not entering the loop at all, as well as, executing logic in the loop at least twice. Executing the loop logic once would be a good test for a conditional statement but not necessarily a loop. These flow control statements go untested in tests!
