@@ -57,6 +57,8 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Communication is the professional developer's first order of business."
+  - text: "Programs must be written for people to read, and only incidentally for machines to execute."
+  - text: "The only way it's all going to go according to plan is if you don't learn anything."
   - text: "People are motivated by autonomy, mastery, and purpose."
 
 me-img: "/img/sciamanna.jpg"
