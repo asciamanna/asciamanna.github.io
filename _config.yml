@@ -34,7 +34,6 @@ title: "Anthony Sciamanna"
 description: "Anthony Sciamanna's Software Development Blog. Focusing on software craftsmanship, Test Driven Development, eXtreme Programming, and team improvement"
 keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, pair programming, agile, refactoring" 
 favicon: "/img/favicon.ico"
-404-img: "/img/adam-bomb.jpg"
 
 ################
 # Header layout #
@@ -198,7 +197,7 @@ projects:
     url: "https://www.github.com/asciamanna/listeningto" 
     ci_url: "https://ci.appveyor.com/project/asciamanna/listeningto"
     build_image: "https://ci.appveyor.com/api/projects/status/36vp224m7bpp5hk5?svg=true"
-    description: "A .NET Web API app (using my [Lastfm.NET](http://github.com/asciamanna/lastfmclient) library) with an AngularJS / Bootstrap front end. It displays the last 25 songs I've listenedto as well as my top 25 artists."
+    description: "A .NET Web API app (using my [Lastfm.NET](http://github.com/asciamanna/lastfmclient) library) with an AngularJS / Bootstrap front end. It displays the last 25 songs I've listened to as well as my top 25 artists."
   - name: "Lastfm.NET"
     url: "https://www.github.com/asciamanna/LastfmClient"
     ci_url: "https://ci.appveyor.com/project/asciamanna/lastfmclient"
