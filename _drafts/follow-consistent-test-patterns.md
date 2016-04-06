@@ -51,17 +51,17 @@ The only code that should exist in the setup method is the creation of dependenc
 
 On the other hand, if setup is not an important aspect to the test case (but still required) I favor putting the setup statements in well-named private methods. These private methods can then be called from each of the individual test cases. While this may seem like a trivial distinction, knowing that only dependency and object-under-test creation happens in the setup method allows developers to focus on each self-contained test case without scanning back and forth between the test case and the setup method.
 
-## Naming Common Constructs
+## Naming Common Unit Test Constructs
 There are two common constructs to every unit test and it is important that they are always named consistently. These are the object under test and the result returned from calling the method under test. In my code I name the object under test 'subject' and the result that I assert against 'result.' The names may vary from team to team, but it is important to always be consistent. 
 
 ## An Example
-Now let's pull everything we talked about together in an example and describe it.
+Now let's pull everything we talked about together in an example.
 
 {% gist beb880bacdfa18ad8cd862450cca255b %}
 
 Starting with the SetUp method notice that it only contains the creation of two objects:  
 
-* The dependency for the object under test, a stub of the IAccountDataAdapter using the Moq library.  
+* The dependency for the object under test, a stub of the IAccountDataFacade using the Moq library.  
 * The object under test, AccountRepository which is named subject.
 
 The first thing you will likely notice about the test case itself is that the name of the test is quite long. Some may say this is too wordy. However, remember unit tests are executable documentation. You may find less wordy ways of specifying test cases but there are two very important aspects of naming test cases. 
@@ -69,9 +69,9 @@ The first thing you will likely notice about the test case itself is that the na
 * The naming format should always be consistent across all of the tests in the test suite.
 * The name of the test case should make it obvious what the test is doing, why it is doing it, and what result it is expecting.
 
-Following these two bits of advice is far more important than a specific style that you follow. Regardless, while the test case name is very long it describes the test case well and introduces no ambiguity to the reader.
+Following these two bits of advice is far more important than a specific style that you follow. Regardless, while this test case name is very long it describes the test case well and introduces no ambiguity to the reader.
 
-The first block of code encountered in the test case is the arrange block. Three accounts are created, a credit card account with an outstanding balance, a credit card account with a zero balance, and a non credit card account with a balance. The last line in the block utilizes the stub created with the Moq framework. It sets up a call to the dependency, IAccountDataAdapter's Get method and returns the three aforementioned account objects.
+The first block of code encountered in the test case is the arrange block. Three accounts are created, a credit card account with an outstanding balance, a credit card account with a zero balance, and a non credit card account with a balance. The last line in the block utilizes the stub created with the Moq framework. It sets up a call to the dependency, IAccountDataFacade's Get method and returns the three aforementioned account objects.
 
 The second, or act, block contains a single line. It calls the method under test, another long but specific method name. It saves the returning value in a variable named result.
 
@@ -82,6 +82,6 @@ The last block of code is the assert section. Here you find two asserts, one tha
 Since nUnit is the most popular unit testing framework for .NET I focused on xUnit-style tests. For xUnit-style unit tests Arrange-Act-Assert should be followed. But for BDD-style tests, including those that make use of BDD frameworks like [Cucubmer](https://cucumber.io/), [SpecFlow](http://www.specflow.org/), and others, conforming to the Given-When-Then pattern is appropriate. 
 
 ## Conclusion
-Following these consistent patterns and heuristics will help keep tests simple and, in doing so, increase the ease of understanding for future developers. When tests are simple, obvious, and all look very similar deviations from this are glaring. These deviations are typically indicators that there is a problem with the test or a design issue with code under test. 
+Following these consistent patterns and heuristics will help keep tests simple and, in doing so, increase the ease of understanding for future developers. When tests are simple, obvious, and all look very similar deviations are glaring. These deviations are typically indicators that there is a problem with the test or a design issue with code under test. 
 
 The next post in this series will use this same unit test example to describe a unit test refactoring pitfall.
