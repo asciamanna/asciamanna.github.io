@@ -13,13 +13,13 @@ This is the third post in my series about writing effective unit tests.
 * [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html)
 * Follow Consistent Test Patterns
  
-In the [previous post](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I discussed ways of maintaining simplicity in unit tests. One way to keep tests simple and easy to understand is to follow a few consistent patterns. By doing so developers know exactly what to look for when they glance at a test suite for the first time. Another way to keep tests simple is to keep them self-contained. Following these common patterns and heuristics help to keep tests self-contained as well. 
+In the [previous post](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I discussed ways of maintaining simplicity in unit tests. One way to keep tests simple and easy to understand is to follow a few consistent patterns. By doing so developers know exactly what to look for when they glance at a test suite for the first time. Another way to keep tests simple is to keep them self-contained. Following these same patterns and heuristics help to keep tests self-contained as well. 
 
 Since I spend most of my time in C# these days the examples are going to be tailored to C# and its most common testing framework nUnit. However, the recommendations I am making are language agnostic.
 
 ## Optimize for Understanding
 
-Unit tests, like production code, should be optimized for readability and understanding. It is even more important to make unit tests simple since they are untested code (as mentioned previously). Production code has the benefit that complex business rules can be placed in well-named, small methods and their edge cases and complex rules can be spelled out in small, easy to understand unit test cases. Unit tests obviously don't have this same benefit so it is vitally important to keep them, as [Justin Searls](https://twitter.com/searls) says, boring and obvious.
+Unit tests, like production code, should be optimized for readability and understanding. It is even more important to make unit tests simple since they are untested code. Production code has the benefit that complex business rules can be placed in well-named, small methods. Their edge cases and complicated rules can be spelled out in small and easy to understand unit test cases. Unit tests obviously don't have this same benefit so it is vitally important to keep them, as [Justin Searls](https://twitter.com/searls) says, boring and obvious.
 
 ## Follow Arrange - Act - Assert
 The most important rule for organizing xUnit-style tests is to follow the [Arrange Act Assert pattern](http://c2.com/cgi/wiki?ArrangeActAssert). It is a simple pattern to follow, however I am surprised by how many tests I encounter that don't follow it. This is a common pitfall for developers new to unit testing. I will describe it now and we will pull it together in an example at the end.  
@@ -34,7 +34,7 @@ The act section, the second block of every AAA-style unit test, is a single line
 The assert section, the third and last block of code, contains all of the assertions on the result from the method under test. This section can also include any mock verification that has to happen after the method under test is called.
 
 ### Use Code Blocks
-While following the pattern is a good start, it's important to give the reader clues as to each section. Do this by making each section a block of code. Use a single blank line to separate blocks, one between the arrange and act section and another single blank line between the act and assert section.  
+While following the pattern is a good start, it's important to make every section clear to the reader. Do this by making each section a block of code. Use a single blank line to separate blocks, one between the arrange and act section and another single blank line between the act and assert section.  
 
 I have seen developers use comments to indicate each section, these comments are noisy and obscure the intent of the test so they should be avoided. Additionally a common mistake is to have a single setup section with multiple act and assert sections. This breaks self-containment as well as the ***test one thing only*** heuristic. Multiple act and assert sections should be split across two different, well-named unit tests.
  
@@ -84,4 +84,4 @@ Since nUnit is the most popular unit testing framework for .NET I focused on xUn
 ## Conclusion
 Following these consistent patterns and heuristics will help keep tests simple and, in doing so, increase the ease of understanding for future developers. When tests are simple, obvious, and all look very similar deviations are glaring. These deviations are typically indicators that there is a problem with the test or a design issue with code under test. 
 
-The next post in this series will use this same unit test example to describe a unit test refactoring pitfall.
+The next post in this series will use this same unit test example to describe a common unit test refactoring pitfall.
