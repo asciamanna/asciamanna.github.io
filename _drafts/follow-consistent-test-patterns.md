@@ -13,9 +13,9 @@ This is the third post in my series about writing effective unit tests.
 * [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html)
 * Follow Consistent Test Patterns
  
-In the [previous post](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I discussed ways of maintaining simplicity in unit tests. One way to keep tests simple and easy to understand is to follow a few consistent patterns. By doing so developers know exactly what to look for when they glance at a test suite for the first time. Another way to keep tests simple is to keep them self-contained. Following these same patterns and heuristics help to keep tests self-contained as well. 
+In the [previous post](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I discussed ways of maintaining simplicity in unit tests. One way to keep tests simple and easy to understand is to follow a few consistent patterns. By doing so developers know exactly what to look for when they encounter a test suite for the first time. Another way to keep tests simple is to keep them self-contained. Following these same patterns and heuristics help to keep tests self-contained as well. 
 
-Since I spend most of my time in .NET these days the examples are going to be tailored to C# and its most common testing framework [nunit](http://www.nunit.org/). It's important to note that the recommendations I am making are language agnostic.
+Since I spend most of my time in .NET these days the examples are going to be tailored to C# and its most common testing framework [nunit](http://www.nunit.org/). It's important to note, however, that the recommendations I am making are language agnostic.
 
 ## Optimize for Understanding
 
@@ -25,7 +25,7 @@ Unit tests, like production code, should be optimized for readability and unders
 The most important rule for organizing xUnit-style tests is to follow the [Arrange Act Assert pattern](http://c2.com/cgi/wiki?ArrangeActAssert). It is a simple pattern to follow, however I am surprised by how many tests I encounter that don't follow it. This is a common problem for developers new to unit testing.
 
 ### Arrange 
-Arrange is the first code block of every unit test. It contains all of the input setup for the method under test. This includes setting up dependencies for the object under test and creating the data that gets passed as input parameters to the method under test. It also includes instantiating the object under test (which some developers mistakenly group in the **Act** section). The arrange section and the xUnit Setup method have an important relationship that we will discuss later in this article.
+Arrange is the first code block of every unit test. It contains all of the input setup for the method under test. This includes setting up dependencies for the object under test and creating the data that gets passed as input parameters to the method under test. It also includes instantiating the object under test (which some developers mistakenly group in the **Act** section). The arrange section and the xUnit Setup method have an important relationship that I will discuss later in this article.
 
 ### Act
 The act section, the second block of every AAA-style unit test, is typically a single line. This is where the method under test gets called. The result, if there is one, is saved in a local variable to assert against in the subsequent section. 
@@ -39,17 +39,17 @@ While following the pattern is a good place to start, it's important to make eve
 I have seen developers use comments to indicate each section, these comments are noisy and obscure the intent of the test more than they help, so they should be avoided. Additionally a common mistake is to have a single setup section with multiple act and assert sections. This breaks self-containment as well as the ***test one thing only*** heuristic. Multiple act and assert sections should be split across two different, well-named unit tests.
  
 ## Don't Break Self-Containment
-Multiple act and assert blocks in a single unit test is not the only way to break self-containment in tests. Here are a few other techniques that will help keep tests self-contained.
+Having multiple act and assert blocks in a single unit test is not the only way to break self-containment in tests. Here are a few other techniques that will help keep tests self-contained.
 
 ### Avoid Inheritance in Tests
 I discussed this in detail in the [previous post](/2016/03/22/unit-test-refactoring-avoiding-complexity.html). Spreading parts of tests across an inheritance hierarchy breaks self-containment, and should be avoided. These types of tests are commonly [Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) violations and consequently a misuse of inheritance. 
 
 ### Appropriate Use of SetUp
-xUnit frameworks have the concept of setup and teardown methods. These get called before and after every test case, respectively. Knowing what and what not to put in test setup is something that teams struggle with. I have tried multiple approaches (including avoiding test setup altogether) over the years. What I am describing here is what I believe to be the best approach. Setup methods should not contain any **act**ing or **assert**ing. This breaks the Arrange-Act-Assert pattern. Furthermore, setup methods should contain only a subset of the code that would exist in the arrange block. 
+xUnit frameworks have the concept of setup and teardown methods. These get called before and after every test case in the fixture, respectively. Knowing what and what not to put in test setup is something that teams struggle with. I have tried multiple approaches (including avoiding test setup altogether) over the years. What I am describing here is what I believe to be the best approach. Setup methods should not contain any **act**ing or **assert**ing. This breaks the Arrange-Act-Assert pattern. Furthermore, setup methods should contain only a subset of the code that would exist in the arrange block. 
 
 The only code that should exist in the setup method is the creation of dependencies of the object under test and creation of the object under test itself. This is the ideal place for constructing the object under test, if dependencies change or the signature to construct the object changes those changes can happen in a single place. While putting dependency setup (i.e., dependency method stubbing or mocking) in the setup method is a bit of a grey area, I recommend keeping all dependency setup in the individual test cases to help keep tests self-contained. If the setup is important to the test it should happen in every single test case that it is required, even if this is duplicated. Information important to the test case should be obvious and found within the test case method itself.
 
-On the other hand, if some dependency setup is not an important aspect to the test case (but still required) I favor putting the setup statements in well-named private methods. These private methods can then be called from each of the individual test cases. While this may seem like a trivial distinction, knowing that only dependency and object-under-test creation happens in the setup method allows developers to focus on each self-contained test case without needing to scan back and forth between the test case and the setup method. Requiring readers to scan between the test setup method and the test case is one of many ways to make tests more complicated and confusing for the reader.
+On the other hand, if some dependency setup is not an important aspect to the test case (but still required) I favor putting the setup statements in well-named private methods. These private methods can then be called from each of the individual test cases. While this may seem like a trivial distinction, knowing that only dependency and object-under-test creation happens in the setup method allows developers to focus on each self-contained test case without needing to scan back and forth between the test case and the setup method. Requiring readers to continually scan between the test setup method and the test case is one of many ways to make tests more complicated and confusing for the reader.
 
 ## Naming Common Unit Test Constructs
 There are two common constructs to every unit test and it is important that they are always named consistently. These are the object under test and the result returned from calling the method under test. In my code I name the object under test "subject" and the result that I assert against "result." The names may vary from team to team, but it is important to always be consistent. 
@@ -72,7 +72,7 @@ The first thing you will likely notice about the test case itself is that the na
 
 Following these two bits of advice is far more important than a specific style that you follow. Regardless, while this test case name is very long it describes the test case well and introduces no ambiguity to the reader.
 
-The first block of code encountered in the test case is the arrange block. Three accounts are created, a credit card account with an outstanding balance, a credit card account with a zero balance, and a non credit card account with a balance. The last line in the block utilizes the stub created with the Moq framework. It sets up a call to the dependency, IAccountDataFacade's Get method and returns the three aforementioned account objects.
+The first block of code encountered in the test case is the arrange block. Three accounts are created, a credit card account with an outstanding balance, a credit card account with a zero balance, and a non credit card account with a balance. The last line in the block utilizes the stub created with the [Moq framework](https://github.com/moq/moq4). It sets up a call to the dependency, IAccountDataFacade's Get method and returns the three aforementioned account objects.
 
 The second, or act, block contains a single line. It calls the method under test, another long but specific method name. It saves the value returned in a variable named result.
 
