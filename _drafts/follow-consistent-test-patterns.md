@@ -59,18 +59,24 @@ Now let's pull everything we talked about together in an example.
 
 {% gist beb880bacdfa18ad8cd862450cca255b %}
 
-Starting with the SetUp method notice that it only contains the creation of two objects:  
+### Class name and Setup
 
-* The dependency for the object under test, a stub of the IAccountDataFacade using the 
-[Moq framework](https://github.com/moq/moq4).  
+The first thing you will likely notice is that the name of the test class (which is also our test fixture) is the name of the class under test appended with the word "Test." Moving on to the SetUp method notice that it only contains the creation of two objects:  
+
+* The dependency for the object under test, a stub of the IAccountDataFacade using the popular [Moq framework](https://github.com/moq/moq4).  
 * The object under test, AccountRepository which is named subject.
 
-The first thing you will likely notice about the test case itself is that the name of the test is quite long. Some may say this is too wordy. However, remember unit tests are executable documentation. You may find less wordy ways of specifying test cases but there are two very important aspects of naming test cases. 
+### The Test Case
+
+The first thing that usually stands out to developers who haven't written a lot of unit tests is that unit test method names can be quite long, and this example is no exception. Some may say this is too wordy, but I would caution against shortening test case names just because the method name is long. Remember unit tests are executable documentation. You may find less wordy ways of specifying test cases but there are two very important aspects of naming test cases. 
 
 * The naming format should always be consistent across all of the tests in the test suite.
 * The name of the test case should clearly state what the test is doing, what result it is expecting, and why the test is important if it isn't obvious within the context of the test.
 
-Following these two bits of advice is far more important than a specific style that you follow. Regardless, while this test case name is very long it describes the test case well and introduces no ambiguity to the reader.
+Following these two bits of advice is far more important than a specific style that you follow. While this test case name is very long, it describes the test case well and introduces no ambiguity to the reader so I am happy with it. Developers should not shy away from long unit test method names. This is the place to be as specific as possible.
+
+>  JUnit picks up test methods by reﬂection, so we can make their names as long and descriptive as we like because we never have to include them in code.  
+> &mdash; _Steve Freeman and Nat Pryce from Growing Object Oriented Software, Guided By Tests (page 114)_ 
 
 The first block of code encountered in the test case is the arrange block. Three accounts are created, a credit card account with an outstanding balance, a credit card account with a zero balance, and a non credit card account with a balance. The last line in the block utilizes the stub created with the [Moq framework](https://github.com/moq/moq4). It sets up a call to the dependency, IAccountDataFacade's Get method and returns the three aforementioned account objects.
 
