@@ -13,9 +13,9 @@ This is the third post in my series about writing effective unit tests.
 * [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html)
 * Follow Consistent Test Patterns
  
-In the [previous post](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I discussed ways of maintaining simplicity in unit tests. One way to keep tests simple and easy to understand is to follow a few consistent patterns. By doing so developers know exactly what to look for when they encounter a test suite for the first time. Another way to keep tests simple is to keep them self-contained. Following these same patterns and heuristics help to keep tests self-contained as well. 
+In the [previous post](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I discussed ways of maintaining simplicity in unit tests. One way to keep tests simple and easy to understand is to follow a few consistent patterns. By doing so developers know exactly what to look for when they encounter a test suite for the first time. Another way to keep tests simple is to keep them self-contained, and fortunately following these same patterns and heuristics help to keep tests self-contained as well. 
 
-Since I spend most of my time in .NET these days the examples are going to be tailored to C# and its most common testing framework [nunit](http://www.nunit.org/). It's important to note, however, that the recommendations I am making are language agnostic.
+Since I spend most of my time in .NET these days the examples are going to be tailored to C# and its most common testing framework [nunit](http://www.nunit.org/). It's important to note, however, that the recommendations that I am making are language agnostic.
 
 ## Optimize for Understanding
 
@@ -80,7 +80,7 @@ Following these two bits of advice is far more important than a specific style t
 
 The first block of code encountered in the test case is the arrange block. Three accounts are created, a credit card account with an outstanding balance, a credit card account with a zero balance, and a non credit card account with a balance. The last line in the block utilizes the stub created with the [Moq framework](https://github.com/moq/moq4). It sets up a call to the dependency, IAccountDataFacade's Get method and returns the three aforementioned account objects.
 
-The second, or act, block contains a single line. It calls the method under test, another long but specific method name. It saves the value returned in a variable named result.
+The second, or act, block contains a single line. It calls the method under test, another  relatively long but specific method name. It saves the value returned in a variable named result.
 
 The last block of code is the assert section. Here you find two asserts, one that asserts that only one of the three accounts is being returned. And the account that is being returned is the one that we expect.
 
