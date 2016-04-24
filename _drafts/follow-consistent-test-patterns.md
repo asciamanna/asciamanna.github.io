@@ -39,7 +39,7 @@ While following the pattern is a good place to start, it's important to make eve
 I have seen developers use comments to indicate each section. These comments are noisy and they obscure the intent of the test more than they help. Therefore, they should be avoided. Additionally, a common mistake is to have a single setup section with multiple act and assert sections. This breaks self-containment as well as the ***test one thing only*** heuristic. Multiple act and assert sections should be split across two different and well-named unit tests.
  
 ## Don't Break Self-Containment
-Having multiple act and assert blocks in a single unit test is not the only way to break self-containment in tests. Here are a few other techniques that will help keep tests self-contained.
+Having multiple act and assert blocks in a single unit test is not the only way to break self-containment. Here are a few other techniques that will help keep tests self-contained.
 
 ### Avoid Inheritance in Tests
 I discussed this in detail in the [previous post](/2016/03/22/unit-test-refactoring-avoiding-complexity.html). Spreading parts of tests across an inheritance hierarchy breaks self-containment and should be avoided. These types of tests are commonly [Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) violations and consequently a misuse of inheritance. 
