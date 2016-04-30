@@ -12,16 +12,18 @@ This is the fourth post in my series about writing effective unit tests.
 * [Should Private Methods Be Tested?](/2016/02/14/should-private-methods-be-tested.html)
 * [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html)
 * [Follow Consistent Test Patterns](ADD HERE)
-* A Unit Test Refactoring Pitfall
+* Extract Method Refactorings in Unit Tests
  
 
-If you recall in the post [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I described the pitfalls of applying the same refactoring techniques to unit tests that one would apply to production code. Specifically, the post addressed avoiding flow control statements or introducing other types of complexity while refactoring. However there are other nuances to unit test refactoring that are important to understand. 
+If you recall in the post [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I described the pitfalls of applying the same refactoring techniques to unit tests that one would apply to production code. While a majority of refactoring techniques apply across all code there are subtleties in unit test refactorings that make them different. Specifically, the post addressed avoiding flow control statements or introducing other types of complexity while refactoring. However there are other nuances to unit test refactoring that are important to understand. 
 
 ## Extract Method Refactorings in Unit Tests
 
-Refactoring unit tests is just as important as refactoring production code. And a vast majority of what you learn about refactoring production code also applies to refactoring unit tests. However, one nuance in unit test refactoring is when and why to use extract method refactorings. In production code Martin Fowler's book **_Refactoring - Improving the Design of Existing Code_** describes the appropriate usage of the **extract method** refactoring. It is a valuable technique to address a number of code smells including the **long method code smell**. 
+Refactoring unit tests is just as important as refactoring production code (some experts even say it's more important). And a vast majority of what you learn about refactoring production code also applies to refactoring unit tests. However, one nuance in unit test refactoring is when and why to use extract method refactorings. In production code Martin Fowler's book **_Refactoring - Improving the Design of Existing Code_** describes the appropriate usage of the **extract method** refactoring. It is a valuable technique to address a number of code smells including the **long method code smell**. 
 
-However, in unit tests, extracting private methods is a tool used to obscure unimportant parts of a unit test. By contrast, any details found in a unit test case should be important to the test itself. It is common for developers to use the extract method refactoring because they believe the unit test is getting too long. However, in doing so they end up obscuring important details of the test, breaking the **keep unit tests self-contained** heuristic.
+However, in unit tests, extracting private methods is a tool used to obscure unimportant parts of a unit test. By contrast, any details found in a unit test case should be important to the test itself. It is common for developers to use the extract method refactoring because they believe the unit test is getting too long. Often tests that are too long have extraneous detail which complicates the tests case so it appears to be the correct tool to use. The trouble arises when deciding what to extract. It is common for developers to execute extract method refactorings and end up obscuring important details of the test, breaking the **keep unit tests self-contained** heuristic.
+
+Let's examine this in detail with the following example.
 
 ## A Familiar Example
 Here is the C# unit test example from the [previous post](ADD HERE) utilizing nunit (link here) and the Moq Framework (link here).
