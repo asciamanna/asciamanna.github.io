@@ -208,4 +208,4 @@ projects:
     url: "https://www.github.com/asciamanna/iTunesLibraryParser"
     ci_url: "https://ci.appveyor.com/project/asciamanna/ituneslibraryparser"
     build_image: "https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq?svg=true"
-    description: "A C# implementation utilizing LINQ-to-XML. Parsers an iTunes library file into a collection of track objects."
+    description: "A C# implementation utilizing LINQ-to-XML. Parses an iTunes library file into a collection of track objects."
