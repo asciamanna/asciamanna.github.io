@@ -65,7 +65,7 @@ Now let's pull everything we talked about together in an example.
 
 The first thing you will likely notice is that the SetUp method for the test fixture only contains the creation of two objects:  
 
-* The dependency for the object under test, a stub of the IAccountDataFacade using the popular [Moq framework](https://github.com/moq/moq4).  
+* The dependency for the object under test, a stub of the IAccountDataAccess using the popular [Moq framework](https://github.com/moq/moq4).  
 * The object under test, AccountRepository which is named subject.
 
 ### The Test Case
@@ -77,10 +77,10 @@ The first thing that usually stands out to developers who haven't written a lot 
 
 Following these two bits of advice is far more important than a specific naming convention that you use. While this test case name is very long, it describes the test case well and introduces no ambiguity to the reader. Developers should not shy away from long unit test method names. This is the place to be as specific as possible.
 
->  JUnit picks up test methods by reﬂection, so we can make their names as long and descriptive as we like because we never have to include them in code.  
+>  JUnit picks up test methods by reflection, so we can make their names as long and descriptive as we like because we never have to include them in code.  
 > &mdash; _Steve Freeman and Nat Pryce from Growing Object Oriented Software, Guided By Tests (page 114)_ 
 
-The first block of code encountered in the test case is the arrange block. Three accounts are created, a credit card account with an outstanding balance, a credit card account with a zero balance, and a non-credit card account with a balance. The last line in the block utilizes the stub created with the [Moq framework](https://github.com/moq/moq4). It sets up a call to the dependency, IAccountDataFacade's Get method and returns the three aforementioned account objects.
+The first block of code encountered in the test case is the arrange block. Three accounts are created, a credit card account with an outstanding balance, a credit card account with a zero balance, and a non-credit card account with a balance. The last line in the block utilizes the stub created with the [Moq framework](https://github.com/moq/moq4). It sets up a call to the dependency, the IAccountDataAccess Get method and returns the three aforementioned account objects.
 
 The second, or act, block contains a single line. It calls the method under test, saving the value returned in a variable named result.
 
