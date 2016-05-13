@@ -8,8 +8,8 @@ section-type: listening-to
 <div class='app' ng-app='ListeningToApp' ng-controller='MainController' ng-init='getRecentTracks(recentTracks, displayData)'>
     <div class="nav-custom"></div>
     <ul class="nav nav-pills nav-justified"> 
-        <li ng-class="{active: displayData.showRecentTracks}" ng-click="getRecentTracks(recentTracks, displayData)"><a href="/#listening-to">Recent Tracks</a></li>
-        <li ng-class="{active: !displayData.showRecentTracks}" ng-click="getTopArtists(topArtists, displayData)"><a href="/#listening-to">Top Artists</a></li>
+        <li ng-class="{active: displayData.showRecentTracks}" ng-click="getRecentTracks(recentTracks, displayData)"><a class="page-scroll" href="#listening-to">Recent Tracks</a></li>
+        <li ng-class="{active: !displayData.showRecentTracks}" ng-click="getTopArtists(topArtists, displayData)"><a class="page-scroll" href="#listening-to">Top Artists</a></li>
     </ul>
     <ul class='last-fm-list' ng-show="displayData.showRecentTracks && !displayData.connectError">
         <li ng-repeat="track in recentTracks">
