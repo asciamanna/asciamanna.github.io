@@ -24,7 +24,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <!-- Fix window scrolling -->
 <script>
    var shiftWindow = function() {
-      setTimeout(function() {window.scrollBy(0, -50);},1);
+      setTimeout(function() {window.scrollBy(0, -50);},500);
    }
    if (location.hash) shiftWindow();
    window.addEventListener("hashchange", shiftWindow);
