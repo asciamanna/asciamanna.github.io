@@ -74,9 +74,17 @@ blockquote p {
   display: inline;
 }
 
-.post-footer {
+.post-footer-wordcount {
   color: #777;
 }
+
+.post-footer-nav {
+  padding-bottom: 10px; 
+  i {
+    vertical-align: middle; 
+  }
+}
+
 
 .img-me {
   border: 2px solid #f1f1f1 !important;
