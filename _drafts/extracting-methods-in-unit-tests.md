@@ -15,7 +15,7 @@ This is the fourth post in my series about writing effective unit tests.
 * Extract Method Refactorings in Unit Tests
  
 
-If you recall in the post [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I described the pitfalls of applying the same refactoring techniques to unit tests that one would apply to production code. While a majority of refactoring techniques apply across all code there are subtleties in unit test refactorings that make them different. Specifically, that post addressed avoiding flow control statements or introducing other types of complexity while refactoring. However there are other nuances to unit test refactoring that are important to understand. 
+If you recall in the post [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html) I described the pitfalls of applying the same refactoring techniques to unit tests that one would apply to production code. While a majority of refactoring techniques apply across all code there are subtleties in unit test refactorings that make them different. Specifically, that post addressed avoiding flow control statements or introducing other types of complexity while refactoring unit tests. However there are other nuances to unit test refactoring that are also important to understand. 
 
 ## Extract Method Refactorings 
 
@@ -48,7 +48,7 @@ Now let's take a look at a second attempt. Let's say that the developer decides 
 
 {% gist 14698034f7f8d7e56e5fcf18453b04a7 %}
 
-If details about the accounts are not important to the test then I would absolutely recommend this refactoring. Creating well-named private methods in tests is a valuable technique to obscure unimportant details of unit tests. In fact, in that case I would name the method something along the lines of **CreateAnyAccounts** to make that point obvious to the reader. However, for this test the details of each of those accounts is ***very important***. In fact, information about each of the test accounts is exactly what we are testing. So, in this case showing the creation of each test account is extremely important.
+If details about the accounts are not important to the test then I would absolutely recommend this refactoring. Creating well-named private methods in tests is a valuable technique to obscure unimportant details of unit tests. In fact, in that case I would name the method something along the lines of **CreateAnyAccounts** to make that point obvious to the reader. However, for this test the details of each of those accounts is ***very important***. In fact, information about each of the test accounts is exactly what we are testing. So, in this case showing the creation of each test account in the test method is extremely important.
 
 ### Specify Only What is Important
 
@@ -62,4 +62,5 @@ Now let's consider the possibility that our account objects have some fields tha
 {% gist 183f4dfa94bb0706aac4b2552d66bb6b %} 
 
 ## Conclusion
+
 Extract method refactorings and specifying only the important object attributes in unit tests are two techniques that are important for optimizing unit tests for readability and understanding. These differ from production code where extract method refactorings are used to remove code smells. It is important to remember that unit tests should be refactored to make tests easier to understand. If any refactoring detracts from this it should be avoided. 
