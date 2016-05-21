@@ -43,8 +43,8 @@ A developer who is in favor of small methods that have a single responsibility m
 At this point the unit test is shorter, however it cost us losing the intent of the test. A reader must now examine the contents of the SetupTestAccounts method to understand exactly what these test accounts are and how the dependent object is interacting with the object under test. This refactoring breaks the **keep tests self-contained** heuristic, thus making the test harder to understand. This refactoring is obscuring the important details of the test.
 
 <div class="well">
-<h4>Unit Test Size</h4>
-As we are talking about the length of the unit test it is important to describe some heuristics that we use to know when tests are getting too long. [https://twitter.com/unclebobmartin](Bob Martin) describes the ideal unit test length to be on the order of five to twenty lines of code in his post [The Land that Scrum Forgot](https://www.scrumalliance.org/community/articles/2010/december/the-land-that-scrum-forgot). I usually look for tests that are more than a dozen lines so I fall into the range Robert Martin prefers. If tests are getting much larger than this they are growing beyond the size of a unit test,  getting too complicated to understand, and are probably indicating design issues with your code under test. 
+<h6>Unit Test Size</h6>
+As we are talking about the length of the unit test it is important to describe some heuristics that we use to know when tests are getting too long. <a href="https://twitter.com/unclebobmartin">Bob Martin</a> describes the ideal unit test length to be on the order of five to twenty lines of code in his post <a href="http://www.scrumalliance.org/community/articles/2010/december/the-land-that-scrum-forgot">The Land that Scrum Forgot</a>. I try to keep unit tests under a dozen lines (excluding asserts)  so I fall into the range Robert Martin prefers. If tests are getting much larger than this they are growing beyond the size of a unit test, getting too complicated to understand, and are probably indicating design issues with your code under test. 
 </div>
 
 #### Second Refactoring Attempt
