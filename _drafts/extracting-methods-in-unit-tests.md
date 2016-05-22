@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 section-type: post
 title: Extracting Methods in Unit Tests 
@@ -12,7 +12,7 @@ This is the fourth post in my series about writing effective unit tests.
 * [Should Private Methods Be Tested?](/2016/02/14/should-private-methods-be-tested.html)
 * [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html)
 * [Follow Consistent Test Patterns](/2016/04/24/follow-consistent-test-patterns.html)
-* Extract Method Refactorings in Unit Tests
+* Extracting Methods in Unit Tests
  
 
 If you recall my previous post [Unit Test Refactoring and Avoiding Complexity](/2016/03/22/unit-test-refactoring-avoiding-complexity.html), I described the pitfalls of applying the same refactoring techniques to unit tests that one would also apply to production code. While a majority of refactoring techniques apply across all code, there are subtleties in unit test refactorings that make them different. Specifically, that post addressed avoiding flow control statements or introducing other types of complexity while refactoring unit tests. However, there are other nuances to unit test refactoring that are also important to understand. 
@@ -68,4 +68,4 @@ Now let's consider the possibility that our account objects have some fields tha
 
 ## Conclusion
 
-Extract method refactorings and specifying only the important object attributes in unit tests are two techniques that are important for optimizing unit tests for readability and understanding. These differ from production code where extract method refactorings are used to remove code smells. It is important to remember that unit tests should be refactored to make tests easier to understand. If any refactoring detracts from this it should be avoided. 
+Extract method refactorings and specifying only the important object attributes in unit tests are two techniques that are important for optimizing unit tests for readability and understanding. It is important to remember that unit tests should be refactored to make tests easier to understand. If any refactoring detracts from this it should be avoided. 
