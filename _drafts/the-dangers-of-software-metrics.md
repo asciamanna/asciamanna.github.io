@@ -25,7 +25,7 @@ data to "analyze later" I would strongly recommend avoiding the metric altogethe
 
 I've seen many well-intentioned organizations collect these metrics believing that by doing so they are gaining visibility and transparency into the cross-functional development teams. Transparency, as we know, is one of the core values of agile software development. I would argue that there are other ways to get that kind of transparency. Some metrics may be useful but a vast majority are focusing on the wrong things. 
 
-## Metrics as Retrospective Goals
+## Metrics to Support Retrospective Goals
 
 While I do believe people should be skeptical of metrics there is one type I see value in. If a cross-functional team has a problem
 that comes out of a retrospective, using a metric to measure the problem and whether any retrospective goals are improving the problem is a very
