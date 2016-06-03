@@ -23,7 +23,7 @@ data to "analyze later" I would strongly recommend avoiding the metric altogethe
 
 ### Transparency
 
-I've seen many well-intentioned organizations collect these metrics believing that by doing so they are gaining visibility and transparency into the cross-functional development teams. Transparency, as we know, is one of the core values of agile software development. Again, I would argue that there are other ways to get that kind of transparency. Some metrics may be useful but a vast majority are focusing on the wrong things. 
+I've seen many well-intentioned organizations collect these metrics believing that by doing so they are gaining visibility and transparency into the cross-functional development teams. Transparency, as we know, is one of the core values of agile software development. I would argue that there are other ways to get that kind of transparency. Some metrics may be useful but a vast majority are focusing on the wrong things. 
 
 ## Metrics as Retrospective Goals
 
