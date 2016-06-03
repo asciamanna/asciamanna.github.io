@@ -32,11 +32,12 @@ that comes out of a retrospective, using a metric to measure the problem and whe
 good idea. What makes these metrics different are two very important characteristics. They are created by the cross-functional team (not being levied against them my the leadership of the organization) and they are temporary. Once the goal has been accomplished the team can stop tracking the metric. Who better to know how to improve the team than the team actually doing the work. They should be having regular retrospectives and continuously improving.
 
 ## Metrics Pushed Down or Cross Team Metrics
+
 In contrast, a vast majority of metrics being pushed down to cross-functional development teams by the organizational leadership are problematic. In some cases the organization wants to measure some things across the different cross-functional teams (which, by the way, is a very bad idea in itself). However, these types of metrics put your organization at risk to unravel your agile practices and oppose agile principles. 
 
 ### A Symptom of Command & Control 
 
-The biggest problem that I see with these types of metrics is that they are a tell-tale sign of an organization not ready to embrace being an Agile software development organization. As organizations adopt agile practices, leadership accustomed to working in an environment where they tell development teams what to do, when to do it, and when the deadline is, start to fear that they are losing too much control. They cannot give ownership to the individual cross-function teams. So, instead they let them "play at agile" while continuing to operate as a command and control ogranization. One way to assert that control is to use metrics to continue to manage the team. They collect all kinds of metrics to tell the team to work longer hours, refactor less, create less techincal debt, but write less automated tests because "the client isn't paying us to write test code." 
+The biggest problem that I see with these types of metrics is that they are a tell-tale sign of an organization not ready to embrace Agile software development. As organizations adopt agile practices, leadership accustomed to working in an environment where they tell development teams what to do, when to do it, and when the deadline is, start to fear that they are losing too much control. They cannot give ownership to the individual cross-function teams. So, instead they let them "play at agile" while continuing to operate as a command and control ogranization. One way to assert that control is to use metrics to continue to manage the team. They collect all kinds of metrics to tell the team to work longer hours, refactor less, create less techincal debt, but write less automated tests because "the client isn't paying us to write test code." 
 
 Even if your organization has embraced agile and doesn't suffer form this problem, leadership-driven metrics are still an issue. 
 
@@ -44,7 +45,7 @@ Even if your organization has embraced agile and doesn't suffer form this proble
 Another problem is that these metrics lack the team's input. The team would know best what metrics actually matter to them. By making the team aware of what problem the organization is trying to solve the team may be able to help come up with a different way to address the problem. 
 
 ### Gaming Metrics
-Ron Jeffries has written an article about managing an agile team via metrics, Do You want Crappy Agile (link)?  There he discusses that a majority of metrics are useless and will be gamed. 
+Ron Jeffries has written an article about managing an agile team via metrics, [Do You want Crappy Agile] (http://ronjeffries.com/articles/016-03/you-want/)?  There he discusses that a majority of metrics are useless. Furthermore, teams will game the metrics. If they are working as hard and as smart as they can and are beign asked to increase velocity, for example, story point estimates will increase. If they are being asked to get more stories done, they will write smaller stories. 
 
 ### Agile Values at Stake
 When metrics are used to manage an agile team being asked to do more to increase a metric or decrease a metric the result is a gaming of the metric. This ruins transparency on the team further if metrics are used as a way to assert control over a cross-fuctional team the team loses ownership of their work and their ability to self-organize.
