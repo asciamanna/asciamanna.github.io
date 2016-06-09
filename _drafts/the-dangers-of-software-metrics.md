@@ -7,11 +7,11 @@ category: development practices
 tags: ['extreme programming', 'agile development']
 ---
 
-This post is a follow up to my article, [The Dangers of Development Tools](/2015/02/21/the-dangers-of-development-tools.html). That article described the problems that typically arise when teams adopt workflow tools. These are tools like Jira and VersionOne for example, that tout themselves as "Agile Tools." One topic I didn't address in that post is that when teams choose to move away from a physical card wall to a workflow tool they typically begin to track a lot of meaningless and potentially harmful metrics. This tends to happen for a number of reasons:
+This is a follow up to my article, [The Dangers of Development Tools](/2015/02/21/the-dangers-of-development-tools.html). That post described the problems that typically arise when teams adopt workflow tools. Tools like Jira and VersionOne, for example, that tout themselves as "Agile Tools." When teams choose a workflow tool over a  physical card wall they commonly begin to track a lot of meaningless and potentially harmful metrics. This tends to happen for a number of reasons. These workflow tools:
 
-* These tools provide a certain level of built-in metric tracking
-* These tools make tracking custom metrics easy
-* These tools recommend tracking these types of metrics
+* Provide a certain level of built-in metric tracking
+* Make tracking custom metrics easy
+* Recommend tracking some of these metrics as a "best practice"
 
 Collecting metrics may seem like the right thing to do for your organization but I argue more times than not managing agile teams by metrics will devalue your practices and instead push you in a direction that violates the agile principles and values. I'm certainly not saying all metrics are bad. But metrics should be collected for very specific purposes, beyond that **they are at best a distraction and at worst harming your organization**.
 
@@ -20,12 +20,12 @@ The first question to ask yourself when collecting a metric is what problem are 
 
 ### Transparency
 
-I've seen many well-intentioned organizations collect these metrics believing that by doing so they are gaining visibility and transparency into the cross-functional development teams. Transparency, as we know, is one of the core values of agile software development. I would argue that there are other ways to get that kind of transparency. Some metrics are absolutely useful but the ones that are most commonly tracked are focusing on the wrong things (e.g., velocity, planned vs. actual release date, planned vs. actual stories completed in an iteration). Teams who have a deep understanding of Agile recognize these as nonsense. So you are only going to build distrust in your best teams if they are being measured by their velocity (which is metric to assist planning not an efficiency / productivity measure), or whether they hit a predefined release date. Agile would recommend you release incremental improvements into production regularly so a missed date doesn't make sense as a metric. 
+I've seen many well-intentioned organizations collect these metrics believing that by doing so they are gaining visibility and transparency into the cross-functional development teams. Transparency, as we know, is one of the core values of agile software development. I would argue, however, that there are other ways to get that kind of transparency. Some metrics are absolutely useful but the ones that are most commonly tracked are focusing on the wrong things (e.g., velocity, planned vs. actual release date, planned vs. actual stories completed in an iteration). Teams who have a deep understanding of Agile recognize these metrics as nonsense. So you are only going to build distrust in your best teams if they are being measured by their velocity (which is metric to assist planning not an efficiency / productivity measure), or whether they hit a predefined release date. Agile would recommend you release incremental improvements regularly so a missed date doesn't make sense as a metric. 
 
 
 ## Metrics to Support Retrospective Goals
 
-While I do believe people should be skeptical of metrics there is one type I see value in. If a cross-functional team has a problem that comes out of a retrospective, using a metric to measure the problem and whether any retrospective goals are improving the problem is a very good idea. What makes these metrics different are two very important characteristics. They are created by the cross-functional team (not being levied against them by the leadership of the organization) and they are temporary. Once the goal has been accomplished the team can stop tracking the metric. Who better to know how to improve the team than the team actually doing the work. They should be having regular retrospectives and continuously improving.
+While I do believe people should be skeptical of metrics there is one type I see value in, problems that come out of team retrospectives. Teams should use metrics to measure the problem if they can and also to see if any proposed goals are improving the problem. What makes these metrics different are two very important characteristics. They are created by the cross-functional team (not being levied against them by the leadership of the organization) and they are temporary. Once the goal has been accomplished the team can stop tracking the metric. Who better to know how to improve the team than the team actually doing the work. They should be having regular retrospectives and continuously improving.
 
 ## Leadership Driven Metrics or Cross Team Metrics
 
