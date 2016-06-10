@@ -22,6 +22,9 @@ As I've mentioned in a previous post it is important for teams to hire based on 
 ## Can the Candidate Program?
 Figuring out the candidates software development skills is one of the biggest challenges in developer interviews. Determining a candidates general development skills, their areas of specialization, and how they will interact with the team is a lot to figure out in a very short amount of time.  I've found fizzbuzz like questions, very targeted technical problems, and logic puzzles all lacking when trying to hire a generalist, full-stack software developer. **The best way to figure out how a candidate will work with your team is to have them work with your team.** This may seem like a silly quip but this approach allowed us to consistently, and without fail, hire great team members after three to four hours (including a break for lunch). 
 
+Article to reference:
+http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews
+
 ### Technical Questions
 
 Technical questions in an interview, for a lot of companies, are a part of the interview process that they never question. They think it's crazy that someone would suggest to not ask those questions. Given the limited amount of time you have with a candidate, every question asked should be intentional and you should know exactly what information you are trying to learn about the candidate by asking it. I've found that technical questions are great for ruling out candidates who can't program or if you are hiring for a very targeted technical role that requires specific skills. Otherwise, they should be kept to a minimum. Fizzbuzz solutions or the difference between an interface and an abstract class will not give you any insight into how the developer will perform on your team. There may be other things you can do that will make these questions irrelevant.
