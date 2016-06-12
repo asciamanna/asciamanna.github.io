@@ -34,11 +34,11 @@ Release and iteration burn downs are very important in providing visibility outs
 > When you see a turn coming up, you don’t speed up, you adjust your steering. Same thing with burn down: use it to decide what to do, not to drive your speed up.
 > &mdash; _Ron Jeffries, Do You Want Crappy Agile?_
  
-Some metrics are useful but the ones that are most commonly tracked encourage organizations to focus on the wrong things (e.g., velocity, planned vs. actual release dates, number of stories completed in an iteration). Teams who have a deep understanding of agile practices recognize these metrics as nonsense. This will foster distrust in your best teams if they are being measured by their velocity (which is metric to assist planning not an efficiency / productivity measure).
+Some metrics are useful but the ones that are most commonly tracked encourage organizations to focus on the wrong things (e.g., velocity, planned vs. actual release dates, number of stories completed in an iteration). Teams who have a deep understanding of agile practices recognize these metrics as nonsense. This will foster distrust in your best teams if they are being measured and managed by their velocity, for example. Velocity is a metric to assist planning not a productivity or efficiency measure.
 
 ## Metrics to Support Retrospective Goals
 
-While I do believe people should be generally skeptical of metrics there is one type I see a lot of value in, problems that come out of team retrospectives. Teams should use metrics to measure these problems if possible. Also metrics should be used to see if any proposed retrospective goals are improving the problem. What makes these metrics different are two very important characteristics. 
+While I do believe people should be generally skeptical of metrics there is one type I see a lot of value in, metrics to support problems that come out of team retrospectives. Teams should use metrics to measure these problems if possible. Also metrics can be used to see if any proposed retrospective goals are improving the problem. What makes these metrics different are two very important characteristics. 
 
 * They are created by the cross-functional team
 * They are temporary
