@@ -19,6 +19,9 @@ Collecting metrics may seem like the right thing to do for your organization but
 
 The first question to ask yourself when collecting a metric is what problem are you trying to solve or what specific question are you trying to answer? If you can answer those questions then, by all means, collect the metric. If you can't answer that or just want the data to "analyze later" I would strongly recommend avoiding the metric altogether. 
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just because something is easy to measure, doesn’t mean you should.</p>&mdash; chet hendrickson (@chethendrickson) <a href="https://twitter.com/chethendrickson/status/742898138168463360">June 15, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Transparency
 
 I've seen many well-intentioned organizations collect these metrics believing that by doing so they are gaining visibility and transparency into the cross-functional development teams. Transparency, as we know, is one of the core values of agile software development. I would argue, however, that there are other ways to get that kind of transparency without falling victim to optimizing teams via metrics. 
