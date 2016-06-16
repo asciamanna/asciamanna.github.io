@@ -39,6 +39,9 @@ Release and iteration burn downs are very important in providing visibility outs
  
 Some metrics are useful but the ones that are most commonly tracked encourage organizations to focus on the wrong things (e.g., velocity, planned vs. actual release dates, number of stories completed in an iteration). Teams who have a deep understanding of agile practices recognize these metrics as nonsense. This will foster distrust in your best teams if they are being measured and managed by their velocity, for example. Velocity is a metric to assist planning not a productivity or efficiency measure.
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">What metrics exist on the value of metrics?</p>&mdash; Bob Marshall (@flowchainsensei) <a href="https://twitter.com/flowchainsensei/status/743404959031562240">June 16, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Metrics to Support Retrospective Goals
 
 While I do believe people should be generally skeptical of metrics there is one type I see a lot of value in, metrics to support problems that come out of team retrospectives. Teams should use metrics to measure these problems if possible. Also metrics can be used to see if any proposed retrospective goals are improving the problem or removing it altogether. What makes these metrics different are two very important characteristics. 
