@@ -7,19 +7,21 @@ category: development practices
 tags: ['extreme programming', 'agile development']
 ---
 
-This is a follow up to my article, [The Dangers of Development Tools](/2015/02/21/the-dangers-of-development-tools.html). That post described the problems that typically arise when teams adopt workflow tools. Tools like Jira and VersionOne, for example, that tout themselves as "Agile Tools." When teams choose a workflow tool over a physical card wall they commonly begin to track several meaningless and potentially harmful metrics. This tends to happen for a number of reasons. These workflow tools:
+This is a follow up to my article, [The Dangers of Development Tools](/2015/02/21/the-dangers-of-development-tools.html). In that post I described the problems that typically arise when teams adopt workflow tools. Tools like Jira and VersionOne, for example, that tout themselves as "Agile Tools." When teams choose a workflow tool over a physical card wall they commonly begin to track several meaningless and potentially harmful metrics. This tends to happen for a number of reasons. These workflow tools:
 
 * Provide a level of built-in metric tracking
 * Make tracking custom metrics easy
 * Recommend tracking some of these metrics as a "best practice"
 
-Collecting metrics may seem like the right thing to do for your organization but I will caution that managing agile teams by metrics will devalue your practices. It will likely push you in a direction that violates the agile principles and values. I'm certainly not saying all metrics are bad. But metrics should be collected for specific purposes, beyond that **they are at best a distraction and at worst harming your organization**.
+Collecting metrics may seem like the right thing to do for your organization, but I will caution that managing agile teams by metrics will devalue your practices. It will likely push you in a direction that violates the agile principles and values. I'm certainly not saying all metrics are bad. But metrics should be collected for specific purposes, beyond that **they are at best a distraction and at worst harming your organization**.
 
 ## What Problem Are We Solving?
 
-The first question to ask yourself when collecting a metric is what problem are you trying to solve or what specific question are you trying to answer? If you can answer those questions then, by all means, collect the metric. If you can't answer that or just want the data to "analyze later" I would strongly recommend avoiding the metric altogether. 
+When collecting a metric, ask yourself (or your team) what problem are you trying to solve or what specific question are you trying to answer? If you can't answer those questions or just want the data to "analyze later" I would strongly recommend avoiding the metric altogether. 
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just because something is easy to measure, doesn’t mean you should.</p>&mdash; chet hendrickson (@chethendrickson) <a href="https://twitter.com/chethendrickson/status/742898138168463360">June 15, 2016</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="en" dir="ltr">Just because something is easy to measure, doesn’t mean you should.</p>&mdash; chet hendrickson (@chethendrickson) <a href="https://twitter.com/chethendrickson/status/742898138168463360">June 15, 2016</a>
+</blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Transparency
@@ -53,11 +55,11 @@ Once the goal has been accomplished the team can stop tracking the metric. Who b
 
 ## Leadership Driven Metrics or Cross Team Metrics
 
-In contrast, a vast majority of metrics collected for use outside of the cross-functional team are the problematic ones. In some cases the organization wants to measure some things across the different cross-functional teams (which, by the way, is a very bad idea in itself). These types of metrics put your organization at risk to unravel your agile practices and oppose agile principles. 
+In contrast, a vast majority of metrics collected for use outside of the cross-functional team are the problematic ones. In some cases the organization wants to measure some things across the different cross-functional teams (which, by the way, is a bad idea in itself). These types of metrics put your organization at risk to unravel your agile practices and oppose agile principles. 
 
 ### A Symptom of Command & Control 
 
-The biggest problem that I see with these types of metrics is that they can be a tell-tale sign of an organization not ready to truly embrace agile software development. As organizations adopt agile practices, leadership accustomed to working in an environment where they tell development teams what to do, when to do it, and when the deadline is, start to fear that they are losing too much control. They cannot give ownership to the individual cross-function teams. So, instead they let them "play at agile" while continuing to operate as a command and control organization. One way to assert that control is to use metrics to continue to manage the team. They collect metrics to use so that they can tell the team to work longer hours, refactor less, "create less technical debt", write less automated tests, etc.  
+The biggest problem that I see with these types of metrics is that they can be a tell-tale sign of an organization not ready to truly embrace agile software development. As organizations adopt agile practices, leadership accustomed to working in an environment where they tell development teams what to do, when to do it, and when the deadline is, start to fear that they are losing too much control. They cannot give ownership to the individual cross-function teams. So, instead they let them "play at agile" while continuing to operate as a command and control organization. One way to assert that control is to use metrics to continue to manage the team. They collect metrics to use so that they can tell the team to work longer hours, refactor less, "focus on new features", "create less technical debt", write less automated tests, etc.  
 
 Even if your organization has embraced agile and doesn't suffer from these alarming problems, leadership-driven metrics are still an issue. 
 
@@ -72,7 +74,7 @@ Another risk of leadership driven metrics is that they are too low level, focusi
 
 ### Gaming Metrics
   
-[Ron Jeffries](http://ronjeffries.com/) has written an article about managing an agile team via metrics, [Do You want Crappy Agile](http://ronjeffries.com/articles/016-03/you-want/)?  In it he discusses the risks of managing teams via metrics, and the natural progression to teams gaming the metrics. If they are working as hard and as smart as they can and are being asked to increase velocity, for example, story point estimates will increase. If they are being asked to get more stories done, they will write smaller stories, etc.
+[Ron Jeffries](http://ronjeffries.com/) has written an article about managing an agile team via metrics, [Do You want Crappy Agile](http://ronjeffries.com/articles/016-03/you-want/)?  In it he discusses the risks of managing teams via metrics, and the natural progression to teams gaming the metrics. If teams are working as hard and as smart as they can and are being asked to increase velocity, for example, story point estimates will increase. If they are being asked to get more stories done, they will write smaller stories, etc.
 
 ## Agile Values at Stake
 
