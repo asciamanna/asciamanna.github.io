@@ -53,7 +53,7 @@ While I do believe people should be generally skeptical of metrics there is one 
  
 Once the goal has been accomplished the team can stop tracking the metric. Who better to know how to improve the team than the team actually doing the work. They should be having regular retrospectives and continuously improving.
 
-## Leadership Driven Metrics or Cross Team Metrics
+## Leadership-Driven Metrics or Cross Team Metrics
 
 In contrast, a vast majority of metrics collected for use outside of the cross-functional team are the problematic ones. In some cases the organization wants to measure some things across the different cross-functional teams (which, by the way, is a bad idea in itself). These types of metrics put your organization at risk to unravel your agile practices and oppose agile principles. 
 
@@ -65,7 +65,7 @@ Even if your organization has embraced agile and doesn't suffer from these alarm
 
 ### Lacking Team Input
 
-These metrics lack the individual team's input. The team knows how to best improve themselves, and if any metrics will assist them in doing so. By making the team aware of what problem the organization is trying to solve they may be able to help come up with a better way to address the problem. Instead these metrics are used so that the leadership of the organization can address problems for the cross-functional team. Again, these are well-meaning decisions. Maybe the organizational leadership is trying to address an organization wide issue or trying to allow the team to focus on story work instead of addressing the issue. However this can result in disenfranchising the team and taking away their ownership.
+These metrics lack the cross-functional team's input. The team knows how to best improve themselves, and if any metrics will assist them in doing so. By making the team aware of what problem the organization is trying to solve they may be able to devise a better approach to addressing the problem. Instead these metrics are used so that the leadership of the organization can address problems for the cross-functional team. Again, these are well-meaning decisions. Maybe the organizational leadership is trying to address an organization-wide issue or trying to allow the team to focus on story work instead of addressing the issue. However this can result in disenfranchising the team and taking away their ownership.
 
 ### Too Low Level
 
@@ -74,11 +74,11 @@ Another risk of leadership driven metrics is that they are too low level, focusi
 
 ### Gaming Metrics
   
-[Ron Jeffries](http://ronjeffries.com/) has written an article about managing an agile team via metrics, [Do You want Crappy Agile](http://ronjeffries.com/articles/016-03/you-want/)?  In it he discusses the risks of managing teams via metrics, and the natural progression to teams gaming the metrics. If teams are working as hard and as smart as they can and are being asked to increase velocity, for example, story point estimates will increase. If they are being asked to get more stories done, they will write smaller stories, etc.
+[Ron Jeffries](http://ronjeffries.com/) has written an article about managing an agile team via metrics, [Do You want Crappy Agile?](http://ronjeffries.com/articles/016-03/you-want/)  In it he discusses the risks of managing teams via metrics, and the natural progression to teams gaming the metrics. If teams are working as hard and as smart as they can and are being asked to increase velocity, for example, story point estimates will increase. If they are being asked to get more stories done, they will write smaller stories, etc.
 
 ## Agile Values at Stake
 
-When metrics are used to manage an agile team this results in team's gaming the metrics. This begins chipping away at transparency in the organization. Furthermore, if metrics are used as a way to assert control over a cross-functional team the team loses ownership of their work and their ability to self-organize. If you really want to know if you agile teams are doing well, favor measuring outcomes over metrics. 
+When metrics are used to manage an agile team this results in teams gaming the metrics. This begins chipping away at trust and transparency in the organization. Furthermore, if metrics are used as a way to assert control over a cross-functional team the team loses ownership of their work and their ability to self-organize. If you really want to know if your agile teams are doing well, favor measuring outcomes over metrics. 
 
 ## Further Reading
 
