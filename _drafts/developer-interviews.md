@@ -24,6 +24,7 @@ Figuring out the candidates software development skills is one of the biggest ch
 
 Article to reference:
 http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews
+http://techbeacon.com/developer-shortage-or-time-rethink-technical-interview
 
 ### Technical Questions
 
