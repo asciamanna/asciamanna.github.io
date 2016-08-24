@@ -7,9 +7,9 @@ category: development practices
 tags: ['pair programming']
 ---
 
-The advice for development teams practicing pair programming has long been that as long as two developers see the code that counts as the code review. One benefit of pair programming was that the need to have separate code reviews was unnecessary and even wasteful. I took this advice for a long time even in light of the fact that there were specific scenarios where it failed me and my team. The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, in most cases I don't think pair programming should be considered a substitute for a code review.
+The advice for development teams practicing pair programming has long been that as long as two developers see the code that counts as the code review. One benefit of pair programming was that the need to have separate code reviews was unnecessary and even wasteful. I took this advice for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, in most cases I don't think pair programming should be considered a substitute for a code review.
 
-There is still a contingent of people who believe this. I often see blog posts recommending increasing team efficiency by replacing code reviews with pair programming. I even saw a conversation between some of the original XP practitioners stating that the pull request code review model was wasteful for teams that pair program. Being on a team that does both I have to disagree. I have found that combining these practices have been incredibly helpful for our team. 
+There is still a contingent of people who believe this. I often see blog posts recommending increasing team efficiency by replacing code reviews with pair programming. I even saw a conversation between some of the original XP practitioners stating that the pull request code review model was wasteful for teams that pair program. Being on a team that does both I have to disagree. I have found that combining these practices have been incredibly helpful for my team. 
 
 <div class="well">
 	<h6>The Twelve XP Practices</h6>
@@ -27,13 +27,13 @@ There is still a contingent of people who believe this. I often see blog posts r
 	Sustainable Pace<br/>
 </div>
 
-## Advice Of the Time
+## Advice of the Time
 
 The advice at the time wasn't bad. When compared to the standard practices at the onset of agile and XP it was a huge improvement. In fact you still don't have to look too hard to find organizations working without any code reviews. Or even development organizations that require code reviews for "new developers" but "senior developers" get away without having any reviews for code that goes into production.
 
-When developers work by themselves without any checks whatsoever all too often no one sees any of their code before it gets shipped into production. Furthermore, organizations levying unrealistic deadlines on the team only makes the problem worse. In these cases developers are racing to meet deadlines and hacking code together to get something that "works" into production. This is terribly short-sighted because the maintenance cost of that code is a non-insignificant, ongoing tax for the organization. The total cost of that original code change is significantly higher than slowing down and delivering high quality (i.e., easily changeable) code the first time. Sadly, these organizations are just still too short-sighted to see this. 
+When developers work by themselves without any checks whatsoever all too often no one sees any of their code before it gets shipped into production. Furthermore, organizations levying unrealistic deadlines on the team only makes the problem worse. In these cases developers are racing to meet deadlines and hacking code together to get something that "works" into production. This is terribly short-sighted because the maintenance cost of that code is a non-insignificant, ongoing tax for the organization. The total cost of that original code change is significantly higher than slowing down and delivering high quality (i.e., easily changeable) code the first time. Sadly, these kinds of organizations are just still too short-sighted to see this. 
 
-## A Response to Big Code Reviews
+### A Response to Big Code Reviews
 
 Even when teams do practice code reviews they are often handled at the end of a large project. They are usually held as large meetings where everyone has to be interrupted to attend the meeting in person. The expectation is that the attendees have spent a significant amount of time pouring over huge amounts of code so that they can provide detailed advice and recommendations in the meeting. 
 
@@ -60,7 +60,7 @@ For the ten years I have practiced Pair Programming I would say roughly half of 
 
 ### Coaching
 
-Frequently we brought new team members on to the team. Some were new to the domain, some were new to our technologies, some were new to our development practices, and some were new to all three! In each of these cases the pairing session was very different than when a pair of more experienced developers worked together. The focus of these sessions were split between getting the task accomplished as well as coaching the new team member. Now, this is a fantastic usage of pairing and one of the great benefits of teams regularly practicing pair programming. However, the problem arises when this code is not reviewed by the rest of the team because it was "paired on." We've found problems coming out of "coaching pair code" because it was worked on by one team member who has experience in the codebase and while they were also trying to coach a new team member at the same time. 
+Frequently we brought new team members on to the team. Some were new to the domain, some were new to our technologies, most were new to our development practices, and some were new to all three! In each of these cases the pairing session was very different than when a pair of more experienced developers worked together. The focus of these sessions were split between getting the task accomplished as well as coaching the new team member. Now, coaching is a fantastic usage of pairing and one of the great benefits of teams regularly practicing pair programming. However, the problem arises when this code is not reviewed by the rest of the team because it was "paired on." We've found problems coming out of "coaching pair code" because it was worked on by one team member who has experience in the codebase  while they were also trying to coach a new team member at the same time. 
 
 Splitting the experienced developers focus between accomplishing the task and coaching a new developer is, at times, too much juggle in a pairing session. That can manifest itself as reduced quality code coming out of those pairing sessions. Also, when coaching the information is usually being communicated in one direction from the more experienced developer to the new developer. While when two experienced developers pair they are constantly sharing ideas typically resulting in a better solution. 
 
