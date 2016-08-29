@@ -7,14 +7,14 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-The advice for development teams practicing pair programming has long been that as long as two developers see the code that is considered a code review. One benefit of pair programming was that the need to have separate code reviews was unnecessary and even wasteful. I took this advice for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, in a majority of cases I don't think pair programming should be considered a substitute for a code review.
+The advice for development teams practicing pair programming has long been that as long as two developers see the code, that is considered a code review. One benefit of pair programming was that the need to have separate code reviews was unnecessary and even wasteful. I took this advice for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, there are a lot of cases where I don't think pair programming should be considered a substitute for a code review.
 
 There is still a contingent of people who believe this. I often see blog posts recommending increasing team efficiency by replacing code reviews with pair programming. I even saw a conversation between some of the original XP practitioners stating that the pull request & code review model was wasteful for teams that pair program. Being on a team that does both I have to disagree. I have found that combining these practices have been incredibly valuable for my team. 
 
 <div class="well">
 	<h6>The Twelve XP Practices</h6>
 	Pair Programming<br/>   
-    Planning Game<br/>
+    	Planning Game<br/>
 	Test Driven Development<br/>
 	Whole Team<br/>
 	Continuous Integration<br/>
@@ -35,7 +35,7 @@ When developers work by themselves without any checks whatsoever all too often n
 
 ### A Response to Big Code Reviews
 
-Even when teams did practice code reviews they were often handled at the end of a large project. They were usually held as large meetings where the attendees have to be interrupted to attend the meeting in person. The expectation is that the attendees have spent a significant amount of time pouring over huge amounts of code so that they can provide detailed advice and recommendations in the meeting. 
+Even when teams did practice code reviews they were often handled at the end of a large project. They were usually held as large meetings where the attendees had to be interrupted to attend the meeting in person. The expectation is that the attendees have spent a significant amount of time pouring over huge amounts of code so that they can provide detailed advice and recommendations in the meeting. 
 
 This practice fails for a number of reasons. It is often way too late in the development cycle to give anything more than trivial feedback. Any significant changes would typically cause the team massive amounts of rework and presumably put them well behind their schedule. This works to frustrate both the author and the reviewer; feeling that these meetings are a waste of time. Furthermore, it is nearly impossible for someone to be able to give a detailed and high-quality review of such large amounts of code. Typically lots of issues slip through the cracks when having code reviews of this magnitude.
 
@@ -79,6 +79,7 @@ When a pair of developers work on the code they both share the "author's mind" a
 It is for these reasons I believe combining pair programming and code reviews is ideal and eliminates a lot of these problematic situations.
 
 ## Our Process
+
 My team pairs on a majority of production code as a team rule. There are exceptions but they are just that, exceptions not the rule. We have combined this practice with issuing pull requests to get our code merged into our master branch. 
 
 A pair of developers will pick a task for the highest priority story that is currently in progress. They will make sure that they can work on the task without interfering with another pair, otherwise they will start a task associated with the next highest priority story. Once they begin development they create a branch off of our master branch. When the task is complete they issue a pull request back to the master branch. Every other developer on the team is included on the pull request. The pair needs to address all pull request comments and get at least two approvals before merging their code back into the master branch.
