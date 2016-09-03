@@ -7,14 +7,14 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-The advice for development teams practicing pair programming has long been that as long as two developers see the code, that is considered a code review. One benefit of pair programming was that the need to have separate code reviews was unnecessary and even wasteful. I took this advice for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, there are a lot of cases where I don't think pair programming should be considered a substitute for a code review.
+The advice for development teams practicing pair programming has long been that as long as two developers see the code, that is considered a code review. One benefit of pair programming was that the need to have separate code reviews was unnecessary and even wasteful. I took this advice for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. I've even mentioned in previous blog posts that pair programming can replace code reviews. The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, there are a lot of cases where I don't think pair programming should be considered a substitute for a code review.
 
 There is still a contingent of people who believe this. I often see blog posts recommending increasing team efficiency by replacing code reviews with pair programming. I even saw a conversation between some of the original XP practitioners stating that the pull request & code review model was wasteful for teams that pair program. Being on a team that does both I have to disagree. I have found that combining these practices have been incredibly valuable for my team. 
 
 <div class="well">
 	<h6>The Twelve XP Practices</h6>
 	Pair Programming<br/>   
-    	Planning Game<br/>
+    Planning Game<br/>
 	Test Driven Development<br/>
 	Whole Team<br/>
 	Continuous Integration<br/>
@@ -56,11 +56,11 @@ Like nearly all things in software development if someone would ask me if pair p
 
 ## The Issues with Skipping Code Reviews
 
-For the ten years I have practiced Pair Programming I would say roughly half of that time I was on teams that had a process that allowed developers to skip code reviews as long as the code was paired on. I am going to describe the issue associated with that practice in this article.
+For the ten years I have practiced Pair Programming most of that time I was on teams that had a process that allowed developers to skip code reviews as long as the code was paired on. I am going to describe the issue associated with that practice in this article.
 
 ### Coaching
 
-Frequently we brought new team members on to the team. Some were new to the domain, some were new to our technologies, most were new to our development practices, and some were new to all three! In each of these cases the pairing session was very different than when a pair of more experienced developers worked together. The focus of these sessions was split between getting the task accomplished as well as coaching the new team member. Now, coaching is a fantastic usage of pairing and one of the great benefits of teams regularly practicing pair programming. However, the problem arises when this code is not reviewed by the rest of the team because it was "paired on." We've found problems coming out of "coaching pair code" because it was worked on by one team member who has experience in the codebase while they were also trying to coach a new team member. 
+Frequently we brought new team members on to the team. Some were new to the domain, some were new to our technologies, most were new to our development practices, and some were new to all three! In each of these cases the pairing session was very different than when a pair of more experienced developers worked together. The focus of these sessions was split between getting the task accomplished as well as coaching the new team member. Now, coaching is a fantastic usage of pairing and one of the great benefits of teams regularly practicing pair programming. However, the problem arises when this code is not reviewed by the rest of the team because it was "paired on." We've found problems coming out of "coaching pair code" because it was worked on by only one team member who had experience in the codebase while they were also trying to coach a new team member. 
 
 Splitting the experienced developer's focus between accomplishing the task and coaching a new developer is, at times, too much juggle in a pairing session. That can manifest itself as reduced quality code coming out of those pairing sessions. Also, when coaching the information is usually being communicated in one direction from the more experienced developer to the new developer. While when two experienced developers pair they are constantly sharing ideas typically resulting in a better solution. 
 
@@ -72,7 +72,7 @@ Even more problematic were the situations that would arise when one of the exper
 
 ### Author vs. Editor
 
-The last example I wanted to discuss is something that [Bryan Helmkamp](https://twitter.com/brynary "Bryan Helmkamp's Twitter Account"), founder and CEO of [Code Climate](https://codeclimate.com/), described in his Baruco 2013 Conference, [Building a Culture of Quality](https://www.youtube.com/watch?v=Jsi1YTkXwxA). In his talk he describes that every author, even the greatest authors in the world, require a great editor. As professional developers we should be taking the same approach with code reviews. In fact while code reviews are absolutely useful for finding issues in the code, I think their best use is to ensure that the code's intent is easy to understand by someone who did not author it. It is this editing stage that helps ensure the code is as clear and concise as possible. 
+The last example I wanted to discuss is something that [Bryan Helmkamp](https://twitter.com/brynary "Bryan Helmkamp's Twitter Account"), founder and CEO of [Code Climate](https://codeclimate.com/), described in his Baruco 2013 Conference, [Building a Culture of Quality](https://www.youtube.com/watch?v=Jsi1YTkXwxA). In his talk he describes that every author requires a great editor. As professional developers we should be taking the same approach with code reviews. In fact while code reviews are absolutely useful for finding issues in the code, I think their best use is to ensure that the code's intent is easy to understand by someone who did not author it. It is this editing stage that helps ensure the code is as clear and concise as possible. 
 
 When a pair of developers work on the code they both share the "author's mind" and because of this they cannot act as an effective editor. They have both spent a significant amount of time thinking about the problem in detail while writing the code and cannot effectively see code as a new developer would when they first encounter it. Or even how the author would view the code if he/she had to make a modification to it at some point in the future.
 
