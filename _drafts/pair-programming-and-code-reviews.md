@@ -29,9 +29,9 @@ There is still a contingent of people who believe this. I often see blog posts r
 
 ## Advice of the Time
 
-The advice at the time wasn't bad. When compared to the standard practices at the onset of agile and XP it was a dramatic improvement. In fact you still don't have to look too hard to find organizations working without any code reviews. Or even development organizations that require code reviews for "new developers" but "senior developers" get away without having any reviews for code before it goes into production.
+The advice at the time wasn't bad. When compared to the standard practices at the onset of agile and XP, it was a dramatic improvement. In fact you still don't have to look too hard to find organizations working without any code reviews. Or even development organizations that require code reviews for "new developers" but "senior developers" get away without having any reviews for code before it goes into production.
 
-When developers work by themselves without any checks whatsoever all too often no one sees any of their code before it gets shipped into production. Furthermore, organizations levying unrealistic deadlines on the team only makes the problem worse. In these cases developers are racing to meet deadlines and hacking code together to get something that "works" into production. This is terribly short-sighted because the maintenance cost of that code is a non-insignificant, ongoing tax for the organization. The total cost of that original code change is significantly higher than slowing down and delivering high quality (i.e., easily changeable) code the first time. Sadly, some organizations are just still too short-sighted to see this.
+When developers work by themselves without any checks whatsoever all too often no one sees any of their code before it gets shipped into production. Furthermore, organizations levying unrealistic deadlines on the team only serves to make the problem worse. In these cases developers are racing to meet deadlines and hacking code together to get something that "works" into production. This is terribly short-sighted because the maintenance cost of that code is a non-insignificant, ongoing tax for the organization. The total cost of that original code change is significantly higher than slowing down and delivering high quality (i.e., easily changeable) code the first time. Sadly, some organizations are just still too short-sighted to see this.
 
 ### A Response to Big Code Reviews
 
@@ -56,7 +56,7 @@ Like nearly all things in software development if someone would ask me if pair p
 
 ## The Issues with Skipping Code Reviews
 
-For the ten years I have practiced Pair Programming most of that time I was on teams that had a process that allowed developers to skip code reviews as long as the code was paired on. I am going to describe the issue associated with that practice in this article.
+For the ten years I have practiced Pair Programming most of that time I was on teams that had a process that allowed developers to skip code reviews as long as the code was paired on. I am going to describe the issues associated with that practice in this article.
 
 ### Coaching
 
