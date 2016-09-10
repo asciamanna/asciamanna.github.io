@@ -7,7 +7,9 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-Pair programming has long been considered a replacement for code reviews. If code was written in a pair, having a code review was considered unnecessary and even wasteful. I took this advice for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. I've even mentioned in previous blog posts that pair programming can replace code reviews. The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, there are a lot of cases where I don't think pair programming should be considered a substitute for a code review.
+Pair programming has long been considered a replacement for code reviews. If code was written in a pair, having a code review was considered unnecessary and even wasteful. I followed this advice for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. I've even mentioned in previous blog posts that pair programming can replace code reviews.
+
+The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, there are a lot of cases where I don't think pair programming should be considered a substitute for a code review.
 
 There is still a contingent of people who believe this. I often see blog posts recommending increasing team efficiency by replacing code reviews with pair programming. I even saw a conversation between some of the original XP practitioners stating that the pull request and code review model was wasteful for teams that pair program. Being on a team that does both I have to disagree. I have found that combining these practices have been incredibly valuable for my team.
 
