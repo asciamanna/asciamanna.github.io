@@ -31,7 +31,7 @@ There is still a contingent of people who believe this. I often see blog posts r
 
 ## Advice of the Time
 
-The advice at the time wasn't bad. When compared to the standard practices at the onset of agile and XP, it was a dramatic improvement. In fact you still don't have to look too hard to find organizations working without any code reviews. Or some organizations that require code reviews for "new developers" but "senior developers" get away without having any reviews for code before it goes into production.
+The advice at the time wasn't bad. When compared to the standard practices at the onset of agile and XP, it was a dramatic improvement. In fact you still don't have to look too hard to find development organizations working without any code reviews. Or some organizations that require code reviews for "junior developers" but "senior developers" get away without having any reviews of their code before it goes into production.
 
 When developers work by themselves all too often their code gets shipped into production without any feedback whatsoever. Furthermore, organizations levying unrealistic deadlines on the team only serves to make the problem worse. In these cases developers are racing to meet deadlines and hacking code together to get something that "works" into production. This is terribly short-sighted because the maintenance cost of that code is a non-insignificant, ongoing tax for the organization. The total cost of that original code change is significantly higher than slowing down and delivering high quality (i.e., easily changeable) code the first time. Sadly, some organizations are just still too short-sighted to see this.
 
@@ -54,7 +54,7 @@ As long as teams are issuing pull requests for small amounts of code (small, inc
 
 ## It Depends
 
-Like nearly all things in software development if someone would ask me if pair programming is a substitute for code reviews my answer would be, "It depends." There are some cases where I think it can work. Specifically when a team has worked together for a significant amount of time and have a thorough understanding of the team's coding standards. However, my belief is that in general there is still a significant benefit to having code reviews even when practicing pair programming.
+Like nearly all things in software development if someone would ask me if pair programming is a substitute for code reviews my answer would be, "it depends." There are some cases where I think it can work. Specifically when a team has worked together for a significant amount of time and have a thorough understanding of the team's coding standards. However, my belief is that in general there is still a significant benefit to having code reviews even when practicing pair programming.
 
 ## The Issues with Skipping Code Reviews
 
@@ -64,7 +64,7 @@ For the ten years I have practiced Pair Programming most of that time I was on t
 
 Frequently we brought new team members on to the team. Some were new to the domain, some were new to our technologies, most were new to our development practices, and some were new to all three! In each of these cases the pairing session was very different than when a pair of more experienced developers worked together. The focus of these sessions was split between getting the task accomplished as well as coaching the new team member. Now, coaching is a fantastic usage of pairing and one of the great benefits of teams regularly practicing pair programming. However, the problem arises when this code is not reviewed by the rest of the team because it was "paired on." We've found problems coming out of "coaching pair code" because it was worked on by only one team member who had experience in the codebase while they were also trying to coach a new team member.
 
-Splitting the experienced developer's focus between accomplishing the task and coaching a new developer is, at times, too much juggle in a pairing session. That can manifest itself as reduced quality code coming out of those pairing sessions. Also, when coaching the information is usually being communicated in one direction from the more experienced developer to the new developer. While when two experienced developers pair they are constantly sharing ideas typically resulting in a better solution.
+Splitting the experienced developer's focus between accomplishing the task and coaching a new developer is, at times, too much juggle in a pairing session. That can manifest itself as reduced quality code coming out of those pairing sessions. Also, when coaching the information is usually being communicated in one direction from the more experienced developer to the new developer. While when two experienced developers pair they are constantly exchanging ideas typically resulting in a better solution.
 
 ### Junior Pairs
 
@@ -80,13 +80,18 @@ When a pair of developers work on the code they both share the "author's mind" a
 
 It is for these reasons I believe combining pair programming and code reviews is ideal and eliminates a lot of these problematic situations.
 
-## Ongoing Quality Discussions
+## Benefits
+### Ongoing Quality Discussions
 
-While these code reviews address the problems listed above, it introduces a very important benefit. Because these small code reviews will happen several times per day, the team will get very comfortable regularly discussing code quality and team standards. Learning how to have these discussions regularly helps build trust on a team.
+While these code reviews address the problems listed above, it also introduces a very important benefit. Because these small code reviews will happen several times per day, the team will get very comfortable regularly discussing code quality and team standards. Learning how to have these discussions helps build trust on a team.
+
+### Coding Standards
+
+Additionally these regular reviews allows for teams to create coding standards and styles. These reviews should be used to ensure that the code meets the team's standards, and results in all of the code created by the team looking like it was written by a single developer.
 
 ## Our Process
 
-My team pairs on a majority of production code as a team rule. There are exceptions but they are just that, exceptions not the rule. We have combined this practice with issuing pull requests to get our code merged into our master branch.
+My team pairs on a majority of production code as a team rule. There are exceptions but they are just that, exceptions not the rule. We have combined this practice with issuing pull requests to get our code reviewed and merged into our master branch.
 
 A pair of developers will pick a task for the highest priority story that is currently in progress. They will make sure that they can work on the task without interfering with another pair, otherwise they will start a task associated with the next highest priority story. Once they begin development they create a branch off of our master branch. When the task is complete they issue a pull request back to the master branch. Every other developer on the team is included on the pull request. The pair needs to address all pull request comments and get at least two approvals before merging their code back into the master branch.
 
