@@ -7,11 +7,11 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-Pair programming has long been considered a replacement for code reviews. If code was written in a pair, having a code review was considered unnecessary and even wasteful. I followed this advice for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. I've even mentioned in previous blog posts that pair programming can replace code reviews.
+Pair programming has long been considered a replacement for code reviews. If code was written in a pair, having a code review was considered unnecessary and even wasteful. I practiced this for a long time even when faced with the fact that there were specific scenarios where it failed me and my team. I've even mentioned in previous blog posts that pair programming can replace code reviews.
 
 The twelve XP practices are brilliant and I contend that they would dramatically improve any development team that took the time to master them. I am a huge proponent of XP (including Pair Programming) and it remains one of my passions. However, there are a lot of cases where I don't think pair programming should be considered a substitute for a code review.
 
-There is still a contingent of people who believe this. I often see blog posts recommending increasing team efficiency by replacing code reviews with pair programming. I even saw a conversation between some of the original XP practitioners stating that the pull request and code review model was wasteful for teams that pair program. Being on a team that does both I have to disagree. I have found that combining these practices have been incredibly valuable for my team.
+There is still a contingent of people who believe this. I often see blog posts recommending increasing team efficiency by replacing code reviews with pair programming. I even saw a conversation between some of the original XP practitioners stating that the pull request and code review model was wasteful for teams that pair program. Being on a team that does both I have to disagree, I have found that combining these practices have been incredibly valuable for my team.
 
 <div class="well">
 	<h6>The Twelve XP Practices</h6>
@@ -31,15 +31,15 @@ There is still a contingent of people who believe this. I often see blog posts r
 
 ## Advice of the Time
 
-The advice at the time wasn't bad. When compared to the standard practices at the onset of agile and XP, it was a dramatic improvement. In fact you still don't have to look too hard to find organizations working without any code reviews. Or even development organizations that require code reviews for "new developers" but "senior developers" get away without having any reviews for code before it goes into production.
+The advice at the time wasn't bad. When compared to the standard practices at the onset of agile and XP, it was a dramatic improvement. In fact you still don't have to look too hard to find organizations working without any code reviews. Or some organizations that require code reviews for "new developers" but "senior developers" get away without having any reviews for code before it goes into production.
 
-When developers work by themselves without any checks whatsoever all too often no one sees any of their code before it gets shipped into production. Furthermore, organizations levying unrealistic deadlines on the team only serves to make the problem worse. In these cases developers are racing to meet deadlines and hacking code together to get something that "works" into production. This is terribly short-sighted because the maintenance cost of that code is a non-insignificant, ongoing tax for the organization. The total cost of that original code change is significantly higher than slowing down and delivering high quality (i.e., easily changeable) code the first time. Sadly, some organizations are just still too short-sighted to see this.
+When developers work by themselves all too often their code gets shipped into production without any feedback whatsoever. Furthermore, organizations levying unrealistic deadlines on the team only serves to make the problem worse. In these cases developers are racing to meet deadlines and hacking code together to get something that "works" into production. This is terribly short-sighted because the maintenance cost of that code is a non-insignificant, ongoing tax for the organization. The total cost of that original code change is significantly higher than slowing down and delivering high quality (i.e., easily changeable) code the first time. Sadly, some organizations are just still too short-sighted to see this.
 
 ### A Response to Big Code Reviews
 
-Even when teams did practice code reviews they were often handled at the end of a large project. They were usually held as large meetings where the attendees had to be interrupted to attend the meeting in person. The expectation is that the attendees have spent a significant amount of time pouring over huge amounts of code so that they can provide detailed advice and recommendations in the meeting.
+Even when teams did practice code reviews they were often handled at the end of a large project. They were usually held as large meetings where the attendees had to be interrupted to attend the meeting in person. The expectation is that the attendees have spent a significant amount of time pouring over huge amounts of code so that they can provide detailed advice and recommendations during the meeting.
 
-This practice fails for a number of reasons. It is often way too late in the development cycle to give anything more than trivial feedback. Any significant changes would typically cause the team massive amounts of rework and presumably put them well behind their schedule. This works to frustrate both the author and the reviewer; feeling that these meetings are a waste of time. Furthermore, it is nearly impossible for someone to be able to give a detailed and high-quality review of such large amounts of code. Typically lots of issues slip through the cracks when having code reviews of this magnitude.
+This practice fails for a number of reasons. It is often way too late in the development cycle to give anything more than trivial feedback. Any significant changes would typically cause the developer massive amounts of rework and presumably putting them well behind their schedule. This works to frustrate both the author and the reviewer; feeling that these meetings are a waste of time. Furthermore, it is nearly impossible for someone to be able to give a detailed and high-quality review of such large amounts of code. Typically lots of issues slip through the cracks when having code reviews of this magnitude.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">10 lines of code = 10 issues.<br><br>500 lines of code = &quot;looks fine.&quot;<br><br>Code reviews.</p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/397664295875805184">November 5, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -48,9 +48,9 @@ Given that this practice was standard for the time, the recommendation that pair
 
 ## Enter Github and Pull Requests
 
-More recently, one of the great things that Github has brought us is the concept of pull requests. Using the pull request model (and some discipline to keep commits small) teams can overcome the challenges of the traditional code review. While there are tools that existed prior to Github that allowed teams to review code asynchronously before getting committed to a repository, Github's model has had a much wider adoption.
+More recently, one of the great things that Github has brought us is the concept of pull requests. Using the pull request model (and some discipline to keep commits small) teams can overcome the challenges of the traditional code review. While there are tools that existed prior to Github that allowed teams to review code asynchronously before being committed to a repository, Github's model has had a much wider adoption.
 
-As long as teams are issuing pull requests for small amounts of code (small, incremental divergences from their master branch) they can get asynchronous feedback on their code in a positive way prior to it being merged into their master branches. They can get this feedback at the appropriate time in their project and with enough time to react to feedback. It is this practice combined with pair programming that I contend has benefits.
+As long as teams are issuing pull requests for small amounts of code (small, incremental divergences from their master branch) they can get asynchronous feedback on their code in a positive way prior to it being merged into their master branches. They can get this feedback at the appropriate time in their project and with enough time to respond to it. It is this practice combined with pair programming that I contend has benefits.
 
 ## It Depends
 
@@ -79,6 +79,10 @@ The last example I wanted to discuss is something that [Bryan Helmkamp](https://
 When a pair of developers work on the code they both share the "author's mind" and because of this they cannot act as an effective editor. They have both spent a significant amount of time thinking about the problem in detail while writing the code and cannot effectively see code as a new developer would when they first encounter it. Or even how the author would view the code if he/she had to make a modification to it at some point in the future.
 
 It is for these reasons I believe combining pair programming and code reviews is ideal and eliminates a lot of these problematic situations.
+
+## Ongoing Quality Discussions
+
+While these code reviews address the problems listed above, it introduces a very important benefit. Because these small code reviews will happen several times per day, the team will get very comfortable regularly discussing code quality and team standards. Learning how to have these discussions regularly helps build trust on a team.
 
 ## Our Process
 
