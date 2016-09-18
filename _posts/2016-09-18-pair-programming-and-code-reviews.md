@@ -81,6 +81,7 @@ When a pair of developers work on the code they both share the "author's mind" a
 It is for these reasons I believe combining pair programming and code reviews is ideal and eliminates a lot of these problematic situations.
 
 ## Benefits
+
 ### Ongoing Quality Discussions
 
 While  code reviews address the problems listed above, it also introduces a very important benefit. Because these small code reviews will happen several times per day, the team will get very comfortable regularly discussing code quality and team standards. Learning how to have these discussions in a productive manner helps build trust on a team.
