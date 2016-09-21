@@ -21,9 +21,9 @@ This first kata serves to help the team compare poorly written code to well writ
 This kata is similar to études [James Shore](http://www.jamesshore.com/) introduced to a team I worked on. These études were designed to help developers quickly read, understand, and explain the purpose of code by diagramming and presenting it to the team in a relatively short period of time. It only takes doing a few of these exercises before it becomes obvious how much easier these are when the code is well designed. So I decided to follow a similar practice for these katas to help sell the idea that clean code matters.  
 
 <div class="well">
-James Shore describes a couple of other études and how he got the idea for them from Kent Beck in his post, [Études for Excellence](http://www.jamesshore.com/Blog/Etudes-for-Excellence.html).
+James Shore describes a couple of other études and how he got the idea for them from [Kent Beck](https://twitter.com/KentBeck) in his post, [Études for Excellence](http://www.jamesshore.com/Blog/Etudes-for-Excellence.html).
 </div>
- 
+
 ### Practice
 
 1. Have the team split into groups of no more than five developers. Ensure that they all have access to the source code and have a whiteboard accessible. Each developer should go through the codebase and pick a class to investigate. As developers get more comfortable with this kata you can open it up to groups of classes. The only restriction you should put on them is that it should not be code that they have worked on in the past six months. In small codebases this may not be possible. In that case just recommend they pick something that they are least familiar with. In a problematic codebase a significant number of classes will suffer from some clean code violations.
