@@ -1,4 +1,4 @@
-It is common for teams who are responsible for a large amount of legacy, poorly written code to not improve it over time. There are a lot of factors at work to keep teams churning in poorly written codebase. They may lack experience writing clean code and unit tests and don't have opportunities to practice these techniques. Often there are schedule pressures that create stress which prevents teams from improving the codebase. There are some cases where developers just don't see the value in code quality or believe software design and quality is entirely subjective. It has been my experience working in these organizations that no one is talking about the quality of the code or how to improve it over time. Everyone is working in a reactive manner just trying to get something that works into production however they can manage to do it. Teams can turn this around.
+It is common for teams who are responsible for a large amount of legacy, poorly written code to not improve it over time. There are a lot of factors at work to keep teams churning in a poorly written codebase. They may lack experience writing clean code and unit tests and don't have opportunities to practice these techniques. Often there are schedule pressures that create stress which prevents teams from improving the codebase. There are some cases where developers just don't see the value in code quality or believe software design and quality is entirely subjective. It has been my experience working when working in these organizations that no one is talking about the quality of the code or how to improve it over time. Everyone is working in a reactive manner just trying to get something that "works" into production however they can manage to do it. Teams can turn this around.
 
 The message you want to be sending to your team is that "working code" is not finished. Code needs to convey its intent in the clearest possible manner. It needs to be easy to update and change and it needs to have unit tests so that developers have confidence in their changes. It needs to be in a state that enables continuous refactoring so that it is always easy to change and has clear intentions.
 
@@ -42,9 +42,9 @@ James Shore describes a couple of other études and how he got the idea for them
 
 This will most likely be a challenge in codebases with quality issues. Teams who are not used to reading code quickly without stepping through it in a debugger will be challenged by this exercise unless it was something they have worked on recently.
 
-The next step is to repeat the same exercise but give the developers a class to look at that is an example of well written code. You should be looking for all of the things that we value as clean coders:
+The next step is to repeat the same exercise but give the developers a class to look at that is an example of well written code. You should be looking for an example that contains the types of things that we value as clean coders:
 
-* Small classes
+* A small class
 * Short methods
 * Well named methods and variables (code comments not required because names are descriptive)
 * Dependent objects injected and easily understood based on dependent object variable and method names
