@@ -6,10 +6,16 @@ The message you want to be sending to your team is that "working code" is not fi
 
 One recommendation I have for teams in this situation is to read books and blog posts about the subject of clean code, software design, unit testing, refactoring, etc. I'll save those recommendations for another post, however reading alone won't solve these problems. It is hard to practice these new techniques for the first time in production code. Developers feeling pressure are going to revert back to what they know. Teams need specific time set aside to practice and improve. This is where code katas and études can be utilized.
 
-## Etudes and Katas
-The concept of études and code katas were developed independently by [Kent Beck](https://twitter.com/KentBeck) and [Dave Thomas](https://twitter.com/pragdave), respectively. The idea behind them is to practice some relatively simple softeware development concept. Through repetition of these practices developers will improve. As you will see not all of these have to involve actual coding exercises, although much of them involve coding.
+<div class="well">
+<strong>No Time To Learn</strong>
+Agile coach, George Dinwiddie discusses the issue with teams not having time to learn new things in his post, [No Time To Learn](http://blog.gdinwiddie.com/2015/03/05/no-time-to-learn/)
+</div>
 
-## Team Improvment
+## Études and Katas
+
+The concept of études and code katas were developed independently by [Kent Beck](https://twitter.com/KentBeck) and [Dave Thomas](https://twitter.com/pragdave), respectively. The idea behind them is to practice a software development concept repeatedly and improving over time through consistent feedback. Through repetition of these practices developers will improve. As you will see not all of these have to involve actual coding exercises, although much of them do.
+
+## Team Improvement
 
 I've encountered two types of developers who are responsible for maintaining poorly written codebases. There are some who don't have the experience writing clean code and believe it will take them too long to learn these techniques. Then there are those who see no value in clean code techniques. These are the developers who say things like _"I like to see the code all in one place"_ as their reason for wanting to write large classes and methods. Or they claim that _"having too many files is confusing."_ Maybe they have tried unit testing but have not had a good experience with it because they didn't receive any mentoring. Poorly written tests can often be worse than having no tests at all.
 
@@ -31,7 +37,7 @@ James Shore describes a couple of other études and how he got the idea for them
 
 ### Practice
 
-1. Have the team split into groups of no more than five developers. Ensure that they all have access to the source code and have a whiteboard accessible. Each developer should go through the codebase and pick a class to investigate. As developers get more comfortable with this kata you can open it up to groups of classes. The only restriction you should put on them is that it should not be code that they have worked on in the past six months. In small codebases this may not be possible. In that case just recommend they pick something that they are least familiar with. In a problematic codebase a significant number of classes will suffer from some clean code violations.
+1. Have the team split into groups of no more than five developers. Ensure that they all have access to the source code and have a whiteboard nearby. Each developer should go through the codebase and pick a class to investigate. As developers get more comfortable with this kata you can open it up to groups of classes. The only restriction you should put on them is that it should not be code that they have worked on in the past six months. In small codebases this may not be possible. In that case just recommend they pick something that they are least familiar with. In a problematic codebase a significant number of classes will suffer from some clean code violations.
 
 2. Give them some time to look at the class (approximately ten minutes should be sufficient at first but you should decrease this over time). Specifically they should be looking at the following things for each class:
 
@@ -41,7 +47,7 @@ James Shore describes a couple of other études and how he got the idea for them
 * Its private methods
 * Its attributes
 
-3. Given all of this information the developer should be able to describe what the class' responsibilities are, what it is doing, and possibly why it is doing it. They should diagram the class and its dependencies on a white board while describing it to the rest of the group.
+3. After the ten minutes each developer should be able to describe what the class' responsibilities are, what it is doing, and possibly why it is doing it. They should diagram the class and its dependencies on a white board while describing it to the rest of the group. The team should have some experience with UML diagramming. Now, thorough and perfect UML diagramming is not the goal, but understanding enough to be able to convey design information to the other developers on the team is required. This will yield long-term benefits as the team gets more comfortable diagramming and discussing software design.
 
 4. Rotate through each member of the group until everyone gets a chance to present.
 
@@ -61,4 +67,4 @@ The developers should find that they can much more easily describe this code tha
 
 ## Conclusion
 
-Typically when faced with examples of poorly written code and what we would consider clean code developers begin to see the benefits of learning these techniques. Continue discussing code quality with teams. A later post will describe a refactoring kata.
+Typically when faced with examples of poorly written code and what we would consider clean code developers begin to see the benefits of learning these techniques. Continue discussing code quality with teams. As previously mentioned repetition is an important part of these katas, so plan to do this regularly. A later post will describe some other katas to help teams improve the quality of their code.
