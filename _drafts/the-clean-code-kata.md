@@ -17,7 +17,8 @@ One recommendation I have for teams in this situation is to read books and blog 
 
 <div class="well">
 <strong>No Time To Learn</strong>
-Agile coach, George Dinwiddie discusses the issue with teams not having time to learn new things in his post, [No Time To Learn](http://blog.gdinwiddie.com/2015/03/05/no-time-to-learn/)
+<br />
+Agile coach, George Dinwiddie discusses the issue with teams not having time to learn new things in his post, <a href="http://blog.gdinwiddie.com/2015/03/05/no-time-to-learn/">No Time To Learn</a>
 </div>
 
 ## Études and Katas
@@ -41,20 +42,19 @@ This first kata serves to help the team compare poorly written code to well writ
 This kata is similar to études [James Shore](http://www.jamesshore.com/) introduced to a team I worked on. These études were designed to help developers quickly read, understand, and explain the purpose of code by diagramming and presenting it to the rest of the team in a relatively short period of time. It only takes doing a few of these exercises before it becomes obvious how much easier these are when the code is well designed. So I decided to follow a similar practice for these katas to help sell the idea that clean code matters.  
 
 <div class="well">
-James Shore describes a couple of other études and how he got the idea for them from [Kent Beck](https://twitter.com/KentBeck) in his post, [Études for Excellence](http://www.jamesshore.com/Blog/Etudes-for-Excellence.html).
+James Shore describes a couple of other études and how he got the idea for them from <a href="https://twitter.com/KentBeck">Kent Beck</a> in his post, <a href="http://www.jamesshore.com/Blog/Etudes-for-Excellence.html">Études for Excellence</a>.
 </div>
 
 ### Practice
 
 1. Have the team split into groups of no more than five developers. Ensure that they all have access to the source code and have a whiteboard nearby. Each developer should go through the codebase and pick a class (and it's dependencies) to investigate. As developers get more comfortable with this kata you can open it up to groups of classes. The only restriction you should put on them is that it should not be code that they have worked on in the past six months. In small codebases this may not be possible. In that case just recommend they pick something that they are least familiar with. In a problematic codebase a significant number of classes will suffer from some clean code violations.
 
-2. Give them some time to look at the class (approximately ten minutes should be sufficient at first but you should decrease this over time). Specifically they should be looking at the following things for each class:
-
-* Its unit tests (or lack thereof) and the names of the unit test cases that exercise the class' public methods
-* Its public methods
-* Its dependencies and the public methods it calls on its dependencies (ask them not to look at the dependency classes other than their public interface that the class being investigated is using).
-* Its private methods
-* Its attributes
+2. Give them some time to look at the class (approximately ten minutes should be sufficient at first but you should decrease this over time). Specifically they should be looking at the following things for each class:  
+  * Its unit tests (or lack thereof) and the names of the unit test cases that exercise the class' public methods
+  * Its public methods
+  * Its dependencies and the public methods it calls on its dependencies (ask them not to look at the dependency classes other than their public interface that the class being investigated is using).
+  * Its private methods
+  * Its attributes
 
 3. After the ten minutes each developer should be able to describe what the class' responsibilities are, what it is doing, and possibly why it is doing it. They should diagram the class and its dependencies on a white board while describing it to the rest of the group. In order to accomplish this the team is going to need to have some experience with UML diagramming. Now, perfectly accurate UML diagramming is not the goal, but understanding enough to be able to convey design information to the other developers on the team is required. I've often done a small lunch-and-learn on class and sequence diagrams prior to starting these exercises. This understanding of UML will yield long-term benefits as the team gets more comfortable diagramming and discussing software design throughout their work day.
 
@@ -62,13 +62,12 @@ James Shore describes a couple of other études and how he got the idea for them
 
 This will most likely be a challenge in codebases with quality issues. Teams who are not used to reading code quickly without stepping through it in a debugger will be challenged by this exercise unless it was something they have worked on recently.
 
-The next step is to repeat the same exercise but give the developers a class to look at that is an example of well written code. You should be looking for an example that contains the types of things that we value as clean coders:
-
-* A small class
-* Short methods
-* Well named methods and variables (code comments not required because names are descriptive)
-* Dependent objects injected and easily understood based on dependent object variable and method names
-* Unit tests exercising each public method with well named test cases
+The next step is to repeat the same exercise but give the developers a class to look at that is an example of well written code. You should be looking for an example that contains the types of things that we value as clean coders:  
+  * A small class
+  * Short methods
+  * Well named methods and variables (code comments not required because names are descriptive)
+  * Dependent objects injected and easily understood based on dependent object variable and method names
+  * Unit tests exercising each public method with well named test cases
 
 ### Discussion
 
