@@ -19,6 +19,8 @@ While care certainly needs to be taken to introduce these types of changes into 
 organizations with quality problems and trying to improve them will expose a lot of people claiming that caring about code quality is somehow
 unprofessional. That going fast and getting features into production as quickly as possible is the **only** responsibility of the professional developer, not self improvement, not mentoring junior developers, not improving the readability of the code. All of these things, they believe, are things that take time away from "shipping".
 
+<img src="/img/lego.jpg" class="img-responsive" />
+
 A tell tale sign of organizations with quality problems is one where people have no time to learn. The developers are constantly in a reactive mode fighting fires in production because of quality issues and wrestling with the codebase just to get features into production. They can't slow down enough to see how much extra effort their shortcuts are costing them. What they really are saying when claiming that they are too busy shipping is *"We don't have time to learn the skills to improve our code"* in a lot of cases. In other cases they just don't feel like they have time to slow down and actually think about the problem. The first software design idea is the one that will end up in production. Half-way through the feature development, when it is clear the design is not working, they continue to fight through it to force it to work. In the process adding more cruft to the codebase to slow down future developers.
 
 ## Unprofessional?
