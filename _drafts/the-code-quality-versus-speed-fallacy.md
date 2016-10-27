@@ -7,9 +7,9 @@ category: development practices
 tags: ['']
 ---
 
-I often write about organizations that have software quality problems since I care very much about helping teams improve their code. There is a common problem that occurs in organizations with quality problems, the developers and even organizational leadership try to avoid any attempts at improving the code. From an outsider just coming in it may seem crazy that developers are working harder than they need to be working and slowly churning through features constantly frustrated by the codebase. However, through all this they don't want to try something different. Change is challenging for any organization and most people will think outsiders to the organization don't understand their challenges. They may think their professional abilities are being questioned if someone is recommending improvements to how they build software.  
+I often find myself writing about organizations that have software quality problems. This is due to my passion for helping teams improve the way they work, and in doing so improving their code. It is not uncommon for organizations with quality problems to avoid attempts at improvement for a variety of reasons. From the perspective of someone just coming in to the organization it may seem crazy that developers are working harder than they need to just to slowly churn through features. These developers are constantly frustrated by the codebase. However, enduring this pain is more comfortable than trying something different. Change is challenging for any organization and most people will think outsiders or newcomers to the organization don't understand their challenges. They may think their professional abilities are being questioned if someone is recommending improvements to how they build software.  
 
-While care certainly needs to be taken to introduce these types of changes into an organization one of the first defenses of organizations holding on to problematic code and development practices is what I call the __*Code Quality vs. Speed Fallacy*__. This is the incorrect belief that you can't care about both code quality and shipping code quickly.
+While care certainly needs to be taken to introduce these types of changes into an organization, one of the first defenses of organizations holding on to problematic code and development practices is what I call the __*Code Quality vs. Speed Fallacy*__. This is the absolutely incorrect belief that you can't care about both code quality and shipping code quickly.
 
 ## No Time for Improvement
 
@@ -19,9 +19,10 @@ While care certainly needs to be taken to introduce these types of changes into 
 organizations with quality problems and trying to improve them will expose a lot of people claiming that caring about code quality is somehow
 unprofessional. That going fast and getting features into production as quickly as possible is the **only** responsibility of the professional developer, not self improvement, not mentoring junior developers, not improving the readability of the code. All of these things, they believe, are things that take time away from "shipping".
 
-<img src="/img/lego.jpg" class="img-responsive" />
 
 A tell tale sign of organizations with quality problems is one where people have no time to learn. The developers are constantly in a reactive mode fighting fires in production because of quality issues and wrestling with the codebase just to get features into production. They can't slow down enough to see how much extra effort their shortcuts are costing them. What they really are saying when claiming that they are too busy shipping is *"We don't have time to learn the skills to improve our code"* in a lot of cases. In other cases they just don't feel like they have time to slow down and actually think about the problem. The first software design idea is the one that will end up in production. Half-way through the feature development, when it is clear the design is not working, they continue to fight through it to force it to work. In the process adding more cruft to the codebase to slow down future developers.
+
+<img src="/img/lego.jpg" class="img-responsive" />
 
 ## Unprofessional?
 
