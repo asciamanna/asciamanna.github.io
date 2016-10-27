@@ -13,7 +13,7 @@ If you are a member of one of these teams you want to start sending the message 
 
 ## Reading
 
-One recommendation I have for teams in this situation is to read books and blog posts about clean code, software design, unit testing, refactoring, etc. I'll save those recommendations for another post, however reading alone won't solve these problems. It is very difficult for developers to practice these new techniques for the first time in production code, and it is unrealistic to expect them to do that. Developers feeling pressure are going to revert back to what they know. Teams need specific time set aside to practice and improve. This is where code katas and études can be utilized.
+One recommendation I have for teams in this situation is to read books and blog posts about clean code, software design, unit testing, refactoring, etc. I'll save those recommendations for another post. However reading alone won't solve these problems. It is very difficult for developers to practice these new techniques for the first time in production code, and it is unrealistic to expect them to do so. Developers feeling pressure are going to revert back to what they know. Teams need specific time set aside to practice and improve. This is where code katas and études can be utilized.
 
 <div class="well">
 <strong>No Time To Learn</strong>
@@ -39,7 +39,7 @@ This first kata (the one I'm describing in this post) serves to help the team co
 
 ## The Clean Code Kata
 
-This kata is similar to études [James Shore](http://www.jamesshore.com/) introduced to a team I once worked on. These études were designed to help developers quickly read, understand, and explain the purpose of code by diagramming and presenting it to the rest of the team in a relatively short period of time. It only takes doing a few of these exercises before it becomes obvious how much easier these are when the code is well designed. So I decided to follow a similar practice for these katas to help sell the idea that clean code matters.  
+This kata is similar to études [James Shore](http://www.jamesshore.com/) introduced to a team I once worked on. These études were designed to help developers quickly read, understand, and explain the purpose of code by diagramming and presenting it to the rest of the team in a relatively short period of time. It only takes doing a few of these exercises before it becomes obvious how much easier these are when the code is well designed. So I decided to follow a similar practice for these katas to help illuminate why clean code is so important.
 
 <div class="well">
 James Shore describes a couple of other études and how he got the idea for them from <a href="https://twitter.com/KentBeck">Kent Beck</a> in his post, <a href="http://www.jamesshore.com/Blog/Etudes-for-Excellence.html">Études for Excellence</a>.
@@ -56,7 +56,7 @@ James Shore describes a couple of other études and how he got the idea for them
   * Its private methods
   * Its attributes
 
-3. After the ten minutes each developer should be able to describe what the class' responsibilities are, what it is doing, and possibly why it is doing it. They should diagram the class and its dependencies on a white board while describing it to the rest of the group. In order to accomplish this the team is going to need to have some experience with UML diagramming. Now, perfectly accurate UML diagramming is not the goal the goal of these katas, but understanding enough to be able to convey design information to the other developers on the team is required. I've often done a small lunch-and-learn on class and sequence UML diagrams prior to starting these exercises. This understanding of UML will yield long-term benefits as the team gets more comfortable diagramming and discussing software design throughout their work day.
+3. After the ten minutes each developer should be able to describe what the class' responsibilities are, what it is doing, and possibly why it is doing it. They should diagram the class and its dependencies on a white board while describing it to the rest of the group. In order to accomplish this the team is going to need to have some experience with UML diagramming. Now, perfectly accurate UML diagramming is not the goal the goal of these katas, but understanding enough to be able to convey design information to the other developers on the team is required. I've often done a small lunch-and-learn on class and sequence UML diagrams prior to starting these exercises. A small amount of UML knowledge will yield long-term benefits as the team gets more comfortable diagramming and discussing software design throughout their work day.
 
 4. Rotate through each member of the group until everyone gets a chance to present.
 
@@ -66,7 +66,7 @@ The next step is to repeat the same exercise but give the developers a class to 
   * A small class
   * Short methods
   * Well named methods and variables (code comments not required because names are descriptive)
-  * Dependent objects injected and easily understood based on dependent object variable and method names
+  * Dependent objects injected and easily understood based on dependent object variable and public method names
   * Unit tests exercising each public method with well named test cases
 
 ### Discussion
