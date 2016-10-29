@@ -7,9 +7,9 @@ category: development practices
 tags: ['code kata']
 ---
 
-It is common for teams who are responsible for a large amount of legacy, poorly written code to not improve it over time. There are a lot of factors at work to keep teams churning in a poorly written codebase. They may lack the necessary experience to write clean code and unit tests and don't have opportunities to practice these techniques. Often there are schedule pressures in their organizations that create stress which prevents teams from improving the codebase. There are some cases where developers just don't see the value in code quality or believe software design and quality is entirely subjective. It has been my experience working in these organizations that no one is talking about the quality of the code or how to improve it over time. Everyone is working in a reactive manner just trying to get something that "works" into production however they can manage to do it. While this is a bad place for any development organization to be, the situation can be improved.
+It is common for teams to not improve the quality of code they are responsible for over time. There are a lot of factors at work to keep teams churning in a poorly written codebase. They may lack the necessary experience to write clean code and unit tests and don't have opportunities to practice these techniques. Often there are schedule pressures in their organizations which creates stress on the developers preventing them from improving the codebase. There are some cases where developers just don't see the value in code quality or believe software design and quality is entirely subjective. It has been my experience working in these organizations that no one talks about the quality of the code or how to improve it over time. Everyone is working in a reactive manner just trying to get something that "works" into production however they can manage to do it. While this is a bad place for any development organization to be, the situation can be improved.
 
-If you are a member of one of these teams you want to start sending the message that "working code" is not finished. Code needs to convey its intent in the clearest possible manner. It needs to be easy to change and it needs to have unit tests so that developers have confidence in their changes. It needs to be in a state that enables continuous refactoring so that it is always remains easy to change and has clear intentions.
+If you are a member of one of these teams you want to start sending the message that "working code" is not finished. Code needs to convey its intent in the clearest possible manner. It needs to be easy to change and it needs to have unit tests so that developers have confidence in their changes. It needs to be in a state that enables continuous refactoring so that it always remains easy to change and has clear intentions.
 
 ## Reading
 
@@ -35,11 +35,11 @@ I am going to describe several code katas (over the course of a few posts) that 
 * Help developers learn how to identify and refactor problematic areas of the code
 * Help developers write new, high quality code (i.e., easily changeable code)
 
-This first kata (the one I'm describing in this post) serves to help the team compare poorly written code to well written, clean code and provide a mechanism for the team to start discussing the problems they see in the code. Hopefully, this begins to convince the team that these practices matter and will help them move faster and introduce less bugs in the future.
+This first kata (the one I'm describing in this post) serves to help the team compare poorly written code to well written, clean code and creates an opportunity for the team to start discussing the problems they see in the code. Hopefully, this begins to convince the team that these practices matter and will help them move faster and introduce less bugs in the future.
 
 ## The Clean Code Kata
 
-This kata is similar to études [James Shore](http://www.jamesshore.com/) introduced to a team I once worked on. These études were designed to help developers quickly read, understand, and explain the purpose of code by diagramming and presenting it to the rest of the team in a relatively short period of time. It only takes doing a few of these exercises before it becomes obvious how much easier these are when the code is well designed. So I decided to follow a similar practice for these katas to help illuminate why clean code is so important.
+This kata is similar to études [James Shore](http://www.jamesshore.com/) introduced to a team I once worked on. These études were designed to help developers quickly read, understand, and explain the purpose of code by diagramming and presenting it to the rest of the team in a relatively short period of time. It only takes doing a few of these exercises before it becomes obvious how much easier these are when the code is well designed. So I decided to follow a similar practice for these katas to help illustrate why clean code is so important.
 
 <div class="well">
 James Shore describes a couple of other études and how he got the idea for them from <a href="https://twitter.com/KentBeck">Kent Beck</a> in his post, <a href="http://www.jamesshore.com/Blog/Etudes-for-Excellence.html">Études for Excellence</a>.
@@ -56,22 +56,22 @@ James Shore describes a couple of other études and how he got the idea for them
   * Its private methods
   * Its attributes
 
-3. After the ten minutes each developer should be able to describe what the class' responsibilities are, what it is doing, and possibly why it is doing it. They should diagram the class and its dependencies on a white board while describing it to the rest of the group. In order to accomplish this the team is going to need to have some experience with UML diagramming. Now, perfectly accurate UML diagramming is not the goal the goal of these katas, but understanding enough to be able to convey design information to the other developers on the team is required. I've often done a small lunch-and-learn on class and sequence UML diagrams prior to starting these exercises. A small amount of UML knowledge will yield long-term benefits as the team gets more comfortable diagramming and discussing software design throughout their work day.
+3. After the ten minutes each developer should be able to describe what the class' responsibilities are, what it is doing, and possibly why it is doing it. They should diagram the class and its dependencies on a whiteboard while describing it to the rest of the group. In order to accomplish this the team is going to need to have some very minimal understanding of UML diagramming. Now, perfectly accurate UML diagramming is not the goal of these katas, but understanding enough to be able to convey design information to the other developers on the team is required. I've often done a small lunch-and-learn on class and sequence UML diagrams prior to starting these exercises. A small amount of UML knowledge will yield long-term benefits as the team gets more comfortable diagramming and discussing software design throughout their work day. A side-effect of this kata should be that developers are more comfortable interactively designing solutions at the whiteboard.
 
 4. Rotate through each member of the group until everyone gets a chance to present.
 
 This will most likely be a challenge in codebases with quality issues. Teams who are not used to reading code quickly without stepping through it in a debugger will be challenged by this exercise unless it was something they have worked on recently.
 
-The next step is to repeat the same exercise but give the developers a class to look at that is an example of well written code. You should be looking for an example that contains the types of things that we value as clean coders:  
+The next step is to repeat the same exercise but give the developers a class to examine that is an example of well written code. You should be looking for an example that contains the types of things that we value as clean coders:  
   * A small class
   * Short methods
-  * Well named methods and variables (code comments not required because names are descriptive)
+  * Well named methods and local variables (code comments not required because names are descriptive)
   * Dependent objects injected and easily understood based on dependent object variable and public method names
   * Unit tests exercising each public method with well named test cases
 
 ### Discussion
 
-The developers should find that they can much more easily describe this code than the first example they found on their own. Once complete it's important moderate a discussion about what the team has discovered. Specifically talk about the things that made understanding the code a challenge. What about the code would make it hard to safely and quickly change? What qualities did the clean code have that made it easier to understand? Ask the team which of the examples would they feel more comfortable having ownership of. These discussions should be the beginning of your team discussing quality issues openly and honestly, as well as how they can start to increase the quality of the code.
+The developers should find that they can much more easily describe this code than the first example they found on their own. Once complete it's important moderate a discussion about what the team has discovered. Specifically talk about the things that made understanding the code a challenge. What about the code would make it hard to safely and quickly change? What qualities did the clean code have that made it easier to understand? Ask the team which of the examples would they feel more comfortable having ownership of. These discussions should be the beginning of your team discussing quality issues openly and honestly, as well as how they can start to increase the quality of the code they work on.
 
 ## Conclusion
 
