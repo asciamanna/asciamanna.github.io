@@ -7,13 +7,13 @@ category: development practices
 tags: ['code kata']
 ---
 
-It is common for teams to not improve the quality of their code over time. There are a lot of factors at work to keep teams churning in a poorly written codebase. They may lack the necessary experience to write clean code and unit tests and don't have opportunities to practice these techniques. Often there are schedule pressures in their organizations which creates stress on the developers preventing them from improving the codebase. There are some cases where developers just don't see the value in code quality or believe software design and quality is entirely subjective. It has been my experience working in these organizations that no one talks about the quality of the code or how to improve it over time. Everyone is working in a reactive manner just trying to get something that "works" into production however they can manage to do it. While this is a bad place for any development organization to be, the situation can be improved.
+It is common for  teams to not improve the quality of their code over time. There are a lot of factors at work to keep teams churning in a poorly written codebase. They may lack the necessary experience to write clean code and unit tests or don't have opportunities to practice these techniques. Often there are schedule pressures in their organizations which creates stress on the developers preventing them from improving the codebase. There are some cases where developers just don't see the value in code quality or believe software design and quality are entirely subjective. It has been my experience working in these organizations that no one talks about the quality of the code or how to improve it over time. Everyone is working in a reactive manner just trying to get something that "works" into production however they can manage to do it. While this is a bad place for any development organization to be, the situation can be improved.
 
 If you are a member of one of these teams you want to start sending the message that "working code" is not finished. Code needs to convey its intent in the clearest possible manner. It needs to be easy to change and it needs to have unit tests so that developers have confidence in their changes. It needs to be in a state that enables continuous refactoring so that it always remains easy to change and makes its intentions clear.
 
 ## Reading
 
-One recommendation I have for teams in this situation is to read books and blog posts about clean code, software design, unit testing, refactoring, etc. I'll save those recommendations for another post. However reading alone won't solve these problems. It is very difficult for developers to practice these new techniques for the first time in production code, and it is unrealistic to expect them to do so. Developers feeling pressure are going to revert back to what they know. Teams need specific time set aside to practice and improve. This is where code katas and études can be utilized.
+One recommendation I have for teams in this situation is to read books and blog posts about clean code, software design, unit testing, refactoring, etc. I'll save those recommendations for another post. However, reading alone won't solve these problems. It is very difficult for developers to practice these new techniques for the first time in production code, and it is unrealistic to expect them to do so. Developers feeling pressure are going to revert back to what they know. Teams need specific time set aside to practice and improve. This is where code katas and études can be utilized.
 
 <div class="well">
 <strong>No Time To Learn</strong>
@@ -23,19 +23,19 @@ Agile coach, George Dinwiddie discusses the issue with teams not having time to 
 
 ## Études and Katas
 
-The concept of études and code katas were developed independently by [Kent Beck](https://twitter.com/KentBeck) and [Dave Thomas](https://twitter.com/pragdave), respectively. The idea behind them is to practice a software development concept repeatedly and improving it over time through consistent feedback. Through repetition of these practices developers will improve. As you will see not all of these have to involve actual coding exercises, although much of them do.
+The concept of études and code katas were developed independently by [Kent Beck](https://twitter.com/KentBeck) and [Dave Thomas](https://twitter.com/pragdave), respectively. The idea behind them is to practice a software development concept repeatedly and improving it over time through consistent feedback. Through repetition of these practices developers will improve. As you will see not all of these have to involve actual coding exercises, although most of them do.
 
 ## Team Improvement
 
-I've encountered two types of developers who are responsible for maintaining poorly written codebases. There are some who don't have the experience writing clean code and believe it will take them too long to learn these techniques. Then there are those who see no value in clean code techniques. These are the developers who say things like _"I like to see the code all in one place"_ as their reason for wanting to write large classes and methods. Or they claim that _"having too many files is confusing."_ Maybe they have tried unit testing but have not had a good experience with it because they didn't receive any mentoring. Poorly written tests can often be worse than having no tests at all.
+I've encountered two types of developers who are responsible for maintaining poorly written codebases. There are some who don't have the experience writing clean code and believe that it will take them too long to learn these techniques. Then there are those who see no value in clean code techniques. These are the developers who say things like _"I like to see the code all in one place"_ as their reason for wanting to write large classes and methods. Or they claim that _"having too many files is confusing."_ Maybe they have tried unit testing but have not had a good experience with it because they didn't receive any mentoring. Poorly written tests can often be worse than having no tests at all.
 
 I am going to describe several code katas (over the course of a few posts) that can help reverse this trend of quality problems by addressing both types of developers. These serve a few purposes:
 
-* Convince developers who don't see value in clean code that it well help them build higher quality code
-* Help developers learn how to identify and refactor problematic areas of the code
-* Help developers write new, high quality code (i.e., easily changeable code)
+* To convince developers who don't see value in clean code that it well help them build higher quality code
+* To help developers learn how to identify and refactor problematic areas of the code
+* To help developers write new, high quality code (i.e., easily changeable code)
 
-This first kata (the one I'm describing in this post) serves to help the team compare poorly written code to well written, clean code and creates an opportunity for the team to start discussing the problems they see in the code. Hopefully, this begins to convince the team that these practices are important and will help them move faster and introduce less bugs in the future.
+This first kata (the one I'm describing in this post) serves to help the team compare poorly written code to well written, clean code and create an opportunity for the team to start discussing the problems they see in the code. Hopefully, this begins to convince the team that these practices are important and will help them move faster and introduce less bugs in the future.
 
 ## The Clean Code Kata
 
@@ -47,7 +47,7 @@ James Shore describes a couple of other études and how he got the idea for them
 
 ### Practice
 
-1. Have the team split into groups of no more than five developers. Ensure that they all have access to the source code and have a whiteboard nearby. Each developer should go through the codebase and pick a class (and it's dependencies) to investigate. As developers get more comfortable with this kata you can open it up to groups of classes. The only restriction you should put on them is that it should not be code that they have worked on in the past six months. In small codebases this may not be possible. In that case just recommend they pick something that they are least familiar with. In a problematic codebase a significant number of classes will suffer from some clean code violations.
+1. Have the team split into groups of no more than five developers. Ensure that they all have access to the source code and have a whiteboard nearby. Each developer should go through the codebase and pick a class (and it's dependencies) to investigate. As developers get more comfortable with this kata you can open it up to groups of classes. The only restriction you should put on them is that it should not be code that they have worked on in the past six months. In small codebases this may not be possible. In that case,  just recommend they pick something that they are least familiar with. In a problematic codebase a significant number of classes will suffer from some clean code violations.
 
 2. Give them some time to look at the class (approximately ten minutes should be sufficient at first but you should decrease this over time). Specifically they should be looking at the following things for each class:  
   * Its unit tests (or lack thereof) and the names of the unit test cases that exercise the class' public methods
@@ -71,8 +71,8 @@ The next step is to repeat the same exercise but give the developers a class to 
 
 ### Discussion
 
-The developers should find that they can much more easily describe this code than the first example they found on their own. Once complete it's important moderate a discussion about what the team has discovered. Specifically talk about the things that made understanding the code a challenge. What about the code would make it hard to safely and quickly change? What qualities did the clean code have that made it easier to understand? Ask the team which of the examples would they feel more comfortable having ownership of. These discussions should be the beginning of your team discussing quality issues openly and honestly, as well as how they can start to increase the quality of the code they work on.
+The developers should find that they can more easily describe this code than the first example they found on their own. Once complete it's important to moderate a discussion about what the team has discovered. Specifically talk about the things that made understanding the code a challenge. What about the code would make it hard to safely and quickly change? What qualities did the clean code have that made it easier to understand? Ask the team which of the examples would they feel more comfortable having ownership of. These conversations should be the start of your team openly and honestly discussing quality issues in the code, as well as how they can improve the quality of the existing code they work on.
 
 ## Conclusion
 
-Typically when faced with examples of poorly written code and what we would consider clean code developers begin to see the benefits of learning these techniques. Continue discussing code quality with teams. As previously mentioned repetition is an important part of these katas, so plan to do this regularly. A later post will describe some other katas to help teams improve the quality of their code.
+Typically when faced with examples of poorly written code and what we would consider clean code, developers begin to see the benefits of learning these techniques. Continue discussing code quality with teams. As previously mentioned, repetition is an important part of these katas, so plan to do this regularly. A later post will describe some other katas to help teams improve the quality of their code.
