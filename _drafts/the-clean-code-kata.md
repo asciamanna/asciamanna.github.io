@@ -7,9 +7,9 @@ category: development practices
 tags: ['code kata']
 ---
 
-It is common for teams to not improve the quality of code they are responsible for over time. There are a lot of factors at work to keep teams churning in a poorly written codebase. They may lack the necessary experience to write clean code and unit tests and don't have opportunities to practice these techniques. Often there are schedule pressures in their organizations which creates stress on the developers preventing them from improving the codebase. There are some cases where developers just don't see the value in code quality or believe software design and quality is entirely subjective. It has been my experience working in these organizations that no one talks about the quality of the code or how to improve it over time. Everyone is working in a reactive manner just trying to get something that "works" into production however they can manage to do it. While this is a bad place for any development organization to be, the situation can be improved.
+It is common for teams to not improve the quality of their code over time. There are a lot of factors at work to keep teams churning in a poorly written codebase. They may lack the necessary experience to write clean code and unit tests and don't have opportunities to practice these techniques. Often there are schedule pressures in their organizations which creates stress on the developers preventing them from improving the codebase. There are some cases where developers just don't see the value in code quality or believe software design and quality is entirely subjective. It has been my experience working in these organizations that no one talks about the quality of the code or how to improve it over time. Everyone is working in a reactive manner just trying to get something that "works" into production however they can manage to do it. While this is a bad place for any development organization to be, the situation can be improved.
 
-If you are a member of one of these teams you want to start sending the message that "working code" is not finished. Code needs to convey its intent in the clearest possible manner. It needs to be easy to change and it needs to have unit tests so that developers have confidence in their changes. It needs to be in a state that enables continuous refactoring so that it always remains easy to change and has clear intentions.
+If you are a member of one of these teams you want to start sending the message that "working code" is not finished. Code needs to convey its intent in the clearest possible manner. It needs to be easy to change and it needs to have unit tests so that developers have confidence in their changes. It needs to be in a state that enables continuous refactoring so that it always remains easy to change and makes its intentions clear.
 
 ## Reading
 
@@ -29,13 +29,13 @@ The concept of études and code katas were developed independently by [Kent Beck
 
 I've encountered two types of developers who are responsible for maintaining poorly written codebases. There are some who don't have the experience writing clean code and believe it will take them too long to learn these techniques. Then there are those who see no value in clean code techniques. These are the developers who say things like _"I like to see the code all in one place"_ as their reason for wanting to write large classes and methods. Or they claim that _"having too many files is confusing."_ Maybe they have tried unit testing but have not had a good experience with it because they didn't receive any mentoring. Poorly written tests can often be worse than having no tests at all.
 
-I am going to describe several code katas (over the course of a few posts) that can help reverse this trend. These serve a few purposes:
+I am going to describe several code katas (over the course of a few posts) that can help reverse this trend of quality problems by addressing both types of developers. These serve a few purposes:
 
 * Convince developers who don't see value in clean code that it well help them build higher quality code
 * Help developers learn how to identify and refactor problematic areas of the code
 * Help developers write new, high quality code (i.e., easily changeable code)
 
-This first kata (the one I'm describing in this post) serves to help the team compare poorly written code to well written, clean code and creates an opportunity for the team to start discussing the problems they see in the code. Hopefully, this begins to convince the team that these practices matter and will help them move faster and introduce less bugs in the future.
+This first kata (the one I'm describing in this post) serves to help the team compare poorly written code to well written, clean code and creates an opportunity for the team to start discussing the problems they see in the code. Hopefully, this begins to convince the team that these practices are important and will help them move faster and introduce less bugs in the future.
 
 ## The Clean Code Kata
 
