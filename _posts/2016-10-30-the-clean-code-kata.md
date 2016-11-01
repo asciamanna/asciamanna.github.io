@@ -63,6 +63,7 @@ James Shore describes a couple of other études and how he got the idea for them
 This will most likely be a challenge in codebases with quality issues. Teams who are not used to reading code quickly without stepping through it in a debugger will be challenged by this exercise unless it was something they have worked on recently.
 
 The next step is to repeat the same exercise but give the developers a class to examine that is an example of well written code. You should be looking for an example that contains the types of things that we value as clean coders:  
+
   * A small class
   * Short methods
   * Well named methods and local variables (code comments not required because names are descriptive)
