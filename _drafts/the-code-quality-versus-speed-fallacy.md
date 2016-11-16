@@ -63,7 +63,7 @@ It is absolutely necessary to introduce developers to incremental improvement te
 
 ## Technical Debt
 
-Now, I'm not saying there aren't reasons to make trade-offs or non-ideal decisions to get something into production quickly. But poorly written code is not that. Technical Debt has come to mean any poor quality code, shortcuts in code quality to get something done quickly. [Ward Cunningham](https://twitter.com/WardCunningham) originally coined the phrase *Technical Debt*. The first I heard of it is in a paper from [OOPSLA '92](http://www.oopsla.org/oopsla-history/). In Ward's original definition the code had to be of high quality. It was necessary for it to remain easy to change so that the debt can be reversed easily in the future.
+Now, I'm not saying there aren't reasons to make trade-offs or non-ideal decisions to get something into production quickly. But poorly written code is not that. Technical Debt has come to mean any poor quality code, shortcuts in code quality to get something done quickly. [Ward Cunningham](https://twitter.com/WardCunningham) originally coined the phrase *Technical Debt*. I believe the first time it was referenced was in a paper from [OOPSLA '92](http://www.oopsla.org/oopsla-history/). In Ward's original definition the code had to be of high quality. It was necessary for it to remain easy to change so that the debt can be reversed easily in the future.
 
 ## Conclusion
 
