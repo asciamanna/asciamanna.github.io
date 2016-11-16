@@ -30,7 +30,7 @@ Let's discuss the question around professionalism briefly mentioned in the previ
 
 ## Turning the Tables
 
-Not only are these arguments inaccurate, just the opposite is true. The developers caring about quality care very deeply about shipping features to production quickly. In fact, the best way to ship faster is not to rush through the code as fast as possible. Rather, slowing down to ensure that the code is always in a state that allows for easy modification is the only way to improve the efficiency of development teams over time. Writing high quality code is the only way to ensure that development teams can continuously ship features to production as fast as possible.
+Not only are these arguments inaccurate, just the opposite is true. The developers caring about quality care very deeply about shipping features to production quickly. In fact, the best way to ship faster is not to rush through the code as fast as possible. Rather, slowing down to ensure that the code is always in a state that allows for easy modification is the only way to improve the effectiveness of development teams over time. Writing high quality code is the only way to ensure that development teams can continuously ship features to production as fast as possible.
 
 ### Ease of Change
 
