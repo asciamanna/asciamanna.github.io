@@ -53,4 +53,4 @@ Then, may I ask, why did your company adopt agile in the first place?
 
 __*They thought we'd give them better estimates and be more likely to meet their deadlines.*__
 
-It sounds like your organization has a lot of things to do before adopting agile.
+It sounds to me like your organization has a lot of things to do before adopting agile.
