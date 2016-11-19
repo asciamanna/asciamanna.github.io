@@ -4,21 +4,25 @@ section-type: post
 title: The Code Quality Vs. Speed Fallacy
 comments: true
 category: development practices
-tags: ['']
+tags: ['code-quality', 'coaching']
 ---
 
-I often find myself writing about organizations that have software quality problems. This is due to my passion for helping teams improve the way they work, and in doing so improving their code. It is not uncommon for organizations with quality problems to avoid attempts at improvement for a variety of reasons. From the perspective of someone just coming in to the organization it may seem crazy that developers are working harder than they need to just to slowly churn through features. These developers are constantly frustrated by the codebase. However, enduring this pain is more comfortable than trying something different. Change is challenging for any organization and most people will think outsiders or newcomers to the organization don't understand their challenges. They may think their professional abilities are being questioned if someone is recommending improvements to how they build software.  
+I often find myself writing about organizations that have software quality problems. This is due to my passion for helping teams improve the way they work, and in doing so improving their code. For many reasons it is not uncommon for organizations with quality problems to avoid attempts at improvement. From the perspective of someone new to the organization it may seem crazy that developers are working harder than they need to just to slowly churn through features. These developers are constantly frustrated by the codebase. However, enduring this pain is more comfortable than trying something different. Change is challenging for any organization and most people will think outsiders or newcomers to the organization don't understand their challenges. They may think their professional abilities are being questioned if someone is recommending improvements to how they build software.  
 
-While care certainly needs to be taken to introduce these types of changes into an organization, one of the first defenses of organizations holding on to problematic code and development practices is what I call the __*Code Quality vs. Speed Fallacy*__. This is the absolutely incorrect belief that you can't care about both code quality and shipping code quickly.
+Care certainly needs to be taken to introduce these types of changes into an organization. Having empathy for these organizations is absolutely a prerequisite. They are facing organizational challenges that have put them in this position. But it is of the utmost importance to start unraveling the myths about code quality. One of the first defenses of organizations holding on to problematic code and development practices is what I call the __*Code Quality vs. Speed Fallacy*__. This is the absolutely incorrect belief that you can't care about both code quality and shipping code quickly.
 
 ## No Time for Improvement
 
 *"We would like to clean up the code but we're too busy shipping features."*
 
-This is something that I've heard a lot throughout my career. Going into organizations with quality problems and trying to improve them will expose a lot of people claiming that caring about code quality is somehow unprofessional. That coding as fast as possible is the **only** responsibility of the professional developer, not self improvement, not mentoring junior developers, not improving the readability of the code. All of these things, they believe, are things that take time away from "shipping".
+This is something that I've heard a lot throughout my career. Going into organizations with quality problems and trying to improve them will expose a lot of people claiming that caring about code quality is somehow unprofessional. That coding as fast as possible is the **only** responsibility of the professional developer, not self improvement, not mentoring junior developers, not improving the readability of the code. All of these things, they believe, are things that take time away from "shipping". This is a natural result from working in a what [John Cutler](https://twitter.com/johncutlefish) refers to as a "Feature Factory." An organization that is focused only on shipping new features not business outcomes or delighting customers. [His post](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2#.a7vcwg9ln) about "feature factories" is fantastic, I  highly recommend spending a few minutes to read it.
 
 > Communication is the professional developer's first order of business. Perhaps you thought that 'getting it working' was the first order of business for a professional developer. I hope by now, however, this book has disabused you of that idea. <br />
 > &mdash; [Robert Martin](https://twitter.com/unclebobmartin/following "Uncle Bob's Twitter "), Clean Code page 76
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">12 Signs You’re Working in a Feature Factory <a href="https://twitter.com/hashtag/agile?src=hash">#agile</a> <a href="https://twitter.com/hashtag/ux?src=hash">#ux</a> <a href="https://twitter.com/hashtag/prodmgmt?src=hash">#prodmgmt</a> <a href="https://twitter.com/hashtag/devops?src=hash">#devops</a> <a href="https://twitter.com/hashtag/softwaredevelopment?src=hash">#softwaredevelopment</a><a href="https://t.co/bIIzjcUH5a">https://t.co/bIIzjcUH5a</a> <a href="https://t.co/FPDdLvXPoq">pic.twitter.com/FPDdLvXPoq</a></p>&mdash; John Cutler (@johncutlefish) <a href="https://twitter.com/johncutlefish/status/799115503138586624">November 17, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 A tell tale sign of organizations with quality problems is one where people have no time to learn. The developers are constantly operating in reactive ways. They spend their time fighting fires in production because of quality issues and wrestling with the codebase just to get features into production. They can't slow down enough to see how much extra effort their shortcuts are costing them. In some instances what they are really saying when claiming that they are too busy shipping is *"We don't have time to learn the skills to improve our code"*. In other cases they just don't feel like they have time to slow down and actually think about the problem. The first software design idea is the one that will end up in production. Half-way through the feature development, when it is clear the design is not working, they continue to fight through it to force it to work. This process results in adding more cruft to the codebase to slow down future developers.
 
@@ -45,15 +49,16 @@ The incredible thing about high quality codebases are they are as easy to change
 There are plenty of qualities of this type of code that I have talked about at length in other posts. Here are just a few:
 * Low coupling
 * High cohesion
+* Adheres to Single Responsibility Principle
 * Small classes
 * Short methods
 * Unit Tested
 * Dependencies injected / IoC Principal
-* No duplication
+* Contains no duplication
 
 Alternatively you can refer to [Kent Beck](https://twitter.com/KentBeck)'s Four Rules of Simple Design. Here is an [article](http://martinfowler.com/bliki/BeckDesignRules.html) about those rules by [Martin Fowler](http://martinfowler.com).
 
-Since code will always be read and modified, optimizing for these two activities is vital. So one could argue that a measure of software professionalism would be deeply caring about the quality of the code and always trying to improve the code so that it is always in a state that is easily read and easily changed.
+Since code will always be read and modified, optimizing for these two activities is vital. So one could argue that a measure of software professionalism would be deeply caring about the quality of the code and continuously trying to improve the code so that it is always in a state that is easily read and easily changed.
 
 ### Techniques
 
@@ -67,4 +72,4 @@ Now, I'm not saying there aren't reasons to make trade-offs or non-ideal decisio
 
 ## Conclusion
 
-When trying to help organizations improve their code you may be faced with this *code quality vs. speed fallacy*. It is not only false but just the opposite is true. Recognize that the only way development teams can continue delivering business value consistently is a focus on developing high-quality code.
+When trying to help organizations improve their code you may be faced with this *code quality vs. speed fallacy*. It is not only false but just the opposite is true. Recognize that the only way development teams can continue delivering business value consistently is a focus on developing high quality code.
