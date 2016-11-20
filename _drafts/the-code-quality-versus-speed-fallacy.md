@@ -40,9 +40,9 @@ Not only are these arguments inaccurate, just the opposite is true. The develope
 
 One nearly universal rule of software development is that code is always going to change. To be able to address this constant change in a manner that doesn't grind the team to a halt, the quality of the code has to be one of the highest priorities.
 
-As [Martin Fowler](http://martinfowler.com/) discusses in his talk [Workflows of Refactoring](https://www.youtube.com/watch?v=vqEg37e4Mkw&feature=youtu.be), the argument around code quality and refactoring is a simple one. It is entirely about the ability to deliver more functionality more quickly. Developers are working in a world of changing requirements, feature enhancements, changes in team members, etc. This requires the ability to read and change code easily forever.
+As [Martin Fowler](http://martinfowler.com/) discusses in his talk [Workflows of Refactoring](https://www.youtube.com/watch?v=vqEg37e4Mkw&feature=youtu.be), the argument around code quality and refactoring is a simple one. It is entirely about the ability to deliver more functionality more quickly. Developers are working in a world of changing requirements, feature enhancements, changes in team members, advancements in the understanding of the problem domain, etc. This requires the ability to read and change code easily forever.
 
-The incredible thing about high quality codebases are they are as easy to change on day one as they are on year ten. If the software is any more than a prototype a focus on quality is not only appropriate it is the only professional option.  
+The incredible thing about high quality codebases are they are as easy to change on day one as they are on year ten. If the software is any more than a temporary prototype a focus on quality is not only appropriate it is the only professional option.  
 
 ### Qualities
 
@@ -64,11 +64,11 @@ Since code will always be read and modified, optimizing for these two activities
 
 Often arguments about code improvement slowing teams down comes from teams working in codebases that have accumulated so much cruft they incorrectly believe that the only way out is a re-write. Something I have discussed in [this post](/2015/11/27/the-vicious-circle-of-rewriting-software.html), previously.
 
-It is absolutely necessary to introduce developers to incremental improvement techniques. Whether it is [Uncle Bob Martin](https://twitter.com/unclebobmartin)'s Boy Scout Rule or Martin Fowler's [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html), the sentiment is the same. Incrementally improve the quality of the code you are currently working on. Have a plan for where you want to go, and find incremental steps to get there. This is not an easy skill to learn by any means. But developers will only get better at this technique with practice.
+It is absolutely necessary to introduce developers to incremental improvement techniques. Whether it is [Uncle Bob Martin](https://twitter.com/unclebobmartin)'s Boy Scout Rule or Martin Fowler's [Opportunistic Refactoring](http://martinfowler.com/bliki/OpportunisticRefactoring.html), the message is the same. Incrementally improve the quality of the code you are currently working on. Have a plan for where you want to go, and find incremental steps to get there. This is not an easy skill to learn by any means. But developers will only get better at this technique when they have opportunities to practice it.
 
 ## Technical Debt
 
-Now, I'm not saying there aren't reasons to make trade-offs or non-ideal decisions to get something into production quickly. But poorly written code is not that. Technical Debt has come to mean any poor quality code, shortcuts in code quality to get something done quickly. [Ward Cunningham](https://twitter.com/WardCunningham) originally coined the phrase *Technical Debt*. I believe the first time it was referenced was in a paper from [OOPSLA '92](http://www.oopsla.org/oopsla-history/). In Ward's original definition the code had to be of high quality. It was necessary for it to remain easy to change so that the debt can be reversed easily in the future.
+Now, I'm not saying there aren't reasons to make trade-offs or non-ideal decisions to get something into production quickly. But poorly written code is not that. Technical Debt has come to mean any poor quality code, shortcuts in code quality to get something done quickly. [Ward Cunningham](https://twitter.com/WardCunningham) originally coined the phrase *Technical Debt*. I believe the first time it was referenced was in a paper from [OOPSLA '92](http://www.oopsla.org/oopsla-history/). According to Ward's original definition the code had to be of high quality. It was necessary for it to remain easy to change so that the debt can be reversed easily in the future.
 
 ## Conclusion
 
