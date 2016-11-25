@@ -47,6 +47,7 @@ As [Martin Fowler](http://martinfowler.com/) discusses in his talk [Workflows of
 ### Qualities
 
 There are plenty of qualities of this type of code that I have talked about at length in other posts. Here are just a few:
+
 * Low coupling
 * High cohesion
 * Adheres to Single Responsibility Principle
@@ -72,4 +73,4 @@ Now, I'm not saying there aren't reasons to make trade-offs or non-ideal decisio
 
 ## Conclusion
 
-When trying to help organizations improve their code you may be faced with this *code quality vs. speed fallacy*. It is not only false but just the opposite is true. Recognize that the only way development teams can continue delivering business value consistently is a focus on developing high quality code.
+When trying to help organizations improve their code you may be faced with this __*code quality vs. speed fallacy*__. It is not only false but just the opposite is true. Recognize that the only way development teams can continue delivering business value consistently is a focus on developing high quality code.
