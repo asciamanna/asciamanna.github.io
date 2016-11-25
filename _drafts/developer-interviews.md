@@ -32,7 +32,8 @@ Conversations in the interview about a specific technical problem the developer 
 ### Pair Programming
 However there is still one interview practice that outperforms all others, pair programming with the developer. This assumes your team practices pair programming, and if you don't you may want to try to learn more about that practice. Our XP team paired on a significant portion of production code, so it was a logical step for the interview process.
 
-## Our Process
+## Our Process  
+
 ### What We were Looking For
 We were looking for generalist, full-stack developers who were passionate about continuously learning. That part of the description is quite generic. More specifically we were looking for developers who worked best in collaborative environments, who weren't looking to work by themselves to solve problems. We were looking for candidates who were interested in XP practices (pair programming, TDD, Continuous Integration, etc.). Also developers who would help coach the rest of the developers up around him or her. If this was their first job out of school we were looking for developers we thought would reach that point eventually through being coached on our team.
 
