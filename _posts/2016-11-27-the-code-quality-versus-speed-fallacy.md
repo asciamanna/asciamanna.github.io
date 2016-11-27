@@ -4,7 +4,7 @@ section-type: post
 title: The Code Quality Vs. Speed Fallacy
 comments: true
 category: development practices
-tags: ['code-quality', 'coaching']
+tags: ['code quality', 'coaching']
 ---
 
 For a number of reasons it is not uncommon for organizations with code quality problems to avoid attempts at improvement. From the perspective of someone new to the organization it may seem odd that developers are working harder than they need to be just to slowly churn through features. These developers are constantly frustrated by the codebase. However, enduring this pain is more comfortable than trying something different. Change is challenging for any organization and most people will think outsiders or newcomers to the organization don't understand their challenges. They may think their professional abilities are being questioned if someone is recommending improvements to how they build software.  
