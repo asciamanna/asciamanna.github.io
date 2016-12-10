@@ -26,7 +26,7 @@ Figuring out a candidate's software development skills is one of the biggest cha
 
 ### Technical Questions
 
-Technical questions in an interview, for a lot of companies, are a part of the interview process that they never question. They think it's absurd to suggest not asking technical questions in an interview. Given the limited amount of time you have with a candidate, every question asked should be intentional and you should know exactly what information you are trying to learn about the candidate by asking it. I've found that technical questions are great for ruling out candidates who can't program or if you are hiring for a very targeted technical role that requires specific skills. Otherwise, they should be kept to a minimum. When you ask for whiteboard solutions to Fizzbuzz or a doubly linked list implementation it will tell you something about the candidate. But it won't give you insight into how the developer will perform on your team. There may be other things you can do that will make these types questions irrelevant.
+Technical questions in an interview, for a lot of companies, are a part of the interview process that they never question. They think it's absurd to suggest not asking technical questions in an interview. Given the limited amount of time you have with a candidate, every question asked should be intentional and you should know exactly what information you are trying to learn about the candidate by asking it. I've found that specific technical questions and algorithms may be useful for roles that require a very targeted, specific technical skill. Otherwise, they should be avoided. When you ask for whiteboard solutions to bubblesort or a doubly linked list implementation it will tell you something about the candidate. But it won't give you insight into how the developer will perform on your team. Very skilled, valuable developers often struggle at the whiteboard recounting specific algorithms when the pressure is on in an interview setting. A developer can't memorize every algorithm, nor should they since they can easily look up a reference implementation when they need it. There are other things you can do that will make these types questions irrelevant.
 
 ### Conversations
 
@@ -71,3 +71,9 @@ Following the interview we discussed our observations as a team and made a hirin
 ## More Recent Updates
 
 I've adopted a shorter version of this process with my development team in my current organization. While I prefer the longer developer interview process we often have time constraints for a variety of reasons. In a response to the shortened times we limit the interview to an in person discussion (that can include some whiteboard discussions about previous projects) and then moving right into the pairing session. While not as thorough, it is still significantly better than whiteboard technical questions and puzzles.  
+
+## Further Reading
+
+If you want to read more about this topic here are a few really good article:  
+*  [Developer Shortage, or Time to Rethink the Technical Interview](http://techbeacon.com/developer-shortage-or-time-rethink-technical-interview)
+* [You Suck at Technical Interviews](http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews)
