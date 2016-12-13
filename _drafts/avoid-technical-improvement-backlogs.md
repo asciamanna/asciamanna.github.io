@@ -38,9 +38,15 @@ Somewhat related to the last benefit is the visibility. Even in organizations th
 
 If the organization has never really discussed quality before, making these issues visible can be the start of measuring (qualitatively and quantitatively) the quality of the code base. If developers aren't talking about quality, creating a separate backlog can get the team starting to talk and think about how they are going to start moving the code base in a better direction. k
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Technical debt does not go on the backlog. <a href="https://twitter.com/RonJeffries">@RonJeffries</a> said it best <a href="https://t.co/6jqwNmBMhq">https://t.co/6jqwNmBMhq</a> <a href="https://twitter.com/AntonyMarcano">@AntonyMarcano</a> <a href="https://t.co/q8O4CamuGz">https://t.co/q8O4CamuGz</a></p>&mdash; Joe Schmetzer (@tumbarumba) <a href="https://twitter.com/tumbarumba/status/776702044090531840">September 16, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Problems with This Approach
 
 Now if you've read every one of these "pros" and are thinking that we are missing the root cause of these issues, you are correct! And that is the crux of my argument. Technical improvement backlogs should be avoided if at all possible. Depending on how mature the team is with respect to writing clean code and how bad of a state the code base is in it may be necessary to have one. I would urge any organization that creates a technical improvement backlog to view it as temporary and work to get rid of it.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;The moment you have thrown the majority of your technical debt on a backlog you have lost. &quot; - great session with <a href="https://twitter.com/martincronje">@martincronje</a></p>&mdash; Sandy Mamoli (@smamol) <a href="https://twitter.com/smamol/status/773369220335710208">September 7, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Blurs definition of done
 can ship crap and come back later with a tech debt story
@@ -59,7 +65,10 @@ Once you go down this road of splitting them out, in dysfunctional organizations
 Tell story --- when we refused to do this we got the, well estimate the quick version and the right version and we will pick.
 
 ### Divide between tech and product in the organization
+Team doesn't have to break from building features to fix issues. 
 
+
+http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/
 
 
 
