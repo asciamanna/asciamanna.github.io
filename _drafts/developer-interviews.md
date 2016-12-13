@@ -5,7 +5,7 @@ comments: true
 category: Development Practices
 tags: ['pair programming', 'agile development']
 ---
-A development organization's interview process is possibly the most important thing for it to get right. The interview is the prospective employee's first impression of the company. If all else fails and you have a good hiring practice, you can rely on a great team to address the issues in the organization. The XP team that I worked on had the best interview process I have experienced and one that, when followed, did not fail us. It was a process that we constantly tuned and I'd like to describe it here in it's final state before it was changed by the larger organization. Since then I've continued tuning this process in my current organization and I will briefly describe how it has changed more recently.
+A development organization's interview process is arguably the most important thing for it to get right. The interview is the prospective employee's first impression of the company. If all else fails and you have a good hiring practice, you can rely on a great team to address the issues in the organization. The XP team that I worked on had the best interview process I have experienced and one that, when followed, did not fail us. It was a process that we constantly tuned and I'd like to describe it here in it's final state before it was changed by the larger organization. Since then I've continued tuning this process in my current organization and I will briefly describe how it has changed more recently.
 
 ## Team Owned
 
