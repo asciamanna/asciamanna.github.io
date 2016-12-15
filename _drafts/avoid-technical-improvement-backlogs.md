@@ -57,16 +57,16 @@ doesn't address them. There's a bit of irony when the technical backlog enables 
    Refactoring -- Not on the Backlog!</a> by <a href="http://www.ronjeffries.com">Ron Jeffries</a>
 </div>
 
-### Encourages Large Planned Refacotrings
+### Encourages Large Planned Refactorings
 
 Martin Fowler<LINK> talks about the issues around what he calls "Planned Refactorings" in his
-talk at OOP2014, __(Workflows of Refactoring)[https://www.youtube.com/watch?v=vqEg37e4Mkw]__. He contends that these planned refactorings (i.e., putting technical debt stories in the backlog and planning them along with feature work) are unfortunate, "necessary evils" until teams get skilled at refactoring and opportunistic refactoring techniques. He says teams should work to rid themselves of these planned refactorings and focus on small refactorings as part of the planned, business-facing work.
+talk at OOP2014, *[Workflows of Refactoring](https://www.youtube.com/watch?v=vqEg37e4Mkw)*. He contends that these planned refactorings (i.e., putting technical debt stories in the backlog and planning them along with feature work) are unfortunate, "necessary evils" until teams get skilled at refactoring and opportunistic refactoring techniques. He says teams should work to rid themselves of these planned refactorings and focus on small refactorings as part of the planned, business-facing work.
 
 #### Encourages Re-writes
 
 I've written before about how re-writes prevent teams from ever learning refactoring techniques in my post (The Vicious Circle of Rewriting Software)[/2015-11-27-the-vicious-circle-of-rewriting-software.md]. Re-writes often cause the team to incur avoidable risks. These planned refactorings encourage re-writing large portions of the code. By contrast, refactoring within the scope of user stories encourages developers to learn incremental improvement techniques.
 
-### Changing Code without Business value
+### Changing Code without Business Value
 
 Another consequence of planned refactorings is that teams may focus on cleaning up areas of the application that they may not return to for a long time. If teams aren't regularly modifying or having to read the code it does not make sense for them to be spending time improving it. Alternatively, following Bob Martin <LINK>'s Boy Scout Rule or Martin Fowler's opportunistic refactoring techniques encourage developers to focus on improving the code they are currently working on. Code that is most frequently modified will get the most of the team's attention and will be cleaned more than code that may not be looked at for years.
 
@@ -93,11 +93,8 @@ These are typically things that become "planned refactorings." Instead, the team
 
 ## Special Cases
 
-I do believe there are some special cases where a technical improvement can legitimately land on a team's backlog. These are typically larger technical improvement efforts, and not refacotring. For example let's say the team is planning on replacing its ORM. Instead of creating this backlog item, let's say the team replaced each usage when they encountered it while working on user stories, following opportunistic refactoring techniques. Now after several months there are a half dozen places left in the application that still use the old ORM. To be able to phase out support for both I could see a technical task to get rid of some of the other usages that may not be encountered for quite some time.
+I do believe there are some special cases where a technical improvement can legitimately land on a team's backlog. These are typically larger technical improvement efforts, and not refactoring. For example let's say the team is planning on replacing its ORM. Instead of creating this backlog item, let's say the team replaced each usage when they encountered it while working on user stories, following opportunistic refactoring techniques. Now after several months there are a half dozen places left in the application that still use the old ORM. To be able to phase out support for both I could see a technical task to get rid of some of the other usages that may not be encountered for quite some time.
 
 ## Conclusion
 
 Refactoring doesn't belong on the team's backlog. Technical improvement, "technical debt", and/or refactoring backlogs should be avoided in favor of opportunistic refactoring techniques. Too many issues arise when teams separate improvement from feature development.
-
-Resolving technical issues
-http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/
