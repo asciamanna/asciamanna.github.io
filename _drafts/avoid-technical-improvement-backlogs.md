@@ -9,11 +9,11 @@ tags: ['anti-pattern', 'refactoring']
 
 Several times in my career I've encountered agile coaches who recommend creating,
 what they call, a technical debt backlog. They believe this separate backlog should be managed, in addition
-to the product's feature backlog, by the product owner. They often discuss some ratio of product-to-technical debt stories that each cross-functional team should be picking up in their iterations. While they do a good job describing the benefits of such an approach, they never describe why you would want to avoid it. Generally, it seems a lot of agile coaches accept this as a "best practice." In my experience these separate backlogs for technical issues are a problem for the organization. They are band-aides covering up a greater problem on the development team (and probably even the larger organization) that needs to be addressed. Refactoring and addressing technical issues in the code does not belong on a team's backlog.
+to the product's feature backlog, by the product owner. They often discuss some ratio of product-to-technical debt stories that each cross-functional team should be picking up in their iterations. While they do a good job describing the benefits of such an approach, they never describe why you would want to avoid it. Generally, it seems a lot of agile coaches accept this as a "best practice." In my experience these separate backlogs for technical issues are a problem for the organization. They are band-aides covering up a greater problem on the development team (and more likely the larger organization) that needs to be addressed. **Refactoring and addressing technical issues in the code does not belong on a team's backlog.**
 
 ## Technical Debt?
 
-Naming things is important. Often I've heard this backlog referred to as a "technical debt" backlog. One of my pet-peeves is that technical debt has come to mean any type of sloppy code, which is the very opposite of Ward Cunningham's original definition. I refer to this as a "technical improvement backlog"  or "refactoring backlog" but it is synonymous with the "tech. debt backlogs" that teams and agile coaches talk about.
+Naming things is important. Often I've heard this backlog referred to as a "technical debt" backlog. One of my pet peeves is that technical debt has come to mean any type of sloppy code, which is the very opposite of Ward Cunningham's original definition. I refer to this as a "technical improvement backlog" or "refactoring backlog" but it is synonymous with the "tech. debt backlogs" that teams and agile coaches talk about.
 
 ## Benefits of a Separate Technical Improvement Backlog
 
@@ -60,7 +60,7 @@ doesn't address them. There's a bit of irony when the technical backlog enables 
 ### Encourages Large Planned Refactorings
 
 Martin Fowler<LINK> talks about the issues around what he calls "Planned Refactorings" in his
-talk at OOP2014, *[Workflows of Refactoring](https://www.youtube.com/watch?v=vqEg37e4Mkw)*. He contends that these planned refactorings (i.e., putting technical debt stories in the backlog and planning them along with feature work) are unfortunate, "necessary evils" until teams get skilled at refactoring and opportunistic refactoring techniques. He says teams should work to rid themselves of these planned refactorings and focus on small refactorings as part of the planned, business-facing work.
+talk at OOP2014, *[Workflows of Refactoring](https://www.youtube.com/watch?v=vqEg37e4Mkw)*. He contends that these planned refactorings (i.e., putting technical improvement / refactoring stories in the backlog and planning them along with feature work) are unfortunate, "necessary evils" until teams get skilled at refactoring and opportunistic refactoring techniques. He says teams should work to rid themselves of these planned refactorings and focus on small refactorings as part of the planned, business-facing work.
 
 #### Encourages Re-writes
 
@@ -68,7 +68,7 @@ I've written before about how re-writes prevent teams from ever learning refacto
 
 ### Changing Code without Business Value
 
-Another consequence of planned refactorings is that teams may focus on cleaning up areas of the application that they may not return to for a long time. If teams aren't regularly modifying or having to read the code it does not make sense for them to be spending time improving it. Alternatively, following Bob Martin <LINK>'s Boy Scout Rule or Martin Fowler's opportunistic refactoring techniques encourage developers to focus on improving the code they are currently working on. Code that is most frequently modified will get the most of the team's attention and will be cleaned more than code that may not be looked at for years.
+Another consequence of planned refactorings is that teams may focus on cleaning up areas of the application that they may not return to for a long time. If teams aren't actively developing or reading the code in question, it does not make sense for them to be the spending time improving it. Alternatively, following Bob Martin <LINK>'s Boy Scout Rule or Martin Fowler's opportunistic refactoring techniques will encourage developers to focus on improving the code they are currently working on. Code that is most frequently modified will get the most of the team's attention and will be cleaned more than code that may not be looked at for years.
 
 ### Less Rigorous Testing
 
@@ -84,7 +84,7 @@ I have typically encountered two kinds technical improvement backlog items and e
 ### Story Level Refacotrings
 
 These are smaller refactorings that typically impact one to several classes.
-These should be dealt with in the story where the issue is encountered and the story shouldn't be closed until the refactoring is complete.
+These should be dealt with in the story where the issue is encountered and the story shouldn't be closed until the refactoring is complete. If your team estimates the work these refactorings should be included in the estimate.
 
 ### Large-scale Refactorings
 
@@ -93,8 +93,8 @@ These are typically things that become "planned refactorings." Instead, the team
 
 ## Special Cases
 
-I do believe there are some special cases where a technical improvement can legitimately land on a team's backlog. These are typically larger technical improvement efforts, and not refactoring. For example let's say the team is planning on replacing its ORM. Instead of creating this backlog item, let's say the team replaced each usage when they encountered it while working on user stories, following opportunistic refactoring techniques. Now after several months there are a half dozen places left in the application that still use the old ORM. To be able to phase out support for both I could see a technical task to get rid of some of the other usages that may not be encountered for quite some time.
+I do believe there are some special cases where a technical improvement can legitimately land on a team's backlog. These are typically larger technical improvement efforts. For example let's say the team is planning on replacing its ORM. Instead of creating this backlog item, let's say the team replaced each usage when they encountered it while working on user stories, following opportunistic refactoring techniques. Now after several months there are a half dozen places left in the application that still use the old ORM. To be able to phase out support for both I could see a technical task to get rid of some of the other usages that may not be encountered for quite some time.
 
 ## Conclusion
 
-Refactoring doesn't belong on the team's backlog. Technical improvement, "technical debt", and/or refactoring backlogs should be avoided in favor of opportunistic refactoring techniques. Too many issues arise when teams separate improvement from feature development.
+Refactoring doesn't belong on the team's backlog. Technical improvement, "technical debt", and/or refactoring backlogs should be avoided in favor of opportunistic refactoring techniques. Too many issues arise when teams separate code improvement from feature development.
