@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: The Code Quality Vs. Speed Fallacy
+title: The Code Quality vs. Speed Fallacy
 comments: true
 category: development practices
 tags: ['code quality', 'coaching']
