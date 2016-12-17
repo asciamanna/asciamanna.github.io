@@ -17,7 +17,7 @@ Hmmm...that doesn't sound right. Are you releasing after every sprint?
 
 __*No we release quarterly. Sometimes we deploy code more regularly but it doesn't get enabled in production for several months. That's a business decision. We are only responsible for delivering features.*__
 
-Are you getting feedback from customers and users and iterating based on that feedback?
+That sounds like a long time, are you getting feedback from customers and users and iterating based on that feedback?
 
 __*Well, no we fix the scope of all of our projects up front. Iterating would mean we would miss the deadlines the organization has set. That would be bad, we'd look like we aren't working hard enough.*__
 
