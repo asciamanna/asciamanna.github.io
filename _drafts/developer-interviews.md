@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developer Interviews
+title: Improving Developer Interviews
 comments: true
 category: Development Practices
 tags: ['pair programming', 'agile development']
@@ -9,19 +9,19 @@ A development organization's interview process is arguably the most important th
 
 ## Team Owned
 
-It is very important for the interview process to be owned by the team. Furthermore, every team member should have an opportunity to take part in the process. Now managers and other employees outside of the cross-functional team can still be involved and offer advice, but the development team should be empowered to make the hire decision. Once the team has made its decision, it should not be overruled by management.
+It is very important for the interview process to be owned by the team. Furthermore, every team member should have an opportunity to take part in the process. Managers and other employees outside of the cross-functional team should still be involved and offer advice, but the development team should be empowered to make the hire decision. Once the team has made its decision, it should not be overruled by management.
 
-When teams make a decision to hire a new developer, they are committed to the success of the new employee since it was a decision that they made together. So many times in my career I have seen managers do all of the interviewing and drop developers into high-performing teams. Every time this happens it is a gamble. It may pay off and the candidate may be a great fit. However, you are just as likely to have a bad fit which will have disastrous affects on the team morale, team productivity, and potentially the product. These decisions are too important to be left to chance. In fact, my team's process began to fail when we started losing ownership of it to our organizational leadership.
+When teams make a decision together to hire a new developer, they are committed to the new employee's success. So many times in my career I have seen managers do all of the interviewing and drop developers into high-performing teams. Every time this happens it is a gamble. It may pay off and the candidate may be a great fit. However, you are just as likely to have a bad fit which will have disastrous affects on the team morale, team productivity, and potentially the product. These decisions are too important to be left to chance. In fact, my team's process began to fail when we started losing ownership of it to our organizational leadership.
 
 ### Manage the Rate of Team Change
 
-Even when the gamble pays off, every time someone is added or removed from a cross-functional team, the team slows down. This is one of the main problems with project focused teams. All too often managers will move people in and out of teams to optimize for "scheduling needs." This is a false optimization as it slows everyone down while they learn how to work together. Kent Beck talks about the importance of team continuity in his book, Extreme Programming: Explained. __Sadly, so few organizations ever encounter high-performing teams so they never experience the benefits of keeping cross-functional teams together for long periods of time.__
+Even when the gamble pays off, every time someone is added or removed from a cross-functional team, the team slows down. This is one of the main problems with project focused teams. All too often managers will move people in and out of teams to optimize for "scheduling needs." This is a false optimization as it slows everyone down while they learn how to work together. [Kent Beck](https://twitter.com/KentBeck) talks about the importance of team continuity in his book, Extreme Programming: Explained. __Sadly, so few organizations ever encounter high-performing teams so they never experience the benefits of keeping cross-functional teams together for long periods of time.__
 
 Understanding these benefits, teams should manage the rate at which they bring new people on to the team. After the addition of every new team member the team is going to need time to adjust, acclimate, and build a new working relationship. I often see organizations adding or removing people from teams every couple of months. These folks never get to gel as a team before they have to adapt to the next change.   
 
 ## Know Your Values
 
-As I've mentioned in a previous post it is important for teams to hire based on their team values. It is important to make those values known during the interview process. **It is no coincidence that the team I worked on with the best interviewing process also had a very clear set of team principles, values, and practices.**
+As I've mentioned in a previous post it is important for teams to hire based on their team values. Make those values known during the interview process. **It is no coincidence that the team I worked on with the best interviewing process also had a very clear set of team principles, values, and practices.**
 
 ## Can the Candidate Program?
 
@@ -33,7 +33,7 @@ Technical questions in an interview, for a lot of companies, are a part of the i
 
 ### Conversations
 
-Conversations in the interview about a specific technical problem the developer has encountered is better than whiteboard technical questions but it is still not ideal. Starting with a whiteboard problem that the candidate can easily talk about you can change the problem and probe areas of the candidate's understanding: optimization based on certain constraints, knowledge of the environment they are working in, their software design abilities, etc.
+Conversations in the interview about a specific technical problem the developer has encountered are better than whiteboard technical questions but still aren't ideal. Starting with a whiteboard problem that the candidate can easily talk about you can change the problem and probe areas of the candidate's understanding: optimization based on certain constraints, knowledge of the environment they are working in, their software design abilities, etc.
 
 ### Pair Programming
 
@@ -41,7 +41,7 @@ However there is still one interview practice that outperforms all others, pair 
 
 ## Our Process  
 
-### What We Were Looking For
+### Who We Were Looking For
 
 We were looking for generalist, full-stack developers who were passionate about continuously learning. More specifically we were looking for developers who worked best in collaborative environments, and weren't interested in solving problems alone in a cubicle. We were looking for candidates who were interested in XP practices (pair programming, TDD, Continuous Integration, etc.). For more senior developers we were trying to find people who would be interested in coaching their fellow team members.
 
@@ -65,7 +65,7 @@ We then broke for about 45 minutes to eat lunch together. At this point we were 
 
 After lunch we moved on to the pairing portion of the interview. This is easily the most important part of the interview process. The session was split between two developers so we were able to get two different impressions of the candidate. We used a set of contrived, fictitious user stories that increased in complexity. They contained a few small technical challenges but mostly they were used to see how the candidate approached software design, as well as how well they adapted to Test-Driven Development and [Ping Pong Pair Programming](/2015-04-18-ping-pong-pair-programming.html).
 
-The specifics of the stories aren't important, but they were designed to create a business concept in the first story and then implement similar concepts in future stories. The intent was to see if the candidate would recognize a single business concept with varying rules and how they would design the software to accommodate this (a single object, inheritance, composition, a template method pattern, strategy pattern, etc.). This often led to great conversations about the pros and cons of each approach and at what point adopting a different design would be appropriate. We also dealt with some testing challenges like unit testing when the code contained a third-party external dependency.
+The specifics of the stories aren't important, but they were designed to create a business concept in the first story and then implement similar concepts in future stories. The intent was to see if the candidate would recognize a single business concept with varying rules and how they would design the software to accommodate this (a single object, inheritance, composition, a template method pattern, a strategy pattern, etc.). This often led to great conversations about the pros and cons of each approach and at what point adopting a different design would be appropriate. We also dealt with some testing challenges like unit testing when the code contained a third-party external dependency.
 
 #### Team Discussion
 
@@ -77,6 +77,6 @@ I've adopted a shorter version of this process with my development team in my cu
 
 ## Further Reading
 
-If you want to read more about this topic here are a few really good articles:  
+If you want to read more about this topic here are a few really good articles:
 *  [Developer Shortage, or Time to Rethink the Technical Interview](http://techbeacon.com/developer-shortage-or-time-rethink-technical-interview)
 * [You Suck at Technical Interviews](http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews)
