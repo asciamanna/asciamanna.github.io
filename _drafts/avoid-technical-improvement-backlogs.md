@@ -39,17 +39,16 @@ If the organization has never really discussed quality before, making these issu
 
 ## Problems with This Approach
 
-Now if you've read every one of these "pros" and are thinking that I am missing the root cause of these issues, you are correct! And that is the crux of my argument. Technical improvement backlogs should be avoided if at all possible. Depending on how mature the team is with respect to writing clean code and how bad of a state the code base is in it may seem necessary to have one. I would urge any organization that creates a technical improvement backlog to view it as temporary and work to get rid of it.
+Now if you've read every one of these "pros" and are thinking that I am missing the root cause of these issues, you are correct! That is the crux of my argument. Technical improvement backlogs should be avoided if at all possible. Depending on how mature the team is with respect to writing clean code and refactoring and how bad of a state the code base is in it may seem necessary to have one. I would urge any organization that creates a technical improvement backlog to view it as temporary and work to get rid of it.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;The moment you have thrown the majority of your technical debt on a backlog you have lost. &quot; - great session with <a href="https://twitter.com/martincronje">@martincronje</a></p>&mdash; Sandy Mamoli (@smamol) <a href="https://twitter.com/smamol/status/773369220335710208">September 7, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Obscures Definition of Done
 
-When teams complete a user story that piece of functionality should be ready to go to production.
+When teams complete a user story that functionality should be ready to go to production.
 In organizations where teams are rushing to meet their commitments I've seen the technical improvement
-backlog act as a crutch. They really need to address some sloppy code or maybe the team has introduced duplication by repeating a concept somewhere else in the application. Without a technical improvement backlog the team should refactor that code as part of the story. However, with the technical improvement backlog they can implement the feature as quickly and sloppily as possible, hit their date, and add a new "tech debt" story in the backlog to resolve the problem later. I'm sure you can see where this is going, those stories never get picked up and the organization has legitimized continuing short-cuts and band-aides, as long as the corresponding "tech debt" story was written. Over time the issues continue to accumulate and the team
-doesn't address them. There's a bit of irony when the technical backlog enables the exact type of issues it is meant to address.
+backlog act as a crutch. They really need to address some sloppy code or maybe the team has introduced duplication by repeating a concept somewhere else in the application. Without a technical improvement backlog the team should refactor that code as part of the story. However, with the technical improvement backlog they can implement the feature as quickly and sloppily as possible, hit their date, and add a new "tech debt" story in the backlog to address the problem later. I'm sure you can see where this is going, those stories never get picked up and the organization has legitimized continuing short-cuts and band-aides, as long as the corresponding "tech debt" story was written. Over time the issues continue to accumulate and the team doesn't address them. There's a bit of irony in the situation when the technical improvement backlog enables the exact type of issues it is meant to address.
 
 <div class="well">
 <h4>Further Reading</h4>
@@ -64,7 +63,7 @@ talk at OOP2014, *[Workflows of Refactoring](https://www.youtube.com/watch?v=vqE
 
 #### Encourages Re-writes
 
-I've written before about how re-writes prevent teams from ever learning refactoring techniques in my post (The Vicious Circle of Rewriting Software)[/2015-11-27-the-vicious-circle-of-rewriting-software.md]. Re-writes often cause the team to incur avoidable risks. These planned refactorings encourage re-writing large portions of the code. By contrast, refactoring within the scope of user stories encourages developers to learn incremental improvement techniques.
+I've written before about how code re-writes prevent teams from ever learning refactoring techniques in my post (The Vicious Circle of Rewriting Software)[/2015-11-27-the-vicious-circle-of-rewriting-software.md]. Re-writes often cause the team to incur avoidable risks. These planned refactorings encourage re-writing large portions of the code. By contrast, refactoring within the scope of user stories encourages developers to learn and practice incremental improvement techniques.
 
 ### Changing Code without Business Value
 
@@ -76,7 +75,7 @@ While these types of problems can be solved by putting processes in place, I hav
 
 ### Separating Improvements from Features
 
-Once organizations begin splitting improvement out from feature development, it creates a false division. I contend that it is a false division because high-quality code is required to continue delivering business value. In dysfunctional organizations where product and development teams have a separate reporting structure and struggle to work together, the product team can decide to only choose to prioritize features and always ignore the improvement stories. It is easy to say, "we won't let that happen here." But when organizations work on fixed scope and fixed date work and have monetary incentives to meet deadlines, it is harder than you think to always do the right thing for the quality of the code. I have seen this enough times to realize it is going to happen if you choose to address quality issues separate from features.
+Once organizations begin splitting improvement out from feature development, it creates a false division. I contend that it is a false division because high-quality code is required to continue delivering business value. In dysfunctional organizations where the product and development teams have a separate reporting structure and struggle to work together, the product team can decide to only choose to prioritize features and always ignore the improvement stories. It is easy to say, "we won't let that happen here." But when organizations work on fixed scope and fixed date work and have monetary incentives to meet deadlines, it is harder than you think to always do the right thing for the quality of the code. I have seen this enough times to realize it is going to happen if you choose to address quality issues separate from features.
 
 ## Types of Technical Improvement Items
 I have typically encountered two kinds technical improvement backlog items and each should be handled differently.
@@ -88,12 +87,12 @@ These should be dealt with in the story where the issue is encountered and the s
 
 ### Large-scale Refactorings
 
-Larger-scale refactorings, things that impact dozens or more classes should be handled differently.
+Large-scale refactorings, things that impact dozens or more classes should be handled differently.
 These are typically things that become "planned refactorings." Instead, the team should discuss what their ideal end-state is, and determine the intermediate steps necessary to get there. Then they begin executing on these incremental steps. An interesting thing tends to happen, as they start making the first couple of refactorings they find a different, more favorable approach that changes some of the intermediate steps. Doing these a few times will help teams become comfortable with incremental refactoring techniques.  
 
 ## Special Cases
 
-I do believe there are some special cases where a technical improvement can legitimately land on a team's backlog. These are typically larger technical improvement efforts. For example let's say the team is planning on replacing its ORM. Instead of creating this backlog item, let's say the team replaced each usage when they encountered it while working on user stories, following opportunistic refactoring techniques. Now after several months there are a half dozen places left in the application that still use the old ORM. To be able to phase out support for both I could see a technical task to get rid of some of the other usages that may not be encountered for quite some time.
+I do believe there are some special cases where a technical improvement can legitimately land on a team's backlog. These are typically larger technical improvement efforts. For example let's say the team is planning on replacing its ORM. Instead of creating this backlog item, let's say the team replaced each usage when they encountered it while working on user stories, following opportunistic refactoring techniques. Now after several months of development there are a half dozen places left in the application that still use the old ORM. To be able to phase out support for both I could see a technical task to get rid of some of the other usages that may not be encountered for quite some time.
 
 ## Conclusion
 
