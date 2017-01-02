@@ -43,9 +43,9 @@ However, there is still one interview practice that outperforms all others, pair
 
 ## Our Process  
 
-### Who We Were Looking For
+### Who We Were For
 
-We were looking for generalist, full-stack developers who were passionate about continuously learning. More specifically, we were looking for developers who worked best in collaborative environments, and weren't interested in solving problems alone in a cubicle. We were looking for candidates who were interested in XP practices (pair programming, TDD, Continuous Integration, etc.). For more senior developers,   we were trying to find people who would be interested in coaching their fellow team members.
+We were looking for generalist, full-stack developers who were passionate about continuously learning. We hired several developers who had no experience with our tech. stack. It was more important for us to find people who cared about learning and improving their craft. More specifically, we were looking for developers who worked best in collaborative environments, and weren't interested in solving problems alone in a cubicle. We were looking for candidates who were interested in XP practices (pair programming, TDD, Continuous Integration, etc.). For more senior developers, we were trying to find people who would be interested in coaching their fellow team members.
 
 ### Phone Screen
 
