@@ -27,7 +27,7 @@ As I've mentioned in a previous post, it is important for teams to hire based on
 
 ## Can the Candidate Program?
 
-Figuring out a candidate's software development skills is the biggest challenge in developer interviews. Determining a candidates general development skills, their areas of specialization, and how they will interact with the team is a lot to figure out in a very short amount of time. I've found the fizzbuzz-like questions, very targeted technical problems, and logic puzzles all lacking when trying to hire a generalist, full-stack software developer. **The best way to figure out how a candidate will work with your team is to have them work with your team.** This may seem like a silly quip, but this approach allowed us to consistently hire great team members.
+Figuring out a candidate's software development skills is the biggest challenge in developer interviews. Determining a candidates general development skills, their areas of specialization, and how they will interact with the team is a lot to figure out in a very short amount of time. I've found the [fizzbuzz](http://wiki.c2.com/?FizzBuzzTest)-like questions, very targeted technical problems, and logic puzzles all lacking when trying to hire a generalist, full-stack software developer. **The best way to figure out how a candidate will work with your team is to have them work with your team.** This may seem like a silly quip, but this approach allowed us to consistently hire great team members.
 
 ### Technical Questions
 
