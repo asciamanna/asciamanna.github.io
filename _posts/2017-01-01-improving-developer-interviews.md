@@ -80,5 +80,6 @@ I've adopted a shorter version of this process with my development team in my cu
 ## Further Reading
 
 If you want to read more about this topic here are a few additional resources:
-*  [Developer Shortage, or Time to Rethink the Technical Interview](http://techbeacon.com/developer-shortage-or-time-rethink-technical-interview)
-* [You Suck at Technical Interviews](http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews)
+
+*  [Developer Shortage, or Time to Rethink the Technical Interview](http://techbeacon.com/developer-shortage-or-time-rethink-technical-interview)    
+* [You Suck at Technical Interviews](http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews)  
