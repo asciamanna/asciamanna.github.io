@@ -1,10 +1,12 @@
- ---
+---
 layout: post
+section-type: post
 title: Improving Developer Interviews
 comments: true
 category: Development Practices
 tags: ['pair programming', 'agile development']
 ---
+
 A development organization's interview process is arguably the most important thing for it to get right. The interview is the candidate's first impression of the company. If all else fails and you have good hiring practices, you can rely on a great team to address the issues in the organization. The eXtreme Programming (XP) team that I worked on had the best interview process I have experienced and one that, when followed, did not fail us. It was a process that we constantly tuned and I'd like to describe it here in it's final state before it was changed by the larger organization. Since then, I've continued tuning this process in my current organization and I will briefly describe how it has changed recently.
 
 ## Team Owned
