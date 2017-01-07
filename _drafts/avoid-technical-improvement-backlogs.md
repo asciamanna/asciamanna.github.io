@@ -97,7 +97,7 @@ These should be dealt with in the story where the issue is encountered and the s
 
 Large-scale refactorings, things that impact dozens or more classes could be handled differently if they would significantly impact the story's scope, by requiring a significant amount of disparate code changes and therefore significant regression testing. Note that I said __could__ be handled differently. If they can still be done within the scope of a story that is a perfectly reasonable way of dealing with these larger issues.
 
-Sometimes these larger issues are enormous, or for practical reasons cannot be dealt with in the scope of a single story or even a couple of stories in a single interation.
+Sometimes these larger issues are enormous, or for practical reasons cannot be dealt with in the scope of a single story or even a couple of stories in a single iteration.
 These are typically things that become "planned refactorings." Instead, the team should discuss what their ideal end-state is, and determine the intermediate steps necessary to get there. Then they begin executing on these incremental steps. An interesting thing tends to happen, as they start making the first couple of refactorings they find a different, more favorable approach that changes some of the intermediate steps. Doing these a few times will help teams become comfortable with incremental refactoring techniques.  
 
 ## Special Cases
