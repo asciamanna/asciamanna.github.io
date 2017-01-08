@@ -9,11 +9,11 @@ tags: ['anti-pattern', 'refactoring']
 
 Several times in my career I've encountered agile coaches who recommend creating,
 what they call, a technical debt backlog. They believe this separate backlog should be managed, in addition
-to the product's feature backlog, by the product owner. They often discuss some ratio of product-to-technical debt stories that each cross-functional team should be picking up in their iterations / sprints. While they do a good job describing the benefits of such an approach, they never describe why you would want to avoid it. Generally, it seems a lot of agile coaches accept this as a "best practice." In my experience these separate backlogs for technical issues are a problem for the organization. They are band-aides covering up a greater problem on the development team (and more likely the larger organization) that needs to be addressed. **Refactoring and addressing technical issues in the code does not belong on a team's backlog.**
+to the product's feature backlog, by the product owner. They often discuss some ratio of product-to-technical debt stories that each cross-functional team should be picking up in their iterations / sprints. While they do a good job describing the benefits of such an approach, they never describe why an organization would want to avoid this. Generally, it seems a lot of agile coaches accept this as a "best practice." In my experience these separate backlogs for technical issues are a problem for the organization. They are band-aides covering up a greater problem on the development team (and more likely the larger organization) that needs to be addressed. **Refactoring and addressing technical issues in the code does not belong on a team's backlog.**
 
 ## Technical Debt?
 
-Naming things is important. Often I've heard this backlog referred to as a "technical debt" backlog. One of my pet peeves is that technical debt has come to mean any type of sloppy code, which is the very opposite of Ward Cunningham's original definition. I refer to this as a "technical improvement backlog" or "refactoring backlog" but it is synonymous with the "tech. debt backlogs" that teams and agile coaches talk about.
+Using the right terminology is important (just like using descriptive variable and method names in code). Often I've heard this backlog referred to as a "technical debt" backlog. One of my pet peeves is that technical debt has come to mean any type of sloppy code, which is the very opposite of [Ward Cunningham](https://twitter.com/WardCunningham)'s original definition. I refer to this as a "technical improvement backlog" or "refactoring backlog" but it is synonymous with the "tech debt backlogs" that teams and agile coaches talk about.
 
 ## Benefits of a Separate Technical Improvement Backlog
 
@@ -21,13 +21,13 @@ Now I don't see these backlogs as being entirely without merit. As a short-term 
 
 ### Dealing with Feature Factories
 
-There are a lot of reasons why organizations have quality problems with their code. Sometimes it's educational but in a lot of cases teams lack empowerment to push back. They are given fixed scope and fixed date work and told they have to meet the deadline. They are working in an organization that is only concerned with churning out more features and never step back to improve on what they have already built or even determine if the features already in production are valuable. John Cutler refers to this as a feature factory in his <LINK HERE> article on the subject.
+There are a lot of reasons why organizations have quality problems with their code. Sometimes it's educational but in a lot of cases teams lack empowerment to push back. They are given fixed scope and fixed date work and told they have to meet the deadline. They are working in an organization that is only concerned with churning out more features and never step back to improve on what they have already built or even determine if the features already in production are valuable. These organizations often concern themselves with ensuring development teams are 100% utilized at all times, giving them no time to learn and improve. [John Cutler](https://twitter.com/johncutlefish) refers to this as a feature factory in his article on the subject, *[12 Signs you are working in a Feature Factory](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2#.ve7bjxiu2).*
 
 By creating a separate backlog and getting some agreement about a ratio of technical vs. feature tasks enables the teams to start addressing technical issues that have been left to fester over time.
 
 ### Visibility
 
-Somewhat related to the previous benefit is the visibility it achieves in the organization. Even in organizations that aren't run like feature factories if there isn't visibility into problems they may not get the priority they deserve. If the organization has so much bad code that teams need a significant amount of time to come up with a plan to address it, it may be important that it is visible to the rest of the organization. Development teams working in a codebase that is so bad that it is a permanent drag on every new feature (which is not an uncommon problem unfortunately) could benefit from making this visible in the organization. In these cases software quality has obviously been ignored for quite a while to get the code into such a bad state.
+Somewhat related to the previous benefit is the visibility it achieves in the organization. Even in organizations that aren't run like feature factories if there isn't visibility into problems they may not get the priority they deserve. If the organization has so much bad code that teams need a significant amount of time to come up with a plan to address it, it may be important that it is visible to the rest of the organization. Development teams working in a codebase that is so bad that it is a permanent drag on every new feature (which is not an uncommon problem unfortunately) could benefit from making this visible in the organization. In these cases software quality has obviously been ignored for quite some time.
 
 ### Quality Concerns
 
@@ -45,9 +45,8 @@ Now if you've read every one of these "pros" and are thinking that I am missing 
 
 ### Obscures Definition of Done
 
-When teams complete a user story that functionality should be ready to go to production.
-In organizations where teams are rushing to meet their commitments I've seen the technical improvement
-backlog act as a crutch. Let's look at this example, the development team really needs to address some sloppy code or maybe the team has introduced duplication by repeating a concept somewhere else in the application. Without a technical improvement backlog the team should refactor that code as part of the story. However, with the technical improvement backlog they can implement the feature as quickly and sloppily as possible, hit their date, and add a new "tech debt" story in the backlog to address the problem later. I'm sure you can see where this is going, those stories never get picked up and the organization has legitimized continuing short-cuts and band-aides, as long as the corresponding "tech debt" story was written. Over time the issues continue to accumulate and the team doesn't address them. There's a bit of irony in the situation when the technical improvement backlog enables the exact type of issues it is meant to address.
+When teams complete a user story that functionality should be ready for production. In organizations where teams are rushing to meet their commitments I've seen the technical improvement
+backlog act as a crutch. Let's look at this example, the development team really needs to address some sloppy code or maybe the team has introduced duplication by repeating a concept somewhere else in the application. Without a technical improvement backlog the team should refactor that code as part of the user story where it was introduced. However, with the technical improvement backlog they can implement the feature as quickly and sloppily as possible, hit their date, and add a new "tech debt" story in the backlog to address the problem later. I'm sure you can see where this is going, those stories either never get prioritized or there are so many that the team can't keep up with them even when they are addressing some technical improvements each iteration. The organization has legitimized continuing short-cuts and band-aides, as long as the corresponding "tech debt" story was written. Over time the issues continue to accumulate and the team doesn't address them. There's a bit of irony in the situation when the technical improvement backlog enables the exact type of issues it is meant to address.
 
 <div class="well">
 <h4>Further Reading</h4>
@@ -57,8 +56,8 @@ backlog act as a crutch. Let's look at this example, the development team really
 
 ### Encourages Large Planned Refactorings
 
-Martin Fowler<LINK> talks about the issues around what he calls "Planned Refactorings" in his
-talk at OOP2014, *[Workflows of Refactoring](https://www.youtube.com/watch?v=vqEg37e4Mkw)*. He contends that these planned refactorings (i.e., putting technical improvement / refactoring stories in the backlog and planning them along with feature work) are unfortunate, "necessary evils" until teams get skilled at refactoring and opportunistic refactoring techniques. He says teams should work to rid themselves of these planned refactorings and focus on small refactorings as part of the planned, business-facing work.
+[Martin Fowler](https://martinfowler.com/) talks about the issues around what he calls "Planned Refactorings" in his
+talk at OOP2014, *[Workflows of Refactoring](https://www.youtube.com/watch?v=vqEg37e4Mkw)*. He contends that these planned refactorings (i.e., putting technical improvement / refactoring stories in the backlog and planning them along with feature work) are unfortunate, "necessary evils" until teams get skilled at refactoring and opportunistic refactoring techniques. He says teams should work to rid themselves of these planned refactorings and focus on small refactorings as part of their business-facing work (i.e., user stories).
 
 #### Encourages Re-writes
 
@@ -66,15 +65,15 @@ I've written before about how code re-writes prevent teams from ever learning re
 
 ### Changing Code without Business Value
 
-Another consequence of planned refactorings is that teams may focus on cleaning up areas of the application that they may not return to for a long time. If teams aren't actively developing or reading the code in question, it does not make sense for them to be the spending time improving it. Alternatively, following Bob Martin <LINK>'s Boy Scout Rule or Martin Fowler's opportunistic refactoring techniques will encourage developers to focus on improving the code they are currently working on. Code that is most frequently modified will get the most of the team's attention and will be cleaned more than code that may not be looked at for years.
+Another consequence of planned refactorings is that teams may focus on cleaning up areas of the application that they may not return to for a long time. If teams aren't actively developing or reading the code in question, it does not make sense for them to be the spending time improving it. Alternatively, following [Bob Martin](https://twitter.com/unclebobmartin)'s Boy Scout Rule or [Martin Fowler](https://www.martinfowler.com)'s [opportunistic refactoring](https://martinfowler.com/bliki/OpportunisticRefactoring.html) techniques will encourage developers to focus on improving the code they are currently working on. Code that is most frequently modified will get the most of the team's attention and will be cleaned more than code that may not be looked at for years.
 
 ### Less Rigorous Testing
 
-While these types of problems can be solved by putting processes in place, I have seen issues when refactoring stories that don't have a user-facing change don't go through the same rigor user stories do. I have personally experienced working on teams where user stories would go through a typical team workflow where QA would verify the story and a product owner would sign off on it. However, for "technical debt" stories the developers were the only ones verifying the work. Often this was a source for bugs. When there are two types of stories it allows teams to come up with different rules for how to address them.
+While these types of problems can be solved by putting processes in place, I have seen issues when refactoring stories, which don't have a user-facing change, don't go through the same testing rigor that user stories do. I have personally experienced working on teams where user stories would go through a typical team workflow where QA would verify the story and a product owner would sign off on it. However, for "technical debt" stories the developers were the only ones verifying the work. Often this was a source of bugs. When there are two types of stories it allows teams to come up with different rules for how to address them.
 
 ### Separating Improvements from Features
 
-Once organizations begin splitting improvement out from feature development, it creates a false division. I contend that it is a false division because high-quality code is required to continue delivering business value. In dysfunctional organizations where the product and development teams have a separate reporting structure and struggle to work together, the product team can decide to only choose to prioritize features and always ignore the improvement stories. It is easy to say, "we won't let that happen here." But when organizations work on fixed scope and fixed date work and have monetary incentives to meet deadlines, it is harder than you think to always do the right thing for the quality of the code. I have seen this enough times to realize it is going to happen if you choose to address quality issues separate from features.
+Once organizations begin splitting improvement out from feature development, it creates a false division in the work. I contend that it is a false division because high-quality code is required to continue delivering business value. In dysfunctional organizations where the product and development teams have a separate reporting structure and struggle to work together, the product team can decide to only choose to prioritize features and always ignore the improvement stories. It is easy to say, "we won't let that happen here we always agree to a ratio." But when organizations work on fixed scope and fixed date work and have monetary incentives to meet deadlines, it is harder than you think to always do the right thing for the quality of the code. I have seen this enough times to realize it is going to happen if you choose to address quality issues separate from features.
 
 <div class="well">
 <h4>More on Refactoring</h4>
@@ -86,7 +85,7 @@ Once organizations begin splitting improvement out from feature development, it 
 
 ## Types of Technical Improvement Items
 
-I have typically encountered two kinds technical improvement backlog items and each should be handled differently.
+I have typically encountered two kinds technical improvement backlog items and each could be handled differently.
 
 ### Story Level Refacotrings
 
@@ -95,7 +94,7 @@ These should be dealt with in the story where the issue is encountered and the s
 
 ### Large-scale Refactorings
 
-Large-scale refactorings, things that impact dozens or more classes could be handled differently if they would significantly impact the story's scope, by requiring a significant amount of disparate code changes and therefore significant regression testing. Note that I said __could__ be handled differently. If they can still be done within the scope of a story that is a perfectly reasonable way of dealing with these larger issues.
+Large-scale refactorings, things that impact dozens or more classes, could be handled differently if they would significantly impact the story's scope (by requiring a significant amount of disparate code changes and therefore significant regression testing). Note that I said __could__ be handled differently. If they can still be done within the scope of a story that is a perfectly reasonable way of dealing with these larger issues.
 
 Sometimes these larger issues are enormous, or for practical reasons cannot be dealt with in the scope of a single story or even a couple of stories in a single iteration.
 These are typically things that become "planned refactorings." Instead, the team should discuss what their ideal end-state is, and determine the intermediate steps necessary to get there. Then they begin executing on these incremental steps. An interesting thing tends to happen, as they start making the first couple of refactorings they find a different, more favorable approach that changes some of the intermediate steps. Doing these a few times will help teams become comfortable with incremental refactoring techniques.  
@@ -106,4 +105,4 @@ I do believe there are some special cases where a technical improvement can legi
 
 ## Conclusion
 
-Refactoring doesn't belong on the team's backlog. Technical improvement, "technical debt", and/or refactoring backlogs should be avoided in favor of opportunistic refactoring techniques. Too many issues arise when teams separate code improvement from feature development.
+Refactoring doesn't belong on the team's backlog. Technical improvement, "technical debt", and/or refactoring backlogs should be avoided in favor of opportunistic refactoring and incremental code improvement techniques. Too many issues arise when teams separate code improvement from feature development.
