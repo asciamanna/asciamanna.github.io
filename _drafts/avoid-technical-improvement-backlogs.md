@@ -61,7 +61,7 @@ talk at OOP2014, *[Workflows of Refactoring](https://www.youtube.com/watch?v=vqE
 
 #### Encourages Re-writes
 
-I've written before about how code re-writes prevent teams from ever learning refactoring techniques in my post [The Vicious Circle of Rewriting Software](/2015-11-27-the-vicious-circle-of-rewriting-software.md). Re-writes often cause the team to incur avoidable risks. These planned refactorings encourage re-writing large portions of the code. By contrast, refactoring within the scope of user stories encourages developers to learn and practice incremental improvement techniques.
+I've written before about how code re-writes prevent teams from ever learning refactoring techniques in my post [The Vicious Circle of Rewriting Software](/2015/11/27/the-vicious-circle-of-rewriting-software.html). Re-writes often cause the team to incur avoidable risks. These planned refactorings encourage re-writing large portions of the code. By contrast, refactoring within the scope of user stories encourages developers to learn and practice incremental improvement techniques.
 
 ### Changing Code without Business Value
 
@@ -77,7 +77,7 @@ Once organizations begin splitting improvement out from feature development, it 
 
 <div class="well">
 <h4>More on Refactoring</h4>
-<a href= https://blog.ndepend.com/refactoring-is-a-development-technique-not-a-project/"
+<a href="https://blog.ndepend.com/refactoring-is-a-development-technique-not-a-project/">
    Refactoring is a Development Technique Not a Project</a> by <a href="http://www.daedtech.com/">Erik Dietrich</a>
 </div>
 
