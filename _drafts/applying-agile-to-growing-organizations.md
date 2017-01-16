@@ -37,12 +37,20 @@ that are required to coordinate the work.
 
 ### Increase in Bugs and Missed Requirements
 
-Every handoff is like the telephone game we played as children. The intent
-and value of the work gets convoluted with each handoff. So often this ends
-in delivering bugs or the wrong features. One of many brilliant aspects of XP
-was having customer representation or a very realistic proxy of the customer
-embedded with the team to ensure that the team is getting continuous feedback
-about the value of the features being built.
+With each handoff, the intent and value of the work gets convoluted.
+So often this ends in delivering bugs or the wrong features.
+One of the many brilliant aspects of XP was having customer representation, or a
+very realistic proxy of the customer, embedded with the team to ensure
+that the team is getting continuous feedback about the value of the
+features being built.
+
+### Decrease in Team Morale
+
+Another problem with having the role that is responsible for determining what
+to work on outside of the cross-functional team is that often the team never
+really understands the value of the work. They don't understand why what they
+are doing is important for their users. Without a sense of purpose, the morale
+on the team typically suffers.
 
 
 ### Example of Handoffs
@@ -51,21 +59,23 @@ IMAGE HERE
 
 ## Incorrectly Slicing Agile Teams
 
-There are organizations that understand the concept of a cross-functional,
-vertical team. However, as the organization grows they find themselves
+Even organizations that understand the concept of a cross-functional,
+vertical team run into trouble. As the organization grows they find themselves
 falling into a trap and building horizontal teams and dependencies
-between agile teams.  
+between agile teams that should really be independent.  
 
 ### Not Organized by Product or Business Capability
 
 One mistake that often occurs is that the separate agile teams are organized in
 a way that a majority of the features requires effort from multiple teams. Every
-new feature becomes a cross-team effort. One of the big problems with this approach is
-that once a feature becomes a cross-agile team effort it quickly becomes a waterfall,
+new feature becomes a cross-team effort.
+
+One of the major problems with this approach is that once a feature becomes a
+cross-agile team effort it quickly becomes a waterfall,
 Big Design Up Front (BDUF) project. In order to coordinate across teams
 project plans are made, designs are determined, deadlines are committed too, etc.
 Very quickly the benefits of iterating on features is quickly forgotten in favor
-of delivering a large, cross-team feature "correctly" the first time.
+of delivering a large, cross-agile team feature "correctly" the first time.
 
 ### Searching for Sameness
 
