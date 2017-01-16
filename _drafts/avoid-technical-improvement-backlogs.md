@@ -74,6 +74,13 @@ I have seen issues when refactoring stories, which don't have a user-facing chan
 
 Once organizations begin splitting improvement out from feature development, it creates a false division in the work. I contend that it is a false division because high-quality code is required to continue delivering business value. In dysfunctional organizations where the product and development teams have a separate reporting structure and struggle to work together, the product team can decide to only choose to prioritize features and always ignore the improvement stories. It is easy to say, "we won't let that happen here, we always agree to a ratio." But when organizations work on fixed scope and fixed date work and have financial incentives to meet deadlines, it makes it that much harder to always do the right thing for the quality of the code. I have seen this enough times to realize it is going to happen if you choose to address quality issues separate from features.
 
+### Performance and Usability Suffers
+
+Often in these cases when a technical backlog is introduced things like performance and usability requirements get shifted to it. The product organization strictly concerns itself with new features and any requirements around performance only manifest themselves when
+there is a problem. Too often performance becomes and afterthought. I've personally heard product owners say, "Building high
+performance applications is part of being a professional developer." Often the team is expected to build something that performs well without access to any of the information that would effect the performance. Further the product organization never understands the
+tradeoffs when optimizing certain aspects of the application. Performance issues becomes much harder to deal with once there is a noticeable problem in production. Furthermore, these tend to be high-stress fire fighting situations which only makes it harder for the team to come up with an effective solutions. By keeping a single backlog it encourages the product and development organization to work together on these types of requirements, as they both have information necessary to be successful.
+
 <div class="well">
 <h4>More on Refactoring</h4>
 <a href="https://blog.ndepend.com/refactoring-is-a-development-technique-not-a-project/">
