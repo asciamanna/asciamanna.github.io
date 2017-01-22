@@ -1,16 +1,20 @@
 ---
 layout: post
 section-type: post
-title: Applying Agile to Growing Organizations
+title: Reduce Cross-Team Dependencies
 comments: true
 category: development practices
 tags: ['agile development']
 ---
+While it may seem obvious that organizations should reduce cross-team dependencies,
+I continue to see organizations align is such a way that requires a significant
+amount of dependencies and handoffs.
+
 Agile teams should be vertical, cross-functional teams. These should be
-end-to-end teams, made up of all of the skills required to deliver a feature from
+end-to-end teams, made up of all of the skills & roles required to deliver a feature from
 inception to use in production without external dependencies. This means developers,
-product experts, customer proxies, Quality Assurance engineers, database experts, UX experts
-(contrary to some current scrum training that says this should be outside
+product experts, customer proxies, Quality Assurance engineers, database experts,
+UX experts, (contrary to some current scrum training that says this should be outside
 of the team), all working together on the same cross-functional team.  
 
 ## The Horizontal Team Mistake
