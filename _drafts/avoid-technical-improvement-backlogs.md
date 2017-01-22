@@ -87,20 +87,6 @@ tradeoffs when optimizing certain aspects of the application. Performance issues
    Refactoring is a Development Technique Not a Project</a> by <a href="http://www.daedtech.com/">Erik Dietrich</a>
 </div>
 
-## Types of Technical Improvement Items
-
-I have typically encountered two kinds technical improvement backlog items and each can be handled differently.
-
-### Story Level Refactorings
-
-These are smaller refactorings that usually impact one to several classes. These should be dealt with in the story where the issue is encountered and the story shouldn't be closed until the refactoring is complete. If your team estimates the work, then these refactorings should be included in the story estimate.
-
-### Large-scale Refactorings
-
-Large-scale refactorings, things that impact dozens or more classes, could be handled differently if they would significantly impact the story's scope (by requiring a significant amount of disparate code changes and therefore significant regression testing). Note that I said *could* be handled differently. If they can still be done within the scope of a story that is a perfectly reasonable way of dealing with these larger issues.
-
-Sometimes though, these larger issues are enormous or for other reasons cannot be dealt with in the scope of a single iteration. These are typically things that become "planned refactorings." Instead, the team should discuss what their ideal end-state is, and determine the intermediate steps necessary to get there. Then they begin executing on these incremental steps. An interesting thing tends to happen, as they start making the first couple of refactorings they find a different, more favorable, approach that changes some of the intermediate steps. Doing these a few times will help teams become comfortable with incremental refactoring techniques.  
-
 ## Special Cases
 
 I do believe there are some special cases where a technical improvement can legitimately land on a team's backlog. These are typically larger technical improvement efforts. For example, let's say the team is planning on replacing its ORM. Instead of creating this backlog item, let's say the team replaced each usage when they encountered it while working on user stories, following opportunistic refactoring techniques. After several months of development there are a half dozen places left in the application that still use the old ORM. To be able to phase out support for both I could see a technical task to get rid of the remaining usages of the legacy ORM that may not be encountered for quite some time. But these types of tasks are the exception not the rule.
