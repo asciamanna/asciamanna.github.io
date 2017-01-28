@@ -6,16 +6,18 @@ comments: true
 category: development practices
 tags: ['agile development']
 ---
+
 While it may seem obvious that organizations should reduce cross-team dependencies,
-I continue to see organizations align is such a way that requires a significant
+I continue to see them align is such a way that requires a significant
 amount of dependencies and handoffs.
 
 Agile teams should be vertical, cross-functional teams. These should be
 end-to-end teams, made up of all of the skills & roles required to deliver a feature from
 inception to use in production without external dependencies. This means developers,
 product experts, customer proxies, Quality Assurance engineers, database experts,
-UX experts, (contrary to some current scrum training that says this should be outside
-of the team), all working together on the same cross-functional team.  
+UX experts, (contrary to some current Scrum training that says this should be outside
+of the team), all working together on the same cross-functional team. Now recognize that
+these are roles not people. Members of the team may have multiple roles.
 
 ## The Horizontal Team Mistake
 
@@ -31,13 +33,18 @@ aren't getting the improvements and benefits they were promised.
 They don't become more efficient (and in a lot of cases actually slow down)
 because their organizational structure is creating too much friction between
 feature inception and delivery. They design into the process an incredible
-amount of handoffs to get a single feature into production.
+amount of handoffs to get a single feature into production. If the time it takes a feature
+to go from inception to production takes months and not days there is a problem with the
+system.
 
 ### Increase in Meetings
 
 These handoffs between teams require more coordination and meetings. A symptom
 of an organization like this is a dramatic increase in the number of meetings
 that are required to coordinate the work.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Organizational silos love meetings</p>&mdash; Anthony Sciamanna (@asciamanna) <a href="https://twitter.com/asciamanna/status/822125743853408260">January 19, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Increase in Bugs and Missed Requirements
 
@@ -120,7 +127,10 @@ from inception to delivery.
 
 ##### Compromises
 
-When
-
 How Your Organization is Killing Your Software  - Raffi Krikorian
 https://www.youtube.com/watch?v=9Zqt7UrAXns
+
+## Organizational Silos
+
+matrix orgs.
+dev manager, QA manager, product manager, scrum masater manager, operations manager, etc.
