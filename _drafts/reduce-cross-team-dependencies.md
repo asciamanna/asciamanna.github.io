@@ -64,7 +64,7 @@ Another problem with having the role that is responsible for determining what
 to work on outside of the cross-functional team is that often the team never
 really understands the value of the work. They don't understand why what they
 are doing is important for their users. Without a sense of purpose, the morale
-on the team often suffers.
+on the team will suffer.
 
 ## Incorrectly Slicing Agile Teams
 
@@ -96,7 +96,7 @@ The other big mistake I see organizations make is their need to have teams be th
 Each team needs to have identical processes and practices. One of the wonderful
 things about agile is that once the principles and values are understood,
 everything else can change in support of those. Every team is different, they
-have different problems, different personalities, different customers, different
+have different problems, different challenges, different personalities, different customers, different
 technologies, etc.
 
 The belief that requiring teams to be the same is somehow an organizational
@@ -104,13 +104,15 @@ optimization is completely false. In these types of organizations any time a
 team wants to improve the way they work they need to convince organizational
 leadership and every other team of the improvement (creating unnecessary
 cross-team dependencies). Given the friction involved in getting any change
-through teams stop trying to improve the way they work.
+through teams stop trying to improve the way they work. Over time the organization
+ends up with several apathetic teams because the teams just don't have the time or energy to deliver on 
+their committments and put in the effort necessary to effect change in the organization. 
 
 Having regular retrospectives allows teams to tune the way they work and have
 ownership over their process and practices. Unfortunately, in these
 organizations trying to scale, they often decide that everyone has
 to "do agile the same way." Too often scrum masters (or their equivalent)
-become management proxies making sure teams are doing as they are told. Instead
+become management proxies making sure teams are "doing as they are told," instead
 of being the servant leaders helping teams improve themselves. **When those
 closest to the work cannot improve upon their processes, practices, working
 conditions the team will decline.** Additionally, this becomes a significant morale
