@@ -13,10 +13,13 @@ requires a significant amount of dependencies and handoffs.
 
 Agile teams should be vertical, cross-functional teams. These should be
 end-to-end teams, made up of all of the skills & roles required to deliver a feature from
-inception to use in production without external dependencies. This means developers,
-product experts, customer proxies, Quality Assurance engineers, database experts, devops,
-UX experts, contrary to some current Scrum training that says this should be outside
-of the team, all working together on the same cross-functional team. Now recognize that
+inception to use in production without external dependencies. This means software developers,
+product experts, customer proxies, Quality Assurance engineers, database experts, DevOps, and
+UX experts all working together on the same cross-functional team. Contrary to some
+current Agile training that says UX should be outside of the teams, I believe this
+to be very wrong. When roles get moved out of cross-functional teams overhead and
+handoffs are introduced. The result is very often making agile
+teams operate in violation of agile principles and values. Now recognize that
 these are roles not necessarily individuals. Members of the team may have multiple roles.
 
 ## The Horizontal Team Mistake
@@ -37,7 +40,8 @@ because their organizational structure is creating too much friction between
 feature inception and delivery. They design into the process an incredible
 amount of handoffs to get a single feature into production. If the time it takes a feature
 to get from inception to production takes months and not days there is a problem with the
-system.
+system. **If software is your business this should be concerning, your competition will
+find a way to deliver features in days and be able to deliver several times per day.**
 
 ### Increase in Meetings
 
@@ -48,28 +52,32 @@ that are required to coordinate the work.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Organizational silos love meetings</p>&mdash; Anthony Sciamanna (@asciamanna) <a href="https://twitter.com/asciamanna/status/822125743853408260">January 19, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Increase in Bugs and Missed Requirements
+### Increase in Bugs and Misunderstanding Business Value
 
-With each handoff, the intent and value of the work gets convoluted.
-So often this ends in delivering bugs or the wrong features.
+With each handoff, the intent and value of the work gets convoluted and perhaps
+even lost. So often this ends in delivering bugs or the wrong features.
 One of the many brilliant aspects of XP was having customer representation, or a
 very realistic proxy of the customer, embedded with the team to ensure
 that the team is getting continuous feedback about the value of the
-features being built. Many Scrum implementations require these types of handoffs
-and separate the decision making from any of the teams doing the work.
+features being built. Many Scrum implementations create these types of handoffs
+and separate the decision making about the work from any of the teams doing the work.
 
-### Decrease in Team Morale
+### Decisions About the Work Decreases Team Morale
 
-Another problem with having the role that is responsible for determining what
-to work on outside of the cross-functional team is that often the team never
-really understands the value of the work. They don't understand why what they
-are doing is important for their users. Without a sense of purpose, the morale
-on the team often suffers.
+A very concerning issue with having the role that is responsible for determining
+the work on outside of the cross-functional team is that often the team never
+really understands the value of their work. They are completely disconnected not
+only from the decision making but also the customers they are trying to serve.
+They don't understand why what they are doing is important for their users.
+Without a sense of purpose, the morale on the team suffers. I often recommend
+people watch Chad Dickerson's talk at RailsConf 2011, [Etsy - Optimize for Developer Happiness](https://youtu.be/22EECFEk9Xs),
+that covers, among other things, why it is so important for the people doing the work
+to be connected to their customers.
 
 ## Incorrectly Slicing Agile Teams
 
 Even organizations that understand the concept of a cross-functional,
-vertical team run into trouble. As the organization grows they find themselves
+vertical team run into trouble. As organizations grow they find themselves
 falling into a trap and building horizontal teams and dependencies
 between agile teams that should really be independent.  
 
@@ -84,7 +92,7 @@ new feature becomes a cross-team effort.
 One of the major problems with this approach is that once a feature becomes a
 cross-agile team effort it quickly becomes a waterfall,
 Big Design Up Front (BDUF) project. In order to coordinate across teams
-project plans are made, designs are determined, deadlines are committed too, etc.
+project plans are made, designs are determined, deadlines are committed to, etc.
 Very quickly the benefits of iterating on features is quickly forgotten in favor
 of delivering a large, cross-agile team feature "correctly" the first time.
 
@@ -93,18 +101,32 @@ of delivering a large, cross-agile team feature "correctly" the first time.
 ### Identical Process & Practices
 
 The other big mistake I see organizations make is their need to have teams be the same.
-Each team needs to have identical processes and practices. One of the wonderful
-things about agile is that once the principles and values are understood,
-everything else can change in support of those. Every team is different, they
-have different problems, different personalities, different customers, different
-technologies, etc.
+These organizations require teams to have identical processes and practices. They
+can't be solely faulted for this idea since agile trainers will often make this recommendation.
+Unfortunately, this oversimplification has lasting negative effects on organizations.
+
+One of the wonderful things about agile is that once the principles and values
+are understood, everything else can change in support of them. Every team is
+different, they have different problems, different personalities, different
+customers, different technologies, etc. This line of thinking comes from very
+non-Agile ideas that developers are fungible resources that can be moved between
+projects and teams. They are resources, a "head count" to be utilized by the
+organization. Agile attempts to dispel these myths and shed light on the fact
+that software teams are complex systems where team interaction is valued over
+perceived scheduling needs. Having a team gel and trust each other will build
+much better solutions than a just filling a project with developers because
+you "need the head count on an important project."
+
+#### Team Apathy
 
 The belief that requiring teams to be the same is somehow an organizational
 optimization is completely false. In these types of organizations any time a
 team wants to improve the way they work they need to convince organizational
 leadership and every other team of the improvement (creating unnecessary
 cross-team dependencies). Given the friction involved in getting any change
-through teams stop trying to improve the way they work.
+through, teams stop trying to improve the way they work and apathy sets in.
+They can't be blamed, they are trying to meet their team commitments
+at the same time.
 
 Having regular retrospectives allows teams to tune the way they work and have
 ownership over their process and practices. Unfortunately, in these
@@ -126,9 +148,10 @@ technologies, etc.
 
 A lot of this focus is about "being able to move developers" between teams.
 That is another patently false idea in the industry. Moving people between teams
-is a topic for another day. For further reading, read what [Kent Beck]() wrote
+is a topic for another day. For further reading, read what [Kent Beck](https://twitter.com/KentBeck) wrote
 about team continuity in his book, Extreme Programming Explained. There he describes
-moving people constantly into and out of teams is a false optimization.  
+moving people constantly into and out of teams is a false optimization, for some of the
+reasons I've noted above.
 
 Unfortunately, all of this shared infrastructure creates more cross-team
 dependencies that slows teams down because they cannot completely own a feature
@@ -136,14 +159,10 @@ from inception to delivery. When scaling an organization it is more important to
 have completely independent teams and accept some repetitive work between teams rather
 than to optimize in such a way that introduces dependencies.
 
-### Communities of Practice
-
-### Compromises
-
 How Your Organization is Killing Your Software  - Raffi Krikorian
 https://www.youtube.com/watch?v=9Zqt7UrAXns
 
 ## Organizational Silos
 
-matrix orgs.
-dev manager, QA manager, product manager, scrum masater manager, operations manager, etc.
+In a future post I will touch on organizational silos as they are a source of friction
+in addition to cross-team dependencies.
