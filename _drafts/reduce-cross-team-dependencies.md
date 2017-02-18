@@ -165,5 +165,5 @@ https://www.youtube.com/watch?v=9Zqt7UrAXns
 
 ## Organizational Silos
 
-In a future post I will touch on organizational silos as they are a source of friction
-in addition to cross-team dependencies.
+In a future post I will touch on organizational silos as they are another
+source of team friction in addition to cross-team dependencies.
