@@ -124,9 +124,10 @@ optimization is completely false. In these types of organizations any time a
 team wants to improve the way they work they need to convince organizational
 leadership and every other team of the improvement (creating unnecessary
 cross-team dependencies). Given the friction involved in getting any change
-through, teams stop trying to improve the way they work and apathy sets in.
-They can't be blamed, they are trying to meet their team commitments
-at the same time.
+through, teams stop trying to improve the way they work. Over time the organization
+ends up with several apathetic teams because the teams just don't have the
+time or energy to deliver on their commitments and put in the effort
+necessary to effect change in the organization.
 
 Having regular retrospectives allows teams to tune the way they work and have
 ownership over their process and practices. Unfortunately, in these
