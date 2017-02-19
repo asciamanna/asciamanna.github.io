@@ -14,28 +14,30 @@ requires a significant amount of dependencies and handoffs.
 Agile teams should be vertical, cross-functional teams. These should be end-to-end
 teams, made up of all of the skills & roles required to deliver a feature from
 inception to use in production without external dependencies. This means software developers,
-product experts (or customer proxies), Quality Assurance engineers, database experts, DevOps, and
-UX experts all working together on the same cross-functional team. Contrary to some
-current Agile training that says UX should be outside of the teams, I believe this
-to be very wrong. When roles get moved out of cross-functional teams overhead and
-handoffs are introduced. The result is very often making agile
-teams operate in violation of agile principles and values. Now recognize that
-these are roles not necessarily individuals. Members of the team may have multiple roles.
+front-end experts, product experts (or customer proxies), Quality Assurance engineers,
+database experts, DevOps, and UX experts all working together on the same
+cross-functional team. Contrary to some current Agile training that says UX
+should be outside of the teams, I believe this to be very wrong. When roles get
+moved out of cross-functional teams, overhead and handoffs are introduced. The
+result is very often making agile teams operate in violation of agile principles
+and values. Now recognize that these are roles not necessarily individuals.
+Members of the team may play multiple roles for their team.
 
 ## The Horizontal Team Mistake
 
 Unfortunately I still see a lot of development organizations build horizontal
-teams that deliver technical solutions to each other instead of
+teams instead of vertical teams. These teams deliver technical solutions to each other instead of
 delivering user-facing features to production. These organizations have
 UI teams, back-end service teams, web services teams, API teams, infrastructure
 teams, database teams, release managers, and operations teams (the only ones in the organization
-allowed to deploy to production). When companies deliver features "dark" to production
-yet another handoff occurs if a separate organization is responsible or enabling
-the feature in production. A lot of these organizations are trying
-to "be agile" and don't understand why they aren't getting the improvements
-and benefits they were promised. I want to make it clear that any one of the team
-examples I provided could work if they can work independent of other teams and deliver
-features into production.
+allowed to deploy to production). I want to make it clear that these example teams
+I've suggested may not always be problematic. If the team can operate independent
+of other teams and deliver features to production then they may not be a problem.
+
+When companies deliver features "dark" to production yet another handoff occurs
+if a separate organization is responsible enabling the feature in production.
+A lot of these organizations are trying to "be agile" and don't understand why
+they aren't getting the improvements and benefits they were promised.
 
 They don't become more efficient (and in a lot of cases actually slow down)
 because their organizational structure is creating too much friction between
@@ -80,9 +82,9 @@ to be connected to their customers.
 ## Incorrectly Slicing Agile Teams
 
 Even organizations that understand the concept of a cross-functional,
-vertical team run into trouble. As organizations grow and try to scale
+vertical team can run into trouble. As organizations grow and try to scale
 they find themselves falling into a trap. They build horizontal teams
-and dependencies between agile teams that should really be independent.  
+and dependencies between cross-functional teams that should really be independent.  
 
 ### Not Organized by Product or Business Capability
 
@@ -96,7 +98,7 @@ One of the major problems with this approach is that once a feature becomes a
 cross-agile team effort it quickly becomes a waterfall,
 Big Design Up Front (BDUF) project. In order to coordinate across teams
 project plans are made, designs are determined, deadlines are committed to, etc.
-Very quickly the benefits of iterating on features is quickly forgotten in favor
+The benefits of iterating on features is quickly forgotten in favor
 of delivering a large, cross-agile team feature "correctly" the first time.
 
 #### No Experts
@@ -118,12 +120,12 @@ Unfortunately, this oversimplification has lasting negative effects on organizat
 One of the wonderful things about agile is that once the principles and values
 are understood, everything else can change in support of them. Every team is
 different, they have different problems, different personalities, different
-customers, different technologies, etc. This line of thinking comes from very
+customers, different technologies, etc. This line of thinking comes from antiquated,
 non-Agile ideas that developers are fungible resources that can be moved between
 projects and teams. They are resources, a "head count" to be utilized by the
 organization. Agile attempts to dispel these myths and shed light on the fact
 that software teams are complex systems where team interaction is valued over
-perceived scheduling needs. Having a team gel and trust each other will build
+perceived scheduling benefits. Having a team gel and trust each other will build
 much better solutions than a just filling a project with developers because
 you "need the head count on an important project."
 
@@ -137,13 +139,13 @@ cross-team dependencies). Given the friction involved in getting any change
 through, teams stop trying to improve the way they work. Over time the organization
 ends up creating apathetic teams because the teams just don't have the
 time or energy to deliver on their commitments and put in the effort
-necessary to effect change in the organization.
+necessary to affect change in the organization.
 
 Having regular retrospectives allows teams to tune the way they work and have
 ownership over their process and practices. Unfortunately, in these
 organizations trying to scale, they often decide that everyone has
 to "do agile the same way." Too often scrum masters (or their equivalent)
-become management proxies making sure teams are doing as they are told. Instead
+become management proxies making sure teams are doing as they are told instead
 of being the servant leaders helping teams improve themselves. **When those
 closest to the work cannot improve upon their processes, practices, working
 conditions the team will decline.** Additionally, this becomes a significant morale
@@ -155,13 +157,13 @@ Another big mistake I've witnessed is the need to have "shared code" across team
 On the surface this makes a lot of sense. __"Don't make teams recreate the
 wheel."__ It seems like a real organizational optimization to have all teams share
 logging code, management of release tooling and scripts, data access libraries and
-technologies, etc. We are taught as developers that duplication is a problem so cross-team
-duplication must also be a problem.
+technologies, etc. We are taught as developers that duplication is the root of
+all evil so cross-team duplication must also be a problem.
 
 A lot of this focus is about "being able to move developers" between teams.
 That is another patently false idea in the industry. Moving people between teams
 is a topic for another day. For further reading, read what [Kent Beck](https://twitter.com/KentBeck) wrote
-about team continuity in his book, Extreme Programming Explained. There he describes
+about team continuity in his book, _Extreme Programming Explained_. There he describes
 moving people constantly into and out of teams is a false optimization, for a lot of the
 reasons I've noted above.
 
@@ -188,5 +190,5 @@ inventing work.
 
 ## Organizational Silos in Reporting Structure
 
-In a future post I will touch on silos in reporting structure 
-source of team friction in addition to cross-team dependencies.
+In a future post I will touch on silos in reporting structure as this is
+another source of team friction that slows teams down. 
