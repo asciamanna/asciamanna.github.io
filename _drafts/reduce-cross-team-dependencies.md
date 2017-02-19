@@ -110,7 +110,7 @@ This gets lost in cross-team projects.
 
 ## Searching for Sameness
 
-### Identical Process & Practices
+### Identical Processes & Practices
 
 The other big mistake I see organizations make is their need to have teams be the same.
 These organizations require teams to have identical processes and practices. They
@@ -147,21 +147,20 @@ organizations trying to scale, they often decide that everyone has
 to "do agile the same way." Too often scrum masters (or their equivalent)
 become management proxies making sure teams are doing as they are told instead
 of being the servant leaders helping teams improve themselves. **When those
-closest to the work cannot improve upon their processes, practices, working
-conditions the team will decline.** Additionally, this becomes a significant morale
+closest to the work cannot improve upon their processes, practices, or working conditions the team will decline.** Additionally, this becomes a significant morale
 problem when teams can no longer improve their work.
 
 ### Optimizing for Shared Code
 
 Another big mistake I've witnessed is the need to have "shared code" across teams.
-On the surface this makes a lot of sense. __"Don't make teams recreate the
-wheel."__ It seems like a real organizational optimization to have all teams share
+On the surface this makes a lot of sense. _"Don't make teams recreate the
+wheel."_ It seems like a real organizational optimization to have all teams share
 logging code, management of release tooling and scripts, data access libraries and
 technologies, etc. We are taught as developers that duplication is the root of
 all evil so cross-team duplication must also be a problem.
 
-A lot of this focus is about "being able to move developers" between teams.
-That is another patently false idea in the industry. Moving people between teams
+A lot of this focus is about "being able to move developers between teams."
+Moving developers between teams for scheduling reasons is short-sighted and ends up causing more problems for the organization in the long run. Moving people between teams
 is a topic for another day. For further reading, read what [Kent Beck](https://twitter.com/KentBeck) wrote
 about team continuity in his book, _Extreme Programming Explained_. There he describes
 moving people constantly into and out of teams is a false optimization, for a lot of the
@@ -177,18 +176,18 @@ cross-functional teams when to deviate from these shared tools.
 
 ### How Your Organization is Killing Your Software
 
-I highly recommend watching Raffi Krikorian's (former VP of Platform Engineering
+I highly recommend watching [Raffi Krikorian](https://twitter.com/raffi)'s (former VP of Platform Engineering
   at Twitter) talk at Philly ETE 2016,
 [How Your Organization is Killing Your Software]( https://www.youtube.com/watch?v=9Zqt7UrAXns).
 He touches on the issues that arise when work is spread across the entire
 development organization and how to build teams and the code to scale
 development organizations. He recommends building small, single-responsibility
 teams with very clear ownership that can operate independent of other teams.
-Once the teams are in place ensure that you don't overstaff them. Keeping teams
+Once the teams are in place ensure that they aren't overstaffed. Keeping teams
 slightly understaffed encourages more creativity and ensures the team is not
 inventing work.
 
 ## Organizational Silos in Reporting Structure
 
 In a future post I will touch on silos in reporting structure as this is
-another source of team friction that slows teams down. 
+another source of friction that slows teams down.
