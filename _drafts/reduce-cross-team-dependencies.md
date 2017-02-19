@@ -11,10 +11,10 @@ While it may seem obvious that organizations should reduce cross-team dependenci
 I continue to see organizations align their development teams is such a way that
 requires a significant amount of dependencies and handoffs.
 
-Agile teams should be vertical, cross-functional teams. These should be
-end-to-end teams, made up of all of the skills & roles required to deliver a feature from
+Agile teams should be vertical, cross-functional teams. These should be end-to-end
+teams, made up of all of the skills & roles required to deliver a feature from
 inception to use in production without external dependencies. This means software developers,
-product experts, customer proxies, Quality Assurance engineers, database experts, DevOps, and
+product experts (or customer proxies), Quality Assurance engineers, database experts, DevOps, and
 UX experts all working together on the same cross-functional team. Contrary to some
 current Agile training that says UX should be outside of the teams, I believe this
 to be very wrong. When roles get moved out of cross-functional teams overhead and
@@ -33,7 +33,9 @@ allowed to deploy to production). When companies deliver features "dark" to prod
 yet another handoff occurs if a separate organization is responsible or enabling
 the feature in production. A lot of these organizations are trying
 to "be agile" and don't understand why they aren't getting the improvements
-and benefits they were promised.
+and benefits they were promised. I want to make it clear that any one of the team
+examples I provided could work if they can work independent of other teams and deliver
+features into production.
 
 They don't become more efficient (and in a lot of cases actually slow down)
 because their organizational structure is creating too much friction between
@@ -62,24 +64,25 @@ that the team is getting continuous feedback about the value of the
 features being built. Many Scrum implementations create these types of handoffs
 and separate the decision making about the work from any of the teams doing the work.
 
-### Decisions About the Work Decreases Team Morale
+### Decision Making About the Work Can Decrease Morale
 
-A very concerning issue with having the role that is responsible for determining
-the work on outside of the cross-functional team is that often the team never
-really understands the value of their work. They are completely disconnected not
-only from the decision making but also the customers they are trying to serve.
-They don't understand why what they are doing is important for their users.
-Without a sense of purpose, the morale on the team suffers. I often recommend
-people watch Chad Dickerson's talk at RailsConf 2011, [Etsy - Optimize for Developer Happiness](https://youtu.be/22EECFEk9Xs),
+A concerning issue with having the role that is responsible for all of the
+decision making about the work outside of the cross-functional team is that often
+the team never really understands the value of their work. They are completely
+disconnected not only from the decision making but also the customers they are
+trying to serve. They don't understand why what they are doing is important for
+their users. Without a sense of purpose, the morale on the team suffers. I often
+recommend people watch Chad Dickerson's talk at RailsConf 2011,
+[Etsy - Optimize for Developer Happiness](https://youtu.be/22EECFEk9Xs),
 that covers, among other things, why it is so important for the people doing the work
 to be connected to their customers.
 
 ## Incorrectly Slicing Agile Teams
 
 Even organizations that understand the concept of a cross-functional,
-vertical team run into trouble. As organizations grow they find themselves
-falling into a trap and building horizontal teams and dependencies
-between agile teams that should really be independent.  
+vertical team run into trouble. As organizations grow and try to scale
+they find themselves falling into a trap. They build horizontal teams
+and dependencies between agile teams that should really be independent.  
 
 ### Not Organized by Product or Business Capability
 
@@ -95,6 +98,13 @@ Big Design Up Front (BDUF) project. In order to coordinate across teams
 project plans are made, designs are determined, deadlines are committed to, etc.
 Very quickly the benefits of iterating on features is quickly forgotten in favor
 of delivering a large, cross-agile team feature "correctly" the first time.
+
+#### No Experts
+
+Another concern is that these cross-team projects have no experts as the expertise
+is spread across multiple teams. The organization should be able to go to one team,
+who are the experts, to understand the consequences and ramifications of work.
+This gets lost in cross-team projects.
 
 ## Searching for Sameness
 
@@ -125,7 +135,7 @@ team wants to improve the way they work they need to convince organizational
 leadership and every other team of the improvement (creating unnecessary
 cross-team dependencies). Given the friction involved in getting any change
 through, teams stop trying to improve the way they work. Over time the organization
-ends up with several apathetic teams because the teams just don't have the
+ends up creating apathetic teams because the teams just don't have the
 time or energy to deliver on their commitments and put in the effort
 necessary to effect change in the organization.
 
@@ -145,25 +155,38 @@ Another big mistake I've witnessed is the need to have "shared code" across team
 On the surface this makes a lot of sense. __"Don't make teams recreate the
 wheel."__ It seems like a real organizational optimization to have all teams share
 logging code, management of release tooling and scripts, data access libraries and
-technologies, etc.
+technologies, etc. We are taught as developers that duplication is a problem so cross-team
+duplication must also be a problem.
 
 A lot of this focus is about "being able to move developers" between teams.
 That is another patently false idea in the industry. Moving people between teams
 is a topic for another day. For further reading, read what [Kent Beck](https://twitter.com/KentBeck) wrote
 about team continuity in his book, Extreme Programming Explained. There he describes
-moving people constantly into and out of teams is a false optimization, for some of the
+moving people constantly into and out of teams is a false optimization, for a lot of the
 reasons I've noted above.
 
 Unfortunately, all of this shared infrastructure creates more cross-team
 dependencies that slows teams down because they cannot completely own a feature
 from inception to delivery. When scaling an organization it is more important to
 have completely independent teams and accept some repetitive work between teams rather
-than to optimize in such a way that introduces dependencies.
+than to optimize in such a way that introduces dependencies. Having a shared tooling
+team can still be a good thing for your organization, but leave it up to the individual
+cross-functional teams when to deviate from these shared tools.  
 
-How Your Organization is Killing Your Software  - Raffi Krikorian
-https://www.youtube.com/watch?v=9Zqt7UrAXns
+### How Your Organization is Killing Your Software
 
-## Organizational Silos
+I highly recommend watching Raffi Krikorian's (former VP of Platform Engineering
+  at Twitter) talk at Philly ETE 2016,
+[How Your Organization is Killing Your Software]( https://www.youtube.com/watch?v=9Zqt7UrAXns).
+He touches on the issues that arise when work is spread across the entire
+development organization and how to build teams and the code to scale
+development organizations. He recommends building small, single-responsibility
+teams with very clear ownership that can operate independent of other teams.
+Once the teams are in place ensure that you don't overstaff them. Keeping teams
+slightly understaffed encourages more creativity and ensures the team is not
+inventing work.
 
-In a future post I will touch on organizational silos as they are another
+## Organizational Silos in Reporting Structure
+
+In a future post I will touch on silos in reporting structure 
 source of team friction in addition to cross-team dependencies.
