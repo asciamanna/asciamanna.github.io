@@ -1,15 +1,16 @@
 ---
 layout: post
 section-type: post
-title: Reduce Cross-Team Dependencies
+title: Remove Cross-Team Dependencies
 comments: true
 category: development practices
 tags: ['agile development']
 ---
 
-While it may seem obvious that organizations should reduce cross-team dependencies,
-I continue to see organizations align their development teams is such a way that
-requires a significant amount of dependencies and handoffs.
+While it may seem obvious that organizations should work to reduce and remove
+cross-team dependencies, I continue to see organizations align their
+development teams is such a way that requires a significant amount of
+dependencies and handoffs.
 
 Agile teams should be vertical, cross-functional teams. These should be end-to-end
 teams, made up of all of the skills & roles required to deliver a feature from
@@ -17,9 +18,9 @@ inception to use in production without external dependencies. This means softwar
 front-end experts, product experts (or customer proxies), Quality Assurance engineers,
 database experts, DevOps, and UX experts all working together on the same
 cross-functional team. Contrary to some current Agile training that says UX
-should be outside of the teams, I believe this to be very wrong. When roles get
-moved out of cross-functional teams, overhead and handoffs are introduced. The
-result is very often making agile teams operate in violation of agile principles
+should be outside of the teams, I believe this to be wrong. When roles get
+moved out of cross-functional teams, overhead and handoffs are introduced. This
+often results in agile teams operating in violation of agile principles
 and values. Now recognize that these are roles not necessarily individuals.
 Members of the team may play multiple roles for their team.
 
@@ -32,20 +33,22 @@ UI teams, back-end service teams, web services teams, API teams, infrastructure
 teams, database teams, release managers, and operations teams (the only ones in the organization
 allowed to deploy to production). I want to make it clear that these example teams
 I've suggested may not always be problematic. If the team can operate independent
-of other teams and deliver features to production then they may not be a problem.
+of other teams, don't have other teams dependent on them, and can deliver features
+to production then they should not be a problem.
 
 When companies deliver features "dark" to production yet another handoff occurs
-if a separate organization is responsible enabling the feature in production.
+if a separate organization is responsible for enabling the feature in production.
 A lot of these organizations are trying to "be agile" and don't understand why
 they aren't getting the improvements and benefits they were promised.
 
 They don't become more efficient (and in a lot of cases actually slow down)
 because their organizational structure is creating too much friction between
 feature inception and delivery. They design into the process an incredible
-amount of handoffs to get a single feature into production. If the time it takes a feature
-to get from inception to production takes months and not days there is a problem with the
-system. **If software is your business this should be concerning, your competition will
-find a way to deliver features in days and be able to deliver several times per day.**
+amount of handoffs to get a single feature into production. If the time it takes
+a feature to get from inception to production takes months and not days there is
+a problem with the system. **If software is your business this should be
+concerning, your competition will find a way to deliver features in days and be
+able to deliver several times per day.**
 
 ### Increase in Meetings
 
@@ -79,6 +82,9 @@ recommend people watch Chad Dickerson's talk at RailsConf 2011,
 that covers, among other things, why it is so important for the people doing the work
 to be connected to their customers.
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The only reasonable way to manage dependencies is to eliminate them. ~<a href="https://twitter.com/chethendrickson">@chethendrickson</a></p>&mdash; Woody Zuill (@WoodyZuill) <a href="https://twitter.com/WoodyZuill/status/829931240690118657">February 10, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Incorrectly Slicing Agile Teams
 
 Even organizations that understand the concept of a cross-functional,
@@ -94,9 +100,9 @@ new feature becomes a cross-team effort.
 
 #### Waterfall Projects on Agile Teams
 
-One of the major problems with this approach is that once a feature becomes a
-cross-agile team effort it quickly becomes a waterfall,
-Big Design Up Front (BDUF) project. In order to coordinate across teams
+One of the major problems with this approach is that once a feature gets assigned
+to multiple agile teams it quickly becomes a waterfall, Big Design Up Front
+(BDUF) project. In order to coordinate across teams
 project plans are made, designs are determined, deadlines are committed to, etc.
 The benefits of iterating on features is quickly forgotten in favor
 of delivering a large, cross-agile team feature "correctly" the first time.
@@ -112,7 +118,7 @@ This gets lost in cross-team projects.
 
 ### Identical Processes & Practices
 
-The other big mistake I see organizations make is their need to have teams be the same.
+The other mistake I see organizations make is their need to have teams be the same.
 These organizations require teams to have identical processes and practices. They
 can't be solely faulted for this idea since agile trainers will often make this recommendation.
 Unfortunately, this oversimplification has lasting negative effects on organizations.
@@ -120,14 +126,15 @@ Unfortunately, this oversimplification has lasting negative effects on organizat
 One of the wonderful things about agile is that once the principles and values
 are understood, everything else can change in support of them. Every team is
 different, they have different problems, different personalities, different
-customers, different technologies, etc. This line of thinking comes from antiquated,
-non-Agile ideas that developers are fungible resources that can be moved between
-projects and teams. They are resources, a "head count" to be utilized by the
-organization. Agile attempts to dispel these myths and shed light on the fact
-that software teams are complex systems where team interaction is valued over
-perceived scheduling benefits. Having a team gel and trust each other will build
-much better solutions than a just filling a project with developers because
-you "need the head count on an important project."
+customers, different technologies, etc., even in the same company. This line of
+thinking comes from antiquated, non-Agile ideas that developers are fungible
+resources that can be moved between projects and teams. They are resources,
+a "head count" to be utilized by the organization. Agile attempts to dispel
+these myths and shed light on the fact that software teams are complex systems
+where team interaction is valued over perceived scheduling benefits. Having a
+team gel and trust each other will build much better solutions than a just
+filling a project with developers because you "need the head count on an
+important project."
 
 #### Team Apathy
 
@@ -147,12 +154,13 @@ organizations trying to scale, they often decide that everyone has
 to "do agile the same way." Too often scrum masters (or their equivalent)
 become management proxies making sure teams are doing as they are told instead
 of being the servant leaders helping teams improve themselves. **When those
-closest to the work cannot improve upon their processes, practices, or working conditions the team will decline.** Additionally, this becomes a significant morale
+closest to the work cannot improve upon their processes, practices, or working
+conditions the team will decline.** Additionally, this becomes a significant morale
 problem when teams can no longer improve their work.
 
 ### Optimizing for Shared Code
 
-Another big mistake I've witnessed is the need to have "shared code" across teams.
+Another mistake I've witnessed is the need to have "shared code" across teams.
 On the surface this makes a lot of sense. _"Don't make teams recreate the
 wheel."_ It seems like a real organizational optimization to have all teams share
 logging code, management of release tooling and scripts, data access libraries and
@@ -160,11 +168,13 @@ technologies, etc. We are taught as developers that duplication is the root of
 all evil so cross-team duplication must also be a problem.
 
 A lot of this focus is about "being able to move developers between teams."
-Moving developers between teams for scheduling reasons is short-sighted and ends up causing more problems for the organization in the long run. Moving people between teams
-is a topic for another day. For further reading, read what [Kent Beck](https://twitter.com/KentBeck) wrote
-about team continuity in his book, _Extreme Programming Explained_. There he describes
-moving people constantly into and out of teams is a false optimization, for a lot of the
-reasons I've noted above.
+Moving developers between teams for scheduling reasons is short-sighted and ends
+up causing more problems for the organization in the long run. Moving people
+between teams is a topic for another day. For further reading, read
+what [Kent Beck](https://twitter.com/KentBeck) wrote about team continuity
+in his book, _Extreme Programming Explained_. There he describes
+moving people constantly into and out of teams is a false optimization, for a
+lot of the reasons I've noted above.
 
 Unfortunately, all of this shared infrastructure creates more cross-team
 dependencies that slows teams down because they cannot completely own a feature
@@ -180,7 +190,7 @@ I highly recommend watching [Raffi Krikorian](https://twitter.com/raffi)'s (form
   at Twitter) talk at Philly ETE 2016,
 [How Your Organization is Killing Your Software]( https://www.youtube.com/watch?v=9Zqt7UrAXns).
 He touches on the issues that arise when work is spread across the entire
-development organization and how to build teams and the code to scale
+development organization and how to build teams and code to scale
 development organizations. He recommends building small, single-responsibility
 teams with very clear ownership that can operate independent of other teams.
 Once the teams are in place ensure that they aren't overstaffed. Keeping teams
