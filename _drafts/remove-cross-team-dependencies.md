@@ -197,7 +197,7 @@ Once the teams are in place ensure that they aren't overstaffed. Keeping teams
 slightly understaffed encourages more creativity and ensures the team is not
 inventing work.
 
-## Organizational Silos in Reporting Structure
+## Silos in Reporting Structure
 
 In a future post I will touch on silos in reporting structure as this is
 another source of friction that slows teams down.
