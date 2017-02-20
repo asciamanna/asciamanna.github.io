@@ -32,7 +32,7 @@ lang: "en"
 author: "Anthony Sciamanna"
 title: "Anthony Sciamanna"
 description: "Anthony Sciamanna's Software Development Blog. Focusing on software craftsmanship, Test Driven Development, eXtreme Programming, and team improvement"
-keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, pair programming, agile, refactoring" 
+keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, pair programming, agile, refactoring"
 favicon: "/img/favicon.ico"
 
 ################
@@ -59,8 +59,9 @@ lines: # You can add HTML Tags in the Text
   - text: "Programs must be written for people to read, and only incidentally for machines to execute."
   - text: "The only way it's all going to go according to plan is if you don't learn anything."
   - text: "People are motivated by autonomy, mastery, and purpose."
-  - text: "Conditional logic and code duplication are the yin and yang of unmaintainable code." 
+  - text: "Conditional logic and code duplication are the yin and yang of unmaintainable code."
   - text: "Fear is the number one enemy of quality code."
+  - text: "Minimizing mistakes is incompatible with maximizing learning."
 me-img: "/img/sciamanna.jpg"
 
 ##############################
@@ -195,7 +196,7 @@ projects:
     build_image: "https://travis-ci.org/asciamanna/ImprovedItunesParser.svg?branch=master"
     description: "A ruby iTunes library parser using Nokogiri."
   - name: "Listening To"
-    url: "https://www.github.com/asciamanna/listeningto" 
+    url: "https://www.github.com/asciamanna/listeningto"
     ci_url: "https://ci.appveyor.com/project/asciamanna/listeningto"
     build_image: "https://ci.appveyor.com/api/projects/status/36vp224m7bpp5hk5?svg=true"
     description: "A .NET Web API app (using my [Lastfm.NET](http://github.com/asciamanna/lastfmclient) library) with an AngularJS / Bootstrap front end. It displays the last 25 songs I've listened to as well as my top 25 artists."
@@ -204,7 +205,7 @@ projects:
     ci_url: "https://ci.appveyor.com/project/asciamanna/lastfmclient"
     build_image: "https://ci.appveyor.com/api/projects/status/e703ayk1nydyngqm?svg=true"
     description: "A .NET client for the Last.fm REST API."
-  - name: "iTunes Library Parser" 
+  - name: "iTunes Library Parser"
     url: "https://www.github.com/asciamanna/iTunesLibraryParser"
     ci_url: "https://ci.appveyor.com/project/asciamanna/ituneslibraryparser"
     build_image: "https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq?svg=true"
