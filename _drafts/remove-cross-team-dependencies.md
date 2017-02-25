@@ -85,6 +85,7 @@ to be connected to their customers.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">On the effects of integrating decision-making with work. <a href="https://t.co/Mng13HanrZ">pic.twitter.com/Mng13HanrZ</a> <a href="https://twitter.com/hashtag/classic?src=hash">#classic</a> <a href="https://twitter.com/hashtag/leadership?src=hash">#leadership</a></p>&mdash; Hermanni Hyytiälä (@hemppah) <a href="https://twitter.com/hemppah/status/825969630493736960">January 30, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## Incorrectly Slicing Agile Teams
 
 Even organizations that understand the concept of a cross-functional,
 vertical team can still run into trouble. As organizations grow and try to scale
@@ -121,7 +122,6 @@ their area work. When expertise is split across multiple teams:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The only reasonable way to manage dependencies is to eliminate them. ~<a href="https://twitter.com/chethendrickson">@chethendrickson</a></p>&mdash; Woody Zuill (@WoodyZuill) <a href="https://twitter.com/WoodyZuill/status/829931240690118657">February 10, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## Incorrectly Slicing Agile Teams
 ## Searching for Sameness
 
 ### Identical Processes & Practices
