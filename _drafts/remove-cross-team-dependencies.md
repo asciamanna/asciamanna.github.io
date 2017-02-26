@@ -36,14 +36,14 @@ I've suggested may not always be problematic. If the team can operate independen
 of other teams, do not have other teams dependent on them, and can deliver features
 to production then they should not be a problem.
 
-When companies deliver features "dark" to production yet another handoff occurs
+When companies deliver features to production disabled yet another handoff occurs
 if a separate organization is responsible for enabling the feature in production.
 A lot of these organizations are trying to "be agile" and don't understand why
 they aren't getting the improvements and benefits they were promised.
 
 They don't become more efficient (and in a lot of cases actually slow down)
 because their organizational structure is creating too much friction between
-feature inception and delivery. They design into the process an incredible
+feature inception and delivery. They design into their processes an incredible
 amount of handoffs to get a single feature into production. If the time it takes
 a feature to get from inception to production takes months and not days there is
 a problem with the system. **If software is your business this should be
@@ -158,14 +158,14 @@ time or energy to deliver on their commitments and put in the effort
 necessary to affect change in the organization.
 
 Having regular retrospectives allows teams to tune the way they work and have
-ownership over their process and practices. Unfortunately, in these
+ownership over their processes and practices. Unfortunately, in these
 organizations trying to scale, they often decide that everyone has
 to "do agile the same way." Too often scrum masters (or their equivalent)
 become management proxies making sure teams are doing as they are told instead
 of being the servant leaders helping teams improve themselves. **When those
-closest to the work cannot improve upon their processes, practices, or working
-conditions the team will decline.** Additionally, this becomes a significant morale
-problem when teams can no longer improve their work.
+closest to the work cannot improve upon how they work conditions on the team
+will decline.** Additionally, this becomes a significant morale problem when
+teams can no longer improve their work.
 
 ### Optimizing for Shared Code
 
@@ -195,16 +195,16 @@ cross-functional teams when to deviate from these shared tools.
 
 ### How Your Organization is Killing Your Software
 
-I highly recommend watching [Raffi Krikorian](https://twitter.com/raffi)'s (former VP of Platform Engineering
-  at Twitter) talk at Philly ETE 2016,
+I highly recommend watching [Raffi Krikorian](https://twitter.com/raffi)'s
+(former VP of Platform Engineering at Twitter) talk at Philly ETE 2016,
 [How Your Organization is Killing Your Software]( https://www.youtube.com/watch?v=9Zqt7UrAXns).
 He touches on the issues that arise when work is spread across the entire
 development organization and how to build teams and code to scale
 development organizations. He recommends building small, single-responsibility
 teams with very clear ownership that can operate independent of other teams.
-Once the teams are in place ensure that they aren't overstaffed. Keeping teams
-slightly understaffed encourages more creativity and ensures the team is not
-inventing work.
+Once the teams are in place, he recommends ensuring that they aren't overstaffed.
+Keeping teams slightly understaffed encourages more creativity and ensures
+the team is not inventing work.
 
 ## Silos in Reporting Structure
 
