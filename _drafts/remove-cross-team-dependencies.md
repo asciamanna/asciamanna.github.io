@@ -115,7 +115,7 @@ their area work. When expertise is split across multiple teams:
 
 * All system changes need to include input from every team
 * Incorrect features get implemented
-* Low-priority work gets focus
+* Low value or no value work gets focus
 * Internal and external quality issues arise
 * Delivery and team productivity is affected
 
