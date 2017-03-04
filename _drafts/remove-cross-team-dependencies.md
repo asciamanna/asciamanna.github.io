@@ -14,27 +14,27 @@ Consequently, these dependencies create the need for a significant amount of han
 
 Agile teams should be vertical, cross-functional teams. These should be end-to-end
 teams, made up of all of the skills & roles required to deliver a feature from
-inception to use in production without external dependencies. This means software developers,
-front-end experts, product experts, customer proxies, Quality Assurance engineers,
-database experts, DevOps, and UX experts all working together on the same
-cross-functional team. Contrary to some current Agile training that says UX
-should be outside of the teams, I believe this to be wrong. When roles get
-moved out of cross-functional teams, overhead and handoffs are introduced. This
-often results in agile teams operating in violation of agile principles
-and values. Now recognize that these are roles and not necessarily individuals.
-Members of the team may play multiple roles for their team.
+inception to use in production without external dependencies. This means
+software developers, front-end experts, product experts, customer proxies,
+Quality Assurance engineers, database experts, DevOps, and UX experts all
+working together on the same cross-functional team. When roles get moved out of
+cross-functional teams, overhead and handoffs are introduced. This often results
+in teams operating in violation of agile principles and values. Now recognize
+that these are roles and not necessarily individuals. Members of the team may
+play multiple roles for their team.
 
-## The Horizontal Team Mistake
+## The Single-Discipline Team Mistake
 
 Unfortunately I still see a lot of development organizations build horizontal
-teams instead of vertical teams. These teams deliver technical solutions to each other instead of
-delivering user-facing features to production. These organizations have
-UI teams, back-end service teams, web services teams, API teams, infrastructure
-teams, database teams, release managers, and operations teams (the only ones in the organization
-allowed to deploy to production). I want to make it clear that these example teams
-I've suggested may not always be problematic. If the team can operate independent
-of other teams, do not have other teams dependent on them, and can deliver features
-to production then they should not be a problem.
+teams based on discipline instead of vertical, cross-functional teams. These
+teams deliver technical solutions to each other instead of delivering
+user-facing features to production. These organizations have UI teams, UX teams,
+"middle-tier" teams, web services teams, API teams, infrastructure teams,
+database teams, QA teams, release managers, and operations teams (the only ones
+in the organization allowed to deploy to production). If a team can operate
+independent of other teams, does not have other teams dependent on them, and
+can deliver features to production then that is a pretty good measure that the
+organizational structure isn't add odds with delivering.
 
 When companies deliver features to production disabled yet another handoff occurs
 if a separate organization is responsible for enabling the feature in production.
@@ -75,12 +75,12 @@ A concerning issue with having the role that is responsible for all of the
 decision making about the work outside of the cross-functional team is that often
 the team never really understands the value of their work. They are completely
 disconnected not only from the decision making but also the customers they are
-trying to serve. They don't understand why what they are doing is important for
-their users. Without a sense of purpose, the morale on the team suffers. I often
-recommend people watch Chad Dickerson's talk at RailsConf 2011,
-[Etsy - Optimize for Developer Happiness](https://youtu.be/22EECFEk9Xs),
-that covers, among other things, why it is so important for the people doing the work
-to be connected to their customers.
+trying to serve. They don't understand whether what they are doing is important
+or if it is creating value for their customers. Without a sense of purpose, the
+morale on the team suffers. I often recommend people watch Chad Dickerson's
+talk at RailsConf 2011, [Etsy - Optimize for Developer Happiness](https://youtu.be/22EECFEk9Xs),
+that covers, among other things, why it is so important for the people doing
+the work to be connected to their customers.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">On the effects of integrating decision-making with work. <a href="https://t.co/Mng13HanrZ">pic.twitter.com/Mng13HanrZ</a> <a href="https://twitter.com/hashtag/classic?src=hash">#classic</a> <a href="https://twitter.com/hashtag/leadership?src=hash">#leadership</a></p>&mdash; Hermanni Hyytiälä (@hemppah) <a href="https://twitter.com/hemppah/status/825969630493736960">January 30, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -89,8 +89,8 @@ to be connected to their customers.
 
 Even organizations that understand the concept of a cross-functional,
 vertical team can still run into trouble. As organizations grow and try to scale
-they find themselves falling into a trap. They build horizontal teams
-and dependencies between cross-functional teams that should really be independent.  
+they find themselves falling into a trap. They build dependencies between
+cross-functional teams that should really be independent.  
 
 ### Not Organized by Product or Business Capability
 
@@ -102,16 +102,16 @@ new feature becomes a cross-team effort.
 
 One of the major problems with this approach is that once a feature gets assigned
 to multiple agile teams it quickly becomes a waterfall, Big Design Up Front
-(BDUF) project. In order to coordinate across teams
-project plans are made, designs are determined, deadlines are committed to, etc.
-The benefits of iterating on features is quickly forgotten in favor
-of delivering a large, cross-agile team feature "correctly" the first time.
+(BDUF) project. In order to coordinate across teams project plans are made,
+designs are determined, deadlines are committed to, etc. The benefits of
+iterating on features is quickly forgotten in favor of delivering a large,
+cross-agile team feature "correctly" the first time.
 
 #### No Experts
 
 Another concern is that these cross-team projects have no experts as the expertise
 is spread across multiple teams. There should be one team, who are experts in
-their area work. When expertise is split across multiple teams:
+their area of work. When expertise is split across multiple teams:
 
 * All system changes need to include input from every team
 * Incorrect features get implemented
@@ -182,8 +182,8 @@ up causing more problems for the organization in the long run. Moving people
 between teams is a topic for another day. For further reading, read
 what [Kent Beck](https://twitter.com/KentBeck) wrote about team continuity
 in his book, _Extreme Programming Explained_. There he describes
-moving people constantly into and out of teams is a false optimization, for a
-lot of the reasons I've noted above.
+moving people into and out of teams for project scheduling is a false
+optimization, for a lot of the reasons I've noted above.
 
 Unfortunately, all of this shared infrastructure creates more cross-team
 dependencies that slows teams down because they cannot completely own a feature
