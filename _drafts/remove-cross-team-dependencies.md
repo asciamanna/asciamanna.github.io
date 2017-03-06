@@ -36,7 +36,8 @@ independently of other teams, does not have other teams dependent on them, and
 can deliver features to production, then that is a good indicator that the
 organizational structure isn't at odds with delivering.
 
-When companies deliver features to production disabled, yet another handoff occurs when a separate organization is responsible for enabling the feature in production.
+When companies deliver features to production disabled, yet another handoff
+occurs when a separate organization is responsible for enabling the feature in production.
 A lot of these organizations are trying to "be agile" and don't understand why
 they aren't getting the improvements and benefits they were promised.
 
@@ -125,7 +126,7 @@ their area of work. When expertise is split across multiple teams:
 
 ### Identical Processes & Practices
 
-The other mistake I see organizations make,  is their need to have teams be the same.
+The other mistake I see organizations make, is their need to have teams be the same.
 These organizations require teams to have identical processes and practices. They
 can't be solely faulted for this idea since agile trainers will often make this recommendation.
 Unfortunately, this oversimplification has lasting negative effects on organizations.
@@ -152,7 +153,7 @@ team wants to improve the way they work they need to convince organizational
 leadership and every other team of the improvement (creating unnecessary
 cross-team dependencies). Given the friction involved in getting any change
 through, teams stop trying to improve the way they work. Over time, the organization
-ends up creating apathetic teams because  they just don't have the
+ends up creating apathetic teams because they just don't have the
 time or energy to deliver on their commitments and put in the effort
 necessary to affect change in the organization.
 
