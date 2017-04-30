@@ -8,8 +8,7 @@ tags: ['talks', 'pair programming', 'tdd']
 ---
 
 I was honored to be asked to speak at the [Heart of Agile Pittsburgh 2017](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/)
-on April 27 & 28. I was impressed at how amazing this relatively new conference was.
-This is its second year, the last one was held in Philadelphia. The turn out this
+on April 27 & 28. This is its second year, last year's conference was held in Philadelphia. The turn out this
 year in Pittsburgh was fantastic, selling out just before the start of the conference.
 
 ## What is the Heart of Agile?
@@ -32,9 +31,9 @@ trying to prevent from the onset.
 
 ## Talk
 
-My talk was based on a blog post I wrote two years ago about Ping Pong Pair Programming, which
-can be found [here](/2015/04/18/ping-pong-pair-programming.html). The talk
-(The Ultimate Developer Collaboration Technique: Ping Pong Pair Programming) describes issues
+My talk on Thursday morning was based on a blog post I wrote two years ago about Ping Pong Pair Programming, which
+can be found [here](/2015/04/18/ping-pong-pair-programming.html). The talk,
+_The Ultimate Developer Collaboration Technique: Ping Pong Pair Programming_, describes issues
 with traditional pair programming, how Ping Pong Pair Programming addresses those issues,
 and a demo of Ping Pong Pair Programming. My friend and colleague [Nick Goede](http://nickgoede.com)
 gave the talk and demonstration with me.  
@@ -51,10 +50,11 @@ Here are the slides from the talk, replacing the embedded coding videos with lin
 
 The conference was really well done, hats off to
 [Rob Lingle](https://twitter.com/lingle_r412) and [James Gifford](https://twitter.com/scrummando)
-for all their hard work organizing it. There were some very unique aspects to
+for all their hard work organizing it. There is an incredible amount of work and
+preparation required to plan and organize a conference. There were some very unique aspects to
 the conference, starting with the location. The conference was held on a series of
 docked riverboats, the [Gateway Clipper Fleet](https://www.gatewayclipper.com/).
-During the first evening's networking & cocktail reception a riverboat set sail on the Three Rivers.
+During the first evening's networking & cocktail reception one of the riverboats set sail on the Three Rivers.
 
 <img class='img-responsive' src='/img/gateway-clipper-entrance.jpg' height='50%' width='50%' />
 
@@ -62,5 +62,5 @@ Other unique aspects of the conference was a real-time retrospective during the
 conference (thanks to [ScatterSpoke](http://www.scatterspoke.com)) and a
 "coaches corner" where people could meet and discuss topics with speakers,
 sponsors, and other attendees. I met more wonderful people and got more value
-and inspiration out of this conference than most I have attended. The other
+out of this conference than many of the conferences I have attended. The other
 speakers were all excellent, I'm already looking forward to next year's conference.
