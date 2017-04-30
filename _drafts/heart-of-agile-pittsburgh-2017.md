@@ -46,7 +46,7 @@ Here are the slides for the talk, replacing the coding videos with links to yout
 
 ## Conference
 
-<img class='img-responsive' src='/img/gateway-clipper-fleet-night.jpg' height='80%' width='80%' />
+<img class='img-responsive' src='/img/gateway-clipper-fleet-night.jpg' height='70%' width='70%' />
 
 The conference was really well done, hats off to
 [Rob Lingle](https://twitter.com/lingle_r412) and [James Gifford](https://twitter.com/scrummando)
