@@ -39,14 +39,14 @@ and a demo of Ping Pong Pair Programming. My friend and colleague [Nick Goede](h
 gave the talk and demonstration with me.  
 
 Here are the slides for the talk, replacing the coding videos with links to youtube videos.
-<div class='center-block'>
+
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/l1bmhlm6uSHOw8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AnthonySciamanna1/the-ultimate-developer-collaboration-technique-ping-pong-pair-programming-75312208" title="The Ultimate Developer Collaboration Technique: Ping Pong Pair Programming" target="_blank">The Ultimate Developer Collaboration Technique: Ping Pong Pair Programming</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/AnthonySciamanna1">Anthony Sciamanna</a></strong> </div>
-</div>
+
 <br/>
 
 ## Conference
 
-<img class='img-responsive' src='/img/gateway-clipper-fleet-night.jpg' />
+<img class='img-responsive' src='/img/gateway-clipper-fleet-night.jpg' height='80%' width='80%' />
 
 The conference was really well done, hats off to
 [Rob Lingle](https://twitter.com/lingle_r412) and [James Gifford](https://twitter.com/scrummando)
@@ -55,7 +55,7 @@ the conference, starting with the location. The conference was held on a series 
 docked riverboats, the Gateway Clipper Fleet. During the first evening's cocktail reception a riverboat
 set sail on the three rivers.
 
-<img class='img-responsive' src='/img/gateway-clipper-entrance.jpg' />
+<img class='img-responsive' src='/img/gateway-clipper-entrance.jpg' height='80%' width='80%' />
 
 Other unique aspects of the conference were a real-time retrospective during the
 conference (thanks to [ScatterSpoke](http://www.scatterspoke.com)) and a
