@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Heart of Agile Pittsburgh 2017
 comments: true
-category: talk
+category: talks
 tags: ['talks', 'pair programming', 'tdd']
 ---
 
@@ -25,10 +25,10 @@ get back to the heart of agile he found himself emphasizing four things
 
 I recommend everyone learn about the [Heart of Agile](http://heartofagile.com/).
 Especially if you feel, like me, that the current state of
-"agile implementations" often end up being exactly what the agile movement was
+"agile implementations" often end up becoming exactly what the agile movement was
 trying to prevent from the onset.
 
-<img class='img-responsive' src='/img/heart-of-agile.png' height='50%' width='50%' />
+<img class='img-responsive' src='/img/heart-of-agile.png' height='40%' width='40%' />
 
 ## Talk
 
@@ -38,7 +38,7 @@ with traditional pair programming, how Ping Pong Pair Programming addresses thos
 and a demo of Ping Pong Pair Programming. My friend and colleague [Nick Goede](http://nickgoede.com)
 gave the talk and demonstration with me.  
 
-Here are the slides for the talk, replacing the coding videos with links to youtube videos.
+Here are the slides from the talk, replacing the coding videos with links to youtube videos.
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/l1bmhlm6uSHOw8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AnthonySciamanna1/the-ultimate-developer-collaboration-technique-ping-pong-pair-programming-75312208" title="The Ultimate Developer Collaboration Technique: Ping Pong Pair Programming" target="_blank">The Ultimate Developer Collaboration Technique: Ping Pong Pair Programming</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/AnthonySciamanna1">Anthony Sciamanna</a></strong> </div>
 
@@ -46,16 +46,16 @@ Here are the slides for the talk, replacing the coding videos with links to yout
 
 ## Conference
 
-<img class='img-responsive' src='/img/gateway-clipper-fleet-night.jpg' height='70%' width='70%' />
+<img class='img-responsive' src='/img/gateway-clipper-fleet-night.jpg' height='50%' width='50%' />
 
 The conference was really well done, hats off to
 [Rob Lingle](https://twitter.com/lingle_r412) and [James Gifford](https://twitter.com/scrummando)
 for all their hard work organizing it. There were some very unique aspects to
 the conference, starting with the location. The conference was held on a series of
-docked riverboats, the Gateway Clipper Fleet. During the first evening's cocktail reception a riverboat
-set sail on the three rivers.
+docked riverboats, the [Gateway Clipper Fleet](https://www.gatewayclipper.com/).
+During the first evening's networking & cocktail reception a riverboat set sail on the Three Rivers.
 
-<img class='img-responsive' src='/img/gateway-clipper-entrance.jpg' height='80%' width='80%' />
+<img class='img-responsive' src='/img/gateway-clipper-entrance.jpg' height='50%' width='50%' />
 
 Other unique aspects of the conference were a real-time retrospective during the
 conference (thanks to [ScatterSpoke](http://www.scatterspoke.com)) and a
