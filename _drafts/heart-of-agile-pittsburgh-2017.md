@@ -8,9 +8,9 @@ tags: ['talks', 'pair programming', 'tdd']
 ---
 
 I was honored to be asked to speak at the [Heart of Agile Pittsburgh 2017](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/)
-on April 27 & 28. This is the second year of conference, the last one
+on April 27 & 28. This is the second year of the conference, the last one
 was held in Philadelphia. The turn out this year in Pittsburgh was fantastic, selling
-out just before the conference start.
+out just before the start of the conference.
 
 ## What is the Heart of Agile?
 
