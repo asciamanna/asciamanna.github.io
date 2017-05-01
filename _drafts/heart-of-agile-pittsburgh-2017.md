@@ -8,8 +8,7 @@ tags: ['talks', 'pair programming', 'tdd']
 ---
 
 I was honored to be asked to speak at the [Heart of Agile Pittsburgh 2017](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/)
-on April 27 & 28. This is its second year, last year's conference was held in Philadelphia. The turn out this
-year in Pittsburgh was fantastic, selling out just before the start of the conference.
+on April 27 & 28.
 
 ## What is the Heart of Agile?
 
@@ -58,9 +57,9 @@ During the first evening's networking & cocktail reception one of the riverboats
 
 <img class='img-responsive' src='/img/gateway-clipper-entrance.jpg' height='50%' width='50%' />
 
-Other unique aspects of the conference was a real-time retrospective during the
-conference (thanks to [ScatterSpoke](http://www.scatterspoke.com)) and a
-"coaches corner" where people could meet and discuss topics with speakers,
-sponsors, and other attendees. I met more wonderful people and got more value
-out of this conference than many of the conferences I have attended. The other
-speakers were all excellent, I'm already looking forward to next year's conference.
+Another unique aspect of the conference was a real-time retrospective during the
+conference (thanks to [ScatterSpoke](http://www.scatterspoke.com)). I met more
+wonderful people and got more value out of this conference than many of the
+conferences I have attended. Each talk I attended was fantastic, another unique 
+experience for me at a tech. conference. I'm already looking forward to next
+year's conference.
