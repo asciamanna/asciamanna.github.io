@@ -23,7 +23,7 @@ get back to the heart of agile he found himself emphasizing four things
 
 I recommend everyone learn about the [Heart of Agile](http://heartofagile.com/).
 Especially if you feel, like me, that the current state of
-"agile implementations" often end up becoming exactly what the agile movement was
+agile implementations often end up becoming exactly what the agile movement was
 trying to prevent from the onset.
 
 <img class='img-responsive' src='/img/heart-of-agile.png' height='40%' width='40%' />
@@ -60,6 +60,6 @@ During the first evening's networking & cocktail reception one of the riverboats
 Another unique aspect of the conference was a real-time retrospective during the
 conference (thanks to [ScatterSpoke](http://www.scatterspoke.com)). I met more
 wonderful people and got more value out of this conference than many of the
-conferences I have attended. Each talk I attended was fantastic, another unique 
+conferences I have attended. Each talk I attended was fantastic, another unique
 experience for me at a tech. conference. I'm already looking forward to next
 year's conference.
