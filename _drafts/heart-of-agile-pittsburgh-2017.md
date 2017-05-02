@@ -14,7 +14,7 @@ on April 27 & 28.
 
 [The Heart of Agile](http://heartofagile.com/) comes from agile manifesto author,
 [Alistair Cockburn](http://alistair.cockburn.us/). As he encouraged people and teams to
-get back to the heart of agile he found himself emphasizing four things
+get back to the heart of agile, he found himself emphasizing four things
 
 * Collaborate
 * Deliver
@@ -24,7 +24,7 @@ get back to the heart of agile he found himself emphasizing four things
 I recommend everyone learn about the [Heart of Agile](http://heartofagile.com/).
 Especially if you feel, like me, that the current state of
 agile implementations often end up becoming exactly what the agile movement was
-trying to prevent from the onset.
+trying to prevent from the beginning.
 
 <img class='img-responsive' src='/img/heart-of-agile.png' height='40%' width='40%' />
 
@@ -34,8 +34,7 @@ My talk on Thursday morning was based on a blog post I wrote two years ago about
 can be found [here](/2015/04/18/ping-pong-pair-programming.html). The talk,
 _The Ultimate Developer Collaboration Technique: Ping Pong Pair Programming_, describes issues
 with traditional pair programming, how Ping Pong Pair Programming addresses those issues,
-and a demo of Ping Pong Pair Programming. My friend and colleague [Nick Goede](http://nickgoede.com)
-gave the talk and demonstration with me.  
+and a demo of Ping Pong Pair Programming. I am grateful that my longtime colleague and friend [Nick Goede](http://nickgoede.com) could join me for the talk and demonstration.  
 
 Here are the slides from the talk, replacing the embedded coding videos with links to youtube videos.
 
@@ -47,19 +46,15 @@ Here are the slides from the talk, replacing the embedded coding videos with lin
 
 <img class='img-responsive' src='/img/gateway-clipper-fleet-night.jpg' height='50%' width='50%' />
 
-The conference was really well done, hats off to
+Hats off to
 [Rob Lingle](https://twitter.com/lingle_r412) and [James Gifford](https://twitter.com/scrummando)
-for all their hard work organizing it. There is an incredible amount of work and
-preparation required to plan and organize a conference. There were some very unique aspects to
-the conference, starting with the location. The conference was held on a series of
+for all their hard work organizing the conference. There is an incredible amount of work and
+preparation required to organize such an event. There were some very unique aspects to
+the conference, starting with the location. It was held on a series of
 docked riverboats, the [Gateway Clipper Fleet](https://www.gatewayclipper.com/).
-During the first evening's networking & cocktail reception one of the riverboats set sail on the Three Rivers.
+During the first evening's networking & cocktail reception one of the riverboats set sail on the Three Rivers. Another unique aspect of the conference was a real-time retrospective (thanks to [ScatterSpoke](http://www.scatterspoke.com)).
 
 <img class='img-responsive' src='/img/gateway-clipper-entrance.jpg' height='50%' width='50%' />
 
-Another unique aspect of the conference was a real-time retrospective during the
-conference (thanks to [ScatterSpoke](http://www.scatterspoke.com)). I met more
-wonderful people and got more value out of this conference than many of the
-conferences I have attended. Each talk I attended was fantastic, another unique
-experience for me at a tech. conference. I'm already looking forward to next
-year's conference.
+I met more wonderful people and got more value out of this conference than many I have attended in the past. Each talk I attended was fantastic, another unique
+experience for me at a tech. conference. I'm already looking forward to next year. I highly recommend this conference to software professionals working in agile environments. 
