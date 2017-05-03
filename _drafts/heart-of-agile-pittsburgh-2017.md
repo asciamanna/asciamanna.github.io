@@ -21,10 +21,10 @@ get back to the heart of agile, he found himself emphasizing four things
 * Reflect
 * Improve
 
-I recommend everyone learn about the [Heart of Agile](http://heartofagile.com/).
-Especially if you feel, like me, that the current state of
-agile implementations often end up becoming exactly what the agile movement was
-trying to prevent from the beginning.
+I recommend learning about the [Heart of Agile](http://heartofagile.com/).
+Especially, if you feel like I do, that agile implementations frequently
+end up becoming exactly what the agile movement was
+trying to prevent.
 
 <img class='img-responsive' src='/img/heart-of-agile.png' height='40%' width='40%' />
 
@@ -51,10 +51,9 @@ Hats off to
 for all their hard work organizing the conference. There is an incredible amount of work and
 preparation required to organize such an event. There were some very unique aspects to
 the conference, starting with the location. It was held on a series of
-docked riverboats, the [Gateway Clipper Fleet](https://www.gatewayclipper.com/).
-During the first evening's networking & cocktail reception one of the riverboats set sail on the Three Rivers. Another unique aspect of the conference was a real-time retrospective (thanks to [ScatterSpoke](http://www.scatterspoke.com)).
+docked riverboats called the [Gateway Clipper Fleet](https://www.gatewayclipper.com/).
+During the first evening's networking & cocktail reception, one of the riverboats set sail on the Three Rivers. Another unique aspect of the conference was a real-time retrospective (thanks to [ScatterSpoke](http://www.scatterspoke.com)).
 
 <img class='img-responsive' src='/img/gateway-clipper-entrance.jpg' height='50%' width='50%' />
 
-I met more wonderful people and got more value out of this conference than many I have attended in the past. Each talk I attended was fantastic, another unique
-experience for me at a tech. conference. I'm already looking forward to next year. I highly recommend this conference to software professionals working in agile environments. 
+I met more wonderful people and got more value out of this conference than many I have attended in the past. I am already looking forward to next year. If you are a software professional working in an agile environment do yourself a favor and put this conference on your list for next year.
