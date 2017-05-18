@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   $(".navbar-right > .links > a").click(function() {
-      $(this).addClass("link-image-reset");
+   $("#submit-newsletter").click(function () {
+	$("#newsletter-form")[0].reset();
    });
 });
