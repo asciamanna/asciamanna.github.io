@@ -62,7 +62,7 @@ Another benefit of incremental development is the psychological benefits it prov
 
 ### Combined with Pair Programming
 
-When combined with pair programming, in a practice called [Ping Pong Pair Programming](/2015-04-18-ping-pong-pair-programming.html), TDD creates a powerful workflow,
+When combined with pair programming, in a practice called [Ping Pong Pair Programming](/2015/04/18/ping-pong-pair-programming.html), TDD creates a powerful workflow,
  opportunities for team collaboration, and helps create a culture of mentoring on development teams.
 
 ## Next Steps
