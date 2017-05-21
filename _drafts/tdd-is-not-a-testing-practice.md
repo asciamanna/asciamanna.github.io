@@ -11,7 +11,7 @@ In a [previous post](/2015/10/25/use-tdd-to-teach-testable-design.html) about us
 
 In this post I want to discuss why I believe this is bad advice, and how people come to this conclusion. After years of writing software without TDD and years of practicing TDD I am convinced it yields higher quality, more easily changed code and provides several other benefits that are often overlooked. 
 
-## Misunderstanding TDD's Purpose
+## Misunderstanding the Purpose of TDD 
 
 The primary reason why people think writing tests first or last doesn't matter is a misunderstanding about the purpose of TDD. If someone believes that the purpose of TDD is to generate a suite of unit tests, then it is just one of a number of techniques to get to that state. Another equally valid way of getting there is to write tests last, after the feature has been built. 
 
@@ -27,7 +27,7 @@ Over the years I've found myself interviewing a wide variety of roles in develop
 Often the answers I get when I start asking about TDD (and other XP practices) are very telling. XP is over 20 years old at
  this point and there is still a lot of misconceptions about TDD and the other XP practices (if people have heard of them at all). 
 
-The most common response I get when I ask about whether the interviewee practices, encourages, or values TDD is, _"Yeah, the team writes unit tests."_ People too often conflate the act of unit testing with TDD. Somewhat less frequently I hear statements like _"I think TDD is really good, but my team doesn't do it. It's not my place to tell the team how to write code."_ True, you shouldn't **tell** the team how to write code but you should coach, show, and encourage them to learn these practices. 
+The most common response I hear when I ask about whether the interviewee practices, encourages, or values TDD is, _"Yeah, the team writes unit tests."_ People too often conflate the act of unit testing with TDD. I also commonly hear statements like _"I think TDD is a great practice, but my team doesn't do it. It's not my place to tell the team how to write code."_ True, you shouldn't **tell** the team how to write code but you should coach, show, and encourage them to learn these practices. Frustratingly, I've heard these exact comments by people who come into companies as "agile change agents" and are supposed to be coaching teams on agile practices. These people ignore the development practices entirely, but that's a discussion for another day. 
 
 ## Coaching TDD
 
@@ -46,27 +46,11 @@ In addition to the design benefits and yielding higher quality code (which I wou
 
 When practicing TDD the code is constantly in a working state. The micro-steps of creating a very small unit test and making it pass means that the system stays broken for no more than a minute or two. If something doesn't work you simply have to revert a small amount of code and try again. The days of Debugger-Driven Development are over. This is why error localization is such an important part of unit testing (as Michael Feathers describes in his book _Working Effectively with Legacy Code_)
 
-### Resilient to Interruptions
+### Resilience to Interruptions
 
-Everyone knows the meme that interrupting a working developer results in a huge setback and a very grumpy developer. This is based on the belief that they have to load a huge amount of complex system state in their head to get back to addressing the
- problem. A lot of developers consider it a badge of honor that they mentally juggle this much complexity everyday. However, this an unnecessary and wasteful way of working. Practicing TDD ensures that you aren't required to have much of the problem state in your head at any one time. In fact, starting with enough of the problem to make a single, very small test pass is sufficient enough to start. This makes interruptions, meetings, appointments, phone calls, emergencies, questions, etc., not nearly as disruptive as they are when not practicing TDD. 
+I'm sure a lot of people have seen the meme and corresponding comic strip about interrupting a working programmer. It results in a huge setback and a very grumpy developer because they have been pulled completely out of their flow. This is based on the belief that developers have to load a huge amount of complex system state in their head to get back to addressing the
+ problem. Many software developers consider it a badge of honor that they mentally juggle this much complexity everyday. However, this an unnecessary and wasteful way of working. Practicing TDD ensures that you aren't required to have much of the problem state in your head at any one time. In fact, starting with enough of the problem to make a single, very small test pass is sufficient enough to start. This makes interruptions, meetings, appointments, phone calls, emergencies, questions not nearly as disruptive as they are when not practicing TDD. In fact TDD often facilitates collaboration over working in isolation (more on that later).
 
 ### Incremental Development & Evolutionary Design
 
-TDD requires developers to get really good at incrementally developing working features and evolutionary software design. Gone are the days of struggling for months only to knock out the work in several long nights and weekends (while the resulting code looks like it was written by candlelight by bleary-eyed developers). This helps developers build much better problem solving skills and development practices, yielding higher quality code. 
-
-### Psychological Benefits
-
-Another benefit of incremental development is the psychological benefits it provides. Instead of developers struggling for
- weeks or months on end not knowing how far they are from a solution, everyday they are writing dozens (or more) of failing tests and making them pass. This concrete progress towards their goals helps developers visualize their progress towards a larger solution. 
-
-### Combined with Pair Programming
-
-When combined with pair programming, in a practice called [Ping Pong Pair Programming](/2015/04/18/ping-pong-pair-programming.html), TDD creates a powerful workflow,
- opportunities for team collaboration, and helps create a culture of mentoring on development teams.
-
-## Next Steps
-
-To coach TDD the best way is to do it hands-on. If you or developers in your organization have experience with TDD, pair with those who don't. Set aside time for the team to get together and practice these techniques. Sometimes doing it as a group can yield insights shared with the team and can be great for team building. There are several fantastic books on this subject, but I would start with Kent Beck's [Test-Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/ref=sr_1_1?s=books&ie=UTF8&qid=1495277882&sr=1-1&keywords=tdd+by+example).
-
-<img class="img-responsive" src="/img/tdd_by_example.jpg" />
+TDD requires developers to get really good at incrementally developing working features and evolutionary software design. Gone are the days of struggling for months only to knock out the work in several long nights and weekends (while the resulting code looks like it was written by candlelight by bleary-eyed developers). This helps developers build much better problem solving skills and development practices, yielding higher quality code. ### Psychological Benefits Another benefit of incremental development is the psychological benefits it provides. Instead of developers struggling for weeks or months on end not knowing how far they are from a solution, everyday they are writing dozens (or more) of failing tests and making them pass. This concrete progress towards their goals helps developers visualize their progress towards a larger solution. ### Combined with Pair Programming When combined with pair programming, in a practice called [Ping Pong Pair Programming](/2015/04/18/ping-pong-pair-programming.html), TDD creates a powerful workflow, opportunities for team collaboration, and helps create a culture of mentoring on development teams. ## Next Steps To coach TDD the best way is to do it hands-on. If you or developers in your organization have experience with TDD, pair with those who don't. Set aside time for the team to get together and practice these techniques. Sometimes doing it as a group can yield insights shared with the team and can be great for team building. There are several fantastic books on this subject, but I would start with Kent Beck's [Test-Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/ref=sr_1_1?s=books&ie=UTF8&qid=1495277882&sr=1-1&keywords=tdd+by+example). <img class="img-responsive" src="/img/tdd_by_example.jpg" />
