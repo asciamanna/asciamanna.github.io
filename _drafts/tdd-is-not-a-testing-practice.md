@@ -7,7 +7,7 @@ category: development practices
 tags: ['tdd']
 ---
 
-Developers, managers, and technical leaders often give the advice that unit tests are more important than TDD. They will make statements like _"As long as you are creating unit tests I don't care whether you write them first or last."_ This is unfortunate advice as it overlooks all of the benefits of TDD. 
+Developers, managers, and technical leaders often give the advice that unit tests are more important than TDD. They will make statements like _"As long as you are creating unit tests I don't care whether you write them first or last."_ This advice is unfortunate as it overlooks all of the benefits of TDD. 
 
 ## Misunderstanding the Purpose of TDD 
 ### HERE
