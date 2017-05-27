@@ -11,7 +11,7 @@ Developers, managers, and technical leaders often give advice that indicates tha
 
 ## Misunderstanding the Purpose of TDD 
 
-There is a widespread misunderstanding in the industry about the purpose of TDD. Often people believe that the primary justification of practicing TDD is the creation of unit tests. Believing this leads people to come to the conclusion that TDD is just one of many ways arrive at having a unit test suite. However, this line of thinking illustrates the most common misunderstanding when it comes to TDD: that TDD is a testing practice.
+There is a widespread misunderstanding in the industry about the purpose of TDD. Often people believe that the primary justification for practicing TDD is the creation of unit tests. Believing this leads people to the conclusion that TDD is just one of many ways arrive at having a unit test suite. However, this line of thinking illustrates the most common misunderstanding when it comes to TDD: that TDD is a testing practice.
 
 When practicing TDD, a high quality unit test suite is a secondary benefit. It can even be considered a side-effect of the practice. TDD is a software design and development practice first and foremost. Those who believe writing tests last is equally beneficial are missing the significant software design and development benefits of the practice.
 
