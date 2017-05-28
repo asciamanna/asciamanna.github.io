@@ -7,11 +7,11 @@ category: development practices
 tags: ['tdd']
 ---
 
-Developers, managers, and technical leaders often give advice indicating that unit tests are more important than TDD. They will make statements like _"As long as you are creating unit tests I don't care whether you write them first or last."_ This advice is unfortunate as it overlooks all of the benefits of TDD. 
+Developers, managers, and technical leaders often say they don't care whether unit tests are written first or last, just as long as they get written. This is indicative of the belief that the existence of tests is more important than the method used to create them. Unfortunately, this advice disregards all of the benefits of test-driven development (TDD). 
 
 ## Misunderstanding the Purpose of TDD 
 
-There is a widespread misunderstanding in the industry about the purpose of TDD. Often people believe that the primary justification for practicing TDD is the creation of unit tests. Believing this leads people to the conclusion that TDD is just one of many ways to arrive at having a unit test suite. However, this illustrates the most common misunderstanding when it comes to TDD: that TDD is a testing practice.
+There is widespread misunderstanding in the industry about the purpose of TDD. Often people believe that the primary justification for practicing TDD is the creation of unit tests. This illustrates the most common misunderstanding of TDD: that TDD is a testing practice.
 
 When practicing TDD, a high quality unit test suite is a secondary benefit. It can even be considered a side-effect of the practice. TDD is a software design and development practice first and foremost. Those who believe writing tests last is equally beneficial are missing the significant software design and development benefits of the practice.
 
@@ -26,14 +26,15 @@ I also commonly hear statements like _"I think TDD is a great practice, but my t
 
 Too often teams aren't encouraged to practice TDD because there is resistance to doing it. It's a practice that takes time
  and expertise to master, so it is common for developers to decide it is not for them. It changes a developer's workflow significantly so it will generate discomfort early on. Technical leaders often take the easy way out and say, _"as long as you write unit tests it's okay."_ 
- 
+
+The vast majority of developers who don't want to practice TDD have never tried it.  
  Teams should be encouraged to learn TDD and development organizations should be educated on all of the benefits of TDD.
- The vast majority of developers who don't want to practice TDD have never tried it. It is vital that safe learning environments are created so that developers can learn and practice without feeling like it will only interfere with their ability to _"ship features faster"_. Too often this is the short-sighted reason that teams give to avoid the practice. 
+ It is vital that safe learning environments are created so that developers can learn and practice without feeling like it will only interfere with their ability to _"ship features faster"_. Too often this is the short-sighted reason that teams give to avoid the practice. 
 
 
 ## The Inconspicuous Benefits of TDD
 
-The benefits of TDD and the near instantaneous feedback cycles it produces are addictive and extremely valuable. There are many benefits beyond software design that are equally as valuable. These are obvious for TDD practitioners, but are a bit more subtle and overlooked by those who are not.
+The benefits of TDD and the near instantaneous feedback cycles it produces are addictive and extremely valuable. Many benefits exist beyond software design and the creation of unit tests. These benefits are obvious to seasoned TDD practitioners, but are a bit more subtle and overlooked by those who are not.
 
 ### Continuously Working Software
 
@@ -43,10 +44,10 @@ There is simply no faster feedback loop for developers. The fast feedback loop c
 
 ### Resilience to Interruptions
 
-There is a comic strip about interrupting a working programmer. It depicts an angry developer because they have been pulled completely out of their flow, a major setback for them. This is based on the belief that developers have to load a huge amount of complex system state in their head to program.
+There is a comic strip about interrupting a working programmer and the enormous setback it causes. This is based on the belief that developers have to load a huge amount of complex system state in their head to program.
 Too many software developers consider it a badge of honor that they mentally juggle this much complexity everyday. However, this an unnecessary and wasteful way of working. 
  
- Practicing TDD ensures that you aren't required to have much of the problem state in your head at any given time. Each passing unit test is a way to document a fact about the system. Simply starting with enough of the problem to make a single, very small test pass is all that is necessary. This makes all forms of interruptions (meetings, appointments, phone calls, emergencies, etc.) not nearly as disruptive as they are when not practicing TDD. 
+ Practicing TDD ensures that you aren't required to have much of the problem state in your head at any given time. Each passing unit test is a way to document a fact about the system. Simply starting with enough of the problem to make a single, very small test pass is all that is necessary to begin. This makes all forms of interruptions (meetings, appointments, phone calls, emergencies, etc.) not nearly as disruptive as they are when not practicing TDD. 
 
 ### Incremental Development & Evolutionary Design
 
