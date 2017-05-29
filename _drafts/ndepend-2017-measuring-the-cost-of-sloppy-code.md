@@ -16,6 +16,8 @@ I find several important use cases for static code analysis in development organ
 ## Smart Technical Debt Estimation
 I was originally planning on describing in detail how to configure and use these new features, however [Erik Dietrich](http://www.daedtech.com) has written two fantastic articles....
 
+Debt Panel image
+
 1. Bootstrapped rules -- comes with a set of rules already just like NDepend does. YOu can start examining your code quality issues immediately. 
 1. You can change rules you disagree with. It is a slippery slope. Turning off type too big or systematic complexity rules is not going to help you improve your code base. 
 1. Change the estimation technique
