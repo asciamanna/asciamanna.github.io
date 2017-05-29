@@ -13,11 +13,11 @@ Developers, managers, and technical leaders often say they don't care whether un
 
 There is widespread misunderstanding in the industry about the purpose of TDD. Often people believe that the primary justification for practicing TDD is the creation of unit tests. This illustrates the most common misunderstanding of TDD: that TDD is a testing practice.
 
-When practicing TDD, a high quality unit test suite is a secondary benefit. It can even be considered a side-effect of the practice. TDD is a software design and development practice first and foremost. Those who believe writing tests last is equally beneficial are missing the significant software design and development benefits of the practice.
+When practicing TDD, a high quality unit test suite is a secondary benefit. It can even be considered a side-effect of the practice. TDD is a software design and development practice first and foremost. Those who believe writing tests last is equally beneficial are missing the significant software design and development benefits of TDD.
 
 ### Interviews
 
-I interview a wide variety of roles in development organizations, from developers and coaches to managers and directors. Typically discussions about XP development practices arise in these interviews. I expect some level of familiarity with XP practices as they help teams build quality software and gel as a team. If these interviews are indicative of the broader industry, there is still a lot of misconceptions about TDD and the other XP practices. The most common response I hear when I ask about whether the candidate practices, encourages, or values TDD is, _"Yeah, the team writes unit tests."_ People too often conflate the act of unit testing with TDD. 
+I interview a wide variety of roles in development organizations, from developers and coaches to managers and directors. Typically discussions about XP development practices arise in these interviews. I expect some level of familiarity with XP practices as they help teams build quality software and gel as a team. If these interviews are representative of the broader industry, there is still a lot of misconceptions about TDD and the other XP practices. The most common response I hear when I ask about whether the candidate practices, encourages, or values TDD is, _"Yeah, the team writes unit tests."_ People too often conflate the act of unit testing with TDD. 
 
 
 I also commonly hear statements like _"I think TDD is a great practice, but my team doesn't do it. It's not my place to tell the team how to write code."_ True, you shouldn't **tell** the team how to write code but you should coach, show, and motivate them to learn these practices. Getting developers out of their comfort zone to learn something new is part of the job of a senior developer or technical leader.
@@ -29,7 +29,7 @@ Too often teams aren't encouraged to practice TDD because there is resistance to
 
 The vast majority of developers who don't want to practice TDD have never tried it.  
  Teams should be encouraged to learn TDD and development organizations should be educated on all of the benefits of TDD.
- It is vital that safe learning environments are created so that developers can learn and practice without feeling like it will only interfere with their ability to _"ship features faster"_. Too often this is the short-sighted reason that teams give to avoid the practice. 
+ It is vital that safe learning environments are created so that developers can learn and practice without feeling like it will only interfere with their ability to _"ship features faster"_. Too often this is the short-sighted reason that developers provide to avoid the practice. 
 
 
 ## The Inconspicuous Benefits of TDD
