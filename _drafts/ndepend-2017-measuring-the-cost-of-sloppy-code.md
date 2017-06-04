@@ -11,12 +11,23 @@ If you have been reading my blog you know that I think static code analysis is a
 I've previously written about the [importance of static code analysis here](/2015/08/30/the-importance-of-static-code-analysis.html). As I work with teams that spend the vast majority of their time in the .NET technology stack I recommend [NDepend](http://www.ndepend.com) as I believe it's the best tool available to measure
 and track code quality for .NET applications.
 
-I find several important use cases for static code analysis in development organizations. I won't go over them in detail but here but generally the one I think is most important is that developers trying to improve code quality issues in a code base or trying to keep the code quality high in a world where constant change is the norm. Whether it be changes in team expectations, requirements, team members, understanding of the domain, etc. This is really where [NDepend](http://www.ndepend) shines. In its latest version it has added two new features that significantly advance it's already thorough code quality features. These are what Patrick Smacchia (creator of NDepend) calls _Smart Technical Debt Estimation_ and _Quality Gates_.
+I find several important use cases for static code analysis in development organizations. The one I want to focus on today is the case where development teams need to create and maintain high quality code amidst constant changes. Whether it be changes in team expectations, requirements, team members, understanding of the domain, etc. This is really where [NDepend](http://www.ndepend) shines. In the latest version two new features have been added that significantly advance its already thorough code quality features, _Smart Technical Debt Estimation_ and _Quality Gates_.
+
+Too often organizations with code quality issues don't know how bad the quality is and if it is improving or getting worse over time. It is not uncommon for organizations with quality problems to ignore training, workshops, and other activities that will help teams build the skills necessary to fix code quality issues. NDepend 2017 can help with all of these concerns. 
 
 ## Smart Technical Debt Estimation
-I was originally planning on describing in detail how to configure and use these new features, however [Erik Dietrich](http://www.daedtech.com) has written two fantastic articles....
 
-Debt Panel image
+If you are familiar with NDepend already the way the Smart Technical Debt Estimation works will not come as a surprise. It is driven by a set of CQLinq rules and they come pre-configured with a new NDepend project. The importance of this cannot be understated. Within a minute or two you will be provided with a technical debt grade for your software. 
+
+This new Debt panel can be found in the middle of the dashboard.
+<img class="img-responsive" src="/img/ndepend2017-debt-dashboard.png" />
+
+### Debt Percentage
+The debt percentage is the first calculation found in the panel. 
+
+### Debt Rating
+
+### Explore Debt
 
 1. Bootstrapped rules -- comes with a set of rules already just like NDepend does. YOu can start examining your code quality issues immediately. 
 1. You can change rules you disagree with. It is a slippery slope. Turning off type too big or systematic complexity rules is not going to help you improve your code base. 
