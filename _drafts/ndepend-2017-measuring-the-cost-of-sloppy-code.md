@@ -35,10 +35,11 @@ Adding test coverage enables two additional metrics, which are related: _Annual 
 The [breaking point metric](http://www.ndepend.com/docs/technical-debt#BreakingPoint) for a collection of issues, is the time from now to some time in the future where the estimated cost to fix the issues will reach the estimated cost to not fix the issues. The breaking point is calculated using the annual interest metric, dividing the debt by it. The higher the annual interest is for a specific issue the higher the priority to fix the issue.
 
 ### Debt Settings
-The debt settings come with sensible defaults and the definitions based on the SQALE method, however all of this is configurable. Estimates about working hours and vacation can all be adjusted to tailor these calculations for your organization. 
+The debt settings come with default settings that can be used as-is, however all of this is configurable. Estimates about working hours and vacation can all be adjusted to tailor these calculations for your organization. However, I would caution that changing items based on the SQALE method, like debt rating thresholds, can be a slippery slope.
 
-Not perfect still just an estimate.
+Remember like any other rule in NDepend if there are specific rules affecting code quality that you do not agree with you can disable them for your organization. Erik Dietrich gives a great example in his post on the new version of NDepend (link it here). In it he describes the **method too long** rule that is violated for long unit test names. I agree with him that long unit test names are desirable so that would be one I would disable for unit tests. However, be very careful about disabling these issues. Again, this is a slippery slope. With a little work these calculations can reinforce our biases if enough of the rules are disabled. 
 
+????
 Enables conversations with business. Coming into organizations with a lot of code issues it is hard to make the cost of years of poor coding practices and pressure visible outside of the technical organization. Some agile coaches try to do this by creating "technical debt" backlogs which I [disagree with]. 
 
 ### Visibility of Sloppy Code
