@@ -29,9 +29,7 @@ The debt rating, also based on the [SQALE method](http://www.sqale.org) is deriv
 Just below the rating you see debt expressed as the total amount of working days to fix. As with other calculations in NDepend clicking debt, the debt ratio, or debt rating will show the CQLinq rule used to perform the calculation. As with other panels in NDepend trending metrics will show next to the value as analysis is run over time.  
 
 ### Completing the Picture 
-Adding test coverage enables two additional metrics, which are related: _Annual Interest and Breaking Point_
-
-#### Annual Interest & Breaking Point
+Adding test coverage enables two additional metrics, which are related: _Annual Interest and Breaking Point_.
 The [breaking point metric](http://www.ndepend.com/docs/technical-debt#BreakingPoint) for a collection of issues, is the time from now to some time in the future where the estimated cost to fix the issues will reach the estimated cost to not fix the issues. The breaking point is calculated using the annual interest metric, dividing the debt by it. The higher the annual interest is for a specific issue the higher the priority to fix the issue.
 
 ### Debt Settings
