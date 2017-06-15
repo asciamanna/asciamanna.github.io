@@ -7,7 +7,7 @@ category: development practices
 tags: ['tdd']
 ---
 
-Developers, managers, and technical leaders often say they don't care whether unit tests are written first or last, just as long as they get written. This is indicative of the belief that the existence of tests is more important than the method used to create them. Unfortunately, this advice disregards all of the benefits of test-driven development (TDD). 
+Too often I hear people say they don't care whether unit tests are written first or last, just as long as they get written. This is indicative of the belief that the existence of tests is more important than the method used to create them. Unfortunately, this advice disregards all of the benefits of test-driven development (TDD). 
 
 ## Misunderstanding the Purpose of TDD 
 
@@ -17,14 +17,13 @@ When practicing TDD, a high quality unit test suite is a secondary benefit. It c
 
 ### Interviews
 
-I interview a wide variety of roles in development organizations, from developers and coaches to managers and directors. Typically discussions about XP development practices arise in these interviews, as I expect some level of familiarity with them. If these interviews are representative of the broader industry, there is still a lot of misconceptions about TDD. The most common response I hear when I ask about whether the candidate practices, encourages, or values TDD is, _"Yeah, the team writes unit tests."_ People too often conflate the act of unit testing with TDD. 
-
+I interview a wide variety of roles in development organizations, from developers and coaches to managers and directors. Typically discussions about XP development practices arise in these interviews, as I expect some level of familiarity with them. If these interviews are representative of the broader industry, there is still a lot of misconceptions about TDD. The most common response I hear when I ask about whether the candidate practices, encourages, or values TDD is, _"Yeah, the team writes unit tests."_ People too often conflate the act of unit testing with TDD. This doesn't come as a surprise to me as I still see a lack of coaching around TDD and other XP practices.
 
 I commonly hear statements like _"I think TDD is a great practice, but my team doesn't do it. It's not my place to tell the team how to write code."_ True, you shouldn't **tell** the team how to write code but you should coach, show, and motivate them to learn these practices. Getting developers out of their comfort zone to learn something new is part of the job of a senior developer or technical leader.
 
 ## Coaching TDD
 
-Too often teams aren't encouraged to practice TDD because there is resistance to doing it. It's a practice that takes time
+Too often teams aren't encouraged to practice TDD because there is resistance to trying it. It's a practice that takes time
  and expertise to master, so it is common for developers to decide it is not for them. It changes a developer's workflow significantly so it will generate discomfort early on. Technical leaders often take the easy way out and say, _"as long as you write unit tests it's okay."_ 
 
 The vast majority of developers who don't want to practice TDD have never tried it.  
