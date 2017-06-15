@@ -11,7 +11,7 @@ Static code analysis is an [essential tool](/2015/08/30/the-importance-of-static
 
 In the .NET technology stack [NDepend](http:/www.ndepend.com) sits above the rest in its ability to continuously measure code quality over time. In the latest version, [NDepend 2017](http://www.ndepend.com/ndepend-v2017) two new features have been added that significantly advance its already thorough code quality features, _Smart Technical Debt Estimation_ and _Quality Gates_.
 
-Too often organizations with code quality issues don't know how bad the quality is. They may make half-hearted attempts at improvement and never know if these changes are having any real effect on the quality of the system. It is not uncommon for organizations with quality problems to ignore training, workshops, and other activities that will help teams build the skills necessary to fix code quality issues. NDepend 2017 can give organizations data to address these concerns. 
+Too often organizations with code quality issues don't know how bad the code really is. They may make half-hearted attempts at improvement and never know if these changes are having any real effect on the quality of the system. It is not uncommon for organizations with quality problems to ignore training, workshops, and other activities that will help teams build the skills necessary to fix code quality issues. NDepend 2017 can give organizations data to address these concerns. 
 
 ## Smart Technical Debt Estimation
 
