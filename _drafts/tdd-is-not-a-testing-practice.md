@@ -56,12 +56,12 @@ TDD requires developers to learn evolutionary software design techniques and how
 
 Another benefit of incremental development is the psychological benefits it produces. Instead of developers struggling for months on end not knowing how far they are from a solution, everyday they are writing many small failing tests and making them pass. This concrete progress towards their goals helps developers visualize their progress towards the larger solution. Visualizing incremental progress is powerful much in the same way crossing tasks off to-do lists is. Here is how I described the benefits in a previous post:
 
-> Progress is swift but feels like it moves as a comfortable pace. There are concrete indicators of forward progress as the number of passing unit tests increases. This helps developers work without stress as there isn't a specter of murky progress toward an unclear goal hanging over them. <br />
+> Progress is swift but feels like it moves at a comfortable pace. There are concrete indicators of forward progress as the number of passing unit tests increases. This helps developers work without stress as there isn't a specter of murky progress toward an unclear goal hanging over them. <br />
 
 
 ### Combined with Pair Programming 
 
-TDD often facilitates developer collaboration. When combined with pair programming, in a practice called [Ping Pong Pair Programming](/2015/04/18/ping-pong-pair-programming.html), TDD creates a powerful workflow, opportunities for team collaboration, and helps create a culture of mentoring on development teams. It does this by creating extremely short feedback cycles within the pairing session ideal for mentoring developers.
+TDD often facilitates developer collaboration. When combined with pair programming, in a practice called [Ping Pong Pair Programming](/2015/04/18/ping-pong-pair-programming.html), TDD creates a powerful workflow, opportunities for team collaboration, and helps create a culture of mentoring on development teams. It does this by creating extremely short feedback cycles within the pairing session, ideal for mentoring developers.
 
 ## Next Steps 
 
