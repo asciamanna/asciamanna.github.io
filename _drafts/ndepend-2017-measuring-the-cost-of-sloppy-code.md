@@ -22,7 +22,7 @@ It goes without saying that these types of organizations have not yet mastered t
 If you are familiar with NDepend already the way the Smart Technical Debt Estimation works will not come as a surprise. It is driven by a set of CQLinq rules introduced as presets within a new NDepend project. The importance of this cannot be understated. Within a minute or two you will be provided with a technical debt ratio and debt rating for your software. Armed with this new information you can now start to understand the the depth and types of issues in the code base, and come up with a plan to begin addressing them.  
 
 This new Debt panel is impossible to ignore, being found in the middle of the dashboard.
-<img class="img-responsive" src="/img/ndepend2017-debt-dashboard.png" />
+<img class="img-responsive" src="/img/ndepend2017-debt-dashboard.png" alt="NDepend 2017 Debt Dashboard" />
 
 ### Debt Ratio
 
@@ -35,12 +35,12 @@ The debt rating, also based on the [SQALE method](http://www.sqale.org) is deriv
 Just below the rating you see debt expressed as the total amount of working days to fix. As with other calculations in NDepend clicking debt, the debt ratio, or debt rating will show the CQLinq rule used to perform the calculation. As with other panels in NDepend trending metrics will show next to the value as analysis is run over time.  
 
 ### Completing the Picture 
-Adding test coverage enables two additional metrics, which are related: _Annual Interest and Breaking Point_. You can find out more about them in the NDepend documentation on the [breaking point metric] (http://www.ndepend.com/docs/technical-debt#BreakingPoint). 
+Adding test coverage enables two additional metrics, which are related: _Annual Interest and Breaking Point_. You can find out more about them in the NDepend documentation on the [breaking point metric](http://www.ndepend.com/docs/technical-debt#BreakingPoint). 
 
 ### Debt Exploration & Settings
 At the bottom of the panel is an "Explore Debt" dropdown which will take you to the various collections of rules affecting the technical-debt calculations. Also included in this dropdown is a link to the project debt settings.
 
-<img class="img-responsive" src="/img/debt-settings.png />
+<img class="img-responsive" src="/img/debt-settings.png" alt="NDepend 2017 Projet Debt Settings"/>
 
 The default debt settings can be used as-is, however all of these settings are configurable. Estimates about working hours and vacation can all be adjusted to refine these calculations for your organization. However, I would caution that changing items based on the SQALE method, debt rating thresholds for example, can be a slippery slope.
 
