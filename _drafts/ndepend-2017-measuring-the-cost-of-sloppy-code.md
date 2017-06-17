@@ -25,9 +25,11 @@ This new Debt panel is impossible to ignore, being found in the middle of the da
 <img class="img-responsive" src="/img/ndepend2017-debt-dashboard.png" />
 
 ### Debt Ratio
+
 The debt percentage is the first calculation found in the panel. This [debt ratio in NDepend](http://www.ndepend.com/docs/technical-debt#DebtRating) is based on the [SQALE method](http://www.sqale.org/) debt ratio. This ratio is the estimated technical-debt compared to the effort it would would take to completely rewrite the problem areas of the code. To estimate the rewrite effort, the size of the problematic code (in lines of code) along with an estimated number of working days to write 1000 lines of code is used. 
 
 ### Debt Rating
+
 The debt rating, also based on the [SQALE method](http://www.sqale.org) is derived from a debt ratio threshold. These thresholds are set to defaults but are configurable in NDepend along with the number of working days to write a 1000 lines of code in the debt settings.
 
 Just below the rating you see debt expressed as the total amount of working days to fix. As with other calculations in NDepend clicking debt, the debt ratio, or debt rating will show the CQLinq rule used to perform the calculation. As with other panels in NDepend trending metrics will show next to the value as analysis is run over time.  
