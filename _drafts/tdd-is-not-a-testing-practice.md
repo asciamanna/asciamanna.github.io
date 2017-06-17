@@ -17,9 +17,9 @@ When practicing TDD, a high quality unit test suite is a secondary benefit. It c
 
 ### Interviews
 
-I have interviewed candidates for a wide variety of roles in development organizations. Typically discussions about XP development practices arise in these interviews, as I expect some level of familiarity with them. If these interviews are representative of the broader industry, there is still a lot of misconceptions about TDD. The most common response I hear when I ask about whether the candidate practices, encourages, or values TDD is, _"Yeah, the team writes unit tests."_ People too often conflate the act of unit testing with TDD. This doesn't come as a surprise to me as I still see a lack of coaching around TDD and other XP practices.
+I have interviewed candidates for a wide variety of roles in development organizations. Typically discussions about XP development practices arise in these interviews, as I expect some level of familiarity with them. If these interviews are representative of the broader industry, there is still a lot of misconceptions about TDD. The most common response I hear when I ask about whether the candidate practices, encourages, or values TDD is, _"Yeah, the team writes unit tests."_ Too often people conflate the act of unit testing with TDD. This doesn't come as a surprise to me because I still see a lack of coaching around TDD and other XP practices.
 
-I commonly hear statements like _"I think TDD is a great practice, but my team doesn't do it. It's not my place to tell the team how to write code."_ True, you shouldn't **tell** the team how to write code but you should coach, show, and motivate them to learn these practices. Getting developers out of their comfort zone to learn something new is part of the job of a senior developer or technical leader.
+I commonly hear statements like _"I think TDD is a great practice, but my team doesn't do it. It's not my place to tell the team how to write code."_ True, you shouldn't **tell** the team how to write code, but you should coach, show, and motivate them to learn these practices. Getting developers out of their comfort zone to learn something new is part of the job of a senior developer or technical leader.
 
 ## Coaching TDD
 
@@ -54,10 +54,10 @@ TDD requires developers to learn evolutionary software design techniques and how
 
 #### Psychological Benefits 
 
-Another benefit of incremental development is the psychological benefits it produces. Instead of developers struggling for months on end not knowing how far they are from a solution, everyday they are writing many small failing tests and making them pass. This concrete progress towards their goals helps developers visualize their progress towards the larger solution. Visualizing incremental progress is powerful much in the same way crossing tasks off todo lists is. 
+Another benefit of incremental development is the psychological benefits it produces. Instead of developers struggling for months on end not knowing how far they are from a solution, everyday they are writing many small failing tests and making them pass. This concrete progress towards their goals helps developers visualize their progress towards the larger solution. Visualizing incremental progress is powerful much in the same way crossing tasks off to-do lists is. Here is how I described the benefits in a previous post:
 
-> Progress is swift but feels like it moves as a comfortable pace. There are concrete indicators of forward progress as the number of passing unit tests increases. This helps developers work without stress as there isn't a specter of murky progress toward an unclear goal hanging over them <br />
-> &mdash; [Martin Fowler](http://www.martinfowler.com), TDD By Example Introduction 
+> Progress is swift but feels like it moves as a comfortable pace. There are concrete indicators of forward progress as the number of passing unit tests increases. This helps developers work without stress as there isn't a specter of murky progress toward an unclear goal hanging over them. <br />
+
 
 ### Combined with Pair Programming 
 
