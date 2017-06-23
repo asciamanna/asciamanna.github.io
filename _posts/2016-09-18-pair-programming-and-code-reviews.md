@@ -92,7 +92,7 @@ Additionally, these regular reviews allow for teams to create coding standards a
 
 ## Our Process
 
-My team pairs on a majority of production code as a team rule. There are exceptions, but they are just that, exceptions not the rule. We have combined this practice with issuing pull requests to get our code reviewed and merged into our master branch. This practice is very similar to [the Github Flow](https://guides.github.com/introduction/flow/).
+My team pairs on a majority of production code as a team rule. There are exceptions, but they are just that, exceptions not the rule. We have combined this practice with issuing pull requests to get our code reviewed and merged into our master branch. This practice has some similarities to [the Github Flow](https://guides.github.com/introduction/flow/) but differs in one very important aspect. We create these very short lived branches to facilitate asynchronous code reviews, only. We ensure that these branches live for less than a day so that we can continue to practice Continuous Integration.
 
 A pair of developers will pick a task for the highest priority user story that is currently in progress. They will make sure that they can work on the task without interfering with another pair, or they will start a task associated with the next highest priority story. Once they begin development, they create a branch off of our master branch. When the task is complete they issue a pull request back to the master branch. Every other developer on the team is included on the pull request. The pair addresses pull request comments in their branch and get at least two approvals before merging their code back into the master branch.
 
