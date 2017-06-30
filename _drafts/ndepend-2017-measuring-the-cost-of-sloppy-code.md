@@ -32,7 +32,7 @@ The debt percentage is the first calculation found in the panel. This [debt rati
 
 The debt rating, a value A through E, also based on the [SQALE method](http://www.sqale.org) is derived from a debt ratio threshold. These thresholds are set to defaults but are configurable in NDepend along with the number of working days to write a 1000 lines of code in the debt settings.
 
-Just below the rating you see debt expressed as the total amount of working days to fix. As with other calculations in NDepend clicking debt, the debt ratio, or debt rating will show the CQLinq rule that effect the calculation. Similar to other panels in the NDepend dashboard, trending metrics will show next to the value as analyses are run over time.  
+Just below the rating you see debt expressed as the total amount of working days. As with other calculations in NDepend clicking debt, the debt ratio, or debt rating will show the CQLinq rule that effect the calculation. Similar to other panels in the NDepend dashboard, trending metrics will show next to the value as analyses are run over time.  
 
 ### Completing the Picture 
 
@@ -50,12 +50,12 @@ Like any other rule in NDepend, if a specific rule affecting code quality doesn'
 
 ### Visibility of Sloppy Code
 
-Typically analysis runs in just a few minutes. Once complete you will be presented with a debt ratio, debt rating, as well as an estimate in money and/or time to get to the next rating threshold. Further you will be able to drill into specific issues to identify which ones are the most problematic for the team. This enables you to start having discussions with the business **in their language**. The ability to discuss the cost of specific code quality issues and their impact on the organization is invaluable.
+Typically analysis runs in just a few minutes. Once complete you will be presented with a debt ratio, debt rating, as well as an estimate in money and/or time to get to the next rating threshold. Further you will be able to drill into specific issues to identify which ones are the most problematic for the team. This enables you to start having discussions with the business **in their language**. The ability to discuss the ongoing cost of specific code quality issues and their impact on the organization is invaluable.
 
 Most teams who have quality issues won't be surprised by their low rating. However, being able to see the cost of improvement decreasing as they approach the next debt level will be a great morale booster. It gives the team continuous feedback on the improvements they are making. This immediate feedback is a great way to ensure that the improvements continue and the team doesn't fall back on bad habits when pressure is applied to them.
 
 ### No Time or Budget to Improve
 
-Commonly teams aren't given the time or the budget to improve. Professional developers need time to hone their skills and improve their tooling so they can continuously do the highest quality of work. These NDepend Technical Debt measures enable teams to show a return on the company's investment in training, tooling, etc. I would warn that like everything in software development these gains are incremental and take some time. So you would want to show these gains by improvement in these ratings over a period of time. 
+Commonly teams aren't given the time or the budget to improve. Professional developers need time to hone their skills and improve their tooling so they can continuously deliver high quality features. These NDepend Technical Debt measures enable teams to show a return on the company's investment in training, tooling, etc. I would warn that like everything in software development these gains are incremental and take some time. So you would want to show these gains by improvement in these ratings over a period of time. 
 
 For teams to continuously improve it is important to measure progress, this latest version of NDepend gives teams even more tools to measure their progress.
