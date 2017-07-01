@@ -12,27 +12,33 @@ Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn
 ## What is Shu-Ha-Ri?
 
 > Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery. It is sometimes applied to other disciplines...
-> &mdash [Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
+> &mdash; [Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
 
-You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/Shuhari). I have long heard it discussed in the context of agile software development thanks to talks and articles by [Martin Fowler](https://martinfowler.com/bliki/ShuHaRi.html) and Alistair Cockburn. 
+You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/Shuhari). It has been discussed in the context of agile software development for several years thanks to talks and articles by [Martin Fowler](https://martinfowler.com/bliki/ShuHaRi.html) and [Alistair Cockburn](http://alistair.cockburn.us). 
 
 ### Applied to Agile
-This is how I describe Shu-Ha-Ri as applied to agile teams.
+
+This is how I describe Shu-Ha-Ri as applied to a Scrum team.
+
 #### Shu
-Teams start out in Shu by following the "Scrum Recipes." They don't really understand the value of what they are doing but they are following along. 
+
+Teams start out in Shu by following the Scrum guide like a recipe or formula. They don't understand the value of what they are doing yet but they optimistic and are following along the best they can. 
 
 #### Ha
-When they get to the Ha state they are mastering the practices and starting to understand and really internalize the agile values. They understand more than just "Scrum recipes" but now understand XP, Kanban, lean software development techniques, etc. Now they are starting to understand that all of the "Scrum Recipes" don't always apply to their organization and are beginning to apply other techniques to their daily work.
+
+When the team gets to the Ha state they are performing Scrum well and starting to understand and internalize the value in the practices and agile in general. They understand more than just "Scrum recipes" but now understand XP, Kanban, lean software development techniques, etc. They are recognizing that all of the "Scrum Recipes" don't always apply to their situation and are beginning to apply other techniques to their daily work.
 
 #### Ri
-When teams get to the Ri state they have fully internalized the agile values and have mastered the art of improvisation. They don't follow a strict methodology but adopt practices and methods that best meet their needs given the context of the problem. They grow even further by creating their own new practices that best meet their needs. 
+
+When teams get to the Ri state they have fully internalized the agile values and have mastered the art of improvisation. They don't follow a strict methodology but adopt practices and methods that best meet their needs given the context of the problem. They grow even further by creating their own practices or hybrid practices that best meet their needs. 
 
 ### The Dreyfus Model 
-
+HERE
 ## The Problem with Agile Adoptions
 
 ### Resetting Teams
-One huge issue I see with agile adoptions is that agile coaches come into organizations and try to get the entire organization working the same way. This unfortunately results in forcing every team to follow these strict recipes. I have personally heard coaches state, _"I know that some of you have been practicing agile for ten years, but everyone here has to go back to Shu."_ That comment just proved to me that these coaches didn't really understand what that means to the productivity of the organization. 
+
+One issue I see with agile adoptions is that agile coaches often encourage every team to work the same way. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a short time. The unfortunate result of this however is forcing every team to follow these strict formulas. I've heard coaches say, _"I know that some of you have been practicing agile for ten years, but everyone here has to go back to Shu."_ That comment illustrates that these coaches didn't understand what effect that would have on the productivity and morale of the organization. 
 
 #### Dreyfus Model
 One important aspect of the Dreyfus model research is that in experiments they have found that asking experts to follow the same rules as beginners resulted in the experts performing at the beginner level. 
