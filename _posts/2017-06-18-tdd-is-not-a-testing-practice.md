@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: TDD is Not a Testing Practice 
+title: TDD is not a Testing Practice 
 comments: true
 category: development practices
 tags: ['tdd']
