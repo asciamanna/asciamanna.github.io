@@ -46,10 +46,6 @@ HERE
 
 One issue I see with agile adoptions is that some agile consultants encourage every team in a development organization to work the same way. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. The unfortunate result of this however is forcing every team to follow these strict formulas. I've heard one consultant say, _"I know that some of you have been practicing agile for a decade, but everyone here has to go back to Shu."_ That comment illustrates that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">it never fails that the people who make training wheels are always coming up with new ways to convince people to use them forever</p>&mdash; Scott Bellware (@sbellware) <a href="https://twitter.com/sbellware/status/874772995960688640">June 13, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
 #### Dreyfus Model
 One important aspect of the Dreyfus model research is that in experiments they have found that asking experts to follow the same rules as beginners resulted in the experts performing at the beginner level. 
 
