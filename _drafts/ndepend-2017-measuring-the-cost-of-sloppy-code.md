@@ -52,7 +52,7 @@ Like any other rule in NDepend, if a specific rule affecting code quality doesn'
 
 Once the analysis is complete you will be presented with a debt ratio, debt rating, as well as an estimate in money or time to get to the next rating threshold. Further you will be able to drill into specific issues to identify which ones are the most problematic. This enables you to start having discussions with the business **in their language**. The ability to discuss the ongoing cost of specific code quality issues and their impact on the organization is invaluable.
 
-Most teams who have quality issues won't be surprised by their low rating. However, being able to see the cost of improvement decreasing as they approach the next debt rating level will be a great morale booster. It gives the team continuous feedback on the improvements they are making. This immediate feedback is a great way to ensure that the improvements continue and the team doesn't fall back on bad habits when pressure is applied to them.
+Most teams who have quality issues won't be surprised by their low rating. However, being able to see the cost of improvement decreasing as they approach the next debt rating level will be a great morale booster. It gives teams continuous feedback about the improvements they are making. This immediate feedback is a great way to ensure that the improvements continue and the team doesn't fall back on bad habits when pressure is applied to them.
 
 ### No Time or Budget to Improve
 
