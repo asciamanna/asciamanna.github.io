@@ -16,6 +16,8 @@ Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn
 
 You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/Shuhari). It has been discussed in the context of agile software development for several years thanks to [Martin Fowler](https://martinfowler.com/bliki/ShuHaRi.html), [Alistair Cockburn](http://alistair.cockburn.us), and others. 
 
+<img class="img-responsive" src="/img/shu-ha-ri.png" alt="Shu Ha Ri" />
+
 ### Applied to Agile
 
 This is how I describe Shu-Ha-Ri as applied to a Scrum team.
@@ -37,11 +39,12 @@ When teams get to the Ri state they have fully internalized the agile values and
  
 ### The Dreyfus Model 
 HERE
+
 ## The Problem with Agile Adoptions
 
 ### Resetting Teams
 
-One issue I see with agile adoptions is that agile coaches often encourage every team in a development organization to work the same way. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. The unfortunate result of this however is forcing every team to follow these strict formulas. I've heard coaches say, _"I know that some of you have been practicing agile for a decade, but everyone here has to go back to Shu."_ That comment illustrates that these coaches didn't understand what effect that would have on the productivity and morale of the organization. 
+One issue I see with agile adoptions is that some agile consultants encourage every team in a development organization to work the same way. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. The unfortunate result of this however is forcing every team to follow these strict formulas. I've heard one consultant say, _"I know that some of you have been practicing agile for a decade, but everyone here has to go back to Shu."_ That comment illustrates that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">it never fails that the people who make training wheels are always coming up with new ways to convince people to use them forever</p>&mdash; Scott Bellware (@sbellware) <a href="https://twitter.com/sbellware/status/874772995960688640">June 13, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -78,7 +81,7 @@ The belief is that it's easier for leadership to buy-in to this new way of worki
 
 This results in companies codifying these beginner formulas before the team has a chance to master them. The codifying of the rules ensures that teams cannot deviate from them, because deviation would mean teams were doing things differently. This halts all progress of mastery as teams are permanently stuck in the shu state forever.
 
-### Drive
+## Drive
 The book drive talks about the three things that motivate people: autonomy, mastery and purpose. Preventing teams from getting to the Ha and Ri states destroys both autonomy and mastery on teams. It should come as no surprise that there are so many failed agile adoptions that leave a trail of frustrated people in its wake. 
 
 ## A Better Approach
