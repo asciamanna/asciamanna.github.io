@@ -14,7 +14,7 @@ Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn
 > Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery. It is sometimes applied to other disciplines...
 > &mdash; [Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
 
-You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/Shuhari). It has been discussed in the context of agile software development for several years thanks to talks, books, and articles by [Martin Fowler](https://martinfowler.com/bliki/ShuHaRi.html) and [Alistair Cockburn](http://alistair.cockburn.us). 
+You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/Shuhari). It has been discussed in the context of agile software development for several years thanks to [Martin Fowler](https://martinfowler.com/bliki/ShuHaRi.html), [Alistair Cockburn](http://alistair.cockburn.us), and others. 
 
 ### Applied to Agile
 
@@ -22,7 +22,7 @@ This is how I describe Shu-Ha-Ri as applied to a Scrum team.
 
 #### Shu
 
-Teams start out in Shu by following the Scrum Guide and agile coaches' advice like a recipes or formulas. They don't understand the value of what they are doing yet but they are optimistically following along the best they can. 
+Teams start out in Shu by following the Scrum Guide and agile consultants' advice like a recipes or formulas. They don't understand the value of what they are doing yet but they are optimistically following along the best they can. 
 
 #### Ha
 
@@ -57,18 +57,18 @@ I often hear organizations say _"We do Scrum by the books!"_ They position this 
 
 I understand that these organizations are trying to send a message that they didn't skip the Shu state altogether. Doing Scrum "by-the-books" means that they haven't invented their own practices that completely disregard agile principles and values. Unfortunately, this is something that is very common given how desirable it has become to call an organization "agile".
 
-However, these "by-the-books" organizations that have thankfully not skipped the Shu state are only one step removed from this, since they are now stuck in the Shu state.
+However, these "by-the-books" organizations that have thankfully not skipped the Shu state are only one step removed, being permanently stuck in the Shu state.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Shu-Ha-Ri Considered Harmful? NO, Shu without the Ha and the Ri considered Harmful <a href="https://t.co/e2pQHyrOBa">https://t.co/e2pQHyrOBa</a></p>&mdash; Primitivo Cachero (@primicachero) <a href="https://twitter.com/primicachero/status/877418470140518400">June 21, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Scrum Masters
 
-Great scrum masters can really help teams improve, however having worked on very successful XP teams (without scrum masters) I'm not convinced that they are always required. I've seen well-meaning but poorly prepared scrum masters exacerbate this "By-the-Books" problem because they too are beginners and still just following formulas. 
+Great scrum masters can really help teams improve, however having worked on very successful XP teams I'm not convinced that they are always necessary. I've seen well-meaning but poorly prepared scrum masters exacerbate this "By-the-Books" problem because they too are beginners and still just following formulas. 
 
 To become a scrum master you need to pay for and attend a two day course, pass a test that is nearly impossible to fail, and get your certification. While I know that the creators of Scrum considered this the beginning of your Scrum journey, too often it is the only formal training Scrum Masters ever receive. 
 
-Now we have people with two days of classroom experience with Scrum (and no practical experience), with "Master" in their job title. Unknowing organizations rely on these people as experts and yet they have no more relevant experience than anyone else in the organization. Or worse yet, they actually have much less experience than others in the organization who could never be Scrum Masters because they haven't paid for their two-day certificate. 
+Now we have people whose experience is limited to two days of classroom sessions with the word "Master" in their job title. Unwittingly organizations rely on these people as experts and yet they have no more relevant experience than anyone else in the organization. Or worse yet, they actually have much less experience than others in the organization who could never be Scrum Masters because they haven't paid for their two-day certificate. 
 
 ### Codifying Beginner Formulas
 
