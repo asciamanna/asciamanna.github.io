@@ -7,7 +7,7 @@ category: development practices
 tags: ['agile development']
 ---
 
-Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn.us)'s keynote at the [Heart of Agile 20017](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/) in Pittsburgh. During his talk he discussed Shu-Ha-Ri and the path to mastery. It got me thinking about how many organizations I've seen stifle this mastery before it ever begins to take hold. 
+Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn.us)'s keynote at the [Heart of Agile 20017](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/) in Pittsburgh. During his talk he discussed Shu-Ha-Ri and the path to mastery. It started me thinking about how many organizations I've seen stifle this mastery before it ever begins to take hold. 
 
 ## What is Shu-Ha-Ri?
 
@@ -40,19 +40,20 @@ When teams get to the Ri state they have fully internalized the agile values and
 ### The Dreyfus Model 
 HERE
 
-## The Problem with Agile Adoptions
+## A Problem with Agile Adoptions
 
 ### Resetting Teams
 
-I've encountered agile consultants that encourage every team in a development organization to work the same way. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. Further, the experience within the organization can vary significantly. The unfortunate result of this however is forcing every team to follow these strict formulas. I've heard one consultant say, _"I know that some of you have been practicing agile for a decade, but everyone here has to go back to Shu and follow these steps exactly."_ That comment illustrated that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
+I've encountered agile transformation consultants who encourage every team in a development organization to have identical practices. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. Further, experience within the organization can vary significantly. The unfortunate result of this however is forcing every team to follow these strict formulas. I've heard one consultant say, _"I know that some of you have been practicing agile for a decade, but everyone here has to go back to Shu and follow these steps exactly."_ That comment illustrated that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
 
-#### Dreyfus Model
+#### The Cost of Ri Teams Operating at Shu
+
 One important aspect of the Dreyfus model research is that they have found that asking experts to follow the same rules as beginners resulted in the experts performing at the beginner level. 
 
 ### Scrum "By-the-Books"
 I often hear organizations say _"We do Scrum by the books!"_ They position this as a positive trait of the organization, that they are so advanced in their Scrum implementation that they **follow these recipes exactly**. I cringe when I hear this, because I've seen this translate to teams with morale problems stuck in the Shu state.
 
-I don't have anything against Scrum, I find it a very valuable framework. If you read the Scrum Guide you will realize it is prescriptive but light-weight. However, the "by-the-books" implementations I've seen adds a lot of agile consultant practices on top of the Scrum Guide that teams are explected follow to the letter by their organization. 
+I don't have anything against Scrum, I find it a very valuable framework. Reading the Scrum Guide you will realize it is prescriptive but light-weight. However, the "by-the-books" implementations I've seen adds a lot of agile consultant practices on top of the Scrum Guide that teams are expected follow to the letter by their organization. 
 
 #### Skipping Shu
 
@@ -80,7 +81,7 @@ The belief is that it's easier for leadership to buy-in to this new way of worki
 This results in companies codifying these beginner formulas before the team has a chance to master them. The codifying of these beginner rules ensures that teams cannot deviate from them. This halts all progress towards mastery as teams are permanently stuck in the Shu state.
 
 ## Drive
-The book drive talks about the three things that motivate people: autonomy, mastery and purpose. Preventing teams from getting to the Ha and Ri states destroys both autonomy and mastery on teams. It should come as no surprise that there are so many failed agile adoptions that leave a trail of frustrated people in its wake. 
+The book _[Drive](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805/ref=sr_1_1?ie=UTF8&qid=1500119191&sr=8-1&keywords=drive)_ by [Daniel Pink](https://twitter.com/DanielPink) describes three components to to intrinsic motivation: autonomy, mastery, and purpose. Preventing teams from getting to the Ha and Ri states destroys both autonomy and mastery on teams. It should come as no surprise that there are so many failed agile adoptions that leave a trail of frustrated people in its wake. 
 
 ## A Better Approach
 
