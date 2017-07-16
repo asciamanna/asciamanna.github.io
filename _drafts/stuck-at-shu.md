@@ -24,7 +24,7 @@ This is how I describe Shu-Ha-Ri as applied to a Scrum team.
 
 #### Shu
 
-Teams start out in Shu by following the Scrum Guide and agile consultants' advice like a recipes or formulas. They don't understand the value of what they are doing yet but they are optimistically following along the best they can. 
+Teams start out in Shu by following the Scrum Guide and agile consultants' advice like recipes or formulas. They don't understand the value of what they are doing yet but they are optimistically following along the best they can. 
 
 #### Ha
 
@@ -44,7 +44,7 @@ HERE
 
 ### Resetting Teams
 
-I've encountered agile transformation consultants who encourage every team in a development organization to have identical practices. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. Further, experience within the organization can vary significantly. The unfortunate result of this however is forcing every team to follow these strict formulas. I've heard one consultant say, _"I know that some of you have been practicing agile for a decade, but everyone here has to go back to Shu and follow these steps exactly."_ That comment illustrated that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
+I've encountered agile transformation consultants who encourage every team in a development organization to have identical practices. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. Further, the experience level of teams within the organization can vary significantly. The unfortunate result of this however forces every team to follow these strict formulas. I've heard one consultant say, _"I know that some of you have been practicing agile for a decade, but everyone here has to go back to Shu and follow these steps exactly."_ That comment illustrated that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
 
 #### The Cost of Ri Teams Operating at Shu
 
@@ -53,7 +53,7 @@ One important aspect of the Dreyfus model research is that they have found that 
 ### Scrum "By-the-Books"
 I often hear organizations say _"We do Scrum by the books!"_ They position this as a positive trait of the organization, that they are so advanced in their Scrum implementation that they **follow these recipes exactly**. I cringe when I hear this, because I've seen this translate to teams with morale problems stuck in the Shu state.
 
-I don't have anything against Scrum, I find it a very valuable framework. Reading the Scrum Guide you will realize it is prescriptive but light-weight. However, the "by-the-books" implementations I've seen adds a lot of agile consultant practices on top of the Scrum Guide that teams are expected follow to the letter by their organization. 
+I don't have anything against Scrum, I find it a very valuable framework. Reading the Scrum Guide you will realize it is prescriptive but relatively light-weight. However, the "by-the-books" implementations I've seen adds a lot of agile consultant practices on top of the Scrum Guide that teams are expected follow to the letter by their organization. 
 
 #### Skipping Shu
 
@@ -68,7 +68,7 @@ However, these "by-the-books" organizations that have thankfully not skipped the
 
 Great Scrum Masters can really help teams improve, however having worked on very successful XP teams I'm not convinced that they are always necessary. I've seen well-meaning but poorly prepared Scrum Masters exacerbate this "By-the-Books" problem because they too are beginners and still just following formulas. 
 
-To become a Scrum Master you need to pay for and attend a two day course, pass a test that is nearly impossible to fail, and get your certification. While I know that the creators of Scrum considered this the beginning of your Scrum journey, too often it is the only formal training Scrum Masters ever receive. 
+To become a Certified Scrum Master you need to pay for and attend a two day course, pass a test that is nearly impossible to fail, and get your certification. While I know that the creators of Scrum considered this the beginning of your Scrum journey, too often it is the only formal training Scrum Masters ever receive. 
 
 Now we have people whose experience is limited to two days of classroom sessions with the word "Master" in their job title. Unwittingly organizations rely on these people as experts and yet they have no more relevant experience than anyone else in the organization.
 
@@ -85,4 +85,4 @@ The book _[Drive](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/
 
 ## A Better Approach
 
-Following the Scrum Guide and agile consultants' formulas exactly is a Shu state activity. You should absolutely not skip this step to avoid teams that don't understand the values at all. However, don't codify these practices, even if the Scrum Guide says it's how teams should work. Let teams progress and master these practices, internalize the values, and then modify these practices to be unrecognizable to the ones in the Shu state. Otherwise, you are optimizing the organization for mediocrity and people will leave to achieve mastery elsewhere. 
+Following the Scrum Guide and agile consultants' formulas exactly is a Shu state activity. You should absolutely not skip this step to avoid teams that never understand the agile values. However, don't codify these practices, even if the Scrum Guide says it's how teams should work. Let teams progress and master these practices, internalize the values, and then modify these practices to be unrecognizable to the ones in the Shu state. Otherwise, you are optimizing the organization for mediocrity and people will leave to achieve mastery elsewhere. 
