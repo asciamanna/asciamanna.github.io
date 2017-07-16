@@ -7,15 +7,15 @@ category: development tools
 tags: ['code quality', 'static code analysis']
 ---
 
-Measuring the quality of code over time is an incredibly valuable feature of [static code analysis](/2015/08/30/the-importance-of-static-code-analysis.html). It is imperative that software teams can continuously deliver business value in a world of constant change. The rapid change in business priorities, team members, market needs, and the understanding of the domain all can have an adverse affect on the ability to deliver value to customers. Unless there is a constant focus on it, software quality has a tendency to degrade over time. 
+Measuring the quality of code over time is an incredibly valuable feature of [static code analysis](/2015/08/30/the-importance-of-static-code-analysis.html). It is imperative that software teams can continuously deliver business value in a world of constant change. The rapid change in business priorities, market needs, team members, and the understanding of the domain all can have an adverse affect on the ability to deliver value to customers. Unless there is a constant focus on it, software quality has a tendency to degrade over time. 
 
 In the .NET technology stack [NDepend](http:/www.ndepend.com) sits above the rest in its ability to continuously measure code quality. In the latest version, [NDepend 2017](http://www.ndepend.com/ndepend-v2017) two new features have been added that further advance its ability to measure issues in the code, _Smart Technical Debt Estimation_ and _Quality Gates_.
 
 ## Organizational Quality Issues
 
-Often in organizations with code quality issues visibility into the depth of the problems is absent. The team may make half-hearted attempts at improvement, but they get the feeling that these changes aren't having any substantive effect on the quality of the system. What they do know is that their problems persist: developers are frustrated, it takes increasingly longer to get features into production, bugs are constantly emerging despite increased manual testing efforts, and the dreaded _"bug whack-a-mole"_ problem arises, where fixing one bug causes a couple of others to appear.
+Often in organizations with code quality issues visibility into the depth of the problems is absent. Teams may make half-hearted attempts at improvement, but they get the feeling that these changes aren't having any substantive effect on the quality of the system. What they do know is that their problems persist: developers are still frustrated, it takes increasingly longer to get features into production, bugs are constantly emerging despite increased manual testing efforts, and the dreaded _"bug whack-a-mole"_ problem arises, where fixing one bug causes a couple of others to appear.
 
-These types of organizations have not yet mastered the team and organizational practices to ensure the delivery of high quality code. It is not uncommon for these organizations to ignore activities that will help teams build the skills necessary to fix code quality issues. NDepend 2017 can give teams the data they need to help address these concerns. 
+These types of organizations have not yet mastered the team and organizational practices to ensure the delivery of high quality code. It is not uncommon for these organizations to ignore activities that will help teams build the skills necessary to fix code quality issues. NDepend 2017 can give teams the data they need to help address these issues. 
 
 ## Smart Technical Debt Estimation
 
@@ -30,9 +30,9 @@ The debt percentage is the first calculation found in the panel. This [debt rati
 
 ### Debt Rating
 
-The debt rating, a value A through E, also based on the [SQALE method](http://www.sqale.org) is derived from a debt ratio threshold. These thresholds are set to defaults but are configurable in NDepend along with the number of working days to write a 1000 lines of code in the debt settings.
+The debt rating, a value A through E, also based on the [SQALE method](http://www.sqale.org), is derived from a debt ratio threshold. These thresholds are set to defaults but are configurable in NDepend along with the number of working days to write a 1000 lines of code in the debt settings.
 
-Just below the rating technical debt is expressed as the total amount of working days to remedy. As with other calculations in NDepend clicking debt, the debt ratio, or debt rating will show the CQLinq rules that effect the calculation. Similar to other panels in the NDepend dashboard, trending metrics will show next to the value as analyses are run over time.  
+Just below the rating technical debt is expressed as the total amount of working days to remedy. As with other calculations in NDepend clicking debt, the debt ratio, or debt rating will show the CQLinq rules that affect the calculation. Similar to other panels in the NDepend dashboard, trending metrics will show next to the value as analyses are run over time.  
 
 ### Completing the Picture 
 
