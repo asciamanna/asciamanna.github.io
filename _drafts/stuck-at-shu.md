@@ -38,7 +38,16 @@ When teams get to the Ri state they have fully internalized the agile values and
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
  
 ### The Dreyfus Model 
-HERE
+A modern analogue to Shu-Ha-Ri is the [Dreyfus Model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) from the 1970s. It consists of five stages:
+1. Novice
+1. Advanced Beginner
+1. Competent
+1. Proficient
+1. Expert
+
+You can learn more about the Dreyfus Model in [Andy Hunt](http://www.toolshed.com/)'s excellent book, [Pragmatic Thinking & Learning](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning).
+
+<img src="/img/pragmatic-thinking-and-learning.jpg" alt="Pragmatic Thinking and Learning" class="img-responsive" />
 
 ## A Problem with Agile Adoptions
 
@@ -48,7 +57,7 @@ I've encountered agile transformation consultants who encourage every team in a 
 
 #### The Cost of Ri Teams Operating at Shu
 
-One important aspect of the Dreyfus model research is that they have found that asking experts to follow the same rules as beginners resulted in the experts performing at the beginner level. 
+One important aspect of the Dreyfus model research is that they have found that having experts follow the same rules that they devised for novices resulted in the experts performing at the novice level. While it was shown that these rules did help novices improve.<sup>[1](#research)</sup>
 
 ### Scrum "By-the-Books"
 I often hear organizations say _"We do Scrum by the books!"_ They position this as a positive trait of the organization, that they are so advanced in their Scrum implementation that they **follow these recipes exactly**. I cringe when I hear this, because I've seen this translate to teams with morale problems stuck in the Shu state.
@@ -86,3 +95,5 @@ The book _[Drive](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/
 ## A Better Approach
 
 Following agile consultants' formulas exactly is a Shu state activity. You should absolutely not skip this step to avoid teams that never understand the agile principles. However, don't codify these practices, even if the Scrum Guide says it's how teams should work. Let teams progress and master these practices, internalize the values, and then modify these practices to be unrecognizable to the ones in the Shu state. Otherwise, you are optimizing the organization for mediocrity and people will leave to achieve mastery elsewhere. 
+
+<a name="research">1</a>: Cited in [_The Scope, Limits, and Training Implications of Three Models of Aircraft Pilot Emergency Response Behavior_](http://www.dtic.mil/dtic/tr/fulltext/u2/a071320.pdf) from [Pragmatic Thinking & Learning](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning) by Andy Hunt
