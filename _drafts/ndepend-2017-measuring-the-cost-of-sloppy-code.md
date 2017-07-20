@@ -13,7 +13,7 @@ In the .NET technology stack [NDepend](http:/www.ndepend.com) sits above the res
 
 ## Organizational Quality Issues
 
-Often in organizations with code quality issues visibility into the depth of the problems is absent. Teams may make half-hearted attempts at improvement, but they get the feeling that these changes aren't having any substantive effect on the quality of the system. What they do know is that their problems persist: developers are still frustrated, it takes increasingly longer to get features into production, bugs are constantly emerging despite increased manual testing efforts, and the dreaded _"bug whack-a-mole"_ problem arises, where fixing one bug causes a couple of others to appear.
+Often in organizations with code quality issues, visibility into the depth of the problems is absent. Teams may make half-hearted attempts at improvement, but they get the feeling that these changes aren't having any substantive effect on the quality of the system. What they do know is that their problems persist: developers are still frustrated, it takes increasingly longer to get features into production, bugs are constantly emerging despite increased manual testing efforts, and the dreaded _"bug whack-a-mole"_ problem arises, where fixing one bug causes a couple of others to appear.
 
 These types of organizations have not yet mastered the team and organizational practices to ensure the delivery of high quality code. It is not uncommon for these organizations to ignore activities that will help teams build the skills necessary to fix code quality issues. NDepend 2017 can give teams the data they need to help address these issues. 
 
@@ -21,22 +21,22 @@ These types of organizations have not yet mastered the team and organizational p
 
 If you are already familiar with NDepend the way the Smart Technical Debt Estimation works will not come as a surprise. It is driven by a set of CQLinq rules introduced as default presets within a new NDepend project. The importance of this cannot be overstated. Within a minute or two you will be provided with a technical debt ratio and debt rating for your software. Armed with this new information you can now start to understand the depth and types of issues in the code base, and come up with a plan to address them.  
 
-This new Debt panel is impossible to ignore, being found in the middle of the dashboard.
+This new Debt panel is impossible to ignore, being found in the middle of the NDepend dashboard.
 <img class="img-responsive" src="/img/ndepend2017-debt-dashboard.png" alt="NDepend 2017 Debt panel" />
 
 ### Debt Ratio
 
-The debt percentage is the first calculation found in the panel. This [debt ratio in NDepend](http://www.ndepend.com/docs/technical-debt#DebtRating) is based on the [SQALE method](http://www.sqale.org/) debt ratio. This ratio is the estimated technical debt compared to the effort it would would take to completely rewrite the problem areas of the code. To calculate the rewrite effort, the size of the problematic code (in lines of code) along with an estimated number of working days to write 1000 lines of code is used. 
+The debt percentage is the first calculation found in the panel. This [debt ratio in NDepend](http://www.ndepend.com/docs/technical-debt#DebtRating) is based on the [SQALE method](http://www.sqale.org/) debt ratio. The ratio is the estimated technical debt compared to the effort it would would take to completely rewrite the problem areas of the code. To calculate the rewrite effort, the number of lines of the problematic code is determined along with an estimated number of working days to write 1000 lines of code. 
 
 ### Debt Rating
 
-The debt rating, a value A through E, also based on the [SQALE method](http://www.sqale.org), is derived from a debt ratio threshold. These thresholds are set to defaults but are configurable in NDepend along with the number of working days to write a 1000 lines of code in the debt settings.
+The debt rating, a value A through E, also based on the [SQALE method](http://www.sqale.org) is derived from a debt ratio threshold. These thresholds are set to defaults but are configurable in NDepend along with the number of working days to write a 1000 lines of code in the debt settings.
 
 Just below the rating technical debt is expressed as the total amount of working days to remedy. As with other calculations in NDepend clicking debt, the debt ratio, or debt rating will show the CQLinq rules that affect the calculation. Similar to other panels in the NDepend dashboard, trending metrics will show next to the value as analyses are run over time.  
 
 ### Completing the Picture 
 
-Adding test coverage enables two additional metrics which are related: _Annual Interest and Breaking Point_. Annual Interest describes the man-time consumed if the issue goes unresolved. **This metric is very valuable as it describes the ongoing impact to the business if issue is not fixed.** You can find out more about them in the NDepend documentation on the [breaking point metric](http://www.ndepend.com/docs/technical-debt#BreakingPoint). 
+Adding test coverage enables two additional metrics which are related: _Annual Interest and Breaking Point_. Annual Interest describes the working days consumed if the issue goes unresolved. **This metric is very valuable as it describes the ongoing impact to the business if issue is not fixed.** You can find out more about them in the NDepend documentation on the [breaking point metric](http://www.ndepend.com/docs/technical-debt#BreakingPoint). 
 
 ### Debt Exploration & Settings
 
