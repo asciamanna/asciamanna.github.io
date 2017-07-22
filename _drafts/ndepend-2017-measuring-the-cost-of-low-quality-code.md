@@ -22,6 +22,7 @@ These types of organizations have not yet mastered the team and organizational p
 If you are already familiar with NDepend the way the Smart Technical Debt Estimation works will not come as a surprise. It is driven by a set of CQLinq rules introduced as default presets within a new NDepend project. The importance of this cannot be overstated. Within a minute or two you will be provided with a technical debt ratio and debt rating for your software. Armed with this new information you can now start to understand the depth and types of issues in the code base, and come up with a plan to address them.  
 
 This new Debt panel is impossible to ignore, being found in the middle of the NDepend dashboard.
+
 <img class="img-responsive" src="/img/ndepend2017-debt-dashboard.png" alt="NDepend 2017 Debt panel" />
 
 ### Debt Ratio
