@@ -51,7 +51,7 @@ Disabling too many of these rules can reinforce existing biases and defeat the p
 
 ### Visibility of Sloppy Code
 
-Once the analysis is complete you will be presented with a debt ratio, debt rating, as well as an estimate in time and/or money to get to the next rating threshold. Further you will be able to drill into specific issues and the violated rules to identify which ones are the most problematic. This enables you to start having discussions with the business **in their language**. The ability to discuss the ongoing cost of specific code quality issues and their impact on the organization is invaluable.
+Once the analysis is complete you will be presented with a debt ratio, debt rating, as well as an estimate in time and/or money to get to the next rating threshold. Further you will be able to drill into specific issues and the violated rules to identify which ones are the most problematic. This enables you to start having discussions with the business **in their language**. The ability to discus the ongoing cost of specific code quality issues and their impact on the organization is invaluable.
 
 Most teams who have quality issues won't be surprised by their low rating. However, being able to see the cost of improvement decreasing as they approach the next debt rating level will be a great morale booster. It gives teams continuous feedback about the improvements they are making. This immediate feedback is a great way to ensure that the improvements continue and the team doesn't fall back on bad habits when organizational pressure is applied to them.
 
