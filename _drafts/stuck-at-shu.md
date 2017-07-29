@@ -53,22 +53,22 @@ You can learn more about the Dreyfus Model in [Andy Hunt](http://www.toolshed.co
 
 ### Resetting Teams
 
-I've encountered agile transformation consultants who encourage every team in a development organization to have identical practices. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. Further, the experience level of teams within the organization can vary significantly. The unfortunate result of this however forces every team to follow these strict formulas. I've heard one consultant say, _"I know that some of you have been agile practitioners for a decade, but everyone here has to go back to Shu and follow these steps exactly."_ That comment illustrated that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
+I've encountered agile transformation consultants who encourage every team in a development organization to have identical practices. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. Further, the experience level of teams within the organization can vary significantly. The unfortunate result of this however forces every team to follow strict formulas. I've heard one consultant say, _"I know that some of you have been agile practitioners for a decade, but everyone here has to go back to Shu and follow these steps exactly."_ That comment illustrated that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
 
 #### The Cost of Ri Teams Operating at Shu
 
-One important aspect of the Dreyfus model research is that they have found that having experts follow the same rules that they devised for novices resulted in the experts performing at the novice level. While it was shown that these rules did help novices improve.<sup>[1](#research)</sup>
+One important aspect of the Dreyfus model research is that they have found that having experts follow the same rules that they devised for novices resulted in the experts performing at the novice level.<sup>[1](#research)</sup>
 
 ### Scrum "By-the-Books"
-I often hear organizations say _"We do Scrum by the books!"_ They position this as a positive trait of the organization, that they are so advanced in their Scrum implementation that they **follow these recipes exactly**. I cringe when I hear this, because I've seen this translate to teams with morale problems stuck in the Shu state.
+I often hear organizations say _"We do Scrum by the books!"_ They position this as a positive trait of the organization, that they are so advanced in their Scrum implementation that they **follow these formulas exactly**. I cringe when I hear this, because I've seen this translate to teams with morale problems stuck in the Shu state.
 
-I don't have anything against Scrum, I find it a very valuable agile framework. Reading the [Scrum Guide](http://www.scrumguides.org/scrum-guide.html) you will realize it is prescriptive but lightweight framework. However, the "by-the-books" implementations I've seen added a lot of agile consultant practices on top of the Scrum Guide that teams are expected follow to the letter by their organizations. 
+I don't have anything against Scrum, I find it a very valuable framework. Reading the [Scrum Guide](http://www.scrumguides.org/scrum-guide.html) you will find that it is a prescriptive but lightweight framework. However, the "by-the-books" implementations I've seen added a lot of agile consultant practices on top of the Scrum Guide that teams are expected follow to the letter by their organizations. 
 
 #### Skipping to Ri
 
 I understand that these organizations are sending a message that they didn't skip right to the Ri state. Doing Scrum "by-the-books" means that they haven't invented their own practices that completely disregard agile principles and values. Unfortunately, this too is very common given how desirable it has become to call an organization "agile".
 
-However, these "by-the-books" organizations that have thankfully not skipped the Shu and Ha states are only one step ahead, being permanently stuck in the Shu state.
+However, these organizations that have thankfully not skipped the Shu and Ha states are not much better off, being permanently stuck in the Shu state.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Shu-Ha-Ri Considered Harmful? NO, Shu without the Ha and the Ri considered Harmful <a href="https://t.co/e2pQHyrOBa">https://t.co/e2pQHyrOBa</a></p>&mdash; Primitivo Cachero (@primicachero) <a href="https://twitter.com/primicachero/status/877418470140518400">June 21, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -83,11 +83,11 @@ Now we have people whose experience is limited to two days of classroom sessions
 
 ### Codifying Beginner Formulas
 
-Organizations typically begin their "agile transformation" by getting Scrum training. Consultants come in for several weeks and teach the organization these beginner formulas. Their goal is to get everyone to the Shu state and on the same page. Unfortunately, it is common for companies just starting their agile journey to believe that keeping every team working the exact same way is an organizational optimization (I've written about this at length about this topic [here](/2017/03/05/remove-cross-team-dependencies.html)).
+Organizations typically begin their "agile transformation" by getting Scrum training. Consultants come in for several weeks and teach the organization these beginner formulas. Their goal is to get everyone to the Shu state and on the same page. Unfortunately, it is common for companies just starting their agile journey to believe that keeping every team working the exact same way is an organizational optimization (I've written about this at length [here](/2017/03/05/remove-cross-team-dependencies.html)).
 
 The belief is that it's easier for leadership to buy-in to this new way of working and manage at the portfolio-level when every team works the same way. But no one asks what the company is losing in return. The sacrifice is substantial: team performance, morale, and the ability for teams to improve themselves through retrospectives. They are sacrificing the same agile principles and values that they are trying to adopt. 
 
-This results in companies codifying these beginner formulas before the team has a chance to master them. The codifying of these beginner rules ensures that teams cannot deviate from them. This halts all progress towards mastery as teams are permanently stuck in the Shu state.
+This results in companies codifying these beginner formulas before the team has a chance to master them. The codifying of these rules ensures that teams cannot deviate from them. This halts all progress towards mastery as teams are permanently stuck in the Shu state.
 
 ## Drive
 The book _[Drive](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805/ref=sr_1_1?ie=UTF8&qid=1500119191&sr=8-1&keywords=drive)_ by [Daniel Pink](https://twitter.com/DanielPink) describes three components to intrinsic motivation: autonomy, mastery, and purpose. Preventing teams from getting to the Ha and Ri states destroys both autonomy and mastery on teams. It should come as no surprise that there are so many failed agile adoptions that leave a trail of frustrated people in its wake. 
