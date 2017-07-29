@@ -12,7 +12,7 @@ Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn
 ## What is Shu-Ha-Ri?
 
 > Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery. It is sometimes applied to other disciplines...  
-> &mdash; [Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
+> — [Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
 
 You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/Shuhari). It has been discussed in the context of agile software development for several years thanks to [Alistair Cockburn](http://alistair.cockburn.us/Shu+Ha+Ri) and others including [Martin Fowler](https://martinfowler.com/bliki/ShuHaRi.html). 
 
@@ -60,6 +60,7 @@ I've encountered agile transformation consultants who encourage every team in a 
 One important aspect of the Dreyfus model research is that they have found that having experts follow the same rules that they devised for novices resulted in the experts performing at the novice level.<sup>[1](#research)</sup>
 
 ### Scrum "By-the-Books"
+
 I often hear organizations say _"We do Scrum by the books!"_ They position this as a positive trait of the organization, that they are so advanced in their Scrum implementation that they **follow these formulas exactly**. I cringe when I hear this, because I've seen this translate to teams with morale problems stuck in the Shu state.
 
 I don't have anything against Scrum, I find it a very valuable framework. Reading the [Scrum Guide](http://www.scrumguides.org/scrum-guide.html) you will find that it is a prescriptive but lightweight framework. However, the "by-the-books" implementations I've seen added a lot of agile consultant practices on top of the Scrum Guide that teams are expected follow to the letter by their organizations. 
@@ -90,6 +91,7 @@ The belief is that it's easier for leadership to buy-in to this new way of worki
 This results in companies codifying these beginner formulas before the team has a chance to master them. The codifying of these rules ensures that teams cannot deviate from them. This halts all progress towards mastery as teams are permanently stuck in the Shu state.
 
 ## Drive
+
 The book _[Drive](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805/ref=sr_1_1?ie=UTF8&qid=1500119191&sr=8-1&keywords=drive)_ by [Daniel Pink](https://twitter.com/DanielPink) describes three components to intrinsic motivation: autonomy, mastery, and purpose. Preventing teams from getting to the Ha and Ri states destroys both autonomy and mastery on teams. It should come as no surprise that there are so many failed agile adoptions that leave a trail of frustrated people in its wake. 
 
 ## A Better Approach
