@@ -57,13 +57,13 @@ I've encountered agile transformation consultants who encourage every team in a 
 
 #### The Cost of Ri Teams Operating at Shu
 
-One important aspect of the Dreyfus model research is that they have found that having experts follow the same rules that they devised for novices resulted in the experts performing at the novice level.<sup>[1](#research)</sup>
+One important aspect of Dreyfus model research is that they have found if experts follow the same rules that they devised for novices, the experts perform at a novice level.<sup>[1](#research)</sup>
 
 ### Scrum "By-the-Books"
 
 I often hear organizations say _"We do Scrum by the books!"_ They position this as a positive trait of the organization, that they are so advanced in their Scrum implementation that they **follow these formulas exactly**. I cringe when I hear this, because I've seen this translate to teams with morale problems stuck in the Shu state.
 
-I don't have anything against Scrum, I find it a very valuable framework. Reading the [Scrum Guide](http://www.scrumguides.org/scrum-guide.html) you will find that it is a prescriptive but lightweight framework. However, the "by-the-books" implementations I've seen added a lot of agile consultant practices on top of the Scrum Guide that teams are expected follow to the letter by their organizations. 
+I don't have anything against Scrum, I find it a very valuable framework. Reading the [Scrum Guide](http://www.scrumguides.org/scrum-guide.html) you will find that it is a prescriptive but lightweight framework. However, the "by-the-books" implementations I've seen added a lot of agile consultant practices on top of the Scrum Guide that teams were expected follow to the letter by their organizations. 
 
 #### Skipping to Ri
 
@@ -96,6 +96,6 @@ The book _[Drive](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/
 
 ## A Better Approach
 
-Following agile consultants' formulas exactly is a Shu state activity. You should absolutely not skip this step to avoid teams that never understand the agile principles. However, don't codify these practices, even if the Scrum Guide says it's how teams should work. Let teams progress and master these practices, internalize the values, and then modify these practices to be unrecognizable to the ones in the Shu state. Otherwise, you are optimizing the organization for mediocrity and people will leave to achieve mastery elsewhere. 
+Following agile consultants' formulas exactly is a Shu state activity. You should absolutely not skip this step to avoid teams that never understand the agile principles. However, don't codify these practices, even if the Scrum Guide says it's how teams should work. Let teams progress and master these practices, internalize the values, and then modify these practices to be unrecognizable to the ones in the Shu state. Otherwise, you are optimizing yourg organization for mediocrity and people will leave to achieve mastery elsewhere. 
 
 <a name="research">1</a>: Cited in [_The Scope, Limits, and Training Implications of Three Models of Aircraft Pilot Emergency Response Behavior_](http://www.dtic.mil/dtic/tr/fulltext/u2/a071320.pdf) from [Pragmatic Thinking & Learning](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning) by Andy Hunt
