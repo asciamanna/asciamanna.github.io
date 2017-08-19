@@ -12,7 +12,7 @@ Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn
 ## What is Shu-Ha-Ri?
 
 > Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery. It is sometimes applied to other disciplines...  
-> —[Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
+> &mdash; [Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
 
 You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/Shuhari). It has been discussed in the context of agile software development for several years thanks to [Alistair Cockburn](http://alistair.cockburn.us/Shu+Ha+Ri) and others including [Martin Fowler](https://martinfowler.com/bliki/ShuHaRi.html). 
 
@@ -39,6 +39,7 @@ When teams get to the Ri state they have fully internalized the agile values and
  
 ### The Dreyfus Model 
 A modern analogue to Shu-Ha-Ri is the [Dreyfus Model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) from the 1970s. It consists of five stages:
+
 1. Novice
 1. Advanced Beginner
 1. Competent
