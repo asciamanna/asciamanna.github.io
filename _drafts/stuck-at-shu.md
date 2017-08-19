@@ -7,12 +7,12 @@ category: development practices
 tags: ['agile development']
 ---
 
-Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn.us)'s keynote at the [Heart of Agile 20017](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/) in Pittsburgh. During his talk he discussed Shu-Ha-Ri and the path to mastery. It started me thinking about how many organizations I've seen stifle this mastery before it ever begins to take hold. 
+Recently I was fortunate to hear [Alistair Cockburn](http://www.alistaircockburn.us)'s keynote at the [Heart of Agile 2017](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/) in Pittsburgh. During his talk he discussed Shu-Ha-Ri and the path to mastery. It started me thinking about how many organizations I've seen stifle this mastery before it ever begins to take hold. 
 
 ## What is Shu-Ha-Ri?
 
 > Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery. It is sometimes applied to other disciplines...  
-> — [Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
+> —[Wikipedia (May 20, 2017)](https://en.wikipedia.org/wiki/Shuhari)
 
 You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/Shuhari). It has been discussed in the context of agile software development for several years thanks to [Alistair Cockburn](http://alistair.cockburn.us/Shu+Ha+Ri) and others including [Martin Fowler](https://martinfowler.com/bliki/ShuHaRi.html). 
 
@@ -20,7 +20,7 @@ You can read more about Shu-Ha-Ri on [wikipedia](https://en.wikipedia.org/wiki/S
 
 ### Applied to Agile
 
-This is how I describe Shu-Ha-Ri as applied to a Scrum team.
+This is how I describe Shu-Ha-Ri as applied to a team learning Scrum.
 
 #### Shu
 
@@ -57,13 +57,13 @@ I've encountered agile transformation consultants who encourage every team in a 
 
 #### The Cost of Ri Teams Operating at Shu
 
-One important aspect of Dreyfus model research is that they have found if experts follow the same rules that they devised for novices, the experts perform at a novice level.<sup>[1](#research)</sup>
+One important discovery resulting from Dreyfus model research is that researchers have found if experts follow the same rules that they devised for novices, the experts performed at a novice level.<sup>[1](#research)</sup>
 
 ### Scrum "By-the-Books"
 
 I often hear organizations say _"We do Scrum by the books!"_ They position this as a positive trait of the organization, that they are so advanced in their Scrum implementation that they **follow these formulas exactly**. I cringe when I hear this, because I've seen this translate to teams with morale problems stuck in the Shu state.
 
-I don't have anything against Scrum, I find it a very valuable framework. Reading the [Scrum Guide](http://www.scrumguides.org/scrum-guide.html) you will find that it is a prescriptive but lightweight framework. However, the "by-the-books" implementations I've seen added a lot of agile consultant practices on top of the Scrum Guide that teams were expected follow to the letter by their organizations. 
+I don't have anything against Scrum, I find it a valuable framework (although it wouldn't be my first choice for development teams). Reading the [Scrum Guide](http://www.scrumguides.org/scrum-guide.html) you will find that it is a prescriptive but lightweight framework. However, the "by-the-books" implementations I've seen added a lot of agile consultant practices on top of the Scrum Guide that teams were expected follow to the letter by their organizations. 
 
 #### Skipping to Ri
 
@@ -74,9 +74,9 @@ However, these organizations that have thankfully not skipped the Shu and Ha sta
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Shu-Ha-Ri Considered Harmful? NO, Shu without the Ha and the Ri considered Harmful <a href="https://t.co/e2pQHyrOBa">https://t.co/e2pQHyrOBa</a></p>&mdash; Primitivo Cachero (@primicachero) <a href="https://twitter.com/primicachero/status/877418470140518400">June 21, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Scrum Masters
+### Shu Scrum Masters
 
-Great Scrum Masters can really help teams improve, however having worked on successful XP teams I have not been convinced they are always necessary. I've seen well-meaning but poorly prepared Scrum Masters exacerbate this "By-the-Books" problem because they too are beginners and still just following formulas. 
+Great Scrum Masters can really help Scrum teams improve. However, having worked on successful XP teams without them I am not convinced they are required. The opposite is also true, poor Scrum Masters can have dramatically negative affects on teams. I've seen well-meaning but poorly prepared Scrum Masters exacerbate this "by-the-books" problem because they too are beginners and still just following formulas. 
 
 To become a Certified Scrum Master you need to pay for and attend a two day course, pass a test that is nearly impossible to fail, and get your certification. While I know that the creators of Scrum considered this the beginning of your Scrum journey, too often it is the only formal training Scrum Masters ever receive. 
 
@@ -86,9 +86,9 @@ Now we have people whose experience is limited to two days of classroom sessions
 
 Organizations typically begin their "agile transformation" by getting Scrum training. Consultants come in for several weeks and teach the organization these beginner formulas. Their goal is to get everyone to the Shu state and on the same page. Unfortunately, it is common for companies just starting their agile journey to believe that keeping every team working the exact same way is an organizational optimization (I've written about this at length [here](/2017/03/05/remove-cross-team-dependencies.html)).
 
-The belief is that it's easier for leadership to buy-in to this new way of working and manage at the portfolio-level when every team works the same way. But no one asks what the company is losing in return. The sacrifice is substantial: team performance, morale, and the ability for teams to improve themselves through retrospectives. They are sacrificing the same agile principles and values that they are trying to adopt. 
+The belief is that it's easier for leadership to buy-in to this new way of working and manage at the portfolio-level when every team works the same way. But no one asks what the company is surrendering for working this way. The sacrifice is substantial: team performance, team morale, and the ability for teams to improve themselves through retrospectives. They are sacrificing the same agile principles and values that they are trying to adopt. 
 
-This results in companies codifying these beginner formulas before the team has a chance to master them. The codifying of these rules ensures that teams cannot deviate from them. This halts all progress towards mastery as teams are permanently stuck in the Shu state.
+This belief results in organizations codifying these beginner formulas before the team has a chance to master them. The codifying of these rules ensures that teams cannot deviate from them, halting all progress towards mastery as teams are permanently stuck in the Shu state.
 
 ## Drive
 
@@ -96,6 +96,6 @@ The book _[Drive](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/
 
 ## A Better Approach
 
-Following agile consultants' formulas exactly is a Shu state activity. You should absolutely not skip this step to avoid teams that never understand the agile principles. However, don't codify these practices, even if the Scrum Guide says it's how teams should work. Let teams progress and master these practices, internalize the values, and then modify these practices to be unrecognizable to the ones in the Shu state. Otherwise, you are optimizing yourg organization for mediocrity and people will leave to achieve mastery elsewhere. 
+Following agile consultants' formulas exactly is a Shu state activity. You should absolutely not skip this step to avoid beginner teams that never understand the agile principles. However, don't codify these practices, even if the Scrum Guide says it's how teams should work. Let teams progress and master these practices, internalize the values, and then modify these practices to be unrecognizable to the ones in the Shu state. Otherwise, you are optimizing your organization for mediocrity and people will leave to achieve mastery elsewhere. 
 
 <a name="research">1</a>: Cited in [_The Scope, Limits, and Training Implications of Three Models of Aircraft Pilot Emergency Response Behavior_](http://www.dtic.mil/dtic/tr/fulltext/u2/a071320.pdf) from [Pragmatic Thinking & Learning](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning) by Andy Hunt
