@@ -54,11 +54,11 @@ You can learn more about the Dreyfus Model in [Andy Hunt](http://www.toolshed.co
 
 ### Resetting Teams
 
-I've encountered agile transformation consultants who encourage every team in a development organization to have identical practices. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. Further, the experience level of teams within the organization can vary significantly. The unfortunate result of this however forces every team to follow strict formulas. I've heard one consultant say, _"I know that some of you have been agile practitioners for a decade, but everyone here has to go back to Shu and follow these steps exactly."_ That comment illustrated that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
+I've encountered agile transformation consultants who encourage every team in a development organization to have identical practices. I don't necessarily fault them for this advice, they are trying to accomplish a lot in a very short period of time. Further, the experience level of teams within organizations can vary significantly. The unfortunate result of this however forces every team to follow strict formulas. I've heard one consultant say, _"I know that some of you have been agile practitioners for a decade, but everyone here has to go back to Shu and follow these steps exactly."_ That comment illustrated that the consultant didn't understand what effect that would have on the productivity and morale of the organization. 
 
 #### The Cost of Ri Teams Operating at Shu
 
-One important discovery resulting from Dreyfus model research is that researchers have found if experts follow the same rules that they devised for novices, the experts performed at a novice level.<sup>[1](#research)</sup>
+One important discovery resulting from Dreyfus model research is that researchers have found that if experts follow the same rules that they devised for novices, the experts performed at a novice level.<sup>[1](#research)</sup>
 
 ### Scrum "By-the-Books"
 
