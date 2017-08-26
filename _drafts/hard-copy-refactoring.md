@@ -13,7 +13,7 @@ Sometimes dealing with the large class code smell can be extremely challenging. 
 
 Enormous classes are so big you cannot conceptually keep everything it does in your had at once. It tends to have lots of responsibilities smeared throughout the class. 
 
-Large classes that are familiar to you can also be hard to extract. You may be the original author or may have updated often. In these cases it may too large but not enormous (a few hundred lines not thousands). You know it has more than one responsibility but you are having a hard time locating it. Sometimes stepping away from the computer and approaching the problem differently can yield dramatic results and create a breakthrough.
+Large classes that are familiar to you can also be hard to extract. You may be the original author or may have updated often. In these cases it may too large but not enormous (a few hundred lines not thousands). You know it has more than one responsibility but you are having a hard time locating it. Sometimes stepping away from the computer and approaching the problem differently can yield dramatic results and create a breakthrough. As an aside Pair Programming is a great tool overcome issues that arise from familiarity with a particular section of code. However, even within a pair it may make sense to engage the problem in a different way.
 
 ## How to Hard Copy Refactor
 
