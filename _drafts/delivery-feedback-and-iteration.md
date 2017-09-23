@@ -53,7 +53,7 @@ The abuse of the term *Minimum Viable Product* (MVP) is a topic for its own blog
 
 Even if organizations try to embrace all of these activities but don't invest in the engineering practices that enable them they are going to have problems. The XP engineering practices, including refactoring / Evolutionary Design, TDD, pair programming, collective code ownership, and Continuous Integration all enable teams to incrementally deliver. These practices take time to learn and they are very different than how developers are used to working. Adopting Scrum without any focus on engineering practices (which appears to be the norm) only sets teams up for failure.
 
-> Without technical learning, Agile often harms both the enterprise and the developer...weak technical practices is building upon sand
+> Without technical learning, Agile often harms both the enterprise and the developer...weak technical practices is building upon sand  
 > &mdash; Ron Jeffries, [Business Agile: Built Upon Sand](http://ronjeffries.com/articles/017-08ff/sand/)
 
 ## Conclusion

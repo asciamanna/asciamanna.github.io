@@ -109,3 +109,7 @@ blockquote p {
 .well {
  color: black;
 }
+
+.footnotes > ol {
+ list-style-position: outside;
+}
