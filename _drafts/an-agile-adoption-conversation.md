@@ -4,7 +4,7 @@ section-type: post
 title: An Agile Adoption Conversation
 comments: true
 category: development practices
-tags: ['agile development', 'anti-pattern']
+tags: ['agile development', 'anti-patterns']
 ---
 
 __*Our company recently went through an agile adoption.*__
