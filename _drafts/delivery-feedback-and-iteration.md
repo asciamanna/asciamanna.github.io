@@ -18,7 +18,7 @@ By contrast, teams who have embraced agile technical practices, continuously imp
 
 The reason why such a stark contrast exists is that when agile is done well it embraces the unknowns and challenges of building software. Creating software is experimental, creative, and it contains many unknowns. When software organizations cling to their old manufacturing mindsets they embrace the dissonance between how they run a software project and the reality for the teams creating the software. 
 
-Within these Tayloristic organizations process continues to thrive that ostensibly simplifies project planning at the expense of the code and the people who create it. While impacts may not be immediately visible to the decision makers, these poor decisions have a damaging effect on the organizations ability to deliver value to their customers. How many of these sound familiar?
+Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) organizations process continues to thrive that ostensibly simplifies project planning at the expense of the code and the people who create it. While impacts may not be immediately visible to the decision makers, these poor decisions have a damaging effect on the organization's ability to deliver value to their customers. How many of these sound familiar?
 
 * Developers are fungible resources who can be moved between teams and projects to meet scheduling needs
 * Code-ownership is fluid and shared between any collection of teams in the organization so the work can be moved to any team who may be free 
