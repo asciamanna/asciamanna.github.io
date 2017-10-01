@@ -9,23 +9,25 @@ tags: ['agile development', 'anti-patterns']
 
 Frequent deliveries of working software, acquiring customer feedback, iterating based on that feedback, and the development practices to support these activities are the things I most commonly see missing from poor agile implementations. When I hear developers complain about how much they hate agile software development they are missing some of these key activities. More often they are missing all of them. 
 
-By contrast, teams who have embraced agile technical practices, continuously improve, and consistently iterate on their features based on frequent customer feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. I know I am not alone in that sentiment having spoken to many XP developers about this topic. 
+By contrast, teams who have embraced agile technical practices, continuously improve, and consistently iterate on their features based on frequent customer feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. I know I am not alone in this sentiment, having spoken to many XP developers about this topic. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m sad to realize that most people only experience scrum in a corrupted form; <br>Most of them believe the corruption is the intended form.</p>&mdash; Tim Ottinger (@tottinge) <a href="https://twitter.com/tottinge/status/913761095860604928?ref_src=twsrc%5Etfw">September 29, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## The Antiquated Factory Model 
 
-The reason why such a stark contrast exists is that when agile is done well it embraces the unknowns and challenges of building software. Creating software is experimental, creative, and it contains many unknowns. When software organizations cling to their old manufacturing mindsets they embrace the dissonance between how they run a software project and the reality for the teams creating the software. 
+The reason why such a stark contrast exists is that when agile is done well it embraces the unknowns and challenges of building software. Creating software is experimental, creative, and it contains many unknowns. When software organizations cling to their old manufacturing mindsets they create dissonance between how they plan and run a software project and the reality for the teams creating the software. 
 
 Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) organizations process continues to thrive that ostensibly simplifies project planning at the expense of the code and the people who create it. While impacts may not be immediately visible to the decision makers, these poor decisions have a damaging effect on the organization's ability to deliver value to their customers. How many of these sound familiar?
 
 * Developers are fungible resources who can be moved between teams and projects to meet scheduling needs
 * Code-ownership is fluid and shared between any collection of teams in the organization so the work can be moved to any team who may be free 
+* Teams lack an identity tied to expertise in a specific area of the system(s) 
 * Estimates are treated as deadlines 
-* Decisions about the work are disconnected from those doing the work.
+* Decisions about the work are disconnected from those doing the work
+* More time is spent in multi-year, yearly, quarterly, monthly high-level estimation sessions (i.e., wild guesses based on gut feel) than in running experiments and learning
 
-It's impossible to know exactly what the software should do before starting, but these companies still batch big deliverables as *projects*. They consider success hitting a date with what the customer originally asked for. They hold any feedback for the end of the large project, ignoring the decades of evidence that "requirements up front" development doesn't work. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts, making developers "work harder" if they provided a bad estimate based on a high-level, fifteen-minute conversation six months ago (if they were given the opportunity to estimate at all).
+It's impossible to know exactly what the software should do before starting, but these companies still batch big deliverables as *projects*. They consider success hitting a date with what the customer originally asked for. They hold any feedback for the end of the large project, as reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to "work harder" if they provided a bad estimate based on a high-level, fifteen-minute conversation six months ago. Often work estimates aren't even provided by the team doing the work. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Meeting the initial targets is more a definition of failure since it assumes we didn&#39;t learn what the customer really wants...&quot;</p>&mdash; David Bernstein (@ToBeAgile) <a href="https://twitter.com/ToBeAgile/status/912743657836548097?ref_src=twsrc%5Etfw">September 26, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -34,11 +36,11 @@ Alternatively, a focus on frequent feedback and iteration throws all of this old
 
 ## Where we Go Wrong 
 
-Unfortunately, it is too easy in Scrum to go through the motions, buy in to all of the Scrum ceremonies, but not address any of the organizational issues that prevent teams from really becoming agile. In some cases this is a company's first step towards something greater, but all too often organizations stop here. 
+Unfortunately, it is too easy in Scrum to go through the motions, buy in to all of the Scrum ceremonies, but not address any of the organizational challenges that prevent teams from really becoming agile. In some cases this is a company's first step towards something greater, but all too often organizations stop here. 
 
 ### Delivering
 
-Teams can't iterate unless there is something to iterate on. Delivering frequently to production is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can."* These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and releasing less frequently. Large batches and infrequent releases are consistently problematic. 
+Teams can't iterate unless there is something to iterate on. Delivering frequently to production is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can."* These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and releasing less frequently. Large batches and infrequent releases are consistently problematic.
 
 #### The Misuse of Feature Flags
 
@@ -60,7 +62,7 @@ Teams cannot iterate without feedback. As a cornerstone of agile software develo
 
 #### The "MVP"
 
-The abuse of the term *Minimum Viable Product* (MVP) is a topic for its own post. However, I want to point out that I often see the term "MVP", used improperly, to make excuses why big batch projects and infrequent deliveries are necessary. 
+The abuse of the term *Minimum Viable Product* (MVP) is a topic for its own post. However, I want to point out that I often see the term "MVP", used improperly, to make excuses for big batch projects and infrequent deliveries.
 
 ### Engineering Practices
 
