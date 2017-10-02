@@ -16,16 +16,16 @@ By contrast, teams who have embraced agile technical practices, continuously imp
 
 ## The Antiquated Factory Model 
 
-The reason why such a stark contrast exists is that when agile is done well it embraces the unknowns and challenges of building software. Creating software is experimental, creative, and it contains many unknowns. When software organizations cling to their old manufacturing mindsets they create dissonance between how they plan and run a software project and the reality for the teams creating the software. 
+The reason why such a stark contrast exists is that when agile is done well it embraces the unknowns and challenges of building software. Creating software is experimental, creative, and it contains many unknowns. It is a process of discovery. When software organizations cling to their old manufacturing mindsets they create dissonance between how they plan and run a software project and the reality for the teams creating the software. 
 
 Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) organizations process continues to thrive that ostensibly simplifies project planning at the expense of the code and the people who create it. While impacts may not be immediately visible to the decision makers, these poor decisions have a damaging effect on the organization's ability to deliver value to their customers. How many of these sound familiar?
 
 * Developers are fungible resources who can be moved between teams and projects to meet scheduling needs
 * Code-ownership is fluid and shared between any collection of teams in the organization so the work can be moved to any team who may be free 
-* Teams lack an identity tied to expertise in a specific area of the system(s) 
+* Teams lack an identity tied to expertise and work in a specific area of the system(s) 
 * Estimates are treated as deadlines 
 * Decisions about the work are disconnected from those doing the work
-* More time is spent in multi-year, yearly, quarterly, monthly high-level estimation sessions (i.e., wild guesses based on gut feel) than in running experiments and learning
+* More time is spent in multi-year, yearly, and quarterly high-level estimation sessions (i.e., wild guesses based on gut feel) than in running experiments and learning
 
 It's impossible to know exactly what the software should do before starting, but these companies still batch big deliverables as *projects*. They consider success hitting a date with what the customer originally asked for. They hold any feedback for the end of the large project, as reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to "work harder" if they provided a bad estimate based on a high-level, fifteen-minute conversation six months ago. Often work estimates aren't even provided by the team doing the work. 
 
