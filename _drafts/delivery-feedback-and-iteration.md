@@ -43,17 +43,11 @@ Unfortunately, it is too easy in Scrum to go through the motions, buy in to all 
 
 ### Delivering
 
-Teams can't iterate unless there is something to iterate on. Delivering frequently to production is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can."* These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and releasing less frequently. Large batches and infrequent releases are consistently problematic.
+Teams can't iterate unless there is something to iterate on. The ability to deliver frequently to production is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can."* These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and releasing less frequently. Large batches and infrequent releases are consistently problematic.
 
 #### Onsite Customer
 
-XP has the concept of the onsite customer so that delivering to production is not required to get feedback and iterate. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name. User stories are just requirements reworded in a user story template and not a "promise for a conversation" as Alistair Cockburn has described. In these situations the valuable customer feedback comes after releasing to production.
-
-#### The Misuse of Feature Flags
-
-Feature flags can be a great tool for development teams. They can be used to enable Continuous Integration and for A/B testing to collect feedback from users. 
-
-Too often though they are misused to keep features disabled in production for long periods of time. Organizations can claim they are releasing after every timeboxed iteration but use feature flags to enable features after long periods of time in large batch projects. This cripples the team's ability to gather feedback and iterate. 
+XP has the concept of the onsite customer so that delivering to production is not required to get feedback and iterate. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name. User stories are just up-front requirements reworded in a user story template and not a "promise for a conversation" as Alistair Cockburn has described. In these situations the valuable customer feedback comes after releasing to production.
 
 ### Customer Feedback
 
@@ -67,13 +61,9 @@ The telephone game effect is very likely in these situations given the number of
 
 Teams cannot iterate without feedback. As a cornerstone of agile software development I would contend that if you aren't iterating based on customer feedback, you are aren't getting the benefits of your "agile implementation." Acknowledging that building great software requires experimentation necessitates iteration. However, if all work is batched into large deliverables the ability to iterate is lost. 
 
-#### The "MVP"
-
-The abuse of the term *Minimum Viable Product* (MVP) is a topic for its own post. However, I want to point out that I often see the term "MVP", used improperly, to make excuses for big batch projects and infrequent deliveries.
-
 ### Engineering Practices
 
-* Even when organizations embrace all of these activities but don't invest in the technical practices that enable them they struggle to find success. The XP technical practices, including refactoring, Evolutionary / Emergent Design, TDD, pair programming, collective code ownership, and Continuous Integration equip teams to incrementally deliver. These practices take time to learn and they are very different than how developers are used to working. Adopting Scrum without any focus on technical team practices (which appears to be the norm) only sets teams up for failure.
+Even when organizations embrace all of these activities but don't invest in the technical practices that enable them they struggle to find success. The XP technical practices, including refactoring, Evolutionary / Emergent Design, TDD, pair programming, collective code ownership, and Continuous Integration equip teams to incrementally deliver. These practices take time to learn and they are very different than how developers are used to working. Adopting Scrum without any focus on technical team practices (which appears to be the norm) only sets teams up for failure.
 
 > Without technical learning, Agile often harms both the enterprise and the developer...weak technical practices is building upon sand  
 > &mdash; Ron Jeffries, [Business Agile: Built Upon Sand](http://ronjeffries.com/articles/017-08ff/sand/)
