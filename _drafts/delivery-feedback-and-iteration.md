@@ -45,6 +45,8 @@ Unfortunately, it is too easy in Scrum to go through the motions, buy in to all 
 
 Teams can't iterate unless there is something to iterate on. The ability to deliver frequently to production is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can."* These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and releasing less frequently. Large batches and infrequent releases are consistently problematic.
 
+...Add section here about releasing being a business decision...big batch projects and releaseing once per year. 
+
 #### On site Customer
 
 XP has the concept of the on site customer so that delivering to production is not required to get feedback and iterate. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name, not a customer. User stories are just up-front requirements reworded in a user story template and not a "promise for a conversation" as Alistair Cockburn has described. In these situations the valuable customer feedback comes after releasing to production.
