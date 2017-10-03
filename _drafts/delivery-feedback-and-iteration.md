@@ -27,6 +27,9 @@ Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) 
 * Decisions about the work are disconnected from those doing the work
 * More time is spent in multi-year, yearly, and quarterly high-level estimation sessions (i.e., wild guesses based on gut feel) than in running experiments and learning
 
+
+## Sticking to the Plan
+
 It's impossible to know exactly what the software should do before starting, but these companies still batch big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally asked for. They hold any feedback for the end of the large project, as reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to "work harder" if they provided a bad estimate based on a high-level, fifteen-minute conversation six months ago. Often work estimates aren't even provided by the team doing the work. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Meeting the initial targets is more a definition of failure since it assumes we didn&#39;t learn what the customer really wants...&quot;</p>&mdash; David Bernstein (@ToBeAgile) <a href="https://twitter.com/ToBeAgile/status/912743657836548097?ref_src=twsrc%5Etfw">September 26, 2017</a></blockquote>
@@ -41,6 +44,10 @@ Unfortunately, it is too easy in Scrum to go through the motions, buy in to all 
 ### Delivering
 
 Teams can't iterate unless there is something to iterate on. Delivering frequently to production is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can."* These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and releasing less frequently. Large batches and infrequent releases are consistently problematic.
+
+#### Onsite Customer
+
+XP has the concept of the onsite customer so that delivering to production is not required to get feedback and iterate. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name. User stories are just requirements reworded in a user story template and not a "promise for a conversation" as Alistair Cockburn has described. In these situations the valuable customer feedback comes after releasing to production.
 
 #### The Misuse of Feature Flags
 
