@@ -45,7 +45,7 @@ Unfortunately, it is too easy in Scrum to go through the motions, buy in to all 
 
 Teams can't iterate unless there is something to iterate on. The ability to deliver frequently to production is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can."* These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and releasing less frequently. Large batches and infrequent releases are consistently problematic.
 
-...Add section here about releasing being a business decision...big batch projects and releaseing once per year. 
+...Add section here about releasing being a business decision...big batch projects and releaseing once per year. Teams have moved on...aren't iterating. Cannot rely on things like usage statistics and A/B testing if it takes a year to release something.
 
 #### On site Customer
 
