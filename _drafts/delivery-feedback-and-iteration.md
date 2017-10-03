@@ -37,7 +37,7 @@ It's impossible to know exactly what the software should do before starting, but
 
 Alternatively, a focus on frequent feedback and iteration throws all of this old thinking out. It embraces the nature of software development and that's why developers love it. From first hand experience I know that removing this dissonance creates a low stress and highly productive environment. This leads to happy, productive developers and a better product. 
 
-## Where we Go Wrong 
+## Where we go Wrong 
 
 Unfortunately, it is too easy in Scrum to go through the motions, buy in to all of the Scrum ceremonies, but not address any of the organizational challenges that prevent teams from really becoming agile. In some cases this is a company's first step towards something greater, but all too often organizations stop here. 
 
@@ -45,15 +45,15 @@ Unfortunately, it is too easy in Scrum to go through the motions, buy in to all 
 
 Teams can't iterate unless there is something to iterate on. The ability to deliver frequently to production is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can."* These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and releasing less frequently. Large batches and infrequent releases are consistently problematic.
 
-#### Onsite Customer
+#### On site Customer
 
-XP has the concept of the onsite customer so that delivering to production is not required to get feedback and iterate. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name. User stories are just up-front requirements reworded in a user story template and not a "promise for a conversation" as Alistair Cockburn has described. In these situations the valuable customer feedback comes after releasing to production.
+XP has the concept of the on site customer so that delivering to production is not required to get feedback and iterate. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name, not a customer. User stories are just up-front requirements reworded in a user story template and not a "promise for a conversation" as Alistair Cockburn has described. In these situations the valuable customer feedback comes after releasing to production.
 
 ### Customer Feedback
 
 Too often organizations don't gather feedback at all or the feedback they do gather happens outside of the development teams. Unless the teams are empowered to change their backlog of work based on feedback it stands to reason (from the organization's point of view) they don't *need* to get that feedback themselves. Further, big batch projects make it impossible to use feedback effectively to steer the day-to-day work. Typically in these cases a new big batch project is created based on the feedback received by someone in the organization outside of the development team.
 
-Organizations still entrenched in old ways of thinking will separate determining what to build from the team that actually builds it. If the organization believes developers are fungible resources and they want high-utilization of these resources, just tell those resources what to build. Don't take up their valuable cycles determining what to build or analyzing feedback. And for the love of God don't let them talk to the users! Just batch up another project and tell them to build it. 
+Organizations still entrenched in old ways of thinking will separate determining what to build from the team that actually builds it. If the organization believes developers are fungible resources and they want high-utilization of these resources, they accomplish that by telling those resources what to build. Don't take up their valuable cycles determining what to build or obtaining feedback. And for the love of God don't let them talk to the users! Just batch up another project and tell them to build it. 
 
 The telephone game effect is very likely in these situations given the number of information handoffs that are required. This is a contributing factor to software consistently not meeting the needs of its users. Great software does not get created by telling developers what to build.
 
