@@ -42,17 +42,17 @@ Unfortunately, it is too easy in Scrum to go through the motions, buy in to all 
 
 ### Delivering
 
-Teams can't iterate unless there is something to iterate on. The ability to deliver frequently is a necessary activity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can"*. These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and delivering less frequently. Large batches and infrequent deliveries are consistently problematic and limit the kinds of feedback that can be collected.
+Teams can't iterate unless there is something to iterate on. The ability to deliver frequently is a necessity on agile teams. Too often organizations hide behind the idea that *"our customers can't handle the rate of change that Amazon or Google's customers can"*. These are just excuses that are rooted in an old way of thinking. This leads to batching up changes over long periods of time and delivering less frequently. Large batches and infrequent deliveries are consistently problematic, delaying and limiting the kinds of feedback that can be collected.
 
 #### On site Customer
 
-XP has the concept of the on site customer so that delivering to production is not required to get feedback and iterate. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name, not a customer. User stories are just up-front requirements reworded in a user story template and not a "promise for a conversation" as Alistair Cockburn has described. In these situations the valuable customer feedback comes after releasing to production.
+XP has the concept of the on site customer so that delivering to production is not required to get feedback. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name, not a customer. User stories are just up-front requirements reworded in a user story template and not a *"promise for a conversation"* as Alistair Cockburn has described. In these situations the valuable feedback comes after releasing to production.
 
 #### Releasing is a Business Decision
 
 There is a belief in agile development that releasing software is a business decision but teams need *the ability to constantly deliver*. I agree with this advice assuming that the business decision is not to release every six months to a year. Sometimes it makes sense to batch a few features together but it is still important to keep these batches small and frequent. 
 
-### Customer Feedback
+### Feedback
 
 Too often organizations don't gather feedback until the end of a big project. When they do get feedback it typically bypasses the team. Unless the teams are empowered to change their backlog based on feedback it stands to reason (from the organization's point of view) they don't *need* to get that feedback themselves. Further, big batch projects make it impossible to use feedback effectively to steer the day-to-day work. Typically in these cases the feedback gets to the team in the form of another big batch project some months later. This is an incredibly error-prone and inefficient process.
 
