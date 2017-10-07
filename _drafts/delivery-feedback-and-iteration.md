@@ -7,7 +7,7 @@ category: development practices
 tags: ['agile development', 'anti-patterns']
 ---
 
-Frequent deliveries of working software, acquiring customer feedback, iterating based on that feedback, and the development practices to support these activities are the things I most commonly see missing from poor agile implementations. When I hear developers complain about how much they hate agile software development they are missing some or all of these key activities. 
+Frequent deliveries of working software, acquiring customer feedback, iterating based on that feedback, and the development practices to support these activities are the things I most commonly see missing from poor agile implementations. When I hear developers complain about how much they dislike agile software development they are missing some or all of these key activities. 
 
 By contrast, teams who have embraced agile technical practices, continuously improve, and consistently iterate on their features based on frequent customer feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
 
@@ -16,12 +16,12 @@ By contrast, teams who have embraced agile technical practices, continuously imp
 
 ## The Antiquated Factory Model 
 
-The reason why such a stark contrast exists is that when agile is done well it embraces the unknowns and challenges of building software. Creating software is experimental and creative. It is a process of discovery. When software organizations cling to their old manufacturing mindsets they create dissonance between how they plan and run a software project and the reality for the teams creating the software. 
+This stark contrast exists because when agile is done well it embraces the unknowns and challenges of building software. Creating software is experimental and creative. It is a process of discovery. When software organizations cling to their old manufacturing mindsets they create dissonance between how they plan and run a software project and the reality for the teams creating the software. 
 
 Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) organizations process continues to thrive that ostensibly simplifies project planning at the expense of the code and the people who create it. While impacts may not be immediately visible to the decision makers, these poor decisions have a damaging effect on the organization's ability to deliver value to their customers. How many of these sound familiar?
 
 * Developers are fungible resources who can be moved between teams and projects to meet scheduling needs
-* Code-ownership is fluid and shared between any collection of teams in the organization so the work can be moved to any team who may be free 
+* Code-ownership is fluid and shared between any collection of teams in the organization so the work can be moved to any team 
 * Teams lack an identity tied to expertise and work in a specific area of the system(s) 
 * Estimates are treated as deadlines 
 * Decisions about the work are disconnected from those doing the work
@@ -29,7 +29,7 @@ Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) 
 
 ## Sticking to the Plan
 
-It's impossible to know exactly what software should do before starting the work, but these companies still batch big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally asked for. They hold any feedback for the end of the large project, as reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to "work harder" if they provided a bad estimate based on a high-level, fifteen-minute conversation six months ago. 
+These companies plan and batch features in big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally asked for. They hold any feedback for the end of the large project, as reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to *"work harder"* if they provided a inaccurate estimate based on a high-level, fifteen-minute conversation six months ago. This eliminates any possibility for experimentation and learning in the organization.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Meeting the initial targets is more a definition of failure since it assumes we didn&#39;t learn what the customer really wants...&quot;</p>&mdash; David Bernstein (@ToBeAgile) <a href="https://twitter.com/ToBeAgile/status/912743657836548097?ref_src=twsrc%5Etfw">September 26, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -46,15 +46,15 @@ Teams can't iterate unless there is something to iterate on. The ability to deli
 
 #### On site Customer
 
-XP has the concept of the on site customer so that delivering to production is not required to get feedback. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name, not a customer. User stories are just up-front requirements reworded in a user story template and not a *"promise for a conversation"* as Alistair Cockburn has described. In these situations the valuable feedback comes after releasing to production.
+XP has the concept of the on site customer so that delivering to production is not required to get customer feedback. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager under a new name, not a customer. User stories are just waterfall requirements reworded in a user story template and not a *"promise for a conversation"* as Alistair Cockburn has described. In these situations the valuable feedback comes after releasing to production.
 
 #### Releasing is a Business Decision
 
-There is a belief in agile development that releasing software is a business decision but teams need *the ability to constantly deliver*. I agree with this advice assuming that the business decision is not to release every six months to a year. Sometimes it makes sense to batch a few features together but it is still important to keep these batches small and frequent. 
+There is a belief in agile development that releasing software is a business decision but teams need *the ability to constantly deliver*. I agree with this advice assuming that the business decision is not to release every six months to a year. Sometimes it makes sense to batch a few features together but it is still important to keep these batches small and deliveries frequent. 
 
 ### Feedback
 
-Too often organizations don't gather feedback until the end of a big project. When they do get feedback it typically bypasses the team. Unless the teams are empowered to change their backlog based on feedback it stands to reason (from the organization's point of view) they don't *need* to get that feedback themselves. Further, big batch projects make it impossible to use feedback effectively to steer the day-to-day work. Typically in these cases the feedback gets to the team in the form of another big batch project some months later. This is an incredibly error-prone and inefficient process.
+Too often organizations don't gather feedback until the end of a big project. When they do get feedback it typically is not collected by the team doing the work. In these organizations teams aren't empowered to change their work based on feedback, so it's not surprising that they wouldn't ben in a position to obtain customer feedback. Big batch projects make it impossible to use feedback effectively to steer the day-to-day work. Typically in these cases the feedback gets to the team in the form of another big batch project some months later. This is an incredibly error-prone and inefficient process.
 
 Organizations still entrenched in old ways of thinking will separate determining what to build from the team that actually builds it. If the organization believes developers are fungible resources and they want high-utilization of these resources, they accomplish that by telling those resources what to build. Don't take up their valuable cycles determining what to build or obtaining feedback. Just start another project to address the feedback and tell the team to build it. 
 
@@ -73,6 +73,6 @@ Even when organizations embrace all of these activities but don't invest in the 
 
 ## Next Questions
 
-Is your organization agile because you have standups, planning meetings, and sprints? Or are you delivering frequently, getting customer feedback, and iterating based on that feedback? Do the teams use agile technical practices to ensure that they can continue to deliver in a fast changing environment? These are important questions to assess where your organization is on its journey.  
+Are you agile because you use Jira and have standups, planning meetings, and sprints? Or are you delivering frequently, getting customer feedback, and iterating based on that feedback? Do your teams use XP engineering practices to ensure that they can continue to deliver in a fast changing environment? These are important questions to assess where your organization is on its journey.  
 
 [^1]: This is not an indictment of Scrum, but in my experience I've seen a lot of "agile in name only" Scrum implementations. Also known as [Dark Scrum](http://ronjeffries.com/categories/dark-scrum/), [Flaacid Scrum](https://martinfowler.com/bliki/FlaccidScrum.html), or [Zombie Scrum](https://twitter.com/tottinge/status/913890035845517312).
