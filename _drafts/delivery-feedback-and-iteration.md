@@ -9,7 +9,7 @@ tags: ['agile development', 'anti-patterns']
 
 Frequent deliveries of working software, acquiring customer feedback, iterating based on that feedback, and the development practices to support these activities are the things I most commonly see missing from poor agile implementations. When I hear developers complain about how much they dislike agile software development they are missing some or all of these key activities. 
 
-By contrast, teams who have embraced agile technical practices, continuously improve, and consistently iterate on their features based on frequent customer feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
+By contrast, teams who have embraced agile technical practices, continuously improve, and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m sad to realize that most people only experience scrum in a corrupted form; <br>Most of them believe the corruption is the intended form.</p>&mdash; Tim Ottinger (@tottinge) <a href="https://twitter.com/tottinge/status/913761095860604928?ref_src=twsrc%5Etfw">September 29, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -25,11 +25,11 @@ Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) 
 * Teams lack an identity tied to expertise and work in a specific area of the system(s) 
 * Estimates are treated as deadlines 
 * Decisions about the work are disconnected from those doing the work
-* More time is spent on long term high-level estimation sessions than on running experiments and learning
+* More time is spent on long term, high-level estimation sessions than on running experiments and learning
 
 ## Sticking to the Plan
 
-These companies plan and batch features in big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally asked for. They hold any feedback for the end of the large project, as reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to *"work harder"* if they provided a inaccurate estimate based on a high-level, fifteen-minute conversation six months ago. This eliminates any possibility for experimentation and learning in the organization.
+These companies plan and batch features in big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally asked for. They hold any feedback for the end of the large project, since reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to *"work harder"* if they provided a inaccurate estimate based on a high-level, fifteen-minute conversation six months ago. This eliminates any possibility for experimentation and learning in the organization.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Meeting the initial targets is more a definition of failure since it assumes we didn&#39;t learn what the customer really wants...&quot;</p>&mdash; David Bernstein (@ToBeAgile) <a href="https://twitter.com/ToBeAgile/status/912743657836548097?ref_src=twsrc%5Etfw">September 26, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -50,11 +50,11 @@ XP has the concept of the on site customer so that delivering to production is n
 
 #### Releasing is a Business Decision
 
-There is a belief in agile development that releasing software is a business decision but teams need *the ability to constantly deliver*. I agree with this advice assuming that the business decision is not to release every six months to a year. Sometimes it makes sense to batch a few features together but it is still important to keep these batches small and deliveries frequent. 
+There is a belief in agile that releasing software is a business decision but teams need *the ability to constantly deliver*. I agree with this advice assuming that the business decision is not to release every six months to a year. Sometimes it makes sense to batch a few features together but it is still important to keep these batches small and deliveries frequent. 
 
 ### Feedback
 
-Too often organizations don't gather feedback until the end of a big project. When they do get feedback it typically is not collected by the team doing the work. In these organizations teams aren't empowered to change their work based on feedback, so it's not surprising that they wouldn't ben in a position to obtain customer feedback. Big batch projects make it impossible to use feedback effectively to steer the day-to-day work. Typically in these cases the feedback gets to the team in the form of another big batch project some months later. This is an incredibly error-prone and inefficient process.
+Too often organizations don't gather feedback until the end of a big project. When they do get feedback it's typically not collected by the team doing the work. In these organizations teams aren't empowered to change their work based on feedback, so it should come as no surprise that they wouldn't ben in a position to obtain customer feedback. Big batch projects make it impossible to use feedback to effectively steer the day-to-day work. Usually feedback gets to the team in the form of another big batch project some months later. This is an incredibly error-prone and inefficient process.
 
 Organizations still entrenched in old ways of thinking will separate determining what to build from the team that actually builds it. If the organization believes developers are fungible resources and they want high-utilization of these resources, they accomplish that by telling those resources what to build. Don't take up their valuable cycles determining what to build or obtaining feedback. Just start another project to address the feedback and tell the team to build it. 
 
