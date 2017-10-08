@@ -29,7 +29,7 @@ Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) 
 
 ## Sticking to the Plan
 
-These companies plan and batch features in big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally asked for. They hold any feedback for the end of the large project, since reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to *"work harder"* if they provided a inaccurate estimate based on a high-level, fifteen-minute conversation six months ago. This eliminates any possibility for experimentation and learning in the organization.
+These companies plan and batch features in big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally asked for. Feedback is held until the end of the large project, since reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to *"work harder"* if they provided a inaccurate estimate based on a high-level, fifteen-minute conversation six months ago. This eliminates any possibility for experimentation and learning in the organization.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Meeting the initial targets is more a definition of failure since it assumes we didn&#39;t learn what the customer really wants...&quot;</p>&mdash; David Bernstein (@ToBeAgile) <a href="https://twitter.com/ToBeAgile/status/912743657836548097?ref_src=twsrc%5Etfw">September 26, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -62,7 +62,7 @@ The telephone game effect is very likely in these situations given the number of
 
 ### Iterating
 
-Teams cannot iterate without feedback, it's an essential aspect of agile software development. Acknowledging that building great software requires experimentation necessitates iteration. However, if all work is batched into large deliverables the ability to iterate is lost. 
+Teams cannot iterate without feedback, it's an essential aspect of agile software development. Acknowledging that building great software requires experimentation necessitates iteration. However, when organizations stick to long term plans, large projects, and infrequent deliveries the ability to iterate is lost. 
 
 ### Engineering Practices
 
@@ -75,4 +75,4 @@ Even when organizations embrace all of these activities but don't invest in the 
 
 Are you agile because you use Jira and have standups, planning meetings, and sprints? Or are you delivering frequently, getting customer feedback, and iterating based on that feedback? Do your teams use XP engineering practices to ensure that they can continue to deliver in a fast changing environment? These are important questions to assess where your organization is on its journey.  
 
-[^1]: This is not an indictment of Scrum, but in my experience I've seen a lot of "agile in name only" Scrum implementations. Also known as [Dark Scrum](http://ronjeffries.com/categories/dark-scrum/), [Flaacid Scrum](https://martinfowler.com/bliki/FlaccidScrum.html), or [Zombie Scrum](https://twitter.com/tottinge/status/913890035845517312).
+[^1]: This is not an indictment of Scrum, but in my experience I've seen a lot of "agile in name only" Scrum implementations. Also known as [Dark Scrum](http://ronjeffries.com/categories/dark-scrum/), [Flaccid Scrum](https://martinfowler.com/bliki/FlaccidScrum.html), or [Zombie Scrum](https://twitter.com/tottinge/status/913890035845517312).
