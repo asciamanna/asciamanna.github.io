@@ -7,9 +7,9 @@ category: development practices
 tags: ['agile development', 'anti-patterns']
 ---
 
-Frequent deliveries of working software, acquiring customer feedback, iterating based on that feedback, and the development practices to support these activities are the things I most commonly see missing from poor agile implementations. When I hear developers complain about how much they dislike agile software development they are missing some or all of these key activities. 
+There are several key activities that I commonly see missing from poor agile implementations. These include frequent deliveries of working software, acquiring customer feedback, iterating based on that feedback, and the development practices to support these activities. When I hear developers proclaim their disdain for agile software development some, or all, are of these are typically missing.
 
-By contrast, teams who have embraced agile technical practices, continuously improve, and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
+By contrast, teams who have embraced agile technical practices, continuously improve and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m sad to realize that most people only experience scrum in a corrupted form; <br>Most of them believe the corruption is the intended form.</p>&mdash; Tim Ottinger (@tottinge) <a href="https://twitter.com/tottinge/status/913761095860604928?ref_src=twsrc%5Etfw">September 29, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -46,7 +46,7 @@ Teams can't iterate unless there is something to iterate on. The ability to deli
 
 #### On site Customer
 
-XP has the concept of the on site customer so that delivering to production is not required to get customer feedback. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager or business analyst under a new name, not an on site customer. User stories are just waterfall requirements reworded in a user story template and not a *"promise for a conversation"* as Alistair Cockburn has described. In these situations the valuable feedback comes after releasing to production.
+XP has the concept of the on site customer so that delivering to production is not required to get customer feedback. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager or business analyst under a new name, not an on site customer (typically with a new, shiny CSPO certification). User stories are just waterfall requirements reworded in a user story template and not a *"promise for a conversation"* as Alistair Cockburn has described. In these situations the valuable feedback comes after releasing to production.
 
 #### Releasing is a Business Decision
 
@@ -56,7 +56,7 @@ There is a belief in agile that releasing software is a business decision but te
 
 Too often organizations don't gather feedback until the end of a big project. When they do get feedback it's typically not collected by the team doing the work. In these organizations teams aren't empowered to change their work based on feedback, so it should come as no surprise that they wouldn't be in a position to obtain customer feedback. Big batch projects make it impossible to use feedback to effectively steer the day-to-day work. Usually feedback gets to the team in the form of another big batch project some months later. This is an incredibly error-prone and inefficient process.
 
-Organizations still entrenched in old ways of thinking will separate determining what to build from the team that actually builds it. If the organization believes developers are fungible resources and they want high-utilization of these resources, they accomplish that by telling those resources what to build. Don't take up their valuable cycles determining what to build or obtaining feedback. Just start another project to address the feedback and tell the team to build it. 
+Organizations still entrenched in old ways of thinking will separate determining what to build from the team that actually builds it. If the organization believes developers are fungible resources and they want high-utilization of these resources, they accomplish that by telling those resources what to build. They don't want to take up the developer's valuable time determining what to build or obtaining feedback. Just start another project to address the feedback and tell the team to build it. 
 
 Unfortunately this results in teams being given prescriptive solutions (as requirements) instead of working with their customers to discover and solve problems. The telephone game effect is very likely in these situations given the number of information handoffs that are required. Great software does not get created by telling teams exactly what to build. Delivering prescriptive solutions to teams limits their creativity and damages morale. 
 
