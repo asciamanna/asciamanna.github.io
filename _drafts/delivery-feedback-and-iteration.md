@@ -7,7 +7,7 @@ category: development practices
 tags: ['agile development', 'anti-patterns']
 ---
 
-There are several key activities that I commonly see missing from poor agile implementations. These include frequent deliveries of working software, acquiring customer feedback, iterating based on that feedback, and the development practices to support these activities. When I hear developers proclaim their dislike of agile software development some (or all) of these are typically missing.
+There are several key activities that I commonly see missing from poor agile implementations. These include frequent deliveries of working software, acquiring customer feedback, iterating based on that feedback, and the development practices to support these activities. When I hear developers proclaim their dislike of agile development some (or all) of these are typically missing from their organization.
 
 By contrast, teams who have embraced agile technical practices, continuously improve and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
 
