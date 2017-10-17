@@ -7,7 +7,7 @@ category: development practices
 tags: ['agile development', 'anti-patterns']
 ---
 
-The crux of agile software development can be found in a few key activities. 
+The nucleus of agile software development can be found in a few key activities. 
 
 * Software team collaboration
 * Frequent / continuous delivery of working software
@@ -15,10 +15,9 @@ The crux of agile software development can be found in a few key activities.
 * Iterating based on customer feedback
 * Software teams reflecting and continuously improving
 
-Despite this, several of these key activities I commonly see missing in poor agile implementations.
-These organizations don't regularly deliver working software, don't acquire customer feedback, don't iterate based on that feedback, and don't utilize development practices to support these activities. 
+Too often I see several of these key activities missing in poor agile implementations. These organizations purporting to be agile don't regularly deliver working software, don't acquire customer feedback, don't iterate based on that feedback, and don't utilize any of the XP development practices to support these activities. 
 
-By contrast, teams who have embraced agile technical practices, continuously improve and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
+By contrast, teams who have embraced XP team practices, continuously improve, and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m sad to realize that most people only experience scrum in a corrupted form; <br>Most of them believe the corruption is the intended form.</p>&mdash; Tim Ottinger (@tottinge) <a href="https://twitter.com/tottinge/status/913761095860604928?ref_src=twsrc%5Etfw">September 29, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -27,7 +26,7 @@ By contrast, teams who have embraced agile technical practices, continuously imp
 
 This stark contrast exists because when agile is done well it embraces the unknowns and challenges of building software. Creating software is experimental and creative. It is a process of discovery. When software organizations cling to their old manufacturing mindsets they create dissonance between how they plan and run a software project and the reality for the teams creating the software. 
 
-Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) organizations process continues to thrive that ostensibly simplifies project planning at the expense of the code and the people who create it. While impacts may not be immediately visible to the decision makers, these poor decisions have a damaging effect on the organization's ability to deliver value to their customers. How many of these sound familiar?
+Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) organizations process continues to thrive that ostensibly simplifies project planning at the expense of the software and the people who create it. While impacts may not be immediately visible to the decision makers, these poor decisions have an ongoing and damaging effect on the organization's ability to deliver value to their customers. How many of these sound familiar?
 
 * Developers are fungible resources who can be moved between teams and projects to meet scheduling needs
 * Code-ownership is fluid and shared between any collection of teams in the organization so that work can be moved to any team 
@@ -43,7 +42,7 @@ These companies plan and batch features in big deliverables as *projects*. They 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Meeting the initial targets is more a definition of failure since it assumes we didn&#39;t learn what the customer really wants...&quot;</p>&mdash; David Bernstein (@ToBeAgile) <a href="https://twitter.com/ToBeAgile/status/912743657836548097?ref_src=twsrc%5Etfw">September 26, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Alternatively, a focus on frequent feedback and iteration throws all of this old thinking out. It embraces the nature of software development and that's why developers love it. Removing this dissonance creates a low stress and highly productive environment for creating software. 
+Alternatively, a focus on frequent feedback and iteration throws all of this old thinking out. It embraces the nature of software development and that's why developers love it. Removing this dissonance creates a low stress and highly productive environment for creating not only great software but great business outcomes. 
 
 ## Where we go Wrong 
 
@@ -65,9 +64,11 @@ There is a belief in agile that releasing software is a business decision but te
 
 Too often organizations don't gather feedback until the end of a big project. When they do get feedback it's typically not collected by the team doing the work. In these organizations teams aren't empowered to change their work based on feedback, so it should come as no surprise that they wouldn't be in a position to obtain customer feedback. Big batch projects make it impossible to use feedback to effectively steer the day-to-day work. Usually feedback gets to the team in the form of another big batch project some months later. This is an incredibly error-prone and inefficient process.
 
-Organizations still entrenched in old ways of thinking will separate determining what to build from the team that actually builds it. If the organization believes developers are fungible resources and they want high-utilization of these resources, they accomplish that by telling those resources what to build. They don't want to take up the developer's valuable time determining what to build or obtaining feedback. Just start another project to address the feedback and tell the team to build it. 
+Organizations still entrenched in old ways of thinking will separate determining what to build from the team that actually builds it. If the organization believes developers are fungible resources and they want high-utilization of these resources, they accomplish that by telling those resources what to build. They don't want to take up the developer's valuable time determining what to build or obtaining feedback. They just start another project to address the feedback and tell the team to build it. 
 
-Unfortunately this results in teams being given prescriptive solutions (as requirements) instead of working with their customers to discover and solve problems. The telephone game effect is very likely in these situations given the number of information handoffs that are required. Great software does not get created by telling teams exactly what to build. Delivering prescriptive solutions to teams limits their creativity and damages morale. 
+#### The Workers vs. the Decision Makers 
+
+This separation of workers and decision makers has a very negative consequence. It results in teams being handed prescriptive solutions (as requirements) instead of working closely with their customers to discover and solve problems. Great software does not get created by telling teams exactly what to build. Delivering prescriptive solutions to teams limits their creativity, limits the possible solution space, and damages morale. The best developers will move on to help other company's solve their business problems.
 
 ### Iterating
 
