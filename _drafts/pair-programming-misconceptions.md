@@ -2,7 +2,7 @@
 
 Pair Programming has increased in awareness with it's inclusion as one of the twelve core eXtreme Programming (XP) practices. However after two decades of XP, Pair Programming remains misunderstood and under utilized by agile software teams. In this post I am going to discuss the misconceptions about Pair Programming. In a follow-up post I will discuss the benefits of the approach and how to sell the practice to organizations that have doubts about its merits. I recommend it as an essential practice for modern development teams. Hopefully, dispelling some of the myths and misconceptions and focusing on its benefits will encourage more organizations to not only try, but master this practice. 
 
-I group the misconceptions into two categories. Both of these have their genesis in old Information Technology (IT) practices that treat software development like manufacturing / factory work. As organizations are slow to change their mindsets about these things some of these beliefs still take hold of organizational processes and prevent companies from achieving excellence. Creating great software is a process of discovery and like most knowledge work, it is a creative endeavor. We need to start shedding these old beliefs to achieve better outcomes for our customers.
+I group the misconceptions into two categories. Both of these have their genesis in old Information Technology (IT) practices that treat software development like manufacturing / factory work. As organizations are slow to change their mindsets, some of these beliefs are entrenched in organizational processes and prevent companies from achieving excellence. Creating great software is a process of discovery and like most knowledge work, it is a creative endeavor. We need to start shedding these old beliefs to achieve better outcomes for our customers.
 
 ## The Manufacturing Mindset
 
@@ -10,9 +10,9 @@ The most common argument against Pair Programming is the belief that it is two p
 
 ### The Costs and Benefits of Pair Programming
 
-Agile Manifesto co-author Alistair Cockburn and Laurie Williams published a study, [the Costs and Benefits of Pair Programming](https://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF) in 2000. In the paper they describe that there was not a 50% decrease in team productivity, as one would assume if *"two people were doing the work of one."* What they did find was that there was an increase of 15% in development program hours for teams who pair. However, there was a reduction in bugs escaping to production, an increase in the quality of the code, and other benefits (that will be mentioned in a future post) that more than made up for the 15% increase in hours. 
+Agile Manifesto co-author Alistair Cockburn and Laurie Williams published a study, [the Costs and Benefits of Pair Programming](https://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF) in 2000. In the paper they describe that there was not a 50% decrease in team productivity, as one would assume if *"two people were doing the work of one."* What they did find was that there was an increase of 15% in development program hours for teams who pair. However, there was a reduction in bugs escaping to production, an increase in the quality of the code, and other benefits (that will be mentioned in a future post) that more than made up for the 15% increase in initial development hours. 
 
-If we shift the measure of team success from output to favorable business outcomes there is a compelling case for pair programming. It typically results in getting individual features to production faster given the higher quality code it yields and its support in limiting work in progress at the team level.
+If we shift the measure of team success from output to value delivered to the customer there is a compelling case for pair programming. It typically results in getting individual features to production faster given the higher quality code it yields and its support in limiting work in progress at the team level.
 
 ## Selective Pair Programming
 
@@ -22,6 +22,14 @@ These teams that selectively pair program often make remarks like *"we wouldn't 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Sometimes pair programming doesn&#39;t &quot;take&quot; -- most frequently when it&#39;s framed as one programmer helping out another who&#39;s struggling.</p>&mdash; Tim Ottinger (@tottinge) <a href="https://twitter.com/tottinge/status/916016522388135936?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### A Social Activity
+
+One of the problems with teams who only selectively pair is that software development is a social activity. Great software gets created by teams who are great collaborators. Teams who pair program are highly skilled collaborators. Teams who don't pair or rarely pair typically struggle with collaboration. 
+
+Watching a strong XP team work is an amazing thing to behold, and it shows how different they are from traditional development teams. Their team area is a hive of activity. Three developers at a white board diagramming a solution, a developer sitting with two QA members discussing corner cases, two other developers pairing on a task. The room is in constant motion and there is always a level of noise coming from everyone discussing the work. The energy is palpable. 
+
+For contrast, observe a team that "selectively pairs" and you will find a very different scenario. Every time I observe a team that "selectively pairs" I see the backs of heads buried in computer monitors and everyone has their headphones on. The room is completely silent as very little collaboration happens. It seems much more like a library than a place where software is being build.
 
 ### Pairing takes Practice
 
