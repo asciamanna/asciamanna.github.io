@@ -37,12 +37,12 @@ Within these [Tayloristic](https://en.wikipedia.org/wiki/Scientific_management) 
 
 ## Sticking to the Plan
 
-These companies plan and batch features in big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally requested. Feedback is held until the end of the large project, since reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to *"work harder"* if they provided a inaccurate estimate based on a high-level, fifteen-minute conversation six months ago. This eliminates any possibility for experimentation and learning in the organization.
+These companies plan and batch features in big deliverables as *projects*. They consider success hitting a date with a set of features that the customer originally requested. Feedback is held until the end of the large project, since reacting to the feedback would disrupt the plan. They oversimplify the challenges of building unknown features and believe that estimates can be translated directly into due dates on Gantt charts. Developers have to *"work harder"* if they provided a inaccurate estimate based on a high-level, fifteen-minute conversation six months ago. These organizational behaviors eliminate any possibility for experimentation and learning on the development teams.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Meeting the initial targets is more a definition of failure since it assumes we didn&#39;t learn what the customer really wants...&quot;</p>&mdash; David Bernstein (@ToBeAgile) <a href="https://twitter.com/ToBeAgile/status/912743657836548097?ref_src=twsrc%5Etfw">September 26, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Alternatively, a focus on frequent feedback and iteration throws all of this old thinking out. It embraces the nature of software development and that's why developers love it. Removing this dissonance creates a low stress and highly productive environment for creating not only great software but great business outcomes. 
+Alternatively, a focus on frequent feedback and iteration throws this old way of thinking out. It embraces the nature of software development and that's why developers love it. Removing this dissonance creates a low stress and highly productive environment for creating not only great software but great business outcomes. 
 
 ## Where we go Wrong 
 
@@ -54,7 +54,7 @@ Teams can't iterate unless there is something to iterate on. The ability to deli
 
 #### On site Customer
 
-XP has the concept of the on site customer so that delivering to production is not required to get customer feedback. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager or business analyst under a new name, not an on site customer (typically with a new, shiny CSPO certification). User stories are just waterfall requirements reworded in a user story template and not a *"promise for a conversation"* as Alistair Cockburn has described. In these situations the valuable feedback comes after releasing to production.
+XP has the concept of the on site customer so that delivering to production is not required to get customer feedback. In fact, in this model the customer is always available to the development team. Unfortunately, in these challenged Scrum implementations the Product Owner is really a project manager or business analyst under a new name, not an on site customer (typically with a new, shiny CSPO certification). User stories are just waterfall requirements reworded in a user story template and not a *"promise for a conversation"* as Alistair Cockburn has described them. In these situations the valuable feedback comes after releasing to production.
 
 #### Releasing is a Business Decision
 
@@ -72,7 +72,7 @@ This separation of workers and decision makers has a very negative consequence. 
 
 ### Iterating
 
-Teams cannot iterate without feedback, it's an essential aspect of agile software development. Acknowledging that building great software requires experimentation necessitates iteration. However, when organizations stick to long term plans, large projects, and infrequent deliveries the ability to iterate is lost. 
+Teams cannot iterate without feedback, it's an essential aspect of agile software development. Acknowledging that building great software requires experimentation necessitates iteration. However, when organizations stick to long term plans, large projects, and infrequent deliveries their ability to iterate is lost. 
 
 ### Engineering Practices
 
