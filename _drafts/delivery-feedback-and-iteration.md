@@ -9,11 +9,11 @@ tags: ['agile development', 'anti-patterns']
 
 The nucleus of agile software development can be found in a few key activities. 
 
-* Software team collaboration
+* Team collaboration
 * Frequent / continuous delivery of working software
 * Obtaining ongoing customer feedback
 * Iterating based on customer feedback
-* Software teams reflecting and continuously improving
+* Team reflection and continuously improving
 
 Too often I see several of these key activities missing in poor agile implementations. These organizations purporting to be agile don't regularly deliver working software, don't acquire customer feedback, don't iterate based on that feedback, and don't utilize any of the XP development practices to support these activities. 
 
