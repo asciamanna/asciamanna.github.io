@@ -78,7 +78,7 @@ Teams cannot iterate without feedback. It's an essential aspect of agile softwar
 
 Even when organizations embrace all of these activities but don't invest in the technical practices that enable them, they struggle to find success. The XP practices that include refactoring, evolutionary / emergent Design, TDD, pair programming, collective code ownership, and continuous integration, equip teams to incrementally deliver. These practices take time to learn and are not typically taught in schools. Adopting Scrum without a focus on technical team practices (which appears to be the norm) only sets teams up for failure.
 
-> Without technical learning, Agile often harms both the enterprise and the developer...weak technical practices is building upon sand  
+> Without technical learning, Agile often harms both the enterprise and the developer...weak technical practice is building upon sand.
 > &mdash; Ron Jeffries, [Business Agile: Built Upon Sand](http://ronjeffries.com/articles/017-08ff/sand/)
 
 ## Next Questions
