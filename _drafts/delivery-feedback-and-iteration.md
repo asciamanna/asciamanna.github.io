@@ -15,7 +15,7 @@ The nucleus of agile software development can be found in a few key activities.
 * Iterating based on customer feedback
 * Team reflection and continuous improvement / learning
 
-I often see several of these key activities missing in poor agile implementations. These organizations claiming to be agile don't regularly deliver working software, don't acquire customer feedback, don't iterate based on that feedback, and don't utilize any of the XP development practices to support these activities. 
+I often see several of these key activities missing in poor agile implementations. These organizations claiming to be agile aren't frequently delivering working software, don't regularly acquire customer feedback, don't iterate based on that feedback, and aren't utilizing any of the XP development practices to support these activities. 
 
 By contrast, teams who have embraced XP team practices, continuously improve, and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to really understand the frustration developers have with the state of agile software development [^1]. 
 
