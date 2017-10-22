@@ -17,7 +17,7 @@ The nucleus of agile software development can be found in a few key activities.
 
 Too often I see several of these key activities missing in poor agile implementations. These organizations purporting to be agile don't regularly deliver working software, don't acquire customer feedback, don't iterate based on that feedback, and don't utilize any of the XP development practices to support these activities. 
 
-By contrast, teams who have embraced XP team practices, continuously improve, and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to understand the frustration developers have with the state of agile software development [^1]. 
+By contrast, teams who have embraced XP team practices, continuously improve, and consistently iterate on their features based on frequent feedback tend to love the way they work. It took me leaving the eXtreme Programming (XP) world and joining my first Scrum team to really understand the frustration developers have with the state of agile software development [^1]. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m sad to realize that most people only experience scrum in a corrupted form; <br>Most of them believe the corruption is the intended form.</p>&mdash; Tim Ottinger (@tottinge) <a href="https://twitter.com/tottinge/status/913761095860604928?ref_src=twsrc%5Etfw">September 29, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -83,6 +83,6 @@ Even when organizations embrace all of these activities but don't invest in the 
 
 ## Next Questions
 
-Is your organization agile because it uses Jira and has standups, planning meetings, and sprints? Or does the organization deliver frequently and iterate based on feedback? Do the development teams use XP engineering practices to ensure that they can continue to deliver in a fast changing environment? These are important questions to assess where your organization is on its journey.  
+Is your organization agile because it uses Jira and has standups, planning meetings, and sprints? Or does the organization deliver frequently and iterate based on feedback? Do the development teams use XP engineering practices to ensure that they can continue to deliver in a constantly changing environment? These are important questions to assess where your organization is on its journey.  
 
 [^1]: This is not an indictment of Scrum, but in my experience I've seen a lot of "agile in name only" Scrum implementations. Also known as [Dark Scrum](http://ronjeffries.com/categories/dark-scrum/), [Flaccid Scrum](https://martinfowler.com/bliki/FlaccidScrum.html), or [Zombie Scrum](https://twitter.com/tottinge/status/913890035845517312).
