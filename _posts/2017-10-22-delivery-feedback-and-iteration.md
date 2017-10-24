@@ -68,7 +68,7 @@ Organizations still entrenched in old ways of thinking will separate determining
 
 #### The Workers vs. the Decision Makers 
 
-This separation of workers and decision makers has a very negative consequence. It results in teams being handed prescriptive solutions (as requirements) instead of working closely with their customers to discover and solve problems. Great software does not get created by telling teams exactly what to build. Delivering prescriptive solutions to teams limits their creativity, limits the possible solution space, and damages morale. The best developers will move on to help other company's solve their business problems.
+This separation of workers and decision makers has a very negative consequence. It results in teams being handed prescriptive solutions (as requirements) instead of working closely with their customers to discover and solve problems. Great software does not get created by telling teams exactly what to build. Delivering prescriptive solutions to teams limits their creativity, limits the possible solution space, and damages morale. The best developers will move on to help other companies solve their business problems.
 
 ### Iterating
 
@@ -76,7 +76,7 @@ Teams cannot iterate without feedback. It's an essential aspect of agile softwar
 
 ### Engineering Practices
 
-Even when organizations embrace all of these activities but don't invest in the technical practices that enable them, they struggle to find success. The XP practices that include refactoring, evolutionary / emergent Design, TDD, pair programming, collective code ownership, and continuous integration, equip teams to incrementally deliver. These practices take time to learn and are not typically taught in schools. Adopting Scrum without a focus on technical team practices (which appears to be the norm) only sets teams up for failure.
+Even when organizations embrace all of these activities but don't invest in the technical practices that enable them, they struggle to find success. The XP practices that include refactoring, evolutionary / emergent design, TDD, pair programming, collective code ownership, and continuous integration, equip teams to incrementally deliver. These practices take time to learn and are not typically taught in schools. Adopting Scrum without a focus on technical team practices (which appears to be the norm) only sets teams up for failure.
 
 > Without technical learning, Agile often harms both the enterprise and the developer...weak technical practice is building upon sand.    
 > &mdash; Ron Jeffries, [Business Agile: Built Upon Sand](http://ronjeffries.com/articles/017-08ff/sand/)
