@@ -41,9 +41,9 @@ Teams with high trust are incredibly effective. Trust on teams is essential and 
 
 One of the twelve XP practices is colletive code ownership. Pair programming helps create collective code ownership on teams. You avoid all of the problems that come from individual developers taking ownership of an area of the code and work on it in isolation.
 
-Code developed by lone developers continues to be the lowest quality code I tend to encounter. These developers have spent months (and sometimes years) learning the idiosyncracies of poor code and after a while don't see the mess that is in front of them. At times their own lack of knowledge of software design affects their decisions, so they just push changes through to hit the dates they need to hit. 
+Code developed by lone developers continues to be the lowest quality code I encounter. These developers have spent months (and sometimes years) learning the idiosyncracies of poor code and after a while don't see the mess that is in front of them. At times their own lack of knowledge of software design affects their decisions, so they just push changes through to hit the dates they need to hit. 
 
-### Eliminates towers of knowledge
+### Eliminates Towers of Knowledge
 
 Pair programming eliminates towers of knowledge in companies. Towers of knowledge are a risk that no software company should be willing to take. In an industry where (for better or worse) developers get promotions and grow by switching jobs the reality is you cannot keep a developer forever.  A lot of companies allow this to happen and throw money at these developers to keep them. But at some point the developer will get another offer, win the lottery, or just get tired of the specific workplace dysfunction they are dealing with and move on. 
 
