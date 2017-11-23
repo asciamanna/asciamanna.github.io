@@ -7,15 +7,15 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-Pair programming has increased in awareness over the years with it's inclusion in eXtreme Programming (XP), as one of the twelve core XP practices. However after two decades of XP, pair programming remains misunderstood and under utilized by agile software teams. In this post I am going to discuss the misconceptions about pair programming. In a follow-up post I will discuss its benefits, and how to encourage the practice in organizations that have doubts about its merits. 
+Pair programming has increased in awareness over the years with it's inclusion in eXtreme Programming (XP), as one of the twelve core XP practices. Despite the increase in awareness it remains misunderstood and under utilized by agile software teams. In this post I am going to discuss the misconceptions about pair programming. In a follow-up post I will discuss its benefits, and how to encourage the practice in organizations that have doubts about its merits. 
 
-I recommend it as an essential practice for modern development teams. Hopefully, dispelling some of the myths and misconceptions and focusing on its benefits will encourage more organizations to not only try, but master this practice. 
+I recommend pair programming as an essential practice for modern development teams. Hopefully, dispelling some of the myths and misconceptions and focusing on its benefits will encourage more organizations to not only try, but master this practice. 
 
 I group the misconceptions into two categories. Both of these have their genesis in old Information Technology (IT) project practices that treat software development like industrial revoluation era manufacturing / factory work. Companies are often slow to change. As a result these beliefs can be found entrenched in organizational processes preventing companies from achieving excellence. Creating great software is a process of discovery and like most knowledge work, it is a creative endeavor. We need to start shedding these old beliefs to achieve better outcomes for our customers and create the next generation of brilliant technologists.
 
 ## The Manufacturing Mindset
 
-The most common argument against pair programming is the belief that it is two people doing the work of one person, therefore it must reduce the productivity of the team by 50%. People assume it is a mostly wasteful practice. I have heard this argument about pair programming so many times I have lost count. If organizations continue to measure the value of software development in output they will most likely avoid a practice like pair programming (although studies have shown that it does not reduce a team's output). When optimizing for developer busyness, measuring a team by velocity, and aiming for 100% utilization of "development resources" organizations are unlikely to try pair programming. 
+The most common argument against pair programming is the belief that it is two people doing the work of one person, therefore it must reduce the productivity of the team by 50%. People assume it is a mostly wasteful practice. I have heard this argument about pair programming so many times I have lost count. If organizations continue to measure the value of software development in output they will most likely avoid a practice like pair programming (despite the fact that studies have shown that it does not reduce a team's output). When optimizing for 100% utilization of "development resources" and measuring a team by their velocity, organizations are unlikely to try pair programming. 
 
 
 ### The Costs and Benefits of Pair Programming
@@ -53,9 +53,9 @@ Pair programming is a deceptively challenging technique and it, like other pract
 
  <img class="img-responsive" src="/img/selective-pair-programming-catch22.png" />
 
-### Time to Pair
+### Time for Pairing 
 
-On the surface I would agree with the idea that teams shouldn't be required to pair on 100% of their work. However, my view of how much teams should pair and the view of developers who have not mastered pair programming is very different. I would consider pairing time somewhere around 80% or more for a team, where a vast majority of the work would get paired on. For a team that is just learning these practices, I would expect something much higher and closer to 100% until they begin to master the practice.  
+On the surface I would agree with the idea that teams shouldn't be required to pair on 100% of their work. However, my view of how much teams should pair and the view of developers who have not mastered pair programming is very different. I would consider pairing time somewhere around 80% or more for a team, where a vast majority of the work would get paired on. For a team that is just learning these practices, I would expect something much higher and closer to 100% until they master the practice.  
 
 The teams I see that claim to selectively pair program tend to pair much less than this, somewhere in the 20% or less range. It is interesting when I observe teams who find the idea of pair programming the way its described in XP as too prescriptive, I don't see much collaboration happening. It is certainly not the level of collaboration I would expect from a modern, agile software team. These teams end up missing the many benefits that come from pair programming and team collaboration. 
 
