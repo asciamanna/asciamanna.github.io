@@ -7,17 +7,17 @@ category: development practices
 tags: ['agile development', 'anti-patterns']
 ---
 
-__*Our company was interested in agile software devleopment so we adopted Scrum about a year or so ago.*__
+__*The company I work for was interested in agile software devleopment so we adopted Scrum a couple of years ago.*__
 
 Really? That is fantastic. Working on an XP team was one of the greatest, most rewarding experiences of my professional career. How do you like it?
 
-__*Uh....Scrum feels like micromanagement. I'd rather get hassled about deadlines once at the end of a project instead of constantly now.*__
+__*Uh....Scrum is just micromanagement. I'd rather get hassled about deadlines once at the end of a project instead of constantly now.*__
 
 Hmmm...that doesn't sound right. Tell me more about it. Are you releasing after every sprint?
 
 __*No we release features quarterly, sometimes it may take us longer than that. We deploy code more regularly but it doesn't get enabled in production for several months. That's a business decision. We are only responsible for implementing the features.*__
 
-That's a long time, are you getting feedback from customers and users and iterating based on that feedback?
+That's a long time, are you getting feedback from customers and iterating based on that feedback?
 
 __*Well, no we fix the scope of all of our projects up front. Iterating would put us at risk for missing the deadlines the organization has set. That would be bad, we'd look like we aren't working hard enough.*__
 
@@ -31,11 +31,23 @@ __*No our scrum team doesn't. I've never interacted with a customer. We are pret
 
 Are you getting stakeholder feedback in your sprint review that informs your backlog?
 
-__*No, our management and organizational leadership comes and watches to see our progress but we don't get much feedback. They may ask when we'll be done.*__
+__*No, our management and organizational leadership comes and watches to see our progress but we don't get much feedback. They typically ask when we'll be done the project.*__
 
 How is your team estimating? Does your product owner use the estimates to inform future work?
 
-__*No, like I said the work is fixed, the estimates are used to see if we will meet the deadlines. Or at least increase the organization's confidence we will meet their deadlines.*__
+__*No, like I said the work is fixed, the estimates are used to see if we will meet the deadlines. Or at least increase the organization's confidence we will meet their deadlines. We do a lot of high-level estimates for our large projects.*__
+
+How do you do those?
+
+__*We have a brief fifteen to thirty minute conversation with leadership about a project idea and then we guess how long it will take to complete.*__
+
+You don't know any details to make these guesses more meaningful?
+
+__*No, the people asking for the estimates wouldn't know any of the details anyway*__
+
+Does your development team practice any of the XP-based technical practices to help teams deliver with high-quality? Like pair programming, TDD, Continuous Integration, and evolutionary design, for example?
+
+__*No, the agile consultants said it wasn't their place to tell us how to write the code. So we code the same way we used to.*__
 
 Is your Scrum Master helping empower your team to improve yourselves and take ownership of some of these things?
 
@@ -43,7 +55,7 @@ __*Not exactly, he tells us how the leadership of the organization wants us to w
 
 Are you doing retrospectives then?
 
-__*Yes, we are doing retrospectives. The agile consultant did recommend them after all.*__
+__*Yes, we are doing retrospectives. The agile consultants did recommend them after all.*__
 
 How does your team adopt retrospective goals if you can't change the way you work?
 
