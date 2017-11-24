@@ -13,7 +13,7 @@ List of previous articles here
 
 ## TDD
 
-Every time I talk about high-quality unit tests I have to mention that practicing TDD goes a long way towards writing valuable unit tests. It prevents a lot of issues that arise when developers try to cover bad code in unit tests. 
+Every time I talk about high-quality unit tests I have to mention that practicing TDD goes a long way towards writing valuable unit tests. It prevents a lot of issues that arise when developers try to cover bad code in unit tests. `
 
 ### The Code Quality Litmus Test
 
@@ -21,6 +21,6 @@ Unit tests are a litmus test for the quality of the code under test. **You can't
 
 ## SOS
 
-When I coach developers on writing high-quality unit tests I recommend the mnemonic __*SOS*__. Unit tests should be __*short*__, __*obvious*__, and __*simple*__ t.
+When I coach developers on writing high-quality unit tests I recommend the mnemonic __*SOS*__. Unit tests should be __*short*__, __*obvious*__, and __*simple*__ .
 
  
