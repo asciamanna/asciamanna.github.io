@@ -7,7 +7,7 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-Pair programming has increased in awareness over the years with it's inclusion in eXtreme Programming (XP), as one of the twelve core XP practices. Despite the increase in awareness it remains misunderstood and under utilized by agile software teams. In this post I am going to discuss the misconceptions about pair programming. In a follow-up post I will discuss its benefits, and how to encourage the practice in organizations that have doubts about its merits. 
+Pair programming has increased in awareness over the years with it's inclusion in eXtreme Programming (XP), as one of the twelve core XP practices. Despite the increase in awareness it remains misunderstood and under utilized by agile software teams. In this post I am going to discuss some misconceptions of pair programming. In a follow-up post I will discuss its benefits, and how to encourage the practice in organizations that have doubts about its merits. 
 
 I recommend pair programming as an essential practice for modern development teams. Hopefully, dispelling some of the myths and misconceptions and focusing on its benefits will encourage more organizations to not only try, but master this practice. 
 
@@ -20,15 +20,15 @@ The most common argument against pair programming is the belief that it is two p
 
 ### The Costs and Benefits of Pair Programming
 
-Agile Manifesto co-author Alistair Cockburn and Laurie Williams (from the University of Utah) published a study, [the Costs and Benefits of Pair Programming](https://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF) in 2000. In the study they describe that there was not a 50% decrease in team productivity, as one would assume if *"two people were doing the work of one."* What they did find was that there was an increase of 15% in development program hours for teams who pair. However, there was a reduction in bugs escaping to production, an increase in the quality of the code, and other benefits (that will be mentioned in a future post) that more than made up for the 15% increase in initial development hours. 
+[Agile Manifesto](http://agilemanifesto.org/) co-author [Alistair Cockburn](http://alistair.cockburn.us/) and Laurie Williams (from the University of Utah) published a study, [the Costs and Benefits of Pair Programming](https://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF) in 2000. In the study they describe that there is not a 50% decrease in team productivity, as one would assume if *"two people were doing the work of one."* What they did find was that there was an increase of 15% in development program hours for teams who pair. However, there was a reduction in bugs escaping to production, an increase in the quality of the code, and other benefits (that will be mentioned in a future post) that more than made up for the 15% increase in initial development hours. 
 
 If we shift the measure of team success from output to value delivered to the customer there is a compelling case for pair programming. It often results in delivering value faster given the higher quality code it yields and its support in limiting work in progress at the team level. 
 
 ## Selective Pair Programming
 
-The other misconception that I often hear typically comes from developers. It is the idea of "Selective Pair Programming", sometimes referred to as "Pragmatic Pair Programming." The thought is that pair programming, as described by XP, is too prescriptive. Instead teams will *"pair when it's appropriate."* The problem with this approach is that it assumes that developers can become experts at pairing without practicing it. 
+The other misconception that I often hear typically comes from developers. It is the idea of "Selective Pair Programming", sometimes referred to as "Pragmatic Pair Programming." The thought is that pair programming, as described by XP, is too prescriptive. Instead teams will __*"only pair when it's appropriate."*__ The problem with this approach is that it assumes that developers can become experts at pairing without practicing it. 
 
-These teams reserve pair programming for very specific circumstances, like onboarding a new developer or helping a teammate out when that person gets stuck on their work. 
+These teams reserve pair programming for very specific circumstances, like onboarding a new developer or helping a teammate out when that person gets stuck on their work. They avoid it in the typical day-to-day work favoring working alone over working collaboratively.
 
 I've heard teams who selectively pair program make remarks like *"we wouldn't pair on everything...only when it makes sense, where it is appropriate"* insinuating that pairing more often then what they feel is correct is somehow unprofessional. Unfortunately pairing when someone gets stuck is not how I define pair programming (and I think the XP founders would agree with me). I expect a high amount of collaboration on software teams and pairing on the day-to-day work is a way to achieve that. 
 
@@ -39,7 +39,7 @@ I've heard teams who selectively pair program make remarks like *"we wouldn't pa
 
 One of the problems with teams who only selectively pair is that software development is a social activity. Great software gets created by teams who are great collaborators. Teams who pair program are highly skilled collaborators. Teams who rarely pair, or don't pair at all, tend to struggle with collaboration. 
 
-Watching a skilled XP team work is an amazing thing to behold, and it shows how different they are from traditional development teams. Their team area is a hive of activity. For example you may find three developers at a white board diagramming a solution, a developer sitting with two QA members discussing corner cases of the latest feature, two other developers pairing on a task. The room is in constant motion and there is always a level of noise coming from everyone discussing the work. The energy is palpable. It is obvious something creative and special is happening on these teams. 
+Watching a skilled XP team work is an amazing thing to behold, and it shows how different they are from traditional development teams. Their team area is a hive of activity. For example you may find three developers at a white board diagramming a solution, a developer sitting with two QA members discussing corner cases for the feature being developed, two other developers pairing on a task. The room is in constant motion and there is always a level of noise coming from everyone discussing the work. The energy is palpable. It is obvious something creative and special is happening on these teams. 
 
 To contrast this, observe a team that "selectively pairs" and you will find a very different scenario. Mostly I see the backs of developer heads buried in computer monitors with headphones on. The room is completely silent as very little collaboration happens. It seems much more like a library than a place where software is being built. 
 
