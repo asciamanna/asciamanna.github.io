@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Misconceptions about Pair Programming
+title: Misconceptions of Pair Programming
 comments: true
 category: development practices
 tags: ['pair programming', 'extreme programming']

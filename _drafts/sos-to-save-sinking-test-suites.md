@@ -21,6 +21,6 @@ Unit tests are a litmus test for the quality of the code under test. **You can't
 
 ## SOS
 
-When I coach developers on writing high-quality unit tests I recommend the mnemonic __*SOS*__. Unit tests should be __*short*__, __*obvious*__, and __*simple*__ .
+When I coach developers on writing high-quality unit tests I recommend the mnemonic __*SOS*__. Unit tests should be __*short*__, __*obvious*__, and __*simple*__.
 
  
