@@ -7,7 +7,7 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-Pair programming has increased in awareness over the years with it's inclusion in eXtreme Programming (XP), as one of the twelve core XP practices. Despite the increase in awareness it remains misunderstood and under utilized by agile software teams. In this post I am going to discuss some misconceptions of pair programming. In a follow-up post I will discuss its benefits, and how to encourage the practice in organizations that have doubts about its merits. 
+Pair programming has increased in awareness over the years with it's inclusion in eXtreme Programming (XP), as one of the twelve core XP practices. Despite this increase in awareness it remains misunderstood and under utilized by agile software teams. In this post I am going to discuss some misconceptions of pair programming. In a follow-up post I will discuss its benefits, and how to encourage the practice in organizations that have doubts about its merits. 
 
 I recommend pair programming as an essential practice for modern development teams. Hopefully, dispelling some of the myths and misconceptions and focusing on its benefits will encourage more organizations to not only try, but master this practice. 
 
@@ -30,7 +30,7 @@ The other misconception that I often hear typically comes from developers. It is
 
 These teams reserve pair programming for very specific circumstances, like onboarding a new developer or helping a teammate out when that person gets stuck on their work. They avoid it in the typical day-to-day work favoring working alone over working collaboratively.
 
-I've heard teams who selectively pair program make remarks like *"we wouldn't pair on everything...only when it makes sense, where it is appropriate"* insinuating that pairing more often then what they feel is correct is somehow unprofessional. Unfortunately pairing when someone gets stuck is not how I define pair programming (and I think the XP founders would agree with me). I expect a high amount of collaboration on software teams and pairing on the day-to-day work is a way to achieve that. 
+I've heard teams who selectively pair program make remarks like *"we would never pair on all of our work...only when it makes sense, where it is appropriate"* insinuating that pairing more often then what they feel is correct is somehow unprofessional. Unfortunately pairing when someone gets stuck is not how I define pair programming (and I think the XP founders would agree with me). I expect a high amount of collaboration on software teams and pairing on the day-to-day work is a way to achieve that. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Sometimes pair programming doesn&#39;t &quot;take&quot; -- most frequently when it&#39;s framed as one programmer helping out another who&#39;s struggling.</p>&mdash; Tim Ottinger (@tottinge) <a href="https://twitter.com/tottinge/status/916016522388135936?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
