@@ -7,7 +7,7 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-In my previous post <LINK> I discussed the misconceptions about pair programming. When trying to encourage skeptical development organizations to learn pair programming its not only important to understand the misconceptions but also be able to articulate its benefits. Pair programming addresses so many traditional sofwtare project issues in development organizations I consider it an essential practice of modern software development teams. 
+In my previous post <LINK> I discussed the misconceptions about pair programming. When trying to encourage skeptical development organizations to learn pair programming its not only important to understand the misconceptions but also be able to articulate its benefits. Pair programming addresses so many traditional sofwtare project issues that managers typically had to deal with that I consider it an essential practice of modern software development teams. 
 
 ## A Social Activity
 
@@ -42,7 +42,7 @@ Teams with high trust are incredibly effective. Trust on teams is essential and 
 
 One of the twelve XP practices is colletive code ownership. Pair programming helps create collective code ownership on teams. You avoid all of the problems that come from individual developers taking ownership of an area of the code and work on it in isolation.
 
-Code developed by lone developers continues to be the lowest quality code I encounter. These developers have spent months (and sometimes years) learning the idiosyncracies of poor code and after a while don't see the mess that is in front of them, and that they continue to contribute to. Their own lack of knowledge of software design affects their decisions, so they just push through incredibly low-quality, brittle, and obfuscated code to meet their deadlines. There is no visibility in the organization that the code that was committed to codebase creates a drag on the organization for years to come. 
+Code developed by lone developers continues to be the lowest quality code I encounter. These developers have spent months (and sometimes years) learning the idiosyncracies of poor code and after a while don't see the mess that is in front of them, and that they continue to contribute to. Their own lack of knowledge of software design affects their decisions, so they just push through incredibly low-quality, brittle, and obfuscated code to meet deadlines. There is no visibility in the organization that the result of meeting the deadline was a drag on the organization for years to come (or possibly forever). 
 
 ### Eliminates Towers of Knowledge
 
@@ -52,13 +52,13 @@ On teams who pair program senior level developers can leave the team without a s
 
 ### Single Coding Standard
 
-A single team coding standard is another XP practice and pair programming also encourages this. To suport eliminating towers of knowledge having code without an individual developers fingerprint on it is helpful. It's much harder to be protective of code and argue against changing code you created when you have to check git logs to figure out what pair made the change.
+A single team coding standard is another XP practice and pair programming also encourages this. To support eliminating towers of knowledge having code without an individual developers fingerprint on it is helpful. It's much harder to be protective of code and argue against changing code you created when you have to check git logs to figure out what pair made the change.
 
 ### Non-Blocking Code Reviews
 
 Since the code review happens continuously as the code is being developed the blocking aspect of both traditional and "git flow" code reviews where a developer has to do something else while waiting for feedback from his pull request. This context switching adds a lot of inefficiencies into the daily work. 
 
-While I think pairs both have the "author's mind" when writing code and they benefit from having an editor review the code, I recommend addressing this by switching pairs more frequently during the work day before introducing blocking code reviews.
+I firmly believe pairs both have the _"author's mind"_ when writing code and they benefit from having an independent editor review the code clarity and understanding. I recommend addressing this by switching pairs more frequently during the work day before introducing blocking code reviews.
 
 ## Limits WIP
 
@@ -88,4 +88,4 @@ For all the reasons listed in this article, I've found the quality of code on te
 
 ## What about Mobbing?
 
-You may have heard of [mob programming](https://en.wikipedia.org/wiki/Mob_programming) and wonder how it compares to pair programming. Mob programming is built on a lot of the principles of XP and pair programming. It is another fantastic collaborative practice for teams. Much of the benefits I desribe you will also achieve with Mob Programming. 
+You may have heard of [mob programming](https://en.wikipedia.org/wiki/Mob_programming) and wonder how it compares to pair programming. Mob programming is built on a lot of the principles of XP and pair programming. It is another fantastic collaborative practice for teams. Much of the benefits I desribe you will also achieve with Mob Programming.  
