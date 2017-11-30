@@ -7,7 +7,7 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-Pair programming has increased in awareness over the years since its inclusion in eXtreme Programming (XP) as one of the twelve core XP practices. Despite this increase in awareness, it remains misunderstood and under utilized by agile software teams. In this post, I am going to describe some misconceptions of pair programming. Then, in a follow-up post, I will discuss its benefits and how to encourage the practice in organizations that have doubts about its merits. 
+Pair programming has increased in awareness over the last 20 years since its inclusion in eXtreme Programming (XP). Despite this increase in awareness, it remains misunderstood and under utilized by agile software teams. In this post, I am going to describe some misconceptions of pair programming. Then, in a follow-up post, I will discuss its benefits and how to encourage the practice in organizations that have doubts about its merits. 
 
 I recommend pair programming as an essential practice for modern development teams. By dispelling some of the myths and misconceptions and focusing on its benefits, it will hopefully encourage more organizations to master this practice. 
 
@@ -39,9 +39,9 @@ I've heard teams who selectively pair program make remarks like *"we would never
 
 One of the problems with teams who only selectively pair is that software development is a social activity. Great software gets created by teams who are great collaborators. Teams who pair program are highly skilled collaborators. Teams who rarely pair, or don't pair at all, tend to struggle with collaboration. 
 
-Watching a skilled XP team work is an amazing thing to behold, and it shows how different they are from traditional development teams. Their team area is a hive of activity. For example, you may find three developers at a white board diagramming a solution, a developer sitting with two QA members discussing corner cases for a feature being developed, and two other developers pairing on a task. The room is in constant motion and there is always a level of noise coming from everyone discussing the work. The energy is palpable. It is obvious that something creative and special is happening on these teams. 
+Watching a skilled XP team work is an amazing thing to behold, and it shows how different they are from traditional development teams. Their team area is a hive of activity. For example, you may find three developers at a white board diagramming a solution, a developer sitting with two QA members discussing corner cases for a feature being developed, and two other developers pairing on a task. The room is in constant motion and there is a consistent level of noise (the sound of collaboration). The energy is palpable. It is obvious that something creative and special is happening on these teams. 
 
-To contrast this, observe a team that "selectively pairs" and you will find a very different scenario. What I see most often is the backs of developer heads buried in computer monitors with headphones on. The room is completely silent as very little collaboration happens. It seems much more like a library than a place where software is being built. 
+To contrast this, observe a team that "selectively pairs" and you will find a very different scenario. What I see most often is the backs of developer heads buried in computer monitors with headphones on. The room is completely silent as very little collaboration happens. It seems much more like a library than a place where software is being created. 
 
 ### Pairing takes Practice
 
