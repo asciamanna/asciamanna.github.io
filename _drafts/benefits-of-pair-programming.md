@@ -95,6 +95,8 @@ I have heard of some teams using Mob Programming as a step towards Pair Programm
 
 ## Conclusion
 
+<img src='/img/pairing-books' class='img-responsive' />
+
 I have been lucky to witness every one of these benefits first hand on several teams I've worked on and coached. But I am certainly not the first to recognize them. I highly recommend these three books that discuss pair programming (among other valuable team practices). They are Rich Sheridan's _Joy, Inc._, James Shore's _The Art of Agile Development_, and David Bernstein's _Beyond Legacy Code_.
 
 [^1]: [James Shore](http://www.jamesshore.com) discusses the resulting increase of time in flow for developers who pair in [this](http://www.jamesshore.com/Agile-Book/pair_programming.html) chapter of his book.
