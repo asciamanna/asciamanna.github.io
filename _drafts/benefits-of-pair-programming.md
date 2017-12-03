@@ -7,7 +7,7 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-In my [previous post]({{ site.baseurl }}{% post_url 2017-11-30-misconceptions-of-pair-programming %}) I discussed the misconceptions about pair programming. When trying to encourage skeptical development organizations to try pair programming its not only important to understand the misconceptions but also be able to articulate its benefits. Pair programming addresses many traditional software project issues that managers typically have to address. It is because of this and its many other benefits that I consider it an essential practice for modern agile software development teams.
+In my [previous post]({{ site.baseurl }}{% post_url 2017-11-30-misconceptions-of-pair-programming %}) I discussed the misconceptions about pair programming. When trying to encourage skeptical development organizations to try pair programming its not only important to understand the misconceptions but also be able to articulate its benefits. Pair programming avoids many traditional software project issues that managers typically have to address. It is because of this and its many other benefits that I consider it an essential practice for modern agile software development teams.
 
 ## A Social Activity
 
@@ -40,7 +40,7 @@ This constant and close collaboration on teams that pair programming creates an 
 
 ## Collective Code Ownership
 
-One of the twelve XP practices is collective code ownership. Pair programming helps create collective code ownership on teams. It avoids all of the problems that come from individual developers taking ownership of an area of the code and working on it in isolation.
+One of the twelve XP practices is collective code ownership. Pair programming helps create collective code ownership on teams. It avoids the problems that arise when individual developers take ownership of an area of the code and work on it in isolation.
 
 Code developed by lone developers continues to be the lowest quality code I encounter. These developers have spent months or years learning the idiosyncracies of poor code and learn how to work with the mess. Worse still, they continue to contribute to that mess keeping the code in a state of obfuscation. Holes in their software design knowledge combined with the stress of deadlines and production issues creates an environment for poor code to thrive. The resulting code often doesn't get seen by any other developer before landing in production. This poor code becomes a drag on the organization as soon as it is introduced, making every future change harder and riskier.
 
@@ -67,7 +67,7 @@ Pair programming encourages limiting WIP at the team level by having the work do
 
 ### Swarming
 
-When swarming, developers (or pairs of developers) work on tasks for the same piece of functionality to get it through their development pipeline and into production as quickly as possible before picking up the next piece of work. This helps get features to production faster and prevents building inventory. This concept is  known as __*One Piece Flow*__ and comes to lean software development from lean manufacturing techniques.
+When swarming, developers (or pairs of developers) work on tasks for the same piece of functionality to get it through their development pipeline and into production as quickly as possible. They do this before starting the next piece of work. This not only helps get features to production faster but prevents building inventory. This concept is known as __*One Piece Flow*__ and comes to lean software development from lean manufacturing techniques.
 
 ## Reduces Distractions
 
@@ -79,7 +79,7 @@ People are more likely to interrupt someone working by themselves rather than in
 
 ### Social Pressure to Stay Focused
 
-Pair programming also reduces distractions within the team. When developers work by themselves it is easy to get themselves distracted. Whether it's surfing the web, investigating a different issue, or getting caught up in a water cooler conversation. All of these situations while not necessarily a bad thing requires them to get back into flow to continue making progress on their problem. 
+Pair programming also reduces distractions within the team. When developers work by themselves it is easy to get themselves distracted. Whether it's surfing the web, investigating a different issue, or getting caught up in a water cooler conversation. All of these situations require the developer to get back into flow to continue making progress on their problem. 
 
 When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't.[1] 
 
@@ -89,12 +89,12 @@ For all the reasons listed in this article, I've found the quality of code on te
 
 ## What about Mobbing?
 
-You may have heard of [mob programming](https://en.wikipedia.org/wiki/Mob_programming) and wonder how it compares to pair programming. Mob programming is built on a lot of the principles of XP and pair programming. It is another fantastic collaborative practice for teams. Many of the benefits I describe in this article  will be achieved with Mob Programming as well.
+You may have heard of [mob programming](https://en.wikipedia.org/wiki/Mob_programming) and wonder how it compares to pair programming. Mob programming is built on a lot of the principles of XP and pair programming. It is another fantastic collaborative practice for teams. The benefits I describe in this article  will be achieved with Mob Programming as well.
 
 I have heard of some teams using Mob Programming as a step towards Pair Programming and eventually settling on using both practices.
 
 ## Conclusion
 
-I have been lucky to witness every one of these benefits first hand on several teams I've worked on and coached. But I am certainly not the first to notice them. I highly recommend these three books that discuss pair programming (among other valuable team practices). They are Rich Sheridan's _Joy, Inc._, James Shore's _The Art of Agile Development_, and David Bernstein's _Beyond Legacy Code_.
+I have been lucky to witness every one of these benefits first hand on several teams I've worked on and coached. But I am certainly not the first to recognize them. I highly recommend these three books that discuss pair programming (among other valuable team practices). They are Rich Sheridan's _Joy, Inc._, James Shore's _The Art of Agile Development_, and David Bernstein's _Beyond Legacy Code_.
 
 [^1]: [James Shore](http://www.jamesshore.com) discusses the resulting increase of time in flow for developers who pair in [this](http://www.jamesshore.com/Agile-Book/pair_programming.html) chapter of his book.
