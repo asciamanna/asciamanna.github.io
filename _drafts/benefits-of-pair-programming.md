@@ -81,7 +81,7 @@ People are more likely to interrupt someone working by themselves rather than in
 
 Pair programming also reduces distractions within the team. When developers work by themselves it is easy to get themselves distracted. Whether it's surfing the web, investigating a different issue, or getting caught up in a water cooler conversation. All of these situations require the developer to get back into flow to continue making progress on their problem. 
 
-When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't.[1] 
+When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't. [1]
 
 ## Results in Higher Quality Code 
 
@@ -95,7 +95,7 @@ I have heard of some teams using Mob Programming as a step towards Pair Programm
 
 ## Conclusion
 
-<img src='/img/pairing-books' class='img-responsive' />
+<img src="/img/pairing-books.png" class="img-responsive" alt="Pair Programming Books"  />
 
 I have been lucky to witness every one of these benefits first hand on several teams I've worked on and coached. But I am certainly not the first to recognize them. I highly recommend these three books that discuss pair programming (among other valuable team practices). They are Rich Sheridan's _Joy, Inc._, James Shore's _The Art of Agile Development_, and David Bernstein's _Beyond Legacy Code_.
 
