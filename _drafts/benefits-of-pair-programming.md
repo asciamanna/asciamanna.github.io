@@ -81,7 +81,7 @@ People are more likely to interrupt someone working by themselves rather than in
 
 Pair programming also reduces distractions within the team. When developers work by themselves it is easy to get themselves distracted. Whether it's surfing the web, investigating a different issue, or getting caught up in a water cooler conversation. All of these situations require the developer to get back into flow to continue making progress on their problem. 
 
-When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't. [1]
+When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't.[^1]
 
 ## Results in Higher Quality Code 
 
