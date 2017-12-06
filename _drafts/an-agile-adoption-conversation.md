@@ -7,23 +7,23 @@ category: development practices
 tags: ['agile development', 'anti-patterns']
 ---
 
-__*The company I work for was interested in agile software devleopment so we adopted Scrum a couple of years ago.*__
+__*The company I work for was interested in agile software development so we adopted Scrum a couple of years ago.*__
 
-Really? That is fantastic. Working on an XP team was one of the greatest, most rewarding experiences of my professional career. How do you like it?
+Really? That is fantastic. Working on an XP team was one of most rewarding experiences of my professional career. It changed the focus of the rest of my career. How do you like it?
 
-__*Uh....Scrum is just micromanagement. I'd rather get hassled about deadlines once at the end of a project instead of constantly now.*__
+__*Uh....Scrum is just a tool for micromanagement. Now I get hassled by a Product Owner, a Scrum Master, AND my manager.*__
 
 Hmmm...that doesn't sound right. Tell me more about it. Are you releasing after every sprint?
 
-__*No we release features quarterly, sometimes it may take us longer than that. We deploy code more regularly but it doesn't get enabled in production for several months. That's a business decision. We are only responsible for implementing the features.*__
+__*No we usually release features quarterly, sometimes it may take us longer than that. We deploy code more regularly but it doesn't get enabled in production for several months. That's a business decision. We are only responsible for implementing the features not making those kinds of decisions.*__
 
 That's a long time, are you getting feedback from customers and iterating based on that feedback?
 
 __*Well, no we fix the scope of all of our projects up front. Iterating would put us at risk for missing the deadlines the organization has set. That would be bad, we'd look like we aren't working hard enough.*__
 
-Fixing the scope of your projects? Do you have a Product Owner who is working with your team to craft user stories? 
+Fixing the scope of your projects? Does your Product Owner work with your team to help craft user stories? 
 
-__*Yeah we have a Product Owner. She's responsible for taking the requirements document and translating it into the user story format to put in our Jira backlog.*__ 
+__*She's responsible for taking the requirements document and translating it into the user story format and entering it into our Jira backlog.*__ 
 
 Do you get any customer feedback?
 
@@ -43,11 +43,11 @@ __*We have a brief fifteen to thirty minute conversation with leadership about a
 
 You don't know any details to make these guesses more meaningful?
 
-__*No, the people asking for the estimates wouldn't know any of the details anyway*__
+__*No, the people asking for the estimates wouldn't know any of the details anyway.*__
 
 Does your development team practice any of the XP-based technical practices to help teams deliver with high-quality? Like pair programming, TDD, Continuous Integration, and evolutionary design, for example?
 
-__*No, the agile consultants said it wasn't their place to tell us how to write the code. So we code the same way we used to.*__
+__*No, the agile consultants said it wasn't their place to tell us how to write the code. So we code the same way we always have.*__
 
 Is your Scrum Master helping empower your team to improve yourselves and take ownership of some of these things?
 
@@ -67,4 +67,4 @@ __*Yeah, exactly!*__
 
 Then, may I ask, why did your company adopt Scrum in the first place?
 
-__*They thought we'd give them better estimates and deliver projects faster.*__
+__*They thought we'd give them better estimates and deliver our large projects faster.*__
