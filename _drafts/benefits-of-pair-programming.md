@@ -7,11 +7,11 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-In my [previous post]({{ site.baseurl }}{% post_url 2017-11-30-misconceptions-of-pair-programming %}) I discussed some misconceptions of pair programming. When trying to encourage skeptical development organizations to try pair programming its not only important to understand the misconceptions but also be able to articulate its benefits. Pair programming avoids many traditional software project issues that managers typically have to address. It is because of this, and its many other benefits, that I consider it an essential practice for modern agile development teams.
+In my [previous post]({{ site.baseurl }}{% post_url 2017-11-30-misconceptions-of-pair-programming %}) I discussed some misconceptions of pair programming. When trying to encourage skeptical development organizations to try pair programming its not only important to dispel the misconceptions, but be able to articulate its benefits as well. Pair programming avoids many traditional software project issues that managers have typically had to address. It is because of this, and its many other benefits, that I consider pair programming an essential practice for modern agile development teams.
 
 ## A Social Activity
 
-Software development is a social activity. The greatest software teams are expert collaborators. Time and time again I've seen teams who pair program consistently, collaborate incredibly well. Pair programming creates daily opportunities to practice this collaboration. If I were to pick the most important aspect of pair programming it's that it promotes continuous collaborative software design and development. 
+Software development is a social activity. The greatest software teams are expert collaborators. Time and time again I've seen teams who pair program consistently collaborate incredibly well. Pair programming creates daily opportunities to practice this collaboration. If I were to pick the most important aspect of pair programming it's that it promotes continuous collaborative software design and development. 
 
 ## Mentoring
 
