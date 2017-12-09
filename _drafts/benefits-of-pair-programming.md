@@ -7,7 +7,7 @@ category: development practices
 tags: ['pair programming', 'extreme programming']
 ---
 
-In my [previous post]({{ site.baseurl }}{% post_url 2017-11-30-misconceptions-of-pair-programming %}) I discussed the misconceptions about pair programming. When trying to encourage skeptical development organizations to try pair programming its not only important to understand the misconceptions but also be able to articulate its benefits. Pair programming avoids many traditional software project issues that managers typically have to address. It is because of this and its many other benefits that I consider it an essential practice for modern agile software development teams.
+In my [previous post]({{ site.baseurl }}{% post_url 2017-11-30-misconceptions-of-pair-programming %}) I discussed some misconceptions of pair programming. When trying to encourage skeptical development organizations to try pair programming its not only important to understand the misconceptions but also be able to articulate its benefits. Pair programming avoids many traditional software project issues that managers typically have to address. It is because of this, and its many other benefits, that I consider it an essential practice for modern agile development teams.
 
 ## A Social Activity
 
@@ -17,7 +17,7 @@ Software development is a social activity. The greatest software teams are exper
 
 While I see benefits to formal mentoring programs and the relationship between a manager and her direct reports, neither of these are a replacement for the mentoring that happens on teams who pair program. Mentoring that occurs as a result of pair programming happens every day in the code, providing real-time feedback on decisions. Pairing sessions are continuous, multi-hour conversations about the code, design decisions, design trade-offs, problem solving, etc. 
 
-It is no coincidence that I achieved my greatest growth during my time on an XP team and greatly improved my coaching skills as well. On teams who pair program, every team member becomes a coach and mentor.
+It is no coincidence that I achieved my greatest growth during my time on an XP team and greatly improved my coaching skills as a result. On teams who pair program, every team member becomes a coach and mentor.
 
 > Always strive to be mentoring and mentored.   
 > &mdash; _[David Bernstein](https://twitter.com/ToBeAgile), Beyond Legacy Code_
@@ -26,42 +26,47 @@ It is no coincidence that I achieved my greatest growth during my time on an XP 
 
 Pair programming accelerates knowledge acquisition on teams. Onboarding new developers happens fast. Instead of working in isolation and getting feedback after going too far in the wrong direction new team members are getting immediate real-time feedback on their work. 
 
-Learning curves begin to flatten on these teams as members level each other up on the various skills and technologies needed to address their customer's problems. Knowledge travels throughout the team incredibly quickly. Teams who switch pairs at least once per day (or sometimes even more) realize these benefits even faster.
+Learning curves begin to flatten on these teams as members level each other up on the various skills and technologies needed to address their customer's problems. Knowledge travels throughout the team incredibly quickly. Teams who switch pairs at least once per day (or sometimes even more) realize these benefits at an even faster pace.
 
 ### Promiscuous Pairing
 
-If the idea of pair programming is alarming than I am certain the idea of switching pairs once or more per day seems counter-intuitive as well. [Here is a great article on the concept and benefits of Promiscuous Pairing](http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf) and the benefit to embracing Beginner's Mind, by Arlo Belshee. 
+If the idea of pair programming is alarming than I am certain the idea of switching pairs once or more per day seems counter-intuitive as well. [This article describes the benefits of Promiscuous Pairing](http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf) and embracing Beginner's Mind. 
 
 ## Trust Building
 
-Trust is a foundation that high performing teams are built on. Teams that trust each other eliminate numerous issues that traditional software development managers have to deal with. 
+Trust is a foundation that high performing teams are built on. Teams who trust each other eliminate numerous issues that traditional software development managers have to deal with. 
 
-This constant and close collaboration on teams that pair programming creates an environment where trust thrives. Friendships are built and trust grows as collaborative teams really do look out for each other and succeed as a team. They don't just give lip service to term "team." The developers I have had the opportunity to work with everyday on an XP team have continued to be my closest professional colleagues and great friends, years after no longer working together. 
+This constant collaboration resulting from pair programming creates an environment where trust thrives. Friendships are built and trust grows as collaborative teams really do look out for each other and succeed as a team. They don't just give lip service to term "team." The developers I have had the opportunity to work with everyday on an XP team have continued to be my closest professional colleagues and greatest friends. These relationships continue despite not working together for years. 
 
 ## Collective Code Ownership
 
 One of the twelve XP practices is collective code ownership. Pair programming helps create collective code ownership on teams. It avoids the problems that arise when individual developers take ownership of an area of the code and work on it in isolation.
 
-Code developed by lone developers continues to be the lowest quality code I encounter. These developers have spent months or years learning the idiosyncracies of poor code and learn how to work with the mess. Worse still, they continue to contribute to that mess keeping the code in a state of obfuscation. Holes in their software design knowledge combined with the stress of deadlines and production issues creates an environment for poor code to thrive. The resulting code often doesn't get seen by any other developer before landing in production. This poor code becomes a drag on the organization as soon as it is introduced, making every future change harder and riskier.
+Code developed by lone developers continues to be the most problematic code I encounter. These developers have spent months (or even years) learning and working with the idiosyncracies of extremely poor code. Worse still, they continue to contribute to the mess keeping the code in a state of obfuscation. Holes in their software design knowledge combined with the stress of deadlines and production issues creates an environment for poor quality code to thrive. The resulting code often doesn't get seen by any other developer before ending up in production. This poor code becomes a drag on the organization as soon as it is introduced, making every future change harder and riskier.
 
 ### Eliminates Towers of Knowledge
+
 Pair programming and collective code ownership eliminates towers of knowledge in companies. Towers of knowledge are a risk that no software company should be willing to take. In an industry where (for better or worse) developers get promotions and grow by switching jobs, the reality is you cannot keep a developer forever. Companies often allow towers of knowledge to emerge and throw money at these developers to keep them. But at some point the developer will get another offer, win the lottery, or just get tired of the specific workplace dysfunction they are dealing with and move on. 
 
-On teams who pair program the most senior level developers can leave the team without a significant impact. When a team member leaves or a new one begins the dynamic on the team always changes. Teams need to rebuild trust and it does take some time. But this is much preferred to taking ownership of huge amounts of a system no one has ever seen because it has been one developer's "baby" for a decade. 
+On teams who pair program, the most senior level developers can leave the team without a significant impact on the team or the day-to-day work. The importance of this cannot be overstated. 
 
 ### Single Coding Standard
 
-A single team coding standard is another XP practice and pair programming also encourages this. To support eliminating towers of knowledge having code without an individual developers fingerprint on it is helpful. It's much harder to be protective of code and argue against changing code you created when you have to check git logs to figure out what pair made the change.
+A single team coding standard is another XP practice that pair programming encourages. To support eliminating towers of knowledge having code without an individual developer's fingerprint on it is helpful. It's much harder to be protective of code  when you git logs need to be checked to figure out who made the change.
+
+Pairing offers the opportunity to teach the team coding standard and ensure it is being adhered to without requiring frequent, blocking code reviews.  
 
 ### Non-Blocking Code Reviews
 
-Since the code review happens continuously as the code is being developed the blocking aspect of both traditional and "git flow" code reviews can be avoided. In these blocking code reviews the author has to switch contexts and start other work until the comments are ready to be addressed. This context switching adds significant inefficiencies into the daily work. 
+Since the code review happens continuously as the code is being developed the blocking aspect of both traditional and git-flow inspired code reviews can be avoided. In these blocking code reviews the author has to switch contexts and start other work until the comments are ready to be addressed. This context switching adds significant inefficiencies into the daily work. 
+
+#### Author's Mind
 
 I believe both members of a pair, being the authors of the code, still require a code review. Specifically they benefit from an independent editor to review the code for clarity and understanding. I recommend addressing this by switching pairs more frequently during the work day and finding other ways to practice non-blocking reviews before introducing blocking code reviews.
 
 ## Limits WIP
 
-One common characteristic of ["feature factory"](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2) software organizations is that they optimize for having a great deal of work in progress (WIP). The more features actively being worked on at the team level __*and*__ at the organization level gives the illusory sense of progress. It creates the illusion of keeping developers busy. Unfortunately not creating a WIP limit is problematic. Building more features at once makes all of them take longer to complete and results in tasks completed with much lower quality. 
+One common characteristic of ["feature factory"](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2) software organizations is that they optimize for large amounts of work in progress (WIP). The more features actively being worked on at the team level __*and*__ at the organization level gives the illusory sense of progress. It creates the illusion of keeping developers busy. Unfortunately not creating a WIP limit is problematic. Building more features at once makes all of them take longer to complete and results in tasks completed with much lower quality. 
 
 Pair programming encourages limiting WIP at the team level by having the work done in pairs. Further I've seen teams who value pair programming adopt a practice called swarming that further limits WIP.
 
@@ -79,24 +84,24 @@ People are more likely to interrupt someone working by themselves rather than in
 
 ### Social Pressure to Stay Focused
 
-Pair programming also reduces distractions within the team. When developers work by themselves it is easy to get themselves distracted. Whether it's surfing the web, investigating a different issue, or getting caught up in a water cooler conversation. All of these situations require the developer to get back into flow to continue making progress on their problem. 
+Pair programming also reduces distractions within the team. When developers work by themselves it is easy to get distracted. Whether it's surfing the web, investigating a different issue, or getting caught up in a water cooler conversation. All of these situations require the developer to get back into flow to continue making progress on their problem. 
 
 When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't.[^1]
 
 ## Results in Higher Quality Code 
 
-For all the reasons listed in this article, I've found the quality of code on teams who pair significantly higher than on teams who do not. 
+As a result of these benefits I've found the quality of code on teams who pair significantly higher than on teams who do not. 
 
 ## What about Mobbing?
 
-You may have heard of [mob programming](https://en.wikipedia.org/wiki/Mob_programming) and wonder how it compares to pair programming. Mob programming is built on a lot of the principles of XP and pair programming. It is another fantastic collaborative practice for teams. The benefits I describe in this article  will be achieved with Mob Programming as well.
+You may have heard of [mob programming](https://en.wikipedia.org/wiki/Mob_programming) and wonder how it compares to pair programming. Mob programming is built on a lot of the principles of XP and pair programming. It is another fantastic collaborative practice for teams. The benefits I describe in this article can be achieved with mob programming as well.
 
-I have heard of some teams using Mob Programming as a step towards Pair Programming and eventually settling on using both practices.
+I have heard about some teams using mob programming as a step towards adopting pair programming and eventually settling on using both practices.
 
 ## Conclusion
 
 <img src="/img/pairing-books.png" class="img-responsive" alt="Pair Programming Books"  />
 
-I have been lucky to witness every one of these benefits first hand on several teams I've worked on and coached. But I am certainly not the first to recognize them. I highly recommend these three books that discuss pair programming (among other valuable team practices). They are Rich Sheridan's _Joy, Inc._, James Shore's _The Art of Agile Development_, and David Bernstein's _Beyond Legacy Code_.
+I have been lucky to witness every one of these benefits on several teams I've worked on and coached. But I am certainly not the first to recognize them. I highly recommend these three books that discuss pair programming (among other valuable team practices). They are [David Bernstein](https://tobeagile.com/)'s _Beyond Legacy Code_, [Richard Sheridan](https://twitter.com/menloprez)'s _Joy, Inc._, and [James Shore](http://www.jamesshore.com/)'s _The Art of Agile Development_.
 
 [^1]: [James Shore](http://www.jamesshore.com) discusses the resulting increase of time in flow for developers who pair in [this](http://www.jamesshore.com/Agile-Book/pair_programming.html) chapter of his book.
