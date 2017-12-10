@@ -24,7 +24,7 @@ It is no coincidence that I achieved my greatest growth during my time on an XP 
 
 ## Knowledge Acquisition & Onboarding
 
-Pair programming accelerates knowledge acquisition on teams. Onboarding new developers happens fast. Instead of working in isolation and getting feedback after going too far in the wrong direction new team members are getting immediate real-time feedback on their work. 
+Pair programming accelerates knowledge acquisition on teams. Onboarding new developers happens quickly. Instead of working in isolation and getting feedback after going too far in the wrong direction new team members are getting immediate real-time feedback on their work. 
 
 Learning curves begin to flatten on these teams as members level each other up on the various skills and technologies needed to address their customer's problems. Knowledge travels throughout the team incredibly quickly. Teams who switch pairs at least once per day (or sometimes even more) realize these benefits at an even faster pace.
 
@@ -40,15 +40,15 @@ This constant collaboration resulting from pair programming creates an environme
 
 ## Collective Code Ownership
 
-One of the twelve XP practices is collective code ownership. Pair programming helps create collective code ownership on teams. It avoids the problems that arise when individual developers take ownership of an area of the code and work on it in isolation.
+Pair programming helps create collective code ownership on teams (one of the twelve XP practices). Collective code ownership prevents problems that arise when individual developers take ownership of an area of the code and work on it in isolation.
 
-Code developed by lone developers continues to be the most problematic code I encounter. These developers have spent months (or even years) learning and working with the idiosyncracies of extremely poor code. Worse still, they continue to contribute to the mess keeping the code in a state of obfuscation. Holes in their software design knowledge combined with the stress of deadlines and production issues creates an environment for poor quality code to thrive. The resulting code often doesn't get seen by any other developer before ending up in production. This poor code becomes a drag on the organization as soon as it is introduced, making every future change harder and riskier.
+Code developed by lone developers continues to be the most problematic code I encounter. These developers spend significant time learning and working with the idiosyncracies of extremely poor code. Worse still, they continue to contribute to the mess keeping the code in a state of obfuscation. Holes in their software design knowledge combined with the stress of deadlines and production issues creates an environment for poor quality code to thrive. The resulting code often doesn't get seen by any other developer before ending up in production. This poor code becomes a drag on the organization as soon as it is introduced, making every future change harder and riskier.
 
 ### Eliminates Towers of Knowledge
 
-Pair programming and collective code ownership eliminates towers of knowledge in companies. Towers of knowledge are a risk that no software company should be willing to take. In an industry where (for better or worse) developers get promotions and grow by switching jobs, the reality is the best developers aren't going to stay at one company for their entire career. Companies often allow towers of knowledge to emerge and throw money at these developers to keep them. But at some point the developer will get another offer, win the lottery, or just get tired of the specific workplace dysfunction they are dealing with and move on. 
+Pair programming and collective code ownership eliminates towers of knowledge in companies. Towers of knowledge are a risk that no software company should be willing to take. In an industry where (for better or worse) developers get promotions and grow by switching jobs, the truth is that the best developers aren't going to stay at one company for their entire career. Companies often allow towers of knowledge to emerge and throw money at these developers to keep them. But at some point the developer will get another offer, win the lottery, or just get tired of the specific workplace dysfunction they are dealing with and move on. 
 
-On teams who pair program, the most senior level developers can leave the team without a significant impact on the team or the day-to-day work. The importance of this cannot be overstated. 
+On teams who pair program, the most senior developers can leave the team without a significant impact on the team's day-to-day work. The importance of this cannot be overstated. 
 
 ### Single Coding Standard
 
@@ -62,7 +62,7 @@ Since the code review happens continuously as the code is being developed the bl
 
 #### Author's Mind
 
-I believe both members of a pair, being the authors of the code, benefit from a code review. Specifically they benefit from an independent editor to review the code for clarity and understanding. I recommend addressing this by switching pairs more frequently during the work day and finding other ways to practice non-blocking reviews before introducing blocking code reviews.
+I believe both members of a pair, being the authors of the code, benefit from a code review. Specifically an independent editor to review the code for clarity and understanding is helpful. I recommend addressing this by switching pairs more frequently during the work day and finding other ways to practice non-blocking reviews before introducing blocking code reviews.
 
 ## Limits WIP
 
