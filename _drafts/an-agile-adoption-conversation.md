@@ -7,7 +7,7 @@ category: development practices
 tags: ['agile development', 'anti-patterns']
 ---
 
-__*The company I work for was interested in agile software development so we adopted Scrum a couple of years ago.*__
+__*The company I work for was interested in agile software development so we adopted Scrum a while ago.*__
 
 Really? That is fantastic. Working on an XP team was one of most rewarding experiences of my professional career. It changed the focus of the rest of my career. How do you like it?
 
@@ -31,15 +31,15 @@ __*No our scrum team doesn't. I've never interacted with a customer. We are pret
 
 Are you getting stakeholder feedback in your sprint review that informs your backlog?
 
-__*No, our management and organizational leadership comes and watches to see our progress but we don't get much feedback. They typically ask when we'll be done the project.*__
+__*No, our management and organizational leadership comes and watches to see our progress but we don't get much feedback. They typically ask when we'll be done.*__
 
-How is your team estimating? Does your product owner use the estimates to inform future work?
+How is your team estimating?
 
-__*No, like I said the work is fixed, the estimates are used to see if we will meet the deadlines. Or at least increase the organization's confidence we will meet their deadlines. We do a lot of high-level estimates for our large projects.*__
+__*Our estimates are used to see if we will meet the deadlines. Or at least increase the organization's confidence we will meet their deadlines. We aren't allowed to change the way we estimate since so much of the organization is interested in our velocity. We do a lot of high-level estimates for our large projects.*__
 
 How do you do those?
 
-__*We have a brief fifteen to thirty minute conversation with leadership about a project idea and then we guess how long it will take to complete.*__
+__*We have a brief fifteen to thirty minute conversation with management about a project idea and then we guess how long it will take to complete. If they think it's too long they will recommend we find a way to provide smaller estimates.*__
 
 You don't know any details to make these guesses more meaningful?
 
@@ -49,9 +49,9 @@ Does your development team practice any of the XP-based technical practices to h
 
 __*No, the agile consultants said it wasn't their place to tell us how to write the code. So we code the same way we always have.*__
 
-Is your Scrum Master helping empower your team to improve yourselves and take ownership of some of these things?
+Is your Scrum Master helping empower your team to improve yourselves and take ownership of some of these problems?
 
-__*Not exactly, he tells us how the leadership of the organization wants us to work and makes sure we are adhering to those processes. It's important to them that all of our teams work the same way.*__
+__*Not exactly, he tells us how management wants us to work and makes sure we are adhering to those processes. It's important to them that all of our teams work the same way.*__
 
 Are you doing retrospectives then?
 
@@ -67,4 +67,4 @@ __*Yeah, exactly!*__
 
 Then, may I ask, why did your company adopt Scrum in the first place?
 
-__*They thought we'd give them better estimates and deliver our large projects faster.*__
+__*Our company's leadership thought we'd give them better estimates and deliver our projects faster.*__
