@@ -11,15 +11,15 @@ I've written at length about the attributes of high-quality, valuable unit tests
 
 ## TDD 
 
-Every time I talk about high-quality unit tests I have to mention that I strongly encourage practicing TDD in order to create valuable unit tests. It prevents a lot of issues that arise when developers try to cover bad code in unit tests. __You cannot write good tests for bad code__. Too often Test After Development (TAD)[^1] yields tests with very little value, not to mention it misses all of the benefits of Test Driven Development (LINK TO POST HERE.)
+Every time I talk about high-quality unit tests I have to mention that I strongly encourage practicing TDD in order to create valuable unit tests. It prevents a lot of issues that arise when developers try to cover bad code in unit tests. __You cannot write good tests for bad code__. Too often Test After Development (TAD)[^1] yields tests with very little value, in addition to missing all of the benefits of the design benefits of Test Driven Development which I've written about here.(LINK TO POST HERE.)
 
 ### The Code Quality Litmus Test
 
-Unit tests are a litmus test for the quality of the code under test. Being the first client of code it ensures that objects are be designed with the consumer of the object in mind. Tests with a lot of setup, control flow logic, lots of collaborators, etc., are all signs that there design issues with the object under tests.
+Unit tests are a litmus test for the quality of the code under test. Being the first client of code it ensures that objects are designed with the consumer of the object in mind. Tests with a lot of setup, control flow logic, and many collaborators are signs that there are design issues with the object under test.
 
 ## SOS
 
-When I coach developers on writing high-quality unit tests I recommend the mnemonic __*SOS*__. Unit tests should be __*small*__, __*obvious*__, and __*simple*__. The attributes of high quality tests and the heuristics to create them can be grouped into these three categories. Teams that support poor quality code and incredibly complex test suites are in a state of distress. So a distress signal mnemonic seems appropriate. 
+When I coach developers on writing high-quality unit tests I recommend the mnemonic __*SOS*__. Unit tests should be __*small*__, __*obvious*__, and __*simple*__. The attributes of high quality tests and the heuristics to create them can be grouped into these three categories. Teams that support poor quality code and incredibly complex test suites are in a near constant state of distress. So a distress signal mnemonic seems appropriate to help remedy these problems. 
 
 ### Small
 
