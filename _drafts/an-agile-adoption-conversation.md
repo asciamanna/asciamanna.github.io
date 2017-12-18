@@ -35,7 +35,7 @@ __*No, our management and organizational leadership comes and watches to see our
 
 How is your team estimating?
 
-__*Our estimates are used to see if we will meet the deadlines. Or at least increase the organization's confidence we will meet their deadlines. Management has said it's important that all of our teams estimate the same way since they are so interested in our velocity. They want it to be as similar as possible across teams. We do a lot of high-level estimates for our large projects.*__
+__*Our estimates are used to see if we will meet management deadlines. Or at least increase the organization's confidence we will meet their deadlines. Management has said it's important that all of our teams estimate the same way since they are so interested in our velocity. They want it to be as similar as possible across teams. We do a lot of high-level estimates for our large projects.*__
 
 How do you do those?
 
@@ -45,7 +45,7 @@ You don't know any details to make these guesses more meaningful?
 
 __*No, the people asking for the estimates wouldn't know any of the details anyway. We end up figuring out those details after we start the project.*__
 
-Does your development team practice any of the XP-based technical practices to help teams deliver with high-quality? Like pair programming, TDD, Continuous Integration, and evolutionary design, for example?
+Does your development team practice any of the XP-based technical practices to help teams continuously deliver with high-quality? Like pair programming, TDD, Continuous Integration, and evolutionary design, for example?
 
 __*No, the agile consultants that ran the transition said it wasn't their place to tell us how to write the code. So we code the same way we always have.*__
 
