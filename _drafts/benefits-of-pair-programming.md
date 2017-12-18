@@ -30,21 +30,21 @@ Learning curves begin to flatten on these teams as members level each other up o
 
 ### Promiscuous Pairing
 
-If the idea of pair programming is alarming than I am certain the idea of switching pairs once or more per day seems strange as well. I've found the that teams I've worked on achieved the greatest benefit from the practice when switching pairs at least once per day. [This article describes the benefits of Promiscuous Pairing](http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf) and embracing Beginner's Mind. 
+If the idea of pair programming is alarming than I am certain the idea of switching pairs once or more per day seems strange as well. I've found the that teams I've worked on achieved the greatest benefit from the practice when they switched pairs at least once per day. [This article describes the benefits of Promiscuous Pairing](http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf) and embracing Beginner's Mind. 
 
 ## Trust Building
 
 Trust and safety are foundations that high performing teams are built on. Teams who trust each other eliminate numerous issues that software development managers typically have to address.
 
-This constant collaboration resulting from pair programming creates an environment where trust thrives. Friendships are built and trust grows as collaborative teams look out for each other and succeed as a team. They don't just give lip service to term "team" and actually operate as one. When a team practices pair programming and refuses individual task assignments they create a culture where every effort and every new feature is a team effort.
+This constant collaboration resulting from pair programming creates an environment where trust thrives. Friendships are built and trust grows as collaborative teams look out for each other and succeed as a team. They don't just give lip service to the term "team" but actually operate as one. When a team practices pair programming and refuses individual task assignments they create a culture where every effort and every new feature is a team effort.
 
 The developers I have had the opportunity to pair with everyday on an XP team have continued to be my closest professional colleagues and closest friends. These relationships continue today, despite not working together for years. 
 
 ## Collective Code Ownership
 
-Pair programming helps create collective code ownership on teams (one of the twelve XP practices). Collective code ownership prevents problems that arise when individual developers take ownership of an area of the code and work on it in isolation.
+Pair programming helps create collective code ownership on teams. Collective code ownership, another one of the twelve core XP practices, prevents problems that arise when individual developers take ownership of an area of the code and work on it in isolation.
 
-Code developed by lone developers continues to be the most problematic code I encounter. These developers spend significant time learning and working with the idiosyncracies of extremely poor code. Worse still, they continue to contribute to the mess keeping the code in a state of obfuscation. Gaps in their software design knowledge combined with the stress of deadlines and production issues creates an environment for poor quality code to thrive. The resulting code often doesn't get seen by any other developer before ending up in production. This poor code becomes a drag on the organization as soon as it is introduced, making every future change harder and riskier.
+Code developed by lone developers continues to be the most problematic code I encounter. I often see developers working alone spending significant time learning and working with the idiosyncracies of extremely poor code. Worse still, they continue to contribute to the mess keeping the code in a state of obfuscation. Gaps in their software design knowledge combined with the stress of deadlines and production issues creates an environment for poor quality code to thrive. The resulting code often doesn't get seen by any other developer before ending up in production. This poor code becomes a drag on the organization as soon as it is introduced, making every future change harder and riskier.
 
 ### Eliminates Towers of Knowledge
 
@@ -74,7 +74,7 @@ Pair programming encourages limiting WIP at the team level by having the work do
 
 ### Swarming
 
-When swarming, developers (or pairs of developers) work on tasks for the same piece of functionality to get it through their development pipeline and into production as quickly as possible. This not only helps get features to production faster but prevents building inventory. This concept is known as __*One Piece Flow*__ and comes to lean software development from lean manufacturing techniques.
+When swarming, developers (or pairs of developers as I would recommend) work on tasks for the same piece of functionality to get it through their development pipeline and into production as quickly as possible. This not only helps get features to production faster but prevents the creation of inventory. This concept is known as __*One Piece Flow*__ and comes to lean software development from lean manufacturing techniques.
 
 ## Reduces Distractions
 
