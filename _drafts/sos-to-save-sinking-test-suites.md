@@ -4,7 +4,7 @@ section-type: post
 title: SOS - To Save Sinking Test Suites 
 comments: true
 category: development practices
-tags: [unit-testing, code-quality]
+tags: [unit-testing, tdd, code-quality]
 ---
 
 I've written at length about the attributes of high-quality, valuable unit tests and how to write and maintain them. I spend a lot of my coaching time encouraging these practices. Too often I've heard developers say that unit testing doesn't work only to discover a test suite of incredibly complex, brittle, and unmaintainable tests. 
