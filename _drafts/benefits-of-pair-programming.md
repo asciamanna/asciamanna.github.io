@@ -36,7 +36,7 @@ If the idea of pair programming is alarming than I am certain the idea of switch
 
 Trust and safety are foundations that high performing teams are built on. Teams who trust each other eliminate numerous issues that software development managers typically have to address.
 
-This constant collaboration resulting from pair programming creates an environment where trust thrives. Friendships are built and trust grows as collaborative teams look out for each other and succeed as a team. They don't just give lip service to the term "team" but actually operate as one. When a team practices pair programming and refuses individual task assignments they create a culture where every effort and every new feature is a team effort.
+This constant collaboration resulting from pair programming creates an environment where trust thrives. Friendships are built and trust grows as collaborative teams look out for each other and succeed as a team. They don't just give lip service to the term "team" but actually operate as one. When a team practices pair programming and refuses individual assignments they create a culture where every effort and every new feature is a team effort.
 
 The developers I have had the opportunity to pair with everyday on an XP team have continued to be my closest professional colleagues and closest friends. These relationships continue today, despite not working together for years. 
 
@@ -60,7 +60,7 @@ Pairing offers the opportunity to teach the team's coding standard and ensure it
 
 ### Non-Blocking Code Reviews
 
-Since code is reviewed continuously as the code is being developed the blocking aspect of both traditional and git-flow inspired code reviews can be avoided. In these blocking code reviews the author has to switch contexts and start other work until the review is completed and comments are ready to be addressed. This context switching adds significant inefficiencies into the daily work. 
+Since code is reviewed continuously as it is being developed the blocking aspect of both traditional and git-flow inspired code reviews can be avoided. In these blocking code reviews the author has to switch contexts and start other work until the review is completed and the reviewer comments are ready to be addressed. This context switching adds significant inefficiencies into the daily work. 
 
 #### Author's Mind
 
@@ -68,7 +68,7 @@ I believe both members of a pair, being the authors of the code, benefit from a 
 
 ## Limits WIP
 
-One common characteristic of ["feature factory"](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2) software organizations is that they optimize for large amounts of work in progress (WIP). The more features actively being worked on at the team level __*and*__ at the organization level creates the illusory sense of progress. It creates the illusion of keeping developers busy. Unfortunately not creating a WIP limit is problematic. Building more features at once makes all of them take longer to complete and results in tasks completed with much lower quality. 
+One common characteristic of ["feature factory"](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2) software organizations is that they optimize for large amounts of work in progress (WIP). The more features actively being worked on at the team level __*and*__ at the organization level creates the illusory sense of progress. It creates the illusion of keeping developers busy. Unfortunately not limiting WIP is problematic. Building more features at once makes all of them take longer to complete and results in tasks completed with much lower quality.[^1] 
 
 Pair programming encourages limiting WIP at the team level by having the work done in pairs. Further I've seen teams who value pair programming adopt a practice called swarming that further limits WIP.
 
@@ -88,7 +88,7 @@ People are more likely to interrupt someone working by themselves than interrupt
 
 When developers work alone it is easy for them to get distracted. Whether it's surfing the web, investigating a different issue, or getting caught up in a conversation. All of these situations require the developer to get back into flow to continue making progress on their problem. 
 
-When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't.[^1]
+When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't.[^2]
 
 ## Results in Higher Quality Code 
 
@@ -106,4 +106,6 @@ I have heard about some teams using mob programming as a step towards adopting p
 
 I have been lucky to witness every one of these benefits on several teams I've worked on and coached. But I am certainly not the first to recognize them. I highly recommend these three books that discuss pair programming (among other valuable team practices). They are [David Bernstein](https://tobeagile.com/)'s _Beyond Legacy Code_, [Richard Sheridan](https://twitter.com/menloprez)'s _Joy, Inc._, and [James Shore](http://www.jamesshore.com/)'s _The Art of Agile Development_.
 
-[^1]: [James Shore](http://www.jamesshore.com) discusses the resulting increase of time in flow for developers who pair in [this](http://www.jamesshore.com/Agile-Book/pair_programming.html) chapter of his book.
+[^1]: You can read about the importance of limiting WIP and reducing task switching in [The Myth of Multitasking](https://www.amazon.com/Myth-Multitasking-Doing-Gets-Nothing/dp/0470372257/)
+
+[^2]: [James Shore](http://www.jamesshore.com) discusses the resulting increase of time in flow for developers who pair in [this](http://www.jamesshore.com/Agile-Book/pair_programming.html) chapter of his book.
