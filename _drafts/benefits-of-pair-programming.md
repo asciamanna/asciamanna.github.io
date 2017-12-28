@@ -26,7 +26,7 @@ It is no coincidence that I achieved my greatest growth during my time on an XP 
 
 Pair programming accelerates knowledge acquisition on teams. Onboarding new developers happens quickly. Instead of working in isolation and getting feedback after going too far in the wrong direction new team members are getting immediate real-time feedback on their work. 
 
-Learning curves begin to flatten on these teams as members level each other up on the various skills and technologies needed to address their customer's problems. Knowledge travels throughout the team incredibly quickly. Teams who switch pairs at least once per day (or sometimes even more) realize these benefits at an even faster pace.
+Learning curves begin to flatten on these teams as members level each other up on the various skills and technologies needed to address their customer's problems. Knowledge travels throughout the team incredibly quickly. Teams who switch pairs at least once per day (or sometimes more) realize these benefits at an even quicker pace.
 
 ### Promiscuous Pairing
 
@@ -34,11 +34,11 @@ If the idea of pair programming is alarming than I am certain the idea of switch
 
 ## Trust Building
 
-Trust and safety are foundations that high performing teams are built on. Teams who trust each other eliminate numerous issues that software development managers typically have to address.
+Trust and safety are foundations that high performing teams are built upon. Teams who trust each other eliminate numerous issues that software development managers typically have to address.
 
 This constant collaboration resulting from pair programming creates an environment where trust thrives. Friendships are built and trust grows as collaborative teams look out for each other and succeed as a team. They don't just give lip service to the term "team" but actually operate as one. When a team practices pair programming and refuses individual assignments they create a culture where every effort and every new feature is a team effort.
 
-The developers I have had the opportunity to pair with everyday on an XP team have continued to be my closest professional colleagues and closest friends. These relationships continue today, despite not working together for years. 
+The developers I have had the opportunity to pair with everyday on an XP team have continued to be my most trusted professional colleagues and closest friends. These relationships continue today, despite not working together for years. 
 
 ## Collective Code Ownership
 
@@ -48,7 +48,7 @@ Code developed by lone developers continues to be the most problematic code I en
 
 ### Eliminates Towers of Knowledge
 
-Pair programming and collective code ownership eliminates towers of knowledge in companies. Towers of knowledge are a risk that no software company should be willing to take. In an industry where (for better or worse) developers get promotions and grow by changing employers, the truth is that the best developers aren't going to stay at one company for their entire career. Companies often allow towers of knowledge to emerge and throw money at these developers to keep them. But at some point the developer will get another offer, win the lottery, or just get tired of the specific workplace dysfunction they are dealing with and move on. 
+Pair programming and collective code ownership eliminates towers of knowledge in companies. Towers of knowledge are a risk that no software company should be willing to take. In an industry where (for better or worse) developers get promotions and grow by changing employers, the reality is that the best developers aren't going to stay at one company for their entire career. Companies often allow towers of knowledge to emerge and throw money at these developers to keep them. But at some point the developer will get another offer, win the lottery, or just get tired of the specific workplace dysfunction they are dealing with and move on. 
 
 On teams who pair program, the most senior developers can leave the team without a significant impact on the team's day-to-day work. The importance of this cannot be overstated. 
 
@@ -60,7 +60,7 @@ Pairing offers the opportunity to teach the team's coding standard and ensure it
 
 ### Non-Blocking Code Reviews
 
-Since code is reviewed continuously as it is being developed the blocking aspect of both traditional and git-flow inspired code reviews can be avoided. In these blocking code reviews the author has to switch contexts and start other work until the review is completed and the reviewer comments are ready to be addressed. This context switching adds significant inefficiencies into the daily work. 
+Since code is reviewed continuously as it is being developed the blocking aspect of both traditional and git-flow inspired code reviews can be avoided. In these blocking code reviews the author has to switch contexts and start other work until the review is completed and the comments are ready to be addressed. This context switching adds significant inefficiencies into the team's daily work. 
 
 #### Author's Mind
 
@@ -68,9 +68,9 @@ I believe both members of a pair, being the authors of the code, benefit from a 
 
 ## Limits WIP
 
-One common characteristic of ["feature factory"](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2) software organizations is that they optimize for large amounts of work in progress (WIP). The more features actively being worked on at the team level __*and*__ at the organization level creates the illusory sense of progress. It creates the illusion of keeping developers busy. Unfortunately not limiting WIP is problematic. Building more features at once makes all of them take longer to complete and results in tasks completed with much lower quality.[^1] 
+One common characteristic of ["feature factory"](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2) software organizations is that they optimize for large amounts of work in progress (WIP). The more features actively being worked on at the team level __*and*__ at the organization level creates the illusory sense of progress. It creates the illusion of keeping developers busy. Unfortunately, working without a WIP limit is problematic. Building multiple features at once makes all of them take longer to complete and results in tasks completed with much lower quality.[^1] 
 
-Pair programming encourages limiting WIP at the team level by having the work done in pairs. Further I've seen teams who value pair programming adopt a practice called swarming that further limits WIP.
+Pair programming encourages limiting WIP at the team level. Furthermore I've seen teams who value pair programming adopt a practice called swarming that further limits WIP.
 
 ### Swarming
 
