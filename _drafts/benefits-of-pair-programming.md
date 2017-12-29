@@ -11,7 +11,7 @@ In my [previous post]({{ site.baseurl }}{% post_url 2017-11-30-misconceptions-of
 
 ## A Social Activity
 
-Software development is a social activity. The greatest software teams are expert collaborators. Without fail teams who pair program consistently collaborate incredibly well. Pair programming creates daily opportunities to practice this collaboration. If I were to pick the most important aspect of pair programming it's that it promotes continuous collaborative software design and development. 
+Software development is a social activity. The greatest software teams are expert collaborators. Without fail teams who pair program consistently collaborate incredibly well. Pair programming creates daily opportunities to practice this collaboration. If I were forced to choose the most important benefit of pair programming it's that it promotes continuous collaborative software design and development. 
 
 ## Mentoring
 
@@ -74,7 +74,7 @@ Pair programming encourages limiting WIP at the team level. Furthermore I've see
 
 ### Swarming
 
-When swarming, developers (or pairs of developers as I would recommend) work on tasks for the same piece of functionality to get it through their development pipeline and into production as quickly as possible. This not only helps get features to production faster but prevents the creation of inventory. This concept is known as __*One Piece Flow*__ and comes to lean software development from lean manufacturing techniques.
+When swarming, developers (or pairs of developers as I would recommend) work on tasks for the same piece of functionality to get it through their development pipeline and into production as quickly as possible. This not only helps get features to production faster but prevents the creation of software inventory. This concept is known as __*One Piece Flow*__ and comes to lean software development from lean manufacturing techniques.
 
 ## Reduces Distractions
 
@@ -88,13 +88,13 @@ People are more likely to interrupt someone working by themselves than interrupt
 
 When developers work alone it is easy for them to get distracted. Whether it's surfing the web, investigating a different issue, or getting caught up in a conversation. All of these situations require the developer to get back into flow to continue making progress on their problem. 
 
-When pair programming there is a positive pressure not to get distracted and stay focused. Developers who pair program tend to stay in flow longer than those who don't.[^2]
+When developers pair there is a positive pressure not to get distracted. Developers who pair program tend to stay in flow longer than those who don't.[^2]
 
 ## Results in Higher Quality Code 
 
 As a result of these benefits I've found the quality of code on teams who pair significantly higher than on teams who do not. 
 
-## What about Mobbing?
+## What about Mob Programming?
 
 You may have heard of [mob programming](https://en.wikipedia.org/wiki/Mob_programming) and wonder how it compares to pair programming. Mob programming is built on a lot of the principles of XP and pair programming. It is another fantastic collaborative practice for teams. The benefits I describe in this article can be achieved with mob programming as well.
 
