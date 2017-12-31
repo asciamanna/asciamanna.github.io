@@ -62,7 +62,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Conditional logic and code duplication are the yin and yang of unmaintainable code."
   - text: "Fear is the number one enemy of quality code."
   - text: "Minimizing mistakes is incompatible with maximizing learning."
-me-img: "/img/sciamanna.jpg"
+me-img: "/img/sciamanna-square.jpg"
 
 ##############################
 # Color the browser elements #
