@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: The Benefits of Pair Programming
+title: Benefits of Pair Programming
 comments: true
 category: development practices
 tags: ['pair programming', 'extreme programming']
