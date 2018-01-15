@@ -35,7 +35,7 @@ __*No, our management and organizational leadership comes and watches to see our
 
 How is your team estimating?
 
-__*Our estimates are used to see if we will meet management deadlines. Or at least increase the organization's confidence we will meet their deadlines. Management has said it's important that all of our teams estimate the same way since they are so interested in our velocity. They want it to be as similar as possible across teams. We do a lot of high-level estimates for our large projects.*__
+__*Our estimates are used to see if we will meet management's deadlines. Or at least increase the organization's confidence we will meet the deadlines. Management has said it's important that all of our teams estimate the same way since they are so interested in our velocity. They want it to be as similar as possible across teams. We do a lot of high-level estimates for our large projects.*__
 
 How do you do those?
 
@@ -55,7 +55,7 @@ __*Not exactly, he tells us how management wants us to work and makes sure we ar
 
 So if you wanted to stop using story point estimates in favor of a different forecasting method or wanted to replace Jira with a physical card wall could your Scrum Master help you with that?
 
-__*Hahahaha...There's no way I would ask. Management would think I was a troublemaker. Those are things we can't change.*__
+__*Hahahaha, oh no there's no way I would ask. Management would think I was a troublemaker. Those are things we can't change.*__
 
 So you aren't doing retrospectives then?
 
@@ -65,7 +65,7 @@ How does your team adopt retrospective goals if you can't change the way you wor
 
 __*We use the time to vent about problems in the organization and come up with requests for management, since we need their approval to make any changes.*__
 
-So what you are saying is you work on fixed scope projects in two-week timeboxes without iterating or adjustments from stakeholder, customer, or user feedback and you cannot change the way you work based on retrospective outcomes?
+So what you are saying is you work on fixed scope projects in two-week timeboxes without iterating or adjustments from customer or user feedback and you cannot change the way you work based on retrospective outcomes?
 
 __*Yeah, exactly!*__
 
