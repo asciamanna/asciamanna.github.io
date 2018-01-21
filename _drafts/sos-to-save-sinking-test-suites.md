@@ -39,7 +39,7 @@ Tests should be obvious and boring. Any developer should be able to look at them
 
 One important heuristic is that tests should be self-contained. xUnit's test setup should be reserved for very specific usages. I recommend using test setup only to create the object under test, initialize its dependencies, and inject them manually into the object under test's constructor. This of course assumes that the object under test is shared by the other test cases in the fixture.
 
-If test setup is duplicated between tests but it is important to the outcome of the test I prefer duplication rather than obscuring intent by introducing indirection.   
+If some test setup is duplicated between tests but it is important to the outcome of the test I prefer duplication rather than obscuring intent by introducing indirection.   
 
 #### Arrange-Act-Assert
 
