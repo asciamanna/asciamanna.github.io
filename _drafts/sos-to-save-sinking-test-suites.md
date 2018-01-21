@@ -61,8 +61,6 @@ Test setup that is less important to the test can then be extracted so that it c
 
 By following these steps to make tests obvious unit tests pass will pass what I call "the glance test." I can glance a test and in a minute understand what is being tested, why it's being tested, its collaborators, and how it should react under these test conditions. Since code is read many more times than it is written unit tests (the same as production code) needs to be able to pass this glance test. 
 
-GeePawHill calls this "scanning" the code. That code is scanned (i.e., read quickly), more than it's read, and code is read more than it is written. So we should always optimize for code scanning. This is the same as my "glance test."
-
 ### Simple
 
 Simple tests also tend to be small and obvious tests. So you can see that these attributes are very much related to each other. Optimizing for one often optimizes for the others. 
