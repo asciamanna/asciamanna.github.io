@@ -11,7 +11,7 @@ Too often I've heard developers say that unit testing doesn't work only to disco
 
 ## TDD 
 
-Every time I discuss high-quality unit tests I have to mention that I strongly encourage practicing TDD in order to create valuable unit tests. It prevents a lot of issues that arise when developers try to cover bad code in unit tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately testing after the code is written too often leads to software design issues and the resulting problematic tests. Test After Development (TAD)[^1] yields tests with much less value, in addition to missing all of the benefits of Test Driven Development which I've written about [here]({{ site.base_url }{% post_url 2017-12-31-benefits-of-pair-programming %}}).
+Every time I discuss high-quality unit tests I have to mention that I strongly encourage practicing TDD in order to create valuable unit tests. It prevents a lot of issues that arise when developers try to cover bad code in unit tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately testing after the code is written too often leads to software design issues and the resulting problematic tests. Test After Development (TAD)[^1] yields tests with much less value, in addition to missing all of the benefits of Test Driven Development which I've written about [here]({{ site.baseurl }}{% post_url 2017-12-31-benefits-of-pair-programming %}).
 
 ### The Code Quality Litmus Test
 
@@ -92,7 +92,7 @@ In fact the most convincing reason to keep tests simple is that they are unteste
 
 ## Putting it all Together
 
-Take a look at the following example of a non-trivial test that puts all of this advice together. If you are wondering why I haven't extracted the test setup you can read more about why [here]({{ site.baseurl }{% post_url 2016-05-22-extracting-methods-in-unit-tests %}}).
+Take a look at the following example of a non-trivial test that puts all of this advice together. If you are wondering why I haven't extracted the test setup you can read more about why [here]({{ site.baseurl _}}{% post_url 2016-05-22-extracting-methods-in-unit-tests %}).
 {% gist beb880bacdfa18ad8cd862450cca255b %
 
 ## Further Reading
