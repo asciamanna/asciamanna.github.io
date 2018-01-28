@@ -101,7 +101,7 @@ In fact the most convincing reason to keep tests simple is that they are unteste
 
 Take a look at the following example of a micro test that puts all of this advice together.
 
-{% gist beb880bacdfa18ad8cd862450cca255b %
+{% gist beb880bacdfa18ad8cd862450cca255b %}
 
 ## Further Reading
 
