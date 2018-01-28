@@ -11,11 +11,11 @@ Too often I've heard developers declare that unit testing doesn't work only to d
 
 ## TDD 
 
-Every time I discuss high-quality unit tests I have to mention that I strongly encourage practicing TDD. It prevents a lot of issues that arise when developers try to cover bad code in tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately, testing after the code is written often leads to software design issues and these problematic tests. Test After Development (TAD)[^1] yields tests with much less value that bypass all of the benefits of Test Driven Development, which I've written about [here]({{ site.baseurl }}{% post_url 2017-12-31-benefits-of-pair-programming %}).
+Every time I discuss high-quality unit tests I also encourage practicing TDD. It prevents a lot of issues that arise when developers try to cover bad code in tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately, testing after the code is written often leads to software design issues and these problematic tests. Test After Development (TAD)[^1] yields tests with much less value that bypass all of the benefits of Test Driven Development, which I've written about [here]({{ site.baseurl }}{% post_url 2017-12-31-benefits-of-pair-programming %}).
 
 ### The Code Quality Litmus Test
 
-Tests are the first client of a new object when practicing TDD. This ensures that objects are designed for their consumers first and foremost. This is significantly more challenging when designing software without using TDD. Unit tests are a litmus test for the quality of the code under test. Tests with a lot of setup, control flow logic / conditional statements, and many collaborators are signs that there are design issues with the object under test.
+Tests are the first consumer of a new object when practicing TDD. This ensures that objects are designed for their consumers first and foremost. This is significantly more challenging when designing software without using TDD. Unit tests are a litmus test for the quality of the code under test. Tests with a lot of setup, control flow logic / conditional statements, and many collaborators are signs that there are design issues with the object under test.
 
 ## SOS
 
@@ -25,7 +25,7 @@ When I coach developers on writing high-quality unit tests I use the mnemonic __
 
 #### Test Size
 
-**Small** is the first word to focus on. I recommend unit tests to be small. In fact I prefer using the term **"micro tests"** since it better describes the qualities of valuable unit tests. Often people will ask _"how small"_, looking for a specific number. I believe micro tests should be around 15 lines or less. Much more than that is an indicator of a design problem. There's no exact number, but we should always focus on keeping them small.
+**Small** is the first attribute category. I recommend unit tests to be small. In fact I prefer using the term **"micro tests"** since it better describes the qualities of valuable unit tests. Often people will ask _"how small"_, looking for a specific number. I believe micro tests should be around 15 lines or less. Much more than that is an indicator of a design problem. There's no exact number, but we should always focus on keeping them small.
 
 Does the object require a lot of complicated setup? The callers of that code are going to also need to understand all of that complicated setup. I can assure you that they shouldn't need to know that. 
 
@@ -35,7 +35,9 @@ Some developers avoid this by putting a lot of test setup in the xUnit Test Setu
 
 #### Test Scope
 
-Another **small** characteristic of micro tests is the scope of the test. Tests with a very small scope provide **error localization**. When a test fails it is important to be able to find the source of the failure immediately. Developers who shy away from the appropriate use of test doubles tend to have problems with error localization. Larger test scopes lead to overlapping tests. Test overlap is often the source of unnecessary tests, which increases the suite run time. Additionally, large test scopes introduce multiple test failures for a single change. 
+Another **small** characteristic of micro tests is the scope of the test. Tests with a very small scope provide **error localization**. When a test fails it is important to be able to find the source of the failure immediately. Developers who shy away from the appropriate use of test doubles tend to have problems with error localization. 
+
+Larger test scopes lead to overlapping tests. Test overlap is often the source of unnecessary tests, which increases the suite run time. Additionally, large test scopes introduce multiple test failures for a single change. 
 
 ### Obvious 
 
@@ -43,7 +45,7 @@ Tests should be obvious. Any developer should be able to look at a test and unde
 
 #### Keep Tests Self-Contained 
 
-An important heuristic is that tests should be self-contained and independent of one another. xUnit's test setup should be reserved for very specific usages. I recommend using test setup only to create the object under test, initialize its dependencies, and inject them manually into the test subject constructor. This of course assumes that the test subject is shared by the other test cases in the same fixture.
+An important heuristic is that tests should be self-contained and independent of one another. xUnit's test setup should be reserved for very specific usages. I recommend using test setup only to create the object under test, initialize its dependencies, and inject them manually into the test subject's constructor. This of course assumes that the test subject is shared by the other test cases in the same fixture.
 
 If there is some duplication of test setup but it is important to the outcome of the test, I prefer not to refactor it. Refactoring will impact readability by introducing indirection. _DRYing_ tests should be used to enhance understanding, if it instead produces the opposite effect it should be avoided.
 
@@ -75,13 +77,13 @@ By following these steps to make tests obvious, they pass what I call "the glanc
 
 ### Simple
 
-**Simple** tests also tend to be small and obvious tests. So you can see that these attributes are related to each other. Optimizing for one often optimizes for the others. 
+**Simple** tests also tend to be small and obvious tests. So you can see that these attribute categories are related to each other. Optimizing for one often optimizes for the others. 
 
-#### Use Test Framework "extras" with Care 
+#### Use Test Framework Extras with Care 
 
 xUnit test frameworks come with a lot of extras. In some cases they can help make tests more expressive and reduce duplication. However, more often than not they are a workaround for a design issue and add complexity to the test. Often these "extras" negatively effect the ability to scan the test quickly, failing the Glance Test. For micro tests I avoid setup at the test fixture level and other xUnit extras like MSTest's ability to test private methods or many of NUnit's custom test attributes.  
 
- #### Contains no Branches or Control Flow Logic
+ #### Contain no Branches or Control Flow Logic
 
 Tests should not contain any branching or control flow logic. Their existence is a code smell. Refactoring the code under test can obviate the need for branching in test cases.
 
