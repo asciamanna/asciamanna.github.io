@@ -7,7 +7,7 @@ category: development practices
 tags: [unit-testing, tdd, code-quality]
 ---
 
-Too often I've heard developers declare that unit testing doesn't work only to discover a test suite of incredibly complex, brittle, and unmaintainable tests. Frequently I find that these are not unit tests at all, testing things like database interaction and calling third-party services.
+I've often heard developers declare that unit testing doesn't work only to discover a test suite of incredibly complex, brittle, and unmaintainable tests. Frequently I find that these are not unit tests at all, testing things like database interaction and calling third-party services.
 
 ## TDD 
 
@@ -15,7 +15,7 @@ Every time I discuss high-quality unit tests I also encourage practicing TDD. It
 
 ### The Code Quality Litmus Test
 
-Tests are the first consumer of a new object when practicing TDD. This ensures that objects are designed for their consumers first and foremost. This is significantly more challenging when designing software without using TDD. Unit tests are a litmus test for the quality of the code under test. Tests with a lot of setup, control flow logic / conditional statements, and many collaborators are signs that there are design issues with the object under test.
+Tests are the first consumer of a new method when practicing TDD. This ensures that objects are designed for their consumers first and foremost. This is significantly more challenging when designing software without using TDD. Unit tests are a litmus test for the quality of the code under test. Tests with a lot of setup, control flow logic / conditional statements, and many collaborators are signs that there are design issues with the object under test.
 
 ## SOS
 
@@ -25,13 +25,11 @@ When I coach developers on writing high-quality unit tests I use the mnemonic __
 
 #### Test Size
 
-**Small** is the first attribute category. I recommend unit tests to be small. In fact I prefer using the term **"micro tests"** since it better describes the qualities of valuable unit tests. Often people will ask _"how small"_, looking for a specific number. I believe micro tests should be around 15 lines or less. Much more than that is an indicator of a design problem. There's no exact number, but we should always focus on keeping them small.
+**Small** is the first attribute category. I recommend that unit tests should be small. In fact I prefer using the term **"micro tests"** since it better describes the qualities of valuable unit tests. Often people will ask _"how small"_, looking for a specific number. I believe micro tests should be around 15 lines or less. Much more than that is an indicator of a design problem. There's no exact number, but we should always strive to keep them small.
 
-Does the object require a lot of complicated setup? The callers of that code are going to also need to understand all of that complicated setup. I can assure you that they shouldn't need to know that. 
+Does the object require a lot of complicated setup? The callers of that code are going to also need to understand all of that complicated setup. I can assure you that they shouldn't need to know that. Some developers avoid this by putting complex test setup in the xUnit Test Setup method. This unfortunately obscures the test and ignores other heuristics.
 
-Are there a lot of dependencies / collaborators that need to be setup? That's a sign that the object is doing too many things, becoming a *God Object*. It's a sign there is an abstraction missing that collects a few of those dependencies into a single object.
-
-Some developers avoid this by putting a lot of test setup in the xUnit Test Setup method. This unfortunately obscures the test and ignores other heuristics.
+Are there a lot of dependencies / collaborators that need to be setup? That's a sign that the object is doing too many things, becoming a *God Object*. It's a sign that there is an abstraction (or several) missing that collect a few of those dependencies into a single object. 
 
 #### Test Scope
 
@@ -51,11 +49,11 @@ If there is some duplication of test setup but it is important to the outcome of
 
 #### Arrange-Act-Assert
 
-[Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert) is a common pattern for unit tests. In order to make tests obvious, they should conform to it. This pattern can be amplified by ensuring that a separate block of code exists for each step. Any refactoring that would remove one of these code blocks is to be avoided. 
+[Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert) is a common pattern for unit tests. In order to make tests obvious, they should conform to it or the _Given-When-Then_ pattern of BDD. This pattern can be amplified by ensuring that a separate block of code exists for each step. Any refactoring that would remove one of these code blocks is to be avoided. 
 
 ##### Obvious Code Coverage
 
-One of the reasons to ensure adherence to _Arrange Act Assert_ is to make code coverage obvious, which is another characteristic of a high quality test. When _Arrange Act Assert_ is followed the middle block, typically consisting of a single line, is the method under test. It is obvious that the coverage of that test is the method being called in the _Act_ block.
+One of the reasons to ensure adherence to _Arrange-Act-Assert_ is to make code coverage obvious, which is another characteristic of a high quality test. When _Arrange-Act-Assert_ is followed the middle block, typically consisting of a single line, is the method under test. It is obvious that the test coverage is the method being called in the _Act_ block.
 
 #### Common Naming Conventions 
 
@@ -63,7 +61,7 @@ Every test fixture and test case in a suite should conform to a common naming co
 
 ##### Common Test Constructs
 
-I ensure that common test constructs all use the same terminology. Every test case has a subject, the object that is under test. It is always called "subject" in tests I write. A majority of tests make assertions against some result. In every test that performs assertions, the result returned by the subject is called "result."
+I ensure that common test constructs all use the same terminology. Every test case has a subject, the object that is under test. It is always called "subject" in the tests I write. A majority of tests make assertions against some result. In every test that performs assertions, the result returned by the subject is called "result."
 
 #### Amplify and Obscure
 
@@ -73,15 +71,15 @@ Setup that is less important to the test can then be extracted so that it can be
 
 #### Glance Test
 
-By following these steps to make tests obvious, they pass what I call "the glance test." I can glance at a test and in a minute understand what is being tested, why it's being tested, its collaborators, and how it should react under the documented test conditions. Since code is read many more times than it is written unit tests (the same as production code) must pass this glance test. 
+By following these steps to make tests obvious, they pass what I call "the glance test." I can glance at a test and in a minute understand what is being tested, why it's being tested, its collaborators, and how it should react under the documented test conditions. Since code is read many more times than it is written unit tests (same as the code they test) must pass this glance test. 
 
 ### Simple
 
-**Simple** tests also tend to be small and obvious tests. So you can see that these attribute categories are related to each other. Optimizing for one often optimizes for the others. 
+**Simple** tests also tend to be small and obvious tests. These attribute categories are related to each other, so optimizing for one often optimizes for the others. 
 
 #### Use Test Framework Extras with Care 
 
-xUnit test frameworks come with a lot of extras. In some cases they can help make tests more expressive and reduce duplication. However, more often than not they are a workaround for a design issue and add complexity to the test. Often these "extras" negatively effect the ability to scan the test quickly, failing the Glance Test. For micro tests I avoid setup at the test fixture level and other xUnit extras like MSTest's ability to test private methods or many of NUnit's custom test attributes.  
+xUnit test frameworks come with a lot of extras. In some cases they can help make tests more expressive and reduce duplication. However, more often than not they are a workaround for a design issue and add complexity to the test. Often these "extras" negatively effect the ability to scan the test quickly, failing the Glance Test. For micro tests I avoid setup at the test fixture level and xUnit extras like MSTest's ability to test private methods or many of NUnit's custom test attributes.  
 
  #### Contain no Branches or Control Flow Logic
 
@@ -116,6 +114,6 @@ I also recommend these three talks on creating and maintaining valuable unit tes
 * Justin Searls - [How to Stop Hating Your Test Suite](https://www.youtube.com/watch?v=VD51AkG8EZw)
 * Gerard Meszaros - [Find the Right Abstraction Level for your Tests](http://m.ustream.tv/recorded/46744750)
 * Sandi Metz - [The Magic Tricks of Testing](https://www.youtube.com/watch?v=URSWYvyc42M)
-`
+
 [^1]: Test After Development or *TAD* is discussed in [this article about TDD](https://pragprog.com/magazines/2011-11/testdriven-development) by [Jeff Langr](http://langrsoft.com/)
 
