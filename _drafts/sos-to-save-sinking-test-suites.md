@@ -11,11 +11,11 @@ I've often heard developers declare that unit testing doesn't work only to disco
 
 ## TDD 
 
-Every time I discuss high-quality unit tests I also encourage practicing TDD. It prevents a significant number of issues that arise when developers try to cover bad code in tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately, testing after the code is written, often leads to software design issues and problematic tests. Test After Development (TAD)[^1] yields tests with much less value that bypass all of the benefits of Test Driven Development, which I've written about [here]({{ site.baseurl }}{% post_url 2017-12-31-benefits-of-pair-programming %}).
+Every time I discuss high-quality unit tests I also encourage practicing TDD. It prevents a significant number of issues that arise when developers try to cover bad code in tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately, testing after the code is written, often leads to software design issues and problematic tests. Test After Development (TAD)[^1] yields tests with much less value that bypass all of the benefits of Test Driven Development, some which I've written about [here]({{ site.baseurl }}{% post_url 2017-12-31-benefits-of-pair-programming %}).
 
 ### The Code Quality Litmus Test
 
-When practicing TDD tests are the first consumer of a new object. This ensures that objects are designed for their consumers first and foremost. This is significantly more challenging when designing software without using TDD. Unit tests act as a litmus test for the quality of the code. Tests with a lot of setup, control flow logic/ conditional statements, and many collaborators are signs that there are design issues with the tested code.
+When practicing TDD tests are the first consumer of a new object. This ensures that objects are designed for their consumers first and foremost. This becomes a much more daunting challenge when designing code without using TDD. Unit tests act as a litmus test for the quality of the code. Tests with a lot of setup, control flow logic/ conditional statements, and many collaborators are signs that there are design issues with the tested code.
 
 ## SOS
 
@@ -25,11 +25,11 @@ When I coach developers on writing high-quality unit tests I use the mnemonic __
 
 #### Test Size
 
-**Small** is the first category. I recommend that unit tests should be small. In fact, I prefer using the term **"micro tests"** since it better describes the qualities of valuable unit tests. Often people will ask _"how small"_, looking for a specific number. I believe micro tests should be around 15 lines or less. Much more than that is an indicator of a design problem. There's no exact number, but we should always strive to keep them small.
+I recommend that unit tests should be small. In fact, I prefer using the term **"micro tests"** since it better describes the qualities of valuable unit tests. Often people will ask _"how small"_, looking for a specific number. I believe micro tests should be around 15 lines or less. Much more than that is an indicator of a design problem. There's no exact number, but we should always strive to keep them small.
 
 Does the object require a lot of complicated setup? The callers of that code are going to also need to understand all of that complicated setup. I can assure you that they shouldn't need to know that. Some developers avoid this by putting complex test setup in the xUnit Test Setup method. This unfortunately obscures the test and ignores other heuristics.
 
-Are there a lot of dependencies that need to be setup? That's a sign that the object is doing too many things, becoming a *God Object*. It's a sign that there is an abstraction (or several) missing that should collect a few of those dependencies into a single object. 
+Are there a lot of dependencies that need to be setup? That's a sign that the object is doing too many things,and becoming a *God Object*. It's an indication that there is an abstraction (or several) missing that should collect a few of those dependencies into a single object. 
 
 #### Test Scope
 
@@ -39,7 +39,7 @@ Larger test scopes lead to overlapping tests. Test overlap is often the source o
 
 ### Obvious 
 
-Tests should be obvious. Any developer should be able to look at a test and understand it (and the code under test) within a minute or two. Tests are valuable executable documentation, but to realize this value, care must be taken to keep their intent obvious.
+Tests should be obvious. Any developer should be able to look at a test and understand it (and the code it's testing) within a minute or two. Tests are valuable executable documentation, but to realize this value, care must be taken to keep their intent obvious.
 
 #### Keep Tests Self-Contained 
 
@@ -53,7 +53,7 @@ If there is some duplication of test setup, but it is important to the outcome o
 
 ##### Obvious Code Coverage
 
-One of the reasons to adhere to _Arrange-Act-Assert_ is to make code coverage obvious, which is another characteristic of a high quality test. When _Arrange-Act-Assert_ is followed the middle block, typically consisting of a single line, is the method under test. It is obvious that the test coverage is the method being called in the _Act_ block.
+One of the reasons to adhere to _Arrange-Act-Assert_ is to make code coverage obvious, which is another characteristic of a high quality test. When _Arrange-Act-Assert_ is followed the middle block, often consisting of a single line, is the method under test. It is obvious that the test coverage is the method being called in the _Act_ block.
 
 #### Common Naming Conventions 
 
@@ -61,7 +61,7 @@ Every test fixture and test case in a suite should conform to a common naming co
 
 ##### Common Test Constructs
 
-I ensure that common test constructs all use the same terminology. Every test case has a subject, the object that is under test. It is always called "subject" in the tests I write. Tests make assertions against a result. The response returned by calling the method under test I always name "result." 
+I ensure that common test constructs all use the same terminology. Every test case has a subject, the object that is being tested. It is always called "subject" in the tests I write. Tests make assertions against a result. The response returned by calling the method under test I always name "result." 
 
 #### Amplify and Obscure
 
@@ -79,7 +79,7 @@ By following these steps to make tests obvious, they pass what I call "the glanc
 
 #### Use Test Framework Extras with Care 
 
-xUnit test frameworks come with a lot of extras. In some cases, they can help make tests more expressive and reduce duplication. However, more often than not, they are a workaround for a design issue and add complexity to the test. Often these "extras" negatively effect the ability to scan the test quickly and fail the Glance Test. For micro tests, I avoid setup at the test fixture level and xUnit extras like MSTest's ability to test private methods or many of NUnit's custom test attributes.  
+xUnit test frameworks come with a lot of extras. In some cases, they can help make tests more expressive and reduce duplication. However, more often than not, they are a workaround for a design issue and add complexity to the test. Often these extras negatively effect the ability to scan the test quickly and fail the Glance Test. For micro tests, I avoid setup at the test fixture level and xUnit extras like MSTest's ability to test private methods or many of NUnit's custom test attributes.  
 
  #### Contain no Branches or Control Flow Logic
 
@@ -105,10 +105,10 @@ Take a look at the following example of a micro test that puts all of this advic
 
 For more detailed advice I've written a series of posts about how to create high-quality, valuable tests: 
 
-* [Should Private Methods Be Tested?]()
-* [Unit Test Refactoring and Avoiding Complexity]()
-* [Follow Consistent Test Patterns]()
-* [Extracting Methods in Unit Tests]()
+* [Should Private Methods Be Tested?]({{ site.baseurl }}{% post_url 2016-02-14-should-private-methods-be-tested %}
+* [Unit Test Refactoring and Avoiding Complexity]({{ site.baseurl }}{% post_url 2016-03-22-unit-test-refactoring-and-avoiding-complexity %})
+* [Follow Consistent Test Patterns]({{ site.baseurl }}{% post_url 2016-04-24-follow-consistent-test-patterns %})
+* [Extracting Methods in Unit Tests]({{ site.baseurl }}{% post_url 2016-05-22-extracting-methods-in-unit-tests %})
 
 I also recommend these three talks on creating and maintaining valuable unit test suites
 * Justin Searls - [How to Stop Hating Your Test Suite](https://www.youtube.com/watch?v=VD51AkG8EZw)
