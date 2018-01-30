@@ -11,7 +11,7 @@ I've often heard developers declare that unit testing doesn't work only to disco
 
 ## TDD 
 
-Every time I discuss high-quality unit tests I also encourage practicing TDD. It prevents a significant number of issues that arise when developers try to cover bad code in tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately, testing after the code is written, often leads to software design issues and problematic tests. Test After Development (TAD)[^1] yields tests with much less value that bypass all of the benefits of Test Driven Development, some which I've written about [here]({{ site.baseurl }}{% post_url 2017-12-31-benefits-of-pair-programming %}).
+Every time I discuss high-quality unit tests I also encourage practicing TDD. It prevents a significant number of issues that arise when developers try to cover bad code in tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately, testing after the code is written, often leads to software design issues and problematic tests. Test After Development (TAD)[^1] yields tests with much less value that bypass all of the benefits of Test Driven Development, some of which I've written about [here]({{ site.baseurl }}{% post_url 2017-12-31-benefits-of-pair-programming %}).
 
 ### The Code Quality Litmus Test
 
