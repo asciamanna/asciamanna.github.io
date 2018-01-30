@@ -15,7 +15,7 @@ Every time I discuss high-quality unit tests I also encourage practicing TDD. It
 
 ### The Code Quality Litmus Test
 
-When practicing TDD tests are the first consumer of a new object. This ensures that objects are designed for their consumers first and foremost. This becomes a much more daunting challenge when designing code without using TDD. Unit tests act as a litmus test for the quality of the code. Tests with a lot of setup, control flow logic/ conditional statements, and many collaborators are signs that there are design issues with the tested code.
+When practicing TDD tests are the first consumer of a new object. This ensures that objects are designed for their consumers first and foremost. This becomes a much more daunting challenge when designing code without using TDD. Unit tests act as a litmus test for the quality of the code. Tests with a lot of setup, control flow logic / conditional statements, and many collaborators are signs that there are design issues with the tested code.
 
 ## SOS
 
@@ -81,7 +81,7 @@ By following these steps to make tests obvious, they pass what I call "the glanc
 
 xUnit test frameworks come with a lot of extras. In some cases, they can help make tests more expressive and reduce duplication. However, more often than not, they are a workaround for a design issue and add complexity to the test. Often these extras negatively effect the ability to scan the test quickly and fail the Glance Test. For micro tests, I avoid setup at the test fixture level and xUnit extras like MSTest's ability to test private methods or many of NUnit's custom test attributes.  
 
- #### Contain no Branches or Control Flow Logic
+#### Contain no Branches or Control Flow Logic
 
 Tests should not contain any branching or control flow logic. Their existence is a code smell. Refactoring the code under test can obviate the need for branching in test cases.
 
@@ -105,14 +105,14 @@ Take a look at the following example of a micro test that puts all of this advic
 
 For more detailed advice I've written a series of posts about how to create high-quality, valuable tests: 
 
-* [Should Private Methods Be Tested?]({{ site.baseurl }}{% post_url 2016-02-14-should-private-methods-be-tested %}
-* [Unit Test Refactoring and Avoiding Complexity]({{ site.baseurl }}{% post_url 2016-03-22-unit-test-refactoring-and-avoiding-complexity %})
+* [Should Private Methods Be Tested?]({{ site.baseurl }}{% post_url 2016-02-14-should-private-methods-be-tested %})
+* [Unit Test Refactoring and Avoiding Complexity]({{ site.baseurl }}{% post_url 2016-03-22-unit-test-refactoring-avoiding-complexity %})
 * [Follow Consistent Test Patterns]({{ site.baseurl }}{% post_url 2016-04-24-follow-consistent-test-patterns %})
 * [Extracting Methods in Unit Tests]({{ site.baseurl }}{% post_url 2016-05-22-extracting-methods-in-unit-tests %})
 
 I also recommend these three talks on creating and maintaining valuable unit test suites
 * Justin Searls - [How to Stop Hating Your Test Suite](https://www.youtube.com/watch?v=VD51AkG8EZw)
-* Gerard Meszaros - [Find the Right Abstraction Level for your Tests](http://m.ustream.tv/recorded/46744750)
+* Gerard Meszaros - [Find the Right Abstraction Level for your Tests](http://ustream.tv/recorded/46744750)
 * Sandi Metz - [The Magic Tricks of Testing](https://www.youtube.com/watch?v=URSWYvyc42M)
 
 [^1]: Test After Development or *TAD* is discussed in [this article about TDD](https://pragprog.com/magazines/2011-11/testdriven-development) by [Jeff Langr](http://langrsoft.com/)
