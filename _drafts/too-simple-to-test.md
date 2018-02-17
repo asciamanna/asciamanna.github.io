@@ -11,7 +11,7 @@ When I work with developers who don't practice Test-Driven Development (TDD) one
 
 It's common for developers to disregard testing adapters or factories, for example, thinking they are just too simple to test. They would rather test via inspection than write an automated test, thinking that these tests take too long to write, are a burden to maintain, or otherwise not carrying their weight. 
 
-Unfortunately, since this conversation typically only comes up on Test After Development (TAD)[^1] teams, there are also similar conversations about code that is too hard to test. It is common that the team has produced code that is too difficult to test because they are attempting to wrap untestable code in unit tests after the fact, instead of designing for testability. This results in a very small amount of functioanlity that actually gets tested. These TAD tests end up looking very different than the isolated, object-level, microtests that I would expect to come out of TDD. I've seen these situations result in as little as 10 to 15% of a team's code being tested. 
+Unfortunately, since this conversation typically only comes up on Test After Development (TAD)[^1] teams, there are also similar conversations about code that is too hard to test. It is common that teams produce code that is too difficult to test because they are attempting to wrap untestable code in unit tests after the fact, instead of designing for testability. This results in a very small amount of functionality that actually gets tested. These TAD tests end up looking very different than the isolated, object-level, microtests that I would expect to come out of TDD. I've seen these situations result in as little as 10 to 15% of a team's code being tested. 
 
 ## TDD Avoids this Question Altogether
 
@@ -25,11 +25,11 @@ Testing simple code, especially in small isolated tests provides error localizat
 
 ## Refactoring
 
-Simple code often gets more complex over time as features and other changes are added to the system. Adapters and factories can gain complexity over time and most certainly need to be refactored. These tests are necessary to support refactoring. 
+Simple code often gets more complex over time. As features and other changes are added to the system, complexity accumulates. These tests are necessary to support refactoring as this occurs. 
 
 ## Maintainability
 
-When developers raise concerns about the maintainability of tests that test simple code I suggest that simple code most often has simple tests. Keeping tests simple is one of the key characteristics of quality microtests that I've written about [here]({{ site.baseurl }}{% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). Simple tests have an extremely low maintenance cost. So low that their value in documenting a fact or behavior of the system exceeds their cost of maintenance.[^2] 
+When developers raise concerns about the maintainability of tests for simple code, I suggest that simple code most often has simple tests. Keeping tests simple is one of the key characteristics of quality microtests that I've written about [here]({{ site.baseurl }}{% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). Simple tests have an extremely low maintenance cost. So low, in fact, that their value in documenting a fact or behavior of the system exceeds their cost of maintenance.[^2] 
 
 Consequently, more complex unit tests that test across object boundaries end up having a much higher maintenance cost then very simple tests for simple code. 
 
