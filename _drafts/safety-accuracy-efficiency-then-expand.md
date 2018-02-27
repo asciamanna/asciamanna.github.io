@@ -75,5 +75,5 @@ Does the office space that the team works in optimize for collaboration. The bes
 
 [Tim Ottinger](https://www.twitter.com/tottinge)'s tweet sums up this post perfectly. Fast, closed feedback loops, strict prioritization of work, managed and explicit dependencies between teams, and team autonomy. These are the things that help teams work safer, with less bugs, and eventually faster. These are things every development organization should look at continuously improving. These are the things that really need to be improved before expanding the development organization.  
 
-> Underlying it all: Learn to go safe, then accurate, then fast, then big. It's the only order that makes any sense. When we skip one we end up having to bo back and pick it up
+> Underlying it all: Learn to go safe, then accurate, then fast, then big. It's the only order that makes any sense. When we skip one we end up having to bo back and pick it up  
 > &mdash __[Tim Ottinger](https://www.twitter.com/tottinge)__
