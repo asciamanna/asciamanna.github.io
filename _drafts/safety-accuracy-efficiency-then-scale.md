@@ -17,7 +17,7 @@ There is a sequence to improvements that help development teams and organization
 
 Achieve safety, then accuracy, then efficiency, then add people to scale the organization. Adding people before accomplishing the previous steps will result in exacerbating existing problems. Organizations have to double back to improve the system before they can realize the value of these new employees.
 
-> Underlying it all: Learn to go safe, then accurate, then fast, then big. It's the only order that makes any sense. When we skip one we end up having to bo back and pick it up  
+> Underlying it all: Learn to go safe, then accurate, then fast, then big. It's the only order that makes any sense. When we skip one we end up having to go back and pick it up  
 > &mdash; _[Tim Ottinger](https://www.twitter.com/tottinge)_
 
 
