@@ -16,7 +16,8 @@ The way to make this a reality is to focus on discipline, practice, and attitude
 There are several practices that support building software quality in first and not relying on QA departments to find all of the problems. Further, QA focuses on external quality, or quality that only your users will see. No Bugs practices focus on both internal and external quality. Internal quality is the quality of the code, or how amenable to change the code is. In other words, the quality your users do not see. 
 
 There are two important reasons to focus on internal quality first:
-* High internal quality yields high external quality
+
+* High internal quality often results in high external quality
 * High internal quality yields more productive teams
 
 ## No Bugs Practices
