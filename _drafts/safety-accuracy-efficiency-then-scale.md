@@ -7,14 +7,14 @@ category: development practices
 tags: [agile-development, coaching, anti-patterns]
 ---
 
-Often companies attempt to scale their development organization by adding developers and teams before improving the system of work. Too often companies incorrectly equate growth with hiring, resulting in a focus on hiring instead of identifying opportunities to improve the system of work. These improvements have a huge positive effect on the efficiency, and often morale, of the existing organization. Adding more people to a problematic system of work not only makes fixing these problems significantly harder, it exacerbates existing problems. 
+It is common for companies to attempt to scale their development organization by adding developers and teams before improving the system of work. Too often companies incorrectly equate growth with hiring, resulting in a focus on hiring instead of identifying opportunities to improve the system of work. These improvements have a huge positive effect on the efficiency, and often morale, of the existing organization. Adding more people to a problematic system of work not only makes fixing these problems significantly harder, it exacerbates existing problems. 
 
-Each new hire in a broken system adds less value than the previous new hire. At some point they cross the Rubicon and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed the threshold and continue to add people, because they believe that more people must be able to get more work done. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle with the false assumption that doubling the workforce will get the work done twice as fast. 
+Each new employee in a broken system adds less value than the previous new hire. At some point the organization crosses the Rubicon and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more people must be able to get more work done. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle with the false assumption that doubling the workforce will get the work done twice as fast. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">“If you hire good people into a broken system, it doesn’t fix the system, it breaks the people!” Jez Humble</p>&mdash; Nicole Rauch (@NicoleRauch) <a href="https://twitter.com/NicoleRauch/status/960827149585395712?ref_src=twsrc%5Etfw">February 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-There is a sequence to improvements that help development teams and organizations succeed. It ends with increasing the staff in the organization if necessary, it doesn't begin there. 
+There is a sequence to improvements that help development teams and organizations succeed. It ends with increasing the staff in the organization if necessary, it does not begin there. 
 
 ## Improve the System Before Scaling
 
@@ -28,10 +28,9 @@ IMAGE HERE
 
 ## Gather Feedback
 
-Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a cross-functional team you don't see the same problems the teams do. The teams usually know where the obvious pain points are. Ask them for more feedback and act on the feedback you have already received. The developers aren't _"complainers"_ as they are often described in Tayloristic organizations. Every team I've worked with wanted to do a great job and make their customers happy. They bring complaints to management when the system of work is preventing them from improving. 
+Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a cross-functional team you won't see the same problems the teams do. The teams usually know where the obvious pain points are. Ask them for more feedback and act on the feedback you have already received. Developers aren't _"complaining children"_ as they are often treated in Tayloristic organizations. Every team I've worked with wanted to do a great job and make their customers happy. They bring complaints to management when the system of work is preventing them from improving. 
 
-If you have an organization with development coaches or Scrum Masters have them look for waste. It sometimes helps to have someone not actively doing the work but embedded with the team to help identify points of waste. 
-
+If you have development coaches or Scrum Masters have them look for waste. It often helps to have someone not actively doing the work but embedded with the team identify points of waste. 
 
 ## Where to Focus Improvement 
 
@@ -39,15 +38,15 @@ The remainder of this article describes the areas I recommend focusing on before
 
 ### Continuous Integration / Continuous Delivery
 
-Are the teams practicing Continuous Integration (CI), are they integrating with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state or does go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes or is manual intervention and manual testing required to release the software? By improving development team practices, automated tests, and the deployment strategy the existing teams will be working safer, more accurately (creating less bugs), and become much more efficient. You should be focusing on getting to fast, repeatable, and wholly automated builds and deployments.
+Are the teams practicing Continuous Integration (CI), are they integrating code with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state or does go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes or is manual intervention and manual testing required to release the software? By improving development team practices, automated tests, and the deployment strategy the existing teams will be working safer, more accurately (creating less bugs), and become much more efficient. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments.
 
 ### Long Build Times
 
-Are teams waiting for builds that take more than fifteen to twenty minutes on build servers? This is downtime that every developer experiences. Adding developers makes the problem worse for the existing developers, as there is more contention on build severs and more queuing waiting for builds to finish. 
+Are teams waiting for builds that take more than ten to fifteen minutes on build servers? This is downtime that every developer experiences. Adding developers makes the problem worse for the existing developers, as there is more contention on build severs and more queuing waiting for builds to finish. 
 
 Investigate the source of slow builds. Is it an issue that can be improved by upgrading server hardware or adding build agents? Adding hardware is a cheap activity that can increase the productivity of the entire organization. 
 
-Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up writing very large tests that tend to be slow. Are your tests hitting a database, accessing the file system, relying on an external service? These all tend to be slow. Refactor the tests and the code under test to no longer interact with these parts of the system. Empower teams to track test timings and fix slow running tests. In one investigation I've found a test that took thirteen seconds. It was reduced to microseconds by replacing the usage of a auto-mocking library with a hand-rolled test double.
+Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up writing very large tests that tend to be slow. Are your tests hitting a database, accessing the file system, relying on an external service? These all tend to be slow. Refactor the tests and the code under test to no longer interact with these parts of the system. Empower teams to track test timings and fix slow running tests. In one investigation I've found a test that took thirteen seconds to complete. It was reduced to microseconds by simply replacing the usage of a auto-mocking library with a hand-rolled test double.
 
 ### Developer Hardware
 
@@ -59,9 +58,9 @@ Monitor the local build times and make sure you understand when a security patch
 
 ### Reduce Cross-Team Dependencies
 
-One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often end up getting blocked and must start something else, increasing work in progress (WIP) and building inventory. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features / projects across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code. 
+One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often end up getting blocked and must start something else, increasing work in progress (WIP) and building inventory. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features or projects across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code. 
 
-One recent example I have seen: teams separated by several timezones needed to modify the same exact object. One team would end of their day ready to refactor an object in the morning only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe.
+I recently experienced teams separated by several timezones who needed to modify the same exact object. One team would end of their day ready to refactor an object in the morning only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe. This type of churn decreases team effectiveness and slows teams down given the amount of communication and delay required to accomplish any work.
 
 #### Vertical Slicing Features
 
@@ -69,9 +68,9 @@ One very simple way to reduce dependencies is to make sure that entire features 
 
 ### Identify Explicit Boundaries 
 
-In a large, poorly designed system removing cross team dependencies can be vary from being very hard to seemingly impossible. An alternative to breaking apart the system is to focus on each team's areas of code. Ensure that teams are communicating through well-defined interfaces. Instead of fighting Conway's law embrace it! This is often the first step in decomposing applications. 
+In a large, poorly designed software system removing cross team dependencies can vary from being very hard to seemingly impossible. An alternative to breaking apart the system is to focus on each team's areas of code. Ensure that teams are communicating through well-defined interfaces. Instead of fighting Conway's law embrace it! This is often the first step in decomposing applications. 
 
-Decomposing these areas has the added benefit of improving local build times. This helps encourage developers to practice TDD and work in very small increments. If the test and build cycle is long (more than a few seconds) developers struggle with practices like TDD that rely on nearly instantaneous feedback loops.
+Decomposing these areas of code has the added benefit of improving local build times. This helps encourage developers to practice TDD and work in very small increments. If the test and build cycle is long (more than a few seconds) developers struggle with practices like TDD that rely on nearly instantaneous feedback loops.
 
 ### Focus on Highest Value Work
 
