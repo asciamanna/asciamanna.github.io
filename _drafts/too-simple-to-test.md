@@ -31,13 +31,13 @@ Simple code often gets more complex over time. As features and other code modifi
 
 When developers raise concerns about the maintainability of tests for simple code, I suggest that simple code has simple tests. Keeping tests simple is one of the key characteristics of quality microtests that I've written about [here]({{ site.baseurl }}{% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). Simple tests have an extremely low maintenance cost. So low, in fact, that their value in documenting a fact or behavior of the system exceeds their cost of maintenance.[^2] 
 
-Consequently, more complex unit tests that test across multiple object boundaries end up having a much higher maintenance.
+Consequently, more complex unit tests that test across multiple object boundaries end up having a much higher maintenance cost.
 
 ## Documentation Rule
 
 The documentation rule of microtesting states that you read the test to understand the code it's testing. You don't read the code to figure out what a test is doing. Unfortunately, typical Test After Development unit tests are complicated enough that they don't provide the same level of documentation value. 
 
-The tests for simple code carry their weight simply because they are documenting a fact or behavior of the system. Any developer can go to a test and understand exactly how the adapter, object mapper, or factory works, even if the scenarios are quite simple. 
+The tests for simple code carry their weight simply because they are documenting a fact or behavior of the system. Any developer can go to a test and understand exactly how the code works, even if the scenarios are quite simple. 
 
 ## Conclusion
 
