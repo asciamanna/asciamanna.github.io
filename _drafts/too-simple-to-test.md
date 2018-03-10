@@ -15,13 +15,13 @@ Since this conversation typically occurs on Test After Development (TAD)[^1] tea
 
 ## TDD Avoids this Question Altogether
 
-TDD practitioners avoid spending time and mental cycles trying to answer this question in the first place. There isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't ever be produced. If you need an adapter, object mapper, or abstract factory you are going to need to write a failing test for it first. 
+TDD practitioners avoid spending time and mental cycles trying to answer this question in the first place. There isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't ever be produced. If you need an adapter, object mapper, or factory you are going to need to write a failing test for it first. 
 
-Skilled TDD practitioners will create isolated microtests avoiding overlapping tests. In these test suites having more tests that cover more functionality, especially when that functionality is very simple, is preferred over longer, more complicated, unit tests that are not isolated from each other and test overlapping functionality.
+Skilled TDD practitioners will create isolated microtests; avoiding overlapping tests. In these test suites having more tests that cover more functionality, especially when that functionality is very simple, is preferred over longer, more complicated, unit tests that are not isolated from each other and test overlapping functionality.
 
 ## Error Localization
 
-Testing simple code, especially in small tests provides error localization. I've seen plenty of bugs in simple objects. The tests, while not a silver bullet, give developers an opportunity to ensure that the objects they are building are operating as expected. 
+Testing simple code, especially in small tests, provides error localization. I've seen plenty of bugs in simple objects. The tests, while not a silver bullet, give developers an opportunity to ensure that the objects they are building are operating as expected. 
 
 ## Refactoring
 
