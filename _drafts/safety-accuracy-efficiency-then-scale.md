@@ -7,7 +7,7 @@ category: development practices
 tags: [agile-development, coaching, anti-patterns]
 ---
 
-Commonly companies attempt to scale their development organization, by adding developers, before improving the system of work. This results in a focus on staffing instead of identifying opportunities to improve the existing system of work. System improvements have a positive effect on the efficiency, productivity, and often morale of the existing organization. Adding more people to a problematic system of work not only makes fixing these problems harder but exacerbates existing problems. 
+Companies commonly attempt to scale their development organization by adding developers before they improve the system of work. This results in a focus on staffing instead of identifying opportunities to improve the existing system of work. System improvements have a positive effect on the efficiency, productivity, and often morale of the existing organization. Adding more people to a problematic system of work not only makes fixing these problems harder, but exacerbates existing problems. 
 
 Each new employee in a broken system adds less value than the previous. At some point the organization crosses the Rubicon and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more people must be able to get more work done. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false assumption that doubling the workforce will get the work done twice as fast. 
 
@@ -16,7 +16,7 @@ Each new employee in a broken system adds less value than the previous. At some 
 
 ## Improve the System Before Scaling
 
-Achieve safety, then accuracy, then efficiency, then add people to scale the organization. Adding people before accomplishing the previous steps will result in exacerbating existing problems. Organizations have to backtrack to improve the system before they can realize the value of these new employees.
+Achieve safety, then accuracy, then efficiency and then add people to scale the organization. Adding people before accomplishing the previous steps will result in exacerbating existing problems. Organizations have to backtrack to improve the system before they can realize the value of these new employees.
 
 > Underlying it all: Learn to go safe, then accurate, then fast, then big. It's the only order that makes any sense. When we skip one we end up having to go back and pick it up  
 > &mdash; _[Tim Ottinger](https://www.twitter.com/tottinge)_
@@ -24,9 +24,9 @@ Achieve safety, then accuracy, then efficiency, then add people to scale the org
 
 ## Gather Feedback
 
-Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software you often won't see the problems they do. The teams know where the obvious pain points are. Ask them for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from improving. 
+Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software, you often won't see the problems they do. The teams know where the obvious pain points are. Ask them for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from improving. 
 
-If you have development coaches or scrum masters encourage them to identify issues. It often helps to have someone not actively doing the work but embedded with the team identify points of waste. 
+If you have development coaches or scrum masters, encourage them to identify issues. It often helps to have someone not actively doing the work who is embedded with the team identify points of waste. 
 
 ## Where to Focus Improvement 
 
@@ -34,7 +34,7 @@ The remainder of this article describes the areas I recommend focusing on before
 
 ### Continuous Integration / Continuous Delivery
 
-Are the teams practicing Continuous Integration (CI)? Are they integrating code with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state or does go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes or is manual intervention and manual testing required to release the software? 
+Are the teams practicing Continuous Integration (CI)? Are they integrating code with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state, or does go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes, or is manual intervention and manual testing required to release the software? 
 
 By improving development team practices, automated tests, and the deployment strategy, existing teams will begin to work safer, more accurately, and efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments.
 
@@ -44,7 +44,7 @@ Are teams waiting for builds that take more than ten to fifteen minutes on build
 
 Investigate the source of slow builds. Is it an issue that can be improved by upgrading server hardware or adding build agents? Adding hardware or additional software licenses is a inexpensive activity that can increase the productivity of the entire organization. 
 
-Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up with very large and slow tests. Are tests accessing a database, the file system, or relying on an external service? Can tests only be written against the user interface of the system because of software design issues? Refactor the tests to no longer interact with these parts of the system (which almost always involves refactoring the code under test to make it amenable to unit testing). Encourage teams to track test runtimes and fix slow running tests. 
+Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up with very large and slow tests. Are tests accessing a database, the file system, or relying on an external service? Can tests only be written against the user interface of the system because of software design issues? Refactor the tests to no longer interact with these parts of the system (which almost always involves refactoring the code under test to make it amenable to unit testing). Encourage teams to track test run times and fix slow running tests. 
 
 ### Developer Hardware
 
@@ -52,21 +52,21 @@ Are teams working in a huge monolithic codebase? I've seen large, poorly designe
 
 #### Monitor Local Build Times
 
-Monitor the local build times and make sure you understand when a security patch or new virus scanning software has negatively effected it so they can be rolled back and investigated further. If you have a separate IT or security department make sure that your organizations are aligned. Slowing the development effort of multiple teams for the sake of security is often a false optimization. There is nearly always a way to work safely and securely without sacrificing the performance of the developer's environment.
+Monitor the local build time to know when development environment changes have a negatively effect on it. If you have a separate IT or security department, make sure that your organizations are aligned. Slowing the development effort of multiple teams for the sake of security is often a false optimization. There is usually a way to work safely and securely without sacrificing the performance of the developer's environment.
 
 ### Reduce Cross-Team Dependencies
 
-One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often block each other and must begin additional work, increasing work in progress (WIP) which leads to creating inventory. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features or projects across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code. 
+One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often block each other and must begin additional work, thus increasing work in progress (WIP) which leads to creating inventory. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features or projects across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code. 
 
-I recently experienced teams separated by several time zones who needed to modify the same exact object. One team would end of their day ready to refactor the code in the morning, only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe. This type of churn decreases team effectiveness and slows teams to a snails pace given the amount of detailed communication and delay required to accomplish any work.
+I recently experienced teams separated by several timezones who needed to modify the same exact object. One team would end their day ready to refactor the code in the morning, only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe. This type of churn decreases team effectiveness and slows teams to a snails pace given the amount of detailed communication and delay required to accomplish any work.
 
 #### Vertical Slicing Features
 
-One simple way to reduce dependencies is to make sure that entire features are given to teams. I continue to see organizations split the work for a single feature across multiple teams. This increases cycle time, adds integration risk, creates the need for additional integration testing, and promotes the accumulation of inventory. One team invariably gets blocked waiting for an input from another team. Get the right people working together to solve the problem, and stop spreading individual features across teams.
+One simple way to reduce dependencies is to make sure that entire features are given to teams. I continue to see organizations split the work for a single feature across multiple teams. This increases cycle time, adds integration risk, creates the need for additional integration testing,and promotes the accumulation of inventory. One team invariably gets blocked waiting for an input from another team. Get the right people working together to solve the problem and stop spreading individual features across teams.
 
 ### Identify Explicit Boundaries 
 
-In a large, poorly designed software system removing cross team code dependencies can be a challenging effort. An alternative to breaking apart the system is to focus on each team's areas of code. Ensure that teams are communicating through well-defined, explicit interfaces. This is often the first step in decomposing applications. 
+In a large, poorly designed software system, removing cross team code dependencies can be a challenging effort. An alternative to breaking apart the system is to focus on each team's areas of code. Ensure that teams are communicating through well-defined, explicit interfaces. This is often the first step in decomposing applications. 
 
 #### Improve Feedback Loops
 
@@ -80,13 +80,13 @@ Are teams spending time on low value work? Are features sitting for months witho
 
 Existing features are a constraint on the software. They are often the reason it takes increasingly longer for features to be added to systems over time. The maintenance cost of features is non-negligible and is an ongoing tax on the organization. It's important to identify and remove unused and low-value features because of this. 
 
-Organizations that are accustomed to focusing on projects instead of products tend to think of features in terms of creation cost. Once a project is over developers can be dispersed to start their next projects. Projects are temporary but the code that is produced during a project is not.  
+Organizations that are accustomed to focusing on projects instead of products tend to think of features in terms of creation cost. Once a project is over, developers can be dispersed to start their next projects. Projects are temporary but the code that is produced during a project is not.  
 
 ### Customer Access
 
-Ensure that development teams have a close and ongoing relationship with their customers. This will help everyone in the organization with the prioritization of work. Many technology companies still rely on outdated, Tayloristic organization designs to create a _masters and minions_ command-and-control structure. This results in having a separate organization that is responsible for interacting with the customer and determining the details of the work. This kind of organization delivers prescriptive solutions to development teams instead of trusting the team with a problem and access to their customer. There is a lot of inefficiency built into this way of organizing. 
+Ensure that development teams have a close and ongoing relationship with their customers. This will help everyone in the organization prioritize the high value work. Many technology companies still rely on outdated, Tayloristic organization designs to create a _masters and minions_ command-and-control structure. This results in having a separate organization that is responsible for interacting with the customer and determining the details of the work. This kind of organization delivers prescriptive solutions to development teams instead of trusting the team with a problem and access to their customer. There is a lot of inefficiency built into this way of organizing. 
 
- Handing teams solutions and not problems limits the solution space before involving the experts who build the software. This often results in a more expensive and complicated solution to the customer's problem. The people making the decisions don't understand the software the same way those who build it do. By getting a team access to the customer at the problem definition stage, the team can help identify appropriate approaches. This is a huge morale booster to teams who currently feel like they are just _"development resources"_ and order takers.
+Handing teams solutions instead of problems limits the solution space before involving the experts who build the software. This often results in a more expensive and complicated solution to the customer's problem. The people making the decisions don't understand the software the same way as those who build it do. By getting a team access to the customer at the problem definition stage, the team can help identify appropriate approaches. This is a huge morale booster to teams who currently feel like they are just _"development resources"_ and order takers.
 
 To read more about the importance of autonomous product teams I recommend [this article](https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/).
 
