@@ -24,7 +24,7 @@ Achieve safety, then accuracy, then efficiency and then add people to scale the 
 
 ## Gather Feedback
 
-Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software, you often won't see the problems they do. The teams know where the obvious pain points are. Ask them for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from improving. 
+Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software, you often won't see the problems they do. Ask teams for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from doing so.
 
 If you have development coaches or scrum masters, encourage them to identify issues. It often helps to have someone not actively doing the work who is embedded with the team identify points of waste. 
 
@@ -52,7 +52,7 @@ Are teams working in a huge monolithic codebase? I've seen large, poorly designe
 
 #### Monitor Local Build Times
 
-Monitor the local build time to know when development environment changes have a negatively effect on it. If you have a separate IT or security department, make sure that your organizations are aligned. Slowing the development effort of multiple teams for the sake of security is often a false optimization. There is usually a way to work safely and securely without sacrificing the performance of the developer's environment.
+Monitor the local build time to know when development environment changes have a negative effect on it. If you have a separate IT or security department, make sure that your organizations are aligned. Slowing the development effort of multiple teams for the sake of security is often a false optimization. There is usually a way to work safely and securely without sacrificing the performance of the developer's environment.
 
 ### Reduce Cross-Team Dependencies
 
@@ -62,11 +62,11 @@ I recently experienced teams separated by several timezones who needed to modify
 
 #### Vertical Slicing Features
 
-One simple way to reduce dependencies is to make sure that entire features are given to teams. I continue to see organizations split the work for a single feature across multiple teams. This increases cycle time, adds integration risk, creates the need for additional integration testing,and promotes the accumulation of inventory. One team invariably gets blocked waiting for an input from another team. Get the right people working together to solve the problem and stop spreading individual features across teams.
+One simple way to reduce dependencies is to make sure that entire features are given to teams. I continue to see organizations split the work for a single feature across multiple teams. This increases cycle time, adds integration risk, creates the need for additional integration testing, and promotes the accumulation of inventory. One team invariably gets blocked waiting for an input from another team. Get the right people working together to solve the problem and stop spreading individual features across teams.
 
 ### Identify Explicit Boundaries 
 
-In a large, poorly designed software system, removing cross team code dependencies can be a challenging effort. An alternative to breaking apart the system is to focus on each team's areas of code. Ensure that teams are communicating through well-defined, explicit interfaces. This is often the first step in decomposing applications. 
+In a large, poorly designed software system, removing cross team code dependencies can be a challenging effort. An alternative to breaking apart the system is to focus on each team's areas of the codebase. Ensure that teams are communicating through well-defined, explicit interfaces. This is often the first step in decomposing applications. 
 
 #### Improve Feedback Loops
 
@@ -78,9 +78,11 @@ Are teams spending time on low value work? Are features sitting for months witho
 
 ### End-of-Life Low Value Features
 
-Existing features are a constraint on the software. They are often the reason it takes increasingly longer for features to be added to systems over time. The maintenance cost of features is non-negligible and is an ongoing tax on the organization. It's important to identify and remove unused and low-value features because of this. 
+Existing features are a constraint on the software. They are often the reason it takes increasingly longer for features to be added to systems over time. The maintenance cost of features is non-negligible and is an ongoing tax on the organization. It's important to identify and remove unused and low-value features because of this fact. 
 
-Organizations that are accustomed to focusing on projects instead of products tend to think of features in terms of creation cost. Once a project is over, developers can be dispersed to start their next projects. Projects are temporary but the code that is produced during a project is not.  
+#### Avoid Project Thinking
+
+Organizations that are accustomed to focusing on projects instead of products tend to think of features in terms of creation cost. Once a project is considered complete, developers can be dispersed to start their next projects. Projects are temporary but the code that is produced during a project is not.  
 
 ### Customer Access
 
@@ -90,7 +92,7 @@ Handing teams solutions instead of problems limits the solution space before inv
 
 To read more about the importance of autonomous product teams I recommend [this article](https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/).
 
-### Work Area
+### Fix the Work Area
 
 Are the teams' work areas optimized for collaboration? The best work is done when teams can collaborate effectively. If work areas are distracting this will decrease a team's effectiveness. If developers choose to wear headphones, focus on solo work, and interact less, the work will suffer because of it. 
 
