@@ -7,25 +7,25 @@ category: development practices
 tags: [unit-testing, tdd, code-quality]
 ---
 
-When I work with developers who don't practice Test-Driven Development (TDD) one question often arises, _When is code too simple to test?_  As someone who finds an incredible amount of value in TDD and microtesting my response is that we should strive to make all of our code simple, yet still test it.  
+When I work with developers who haven't practiced Test-Driven Development (TDD) one question often arises, _When is code too simple to test?_  As someone who finds an incredible amount of value in TDD and microtesting my advice is that we should strive to make all of our code simple, yet still test it.  
 
-It's common for developers to avoid testing objects like adapters, object mappers, or factories, for example, thinking they are just too simple to test. They would rather test these objects via inspection than write an automated test, thinking that these tests take too long to write, are a burden to maintain, or otherwise not carrying their weight. 
+It's common for developers to avoid testing objects like adapters, object mappers, or factories, for example, thinking they are just too simple to test. They would rather test these objects via inspection than write an automated test, believing that these tests take too long to write, are a burden to maintain, or otherwise not carrying their weight. 
 
-Since this conversation typically occurs on Test After Development (TAD)[^1] teams, it usually coincides with similar conversations about code that is too hard to test. It is common for TAD teams to produce code that is too difficult to test because they are attempting to wrap untestable code in unit tests after the fact, instead of designing for testability. The net result is a very small amount of functionality that gets covered in tests. These TAD tests end up looking very different than the isolated, object-level, microtests that I would expect to come out of TDD. I've seen these situations result in as little as 10 to 15% of a team's code being tested. 
+Since this conversation typically occurs on Test After Development (TAD)[^1] teams, it usually coincides with conversations about code that is too hard to test. It is common for TAD teams to produce code that is too difficult to test because they are attempting to wrap untestable code in unit tests after the fact, instead of designing for testability. The net result is a very small amount of functionality that gets covered in tests. These TAD tests end up looking very different than the isolated, object-level, microtests that I would expect to come out of TDD. I've seen these situations result in as little as 10 to 15% of a team's code being tested. 
 
 ## TDD Avoids this Question Altogether
 
-TDD practitioners avoid spending time and mental cycles trying to answer this question in the first place. There isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't ever be produced. 
+TDD practitioners avoid spending time and mental cycles trying to answer this question altogether. There isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't be produced. 
 
-Skilled TDD practitioners will create isolated microtests; avoiding overlapping tests. In these test suites having more tests that cover more functionality, especially when that functionality is very simple, is preferred over longer, more complicated, unit tests that are not isolated from each other and test overlapping functionality. 
+Skilled TDD practitioners will create isolated microtests; avoiding overlapping tests. The resulting microtest suite contains many extremely small tests. This is favored over larger and more complicated unit tests that are not isolated from each other, resulting in extraneous tests that are often hard to understand.
 
 ## Error Localization
 
-Testing simple code, especially in small tests, provides error localization. I've seen plenty of bugs in simple objects. The tests, while not a silver bullet, give developers an opportunity to ensure that the objects they are building are operating as expected. 
+Testing simple code, especially in small tests, provides error localization. I've seen plenty of bugs in simple objects. The tests, while not a silver bullet, give developers an opportunity to ensure that the objects they are building are operating as expected. When a test fails the line of code containing the problem can be identified extremely quickly given how small the surface area of the test is.
 
 ## Refactoring
 
-Simple code often gets more complex over time. As features and other code modifications are added to the system, complexity accumulates. These tests are necessary to support continuous refactoring to avoid this complexity. 
+Simple code often gets more complex over time. As features and other code modifications are added to the system, complexity accumulates. Tests are necessary to support continuous refactoring to avoid this complexity. 
 
 ## Maintainability
 
@@ -35,9 +35,9 @@ Consequently, more complex unit tests with larger test scopes that test across m
 
 ## Documentation Rule
 
-The documentation rule of microtesting states that you read the test to understand the code it's testing. You don't read the code to explain a test. Unfortunately, typical Test After Development unit tests are complicated enough that they don't provide the same level of documentation value. 
+The documentation rule of microtesting states that you read the test to understand the code it's testing. You don't read the code to explain a test. Unfortunately, typical Test After Development unit tests are complicated enough that they don't provide this level of documentation value. 
 
-The tests for simple code carry their weight simply because they are documenting a fact or behavior of the system. Any developer can go to a test and understand exactly how the code works, even if the scenarios are quite simple. 
+The tests for simple code carry their weight simply because they are documenting a fact or behavior of the system. Any developer can go to a test and understand exactly how the code works.
 
 ## Conclusion
 
@@ -48,4 +48,4 @@ Instead of spending valuable time and mental cycles trying to figure out when th
 
 [^2]: This point was made by [Bob Martin](https://twitter.com/unclebobmartin) in a blog post that I can't seem to locate for attribution. 
 
-[^3]: There are areas of systems that can be hard to microtest depending on the developer's experience: boundaries of the system, integration points with third-party libraries, code with Awkward Collaborators, etc. There are several strategies that help developers test this code. However, most code that is _"too hard to test"_ is the result of poor design that can be improved to provide testability.
+[^3]: There are areas of systems that can be hard to microtest depending on the developers' experience: boundaries of the system, integration points with third-party libraries, code with Awkward Collaborators, etc. There are several strategies to help developers test this code. However, most code that is _"too hard to test"_ is the result of poor design that can be improved to provide testability.
