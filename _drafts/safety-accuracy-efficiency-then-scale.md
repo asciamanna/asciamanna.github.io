@@ -7,14 +7,17 @@ category: development practices
 tags: [agile-development, coaching, anti-patterns]
 ---
 
-Companies commonly attempt to scale their development organization by adding developers before they improve the system of work. This results in a focus on staffing instead of identifying opportunities to improve the existing system of work. System improvements have a positive effect on the efficiency, productivity, and often morale of the existing organization. Adding more people to a problematic system of work not only makes fixing these problems harder, but exacerbates existing problems. 
+Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a system that isn't working well further strains it, exacerbating existing problems and making them harder to fix. 
 
-Each new employee in a broken system adds less value than the previous. At some point the organization crosses the Rubicon and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more people must be able to get more work done. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false assumption that doubling the workforce will get the work done twice as fast. 
+Each new employee in a troubled system adds less value than the previous. Soon enough the point of diminishing returns is reached, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more hands on keyboards is the solution to their problems. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false assumption that doubling the workforce will get the work done twice as fast. 
+
+> When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.
+> &mdash; _Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering_
+
+## Improve the System Before Scaling
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">“If you hire good people into a broken system, it doesn’t fix the system, it breaks the people!” Jez Humble</p>&mdash; Nicole Rauch (@NicoleRauch) <a href="https://twitter.com/NicoleRauch/status/960827149585395712?ref_src=twsrc%5Etfw">February 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-## Improve the System Before Scaling
 
 Achieve safety, then accuracy, then efficiency and then add people to scale the organization. Adding people before accomplishing the previous steps will result in exacerbating existing problems. Organizations have to backtrack to improve the system before they can realize the value of these new employees.
 
@@ -26,11 +29,7 @@ Achieve safety, then accuracy, then efficiency and then add people to scale the 
 
 Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software, you often won't see the problems they do. Ask teams for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from doing so.
 
-If you have development coaches or scrum masters, encourage them to identify issues. It often helps to have someone not actively doing the work who is embedded with the team identify points of waste. 
-
 ## Where to Focus Improvement 
-
-The remainder of this article describes the areas I recommend focusing on before adding more people to a troubled system of work. 
 
 ### Continuous Integration / Continuous Delivery
 
@@ -38,7 +37,7 @@ Are the teams practicing Continuous Integration (CI)? Are they integrating code 
 
 By improving development team practices, automated tests, and the deployment strategy, existing teams will begin to work safer, more accurately, and efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments.
 
-### Long Build Times
+### Decrease Long Build Times
 
 Are teams waiting for builds that take more than ten to fifteen minutes on build servers? This is downtime that every developer experiences. Adding more developers makes the problem worse for the existing developers, as there is more contention on build servers and more queuing waiting for builds to finish. 
 
@@ -46,7 +45,7 @@ Investigate the source of slow builds. Is it an issue that can be improved by up
 
 Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up with very large and slow tests. Are tests accessing a database, the file system, or relying on an external service? Can tests only be written against the user interface of the system because of software design issues? Refactor the tests to no longer interact with these parts of the system (which almost always involves refactoring the code under test to make it amenable to unit testing). Encourage teams to track test run times and fix slow running tests. 
 
-### Developer Hardware
+### Improve Developer Hardware
 
 Are teams working in a huge monolithic codebase? I've seen large, poorly designed codebases drive up local compile and test times. Improving the local build times and development environment can create another huge improvement in developers' workflow. Not only does it get developers the time back waiting on the build, it has a much larger impact, keeping them in flow longer and preventing them from getting distracted every time they build.
 
@@ -60,7 +59,7 @@ One of the biggest issues that negatively affects team performance is cross-team
 
 I recently experienced teams separated by several timezones who needed to modify the same exact object. One team would end their day ready to refactor the code in the morning, only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe. This type of churn decreases team effectiveness and slows teams to a snails pace given the amount of detailed communication and delay required to accomplish any work.
 
-#### Vertical Slicing Features
+#### Vertically Slice Features 
 
 One simple way to reduce dependencies is to make sure that entire features are given to teams. I continue to see organizations split the work for a single feature across multiple teams. This increases cycle time, adds integration risk, creates the need for additional integration testing, and promotes the accumulation of inventory. One team invariably gets blocked waiting for an input from another team. Get the right people working together to solve the problem and stop spreading individual features across teams.
 
@@ -84,7 +83,7 @@ Existing features are a constraint on the software. They are often the reason it
 
 Organizations that are accustomed to focusing on projects instead of products tend to think of features in terms of creation cost. Once a project is considered complete, developers can be dispersed to start their next projects. Projects are temporary but the code that is produced during a project is not.  
 
-### Customer Access
+### Give Teams Access to their Customer 
 
 Ensure that development teams have a close and ongoing relationship with their customers. This will help everyone in the organization prioritize the high value work. Many technology companies still rely on outdated, Tayloristic organization designs to create a _masters and minions_ command-and-control structure. This results in having a separate organization that is responsible for interacting with the customer and determining the details of the work. This kind of organization delivers prescriptive solutions to development teams instead of trusting the team with a problem and access to their customer. There is a lot of inefficiency built into this way of organizing. 
 
