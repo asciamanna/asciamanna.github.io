@@ -11,13 +11,13 @@ When I work with developers who haven't practiced Test-Driven Development (TDD) 
 
 It's common for developers to avoid testing objects like adapters or object mappers, for example, thinking they are just too simple to test. They would rather test these objects via inspection than write an automated test, believing that these tests take too long to write, are a burden to maintain, or otherwise not carrying their weight. 
 
-Since this conversation typically occurs on Test After Development (TAD)[^1] teams, it usually coincides with conversations about code that is too hard to test. It is common for TAD teams to produce code that is too difficult to test because they are attempting to wrap untestable code in unit tests after the fact, instead of designing for testability. The net result is a very small amount of functionality that gets covered in tests. These TAD tests end up looking very different than the tests that are produced by practicing TDD. I've seen these situations result in as little as 10 to 15% of a team's code being tested. 
+Since this conversation typically occurs on Test After Development (TAD)[^1] teams, it usually coincides with conversations about code that is too hard to test. TAD teams commonly attempt to wrap untestable code in automated tests, instead of designing for testability. The net result is a very small amount of functionality that gets covered in tests. At best, these TAD tests end up being much less valuable than those produced by practicing TDD. I've seen these situations result in as little as 10% of a team's code being tested. 
 
 ## TDD Avoids this Question Altogether
 
 TDD practitioners avoid spending time and mental cycles trying to answer this question altogether. There isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't be produced. 
 
-Skilled TDD practitioners create isolated, object-level microtests. The resulting microtest suite contains many tiny tests that run extremely quickly (less than 10ms) and execute and test a very small path in the code. These tests are favored over larger and more complicated unit tests that lack isolation. TAD-created unit tests often result in extraneous tests and tests that are difficult to understand. 
+Skilled TDD practitioners create isolated, object-level microtests. The resulting microtest suite contains many tiny tests that run extremely quickly (less than 10ms) and execute and test a very small path in the code. These tests are favored over larger and more complicated unit tests that lack isolation. TAD unit testing often results in extraneous tests and tests that are difficult to understand. 
 
 ## Error Localization
 
@@ -25,7 +25,7 @@ Testing simple code in small tests provides error localization. I've seen plenty
 
 ## Refactoring
 
-Simple code often gets more complex over time. As features and other code modifications are added to the system, complexity accumulates. Tests are necessary to support continuous refactoring to avoid this complexity. 
+Simple code often gets more complex over time. As features and other code modifications are added to the system, complexity accumulates. Tests are necessary to support continuous refactoring to avoid this complexity. Assuming that a developer will add tests when they need to refactor an object discourages continuous refactoring.
 
 ## Maintainability
 
