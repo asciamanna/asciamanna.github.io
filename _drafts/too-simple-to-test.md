@@ -17,23 +17,29 @@ Since this conversation typically occurs on Test After Development (TAD)[^1] tea
 
 TDD practitioners avoid spending time and mental cycles trying to answer this question altogether. There isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't be produced. 
 
+### Test What's Interesting
+
+This doesn't mean there isn't human judgement in deciding what test cases get written. TDD doesn't cover every possible test; 100% code coverage is not the goal. Instead we suggest that developers should test what is interesting. This is intentionally subjective, assuring that human judgement is always part of TDD. This may seem like a subtle difference at first, but interesting and simple are quite different. An object mapper can be simple, but if it's only responsibility is to map fields from one object to another, I would contend that the mapping is interesting and should be tested.
+
+## Benefits of Microtesting Simple Code
+
 Skilled TDD practitioners create isolated, object-level microtests. The resulting microtest suite contains many tiny tests that run extremely quickly (less than 10ms) and execute and test a very small path in the code. These tests are favored over larger and more complicated unit tests that lack isolation. TAD unit testing often results in extraneous tests and tests that are difficult to understand. 
 
-## Error Localization
+### Error Localization
 
 Testing simple code in small tests provides error localization. I've seen plenty of bugs in simple objects. The tests, while not a silver bullet, give developers an opportunity to ensure that the objects they are building are operating as expected. When a test fails, the line of code containing the problem can be identified extremely quickly given the small surface area of the tested code.
 
-## Refactoring
+### Refactoring
 
 Simple code often gets more complex over time. As features and other code modifications are added to the system, complexity accumulates. Tests are necessary to support continuous refactoring to avoid this complexity. Assuming that a developer will add tests when they need to refactor an object discourages continuous refactoring.
 
-## Maintainability
+### Maintainability
 
 When developers raise concerns about the maintainability of tests for simple code, I suggest that simple code often has simple tests. Keeping tests simple is one of the key characteristics of quality microtests that I've written about [here]({{ site.baseurl }}{% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). Simple tests have an extremely low maintenance cost. So low, in fact, that their value in documenting a fact or behavior of the system exceeds their cost of maintenance.[^2] 
 
 Consequently, more complex unit tests with larger test scopes that test across multiple object boundaries end up having a much higher maintenance cost.
 
-## Documentation Rule
+### Documentation Rule
 
 The documentation rule of microtesting states that you read the test to understand the code it's testing. You don't read the code to explain a test. Unfortunately, typical Test After Development unit tests are complicated enough that they don't provide this level of documentation value. 
 
