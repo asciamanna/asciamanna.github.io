@@ -19,7 +19,7 @@ TDD practitioners avoid spending time and mental cycles trying to answer this qu
 
 ### Test What's Interesting
 
-This doesn't mean there isn't human judgement in deciding what test cases get written. TDD doesn't cover every possible test; 100% code coverage is not the goal. Instead we suggest that developers should test what is interesting. This is intentionally subjective, assuring that human judgement is always part of TDD. This may seem like a subtle difference at first, but interesting and simple are quite different. An object mapper can be simple or complicated, but if it's only responsibility is to map fields from one object to another, I would contend that the mapping is interesting and should be tested.
+This doesn't mean there isn't human judgement in deciding what test cases get written. TDD doesn't cover every possible test; 100% code coverage is not the goal. Instead we suggest that developers should test what is interesting. This is intentionally subjective, assuring that human judgement is always part of TDD. This may seem like a subtle difference at first, but simple and interesting are not necessarily opposites. An object mapper can be simple, but if it's only responsibility is to map fields from one object to another, I would contend that the mapping is interesting and should be tested. 
 
 ## Benefits of Microtesting Simple Code
 
