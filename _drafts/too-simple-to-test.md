@@ -19,7 +19,7 @@ TDD practitioners avoid spending time and mental cycles trying to answer this qu
 
 ### Test What's Interesting
 
-This doesn't mean there isn't human judgement in deciding what test cases get written. TDD doesn't cover every possible test; 100% code coverage is not the goal. Instead we suggest that developers should test what is interesting. This is intentionally subjective, assuring that human judgement is always part of TDD. This may seem like a subtle difference at first, but interesting and simple are quite different. An object mapper can be simple, but if it's only responsibility is to map fields from one object to another, I would contend that the mapping is interesting and should be tested.
+This doesn't mean there isn't human judgement in deciding what test cases get written. TDD doesn't cover every possible test; 100% code coverage is not the goal. Instead we suggest that developers should test what is interesting. This is intentionally subjective, assuring that human judgement is always part of TDD. This may seem like a subtle difference at first, but interesting and simple are quite different. An object mapper can be simple or complicated, but if it's only responsibility is to map fields from one object to another, I would contend that the mapping is interesting and should be tested.
 
 ## Benefits of Microtesting Simple Code
 
@@ -47,11 +47,11 @@ The tests for simple code carry their weight simply because they are documenting
 
 ## Conclusion
 
-Instead of spending valuable time and mental cycles trying to figure out when the line has been crossed from _"too simple to test"_ to _"complicated enough to test"_, drive your development and design with test first development practices. There is value in those really simple tests. Test everything you can[^3] and build testability in from the start. 
+Instead of spending valuable time and mental cycles trying to figure out when the line has been crossed from _"too simple to test"_ to _"complicated enough to test"_, drive your development and design with test first development practices. There is value in those really simple tests. Test all of the interesting things you can[^3] and build testability in from the start. 
 
 
 [^1]: Test After Development or *TAD* is discussed in [this article about TDD](https://pragprog.com/magazines/2011-11/testdriven-development) by [Jeff Langr](http://langrsoft.com/)
 
 [^2]: This point was made by [Bob Martin](https://twitter.com/unclebobmartin) in a blog post that I can't seem to locate for attribution. 
 
-[^3]: There are areas of systems that can be hard to microtest depending on the developers' experience: boundaries of the system, integration points with third-party libraries, code with Awkward Collaborators, etc. There are several strategies to help developers test this code. However, most code that is _"too hard to test"_ is the result of poor design that can be improved to provide testability.
+[^3]: There are areas of systems that can be hard to microtest depending on the developers' experience: boundaries of the system, integration points with third-party libraries, code with Awkward Collaborators, etc. There are several strategies to help developers test this code. However, most code that is _"too hard to test"_ is the result of poor design that can be improved to enable testability.
