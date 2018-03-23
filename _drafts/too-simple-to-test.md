@@ -7,19 +7,21 @@ category: development practices
 tags: [unit-testing, tdd, code-quality]
 ---
 
-When I work with developers who haven't practiced Test-Driven Development (TDD) one question often arises, _When is code too simple to test?_  As someone who finds an incredible amount of value in TDD and microtesting, my advice is that we should strive to make all of our code simple and yet still test it.  
+When I work with developers who haven't practiced Test-Driven Development (TDD) one question often arises, _When is code too simple to test?_  As someone who finds an incredible amount of value in TDD and microtesting, my advice is that we should strive to make all of our code simple **and** still test it.  
 
-It's common for developers to avoid testing objects like adapters or object mappers, for example, thinking they are just too simple to test. They would rather test these objects via inspection than write an automated test, believing that these tests take too long to write, are a burden to maintain, or otherwise not carrying their weight. 
+It's common for developers to avoid testing objects like adapters or object mappers, for example, thinking they are just too simple to test. They would rather test these objects via inspection than write an automated test, believing that these tests take too long to write or are a burden to maintain.
 
-Since this conversation typically occurs on Test After Development (TAD)[^1] teams, it usually coincides with conversations about code that is too hard to test. TAD teams commonly attempt to wrap untestable code in automated tests, instead of designing for testability. The net result is a very small amount of functionality that gets covered in tests. At best, these TAD tests end up being much less valuable than those produced by practicing TDD. I've seen these situations result in as little as 10% of a team's code being tested. 
+Since this conversation typically occurs on Test After Development (TAD)[^1] teams, it usually coincides with conversations about code that is too hard to test. TAD teams commonly attempt to wrap untestable code in automated tests, instead of designing for testability. The net result is a very small amount of functionality that gets covered in tests. At best, these TAD tests end up being much less valuable than those produced by practicing TDD. I've seen these situations result in less than 10% of a team's code being tested. 
 
-## Embrace Simplicity
+## Tests First Simplicity Second
 
-TDD practitioners avoid spending time and mental cycles trying to answer the question. There isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't be produced. 
+TDD practitioners avoid spending time and mental cycles attempting to answer the question; there isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't be produced. Once tests exist they rely on refactoring to create simplicity in the design of the production code. TDDers aren't trying to achieve simplicity instead of writing a test but rather relying on tests to achieve simplicity.
 
 ### Test What's Interesting
 
-This doesn't mean there isn't human judgement in deciding what test cases get written. TDD doesn't cover every possible test; 100% code coverage is not the goal. Instead we suggest that developers should test what is interesting. This is intentionally subjective, assuring that human judgement is always part of TDD. This may seem like a subtle difference at first, but simple and interesting are not necessarily opposites. An object mapper can be simple, but if it's only responsibility is to map fields from one object to another, I would contend that the mapping is interesting and should be developed by test-driving. 
+This doesn't mean there isn't human judgement in deciding what test cases get written. TDD doesn't cover every possible test; 100% code coverage is not the goal. Testing every imaginable scenario is not realistic and often results in duplicate testing. 
+
+Instead we suggest that developers should test what is interesting. This is intentionally subjective, assuring that human judgement is always a part of TDD and microtesting. This may seem like a subtle difference at first, but simple and interesting are not necessarily opposites. An object mapper can be simple, but if it's primary responsibility is to map fields from one object to another, I would contend that the mapping is interesting and should be developed by test-driving. 
 
 ## Benefits of Microtesting Simple Code
 
