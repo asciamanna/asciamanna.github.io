@@ -15,7 +15,7 @@ Since this conversation typically occurs on Test After Development (TAD)[^1] tea
 
 ## Tests First Simplicity Second
 
-TDD practitioners avoid spending time and mental cycles attempting to answer the question; there isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't be produced. Once tests exist they rely on refactoring to create simplicity in the design of the production code. TDDers aren't trying to achieve simplicity instead of writing a test but rather relying on tests to achieve simplicity.
+TDD practitioners avoid spending time and mental cycles attempting to answer the question; there isn't anything too simple to test. The test is the mechanism for getting code into the codebase. Without a failing test the code wouldn't be produced. Once tests exist they rely on refactoring to create simplicity in the design of the production code. TDD practitioners aren't trying to achieve simplicity instead of writing a test but rather relying on tests to achieve simplicity.
 
 ### Test What's Interesting
 
