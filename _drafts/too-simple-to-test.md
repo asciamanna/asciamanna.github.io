@@ -11,7 +11,7 @@ When I work with developers who haven't practiced Test-Driven Development (TDD) 
 
 It's common for developers to avoid testing objects like adapters or object mappers, for example, thinking they are just too simple to test. They would rather test these objects via inspection than write an automated test, believing that these tests take too long to write or are a burden to maintain.
 
-Since this conversation typically occurs on Test After Development (TAD)[^1] teams, it usually coincides with conversations about code that is too hard to test. TAD teams commonly attempt to wrap untestable code in automated tests, instead of designing for testability. The net result is a very small amount of functionality that gets covered in tests. At best, these TAD tests end up being much less valuable than those produced by practicing TDD. I've seen these situations result in less than 10% of a team's code being tested. 
+Since this conversation typically occurs on Test After Development (TAD)[^1] teams, it usually coincides with conversations about code that is too hard to test. TAD teams commonly attempt to wrap untestable code in automated tests, instead of designing for testability. The net result is a very small amount of functionality that gets covered in complicated tests. I've seen these situations result in less than 10% of a team's code being tested. 
 
 ## Tests First Simplicity Second
 
