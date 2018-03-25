@@ -33,7 +33,7 @@ Testing simple code in small tests provides error localization. I've seen plenty
 
 ### Refactoring
 
-Simple code often gets more complex over time. As features and other code modifications are added to the system, complexity accumulates. Tests are necessary to support continuous refactoring to avoid this. Assuming that a developer will add tests when they need to refactor an object discourages continuous refactoring.
+Simple code often gets more complex over time. As features and other code modifications are added to the system, complexity accumulates. Tests are necessary to support continuous refactoring to avoid this. Assuming that a developer will add tests when they need to refactor discourages continuous refactoring.
 
 ### Maintainability
 
@@ -45,7 +45,7 @@ Consequently, more complex unit tests with larger test scopes that test across m
 
 The documentation rule of microtesting states that you read the test to understand the code it's testing. You don't read the code to explain a test. Unfortunately, typical Test After Development unit tests are complicated enough that they don't provide this level of documentation value. 
 
-The tests for simple code carry their weight simply because they are documenting a fact or behavior of the system. Any developer can go to a test and understand exactly how the code works.
+The tests for simple code carry their weight simply because they are documenting a fact or behavior of the system. Any developer can read a test and understand exactly how the code works.
 
 ## Conclusion
 
@@ -54,6 +54,6 @@ Instead of spending valuable time and mental cycles trying to figure out when th
 
 [^1]: Test After Development or *TAD* is discussed in [this article about TDD](https://pragprog.com/magazines/2011-11/testdriven-development) by [Jeff Langr](http://langrsoft.com/)
 
-[^2]: This point was made by [Bob Martin](https://twitter.com/unclebobmartin) in a blog post that I can't seem to locate for attribution. 
+[^2]: This point was made by [Bob Martin](https://twitter.com/unclebobmartin) in a blog post that I cannot locate for attribution. 
 
 [^3]: There are areas of systems that can be hard to microtest depending on the developers' experience: boundaries of the system, integration points with third-party libraries, code with Awkward Collaborators, etc. There are several strategies to help developers test this code. However, most code that is _"too hard to test"_ is the result of poor design that can be improved to enable testability.
