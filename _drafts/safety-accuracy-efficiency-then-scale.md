@@ -27,7 +27,7 @@ Achieve safety, then accuracy, then efficiency and then add people to scale the 
 
 ## Gather Feedback
 
-Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software you often won't see the problems they do. Ask teams for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from doing so.
+Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software you often won't see the problems they are experiencing. Ask teams for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from doing so.
 
 ## Where to Focus Improvement 
 
@@ -47,10 +47,9 @@ Investigate the source of slow builds. Is it an issue that can be improved by up
 
 Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up with very large and slow tests. Are tests accessing a database, the file system, or relying on an external service? Can tests only be written against the user interface of the system because of software design issues? Refactor the tests to no longer interact with these parts of the system (which almost always involves refactoring the code under test to make it amenable to testing). Encourage teams to track test run times and fix slow running tests. 
 
-#### An example improvement
+#### An Example Improvement
 
 For example, let's imagine an organization has 50 developers who cost $75 per hour (on average). They all have to wait on a single build that takes 30 minutes due to the fact that the build server needs to build a large, monolithic application and has a suite of slow tests (some of which test business logic through the UI via selenium tests). Given how long the build takes there is additional time lost to builds queueing when the build agents are exhausted. Developers decide they do not want to wait so they commit and integrate code less often. These longer feedback cycles makes them even less productive. 
-
 
 Now if we can purchase additional build agents and reduce the build time to 15 minutes, assuming that each developer is committing four times per day and there are 260 work days in a year, this would result in a time savings of at least 13,000 man-hours per year and a cost savings of over $975,000 per year. This does not include the time spent distracted and increases WIP waiting for the builds to finish.
 
