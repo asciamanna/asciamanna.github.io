@@ -71,7 +71,7 @@ One of the biggest issues that negatively affects team performance is cross-team
 I recently experienced teams separated by several timezones who needed to modify the same exact object. One team would end their day ready to refactor the code in the morning, only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe. This type of churn decreases team effectiveness and slows teams to a snails pace given the amount of detailed communication and delay required to accomplish any work.
 
 > These high performance teams had few to no handoffs with other teams. They were autonomous, cross-functional, co-located teams, trained and coached in agile management, planning, testing and development. 
-> &mdash; _[Josh Kerievsky](https://twitter.com/JoshuaKerievsky) CEO of Industrial Logic, from [Size Teams for Few to No Handoffs](https://www.linkedin.com/pulse/size-teams-few-handoffs-joshua-kerievsky/)_
+> &mdash; _[Joshua Kerievsky](https://twitter.com/JoshuaKerievsky) CEO of Industrial Logic, from [Size Teams for Few to No Handoffs](https://www.linkedin.com/pulse/size-teams-few-handoffs-joshua-kerievsky/)_
 
 #### Vertically Slice Features 
 
@@ -119,4 +119,4 @@ Teams who are used to solo work will struggle to onboard new team members, makin
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
 
-[Tim Ottinger](https://www.twitter.com/tottinge)'s tweet sums up this post perfectly. Fast, closed feedback loops, strict prioritization of work, managed and explicit dependencies between teams, and team autonomy. These are some of the most important qualities of effective development teams, and should be the focus of improvement for all development organizations. More so, these are the things that **must** be improved before scaling a development organization.  
+[Tim Ottinger](https://www.twitter.com/tottinge)'s tweet sums up this post perfectly. Fast, closed feedback loops, strict prioritization of work, managed and explicit dependencies between teams, and team autonomy. These are some of the most important qualities of effective development teams, and should be the focus of improvement for all development organizations. More so, these are the things that must be improved before scaling a development organization.  
