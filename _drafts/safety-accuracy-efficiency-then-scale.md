@@ -9,7 +9,7 @@ tags: [agile-development, coaching, anti-patterns]
 
 Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a system that isn't working well further strains it, exacerbating existing problems and making them harder to fix. 
 
-Each new employee in a troubled system adds less value than the previous. Soon enough the point of diminishing returns is reached, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more hands on keyboards is the solution to their problems. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false assumption that doubling the workforce will get the work done twice as fast. 
+Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more hands on keyboards is the solution to their problems. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
 
 > When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.
 > &mdash; _Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering_
@@ -31,17 +31,17 @@ Before adding developers, examine the system of work in detail and get feedback 
 
 ## Where to Focus Improvement 
 
-### Continuous Integration / Continuous Delivery
+### Continuous Integration & Continuous Delivery
 
 Are the teams practicing Continuous Integration (CI)? Are they integrating code with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state, or does go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes, or is manual intervention and manual testing required to release the software? 
 
-CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. Further, as companies add more developers and teams the likelihood of integration issues increases. The introduction of CD ensures that a working version of the software is always available to test or release. 
+CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers and teams the likelihood of integration issues increases. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
 
 By improving development team practices, automated tests, and the deployment pipeline, existing teams will begin to work safer, more accurately, and efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments before adding more teams.
 
 ### Decrease Long Build Times
 
-Are teams waiting for builds that take more than ten to fifteen minutes on build servers? This is downtime that every developer experiences. Adding more developers makes the problem worse for the existing developers, as there is more contention on build servers and more queuing waiting for builds to finish. 
+Are teams waiting for builds that take more than ten minutes on build servers? This is downtime that every developer experiences. Adding more developers makes the problem worse for everyone as there is more contention on build servers and more queuing waiting for builds to finish. 
 
 Investigate the source of slow builds. Is it an issue that can be improved by upgrading server hardware or adding build agents? Adding hardware or additional software licenses is an inexpensive activity that can increase the productivity of the entire organization. 
 
@@ -53,21 +53,23 @@ For example, let's imagine an organization has 50 developers who are paid $75 pe
 
 Now if the build time can be reduced to 15 minutes, assuming that each developer is committing four times per day and there are 260 work days in a year, this would result in a time savings of at least 13,000 man-hours per year and a cost savings of over $975,000 per year. This does not include the time spent for distracted developers and the increase in work in progress (WIP) waiting for builds to finish.
 
+#### Inappropriate UI Testing
+
+A common source for slow builds is a suite of tests that test exclusively through the user interface of the system using tools like selenium. In some cases this may be the result of a poorly designed system. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
+
+Some level of automated UI testing can be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, leaving the majority of the tests to execute at the object level.
+
 ### Improve Developer Hardware
 
 Are teams working in a huge monolithic codebase? I've seen large, poorly designed codebases drive up local compile and test times. Improving the local build times and the development environment can create another huge improvement in developers' workflow. Not only does it get developers the time back waiting on the build, it has a much larger impact, keeping them in flow longer and preventing them from getting distracted every time they build.
 
 Using the same numbers from above, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 man-hours per year. Resulting in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
 
-#### Monitor Local Build Times
-
-Monitor the local compile and build times to know when development environment changes have a negative effect on it. If you have a separate IT or security department, make sure that your organizations are aligned. Slowing the development effort of multiple teams for the sake of security is often a false optimization. There is usually a way to work safely and securely without sacrificing the performance of the developer's environment.
-
 ### Reduce Cross-Team Dependencies
 
 One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often block each other and must begin additional work, thus increasing WIP which leads to creating inventory. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features or projects across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code. 
 
-I recently experienced teams separated by several timezones who needed to modify the same exact object. One team would end their day ready to refactor the code in the morning, only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe. This type of churn decreases team effectiveness and slows teams to a snail's pace given the amount of detailed communication and delay required to accomplish any work.
+I recently experienced teams separated by several timezones who needed to modify the same exact set of objects in the system. One team would end their day ready to refactor the code in the morning, only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe. This type of churn decreases team effectiveness and slows teams to a snail's pace given the amount of detailed communication and delay required to accomplish any work.
 
 > These high performance teams had few to no handoffs with other teams. They were autonomous, cross-functional, co-located teams, trained and coached in agile management, planning, testing and development. 
 > &mdash; _[Joshua Kerievsky](https://twitter.com/JoshuaKerievsky) CEO of Industrial Logic, from [Size Teams for Few to No Handoffs](https://www.linkedin.com/pulse/size-teams-few-handoffs-joshua-kerievsky/)_
