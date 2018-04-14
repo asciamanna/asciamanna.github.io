@@ -35,7 +35,7 @@ Before adding developers, examine the system of work in detail and get feedback 
 
 Are the teams practicing Continuous Integration (CI)? Are they integrating code with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state, or does go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes, or is manual intervention and manual testing required to release the software? 
 
-CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers and teams the likelihood of integration issues increases. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
+CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers the likelihood of integration issues increases. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
 
 By improving development team practices, automated tests, and the deployment pipeline, existing teams will begin to work safer, more accurately, and efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments before adding more teams.
 
@@ -67,9 +67,7 @@ Using the same numbers from above, if the local compile takes two minutes and it
 
 ### Reduce Cross-Team Dependencies
 
-One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often block each other and must begin additional work, thus increasing WIP which leads to creating inventory. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features or projects across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code. 
-
-I recently experienced teams separated by several timezones who needed to modify the same exact set of objects in the system. One team would end their day ready to refactor the code in the morning, only to come to work and find it was completely rewritten and moved somewhere else overnight by a team working on the opposite side of the globe. This type of churn decreases team effectiveness and slows teams to a snail's pace given the amount of detailed communication and delay required to accomplish any work.
+One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often block each other and must begin additional work, thus increasing WIP which leads to creating inventory. All of this reduces productivity. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features or projects across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code. 
 
 > These high performance teams had few to no handoffs with other teams. They were autonomous, cross-functional, co-located teams, trained and coached in agile management, planning, testing and development. 
 > &mdash; _[Joshua Kerievsky](https://twitter.com/JoshuaKerievsky) CEO of Industrial Logic, from [Size Teams for Few to No Handoffs](https://www.linkedin.com/pulse/size-teams-few-handoffs-joshua-kerievsky/)_
