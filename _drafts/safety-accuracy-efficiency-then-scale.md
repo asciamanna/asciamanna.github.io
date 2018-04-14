@@ -9,7 +9,7 @@ tags: [agile-development, coaching, anti-patterns]
 
 Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a system that isn't working well further strains it, exacerbating existing problems and making them harder to fix. 
 
-Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more hands on keyboards is the solution to their problems. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
+Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more hands on keyboards is the solution to every problem. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
 
 > When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.
 > &mdash; _Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering_
@@ -25,9 +25,11 @@ Achieve safety, then accuracy, then efficiency and then add people to scale the 
 > &mdash; _[Tim Ottinger](https://www.twitter.com/tottinge)_
 
 
-## Gather Feedback
+## Gather Feedback & Identify Waste
 
 Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software you often won't see the problems they are experiencing. Ask teams for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from doing so.
+
+Use lean techniques to identify waste in the system as candidate areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Things like value stream maps can help identify queues of inventory and waste in the system.
 
 ## Where to Focus Improvement 
 
@@ -41,7 +43,7 @@ By improving development team practices, automated tests, and the deployment pip
 
 ### Decrease Long Build Times
 
-Are teams waiting for builds that take more than ten minutes on build servers? This is downtime that every developer experiences. Adding more developers makes the problem worse for everyone as there is more contention on build servers and more queuing waiting for builds to finish. 
+Are teams waiting for builds that take more than ten minutes on build servers? This is downtime that every developer experiences. Adding more developers makes the problem worse for everyone, creating more contention on build servers and more queuing waiting for builds to finish. 
 
 Investigate the source of slow builds. Is it an issue that can be improved by upgrading server hardware or adding build agents? Adding hardware or additional software licenses is an inexpensive activity that can increase the productivity of the entire organization. 
 
@@ -55,13 +57,13 @@ Now if the build time can be reduced to 15 minutes, assuming that each developer
 
 #### Inappropriate UI Testing
 
-A common source for slow builds is a suite of tests that test exclusively through the user interface of the system using tools like selenium. In some cases this may be the result of a poorly designed system. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
+A common source for slow builds is a test suite that tests exclusively through the user interface of the system using tools like selenium. In some cases this may be the result of a poorly designed system. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
 
 Some level of automated UI testing can be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, leaving the majority of the tests to execute at the object level.
 
 ### Improve Developer Hardware
 
-Are teams working in a huge monolithic codebase? I've seen large, poorly designed codebases drive up local compile and test times. Improving the local build times and the development environment can create another huge improvement in developers' workflow. Not only does it get developers the time back waiting on the build, it has a much larger impact, keeping them in flow longer and preventing them from getting distracted every time they build.
+Are teams working in a huge monolithic codebase? I've seen large, poorly designed codebases drive up local compile and test times. Improving the local build times and the development environment can create another significant improvement in developers' workflow. Not only does it get developers the time back waiting on the build, it has a much larger impact, keeping them in flow longer and preventing them from getting distracted every time they build.
 
 Using the same numbers from above, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 man-hours per year. Resulting in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
 
