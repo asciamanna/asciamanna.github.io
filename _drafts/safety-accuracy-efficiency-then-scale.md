@@ -29,7 +29,7 @@ Achieve safety, then accuracy, then efficiency and then add people to scale the 
 
 Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software you often won't see the problems they are experiencing. Ask teams for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from doing so.
 
-Use lean techniques to identify waste in the system as candidate areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Things like value stream maps can help identify queues of inventory and waste in the system.
+Use lean techniques to identify waste in the system as candidate areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, and constraints in the system.
 
 ## Where to Focus Improvement 
 
