@@ -25,11 +25,9 @@ Achieve safety, then accuracy, then efficiency and then add people to scale the 
 > &mdash; _[Tim Ottinger](https://www.twitter.com/tottinge)_
 
 
-## Gather Feedback & Identify Waste
+## Identify Waste
 
-Before adding developers, examine the system of work in detail and get feedback from teams. If you aren't a member of a team delivering software you often won't see the problems they are experiencing. Ask teams for feedback and act on the feedback you have already received. Developers aren't _"petulant children"_ as they are often treated in Tayloristic organizations. Every team that I've worked with wanted to do great work and make their customers happy. They bring complaints to management when the system of work is preventing them from doing so.
-
-Use lean techniques to identify waste in the system as candidate areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, and constraints in the system.
+Use lean techniques to identify waste in the system as candidate areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, and key constraints in the system.
 
 ## Where to Focus Improvement 
 
@@ -37,7 +35,7 @@ Use lean techniques to identify waste in the system as candidate areas of improv
 
 Are the teams practicing Continuous Integration (CI)? Are they integrating code with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state, or does go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes, or is manual intervention and manual testing required to release the software? 
 
-CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers the likelihood of integration issues increases. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
+CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers the likelihood of integration issues increases. CI provides immediate feedback on the quality of the integrated build. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
 
 By improving development team practices, automated tests, and the deployment pipeline, existing teams will begin to work safer, more accurately, and efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments before adding more teams.
 
