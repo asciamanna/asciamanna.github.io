@@ -11,7 +11,7 @@ Companies commonly attempt to scale their development organization by adding dev
 
 Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more hands on keyboards is the solution to every problem. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
 
-> When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.
+> When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.  
 > &mdash; _Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering_
 
 ## Improve the System Before Scaling
@@ -27,7 +27,7 @@ Achieve safety, then accuracy, then efficiency and then add people to scale the 
 
 ## Identify Waste
 
-Use lean techniques to identify waste in the system as candidate areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, and key constraints in the system.
+Use lean techniques to identify waste in the system as candidate areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, key constraints, and bottlenecks in the system.
 
 ## Where to Focus Improvement 
 
