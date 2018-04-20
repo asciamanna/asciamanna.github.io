@@ -37,7 +37,7 @@ Are the teams practicing Continuous Integration (CI)? Are they integrating code 
 
 CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers the likelihood of integration issues increases. CI provides immediate feedback on the quality of the integrated build. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
 
-By improving development team practices, automated tests, and the deployment pipeline, existing teams will begin to work safer, more accurately, and efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments before adding more teams.
+By improving development team practices, automated tests, and the deployment pipeline, existing teams will begin to work safer, more accurately, and more efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments.
 
 ### Decrease Long Build Times
 
@@ -45,7 +45,7 @@ Are teams waiting for builds that take more than ten minutes on build servers? T
 
 Investigate the source of slow builds. Is it an issue that can be improved by upgrading server hardware or adding build agents? Adding hardware or additional software licenses is an inexpensive activity that can increase the productivity of the entire organization. 
 
-Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up with very large and slow tests. Are tests accessing a database, the file system, or relying on an external service? Can tests only be written against the user interface of the system because of software design issues? Refactor the tests to no longer interact with these parts of the system (which almost always involves refactoring the code under test to make it amenable to testing). Encourage teams to track test run times and fix slow running tests. 
+Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up with very large and slow tests. Are tests accessing a database, the file system, or relying on an external service? Can tests only be written against the user interface of the system because of software design issues? Refactor the tests to no longer interact with these parts of the system (which almost always involves refactoring the code under test to make it amenable to testing). Encourage teams to track test run times and profile and fix slow running tests. 
 
 #### An Example Improvement
 
@@ -57,17 +57,17 @@ Now if the build time can be reduced to 15 minutes, assuming that each developer
 
 A common source for slow builds is a test suite that tests exclusively through the user interface of the system using tools like selenium. In some cases this may be the result of a poorly designed system. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
 
-Some level of automated UI testing can be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, leaving the majority of the tests to execute at the object level.
+Some automated UI testing may be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, and the majority of the tests should consist of microtests that execute at the object level.
 
 ### Improve Developer Hardware
 
 Are teams working in a huge monolithic codebase? I've seen large, poorly designed codebases drive up local compile and test times. Improving the local build times and the development environment can create another significant improvement in developers' workflow. Not only does it get developers the time back waiting on the build, it has a much larger impact, keeping them in flow longer and preventing them from getting distracted every time they build.
 
-Using the same numbers from above, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 man-hours per year. Resulting in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
+Using the same numbers from the previous example, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application, we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 man-hours per year. Resulting in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
 
 ### Reduce Cross-Team Dependencies
 
-One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often block each other and must begin additional work, thus increasing WIP which leads to creating inventory. All of this reduces productivity. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features or projects across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code. 
+One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often block each other and must begin additional work, thus increasing WIP which leads to creating inventory. All of this reduces overall productivity. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code at the same time.
 
 > These high performance teams had few to no handoffs with other teams. They were autonomous, cross-functional, co-located teams, trained and coached in agile management, planning, testing and development. 
 > &mdash; _[Joshua Kerievsky](https://twitter.com/JoshuaKerievsky) CEO of Industrial Logic, from [Size Teams for Few to No Handoffs](https://www.linkedin.com/pulse/size-teams-few-handoffs-joshua-kerievsky/)_
@@ -94,7 +94,7 @@ Existing features are a constraint on the system. They are often the reason it t
 
 #### Avoid Project Thinking
 
-Organizations that are accustomed to focusing on projects instead of products tend to think of features in terms of creation cost. Once a project is considered complete, developers can be dispersed to start their next projects. Projects are temporary but the code that is produced during a project is not. This kind of thinking tends to ignore the ongoing cost of existing features in a system and creates the _"feature factory"_ attitude that the organization just needs more developers churning out an endless list of features.  
+Organizations that are accustomed to focusing on projects instead of products tend to think of features in terms of creation cost. Once a project is considered complete, developers can be dispersed to start their next projects. Projects are temporary but the code that is produced during a project is not. This kind of thinking tends to ignore the ongoing cost of existing features in a system and creates the _"feature factory"_ attitude where the organization just needs more developers churning out an endless list of features.  
 
 A strict prioritization of work, elimination of dead code and low-value features, and a focus on keeping teams together to build expertise in an area of software creates productivity increases and expertise that is required before scaling an organization. 
 
@@ -108,7 +108,7 @@ To read more about the importance of autonomous product teams I recommend [this 
 
 ### Fix the Work Area
 
-Are the teams' work areas optimized for collaboration? The best work is done when teams can collaborate effectively. If work areas are distracting this will decrease a team's effectiveness. If developers choose to wear headphones, focus on solo work, and interact less, the work will suffer because of it. Teams who are used to solo work will struggle to onboard new team members, making scaling the organization very difficult.
+Are the teams' work areas optimized for collaboration? The best work is done when teams can collaborate effectively. If work areas are distracting this will decrease a team's effectiveness. If developers choose to wear headphones, focus on solo work, and interact less, the work will suffer because of it. Teams of indivduals who only work individually will struggle to onboard new team members, making scaling the organization very difficult.
 
 ## Conclusion
  
@@ -116,4 +116,4 @@ Are the teams' work areas optimized for collaboration? The best work is done whe
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
 
-[Tim Ottinger](https://www.twitter.com/tottinge)'s tweet sums up this post perfectly. Fast, closed feedback loops, strict prioritization of work, managed and explicit dependencies between teams, and team autonomy. These are some of the most important qualities of effective development teams, and should be the focus of improvement for all development organizations. More so, these are the things that must be improved before scaling a development organization.  
+[Tim Ottinger](https://www.twitter.com/tottinge)'s quote sums up this post perfectly. Fast, closed feedback loops, strict prioritization of work, managed and explicit dependencies between teams, and team autonomy. These are some of the most important qualities of effective development teams, and should be the focus of improvement for all development organizations. More so, these are the things that must be improved before scaling a development organization.  
