@@ -7,7 +7,7 @@ category: development practices
 tags: [agile-development, coaching, anti-patterns]
 ---
 
-Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a system that isn't working well further strains it, exacerbating existing problems and making them harder to fix. 
+Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a troubled system further strains it, exacerbating existing problems and making them harder to fix. 
 
 Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more hands on keyboards is the solution to every problem. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
 
@@ -55,9 +55,9 @@ Now if the build time can be reduced to 15 minutes, assuming that each developer
 
 #### Inappropriate UI Testing
 
-A common source for slow builds is a test suite that tests exclusively through the user interface of the system using tools like selenium. In some cases this may be the result of a poorly designed system. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
+A common source for slow builds and slow releases is a test suite that tests exclusively through the user interface using tools like selenium. It's typical for this kind of testing to be a consequence of having a poorly designed system where business logic is coupled to the UI. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
 
-Some automated UI testing may be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, and the majority of the tests should consist of microtests that execute at the object level.
+Some limited automated UI testing may be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, and the majority of the tests should consist of microtests that execute at the object level.
 
 ### Improve Developer Hardware
 
