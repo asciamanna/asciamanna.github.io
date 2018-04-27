@@ -7,9 +7,9 @@ category: development practices
 tags: [agile-development, coaching, anti-patterns]
 ---
 
-Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a system that isn't working well further strains it, exacerbating existing problems and making them harder to fix. 
+Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a troubled system further strains it, exacerbating existing problems and making them harder to fix. 
 
-Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people, believing that more hands on keyboards is the solution to every problem. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
+Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people. They believe that more hands on keyboards is the solution to every problem, despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago. Companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
 
 > When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.  
 > &mdash; _Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering_
@@ -27,15 +27,15 @@ Achieve safety, then accuracy, then efficiency and then add people to scale the 
 
 ## Identify Waste
 
-Use lean techniques to identify waste in the system as candidate areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, key constraints, and bottlenecks in the system.
+Use lean techniques to identify waste in the system as potential areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, key constraints, and bottlenecks in the system.
 
 ## Where to Focus Improvement 
 
 ### Continuous Integration & Continuous Delivery
 
-Are the teams practicing Continuous Integration (CI)? Are they integrating code with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state, or does go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes, or is manual intervention and manual testing required to release the software? 
+Are the teams practicing Continuous Integration (CI)? Are they integrating code with each other at least once per day? How about Continuous Delivery (CD)? Is the code always in a deployable state, or does it go through periods of being broken? Is the build and release pipeline completely automated? Can a single click deploy changes in a matter of minutes, or is manual intervention and manual testing required to release the software? 
 
-CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers the likelihood of integration issues increases. CI provides immediate feedback on the quality of the integrated build. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
+CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers,  the likelihood of integration issues increases. CI provides immediate feedback on the quality of the integrated build. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
 
 By improving development team practices, automated tests, and the deployment pipeline, existing teams will begin to work safer, more accurately, and more efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments.
 
@@ -45,19 +45,19 @@ Are teams waiting for builds that take more than ten minutes on build servers? T
 
 Investigate the source of slow builds. Is it an issue that can be improved by upgrading server hardware or adding build agents? Adding hardware or additional software licenses is an inexpensive activity that can increase the productivity of the entire organization. 
 
-Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up with very large and slow tests. Are tests accessing a database, the file system, or relying on an external service? Can tests only be written against the user interface of the system because of software design issues? Refactor the tests to no longer interact with these parts of the system (which almost always involves refactoring the code under test to make it amenable to testing). Encourage teams to track test run times and profile and fix slow running tests. 
+Are tests the slowest part of the build? Get help with the design of the existing test suite. Often teams who do not have experience with TDD or microtesting end up with very large and slow tests. Are tests accessing a database, the file system, or relying on an external service? Can tests only be written against the user interface of the system because of software design issues? Refactor the tests to no longer interact with these parts of the system (which almost always involves refactoring the code under test to make it amenable to testing). Encourage teams to track test run times as well as profile and fix slow running tests. 
 
 #### An Example Improvement
 
-For example, let's imagine an organization has 50 developers who are paid $75 per hour (on average). They all have to wait on a single build that takes 30 minutes due to the fact that the build server needs to build a large, monolithic application and has a suite of slow tests (some of which test business logic through the UI via selenium tests). Given how long the build takes there is additional time lost to builds queueing when the build agents are exhausted. Developers decide they do not want to wait so they commit and integrate code less often. These longer feedback cycles makes them even less productive. 
+For example, let's imagine an organization has 50 developers who are paid $75 per hour (on average). They all have to wait on a single build that takes 30 minutes because the build server needs to build a large, monolithic application and has a suite of slow tests (some of which test business logic through the UI via selenium tests). Given how long the build takes, there is additional time lost to queueing when the build agents are exhausted. Developers decide they do not want to wait, so they commit and integrate code less often. These longer feedback cycles make them even less productive. 
 
-Now if the build time can be reduced to 15 minutes, assuming that each developer is committing four times per day and there are 260 work days in a year, this would result in a time savings of at least 13,000 man-hours per year and a cost savings of over $975,000 per year. This does not include the time spent for distracted developers and the increase in work in progress (WIP) waiting for builds to finish.
+If the build time can be reduced to 15 minutes, assuming that each developer is committing four times per day and there are 260 work days in a year, this would result in a time savings of at least 13,000 man-hours per year and a cost savings of over $975,000 per year. This does not include the time spent for distracted developers and the increase in work in progress (WIP) waiting for builds to finish.
 
 #### Inappropriate UI Testing
 
-A common source for slow builds is a test suite that tests exclusively through the user interface of the system using tools like selenium. In some cases this may be the result of a poorly designed system. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
+A common source for slow builds and slow releases is a test suite that tests exclusively through the user interface using tools like selenium. It's typical for this kind of testing to be a consequence of having a poorly designed system where business logic is coupled to the UI. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
 
-Some automated UI testing may be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, and the majority of the tests should consist of microtests that execute at the object level.
+Some limited automated UI testing may be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, and the majority of the tests should consist of microtests that execute at the object level.
 
 ### Improve Developer Hardware
 
