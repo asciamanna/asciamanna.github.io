@@ -21,8 +21,7 @@ Each new employee in a problem-riddled system adds less value than the previous.
 
 Achieve safety, then accuracy, then efficiency and then add people to scale the organization. Adding people before accomplishing the previous steps will result in exacerbating existing problems. Organizations have to backtrack to improve the system of work before they can realize the value of these new employees.
 
-> Underlying it all: Learn to go safe, then accurate, then fast, then big. It's the only order that makes any sense. When we skip one we end up having to go back and pick it up  
-> &mdash; _[Tim Ottinger](https://www.twitter.com/tottinge)_
+<img src="/img/safety-accuracy-efficiency-scale.jpg" class="img-responsive" alt="achieve safety, accuracy, efficiency, then scale" />
 
 
 ## Identify Waste
@@ -55,7 +54,7 @@ If the build time can be reduced to 15 minutes, assuming that each developer is 
 
 #### Inappropriate UI Testing
 
-A common source for slow builds and slow releases is a test suite that tests exclusively through the user interface using tools like selenium. It's typical for this kind of testing to be a consequence of having a poorly designed system where business logic is coupled to the UI. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. 
+A common source for slow builds and slow releases is a test suite that tests exclusively through the user interface using tools like selenium. It's typical for this kind of testing to be the consequence of having a poorly designed system where business logic is coupled to the UI. It's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. Other times automation testing is seen as "automating manual testing" and manual testing utilizes the user interface, so automation tests are driven through the user interface as well. 
 
 Some limited automated UI testing may be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, and the majority of the tests should consist of microtests that execute at the object level.
 
