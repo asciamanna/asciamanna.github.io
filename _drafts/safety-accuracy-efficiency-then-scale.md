@@ -9,7 +9,7 @@ tags: [agile-development, coaching, anti-patterns]
 
 Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a troubled system further strains it, exacerbating existing problems and making them harder to fix. 
 
-Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people. They believe that more hands on keyboards is the solution to every problem, despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago. Companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
+Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people. They believe that more hands on keyboards is the solution to every problem. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
 
 > When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.  
 > &mdash; _Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering_
@@ -19,14 +19,14 @@ Each new employee in a problem-riddled system adds less value than the previous.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">“If you hire good people into a broken system, it doesn’t fix the system, it breaks the people!” Jez Humble</p>&mdash; Nicole Rauch (@NicoleRauch) <a href="https://twitter.com/NicoleRauch/status/960827149585395712?ref_src=twsrc%5Etfw">February 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-Achieve safety, then accuracy, then efficiency and then add people to scale the organization. Adding people before accomplishing the previous steps will result in exacerbating existing problems. Organizations have to backtrack to improve the system of work before they can realize the value of these new employees.
+Achieve safety first, then accuracy, then efficiency and then add people to scale the organization. Adding people before accomplishing the previous steps will result in exacerbating existing problems. Organizations have to backtrack to improve the system of work before they can realize the value of these new employees.
 
 <img src="/img/safety-accuracy-efficiency-scale.jpg" class="img-responsive" alt="achieve safety, accuracy, efficiency, then scale" />
 
 
 ## Identify Waste
 
-Use lean techniques to identify waste in the system as potential areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, key constraints, and bottlenecks in the system.
+Use lean techniques to identify waste in the system as potential areas of improvement. Often siloed software organizations are teeming with wasteful processes and practices. Creating a value stream map can help identify queues of inventory, waste, constraints, and bottlenecks in the system.
 
 ## Where to Focus Improvement 
 
@@ -54,7 +54,7 @@ If the build time can be reduced to 15 minutes, assuming that each developer is 
 
 #### Inappropriate UI Testing
 
-A common source for slow builds and slow releases is a test suite that tests exclusively through the user interface using tools like selenium. It's typical for this kind of testing to be the consequence of having a poorly designed system where business logic is coupled to the UI. It's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. Other times automation testing is seen as "automating manual testing" and manual testing utilizes the user interface, so automation tests are driven through the user interface as well. 
+A common source for slow builds and slow releases is a test suite that tests exclusively through the user interface using tools like selenium. It's typical for this kind of testing to be the consequence of having a poorly designed system where business logic is coupled to the UI. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. Other times automation testing is seen as automating manual testing and manual testing utilizes the user interface, so automation tests are driven through the user interface as well. 
 
 Some limited automated UI testing may be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, and the majority of the tests should consist of microtests that execute at the object level.
 
@@ -62,7 +62,7 @@ Some limited automated UI testing may be appropriate, but there should be very f
 
 Are teams working in a huge monolithic codebase? I've seen large, poorly designed codebases drive up local compile and test times. Improving the local build times and the development environment can create another significant improvement in developers' workflow. Not only does it get developers the time back waiting on the build, it has a much larger impact, keeping them in flow longer and preventing them from getting distracted every time they build.
 
-Using the same numbers from the previous example, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application, we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 man-hours per year. Resulting in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
+Using the same numbers from the previous example, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application, we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 man-hours per year. This results in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
 
 ### Reduce Cross-Team Dependencies
 
@@ -115,4 +115,4 @@ Are the teams' work areas optimized for collaboration? The best work is done whe
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
 
-[Tim Ottinger](https://www.twitter.com/tottinge)'s quote sums up this post perfectly. Fast, closed feedback loops, strict prioritization of work, managed and explicit dependencies between teams, and team autonomy. These are some of the most important qualities of effective development teams, and should be the focus of improvement for all development organizations. More so, these are the things that must be improved before scaling a development organization.  
+[Tim Ottinger](https://www.twitter.com/tottinge)'s quote sums up this post perfectly. Fast, closed feedback loops, strict prioritization of work, managed and explicit dependencies between teams, team autonomy, and a culture of continuous improvement and experimentation. These are some of the most important qualities of effective development teams, and should be the focus of improvement for all development organizations. More so, these are the things that must be improved before scaling a development organization.  
