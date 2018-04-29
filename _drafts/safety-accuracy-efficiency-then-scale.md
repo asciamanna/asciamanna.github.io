@@ -50,7 +50,7 @@ Are tests the slowest part of the build? Get help with the design of the existin
 
 For example, let's imagine an organization has 50 developers who are paid $75 per hour (on average). They all have to wait on a single build that takes 30 minutes because the build server needs to build a large, monolithic application and has a suite of slow tests (some of which test business logic through the UI via selenium tests). Given how long the build takes, there is additional time lost to queueing when the build agents are exhausted. Developers decide they do not want to wait, so they commit and integrate code less often. These longer feedback cycles make them even less productive. 
 
-If the build time can be reduced to 15 minutes, assuming that each developer is committing four times per day and there are 260 work days in a year, this would result in a time savings of at least 13,000 man-hours per year and a cost savings of over $975,000 per year. This does not include the time spent for distracted developers and the increase in work in progress (WIP) waiting for builds to finish.
+If the build time can be reduced to 15 minutes, assuming that each developer is committing four times per day and there are 260 work days in a year, this would result in a time savings of at least 13,000 developer-hours per year and a cost savings of over $975,000 per year. This does not include the time spent for distracted developers and the increase in work in progress (WIP) waiting for builds to finish.
 
 #### Inappropriate UI Testing
 
@@ -62,7 +62,7 @@ Some limited automated UI testing may be appropriate, but there should be very f
 
 Are teams working in a huge monolithic codebase? I've seen large, poorly designed codebases drive up local compile and test times. Improving the local build times and the development environment can create another significant improvement in developers' workflow. Not only does it get developers the time back waiting on the build, it has a much larger impact, keeping them in flow longer and preventing them from getting distracted every time they build.
 
-Using the same numbers from the previous example, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application, we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 man-hours per year. This results in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
+Using the same numbers from the previous example, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application, we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 developer-hours per year. This results in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
 
 ### Reduce Cross-Team Dependencies
 
