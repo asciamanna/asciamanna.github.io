@@ -9,7 +9,7 @@ tags: [agile-development, coaching, anti-patterns]
 
 Companies commonly attempt to scale their development organization by adding developers instead of improving the system of work. This results in a focus on staffing instead of identifying improvement opportunities. Adding people to a troubled system further strains it, exacerbating existing problems and making them harder to fix. 
 
-Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people. They believe that more hands on keyboards is the solution to every problem. Despite the fact that [the Mythical Man Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
+Each new employee in a problem-riddled system adds less value than the previous. If the systemic problems are not addressed these diminishing returns become negative returns, and each new hire negatively impacts the ability to deliver value to customers. Organizations with these troubled systems often don't know when they've crossed this threshold and continue to add people. They believe that more hands on keyboards is the solution to every problem. Despite the fact that [the Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) was published over forty years ago, companies still struggle under the false pretense that doubling the workforce will get the work done twice as fast. 
 
 > When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.  
 > &mdash; _Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering_
@@ -54,7 +54,7 @@ If the build time can be reduced to 15 minutes, assuming that each developer is 
 
 #### Inappropriate UI Testing
 
-A common source for slow builds and slow releases is a test suite that tests exclusively through the user interface using tools like selenium. It's typical for this kind of testing to be the consequence of having a poorly designed system where business logic is coupled to the UI. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. Other times automation testing is seen as automating manual testing and manual testing utilizes the user interface, so automation tests are driven through the user interface as well. 
+A common source for slow builds and slow releases is a test suite that tests exclusively through the user interface using tools like selenium. It's typical for this kind of testing to be the consequence of having a poorly designed system where business logic is coupled to the UI. However, it's just as likely to occur because "automation testing" is often considered an activity that happens outside of cross-functional development teams. This results in "automation engineers" who only have access to the external interface since they lack the knowledge of the internal system. Other times, automation testing is seen as automating manual testing and manual testing utilizes the user interface, so automation tests are driven through the user interface as well. 
 
 Some limited automated UI testing may be appropriate, but there should be very few of these tests. Most of the tests should probe below the UI, and the majority of the tests should consist of microtests that execute at the object level.
 
@@ -62,11 +62,11 @@ Some limited automated UI testing may be appropriate, but there should be very f
 
 Are teams working in a huge monolithic codebase? I've seen large, poorly designed codebases drive up local compile and test times. Improving the local build times and the development environment can create another significant improvement in developers' workflow. Not only does it get developers the time back waiting on the build, it has a much larger impact, keeping them in flow longer and preventing them from getting distracted every time they build.
 
-Using the same numbers from the previous example, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application, we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 developer-hours per year. This results in a savings of nearly $1.5 million dollars per year. Again this does not include the cost of distraction. 
+Using the same numbers from the previous example, if the local compile takes two minutes and it can be reduced to 10 seconds by decomposing the application so that developers don't always have to build the entire application, we find another significant source of savings. Developers practicing TDD compile somewhere between 250 and 400 times per day (compiling every minute or two while working). If we estimate that these developers compile 50 times per day, reducing the build to 10 seconds results in a time savings of 19,861 developer-hours per year. This results in a savings of nearly $1.5 million dollars per year. Again, this does not include the cost of distraction. 
 
 ### Reduce Cross-Team Dependencies
 
-One of the biggest issues that negatively affects team performance is cross-team dependencies and handoffs. Teams often block each other and must begin additional work, thus increasing WIP which leads to creating inventory. All of this reduces overall productivity. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code at the same time.
+Some of the biggest issues that negatively affect team performance are cross-team dependencies and handoffs. Teams often block each other and must begin additional work, thus increasing WIP which leads to creating inventory. All of this reduces overall productivity. It's important to reduce these cross-team dependencies in both the scope of work (i.e., don't split features across teams) and the areas of the application. There is a huge cost to the overhead in communication and churn when multiple teams are changing the same areas of the code at the same time.
 
 > These high performance teams had few to no handoffs with other teams. They were autonomous, cross-functional, co-located teams, trained and coached in agile management, planning, testing and development. 
 > &mdash; _[Joshua Kerievsky](https://twitter.com/JoshuaKerievsky) CEO of Industrial Logic, from [Size Teams for Few to No Handoffs](https://www.linkedin.com/pulse/size-teams-few-handoffs-joshua-kerievsky/)_
@@ -93,9 +93,9 @@ Existing features are a constraint on the system. They are often the reason it t
 
 #### Avoid Project Thinking
 
-Organizations that are accustomed to focusing on projects instead of products tend to think of features in terms of creation cost. Once a project is considered complete, developers can be dispersed to start their next projects. Projects are temporary but the code that is produced during a project is not. This kind of thinking tends to ignore the ongoing cost of existing features in a system and creates the _"feature factory"_ attitude where the organization just needs more developers churning out an endless list of features.  
+Organizations that are accustomed to organizing teams around projects instead of products, tend to think of features in terms of creation cost. Once a project is considered complete, developers can be dispersed to start their next projects. Projects are temporary, but the code that is produced during a project is not. This kind of thinking tends to ignore the ongoing cost of existing features in a system and creates the _"feature factory"_ mentality where the organization adds developers to churn out an endless list of features.  
 
-A strict prioritization of work, elimination of dead code and low-value features, and a focus on keeping teams together to build expertise in an area of software creates productivity increases and expertise that is required before scaling an organization. 
+A strict prioritization of work, elimination of dead code and low-value features, and a focus on keeping teams together, creates productivity increases and expertise that is required before scaling an organization. 
 
 ### Give Teams Access to their Customer 
 
@@ -104,10 +104,6 @@ Ensure that development teams have a close and ongoing relationship with their c
 There is a lot of inefficiency built into this way of organizing. Handing teams solutions instead of problems limits the solution space before involving the experts who build the software. This often results in a more expensive and complicated solution to the customer's problem. The people making the decisions don't understand the software the same way as those who build it do. By getting a team access to the customer at the problem definition stage, the team can help identify appropriate approaches. This is a huge morale booster to teams who currently feel like they are just _"development resources"_ and order takers.
 
 To read more about the importance of autonomous product teams I recommend [this article](https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/).
-
-### Fix the Work Area
-
-Are the teams' work areas optimized for collaboration? The best work is done when teams can collaborate effectively. If work areas are distracting this will decrease a team's effectiveness. If developers choose to wear headphones, focus on solo work, and interact less, the work will suffer because of it. Teams of indivduals who only work individually will struggle to onboard new team members, making scaling the organization very difficult.
 
 ## Conclusion
  
