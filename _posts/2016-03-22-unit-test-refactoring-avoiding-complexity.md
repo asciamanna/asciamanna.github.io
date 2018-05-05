@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Unit Test Refactoring and Avoiding Complexity
 comments: true
-category: software craftsmanship
+category: software craft
 tags: ['unit testing', 'code quality']
 ---
 

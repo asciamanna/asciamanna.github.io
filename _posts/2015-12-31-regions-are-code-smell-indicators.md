@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Regions are Code Smell Indicators
 comments: true
-category: software craftsmanship
+category: software craft
 tags: ['code quality', 'refactoring']
 ---
 

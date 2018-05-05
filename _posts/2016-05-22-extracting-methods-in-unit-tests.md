@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Extracting Methods in Unit Tests 
 comments: true
-category: software craftsmanship
+category: software craft
 tags: ['unit testing', 'code quality']
 ---
 

@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Use TDD to Teach Testable Design 
 comments: true
-category: software craftsmanship
+category: software craft
 tags: ['code quality', 'tdd', 'coaching']
 ---
 

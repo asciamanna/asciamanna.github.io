@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Follow Consistent Test Patterns
 comments: true
-category: software craftsmanship
+category: software craft
 tags: ['unit testing', 'code quality']
 ---
 

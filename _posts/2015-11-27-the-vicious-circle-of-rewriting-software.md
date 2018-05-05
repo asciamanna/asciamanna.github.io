@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: The Vicious Circle of Rewriting Software
 comments: true
-category: software craftsmanship
+category: software craft
 tags: ['code quality', 'coaching']
 ---
 

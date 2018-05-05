@@ -2,7 +2,7 @@
 layout: post
 title: Inheritance in Unit Tests
 comments: true
-category: software-craftsmanship
+category: software-craft
 tags: [unit-testing, code-quality]
 ---
 
