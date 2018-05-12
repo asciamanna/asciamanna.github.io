@@ -9,7 +9,7 @@ tags: ['refactoring']
 
 When introducing refactoring techniques and code smells to teams I usually recommend starting with code smells that are both easy to identify and commonplace in most code bases. This gives teams the opportunity to practice the refactorings more often and build their confidence as they learn some of the more involved refactorings. 
 
-One of the code smells I like to start with is Feature Envy because it is often, but not always, accompanied by the overuse of data classes. Data classes are easy to spot, and poor object-oriented systems tend to have a lot of them. Data classes are objects that consist of data without any behavior, consisting of public fields or getters and setters. I don't think I've ever worked in a code base that didn't have quite a few data classes not pulling their weight. 
+One of the code smells I like to start with is Feature Envy because it is often, but not always, accompanied by the overuse of data classes. Data classes are easy to spot, and poor object-oriented systems tend to have a lot of them. Data classes are objects that consist of data without any behavior, consisting of public fields or getters and setters. 
 
 ## What is Feature Envy?
 
@@ -29,16 +29,16 @@ _**Tell Don't Ask**_ is an object oriented principle that reminds us that we sho
 
 ## Mechanics of the Refactoring
 
-I first direct developers to code that is interacting with these data classes. Often code that interacts with data classes is performing behavior for the data class. So I encourage developers to locate areas of the code that is interacting heavily with the data class properties. The next step is to move this behavior into the data class.  There are typically just two steps to do this, and we rely on the refactoring tools in modern IDEs to handle the heavy lifting for us. 
+Once a candidate data class is located find all references to the data class in the code. Often code that interacts with data classes is performing behavior that should exist in the data class. Pick an object that is hosting a data class and locate areas of the code in the class that are interacting heavily with the data class properties. The next step is to move this behavior into the data class.  There are typically two steps to do this, and we rely on the refactoring tools in modern IDEs to handle the heavy lifting for us. 
 
-Extract method
-First we find the code in question that we'd like to move and extract it into private method in it's current object, performing a extract method command. 
+### Extract Method
 
-We then perform a move method and move the extracted method to the data object. We continue doing this for each property of the data class. In doing so we are improving the interface to the former data class. Our goal is to eventually no longer expose the properties on the public interface and replace them with appropriate public methods that wrap data *AND* behavior.  This moves us towards "tell don't ask" a pattern for OO software development.
+First we find the code accessing data class properties and acting on its behalf, we perform an _**Extract Method**_ refactoring to extract it into a private method in it's current object. 
 
+### Move Method
 
-Next Step
-Start identifying feature envy without the existence of data classes
+Again relying on automated refactoring tools, we perform a _**Move Method**_ refactoring and move the extracted private method to a public method on the data class. We continue doing this until the properties are no longer referenced in the host class, being replaced with well named methods on the original data class. In doing so we are improving the interface to the original data class. Our goal is to eventually remove the properties from the public interface of the data object and replace them with appropriate public methods that encapsulate data *AND* behavior.
 
-When is the split of behavior OK - Visitor and Strategy pattern - dynamically change - or when objects get to big
+## What about Parameter Objects?
 
+Those who know the _**Introduce Parameter Object**_ refactoring pattern (http://wiki.c2.com/?ParameterObject) may wonder why it's a recommended refactoring if data objects are problematic. A Parameter Object encapsulates multiple parameters, alleviating the _**Long Parameter List**_ code smell. It's all about making incremental improvements to a code base. When several parameters are passed around to multiple objects and methods it is an indicator of an abstraction not yet realized. Introducing a parameter object groups data together that belongs together. Once this data is grouped and has a unifying name, behavior that belongs with the data often becomes apparent.
