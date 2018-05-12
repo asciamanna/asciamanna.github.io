@@ -71,4 +71,4 @@ __*Yeah, exactly!*__
 
 Then, may I ask, why did your company adopt Scrum in the first place?
 
-__*Our company's leadership thought we'd give them better estimates and deliver our projects faster.*__
+__*Our leadership thought we'd give them better estimates and deliver our projects faster.*__
