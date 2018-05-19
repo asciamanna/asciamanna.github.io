@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Data Classes and the Feature Envy Code Smell
+title: Data Classes and Feature Envy 
 comments: true
 category: development practices
 tags: ['refactoring']
@@ -9,7 +9,7 @@ tags: ['refactoring']
 
 When introducing refactoring techniques and code smells to teams I usually recommend starting with code smells that are both easy to identify and commonplace in most code bases. This gives teams the opportunity to practice the refactorings more often and build their confidence as they learn some of the more advanced refactorings. 
 
-One of the code smells I like to start with is _**Feature Envy**_ because it is often, but certainly not always, accompanied by another code smell, _**Data Classes**_. Data classes are easy to spot, and poor object-oriented systems tend to have a lot of them. Data classes are objects that consist of data without any behavior, consisting of public fields or getters and setters. 
+One of the code smells I like to start with is _**Feature Envy**_ because it is often, but certainly not always, accompanied by another code smell, _**Data Classes**_. Data classes are easy to spot, and poorly designed object-oriented systems tend to have a lot of them. Data classes are objects that consist of data without any behavior, containing only public fields or getters and setters. 
 
 ## What is Feature Envy?
 
@@ -35,12 +35,14 @@ Once a candidate data class is located find all references to the data class in 
 
 ### Extract Method
 
-First we find the code accessing data class properties and acting on its behalf, we perform an _**Extract Method**_ refactoring to extract it into a private method in it's current object. 
+First we find the code accessing data class properties and acting on its behalf, we perform an _**Extract Method**_ refactoring to extract it into a method in it's current object. 
 
 ### Move Method
 
-Now that we have the code isolated in a private method, we perform a _**Move Method**_ refactoring and move the extracted private method to a public method on the data class. We continue doing this until the properties are no longer referenced in the host class, being replaced with well named methods on the original data class. In doing so we are improving the interface to the original data class. Our ultimate goal is to remove the properties from the public interface of the data object and replace them with public methods that encapsulate data *AND* behavior.
+Now that we have the code that interacts with the data class isolated in a method, we perform a _**Move Method**_ refactoring and move the extracted method to a public method on the data class. We continue doing this until the properties are no longer referenced in the host class, being replaced by well named methods on the original data class. In doing so we are improving the interface to the original data class. Our ultimate goal is to remove the properties from the public interface of the data object and replace them with public methods that encapsulate data *AND* behavior.
 
 ## What about Parameter Objects?
 
-Those who know the _**Introduce Parameter Object**_ refactoring pattern (http://wiki.c2.com/?ParameterObject) may wonder why it's a recommended refactoring if data objects are problematic. A Parameter Object encapsulates multiple parameters, alleviating the _**Long Parameter List**_ code smell. It's all about making incremental improvements to a code base. Parameter Objects often increase cohesion and create a more change resilient interface for method signatures. When several parameters are passed around to multiple objects and methods it is often an indicator of an abstraction not yet realized. Introducing a parameter object groups data together that belongs together. Once this data is grouped and has a unifying name, behavior that belongs with the data often becomes apparent.
+Those who know the _**Introduce Parameter Object**_ refactoring pattern (http://wiki.c2.com/?ParameterObject) may wonder why it's a recommended refactoring if data objects are problematic. A Parameter Object encapsulates multiple parameters, alleviating the _**Long Parameter List**_ code smell. It's all about making incremental improvements to a code base. 
+
+Parameter Objects often increase cohesion and create a more change resilient interface for method signatures. When several parameters are passed around to multiple objects and methods it is often an indicator of an abstraction not yet realized. Introducing a parameter object groups data together that belongs together. Once this data is grouped and has a unifying name, behavior that belongs with the data often becomes apparent.
