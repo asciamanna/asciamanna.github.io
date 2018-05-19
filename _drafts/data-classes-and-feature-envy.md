@@ -9,7 +9,7 @@ tags: ['refactoring']
 
 When introducing refactoring techniques and code smells to teams I usually recommend starting with code smells that are both easy to identify and commonplace in most code bases. This gives teams the opportunity to practice the refactorings more often and build their confidence as they learn some of the more advanced refactorings. 
 
-One of the code smells I like to start with is _**Feature Envy**_ because it is often, but certainly not always, accompanied by another code smell, _**Data Classes**_. Data classes are easy to spot, and poorly designed object-oriented systems tend to have a lot of them. Data classes are objects that consist of data without any behavior, containing only public fields or getters and setters. 
+One of the code smells I like to start with is _**Feature Envy**_ because it is often, but not always, accompanied by another code smell, _**Data Classes**_. Data classes are easy to spot, and poorly designed object-oriented systems tend to have a lot of them. Data classes are objects that consist of data without any behavior, containing only public fields or getters and setters. 
 
 ## What is Feature Envy?
 
