@@ -43,6 +43,6 @@ Now that we have the code that interacts with the data class isolated in a metho
 
 ## What about Parameter Objects?
 
-Those who know the _**Introduce Parameter Object**_ refactoring pattern (http://wiki.c2.com/?ParameterObject) may wonder why it's a recommended refactoring if data objects are problematic. A Parameter Object encapsulates multiple parameters, alleviating the _**Long Parameter List**_ code smell. It's all about making incremental improvements to a code base. 
+Those who know the _**Introduce Parameter Object**_ refactoring pattern (http://wiki.c2.com/?ParameterObject) may wonder why it's a recommended refactoring if data objects are problematic. A Parameter Object encapsulates multiple parameters, alleviating the _**Long Parameter List**_ code smell. 
 
-Parameter Objects often increase cohesion and create a more change resilient interface for method signatures. When several parameters are passed around to multiple objects and methods it is often an indicator of an abstraction not yet realized. Introducing a parameter object groups data together that belongs together. Once this data is grouped and has a unifying name, behavior that belongs with the data often becomes apparent.
+Although Parameter Objects are data objects their introduction incrementally improves the code they are found in. Parameter Objects often increase cohesion and create a more change resilient interface for method signatures. When several parameters are passed together to multiple objects and methods it is often an indicator of an abstraction not yet realized. Introducing a parameter object groups data together that belongs together. Once this data is grouped and has a unifying name, behavior that belongs with the data often becomes apparent.
