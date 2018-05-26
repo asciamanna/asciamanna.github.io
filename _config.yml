@@ -190,6 +190,11 @@ plugins:
 #######################
 
 projects:
+  - name: "iTunes Library Parser"
+    url: "https://www.github.com/asciamanna/iTunesLibraryParser"
+    ci_url: "https://ci.appveyor.com/project/asciamanna/ituneslibraryparser"
+    build_image: "https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq?svg=true"
+    description: "A C# implementation utilizing LINQ-to-XML to parse the iTunes library file (DTD format)."
   - name: "Improved iTunes Parser"
     url: "https://www.github.com/asciamanna/ImprovedItunesParser"
     ci_url: "https://travis-ci.org/asciamanna/ImprovedItunesParser"
@@ -205,8 +210,3 @@ projects:
     ci_url: "https://ci.appveyor.com/project/asciamanna/lastfmclient"
     build_image: "https://ci.appveyor.com/api/projects/status/e703ayk1nydyngqm?svg=true"
     description: "A .NET client for the Last.fm REST API."
-  - name: "iTunes Library Parser"
-    url: "https://www.github.com/asciamanna/iTunesLibraryParser"
-    ci_url: "https://ci.appveyor.com/project/asciamanna/ituneslibraryparser"
-    build_image: "https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq?svg=true"
-    description: "A C# implementation utilizing LINQ-to-XML. Parses an iTunes library file into a collection of track objects."
