@@ -194,7 +194,7 @@ projects:
     url: "https://www.github.com/asciamanna/iTunesLibraryParser"
     ci_url: "https://ci.appveyor.com/project/asciamanna/ituneslibraryparser"
     build_image: "https://ci.appveyor.com/api/projects/status/tsebsc61mqylaejq?svg=true"
-    description: "A C# implementation utilizing LINQ-to-XML to parse an iTunes library file (DTD format). The nuget package can be found [here on nuget.org](https://www.nuget.org/packages/iTunesLibraryParser/)."
+    description: "A C# implementation utilizing LINQ-to-XML to parse an iTunes library file (PropertyList format). The nuget package can be found [here on nuget.org](https://www.nuget.org/packages/iTunesLibraryParser/)."
   - name: "Improved iTunes Parser"
     url: "https://www.github.com/asciamanna/ImprovedItunesParser"
     ci_url: "https://travis-ci.org/asciamanna/ImprovedItunesParser"
