@@ -16,40 +16,44 @@ One of the code smells I like to start with is _**Feature Envy**_ because it is 
 > The whole point of objects is that they are a technique to package data with the processes used on that data. A classic smell is a method that seems more interested in a class other than the one it actually is in. The most common focus of the envy is data.  
 > &mdash;_[Martin Fowler](http://www.martinfowler.com) on Feature Envy from Refactoring (p. 80)_
 
-Feature envy is a problem because it is a _"coupling code smell."_ It couples two objects together inappropriately. This coupling introduces a larger surface area of change in the code when one of the two objects has to be modified. Less isolated changes then lead to an increase in the likelihood of introducing bugs. Since it increases coupling, it reduces cohesion of the host class; making it responsible for additional behavior and more than likely introducing a [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)(SRP) violation.
+Feature envy is a problem because it is a _"coupling code smell."_ It couples two objects together inappropriately. This coupling introduces a larger surface area of change in the code when one of the two objects has to be modified. Less isolated changes then lead to an increase in the likelihood of introducing bugs. Since it increases coupling, it reduces cohesion of the host class; making it responsible for additional behavior and likely introducing a [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)(SRP) violation.
 
 ## Data Classes as Detectors for Feature Envy
 
-Data classes are often accompanied by _**Feature Envy**_ because objects interacting with them often perform behavior utilizing the data class. This behavior should exist in the data class itself, transforming it from an anemic data class into an object that encapsulates data and its behavior. This refactoring commonly results in implementing the principle of [Tell Don't Ask](https://pragprog.com/articles/tell-dont-ask).
+Data classes are often accompanied by _**Feature Envy**_ because objects interacting with them often perform behavior utilizing their data. This behavior should exist in the data class itself, transforming it from a data structure into an object that encapsulates data and its behavior. This refactoring commonly results in implementing the principle of [Tell Don't Ask](https://pragprog.com/articles/tell-dont-ask).
 
 ### Tell Don't Ask
 
-_**Tell Don't Ask**_ is an object oriented principle that reminds us that we should tell objects what we want them to do rather than query them for state (_"ask"_) and then act on that data stored in the object's state.
+_**Tell Don't Ask**_ is an object oriented principle that reminds us that we should tell objects what we want them to do rather than query them for their state and then act on that data.
 
 > Procedural code gets information then makes decisions. Object-oriented code tells objects to do things.    
 > &mdash; _Alec Sharp, Smalltalk by Example_
 
 ## Mechanics of the Refactoring
 
-Once a candidate data class is located, find all references to the data class in the code. Often code that interacts with data classes is performing behavior that should exist in the data class. Pick an object that is hosting a data class and locate areas of the code in the class that are interacting heavily with the data class properties. The next step is to move this behavior into the data class. There are typically two steps to do this, and we rely on the refactoring tools in modern IDEs to handle the heavy lifting for us. 
+Once a candidate data class is located, find all references to the data class in the code. Often code that interacts with data classes performs behaviors that should exist in the data class itself. Pick an object that is hosting a data class and locate areas of the code in the host object that are interacting heavily with the data class properties. The next step is to move this behavior into the data class. There are typically two steps to do this. By relying on the refactoring tools in modern IDEs, these refactorings are safe and straightforward. 
 
 ### Extract Method
 
-First we find the code accessing data class properties and acting on its behalf, we perform an _**Extract Method**_ refactoring to extract it into a method in it's current object. 
+The first step is to find the code accessing data class properties and acting on its behalf. Perform an _**Extract Method**_ refactoring to extract this code into a method on the host object. 
 
 ### Move Method
 
-Now that we have the code that interacts with the data class isolated in a method, we perform a _**Move Method**_, refactoring and move the extracted method to a public method on the data class. We continue doing this until the properties are no longer referenced in the host class, being replaced by well named methods on the original data class. In doing so, we are improving the interface to the original data class. Our ultimate goal is to remove the properties from the public interface of the data object and replace them with public methods that encapsulate data *AND* behavior.
+Now that the code that interacts with the data class is isolated in a method, perform a _**Move Method**_, refactoring and move the extracted method to a public method on the data class. 
 
-## What about Parameter Objects?
+Continue following these steps until none of the properties are referenced in the host class. By following these step the interface to the data class is incrementally being improved. The ultimate goal is to remove the properties from the public interface of the data class entirely, replacing them with public methods that encapsulate data *AND* behavior.
 
-Those who know the _**Introduce Parameter Object**_ refactoring pattern (http://wiki.c2.com/?ParameterObject) may wonder why it's a recommended refactoring if data objects are problematic. A Parameter Object encapsulates multiple parameters, alleviating the _**Long Parameter List**_ code smell. 
+## Exceptions (Valuable Data Classes)
 
-Although Parameter Objects are data objects, their introduction incrementally improves the code they are found in. Parameter Objects often increase cohesion and create a more change resilient interface for method signatures. When several parameters are passed together to multiple objects and methods, it is often an indicator of an abstraction not yet realized. Introducing a parameter object groups data together that belongs together. Once this data is grouped and has a unifying name, behavior that belongs with the data often becomes apparent.
+### Parameter Objects
 
-## DTOs and the Risk of Hybrid Objects
+Those who know the _**Introduce Parameter Object**_ refactoring pattern (http://wiki.c2.com/?ParameterObject) may wonder why it's a recommended refactoring if data classes are a code smell. A Parameter Object encapsulates multiple parameters in a single object, alleviating the _**Long Parameter List**_ code smell. 
 
-Data Classes do have a purpose in object-oriented code. Often times Data Transfer Objects (DTOs) are used to transfer "raw" data across a system boundary. This might be to a presentation layer, parsing messages from a socket, etc. It is common for developers to not recognize these as DTOs and instead compare them to the same anemic data class objects I've described above. This leads to a hybrid object that contains both public getters and setters for data, along with behavior that operates on them. These hybrid objects are problematic as they serve multiple purposes and are often the source of SRP violations, changing for multiple reasons.
+Although Parameter Objects are data classes, their introduction incrementally improves the code they are found in. Parameter Objects often increase cohesion and create a more change resilient interface for method signatures. When several parameters are passed together to multiple objects and methods, it is often an indicator of an abstraction not yet realized. Introducing a parameter object groups data together that belongs together. Once this data is grouped and has a unifying name, behavior that belongs with the data often becomes apparent.
+
+### DTOs and the Risk of Hybrid Objects
+
+Data classes do serve a purpose in object-oriented code. Data Transfer Objects (DTOs) are a specific form of data classes that are used to transfer "raw" data across a system boundary. This might be to a presentation layer, or parsing messages from a socket, etc. It is common for developers to not recognize these as DTOs and instead, assume they are examples of the data class code smell I've described above. This leads to the creation of hybrid objects that contain both public getters and setters for data, along with behavior that operates on them. These hybrid objects are problematic as they serve multiple purposes and are often the source of SRP violations (i.e., changing for multiple reasons).
 
 > Such hybrids make it hard to add new functions but also make it hard to add new data
 > structures. They are the worst of both worlds. Avoid creating them. They are indicative of a
@@ -58,6 +62,6 @@ Data Classes do have a purpose in object-oriented code. Often times Data Transfe
 >
 > &mdash; _Robert Martin, Clean Code_
 
-For more details about the difference between data classes and DTOs and avoiding hybrid objects, I recommend reading chapter six of Clean Code.
+For more information about DTOs, data classes, and hybrid objects, I recommend reading chapter six of Clean Code.
 
 <img class='img-responsive' src='/img/clean-code.jpg' alt='Clean Code book' />
