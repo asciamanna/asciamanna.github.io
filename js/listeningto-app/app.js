@@ -11,7 +11,7 @@ function MainController($scope, $http) {
 
     $scope.getRecentTracks = function(recentTracks, displayData) {
         displayData.hideSpinner = false;
-        $http.jsonp('http://listeningto.apphb.com/api/recenttracks?callback=JSON_CALLBACK')
+        $http.jsonp('https://listeningto.apphb.com/api/recenttracks?callback=JSON_CALLBACK')
             .success(function(data) {
                 recentTracks.length = 0;
                 angular.forEach(data, function(track, index) {
@@ -33,7 +33,7 @@ function MainController($scope, $http) {
 
     $scope.getTopArtists = function(topArtists, displayData) {
        displayData.hideSpinner = false;
-       $http.jsonp('http://listeningto.apphb.com/api/topArtists?callback=JSON_CALLBACK')
+       $http.jsonp('https://listeningto.apphb.com/api/topArtists?callback=JSON_CALLBACK')
            .success(function(data) {
               topArtists.length = 0;
               angular.forEach(data, function(artist, index) {
