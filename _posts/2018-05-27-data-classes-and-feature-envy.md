@@ -31,7 +31,7 @@ _**Tell Don't Ask**_ is an object oriented principle that reminds us that we sho
 
 ## Mechanics of the Refactoring
 
-Once a candidate data class is located, find all references to the data class in the code. Often code that interacts with data classes performs behaviors that should exist in the data class itself. Pick an object that is hosting a data class and locate areas of the code in the host object that are interacting heavily with the data class properties. The next step is to move this behavior into the data class. There are typically two steps to do this. By relying on the refactoring tools in modern IDEs, these refactorings are safe and straightforward. 
+Once a candidate data class is located, find all references to the data class in the code. Often code that interacts with data classes performs behaviors that should exist in the data class itself. Pick an object that is hosting a data class and locate areas of the code in the host object that are interacting heavily with the data class properties. The next step is to move this behavior into the data class. There are typically two steps to do this. By relying on the refactoring tools in modern IDEs these refactorings are safe and straightforward. 
 
 ### Extract Method
 
@@ -41,13 +41,13 @@ The first step is to find the code accessing data class properties and acting on
 
 Now that the code that interacts with the data class is isolated in a method, perform a _**Move Method**_, refactoring and move the extracted method to a public method on the data class. 
 
-Continue following these steps until none of the properties are referenced in the host class. By following these step the interface to the data class is incrementally being improved. The ultimate goal is to remove the properties from the public interface of the data class entirely, replacing them with public methods that encapsulate data *AND* behavior.
+Continue following these steps until none of the properties are referenced in the host class. By following this advice the interface to the data class is incrementally improved. The ultimate goal is to remove the properties from the public interface of the data class entirely, replacing them with public methods that encapsulate data *AND* behavior.
 
 ## Exceptions (Valuable Data Classes)
 
 ### Parameter Objects
 
-Those who know the _**Introduce Parameter Object**_ refactoring pattern (http://wiki.c2.com/?ParameterObject) may wonder why it's a recommended refactoring if data classes are a code smell. A Parameter Object encapsulates multiple parameters in a single object, alleviating the _**Long Parameter List**_ code smell. 
+Those who are familiar with the [_**Introduce Parameter Object**_](http://wiki.c2.com/?ParameterObject) refactoring pattern may wonder why it's a recommended refactoring if data classes are a code smell. A Parameter Object encapsulates multiple parameters in a single object, alleviating the _**Long Parameter List**_ code smell. 
 
 Although Parameter Objects are data classes, their introduction incrementally improves the code they are found in. Parameter Objects often increase cohesion and create a more change resilient interface for method signatures. When several parameters are passed together to multiple objects and methods, it is often an indicator of an abstraction not yet realized. Introducing a parameter object groups data together that belongs together. Once this data is grouped and has a unifying name, behavior that belongs with the data often becomes apparent.
 
