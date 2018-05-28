@@ -16,7 +16,7 @@ One of the code smells I like to start with is _**Feature Envy**_ because it is 
 > The whole point of objects is that they are a technique to package data with the processes used on that data. A classic smell is a method that seems more interested in a class other than the one it actually is in. The most common focus of the envy is data.  
 > &mdash;_[Martin Fowler](http://www.martinfowler.com) on Feature Envy from Refactoring (p. 80)_
 
-Feature envy is a problem because it is a _"coupling code smell."_ It couples two objects together inappropriately. This coupling introduces a larger surface area of change in the code when one of the two objects has to be modified. Less isolated changes then lead to an increase in the likelihood of introducing bugs. Since it increases coupling, it reduces cohesion of the host class; making it responsible for additional behavior and likely introducing a [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)(SRP) violation.
+Feature envy is a problem because it is a _coupling code smell._ It couples two objects together inappropriately. This coupling introduces a larger surface area of change in the code when one of the two objects has to be modified. Less isolated changes then lead to an increase in the likelihood of introducing bugs. Since it increases coupling, it reduces cohesion of the host class; making it responsible for additional behavior and likely introducing a [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)(SRP) violation.
 
 ## Data Classes as Detectors for Feature Envy
 
