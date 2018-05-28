@@ -59,7 +59,7 @@ Data classes do serve a purpose in object-oriented code. Data Transfer Objects (
 > structures. They are the worst of both worlds. Avoid creating them. They are indicative of a
 > muddled design whose authors are unsure of—or worse, ignorant of—whether they need
 > protection from functions or types.
->
+>   
 > &mdash; _Robert Martin, Clean Code_
 
 For more information about DTOs, data classes, and hybrid objects, I recommend reading chapter six of Clean Code.
