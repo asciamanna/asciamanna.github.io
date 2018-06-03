@@ -4,7 +4,7 @@ section-type: post
 title: Data Classes and Feature Envy 
 comments: true
 category: development practices
-tags: ['refactoring']
+tags: ['code smells', 'refactoring']
 ---
 
 When introducing refactoring techniques and code smells to teams, I usually recommend starting with code smells that are both easy to identify and commonplace in most code bases. This gives teams the opportunity to practice the refactorings more often and build their confidence as they learn some of the more advanced refactorings. 
