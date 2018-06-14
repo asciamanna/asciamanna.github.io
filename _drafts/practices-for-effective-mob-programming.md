@@ -7,23 +7,23 @@ category: development practices
 tags: ['mob-programming']
 ---
 
-For the last several months I've been fortunate to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this training is introducing teams to mob programming. As word spread in the organization other teams became interested in mob programming. Without the benefit of going through an Industrial Logic they asked for a primer on effective mob programming practices.
+For the last several months I've been fortunate to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this training is introducing teams to mob programming. As word spread in the organization other teams became interested in mob programming. Without the benefit of going through an Industrial Logic workshop they asked for a primer on effective mob programming practices.
 
-The topics in this post come from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with a team. 
+The topics in this post came from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with one of those teams. 
 
 ## Use a Mob Programming Tool
 
-Those who know me know that I prefer pen, paper, and index cards over most workflow tools. However, I cannot overstate the importance of using a tool for mob programming. There are several that exist, but my favorite is [mobster.cc](http://www.mobster.cc). The tool encourages consistent switching intervals, ensuring that everyone in the mob takes a turn driving and navigating. It also supports disciplined break taking, a very important aspect of mobbing. I've witnessed teams who didn't want to use a mobbing tool only to fall back on old habits making the mobbing sessions much less effective. 
+Those who know me know that I prefer pen, paper, and index cards over most workflow tools. However, I cannot overstate the importance of a mob programming tool. There are several that exist, but my favorite is [mobster.cc](http://www.mobster.cc). The tool encourages consistent switching intervals, ensuring that everyone in the mob takes a turn as driver. It also supports disciplined break taking, a very important aspect of mobbing. I've witnessed teams who avoided using a mobbing tool only to fall back on old habits making the mobbing sessions much less effective. 
 
 ### Experiment with Switching Intervals, Aim for Shorter
 
-I've found that a seven minute switching interval is optimal in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, I would challenge you to keep the switching interval small and to experiment with making it increasingly smaller.
+For the teams I've worked with I've found that a seven minute switching interval is optimal in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, **I would challenge you to keep the switching interval small and to experiment with making it increasingly smaller.**
 
 ### Disciplined Break Taking 
 
-An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. Being disciplined about taking frequent breaks helps the mob stay focused and perform at their best. 
+An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. Being disciplined about taking frequent breaks helps the mob stay focused and productive during the day. 
 
-<img src="/img/pomodoro.jp" class="img-responsive" />
+<img src="/img/pomodoro.jpg" class="img-responsive" />
 
 ## TDD
 
@@ -35,9 +35,9 @@ While mobbing [Llewellyn Falco's strong style pairing](http://llewellynfalco.blo
 
 ## Encourage Full Team Participation
 
-Since the driver does not need to know how to program, an opportunity emerges to include the entire team in mob sessions. Resist the urge to make mob programming _"only a developer practice."_ It is still very common in the industry for development teams to not know how to collaborate effectively; having been influenced by decades of waterfall processes and functional reporting silos. This practice aims to change that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating through comments in JIRA issues anymore.
+Since the driver does not need to know how to program, an opportunity emerges to include the entire team in mob sessions. Resist the urge to make mob programming _"only a developer practice."_ Poor collaboration within development teams is still the norm in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice aims to change that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in JIRA issues anymore.
 
-I recommend that everyone take part in a mob session who is required to take a single story or task from "To Do" to completion. Typically this means developers, QA, UX, Operations, and product owners / product managers will all take part in mob programming sessions. Individuals can still leave and rejoin the mob for any reason. For example, if a large refactoring is taking place the product owner and even QA may want to step away if they aren't moving the work forward. But the expectation is that they return to the mob once they can take part in moving the work forward again.
+I recommend that everyone take part in a mob session who is required to take a single story or task from "To Do" to completion. Typically this means developers, QA, UX, Operations, and product owners will all take part in mob programming sessions. Individuals can still leave and rejoin the mob for any reason. For example, if a large refactoring is taking place the product owner and even QA may want to step away if they aren't moving the work forward. But the expectation is that they return to the mob once they can take part in moving the work forward again.
 
 ### Introduces WIP limits
 
@@ -53,7 +53,7 @@ Full team mobbing reduces WIP to one and achieves, what is referred to in Lean a
 
 ## Waste Snake
 
-[Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment. This increases WIP and reduces overall productivity. However, when everyone in a mobbing session has to wait the pain becomes obviously visible and magnified. When teams are met with waits and impediments while mobbing they document it on the waste snake board. The waste snake items can then be worked off by the team to continuously improve their daily work.
+[Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment. This increases WIP and reduces overall productivity. However, when everyone in a mobbing session has to wait, the pain becomes obviously visible and magnified. When teams are met with waits and impediments while mobbing they document it on the waste snake board. The waste snake items can then be worked off by the team to continuously improve their daily work.
 
 > Improving daily work is even more important than doing daily work.  
 > _&mdash; Gene Kim - The DevOps Handbook_ 
@@ -68,19 +68,19 @@ Practicing strong-style pairing ensures that the person at the keyboard is not t
 
 ## Debate In Code
 
-When debates arise about different ways of approaching a problem, instead of discussing the approaches debating in code is encouraged. Try both approaches and let the mob decide which way is best. 
+When debates arise about different ways of approaching a problem, debating in code is encouraged. Try both approaches and let the mob decide which way is best. 
 
 ## Shared Team Settings
 
-When mobbing it's important that the team has shared editor settings. The development experience should be the same regardless of whose computer is being used. This avoids losing time and focus adapting to every team member's custom editor plug-ins and keymaps. 
+While mobbing it's important that the team has shared editor settings. The development experience should be the same regardless of whose computer is being used. This avoids losing time and focus adapting to every team member's custom editor plug-ins and keymaps. 
 
 ## Promise Debt
 
-As the mob encounters issues they want to address but don't want to get distracted from the main goal, they add a card describing the work to a promise debt board. It's important to work these off before the work is considered complete. Preserving and addressing improvement ideas without distracting the mobbing session is the goal of this board.
+As the mob encounters issues they want to address but don't want to get distracted from the main goal, they add a card describing the work to a promise debt board. It's important to work these off before the work is considered complete however. Preserving and addressing improvement ideas without distracting the mobbing session is the goal of this board.
 
 ## Invite the Boss(es)
 
-Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like, and to build empathy for development teams. Again, the benefits of strong-style pairing means that the people driving the machine don't have to be programmers. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, etc.
+Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally it builds empathy for development teams. Again, the benefits of strong-style pairing means that the people driving the machine don't have to be programmers. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, etc.
 
 This is especially important in organizations that treat developers like cookie-cutter, fungible resources. It is still common to encounter organizations that view software development as the mechanical process of typing commands into a computer, completely removing a developer from their context, their expertise in technology, the domain, and/or the system. These organizations tend to:
 
@@ -92,8 +92,10 @@ This is especially important in organizations that treat developers like cookie-
 
 Giving people in the organization an opportunity to see what programming is really like will go a long way in addressing this organizational dysfunction. Hopefully, with a better understanding of how development teams operate organizations will begin adopting more effective practices.
 
+Even in organizations that lack this kind of dysfunciton having leadership and management experience team impediments in real-time while the work is being done will help them help the team remove these organizational impediments.
+
 ## Conclusion
 
 <img src="/img/mobbing-practices.jpg" class="img-responsive" />
 
-These are just a few of the techniques we've found that make us effective mob programmers. There are most certainly more, keep experimenting to discover them. 
+These are just a few of the techniques we've found that make for effective mob programming sessions. There are most certainly more, keep experimenting to discover them. 
