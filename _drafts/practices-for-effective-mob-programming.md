@@ -92,7 +92,7 @@ This is especially important in organizations that treat developers like cookie-
 
 Giving people in the organization an opportunity to see what programming is really like will go a long way in addressing this organizational dysfunction. Hopefully, with a better understanding of how development teams operate organizations will begin adopting more effective practices.
 
-Even in organizations that lack this kind of dysfunciton having leadership and management experience team impediments in real-time while the work is being done will help them help the team remove these organizational impediments.
+Even in organizations that lack this level of dysfunciton having leadership and management experience team impediments in real-time will help them help the team resolve the organizational issues causing them.
 
 ## Conclusion
 
