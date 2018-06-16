@@ -33,7 +33,7 @@ I have only every practiced mob programming when teaching or practicing Test-Dri
 
 While mobbing [Llewellyn Falco's strong-style pairing](http://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html) model is recommended. The driver is the person at the keyboard and they are the only person in the mobbing session not coding, instead they are operating the machinery. All ideas from the mob has to go through their hands to make it into the code. Switching regularly, everyone gets a chance to be the driver and to program. This enables a lot of other effective practices including inviting non-developers to take part in the mob session.
 
->  For an idea to go from your head into the computer it **MUST** go through someone else's hands."
+>  For an idea to go from your head into the computer it **MUST** go through someone else's hands."  
 > _&mdash; Llewellyn Falco describing the Strong Style Pairing Golden Rule_
 
 ## Encourage Full Team Participation
