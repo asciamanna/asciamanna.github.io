@@ -27,7 +27,7 @@ An important aspect of mob programming is the inclusion of the [Pomodoro techniq
 
 ## TDD
 
-I have only every practiced mob programming when teaching or practicing Test-Driven Development (TDD). While you can practice mob programming without TDD, pairing them together leads to additional benefits. TDD is an important practice in its own right and mobbing is a great way to learn it. Due to TDD's fast feedback cycles (i.e., red, green refactor, integrate), achieving flow in TDD does not require loading the entire problem state into a single developer's head. This enables the mob to work in very small batches and take frequent breaks without setbacks.
+I have only every practiced mob programming when teaching or practicing Test-Driven Development (TDD). While you can practice mob programming without TDD, pairing them together leads to additional benefits. TDD is an important practice in its own right and mobbing is a great way to learn it. Due to TDD's fast feedback cycles (i.e., red, green, refactor, and integrate), achieving flow in TDD does not require loading the entire problem state into a single developer's head. This enables the mob to work in very small batches and take frequent breaks without setbacks.
 
 ## Strong-Style Pairing Model
 
@@ -38,9 +38,11 @@ While mobbing [Llewellyn Falco's strong-style pairing](http://llewellynfalco.blo
 
 ## Encourage Full Team Participation
 
-Since the driver does not need to know how to program, an opportunity emerges to include the entire team in mob sessions. Resist the urge to make mob programming _"only a developer practice."_ Poor collaboration within development teams is all too common in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice aims to change that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in JIRA issues anymore.
+Since the driver does not need to know how to program, an opportunity emerges to include the entire team in mob sessions. Resist the urge to make mob programming _"only a developer practice."_ Poorly collaborating development teams are still too common in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice aims to change that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in Jira issues anymore.
 
-I recommend that everyone take part in a mob session who is required to take a single story or task from "To Do" to completion. The lean folks would often say everyone responsible for taking an idea from concept to cash. Typically this means developers, QA, UX, Operations, and product owners will all take part in mob programming sessions depending on the nature of the work. Individuals can still leave and rejoin the mob for any reason. For example, if a large refactoring is taking place the product owner and even QA may want to step away if they aren't contributing to the mobbing session, but be available to rejoin as soon as they can contribute to moving the work forward again. 
+I recommend that everyone take part in a mob session who is required to take a single story or task from start to completion (from concept to cash). Typically this means developers, QA, UX, Operations, and product owners will all take part in mob programming sessions depending on the nature of the work. 
+
+Individuals can still leave and rejoin the mob for any reason, but the mobbing session will continue without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they aren't contributing to the refactoring. But they should rejoin as soon as they can contribute to moving the work forward again. 
 
 ### Introduces WIP limits
 
@@ -52,11 +54,13 @@ When the entire team to works together on a single piece of work, First Time Thr
 
 ### Single Piece Flow
 
-Full team mobbing and its reduction in WIP enables the lean concept of single piece flow (or [one piece flow](http://www.kaizenworld.com/kaizen/one-piece-flow.html)). Often individuals are so accustomed to being busy they will instead start multiple streams of work in an effort to _"stay productive"_ or so they think. This results in the opposite of the intended effect, reducing the performance of the overall team by increasing WIP which increases inventory and decreases throughput. It's important to remind teams in these situations to **_"watch the baton not the runners,"_**, to focus on the flow of the work through the system and not on individual busyness. 
+Full team mobbing and its reduction in WIP enables the lean concept of single piece flow (or [one piece flow](http://www.kaizenworld.com/kaizen/one-piece-flow.html)). Often individuals are so accustomed to being busy they will instead start multiple streams of work in an effort to _"stay productive"_, or so they think. This results in the opposite of the intended effect, reducing the performance of the overall team by increasing WIP which increases inventory and decreases throughput. It's important to remind teams in these situations to **_"watch the baton not the runners,"_**, to focus on the flow of the work through the system and not on individual busyness. 
 
 ## Waste Snake
 
-[Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment, increasing WIP and reducing overall productivity. However, when everyone in a mobbing session has to wait, the pain becomes obviously visible and magnified. When teams are met with waits and impediments while mobbing they document it on the waste snake board. The waste snake items can then be worked off by the team to continuously improve their daily work.
+[Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment, increasing WIP and reducing overall productivity. 
+
+When everyone in a mobbing session has to wait due to an impediment, the pain becomes obviously visible and magnified. When teams are met with impediments while mobbing they document it on the waste snake board. The waste snake items can then be worked off by the team to continuously improve their daily work.
 
 > Improving daily work is even more important than doing daily work.  
 > _&mdash; Gene Kim - The DevOps Handbook_ 
@@ -67,7 +71,7 @@ Learning happens rapidly when teams work closely together in a mob session. When
 
 ## Avoid Runaway
 
-Practicing strong-style pairing ensures that the person at the keyboard is not the person coding. If teams stray from this practice, it's easy for the driver to runaway and start coding their own ideas, reducing a focused mob of programmers to easily-distracted bystanders. It's important to recognize this and call it out when it happens. Strive for an environment where everyone in the mob is contributing to the work. 
+Practicing strong-style pairing ensures that the person at the keyboard is not the person coding. If teams stray from this practice, it's easy for the driver to runaway and start coding their own ideas, reducing focused mob participants to easily-distracted bystanders. It's important to recognize this and call it out when it happens. Strive for an environment where everyone in the mob is contributing to the work. 
 
 ## Debate In Code
 
@@ -75,7 +79,7 @@ When debates arise about different ways of approaching a problem, debating in co
 
 ## Shared Team Settings
 
-While mobbing it's important that the team has shared editor settings. The development experience should be the same regardless of whose computer is being used. This avoids losing time and focus adapting to every team member's custom editor plug-ins and keymaps. 
+While mobbing it's important that the team has shared editor settings. The development experience should be the same regardless of whose computer is being used. This avoids the lost time and focus that is required to adapt to individual editor plug-ins and keymaps.
 
 ## Promise Debt
 
@@ -83,9 +87,9 @@ As the mob encounters issues they want to address but don't want to get distract
 
 ## Invite the Boss(es)
 
-Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally it builds empathy for development teams. Again, the benefits of strong-style pairing means that the people at the keyboard don't have to be programmers. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others.
+Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally it builds empathy for development teams throughout the organization. Again, the benefits of strong-style pairing means that the people at the keyboard don't have to be programmers. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others.
 
-This is especially important in organizations that treat developers like cookie-cutter, fungible resources. It is still common to encounter organizations that view software development as the mechanical process of typing commands into a computer, completely removing a developer from their context, their expertise in technology, the domain, and/or the system. These organizations tend to:
+This is especially important in organizations that treat developers like cookie-cutter, fungible resources. Unfortunately, it is still common to encounter organizations that view software development as the mechanical process of typing commands into a computer, completely removing a developer from their context, their expertise in technology, the domain, and/or the system. These organizations tend to:
 
 * Move developers and project work constantly to meet scheduling needs
 * Create schedules dictated by management (consistently fixing both scope and time for projects) 
@@ -95,7 +99,7 @@ This is especially important in organizations that treat developers like cookie-
 
 Giving people in the organization an opportunity to see what programming is really like will go a long way in addressing this organizational dysfunction. Hopefully, with a better understanding of how development teams operate organizations will begin adopting more effective practices.
 
-Even in organizations that lack this level of dysfunction, having leadership and management experience team impediments in real-time will help the leaders help the team resolve the organizational issues causing them.
+Even in organizations that lack this level of dysfunction, having leadership and management experience team impediments in real-time will help the leaders resolve the organizational issues causing them.
 
 ## Conclusion
 
