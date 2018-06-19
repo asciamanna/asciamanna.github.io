@@ -17,7 +17,7 @@ Those who know me know that I prefer pen, paper, and index cards over most workf
 
 ### Experiment with Switching Intervals
 
-For the teams I've worked with I've found that a seven minute switching interval is optimal in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, **I would challenge you to keep the switching interval small and to experiment with making it increasingly smaller.**
+For the teams I've worked with we've found that a seven minute switching interval is optimal in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, **I would challenge you to keep the switching interval small and to experiment with smaller switching intervals.**
 
 ### Disciplined Break Taking 
 
@@ -38,11 +38,11 @@ While mobbing [Llewellyn Falco's strong-style pairing](http://llewellynfalco.blo
 
 ## Encourage Full Team Participation
 
-Since the driver does not need to know how to program, an opportunity emerges to include the entire team in mob sessions. Resist the urge to make mob programming _"only a developer practice."_ Poor collaboration within development teams remains too common in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice can help you reverse that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in Jira issues anymore.
+Since the driver does not need to be a programmer, an opportunity emerges to include the entire team in mob sessions. Resist the urge to make mob programming _"only a developer practice."_ Poor collaboration within development teams remains too common in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice can help reverse that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in Jira issues anymore.
 
 I recommend that everyone take part in a mob session who is required to take a single story or task from start to completion (from concept to cash). Typically this means developers, QA, UX, Operations, and product owners will all take part in mob programming sessions depending on the nature of the work. 
 
-Individuals can still leave and rejoin the mob for any reason, but the mobbing session will continue without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they don't feel like they are contributing. But they are welcome to return to the mobbing session at any point.
+Individuals can still leave and rejoin the mob for any reason, but the session will continue without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they don't feel like they are contributing. But they are encouraged to return to the mobbing session at any point.
 
 ### Introduces WIP limits
 
@@ -58,7 +58,7 @@ Full team mobbing and its reduction in WIP enables the lean concept of single pi
 
 ## Waste Snake
 
-[Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment, increasing WIP and reducing overall productivity. 
+[Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment, increasing WIP, and reducing overall productivity. 
 
 When everyone in a mobbing session has to wait due to an impediment, the pain becomes obviously visible and magnified. When teams are met with impediments while mobbing they document it on the waste snake board. The waste snake items can then be worked off by the team to continuously improve their daily work.
 
@@ -101,13 +101,11 @@ Giving people in the organization an opportunity to see what programming is real
 
 Even in organizations that lack this level of dysfunction, having leadership experience team impediments in real-time will help the them resolve the organizational issues causing the impediments.
 
-## Conclusion
+## Additional Resources
 
 <img src="/img/mobbing-practices.jpg" class="img-responsive" />
 
 These are just a few of the techniques we've found that make for effective mob programming sessions. There are most certainly more, keep experimenting to discover them. 
-
-## Additional Resources
 
 Here are a few resources to learn more about mob programming:
 
