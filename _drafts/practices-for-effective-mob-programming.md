@@ -13,9 +13,9 @@ The topics in this post came from a conversation [Tim Ottinger](https://www.twit
 
 ## Use a Mob Programming Tool
 
-Those who know me know that I prefer pen, paper, and index cards over most workflow tools. However, I cannot overstate the importance of a mob programming tool. There are several that exist, but my favorite is [mobster](http://mobster.cc). The tool encourages consistent switching intervals, ensuring that everyone in the session takes a turn as driver. This increases the overall engagement of the members of the sesion. It also supports disciplined break taking, a very important aspect of mobbing. I've witnessed teams who avoided using a mobbing tool only to fall back on old habits making the mobbing sessions much less effective. 
+Those who know me know that I prefer pen, paper, and index cards over most workflow tools. However, I cannot overstate the importance of a mob programming tool. There are several that exist, but my favorite is [mobster](http://mobster.cc). The tool encourages consistent switching intervals, ensuring that everyone in the session takes a turn as driver. This increases the overall engagement of the members of the session. It also supports disciplined break taking, a very important aspect of mobbing. I've witnessed teams who avoided using a mobbing tool only to fall back on old habits making the mobbing sessions much less effective. 
 
-### Experiment with Switching Intervals, Aim for Shorter
+### Experiment with Switching Intervals
 
 For the teams I've worked with I've found that a seven minute switching interval is optimal in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, **I would challenge you to keep the switching interval small and to experiment with making it increasingly smaller.**
 
@@ -38,11 +38,11 @@ While mobbing [Llewellyn Falco's strong-style pairing](http://llewellynfalco.blo
 
 ## Encourage Full Team Participation
 
-Since the driver does not need to know how to program, an opportunity emerges to include the entire team in mob sessions. Resist the urge to make mob programming _"only a developer practice."_ Poor collaboration within development teams remains too common in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice aims to change that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in Jira issues anymore.
+Since the driver does not need to know how to program, an opportunity emerges to include the entire team in mob sessions. Resist the urge to make mob programming _"only a developer practice."_ Poor collaboration within development teams remains too common in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice can help you reverse that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in Jira issues anymore.
 
 I recommend that everyone take part in a mob session who is required to take a single story or task from start to completion (from concept to cash). Typically this means developers, QA, UX, Operations, and product owners will all take part in mob programming sessions depending on the nature of the work. 
 
-Individuals can still leave and rejoin the mob for any reason, but the mobbing session will continue without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they aren't contributing to the refactoring. But they should rejoin as soon as they can contribute to moving the work forward again. 
+Individuals can still leave and rejoin the mob for any reason, but the mobbing session will continue without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they don't feel like they are contributing. But they are welcome to return to the mobbing session at any point.
 
 ### Introduces WIP limits
 
