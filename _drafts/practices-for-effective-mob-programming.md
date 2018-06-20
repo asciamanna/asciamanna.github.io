@@ -44,7 +44,7 @@ I recommend that everyone take part in a mob session who is required to take a s
 
 Individuals can still leave and rejoin the mob for any reason, but the session continues without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they don't feel like they are contributing. But they are encouraged to return to the mobbing session at any point.
 
-> Mob programming is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer. 
+> Mob programming is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer.    
 > _&mdash; Woody Zuill - Mob Programming - A Whole Team Approach_
 
 ### Introduces WIP limits
