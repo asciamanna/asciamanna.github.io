@@ -17,7 +17,7 @@ Those who know me know that I prefer pen, paper, and index cards over most workf
 
 ### Experiment with Switching Intervals
 
-For the teams I've worked with we've found that a seven minute switching interval is optimal in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, **I would challenge you to keep the switching interval small and to experiment with smaller switching intervals.**
+For the teams I've worked with we've found that a seven minute switching interval is preferred in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, **I would challenge you to keep the switching interval small and to experiment with smaller switching intervals.**
 
 ### Disciplined Break Taking 
 
@@ -40,9 +40,12 @@ While mobbing [Llewellyn Falco's strong-style pairing](http://llewellynfalco.blo
 
 Since the driver does not need to be a programmer, an opportunity emerges to include the entire team in mob sessions. **Resist the urge to make mob programming _"only a developer practice."_** Poor collaboration within development teams remains too common in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice can help reverse that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in Jira issues anymore.
 
-I recommend that everyone take part in a mob session who is required to take a single story or task from start to completion (from concept to cash). Typically this means developers, QA, UX, Operations, and product owners will all take part in mob programming sessions depending on the nature of the work. 
+I recommend that everyone take part in a mob session who is required to take a single story or task from start to completion (from concept to cash). Typically this means developers, QA, UX, Operations, and Product Owners will all take part in mob programming sessions depending on the nature of the work. 
 
-Individuals can still leave and rejoin the mob for any reason, but the session will continue without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they don't feel like they are contributing. But they are encouraged to return to the mobbing session at any point.
+Individuals can still leave and rejoin the mob for any reason, but the session continues without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they don't feel like they are contributing. But they are encouraged to return to the mobbing session at any point.
+
+> Mob programming is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer. 
+> _&mdash; Woody Zuill - Mob Programming - A Whole Team Approach_
 
 ### Introduces WIP limits
 
