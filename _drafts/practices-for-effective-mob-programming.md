@@ -94,7 +94,7 @@ Agile teams value transparency. Inviting organizational leaders to a mobbing ses
 
 This is especially important in organizations that treat developers like cookie-cutter, fungible resources. Unfortunately, it is still common to encounter organizations that view software development as the mechanical process of typing commands into a computer, completely removing a developer from their context, their expertise in technology, the domain, and/or the system. These organizations tend to:
 
-* Move developers and project work constantly to meet scheduling needs
+* Constantly move developers and project work to meet scheduling needs
 * Create schedules dictated by management (consistently fixing both scope and time for projects) 
 * Add developers to projects in a misguided attempt to increase throughput and pull in deadlines
 * Separate development teams from their customers (or any decision making about the work) perpetuating a "masters-and-minions" organization where the development teams are told what to do
