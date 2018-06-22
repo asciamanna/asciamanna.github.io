@@ -9,9 +9,11 @@ tags: ['mob-programming']
 
 For the last several months I've been fortunate to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this coaching is introducing teams to mob programming. We've found that mob programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. 
 
-As word spread in the organization other teams became interested in mob programming. Without the benefit of going through an [Industrial Logic workshop](https://www.industriallogic.com/blog/real-work-workshops/) a team asked for a primer on effective mob programming practices. The topics in this post came from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with one of those teams. Tim recently published a post about this very topic based on that conversation we had with the team, [A Few Tips for Mob Programming](https://www.industriallogic.com/blog/a-few-tips-for-mob-programming/).  
+As word spread in the organization other teams became interested in mob programming. Without the benefit of going through an [Industrial Logic workshop](https://www.industriallogic.com/blog/real-work-workshops/) a team asked for a primer on effective mob programming practices. The topics in this post came from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with one of those teams. Tim recently published a post about this very topic based on that conversation we had with the team: [A Few Tips for Mob Programming](https://www.industriallogic.com/blog/a-few-tips-for-mob-programming/).  
 
 ## Use a Mob Programming Tool
+
+<img class="img-responsive" src="/img/mobster.png" />
 
 Those who know me know that I prefer pen, paper, and index cards over most workflow tools. However, I cannot overstate the importance of a mob programming tool. There are several that exist, but my favorite is [mobster](http://mobster.cc). The tool encourages consistent switching intervals, ensuring that everyone in the session takes a turn as driver. This increases the overall engagement of the members of the session. It also supports disciplined break taking, a very important aspect of mobbing. I've witnessed teams who avoided using a mobbing tool only to fall back on old habits making the mobbing sessions much less effective. 
 
@@ -21,9 +23,9 @@ For the teams I've worked with we've found that a seven minute switching interva
 
 ### Disciplined Break Taking 
 
-An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. Being disciplined about taking frequent breaks helps the mob stay focused and productive during the day. 
-
 <img src="/img/pomodoro.jpg" class="img-responsive" />
+
+An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. Being disciplined about taking frequent breaks helps the mob stay focused and productive during the day. 
 
 ## TDD
 
@@ -70,13 +72,16 @@ When everyone in a mobbing session has to wait due to an impediment, the pain be
 
 ## Learnings Board
 
-Learning happens rapidly when teams work closely together in a mob session. When the team learns new keyboard shortcuts, new facts about the system, the domain, the technology, etc. they document this on a learnings board in the team room. At the end of each day what was learned is captured and sent to each team member.
+Learning happens rapidly when teams work closely together in a mob session. When the team learns new keyboard shortcuts, new facts about the system, the domain, the technology, etc., they document this on a learnings board in the team room. At the end of each day what was learned is captured and sent to each team member.
 
-## Avoid Runaway
+## Avoid Runaway Drivers
+<img class="responsive" src="/img/runaway-med.jpg" />
 
 Practicing strong-style pairing ensures that the person at the keyboard is not the person coding. If teams stray from this practice, it's easy for the driver to runaway and start coding their own ideas, reducing focused mob participants to easily-distracted bystanders. It's important to recognize this and call it out when it happens. Strive for an environment where everyone in the mob is contributing to the work. 
 
 ## Debate In Code
+
+<img class="img-responsive" src="/img/debate.jpg" />
 
 When debates arise about different ways of approaching a problem, debating in code is encouraged. Try both approaches and let the mob decide which way is best. 
 
@@ -88,9 +93,9 @@ While mobbing it's important that the team has shared editor settings. The devel
 
 As the mob encounters issues they want to address but don't want to get distracted from the main goal, they add a card describing the work to a promise debt board. It's important to work these off before the work is considered complete. Preserving and addressing improvement ideas without distracting the mobbing session is the goal of this board.
 
-## Invite the Boss(es)
+## Invite the Leaders 
 
-Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally it builds empathy for development teams throughout the organization. Again, practicing  strong-style pairing enables the addition of non-programmers to the session. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others.
+Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally it builds empathy for development teams. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others.
 
 This is especially important in organizations that treat developers like cookie-cutter, fungible resources. Unfortunately, it is still common to encounter organizations that view software development as the mechanical process of typing commands into a computer, completely removing a developer from their context, their expertise in technology, the domain, and/or the system. These organizations tend to:
 
@@ -100,7 +105,7 @@ This is especially important in organizations that treat developers like cookie-
 * Separate development teams from their customers (or any decision making about the work) perpetuating a "masters-and-minions" organization where the development teams are told what to do
 * Treat development teams as order takers and not problem solvers 
 
-Giving people in the organization an opportunity to see what programming is really like will go a long way in addressing this organizational dysfunction. Hopefully, with a better understanding of how development teams operate organizations will begin adopting more effective practices.
+Giving people in the organization an opportunity to see what software development is really like will go a long way in addressing this organizational dysfunction. Hopefully, with a better understanding of how development teams operate organizations will begin adopting more effective practices.
 
 Even in organizations that lack this level of dysfunction, having leadership experience team impediments in real-time will help the them resolve the organizational issues causing the impediments.
 
