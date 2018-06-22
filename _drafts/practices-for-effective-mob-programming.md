@@ -27,7 +27,7 @@ An important aspect of mob programming is the inclusion of the [Pomodoro techniq
 
 ## TDD
 
-I have only every practiced mob programming when teaching or practicing Test-Driven Development (TDD). While you can practice mob programming without TDD, pairing them together leads to additional benefits. TDD is an important practice in its own right and mobbing is a great way to learn it. Due to TDD's fast feedback cycles (i.e., red, green, refactor, and integrate), achieving flow in TDD does not require loading the entire problem state into a single developer's head. This enables the mob to work in very small batches and take frequent breaks without setbacks.
+We pair mob programming with Test-Driven Development (TDD), often teaching and coaching teams on TDD in mob programming sessions. While you can practice mob programming without TDD, pairing them together leads to additional benefits. TDD is an important practice in its own right and mobbing is a great way to learn it. Due to TDD's fast feedback cycles (i.e., red, green, refactor, and integrate), achieving flow in TDD does not require loading the entire problem state into a single developer's head. This enables the mob to work in very small batches and take frequent breaks without setbacks.
 
 ## Strong-Style Pairing Model
 
