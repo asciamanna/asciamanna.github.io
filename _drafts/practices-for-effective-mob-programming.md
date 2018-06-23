@@ -15,7 +15,7 @@ Tim recently published a post about this very topic based on that conversation w
 
 ## Use a Mob Programming Tool
 
-<img src="/img/mobster-small.png" />
+<img src="/img/mobster-small.png" class="img-responsive" />
 
 Adopting a mob programming tool is one of the simplest things you can do to improve your mob programming sessions. These tools will help to build and maintain good habits when mobbing. There are several that exist, but my favorite is [mobster](http://mobster.cc) written by [Dillon Kearns](http://www.dillonkearns.com/). The tool encourages consistent switching intervals, ensuring that everyone in the session takes a turn as the driver. This increases the overall engagement of the members of the session. It also supports disciplined break taking, a very important aspect of mobbing. Teams who avoid using a mobbing tool often fall back on old habits making mobbing sessions much less effective. 
 
@@ -25,7 +25,7 @@ For the teams I've worked with we've found that a seven minute switching interva
 
 ### Disciplined Break Taking 
 
-<img src="/img/pomodoro.jpg" />
+<img src="/img/pomodoro.jpg" class="img-responsive float-left" style="display:inline" />
 
 An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. Being disciplined about taking frequent breaks helps the mob stay focused and productive during the day. 
 
@@ -65,7 +65,7 @@ Full team mobbing and its reduction in WIP enables the lean concept of single pi
 
 ## Waste Snake
 
-<img src="/img/waste-snake.png" />
+<img src="/img/waste-snake.png" class="img-responsive float-left" style="display:inline" />
 
 [Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment, increasing WIP, and reducing overall productivity. 
 
@@ -79,13 +79,13 @@ When everyone in a mobbing session has to wait due to an impediment, the pain be
 Learning happens rapidly when teams work closely together in a mob session. When the team learns new keyboard shortcuts, new facts about the system, the domain, the technology, etc., they document this on a learnings board in the team room. At the end of each day what was learned is captured and sent to each team member.
 
 ## Avoid Runaway Drivers
-<img src="/img/runaway-med.jpg" />
+<img src="/img/runaway-med.jpg" class="img-responsive" />
 
 Practicing strong-style pairing ensures that the person at the keyboard is not the person coding. If teams stray from this practice, it's easy for the driver to runaway and start coding their own ideas, reducing focused mob participants to easily-distracted bystanders. It's important to recognize this and call it out when it happens. Strive for an environment where everyone in the mob is contributing to the work. 
 
 ## Debate In Code
 
-<img src="/img/debate.jpg" />
+<img src="/img/debate.jpg" class="img-responsive" />
 
 When debates arise about different ways of approaching a problem, debating in code is encouraged. Try both approaches and let the mob decide which way is best. 
 
@@ -113,7 +113,7 @@ Even in organizations that lack this level of dysfunction, having leadership exp
 
 ## Additional Resources
 
-<img src="/img/mobbing-practices.jpg" />
+<img src="/img/mobbing-practices.jpg" class="img-responsive float-left" style="display:inline" />
 
 These are just a few of the techniques we've found that make for effective mob programming sessions. There are most certainly more, keep experimenting to discover them. 
 
