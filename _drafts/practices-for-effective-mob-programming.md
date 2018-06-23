@@ -4,7 +4,7 @@ section-type: post
 title: Practices for Effective Mob Programming
 comments: true
 category: development practices
-tags: ['mob-programming']
+tags: ['mob programming']
 ---
 
 For the last several months I've been fortunate to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this coaching is introducing teams to mob programming. We've found that mob programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. 
