@@ -63,6 +63,8 @@ Full team mobbing and its reduction in WIP enables the lean concept of single pi
 
 ## Waste Snake
 
+<img src="/img/waste-snake.jpg" />
+
 [Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment, increasing WIP, and reducing overall productivity. 
 
 When everyone in a mobbing session has to wait due to an impediment, the pain becomes obviously visible and magnified. When teams are met with impediments while mobbing they document it on the waste snake board. The waste snake items can then be worked off by the team to continuously improve their daily work.
