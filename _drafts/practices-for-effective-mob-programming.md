@@ -17,7 +17,7 @@ Tim recently published a post about this very topic based on that conversation w
 
 <img src="/img/mobster-small.png" class="img-responsive" />
 
-Adopting a mob programming tool is one of the simplest things you can do to improve your mob programming sessions. These tools will help to build and maintain good habits when mobbing. There are several that exist, but my favorite is [mobster](http://mobster.cc) written by [Dillon Kearns](http://www.dillonkearns.com/). The tool encourages consistent switching intervals, ensuring that everyone in the session takes a turn as the driver. This increases the overall engagement of the members of the session. It also supports disciplined break taking, a very important aspect of mobbing. Teams who avoid using a mobbing tool often fall back on old habits making mobbing sessions much less effective. 
+Adopting a mob programming tool is one of the simplest things you can do to improve your mob programming sessions. These tools will help the team build and maintain good habits when mobbing. Several tools exist, but my favorite is [mobster](http://mobster.cc) written by [Dillon Kearns](http://www.dillonkearns.com/). The tool encourages consistent switching intervals, ensuring that everyone in the session takes a turn as the driver. This increases the overall engagement of the members of the session. It also supports disciplined break taking, a very important aspect of mobbing. Teams who avoid using a mobbing tool often fall back on old habits making mobbing sessions much less effective. 
 
 ### Experiment with Switching Intervals
 
@@ -99,7 +99,7 @@ As the mob encounters issues they want to address but don't want to get distract
 
 ## Invite the Leaders 
 
-Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally it builds empathy for development teams. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others.
+Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally it can build empathy for development teams. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others.
 
 This is especially important in organizations that treat developers like cookie-cutter, fungible resources. Unfortunately,it is still common to encounter organizations that view software development as the mechanical process of typing commands into a computer, completely removing a developer from their context, their expertise in technology, the domain, and/or the system. These organizations tend to:
 
@@ -109,7 +109,7 @@ This is especially important in organizations that treat developers like cookie-
 * Separate development teams from their customers (or any decision making about the work) perpetuating a "masters-and-minions" organization where the development teams are told what to do
 * Treat development teams like order takers and not problem solvers 
 
-Even in organizations that lack this level of dysfunction, having leadership experience team impediments in real-time will help the them resolve the organizational issues causing the impediments.
+Even in organizations that lack this level of dysfunction, having leadership experience impediments, and their effects on a team, in real-time will help them resolve the organizational issues causing the impediments.
 
 ## Additional Resources
 
