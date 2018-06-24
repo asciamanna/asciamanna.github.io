@@ -42,9 +42,9 @@ While mobbing [Llewellyn Falco's strong-style pairing](http://llewellynfalco.blo
 
 ## Encourage Full Team Participation
 
-Since the driver does not need to be a programmer, an opportunity emerges to include the entire team in mob sessions. **Resist the urge to make mob programming _"only a developer practice."_** Poorly collaborating development teams remains too common in the industry, having been influenced by decades of waterfall processes and functional reporting silos. This practice can help reverse that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in Jira issues anymore.
+Since the driver does not need to be a programmer, an opportunity emerges to include the entire team in mob sessions. **Resist the urge to make mob programming _"only a developer practice."_** It is common in the industry for development teams to collaborate poorly, if at all, having been influenced by decades of waterfall processes and functional reporting silos. This practice can help reverse that. Once you see how effective teams are when everyone is working on the same thing at the same time, you won't settle for communicating with teammates through comments in Jira issues anymore.
 
-I recommend that everyone take part in a mob session who is required to take a single story or task from start to completion (from concept to cash). Typically this means developers, QA, UX, Operations, and Product Owners will all take part in mob programming sessions depending on the nature of the work. 
+I recommend that everyone take part in a mob session who is required to take a single story or task from start to completion. Typically this means developers, QA, UX, Operations, and Product Owners will all take part in mob programming sessions depending on the nature of the work. 
 
 Individuals can still leave and rejoin the mob for any reason, but the session continues without them. For example, if a large refactoring is taking place some of the non-programmers may want to step away if they don't feel like they are contributing. But they are encouraged to return to the mobbing session at any point.
 
@@ -101,7 +101,7 @@ As the mob encounters issues they want to address but don't want to get distract
 
 Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally it can build empathy for development teams. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others.
 
-This is especially important in organizations that treat developers like cookie-cutter, fungible resources. Unfortunately,it is still common to encounter organizations that view software development as the mechanical process of typing commands into a computer, completely removing a developer from their context, their expertise in technology, the domain, and/or the system. These organizations tend to:
+This is especially important in organizations that treat developers like cookie-cutter, fungible resources. Unfortunately,it is still common to encounter organizations that view software development as the mechanical process of typing commands into a computer; completely removing a developer from their context, their expertise in technology, the domain, and/or the system. These organizations tend to:
 
 * Move developers and project work to meet scheduling needs
 * Create schedules dictated by management (consistently fixing both scope and time for projects) 
