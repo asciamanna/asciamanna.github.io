@@ -17,7 +17,7 @@ Tim recently published a post about this very topic based on that conversation w
 
 <img src="/img/mobster-small.png" class="img-responsive" />
 
-Adopting a mob programming tool is one of the simplest things you can do to improve your mob programming sessions. These tools will help the team build and maintain good habits when mobbing. Several tools exist, but my favorite is [mobster](http://mobster.cc) written by [Dillon Kearns](http://www.dillonkearns.com/). The tool encourages consistent switching intervals, ensuring that everyone in the session takes a turn as the driver. This increases the overall engagement of the members of the session. It also supports disciplined break taking, a very important aspect of mobbing. Teams who avoid using a mobbing tool often fall back on old habits making mobbing sessions much less effective. 
+Adopting a mob programming tool is one of the simplest things you can do to improve your mob programming sessions. These tools will help the team build and maintain good habits while mobbing. Several tools exist, but my favorite is [mobster](http://mobster.cc) written by [Dillon Kearns](http://www.dillonkearns.com/). The tool encourages consistent switching intervals, ensuring that everyone in the session takes a turn as the driver. This increases the overall engagement of the members of the session. It also supports disciplined break taking, a very important aspect of mobbing. Teams who avoid using a mobbing tool often fall back on old habits making mobbing sessions much less effective. 
 
 ### Experiment with Switching Intervals
 
