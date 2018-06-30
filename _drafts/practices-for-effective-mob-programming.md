@@ -9,9 +9,9 @@ tags: ['mob programming']
 
 For the last several months I've been fortunate to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this coaching is introducing teams to mob programming. We've found that mob programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, evolutionary design, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. 
 
-As word spread in the organization, other teams became interested in mob programming. Without the benefit of going through an [Industrial Logic workshop], (https://www.industriallogic.com/blog/real-work-workshops/) a team asked for a primer on effective mob programming practices. The topics in this post came from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with one of those teams. 
+As word spread in the organization, other teams became interested in mob programming. Without the benefit of going through an [Industrial Logic workshop](https://www.industriallogic.com/blog/real-work-workshops/) a team asked for a primer on effective mob programming practices. The topics in this post came from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with one of those teams. 
 
-Tim recently published a post about this very topic based on that conversation we had with the team: [A Few Tips for Mob Programming](https://www.industriallogic.com/blog/a-few-tips-for-mob-programming/).  
+Tim recently published a post about this topic based on that conversation we had with the team: [A Few Tips for Mob Programming](https://www.industriallogic.com/blog/a-few-tips-for-mob-programming/).  
 
 ## Use a Mob Programming Tool
 
@@ -99,11 +99,7 @@ As the mob encounters issues, they want to address but don't want to get distrac
 
 ## Invite the Leaders 
 
-Agile teams value transparency. Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally, it can build empathy for development teams. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others.
-
-
-
-Even in organizations that lack this level of dysfunction, having leadership experience impediments and their effects on a team in real-time, will help them resolve the organizational issues causing the impediments.
+Inviting organizational leaders to a mobbing session is an effective way to teach the organization what developing software is really like. Additionally, it can build empathy for development teams. I've taken part in mobbing sessions with CTOs, CFOs, development managers, product managers, and others. Having leadership experience impediments and their effects on a team in real-time, will help them address the organizational issues causing the impediments.
 
 ## Additional Resources
 
