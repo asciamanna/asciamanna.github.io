@@ -7,7 +7,7 @@ category: development practices
 tags: ['mob programming']
 ---
 
-For the last several months I've been fortunate to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this coaching is introducing teams to mob programming. We've found that mob programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, evolutionary design, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. 
+For the last several months I've been fortunate to get to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this coaching is introducing teams to mob programming. We've found that mob programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, evolutionary design, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. 
 
 As word spread in the organization, other teams became interested in mob programming. Without the benefit of going through an [Industrial Logic workshop](https://www.industriallogic.com/blog/real-work-workshops/) a team asked for a primer on effective mob programming practices. The topics in this post came from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with one of those teams. 
 
@@ -95,7 +95,7 @@ While mobbing it's important that the team has shared editor settings. The devel
 
 ## Promise Debt
 
-As the mob encounters issues, they want to address but don't want to get distracted from the main goal. T hey add a card describing the work to a promise debt board. It's important to work these off before the work is considered complete. Preserving and addressing improvement ideas without distracting the mobbing session is the goal of this board.
+As the mob encounters issues they want to address, but don't want to get distracted from the main goal, they add a card describing the work to a promise debt board. It's important to work these off before the work is considered complete. Preserving and addressing improvement ideas without distracting the mobbing session is the goal of this board.
 
 ## Invite the Leaders 
 
