@@ -7,9 +7,9 @@ category: development practices
 tags: ['mob programming']
 ---
 
-For the last several months I've been fortunate to get to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this coaching is introducing teams to mob programming. We've found that mob programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, evolutionary design, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. 
+For the last several months I've been fortunate to coach development teams with [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge) and [Michael Rieser](https://twitter.com/MichaelRieser). A key aspect of this coaching is introducing teams to mob programming. We've found that mob programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, evolutionary design, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. 
 
-As word spread in the organization, other teams became interested in mob programming. Without the benefit of going through an [Industrial Logic workshop](https://www.industriallogic.com/blog/real-work-workshops/) a team asked for a primer on effective mob programming practices. The topics in this post came from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with one of those teams. 
+As word spread in the organization, other teams became interested in mob programming. Without the benefit of going through an [Industrial Logic workshop](https://www.industriallogic.com/blog/real-work-workshops/) a team asked for a primer on effective mob programming practices. The topics in this post come from a conversation [Tim Ottinger](https://www.twitter.com/tottinge) and I had with one of those teams. 
 
 Tim recently published a post about this topic based on that conversation we had with the team: [A Few Tips for Mob Programming](https://www.industriallogic.com/blog/a-few-tips-for-mob-programming/).  
 
@@ -81,7 +81,7 @@ Learning happens rapidly when teams work closely together in a mob session. When
 ## Avoid Runaway Drivers
 <img src="/img/speeding.jpg" class="img-responsive" />
 
-Practicing strong-style pairing ensures that the person at the keyboard is not the person coding. If teams stray from this practice, it's easy for the driver to runaway and start coding their own ideas. This reduces focused mob participants to easily-distracted bystanders. It's important to recognize this and call it out when it happens. Strive for an environment where everyone in the mob is contributing to the work. 
+Practicing strong-style mobbing ensures that the person at the keyboard is not the person coding. If teams stray from this practice, it's easy for the driver to runaway and start coding their own ideas. This reduces focused mob participants to easily-distracted bystanders. It's important to recognize this and call it out when it happens. Strive for an environment where everyone in the mob is contributing to the work. 
 
 ## Debate In Code
 
