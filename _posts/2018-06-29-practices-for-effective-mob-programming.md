@@ -27,7 +27,7 @@ For the teams I've worked with we've found that a seven minute switching interva
 
 <img src="/img/pomodoro.jpg" class="img-responsive float-left" style="display:inline" />
 
-An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. Being disciplined about taking frequent breaks helps the mob stay focused and productive during the day. For more information about disciplined break taking take a look at the artcile, [Taking Breaks in a Disciplined Way](http://agileotter.blogspot.com/2017/11/taking-breaks-in-disciplined-way.html) by Tim Ottinger.
+An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. Being disciplined about taking frequent breaks helps the mob stay focused and productive during the day. For more information about disciplined break taking take a look at the article, [Taking Breaks in a Disciplined Way](http://agileotter.blogspot.com/2017/11/taking-breaks-in-disciplined-way.html) by Tim Ottinger.
 
 ## TDD
 
