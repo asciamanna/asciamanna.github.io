@@ -67,7 +67,7 @@ Full team mobbing and its reduction in WIP enables the lean concept of single pi
 
 <img src="/img/waste-snake.png" class="img-responsive float-left" style="display:inline" />
 
-[Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment, increasing WIP, and reducing overall productivity. 
+[Tim Ottinger](https://www.twitter.com/tottinge) introduced the concept of a waste snake to the teams we've worked with. Unfortunately, working alone or within functional silos makes it easy to accept waste in the development process. It is common during solo work to start additional tasks when met with an impediment, increasing WIP, and reducing overall productivity. 
 
 When everyone in a mobbing session has to wait due to an impediment, the pain becomes obviously visible and magnified. When teams are met with impediments while mobbing they document it on the waste snake board. The waste snake items can then be worked off by the team to continuously improve their daily work.
 
@@ -76,7 +76,7 @@ When everyone in a mobbing session has to wait due to an impediment, the pain be
 
 ## Learnings Board
 
-Learning happens rapidly when teams work closely together in a mob session. When the team learns new keyboard shortcuts, new facts about the system, the domain, the technology, etc., they document this on a learnings board in the team room. At the end of each day what was learned is captured and sent to each team member.
+Learning happens rapidly when teams work closely together in a mob session. When the team learns new keyboard shortcuts, new facts about the system, the domain, the technology, etc., they document this on a learnings board in the team room. At the end of each day what was learned is captured and sent to each team member. This board should be placed in a location where it is visible to the mob participants. 
 
 ## Avoid Runaway Drivers
 <img src="/img/speeding.jpg" class="img-responsive" />
