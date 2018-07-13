@@ -53,7 +53,7 @@ I am a big proponent of static analysis tools. I think they are an important too
 I've seen developers blindly remove all duplication that triggered issues in static analysis tools. This often results in leaving the code in a worse state by removing incidental duplication. I don't recommend ignoring this issues either, but rather using these code duplication issues to identify areas of the code that require additional investigation for DRY violations.  
 
 ## Three Strikes And You Refactor
-<img src="/img/three-strikes.jpg" class="img-responsive float-left" style="display:inline" />
+<img src="/img/strike-three.jpg" class="img-responsive float-left" style="display:inline" />
 
 It's important to learn to identify the difference between duplication of behavior and incidental duplication. There are heuristics to help prevent mis-identifying duplication, like _[Three Strikes And You Refactor](http://wiki.c2.com/?ThreeStrikesAndYouRefactor)_. The idea behind this heuristic is that you can duplicate something once, but once you are ready to introduce a third instance of the duplicated concept you refactor. At this point you should be armed with enough information about what is the same vs. what is different, helping you devise a better abstraction. Also, it helps ensure that you are removing duplication of behavior and not incidental duplication. 
 
