@@ -39,12 +39,12 @@ Incidental duplication is code that looks the same but represents different beha
 
 Identifying duplicated behavior is a more advanced topic than identifying duplicated syntax, and it often requires a good understanding of the domain being modeled. The first step in identifying duplicated behavior requires finding code that looks the same, so it should comes as no surprise that developers are often refactoring incidental duplication. When trying to identify duplication I'll ask _"are we looking code duplication or knowledge duplication?"_  
 
-As an example consider removing incidental duplication from two objects A and B. This is accomplished by creating a third object C that both object A and B are dependent on. This introduces a coupling (i.e., increases efferent coupling for objects A and B) in objects A and B only to share syntax. As objects A and B continue to move in different directions this coupling needs to be eventually removed (the best case scenario) or continuously managed (the worst case scenario). 
+Let's consider removing incidental duplication from two objects A and B. This is accomplished by creating a third object C that both object A and B are dependent on. This introduces a coupling (i.e., increases efferent coupling for objects A and B) in objects A and B only to share syntax. As objects A and B continue to move in different directions this coupling needs to be eventually removed (the best case scenario) or continuously managed (the worst case scenario). 
 
-### Controller objects as Incidental Duplication
+### Controller Objects Example
 A specific example I've recently encountered was an attempt to remove all similar code from .NET Web API controllers. This resulted in every controller for a specific project inheriting from a base controller that contained the duplicated syntax. As the project progressed and additional teams joined, the hierarchy grew and the ability to understand any endpoint became increasingly more challenging. Learning what a single endpoint did required traversing convoluted code dispersed throughout several objects in a hierarchy.
 
-Not only was inheritance misapplied (used to share syntax and not for specialization) but the code would have been in a much better state if the incidental duplication was left in each controller. This is because each controller represented a different behavior in the system. 
+Not only was inheritance misapplied in this example (used to share syntax and not for specialization) but the code would have been in a much better state if the incidental duplication was left in each controller. This is because each controller represented a different behavior in the system. 
 
 ## Static Analysis Tooling
 I am a big proponent of static analysis tools. I think they are an important tool for software organizations who want to maintain the quality of their software. But relying on them to identify duplication is problematic. This is one area where static analysis tools and code analyzers don't excel. They can only detect duplication of syntax not duplication of knowledge. 
