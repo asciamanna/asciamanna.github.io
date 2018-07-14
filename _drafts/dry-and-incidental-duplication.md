@@ -10,7 +10,7 @@ tags: ['code smells']
 I remember being introduced to functions early in my introductory programming classes. This introduction came with a warning that code duplication was VERY bad, and functions were a way to avoid duplicating code in a program. I assume that some of you who first learned to program in a classroom setting have had similar experiences. And while I agree that duplication is indeed bad, identifying the kind of duplication we should be avoiding is a bit more challenging.
 
 ## The First Code Smell
-<img src="/img/refactoringBook.jpg" class="img-responsive float-left" style="display:inline" />
+<img src="/img/refactoring-book-small.jpg" class="img-responsive float-left" style="display:inline" />
 
 The very first code smell described in Chapter Three of [Martin Fowler's](http://www.martinfowler.com) Refactoring book is code duplication. Martin Fowler and [Kent Beck](https://www.twitter.com/kentbeck) thought that code duplication was bad enough that it warranted being the first code smell discussed. There are several heuristics and principles for dealing with duplication. The most well known being the DRY principle. 
 
@@ -52,7 +52,7 @@ I am a big proponent of static analysis tools. I think they are an important too
 I've seen developers blindly remove all duplication that triggered issues in static analysis tools. This often results in leaving the code in a worse state by removing incidental duplication. I don't recommend ignoring these issues either, but rather using these code duplication issues to identify areas of the code that require additional investigation for DRY violations.  
 
 ## Three Strikes And You Refactor
-<img src="/img/strike-three.jpg" class="img-responsive float-left" style="display:inline" />
+<img src="/img/strike-three-small.jpg" class="img-responsive float-left" style="display:inline" />
 
 It's important to learn to identify the difference between duplication of behavior and incidental duplication. There are heuristics to help prevent mis-identifying duplication, like _[Three Strikes And You Refactor](http://wiki.c2.com/?ThreeStrikesAndYouRefactor)_. This heuristic is often stated as _"It is better to have some duplication rather than a bad abstraction."_ The idea behind this heuristic is that you can duplicate something once, but when you are ready to introduce a third instance of the duplicated concept you refactor. At this point you should be armed with information about the similarities and differences of each instance, helping you design a better abstraction. This practice also helps avoid incidental duplication removal by not blindly removing any similarities encountered in the code, but rather waiting for shared concepts to emerge.  
 
