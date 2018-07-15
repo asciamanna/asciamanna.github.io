@@ -7,7 +7,7 @@ category: software craft
 tags: ['code smells']
 ---
 
-I remember being introduced to functions early in my introductory programming classes. This introduction came with a warning that code duplication was VERY bad, and functions were a way to avoid duplicating code in a program. I assume that some of you who first learned to program in a classroom setting have had similar experiences. And while I agree that duplication is indeed bad, identifying the kind of duplication we should be avoiding is a bit more challenging.
+I remember being introduced to functions early in my first programming classes. This introduction came with a warning that code duplication was VERY bad, and functions were a way to avoid duplicating code in a program. I assume that some of you who first learned to program in a classroom setting have had similar experiences. And while I agree that duplication is a problem, identifying the kind of duplication we should be avoiding is a bit more challenging.
 
 ## The First Code Smell
 <img src="/img/refactoring-book-small.jpg" class="img-responsive float-left" style="display:inline" />
