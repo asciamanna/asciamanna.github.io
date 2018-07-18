@@ -21,7 +21,7 @@ Adopting a mob programming tool is one of the simplest things you can do to impr
 
 ### Experiment with Switching Intervals
 
-For the teams I've worked with we've found that a seven minute switching interval is preferred in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, **I would challenge you to keep the switching interval small and to experiment with smaller switching intervals.**
+For the teams I've worked with we've found that a seven minute switching interval is preferred in a mob session with six to eight people. This can be modified in mobster to tune both the driving and break duration. I recommend adjusting the time based on what works best for your circumstances. However, **I would challenge you to keep the switching interval small and to experiment with smaller switching intervals.** Shorter intervals help the mob participants stay engaged and focused. 
 
 ### Disciplined Break Taking 
 
@@ -61,7 +61,7 @@ When the entire team works together on a single piece of work, First Time Throug
 
 ### Single Piece Flow
 
-Full team mobbing and its reduction in WIP enables the lean concept of single piece flow (or [one piece flow](http://www.kaizenworld.com/kaizen/one-piece-flow.html)). Often individuals are so accustomed to being busy they will start multiple streams of work in an effort to _"stay productive"_, or so they think. This results in the opposite of the intended effect, reducing the performance of the overall team by increasing WIP which increases inventory and decreases throughput. It's important to remind teams in these situations to **_"watch the baton not the runners,"_**, to focus on the flow of the work through the system and not on individual busyness. 
+Full team mobbing and its reduction in WIP enables the lean concept of single piece flow (or [one piece flow](http://www.kaizenworld.com/kaizen/one-piece-flow.html)). Often individuals are so accustomed to being busy they will start multiple streams of work in an effort to _"stay productive"_. This results in the opposite of the intended effect, reducing the performance of the overall team by increasing WIP which increases inventory and decreases throughput. It's important to remind teams in these situations to **_"watch the baton not the runners,"_**, to focus on the flow of the work through the system and not on individual busyness. 
 
 ## Waste Snake
 
