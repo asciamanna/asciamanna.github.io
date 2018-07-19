@@ -87,7 +87,7 @@ Practicing strong-style mobbing ensures that the person at the keyboard is not t
 
 <img src="/img/debate.jpg" class="img-responsive" />
 
-When debates arise about different ways of approaching a problem, debating in code is encouraged. Try both approaches and let the mob decide which way is best. 
+When debates arise about different ways of solving a problem, debating in code is encouraged. Try both approaches and let the mob guide the solution. It is easy to get lost debating abstract ideas. Implementing them often results in better solutions emerging from the collaboration of the mob.
 
 ## Shared Team Settings
 
