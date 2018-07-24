@@ -3,7 +3,7 @@ layout: default
 title: "" 
 ---
 ### PhillyXP - Ping Pong Pair Programming
-_February 1, 2018_
+_February 1, 2018 - Radnor, PA_
 
 Thanks for attending (or otherwise being interested) in my [PhillyXP](https://www.meetup.com/PhillyXP/) talk about Ping Pong Pair Programming. [Nick Goede](https://nickgoede.com) and I first gave this talk at [the Heart of Agile - Pittsburgh](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/) Conference in 2017, and we're happy we have been able to improve it and share it with you. 
 
