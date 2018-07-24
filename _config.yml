@@ -5,7 +5,7 @@ name: Anthony Sciamanna
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
-url: http://anthonysciamanna.com
+url: https://anthonysciamanna.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -31,8 +31,8 @@ google-tracking-id: "UA-49263473-1"
 lang: "en"
 author: "Anthony Sciamanna"
 title: "Anthony Sciamanna"
-description: "Anthony Sciamanna's Software Development Blog. Focusing on eXtreme Programming (XP), Modern Agile, Lean Software Development, DevOps, and team improvement"
-keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, pair programming, agile, refactoring"
+description: "Anthony Sciamanna's Software Development Blog. Focusing on eXtreme Programming (XP), Lean Software Development, Modern Agile, DevOps,continuous improvement and experimentation."
+keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, microtesting, pair programming, mob programming agile, refactoring, no estimates"
 favicon: "/img/favicon.ico"
 
 ################
