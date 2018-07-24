@@ -18,4 +18,4 @@ The code repository used for the workshop can be cloned from [github](https://gi
 
 I referenced this study by [Alistair Cockburn](https://twitter.com/TotherAlistair) and Laurie Williams, [The Costs and Benefits of Pair Programming](https://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF). I also mentioned my blog post about [Ping Pong Pair Programming]({{site.baseurl}}{% post_url 2015-04-18-ping-pong-pair-programming%}).
 
-Since this talk I've written in detail about pair programming. Check out the following articles, [Misconceptions of Pair Programming]({{site.baseurl}}{% 2017-11-30-misconceptions-of-pair-programming %}) and [The Benefits of Pair Programming]({{site.baseurl}}{% 2017-12-31-benefits-of-pair-programming %}).
+Since this talk I've written in detail about pair programming. Check out the following articles, [Misconceptions of Pair Programming]({{site.baseurl}}{% post_url 2017-11-30-misconceptions-of-pair-programming %}) and [The Benefits of Pair Programming]({{site.baseurl}}{% post_url 2017-12-31-benefits-of-pair-programming %}).
