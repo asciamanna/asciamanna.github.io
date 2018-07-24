@@ -2,7 +2,7 @@
 layout: default
 title: ""
 ---
-### Heart of Agile Conference - The Ultimate Developer Collaboration Technique - Ping Pong Pair Programming
+### Heart of Agile Conference - The Ultimate Developer Collaboration Technique : Ping Pong Pair Programming
 _April 27, 2017 - Pittsburgh, PA_
 
 Thanks for attending my talk about Ping Pong Pair Programming at [the Heart of Agile - Pittsburgh](http://heartofagile.com/heart-of-agile-conferences/heart-of-agile-pittsburgh-2017/) Conference in 2017. 
