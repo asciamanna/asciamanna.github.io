@@ -7,4 +7,5 @@ Here you can find a listing of the talks I've given. Each page contains a link t
 
 {:.table}
 | April 27, 2017 | [The Ultimate Developer Collaboration Technique: Ping Pong Pair Programming - Heart of Agile Pittsburgh]({{site.baseurl}}{%  link talks/heart-of-agile-ping-pong-pair-programming/index.md %}) |
+| October 27, 2017 | [Pair Programming & TDD Workshop - PhillyXP]({{site.baseurl}}{% link talks/phillyxp-pair-programming-tdd-workshop.md %}) |
 | February 1, 2018 | [Ping Pong Pair Programming - PhillyXP]({{site.baseurl}}{% link talks/phillyxp-ping-pong-pair-programming/index.md %}) |
