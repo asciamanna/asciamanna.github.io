@@ -15,6 +15,6 @@ Hopefully we piqued your interest in Bryan Helmkamp's fantastic  talk from Baruc
 
 If you are interested in seeing the code we produced for the interactive Ping Pong Pair Programming demo (and any updates since the talk) the repository can be found [here](https://github.com/asciamanna/ping-pong-pair-programming-talk).
 
-For more information about Ping Pong Pair Programming you can read my blog post about the topic [here](http://anthonysciamanna.com/2015/04/18/ping-pong-pair-programming.html).
+For more information about Ping Pong Pair Programming you can read my blog post about the topic [here]({{site.baseurl}}{% post_url 2015-04-18-ping-pong-pair-programming %}).
 
 Do you have questions about the talk or Ping Pong Pair Programming in general? Or maybe just want to chat with us? The best way to get in touch with us is on twitter. Feel free to contact me ([@asciamanna](https://www.twitter.com/asciamanna)) or Nick ([@ngoede](https://www.twitter.com/ngoede)) there. 
