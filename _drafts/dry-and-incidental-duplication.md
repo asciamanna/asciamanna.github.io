@@ -7,7 +7,7 @@ category: software craft
 tags: ['code smells']
 ---
 
-I remember being introduced to functions early in my first programming classes. This introduction came with a warning that code duplication was VERY bad, and functions were a way to avoid duplicating code in a program. I assume that some of you who first learned to program in a classroom setting have had similar experiences. And while I agree that duplication is a problem, identifying the kind of duplication we should be avoiding is a bit more challenging.
+I remember being introduced to functions early in my first programming classes. This introduction came with a warning that code duplication was VERY bad, and functions were a way to avoid duplicating code in a program. I assume that some of you who first learned to program in a classroom setting have had similar experiences. And while I agree that duplication is often a problem, identifying the kind of duplication we should be avoiding is a bit more challenging.
 
 ## The First Code Smell
 <img src="/img/refactoring-book-small.jpg" class="img-responsive float-left" style="display:inline" />
@@ -27,7 +27,7 @@ The DRY principle, **_Don't Repeat Yourself_**, is aimed at reducing duplication
 > _&mdash;Andy Hunt & Dave Thomas - The DRY Principle - The Pragmatic Programmer_  
 
 ## Removing Duplication of Knowledge
-When applied appropriately, removing duplication improves the quality of the code, making the code easier to change and maintain. This makes future modifications easier to implement, verify, and deploy safely. Removing duplicated code reduces the probability that a single behavior change necessitates changes in many disparate locations. These types of changes, by their nature, are risky and increase the opportunity to introduce issues since the surface area of the affected code is large.  
+When applied appropriately, removing duplication improves the quality of the code, making the code easier to change and maintain. This makes future modifications easier to implement, verify, and deploy safely. Removing duplication reduces the probability that a single behavior change necessitates changes in many disparate locations. These types of changes, by their nature, are risky and increase the opportunity to introduce issues since the surface area of the affected code is large.  
 
 ## DRY Misapplied
 
@@ -37,14 +37,14 @@ Unfortunately, DRY gets misapplied quite often. I recommend reading the definiti
 
 Incidental duplication is code that looks the same but represents different behaviors in the system. It is a duplication of code or syntax  that doesn't duplicate behavior, knowledge, nor system concepts. Those who misapply DRY often don't understand the concept of incidental duplication. Removing incidental duplication creates the opposite of the desired effect. It actually makes the code harder to understand and harder to change in the future. 
 
-Identifying duplicated behavior is a more advanced topic than identifying duplicated syntax, and it often requires a good understanding of the domain being modeled. The first step in identifying duplicated behavior requires finding code that looks the same, so it should comes as no surprise that developers are often refactoring incidental duplication. When trying to identify duplication I'll ask _"are we looking code duplication or knowledge duplication?"_  
+Identifying duplicated behavior is a more advanced topic than identifying duplicated syntax, and it often requires a good understanding of the domain being modeled. The first step in identifying duplicated behavior requires finding code that looks the same, so it should comes as no surprise that developers are often refactoring incidental duplication. When trying to identify duplication I'll ask _"are we looking at syntax duplication or knowledge duplication?"_  
 
 Let's consider removing incidental duplication from two objects A and B. This is accomplished by creating a third object C that both object A and B are dependent on. This introduces a coupling (i.e., increases efferent coupling for objects A and B) in objects A and B only to share syntax. As objects A and B continue to move in different directions this coupling needs to be eventually removed (the best case scenario) or continuously managed (the worst case scenario). 
 
 ### Controller Objects Example
-A specific example I've recently encountered was an attempt to remove all similar code from .NET Web API controllers. This resulted in every controller for a specific project inheriting from a base controller that contained the duplicated syntax. As the project progressed and additional teams joined, the hierarchy grew and the ability to understand any endpoint became increasingly more challenging. Learning what a single endpoint did required traversing convoluted code dispersed throughout several objects in a hierarchy.
+A specific example I've recently encountered was an attempt to remove all similar code from .NET Web API controllers. This resulted in every controller for a specific project inheriting from a base controller that contained the duplicated syntax. As the project progressed and additional teams joined, the hierarchy grew and the ability to understand any endpoint that the controllers implemented became increasingly more challenging. Learning what a single endpoint did required traversing convoluted code dispersed throughout several objects in a hierarchy.
 
-Not only was inheritance misapplied in this example (used to share syntax and not for specialization) but the code would have been in a much better state if the incidental duplication was left in each controller. This is because each controller represented a different behavior in the system. 
+Not only was inheritance misapplied in this example (used to share syntax and not for specialization of related objects) but the code would have been in a much better state if the incidental duplication was left in each controller. This is because each controller represented a different behavior in the system. 
 
 ## Static Analysis Tooling
 I am a big proponent of static analysis tools. I think they are an important tool for software organizations who want to maintain the quality of their software. But relying on them to identify duplication is problematic. This is one area where static analysis tools and code analyzers don't excel. They can only detect duplication of syntax not duplication of knowledge. 
@@ -54,6 +54,6 @@ I've seen developers blindly remove all duplication that triggered issues in sta
 ## Three Strikes And You Refactor
 <img src="/img/strike-three-small.jpg" class="img-responsive float-left" style="display:inline" />
 
-It's important to learn to identify the difference between duplication of behavior and incidental duplication. There are heuristics to help prevent mis-identifying duplication, like _[Three Strikes And You Refactor](http://wiki.c2.com/?ThreeStrikesAndYouRefactor)_. This heuristic is often stated as _"It is better to have some duplication rather than a bad abstraction."_ The idea behind this heuristic is that you can duplicate something once, but when you are ready to introduce a third instance of the duplicated concept you refactor. At this point you should be armed with information about the similarities and differences of each instance, helping you design a better abstraction. This practice also helps avoid incidental duplication removal by not blindly removing any similarities encountered in the code, but rather waiting for shared concepts to emerge.  
+It's important to learn to identify the difference between duplication of behavior and incidental duplication. There are heuristics to help prevent mis-identifying duplication, like _[Three Strikes And You Refactor](http://wiki.c2.com/?ThreeStrikesAndYouRefactor)_. This heuristic is often stated as _"It is better to have some duplication rather than a bad abstraction."_ The idea behind this heuristic is that you can duplicate something once, but when you are ready to introduce a third instance of the duplicated concept you refactor. At this point you should be armed with information about the similarities and differences of each instance, helping you design a better abstraction. This practice also helps avoid incidental duplication removal by not blindly removing similarities encountered in the code, but rather waiting for shared concepts to emerge.  
 
 [^1]: [Andy Hunt and Dave Thomas interviewed by Bill Venners](https://www.artima.com/intv/dry.html).
