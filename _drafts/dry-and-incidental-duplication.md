@@ -22,7 +22,7 @@ The very first code smell described in Chapter Three of [Martin Fowler's](http:/
 
 <img src="/img/pragmatic-programmer.jpg" class="img-responsive float-left" style="display:inline" />
 
-The DRY principle is credited to Andy Hunt and Dave Thomas. The term first appeared in their book The Pragmatic Programmer, where they gave the principle its name. But the ideas behind the principle certainly predated the book. 
+The DRY principle is credited to Andy Hunt and Dave Thomas. The term first appeared in their book The Pragmatic Programmer, where they gave the principle its name. But the ideas behind the principle have certainly predated the book. 
 
 The DRY principle is aimed at reducing duplication and repetition via abstractions to remove redundancy from systems. In fact, Andy and Dave have lamented that most people misunderstood the principle to include only code duplication[^1]. It was meant to encompass more than just source code; including database schemas, test plans, build systems, documentation, etc.
 
@@ -37,25 +37,25 @@ When applied appropriately, removing duplication improves the quality of the cod
 
 Unfortunately, DRY gets misapplied quite often. I recommend reading the definition of DRY again and taking note of the emphasized text. If you focus on avoiding duplication of behavior or concepts you won't fall into the trap of removing **_incidental duplication_**.
 
-### Incidental Duplication 
+## Incidental Duplication 
 
-Incidental duplication is code that looks the same but represents different behaviors in the system. It is a duplication of code or syntax that doesn't duplicate behavior, knowledge, nor system concepts. Those who misapply DRY often don't understand the concept of incidental duplication. Removing incidental duplication creates the opposite of the desired effect. It actually makes the code harder to understand and harder to change in the future. 
+Incidental duplication is code that looks the same but represents different behaviors in the system. It is a duplication of code or syntax that doesn't duplicate behavior, knowledge, nor system concepts. Those who misapply DRY often don't understand the concept of incidental duplication. Removing incidental duplication creates the opposite of the desired effect. It makes the code harder to understand and harder to change in the future. 
 
-Identifying duplicated behavior is a more advanced topic than identifying duplicated syntax, and it often requires a good understanding of the domain being modeled. The first step in identifying duplicated behavior requires finding code that looks the same, so it should comes as no surprise that developers are often removing incidental duplication. When trying to identify duplication I'll ask _"are we looking at syntax duplication or knowledge duplication?"_
+Identifying duplicated behavior is a more advanced topic than identifying duplicated syntax, and it often requires a good understanding of the domain being modeled in the code. The first step in identifying duplicated behavior requires finding code that looks the same, so it should comes as no surprise that developers often end up removing incidental duplication. When trying to identify duplication I'll ask _"are we looking at syntax duplication or knowledge duplication?"_
 
 ### The Problem with Removing Incidental Duplication
 
-Let's consider removing incidental duplication from two objects A and B. This is accomplished by creating a third object C that both object A and B are dependent on. This introduces a coupling (i.e., increases efferent coupling) in objects A and B only to share syntax. As objects A and B continue to move in different directions this coupling needs to be eventually removed (the best case scenario) or continuously managed (the worst case scenario). 
+Let's consider removing incidental duplication from two objects A and B. This is accomplished by creating a third object C that both object A and B are dependent on. This introduces a coupling (i.e., increases efferent coupling) in objects A and B only to share syntax. As objects A and B continue to evolve in different directions this coupling needs to be eventually removed (the best case scenario) or continuously managed (the worst case scenario). 
 
 ### Controller Objects Example
 
-A specific example I've recently encountered was an attempt to remove all similar looking code from .NET Web API controllers. This resulted in every controller for a specific project inheriting from a base controller that contained the duplicated syntax. As the project progressed and additional teams joined, the hierarchy grew and the ability to understand any endpoint that the controllers implemented became increasingly more challenging. Learning what a single endpoint did required traversing convoluted code dispersed throughout several objects in a hierarchy.
+A specific example I've recently encountered was an attempt to remove all similar looking code from .NET Web API controllers. This resulted in every controller for a new project inheriting from a base controller that contained the duplicated syntax. As the project progressed and additional teams joined, the hierarchy grew and the ability to understand any endpoint that the controllers implemented became increasingly more challenging. Learning what a single endpoint did required traversing convoluted code dispersed throughout several objects in a hierarchy.
 
-Not only was inheritance misapplied in this example (i.e., it was used to share syntax and not for the specialization of related objects) but the code would have been in a much better state if the incidental duplication was left in each controller. This is because each controller represented a different and unique behavior in the system. 
+Not only was inheritance misapplied in this example (i.e., it was used to share syntax and not for the specialization of related objects) but the code would have been in a much better state if the incidental duplication was left in each controller. This is because each controller represented a different and unique behavior in this system. 
 
 ## Static Analysis & Duplication
 
-I am a big proponent of static analysis tools. I think they are an important tool for software organizations who want to maintain the quality of their software. But relying on them to identify duplication is problematic. This is one area where static analysis tools and code analyzers don't excel. They can only detect duplication of syntax not duplication of knowledge. 
+I am a big proponent of static analysis tools. I think they are an important tool for software organizations who want to maintain the quality of their software. But relying on them to identify duplication is problematic. This is one area where static analysis tools and code analyzers do not excel. They can only detect duplication of syntax not duplication of knowledge. 
 
 I've seen developers blindly remove all duplication that triggered issues in static analysis tools. This often results in leaving the code in a worse state by removing incidental duplication. I don't recommend ignoring these issues either, but rather using these code duplication issues to identify areas of the code that require additional investigation for DRY violations.  
 
