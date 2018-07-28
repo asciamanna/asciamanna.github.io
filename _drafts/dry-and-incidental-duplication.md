@@ -20,6 +20,8 @@ The very first code smell described in Chapter Three of [Martin Fowler's](http:/
 
 ## DRY
 
+<img src="/img/pragmatic-programmer.jpg" class="img-responsive float-left" style="display:inline" />
+
 The DRY principle is credited to Andy Hunt and Dave Thomas. The term first appeared in their book The Pragmatic Programmer, where they gave the principle its name. But the ideas behind the principle certainly predated the book. 
 
 The DRY principle is aimed at reducing duplication and repetition via abstractions to remove redundancy from systems. In fact, Andy and Dave have lamented that most people misunderstood the principle to include only code duplication[^1]. It was meant to encompass more than just source code; including database schemas, test plans, build systems, documentation, etc.
