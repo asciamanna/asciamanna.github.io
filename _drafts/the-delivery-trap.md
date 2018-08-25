@@ -52,7 +52,7 @@ All of these efforts to shift the real improvements outside of teams masks the p
 
 To break this cycle companies needs to make a major change and adopt practices and values that can undo the delivery trap mindset. These can be found in Lean Manufacturing, Lean Software Development, DevOps, and Modern Agile.
 
-<img src="/img/modern-agile-wheel.png" alt="Modern Agile Values Wheel" class="img-responsive modern-agile" />
+<img src="/img/modern-agile-wheel.png" alt="Modern Agile Values Wheel" class="modern-agile" />
 
 If an organization makes a serious commitment to the four principles of [Modern Agile](http://modernagile.org/), the [Three Ways of DevOps](https://itrevolution.com/the-three-ways-principles-underpinning-devops/), or the theories found in Lean Software Development there will be push to make autonomous teams who make the decisions about their work and improve their work - since they are the ones who are most qualified to do so. There will be a shift to really move authority to the information, and they will get the best out of their employees.
 

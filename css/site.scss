@@ -115,8 +115,7 @@ blockquote p {
 }
 
 .modern-agile {
-  border: 0;
-  max-width: 40%;
-  height: auto;
-
+  border: 0 !important;
+  max-width: 30% !important;
+  height: auto !important;
 }
