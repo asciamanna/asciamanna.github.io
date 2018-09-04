@@ -21,7 +21,7 @@ Too often velocity is treated not as a short-term planning tool for the team, bu
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sprints aren&#39;t clown cars. They&#39;re like taxis-only fit so much. Out with six friends: two taxis. ^ <a href="https://twitter.com/AgileEvolution_?ref_src=twsrc%5Etfw">@AgileEvolution_</a> <a href="https://t.co/sBCAeHIFoy">pic.twitter.com/sBCAeHIFoy</a></p>&mdash; AgileFortune (@AgileFortune) <a href="https://twitter.com/AgileFortune/status/752552139935903746?ref_src=twsrc%5Etfw">July 11, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Additionally, it is common to see long term projections based on velocity and estimates, which in turn creates a unending pressure to keep velocity high and a focus only on new feature work. If developers are judged by velocity, output, and estimates, they will avoid any activities that could put these at risk. It just so happens that they avoid the very same activities of high-performing teams: 
+Additionally, it is common to see long term projections based on velocity and estimates, which in turn creates an unending pressure to keep velocity high and a focus solely on new feature work. If developers are judged by velocity, output, and estimates, they will avoid any activities that could put these at risk. It just so happens that they avoid the very same activities that are common to high-performing teams: 
 * Continuous Improvement
 * Continuous Learning
 * Experimentation
