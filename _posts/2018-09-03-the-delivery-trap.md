@@ -49,7 +49,7 @@ _The architecture and overall design of the system hasn't improved in years, we 
 
 ## Forgetting the Lessons of Lean
 
-One of the many things we've learned from Lean Manufacturing, and later Lean Software Development, is that the best way to improve the work is for the improvements to come from those doing the work. They are the experts and closest to the work. Sayings like _"Move authority to the information"_ have become important mantras to remind people of the importance of this practice.
+One of the many things we've learned from Lean Manufacturing, and later Lean Software Development, is that the best way to improve the work is for the improvements to come from those doing the work. They are the experts and closest to the work. Sayings like _"Move authority to the information"_ have become mantras to remind people of the importance of this practice.
 
 All of these misguided efforts to shift the real improvements outside of teams masks the problem and continues the cycle of the delivery trap. Developers are told they should improve the system, but are incentivized to do just the opposite and keep churning out output. Developers are stuck in a vicious cycle until they've had enough and leave to find employment elsewhere. I've seen too many great software developers leave companies, feeling undervalued by the organization since they were treated as typists and order takers; their only value being an extra set of hands to meet organizational deadlines. 
 
