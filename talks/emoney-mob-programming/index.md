@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "" 
+title: "eMoney Mob Programming Talk" 
 ---
 ### eMoney Advisor - Agile Month - Mob Programming: Whole Team Collaboration 
 _September 25, 2018 - Radnor, PA_

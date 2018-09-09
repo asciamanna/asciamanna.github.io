@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "" 
+title: "PhillyXP - Ping Pong Pair Programming Talk" 
 ---
 ### PhillyXP - Ping Pong Pair Programming
 _February 1, 2018 - Radnor, PA_

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ""
+title: "PhillyXP - Pair Programming & TDD Workshop"
 ---
 
 ### PhillyXP - Pair Programming & TDD Workshop

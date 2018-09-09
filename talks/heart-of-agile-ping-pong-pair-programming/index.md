@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ""
+title: "Heart of Agile 2017 Talk"
 ---
 ### Heart of Agile Conference - The Ultimate Developer Collaboration Technique : Ping Pong Pair Programming
 _April 27, 2017 - Pittsburgh, PA_
