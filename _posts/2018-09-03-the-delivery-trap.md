@@ -27,7 +27,7 @@ Additionally, it is common to see long term projections based on velocity and es
 * Experimentation
 * Short Feedback Cycles 
 
-These teams are now hamstrung, with no hope of improving the organization, their work, or the quality of their codebase in any substantive way. They are no longer knowledge workers, only a vessel to provide an additional set of hands banging on a keyboard. I often refer to these folks as company typists. 
+These teams are now hamstrung, with no hope of improving the organization, their work, or the quality of their codebase in any substantive way. They are no longer knowledge workers, only a set of hands banging on a keyboard. I often refer to these folks as company typists. 
 
 > Improving daily work is even more important than doing daily work  
 > &mdash; Gene Kim - The DevOps Handbook
