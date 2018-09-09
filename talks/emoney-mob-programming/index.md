@@ -16,6 +16,6 @@ Tim Ottinger's article [Programming is Mostly Thinking](http://agileotter.blogsp
 We reference Lean Software Development several times in our talk. It's worthwhile to take a look at the wikipedia page on [Lean Software Development](https://en.wikipedia.org/wiki/Lean_software_development). It will explain, among other things, the eight forms of waste from lean and how they are applied to software development. Additionally, I'd recommend reading Mary and Tom Poppendieck's book, Lean Software Development. 
 <img src="/img/lean-software-development.jpg" alt="Lean Software Development by Mary and Tom Poppendieck" class="img-responsive" />
 
-Take a look at the article I wrote about mob programming practices to continue improving and adapting your mob programming sessions, [Practices for Effective Mob Programming]({{site.baseurl}}{% post_url 2018-06-29-practices-for-effective-mob-programming %}.
+Take a look at the article I wrote about mob programming practices to continue improving and adapting your mob programming sessions, [Practices for Effective Mob Programming]({{site.baseurl}}{% post_url 2018-06-29-practices-for-effective-mob-programming %}).
 
 Do you have questions about the talk or Mob Programming in general? Or maybe just want to chat with us? The best way to get in touch with us is on twitter. Feel free to contact me ([@asciamanna](https://www.twitter.com/asciamanna)) or Nick ([@ngoede](https://www.twitter.com/ngoede)) there. 
