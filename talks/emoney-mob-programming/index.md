@@ -8,7 +8,7 @@ _September 25, 2018 - Radnor, PA_
 Here you will find all of the material referenced in the Mob Programming talk, as well as additional resources to continue learning about mob programming. 
 
 ## Slide Deck
-Embed Speakerdeck slides here. 
+<script async class="speakerdeck-embed" data-id="f4865f19ea6d4d1da099d7ae0c059bf6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## A Whole Team Approach
 
