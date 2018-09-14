@@ -27,11 +27,15 @@ For the teams I've worked with we've found that a seven minute switching interva
 
 <img src="/img/pomodoro.jpg" class="img-responsive float-left" style="display:inline" />
 
-An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. Being disciplined about taking frequent breaks helps the mob stay focused and productive during the day. For more information about disciplined break taking take a look at the article, [Taking Breaks in a Disciplined Way](http://agileotter.blogspot.com/2017/11/taking-breaks-in-disciplined-way.html) by Tim Ottinger.
+An important aspect of mob programming is the inclusion of the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) for disciplined break taking. The Pomodoro technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work intervals, traditionally 25 minutes in length, separated by short breaks. The intervals are named __*pomodoros*__ the plural of the Italian word for tomato, named after the tomato-shaped kitchen timer. 
 
-## TDD
+Being disciplined about taking frequent breaks helps the mob stay focused and productive during the day. For more information about disciplined break taking take a look at the article, [Taking Breaks in a Disciplined Way](http://agileotter.blogspot.com/2017/11/taking-breaks-in-disciplined-way.html) by Tim Ottinger.
 
-We pair mob programming with TDD, often teaching and coaching teams on TDD in mob programming sessions. While you can practice mob programming without TDD, pairing them together leads to additional benefits. TDD is an important practice in its own right and mobbing is a great way to learn it. Due to TDD's fast feedback cycles (i.e., red, green, refactor, and integrate), achieving flow in TDD does not require loading the entire problem state into a single developer's head. This enables the mob to work in very small batches and take frequent breaks without setbacks.
+## Test-Driven Development
+
+<img src="/img/tdd.jpg" class="img-responsive float-left" style="display:inline" />
+
+We pair mob programming with Test-Driven Development (TDD), often teaching and coaching teams on TDD in mob programming sessions. While you can practice mob programming without TDD, pairing them together leads to additional benefits. TDD is an important practice in its own right and mobbing is a great way to learn it. Due to TDD's fast feedback cycles (i.e., red, green, refactor, and integrate), achieving flow in TDD does not require loading the entire problem state into a single developer's head. This enables the mob to work in very small batches and take frequent breaks without setbacks.
 
 ## Strong-Style Pairing Model
 
