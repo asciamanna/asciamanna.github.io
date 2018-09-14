@@ -25,6 +25,9 @@ We reference Lean Software Development several times in our talk. It's worthwhil
 ## Disciplined Break Taking
 
 ### The Pomodoro Technique
+
+<img src="/img/pomodoro.jpg" alt="Pomodoro Timer" class="img-responsive" />
+
 We talk about disciplined break taking as an important aspect of mob programming. Mob Programming incorporates the [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique) to encourage disciplined break taking. The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work intervals, traditionally 25 minutes in length, separated by short breaks. 
 
 The intervals are named __*pomodoros*__ the plural of the Italian word for tomato, named after the tomato-shaped kitchen timer. 
