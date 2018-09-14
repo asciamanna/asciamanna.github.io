@@ -20,15 +20,16 @@ Tim Ottinger's article [Programming is Mostly Thinking](http://agileotter.blogsp
 
 ## Lean Software Development
 We reference Lean Software Development several times in our talk. It's worthwhile to take a look at the wikipedia page on [Lean Software Development](https://en.wikipedia.org/wiki/Lean_software_development). It will explain, among other things, the eight forms of waste from lean and how they are applied to software development. Additionally, I'd recommend reading Mary and Tom Poppendieck's book, Lean Software Development. 
+
 <img src="/img/lean-software-development.jpg" alt="Lean Software Development by Mary and Tom Poppendieck" class="img-responsive" />
 
 ## Disciplined Break Taking
 
 ### The Pomodoro Technique
 
-<img src="/img/pomodoro.jpg" alt="Pomodoro Timer" class="img-responsive" />
-
 We talk about disciplined break taking as an important aspect of mob programming. Mob Programming incorporates the [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique) to encourage disciplined break taking. The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work intervals, traditionally 25 minutes in length, separated by short breaks. 
+
+<img src="/img/pomodoro.jpg" alt="Pomodoro Timer" class="img-responsive float-left" style="display:inline" />
 
 The intervals are named __*pomodoros*__ the plural of the Italian word for tomato, named after the tomato-shaped kitchen timer. 
 
