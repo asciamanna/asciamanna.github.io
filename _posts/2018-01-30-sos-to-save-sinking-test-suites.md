@@ -10,6 +10,8 @@ tags: [unit-testing, tdd, code-quality]
 I've often heard developers declare that unit testing doesn't work only to discover a test suite full of complex, brittle, and unmaintainable tests. Fortunately, with a focus on readability and simplicity, bad test suites can be rehabbed, becoming accelerators for development teams.   
 
 ## Test-Driven Development 
+<img src="/img/tdd.jpg" class="img-responsive float-left" style="display:inline" alt="The TDD Cycle" />
+
 
 Every time I discuss high-quality unit tests I also encourage practicing Test-Driven Development (TDD). It prevents a significant number of issues that arise when developers try to cover bad code in tests. I am a firm believer that **_you cannot write good tests for bad code_**. Unfortunately, testing after the code is written, often leads to software design issues and problematic tests. Test After Development (TAD)[^1] yields tests with much less value that bypass all of the benefits of Test Driven Development, some of which I've written about [here]({{ site.baseurl }}{% post_url 2017-06-18-tdd-is-not-a-testing-practice %}).
 
@@ -18,6 +20,7 @@ Every time I discuss high-quality unit tests I also encourage practicing Test-Dr
 When practicing TDD tests are the first consumer of a new object. This ensures that objects are designed for their consumers first and foremost. This becomes a much more daunting challenge when designing code without using TDD. Unit tests act as a litmus test for the quality of the code. Tests with a lot of setup, control flow logic / conditional statements, and many collaborators are signs that there are design issues with the tested code.
 
 ## SOS
+<img src="/img/sos.jpg" class="img-responsive float-left" style="display:inline" alt="SOS" />
 
 When I coach developers on writing high-quality unit tests I use the mnemonic __*SOS*__. Tests should be __*small*__, __*obvious*__, and __*simple*__. The attributes of high quality tests and the heuristics to create them can be grouped into these three categories. Teams that support low quality code and complex test suites are in a constant state of distress and often still taking on water. Using a maritime distress signal as a mnemonic seems appropriate to help teams remedy these problems.
 
