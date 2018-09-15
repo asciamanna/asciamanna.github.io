@@ -84,7 +84,7 @@ By following these steps to make tests obvious, they pass what I call "the glanc
 
 xUnit test frameworks come with a lot of extras. In some cases, they can help make tests more expressive and reduce duplication. However, it is just as likely that they are a workaround for a design issue and add complexity to the test. Often these extras negatively effect the ability to scan the test quickly and fail the Glance Test. For microtests, I avoid setup at the test fixture level _(remember tests should be independent)_ and xUnit extras like MSTest's ability to test private methods or many of NUnit's custom test attributes.  
 
-#### Contain no Branches or Control Flow Logic
+#### Contain No Branches or Control Flow Logic
 
 Tests should not contain any branching or control flow logic. Their existence is a code smell. Refactoring the code under test can obviate the need for branching in test cases.
 
