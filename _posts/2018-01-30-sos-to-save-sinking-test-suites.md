@@ -100,9 +100,10 @@ In fact the most convincing reason to keep tests simple is that they are unteste
 
 ## Putting it all Together
 
-Take a look at the following example of a micro test that puts all of this advice together.
+Take a look at the following example of a microtest that puts all of this advice together.
 
 {% gist beb880bacdfa18ad8cd862450cca255b %}
+
 
 ## Further Reading
 
