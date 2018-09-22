@@ -42,10 +42,12 @@ Tim Ottinger has written an excellent article about the importance of discipline
 Hunter Industries Mob Programming video from 2012
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p_pvslS4gEI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 ### A Day of Mob Programming 2016
 Hunter Industries Mob Programming video. Catch up with the development teams at Hunter to see how practice adoption has changed at the company after four years.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dVqUcNKVbYg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 ## Effective Practices
 
