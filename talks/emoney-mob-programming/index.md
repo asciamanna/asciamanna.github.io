@@ -36,6 +36,17 @@ The intervals are named __*pomodoros*__ the plural of the Italian word for tomat
 ### Importance of Disciplined Breaks
 Tim Ottinger has written an excellent article about the importance of disciplined breaks in software development. Take a look at, [Taking Breaks in a Disciplined Way](http://agileotter.blogspot.com/2017/11/taking-breaks-in-disciplined-way.html).
 
+## Time-Lapse Videos
+### A Day of Mob Programming 2012
+
+Hunter Industries Mob Programming video from 2012
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p_pvslS4gEI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### A Day of Mob Programming 2016
+Hunter Industries Mob Programming video. Catch up with the development teams at Hunter to see how practice adoption has changed at the company after four years.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dVqUcNKVbYg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Effective Practices
 
 Take a look at the article I wrote about mob programming practices to continue improving and adapting your mob programming sessions, [Practices for Effective Mob Programming]({{site.baseurl}}{% post_url 2018-06-29-practices-for-effective-mob-programming %}).
