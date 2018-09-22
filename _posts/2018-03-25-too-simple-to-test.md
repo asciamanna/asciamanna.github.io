@@ -25,7 +25,7 @@ Instead we suggest that developers should test what is interesting. This is inte
 
 ## Benefits of Microtesting Simple Code
 
-Skilled TDD practitioners create isolated, object-level microtests. The resulting microtest suite contains many tiny tests that run extremely fast (60ms or less) and execute and test a very small path in the code. These tests are favored over larger and more complicated unit tests that lack isolation. TAD unit testing often results in extraneous tests and tests that are difficult to understand. 
+Skilled TDD practitioners create isolated, object-level microtests. The resulting microtest suite contains many tiny tests that run extremely fast (60ms or less) and execute and test a very small path in the code. These tests are favored over larger and more complicated tests that lack isolation. TAD unit testing often results in extraneous tests and tests that are difficult to understand. 
 
 ### Error Localization
 
@@ -39,7 +39,7 @@ Simple code often gets more complex over time. As features and other code modifi
 
 When developers raise concerns about the maintainability of tests for simple code, I suggest that simple code often has simple tests. Keeping tests simple is one of the key characteristics of quality microtests that I've written about [here]({{ site.baseurl }}{% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). Simple tests have an extremely low maintenance cost. So low, in fact, that their value in documenting a fact or behavior of the system exceeds their cost of maintenance.[^2] 
 
-Consequently, more complex unit tests with larger test scopes that test across multiple object boundaries end up having a much higher maintenance cost.
+Consequently, more complex unit tests with larger test scopes that test across multiple boundaries end up having a much higher maintenance cost.
 
 ### Documentation Rule
 
