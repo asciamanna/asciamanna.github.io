@@ -36,7 +36,7 @@ Are the teams practicing Continuous Integration (CI)? Are they integrating code 
 
 CI helps identify integration bugs when they occur, and can often prevent them entirely. Without CI, integration bugs get identified much later, causing delays late in the development cycle. As companies add more developers,  the likelihood of integration issues increases. CI provides immediate feedback on the quality of the integrated build. The introduction of CI and CD ensures that a working version of the software is always available to test or release. 
 
-By improving development team practices, automated tests, and the deployment pipeline, existing teams will begin to work safer, more accurately, and more efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments.
+By introducing and improving agile development practices (e.g., Test-Driven Development, CI, CD, Pair & Mob Programming, refactoring, evolutionary design, etc.) existing teams will begin to work safer, more accurately, and more efficiently. There should be a focus on getting to fast, repeatable, and wholly automated builds and deployments.  
 
 ### Decrease Long Build Times
 
@@ -82,6 +82,8 @@ In a large, poorly designed software system, removing cross team code dependenci
 #### Improve Feedback Loops
 
 Decomposing areas of code and improving the packaging structure has the added benefit of improving local build times. This helps encourage developers to practice TDD and work in very small increments. If the test and build cycle is long (more than a few seconds) developers struggle with practices like TDD that rely on nearly instantaneous feedback loops. **Fast feedback loops are one of the keys to unlocking productive development teams**.
+
+### TDD and Autom
 
 ### Focus on Highest Value Work and Small Batches
 
