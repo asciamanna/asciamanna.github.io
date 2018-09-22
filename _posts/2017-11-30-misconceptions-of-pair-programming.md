@@ -13,7 +13,7 @@ I recommend pair programming as an essential practice for modern development tea
 
 These misconceptions have their genesis in old Information Technology (IT) project practices that treat software development like industrial revolution era factory work. Companies are often slow to change. As a result, these beliefs can be found entrenched in organizational processes preventing companies from achieving excellence. Creating great software is a process of discovery, and like most knowledge work, it is a creative endeavor. We need to start shedding these old beliefs to achieve better outcomes for our customers and create the next generation of brilliant technologists.
 
-## The Manufacturing Mindset
+## The Feature Factory Mindset
 
 The most common argument against pair programming is the belief that it is two people doing the work of one person and therefore it must reduce the productivity of the team by 50%. Believing that software development is a mechanical process and not the creative endeavor that it is leads people to believe that developers working together slows them down. If organizations continue to measure the value of software development in output, they will most likely avoid a practice like pair programming (despite the fact that studies have shown that it does not result in decreased output). When optimizing for 100% utilization of "development resources" and measuring a team by their velocity, organizations are unlikely to try pair programming. 
 
@@ -43,7 +43,7 @@ Watching a skilled XP team work is an amazing thing to behold, and it shows how 
 
 To contrast this, observe a team that "selectively pairs" and you will find a very different scenario. What I see most often is the backs of developer heads buried in computer monitors with headphones on. The room is completely silent as very little collaboration happens. It seems much more like a library than a place where software is being created. 
 
-### Pairing takes Practice
+### Pairing Takes Practice
 
 Pair programming is a deceptively challenging technique and it, like other practices, requires consistent practice and repetition to improve. Teams who only pair in very specific circumstances never gain the skills required for effective pairing. This results in them utilizing it less often. The less they do it the less useful it is for them. This creates a vicious circle that results in teams never realizing the benefits of pair programming. 
 
@@ -55,7 +55,7 @@ Pair programming is a deceptively challenging technique and it, like other pract
 
 ### Time for Pairing 
 
-On the surface I would agree with the idea that teams shouldn't be required to pair on 100% of their work. However, my view of how much teams should pair, and the view of developers who have not mastered pair programming, is very different. I would consider pairing time somewhere around 80% or more for a team where a vast majority of the work would get paired on. For a team that is just learning these practices, I would expect something much higher and closer to 100% until they master the practice.  
+On the surface I would agree with the idea that teams shouldn't be required to pair on 100% of their work. However, my view of how much teams should pair, and the view of developers who have not mastered pair programming, is often quite different. I would recommend pairing (or other collaborative techniques) used for a majority of the work. For a team that is just learning these practices, I would expect them pairing nearly all of the time until they master the practice. 
 
 The teams I've observed who claim to selectively pair program tend to pair significantly less than this. Pairing on the day-to-day work is a rare occurrence. It is certainly not the level of collaboration I would expect from a modern, agile software team. These teams end up missing the many benefits that come from pair programming and team collaboration. 
 
