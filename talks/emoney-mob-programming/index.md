@@ -45,7 +45,7 @@ Hunter Industries Mob Programming video from 2012
 <br/>
 
 ### A Day of Mob Programming 2016
-Hunter Industries Mob Programming video. Catch up with the development teams at Hunter to see how practice adoption has changed at the company after four years.
+Hunter Industries Mob Programming video from 2016. Catch up with the development teams at Hunter Industries to see how practice adoption has changed at the company after four years.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dVqUcNKVbYg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 
@@ -54,3 +54,6 @@ Hunter Industries Mob Programming video. Catch up with the development teams at 
 Take a look at the article I wrote about mob programming practices to continue improving and adapting your mob programming sessions, [Practices for Effective Mob Programming]({{site.baseurl}}{% post_url 2018-06-29-practices-for-effective-mob-programming %}).
 
 Do you have questions about the talk or Mob Programming in general? Or maybe just want to chat with us? The best way to get in touch with us is on twitter. Feel free to contact me ([@asciamanna](https://www.twitter.com/asciamanna)) or Nick ([@ngoede](https://www.twitter.com/ngoede)) there. 
+
+## PhillyXP
+[Nick](https://nickgoede.com) and I are the founders and organizers of the PhillyXP user group. We encourage you to join our group [here on meetup](https://www.meetup.com/PhillyXP/).
