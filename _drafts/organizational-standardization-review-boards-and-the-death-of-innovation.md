@@ -11,7 +11,7 @@ It's really quite simple to destroy innovation, effectiveness, and productivity 
 
 In most companies organized this way managers and leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, Google, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume those companies must hire better engineers.
 
-> The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.
+> The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of Powerful; Building a Culture of Freedom and Responsibility_
 
 The source of the problem lies in actions of company leadership and the old playbook they are still using to manage a software organization. If you strip away the thin veneer of empty company values that always include terms like 'innovative' and start looking at the language used by management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
@@ -32,7 +32,7 @@ When coaching software development teams, one thing I focus on is helping to ide
 
 The company signals that it values identical teams and organizational sameness over creating empowered, autonomous teams. So it should come as no surprise when morale plummets when the realization sets in that the teams responsible for doing the actual work are just typists, mercenaries doing as they are instructed to the codebase. 
 
-> Teams of missionaries are engaged, motivated, have a deep understanding of the business context, and tangible empathy for the customer. Teams of mercenaries feel no real sense of empowerment or accountability, no passion for the problem to be solved, and little real connection with the actual users and customers.
+> Teams of missionaries are engaged, motivated, have a deep understanding of the business context, and tangible empathy for the customer. Teams of mercenaries feel no real sense of empowerment or accountability, no passion for the problem to be solved, and little real connection with the actual users and customers.     
 > _&mdash; Marty Cagan - [Missionaries vs. Mercenaries](https://svpg.com/missionaries-vs-mercenaries/)_
 
 ### Architecture and Development Separation
