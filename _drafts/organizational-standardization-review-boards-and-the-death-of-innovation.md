@@ -9,20 +9,20 @@ tags: ['anti-patterns']
 
 It's really quite simple to destroy innovation, effectiveness, and productivity on software development teams. Make it clear that initiative and experimentation are punishable and move the decision making away from the people building the software.
 
-In most companies organized this way managers and leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, Google, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume those companies must hire better engineers.
+In most companies organized this way managers and leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume those companies must hire better engineers.
 
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of Powerful; Building a Culture of Freedom and Responsibility_
 
 The source of the problem lies in actions of company leadership and the old playbook they are still using to manage a software organization. If you strip away the thin veneer of empty company values that always include terms like 'innovative' and start looking at the language used by management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
 
-These companies have leadership and managers who have taken the Frederick Taylor playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (Command-and-Control waterfall projects wrapped in Scrum terminology) and frameworks like SAFe, the problem persists despite these companies thinking that they are "Agile." In recent years DevOps, Modern Agile, and other movements are helping to correct the course. 
+These companies have managers who have taken the Frederick Taylor playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (Command-and-Control waterfall projects wrapped in Scrum terminology) and frameworks like SAFe, the problem persists despite these companies' claims to be "agile." In recent years DevOps, Modern Agile, and other movements are trying to correct the course. 
 
 ## Agile Teams in Corporate Scrum
 
-One of the key aspects of agile teams is that they are staffed with everyone on the team that can take an idea from formation to delivery. Lean software development calls this taking an idea "from concept to cash." But companies often want the benefits of agile without all of the hard work to transform the company, transform leadership, and upend some company fiefdoms in the process. This results in doing work the same old way, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. These same companies are often frustrated that "agile" didn't deliver on its promises.
+One of the key aspects of agile teams is that they are staffed with everyone on the team that can take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without all of the hard work to transform the company, transform leadership, and upend some company fiefdoms in the process. This results in doing work the same old way, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
 
-Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all progress they make. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without getting permission to make a change, present to a board to change a standard, try a new tool, etc.
+Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all progress they make. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without getting permission to make a change, present to a board to change a standard, or try a new tool, etc.
 
 ## Decision Makers vs. Workers - Broken Feedback Loops
 The crux of this problem is that decision makers are separated from the workers. This takes on several forms. 
@@ -55,7 +55,7 @@ One of the many important lessons we've learned from lean is that process improv
 
 ## There is Hope
 
-This may seem depressing but there is hope. The most successful software companies today understand the creative, experimental, and team-based nature of software development, that software development is a process of discovery. The great software companies have adopted principles and practices from DevOps, Lean Software Development, Extreme Programming, and [Modern Agile](http://www.modernagile.org). They instead focus on empowering autonomous teams, technical excellence, continuous experimentation, continuous learning, and discovery rather than building order taking, masters-and-minions organizations, stamping out cookie-cutter teams, and separating the decision makers from the software creators.
+This may seem depressing but there is hope. The most successful software companies today understand the creative, experimental, and team-based nature of software development, that software development is a process of discovery. The great software companies have adopted principles and practices from DevOps, Lean Software Development, Extreme Programming, and [Modern Agile](http://www.modernagile.org). They instead focus on empowering autonomous teams, technical excellence, continuous experimentation, and continuous learning, rather than building order-taking, masters-and-minions organizations, stamping out cookie-cutter teams, and separating the decision makers from the software creators.
 
 <img src="/img/book-trio-small.png" alt="books about high quality teams" class="img-responsive" />
 
