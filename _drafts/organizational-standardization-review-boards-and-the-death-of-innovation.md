@@ -14,21 +14,25 @@ In most companies organized this way managers and leaders say they want an innov
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of Powerful; Building a Culture of Freedom and Responsibility_
 
-The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of empty company values that always include terms like 'innovative' and start looking at the language used by management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
+The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language used by management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
 
-These companies have managers who have taken the Frederick Taylor playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (Command-and-Control waterfall projects wrapped in Scrum terminology) and frameworks like SAFe, the problem persists despite claims to be "agile." In recent years DevOps, Modern Agile, and other movements are trying to correct the course. 
+These companies have managers who have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (Command-and-Control waterfall projects wrapped in Scrum terminology) and frameworks like SAFe, the problem persists despite claims to be "agile." In recent years DevOps, Modern Agile, and other movements are trying to correct the course. 
 
 ## Agile Teams in Corporate Scrum
 
-One of the key aspects of agile teams is that they are staffed with everyone on the team that can take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to transform the company, transform leadership, and upend some company fiefdoms in the process. This results in doing work the same old way, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
+One of the key aspects of agile teams is that they are staffed with everyone on the team that can take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to transform the company, transform leadership, and upend the company fiefdoms in the process. This results in doing work the same old way, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
 
-Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all progress they make. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without getting permission to make a change, present to a board to change a standard, or try a new tool, etc.
+Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all progress they make. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without first getting permission to make a change to a company framework, a change a standard, or try a new tool, etc.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I regularly hear managers moan about “learned helplessness”—teams that are afraid to try stuff. If you tell the teams what to do, you&#39;re telling them not to try stuff. You can’t have it both ways. An org that imposes a company-wide framework is destroying innovation.</p>&mdash; Allen Holub (@allenholub) <a href="https://twitter.com/allenholub/status/1046791808129282048?ref_src=twsrc%5Etfw">October 1, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Decision Makers vs. Workers - Broken Feedback Loops
 The crux of this problem is that decision makers are separated from the workers. This takes on several forms. 
 
 ### Review Boards & Standards Bodies
-When coaching software development teams, one thing I focus on is helping to identify and minimize waste. One of the biggest sources of waste is the unwavering belief that for companies to grow and operate "at scale" an organizational optimization is to enforce organizational standards. This is often done by creating standards bodies, review boards, working groups, etc. This results in several roles to create and manage standards. These board members can't possibly work on every team they are making decisions for. This separation of the decision makers from the workers creates broken feedback loops that slows down every team delivering software for the company.  
+When coaching software development teams, one thing I focus on is helping to identify and minimize waste. One of the biggest sources of waste is the unwavering belief that for companies to grow and operate "at scale" an organizational optimization is to enforce organizational standards. This is often done by creating standards bodies, review boards, working groups, company-wide frameworks, etc. This results in several roles to create and manage standards. These board members can't possibly work on every team they are making decisions for. This separation of the decision makers from the workers creates broken feedback loops that slows down every team delivering software for the company.  
 
 The company signals that it values identical teams and organizational sameness over creating empowered, autonomous teams. So it should come as no surprise when morale plummets when the realization sets in that the teams responsible for doing the actual work are just typists, mercenaries doing as they are instructed to the codebase. 
 
@@ -37,11 +41,11 @@ The company signals that it values identical teams and organizational sameness o
 
 ### Architecture and Development Separation
 
-One of the core agile practices is evolutionary design (coming to us from Extreme Programming). An idea related to this is emergent and incremental architecture. You don't need an architecture dictated up front but it too can emerge, much like the software design, as the system changes through consistent refactoring. 
+One of the core agile practices is evolutionary design (coming to us from Extreme Programming). Related to evolutionary design is the concept of emergent and incremental architecture. You don't need an architecture dictated up front but it too can emerge, much like the software design, as the system changes through consistent refactoring. 
 
-I often see waterfall architecture groups organizationally separated from "agile" development teams. The architects dictate the architecture of the system up front but don't get their hands dirty writing any of the software. So the team cannot effectively refactor code and evolve the design if it would affect any of the architecture or high-level design that would be the architect's responsibility. The team's design space is constrained and they learn they can change little things but the big things won't change without a review, so the big issues aren't addressed. 
+I often see waterfall architecture groups organizationally separated from "agile" development teams. The architects dictate the architecture of the system up front but don't get their hands dirty writing any of the code. So the team cannot effectively refactor code and evolve the design if it would impact any of the architecture or high-level design (that would be the architect's responsibility). The team's design space is now constrained and they learn they can change little things but the big things won't change without a review, so the big issues aren't addressed. 
 
-Since the architect is removed from the day-to-day problems the team is solving often the architecture and high-level design aren't the best fit. These architects rarely get timely feedback on their architecture and designs as they are not the ones to implement them. 
+Since the architect is removed from the day-to-day problems the team is solving, often the architecture and high-level design are a snapshot in time, before most of the learning happens. As a result the architecture cannot serve the evolving needs of the code. These architects rarely get timely feedback on their architecture and designs as they are not the ones to implement them. 
 
 ## An Organization without Innovation
 
@@ -57,9 +61,9 @@ One of the many important lessons we've learned from lean is that process improv
 
 This may seem depressing but there is hope. The most successful software companies today understand the creative, experimental, and team-based nature of software development; that it's a process of discovery. The great software companies have adopted principles and practices from DevOps, Lean Software Development, Extreme Programming, and [Modern Agile](http://www.modernagile.org). They instead focus on empowering autonomous teams, technical excellence, continuous experimentation, and continuous learning, rather than building order-taking, masters-and-minions organizations, stamping out cookie-cutter teams, and separating the decision makers from the software creators.
 
+## Further Reading
 <img src="/img/book-trio-small.png" alt="books about high quality teams" class="img-responsive" />
 
-## Further Reading
 If what I'm saying sounds impossible, I recommend a trio of books. 
 
 ### Books 
