@@ -41,13 +41,13 @@ The company signals that it values identical teams and organizational sameness o
 
 ### Architecture and Development Separation
 
-One of the core agile practices is evolutionary design (coming to us from Extreme Programming). Related to evolutionary design is the concept of emergent and incremental architecture. You don't need an architecture dictated up front but it too can emerge, much like the software design, as the system changes through consistent refactoring. 
+One of the core agile practices is evolutionary design (coming to us from Extreme Programming). Related to evolutionary design is the concept of emergent and incremental architecture. You don't need a frozen architecture dictated up front but it too can emerge, much like the software design, as the needs of the customers change and the system changes through consistent refactoring. 
 
-I often see waterfall architecture groups organizationally separated from "agile" development teams. The architects dictate the architecture of the system up front but don't get their hands dirty writing any of the code. So the team cannot effectively refactor code and evolve the design if it would impact any of the architecture or high-level design (that would be the architect's responsibility). The team's design space is now constrained and they learn they can change little things but the big things won't change without a review, so the big issues aren't addressed. 
+I see waterfall architecture groups separated from "agile" development teams, more commonly in large companies. The architects dictate the architecture of the system up front but don't get their hands dirty writing any of the code. So the team cannot effectively refactor code and evolve the design if it would impact any of the architecture or high-level design (that would be the architect's responsibility). The team's design space is now constrained and they learn they can change little things but the big things won't change without a review, so the big issues aren't addressed. 
 
-Since the architect is removed from the day-to-day problems the team is solving, often the architecture and high-level design are a snapshot in time, before most of the learning happens. As a result the architecture cannot serve the evolving needs of the code. These architects rarely get timely feedback on their architecture and designs as they are not the ones to implement them. 
+Since these architects are removed from the day-to-day problems the team is solving, often the architecture and high-level design are a snapshot in time, before most of the learning happens. As a result the architecture cannot serve the evolving needs of the code. These architects rarely get timely feedback on their architecture and designs as they are not the ones to implement them. 
 
-## An Organization without Innovation
+## An Organization Without Innovation
 
 What becomes quite obvious for anyone who has worked in a highly productive learning organization is that companies that centralize standards, decision making, and process change crush innovation. It sends a clear message that innovation and initiative is to be punished not celebrated. 
 
