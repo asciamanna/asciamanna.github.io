@@ -9,14 +9,14 @@ tags: ['anti-patterns']
 
 It's really quite simple to destroy innovation, effectiveness, and productivity on software development teams. Make it clear that initiative and experimentation are punishable and move the decision making away from the people building the software.
 
-In most companies organized this way managers and leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume those companies must hire better engineers.
+In most companies struggling with these issuses managers and leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume those companies must hire better engineers.
 
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of Powerful; Building a Culture of Freedom and Responsibility_
 
 The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language used by management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
 
-These companies have managers who have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (Command-and-Control waterfall projects wrapped in Scrum terminology) and frameworks like SAFe, the problem persists despite claims to be "agile." In recent years DevOps, Modern Agile, and other movements are trying to correct the course. 
+These companies have managers who have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (Command-and-Control waterfall projects wrapped in Scrum terminology) and frameworks like SAFe, the problem persists despite claims to be "agile." In recent years DevOps, Modern Agile, Lean Software Development, and other movements are working to correct the course. 
 
 ## Agile Teams in Corporate Scrum
 
@@ -39,13 +39,13 @@ The company signals that it values identical teams and organizational sameness o
 > Teams of missionaries are engaged, motivated, have a deep understanding of the business context, and tangible empathy for the customer. Teams of mercenaries feel no real sense of empowerment or accountability, no passion for the problem to be solved, and little real connection with the actual users and customers.     
 > _&mdash; Marty Cagan - [Missionaries vs. Mercenaries](https://svpg.com/missionaries-vs-mercenaries/)_
 
-Now this doesn't mean that every team works in isolation and teams create inconsistency for users in the name of autonomy. Rather teams can organize around areas requiring consitency and tools can be built and maintained for teams that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). I'll be discussing this in more detail in a future post.
+Now this doesn't mean that every team works in isolation and teams create inconsistency for users in the name of autonomy. Rather teams can organize around areas requiring consistency and tools can be built for teams to use that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). I'll be discussing this nuance in more detail in a future post.
 
 ### Architecture and Development Separation
 
 One of the core agile practices is evolutionary design (coming to us from Extreme Programming). Related to evolutionary design is the concept of emergent and incremental architecture. You don't need a frozen architecture dictated up front but it too can emerge, much like the software design, as the needs of the customers change and the system changes through consistent refactoring. 
 
-I see waterfall architecture groups separated from "agile" development teams  (most commonly in large companies). The architects dictate the architecture of the system up front but don't get their hands dirty writing any of the code. So the team cannot effectively refactor code and evolve the design if it would impact any of the architecture or high-level design (that would be the architect's responsibility). The team's design space is now constrained and they learn they can change little things but the big things won't change without a review, so the big issues aren't addressed. 
+I see waterfall architecture groups separated from "agile" development teams (most commonly this is the case in large companies). The architects dictate the architecture of the system up front but don't get their hands dirty writing any of the code. So the team cannot effectively refactor code and evolve the design if it would impact any of the architecture or high-level design (that would be the architect's responsibility). The team's design space is now constrained and they learn they can change little things but the big things won't change without a review, so the big issues aren't addressed. 
 
 Since these architects are removed from the day-to-day problems the team is solving, often the architecture and high-level design are a snapshot in time, before most of the learning happens. As a result the architecture cannot serve the evolving needs of the code. These architects rarely get timely feedback on their architecture and designs as they are not the ones to implement them. 
 
@@ -72,7 +72,7 @@ Mary and Tom Poppendieck's _**Lean Software Development**_ describes how central
 
 Nicole Forsgren (with Jez Humble and Gene Kim) have written _**Accelerate**_ and are responsible for the annual State of DevOps Report. In it they describe studies they've done that indicate that, among other practices, having a light-weight review process like code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
 
-The last book I will recommend is Marty Cagan's _**Inspired**_, in it he describes how these great software companies can maintain an innovative culture as they grow. 
+The last book I will recommend is Marty Cagan's _**Inspired**_, in it he describes how great software companies can maintain an innovative culture as they grow. 
 
 ### Articles
 
