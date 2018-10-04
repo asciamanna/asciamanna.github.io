@@ -9,7 +9,7 @@ tags: ['anti-patterns']
 
 It's really quite simple to destroy innovation, effectiveness, and productivity on software development teams. Make it clear that initiative and experimentation are punishable and move the decision making away from the people building the software.
 
-In most companies struggling with these issuses managers and leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume those companies must just hire better engineers.
+In most companies struggling with these issues managers and leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume these companies must just hire better engineers.
 
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of Powerful; Building a Culture of Freedom and Responsibility_
@@ -20,7 +20,7 @@ These companies have managers who have taken the Taylorist playbook and continue
 
 ## Agile Teams in Corporate Scrum
 
-One of the key aspects of agile teams is that they are staffed with all of the skills and roles necessary to take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to truly transform and upend company fiefdoms in the process. This results in doing work the _Same Old Way_, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
+One of the key aspects of agile teams is that they are staffed with all of the skills and roles necessary to take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to truly transform, and upend company fiefdoms in the process. This results in doing work the _Same Old Way_, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
 
 Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all attempted progress. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without first:
 * getting permission to make a change to a company-wide framework
@@ -72,7 +72,7 @@ This may seem depressing but there is hope. The most successful software compani
 If what I'm saying sounds impossible, I recommend a trio of books. 
 
 ### Books 
-Mary and Tom Poppendieck's _**Lean Software Development**_ describes how centralized standards result in the opposite of their intended affect. The book is teeming with incredible insights and is at the top of my list of recommended reading for software professionals.
+Mary and Tom Poppendieck's _**Lean Software Development**_ describes how centralized standards results in the opposite of their intended affect. The book is teeming with incredible insights and is at the top of my list of recommended reading for software professionals.
 
 Nicole Forsgren (with Jez Humble and Gene Kim) have written _**Accelerate**_ and are responsible for the annual State of DevOps Report. In it they describe studies they've done that indicate that, among other practices, having a light-weight review process like code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
 
