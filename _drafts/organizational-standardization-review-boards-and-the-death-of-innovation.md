@@ -14,15 +14,18 @@ In most companies struggling with these issuses managers and leaders say they wa
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of Powerful; Building a Culture of Freedom and Responsibility_
 
-The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language used by management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
+The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language and actions of management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
 
 These companies have managers who have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (Command-and-Control waterfall projects wrapped in Scrum terminology) and frameworks like SAFe, the problem persists despite claims to be "agile." In recent years DevOps, Modern Agile, Lean Software Development, and other movements are working to correct the course. 
 
 ## Agile Teams in Corporate Scrum
 
-One of the key aspects of agile teams is that they are staffed with everyone on the team that can take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to transform the company, transform leadership, and upend the company fiefdoms in the process. This results in doing work the same old way, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
+One of the key aspects of agile teams is that they are staffed with everyone necessary to take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to truly transform and upend the company fiefdoms in the process. This results in doing work the Same Old Way, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
 
-Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all progress they make. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without first getting permission to make a change to a company framework, a change a standard, or try a new tool, etc.
+Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all progress they make. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without first:
+* getting permission to make a change to a company framework
+* presenting to a review board to change a standard
+* acquiring approval from a working group to try out new library or tool, etc.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I regularly hear managers moan about “learned helplessness”—teams that are afraid to try stuff. If you tell the teams what to do, you&#39;re telling them not to try stuff. You can’t have it both ways. An org that imposes a company-wide framework is destroying innovation.</p>&mdash; Allen Holub (@allenholub) <a href="https://twitter.com/allenholub/status/1046791808129282048?ref_src=twsrc%5Etfw">October 1, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
