@@ -19,7 +19,6 @@ The source of the problem lies in actions of company leadership and the old play
 These companies have managers who have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (command-and-control waterfall projects wrapped in Scrum terminology) and Scaled Agile frameworks like SAFe, these problems thrive despite organizational claims about being "agile." 
 
 ## Agile Teams in Corporate Scrum
-
 One of the key aspects of agile teams is that they are staffed with all of the skills and roles necessary to take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to truly transform, and upend company fiefdoms in the process. This results in doing work the _Same Old Way_, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
 
 Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all attempted progress. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without first:
@@ -45,16 +44,7 @@ The company signals that it values identical teams and organizational sameness o
 
 Now this doesn't mean that every team works in isolation and teams create inconsistency in the product in the name of autonomy. Rather teams can organize around areas requiring consistency and tools can be built for teams to use that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). I'll be discussing this nuance in more detail in a future post.
 
-### Architecture and Development Separation
-
-One of the core agile practices is evolutionary design (coming to us from Extreme Programming). Related to evolutionary design is the concept of emergent and incremental architecture. You don't need a frozen architecture dictated up front but it too can emerge, much like the software design, as the needs of the customers change and the system changes through consistent refactoring. 
-
-I see waterfall architecture groups separated from "agile" development teams (most commonly this is the case in large companies). The architects dictate the architecture of the system up front but don't get their hands dirty writing any of the code. So the team cannot effectively refactor code and evolve the design if it would impact any of the architecture or high-level design (that would be the architect's responsibility). The team's design space is now constrained and they learn they can change little things but the big things won't change without a review, so the big issues aren't addressed. 
-
-Since these architects are removed from the day-to-day problems the team is solving, often the architecture and high-level design are a snapshot in time, before most of the learning happens. As a result the architecture cannot serve the evolving needs of the code. These architects rarely get timely feedback on their architecture and designs as they are not the ones to implement them. 
-
 ## An Organization Without Innovation
-
 What becomes quite obvious in hindsight, for anyone who has worked in a highly productive learning organization, is that companies that centralize standards, decision making, and process change crush innovation. It sends a clear message that innovation and initiative is to be punished not celebrated. If you are on a delivery team, it is something to be done in secret if at all.
 
 ## Team Apathy
