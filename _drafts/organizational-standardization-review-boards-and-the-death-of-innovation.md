@@ -9,14 +9,14 @@ tags: ['anti-patterns']
 
 It's really quite simple to destroy innovation, effectiveness, and productivity on software development teams. Make it clear that initiative and experimentation are punishable and move the decision making away from the people building the software.
 
-In most companies struggling with these issues managers and leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume these companies must just hire better engineers.
+In most companies struggling with these issues managers and other leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume these companies must just hire better engineers.
 
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of Powerful; Building a Culture of Freedom and Responsibility_
 
 The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language and actions of management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
 
-These companies have managers who have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (command-and-control waterfall projects wrapped in Scrum terminology) and frameworks like SAFe, these problems thrive despite organizational claims about being "agile." 
+These companies have managers who have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (command-and-control waterfall projects wrapped in Scrum terminology) and Scaled Agile frameworks like SAFe, these problems thrive despite organizational claims about being "agile." 
 
 ## Agile Teams in Corporate Scrum
 
@@ -33,17 +33,17 @@ Companies often build what they believe are cross-functional teams, but these te
 
 
 ## Decision Makers vs. Workers - Broken Feedback Loops
-The crux of this problem is that decision makers are separated from the workers. This takes on several forms. 
+The crux of this problem is that decision makers are separated from those who are doing the work. 
 
 ### Review Boards & Standards Bodies
-When coaching software development teams, one thing I focus on is helping to identify and minimize waste. One of the biggest sources of waste is the unwavering belief that for companies to grow and operate "at scale" an organizational optimization is to enforce organizational standards. This is often done by creating standards bodies, review boards, working groups, etc. This results in several roles to create and manage standards. These board members can't possibly work on every team they are making decisions on behalf of. This separation of the decision makers from the workers creates broken feedback loops that slows down every team delivering software for the company.  
+When coaching software development teams, one thing I focus on is helping to identify and minimize waste. One of the biggest sources of waste is the unwavering belief that for companies to grow and operate "at scale" an organizational optimization is to enforce organizational standards. This is often done by creating standards bodies, review boards, working groups, etc. This results in several roles in the organization to create and manage standards. These board members can't possibly work on every team they are making decisions on behalf of. This separation of the decision makers from the workers creates broken feedback loops that slows down every team delivering software for the company.  
 
 The company signals that it values identical teams and organizational sameness over creating empowered, autonomous teams. Consequently morale plummets when the realization sets in that the teams responsible for doing the actual work are just typists, mercenaries doing as they are instructed to the codebase. 
 
 > Teams of missionaries are engaged, motivated, have a deep understanding of the business context, and tangible empathy for the customer. Teams of mercenaries feel no real sense of empowerment or accountability, no passion for the problem to be solved, and little real connection with the actual users and customers.     
 > _&mdash; Marty Cagan - [Missionaries vs. Mercenaries](https://svpg.com/missionaries-vs-mercenaries/)_
 
-Now this doesn't mean that every team works in isolation and teams create inconsistency for users in the name of autonomy. Rather teams can organize around areas requiring consistency and tools can be built for teams to use that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). I'll be discussing this nuance in more detail in a future post.
+Now this doesn't mean that every team works in isolation and teams create inconsistency in the product in the name of autonomy. Rather teams can organize around areas requiring consistency and tools can be built for teams to use that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). I'll be discussing this nuance in more detail in a future post.
 
 ### Architecture and Development Separation
 
@@ -74,9 +74,9 @@ If what I'm saying sounds impossible, I recommend a trio of books.
 ### Books 
 Mary and Tom Poppendieck's _**Lean Software Development**_ describes how centralized standards results in the opposite of their intended affect. The book is teeming with incredible insights and is at the top of my list of recommended reading for software professionals.
 
-Nicole Forsgren (with Jez Humble and Gene Kim) have written _**Accelerate**_ and are responsible for the annual State of DevOps Report. In it they describe studies they've done that indicate that, among other practices, having a light-weight review process like code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
+Nicole Forsgren (with Jez Humble and Gene Kim) have written _**Accelerate**_ and are responsible for the annual State of DevOps Report. In it they describe the research that indicates that, among other practices, having a light-weight review process like code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
 
-The last book I will recommend is Marty Cagan's _**Inspired**_, in it he describes how great software companies can maintain an innovative culture as they grow. 
+The last book I will recommend is Marty Cagan's _**Inspired - How to Create Tech Products Customers Love**_, in it he describes how great software companies can maintain an innovative culture as they grow and operate at scale. 
 
 ### Articles
 
