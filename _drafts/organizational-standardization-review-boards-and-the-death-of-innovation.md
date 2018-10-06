@@ -66,7 +66,7 @@ Mary and Tom Poppendieck's _**[Lean Software Development](https://www.amazon.com
 
 Nicole Forsgren (with Jez Humble and Gene Kim) have written _**[Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)**_ and are responsible for the annual State of DevOps Report. In it they describe the research that indicates that, among other practices, having a light-weight change review process like code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
 
-The last book I will recommend is Marty Cagan's _**[Inspired - How to Create Tech Products Customers Love](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408)**_, in it he describes how great software companies can maintain an innovative culture as they grow and operate at scale. 
+The last book I will recommend is Marty Cagan's _**[Inspired - How to Create Tech Products Customers Love](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/)**_, in it he describes how great software companies can maintain an innovative culture as they grow and operate at scale. 
 
 ### Articles
 
