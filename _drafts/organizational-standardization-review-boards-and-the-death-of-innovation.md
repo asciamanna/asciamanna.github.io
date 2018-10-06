@@ -9,10 +9,10 @@ tags: ['anti-patterns']
 
 It's really quite simple to destroy innovation, effectiveness, and productivity on software development teams. Make it clear that initiative and experimentation are punishable and move the decision making away from the people building the software.
 
-In most companies struggling with these issues leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies structure their work and treat their employees. Instead they assume these companies must just hire better engineers.
+In most companies struggling with these issues leaders say they want an innovative organization, and they very well might. There is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies are in the way they structure their work and treat their employees. Instead they assume these companies must just hire better engineers.
 
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
-> _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of Powerful; Building a Culture of Freedom and Responsibility_
+> _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of [Powerful; Building a Culture of Freedom and Responsibility](https://www.amazon.com/Powerful-Building-Culture-Freedom-Responsibility/dp/1939714095)_
 
 The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language and actions of management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
 
@@ -45,7 +45,7 @@ The company signals that it values identical teams and organizational sameness o
 Now this doesn't mean that every team works in isolation and teams create inconsistency in the product in the name of autonomy. Rather teams can organize around areas requiring consistency and tools can be built for teams to use that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). I'll be discussing this nuance in more detail in a future post.
 
 ## An Organization Without Innovation
-What becomes quite obvious in hindsight, for anyone who has worked in a highly productive learning organization, is that companies that centralize standards, decision making, and process change crush innovation. It sends a clear message that innovation and initiative is to be punished not celebrated. If you are on a delivery team, it is something to be done in secret if at all.
+What becomes obvious in hindsight, for anyone who has worked in a highly productive learning organization, is that companies that centralize standards, decision making, and process change crush innovation. It sends a clear message that innovation and initiative is to be punished not celebrated. If you are on a delivery team, it is something to be done in secret if at all.
 
 ## Team Apathy
 If a team needs to convince organizational leadership, a review board, a team of architects, or even just the other development teams of the merit of an improvement or experiment, they will simply stop trying to improve. Given the friction involved in getting any change through, teams stop trying to improve the way they work. Over time, the organization ends up creating apathetic teams because they just don’t have the time or energy to deliver on their team commitments and put in the heroic effort necessary to affect change in the organization.
@@ -62,11 +62,11 @@ This may seem depressing but there is hope. The most successful software compani
 If what I'm saying sounds impossible, I recommend a trio of books. 
 
 ### Books 
-Mary and Tom Poppendieck's _**Lean Software Development**_ describes how centralized standards results in the opposite of their intended affect. The book is teeming with incredible insights and is at the top of my list of recommended reading for software professionals.
+Mary and Tom Poppendieck's _**[Lean Software Development](https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)**_ describes how centralized standards results in the opposite of their intended affect. The book is teeming with incredible insights and is at the top of my list of recommended reading for software professionals.
 
-Nicole Forsgren (with Jez Humble and Gene Kim) have written _**Accelerate**_ and are responsible for the annual State of DevOps Report. In it they describe the research that indicates that, among other practices, having a light-weight review process like code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
+Nicole Forsgren (with Jez Humble and Gene Kim) have written _**[Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)**_ and are responsible for the annual State of DevOps Report. In it they describe the research that indicates that, among other practices, having a light-weight change review process like code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
 
-The last book I will recommend is Marty Cagan's _**Inspired - How to Create Tech Products Customers Love**_, in it he describes how great software companies can maintain an innovative culture as they grow and operate at scale. 
+The last book I will recommend is Marty Cagan's _**[Inspired - How to Create Tech Products Customers Love](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408)**_, in it he describes how great software companies can maintain an innovative culture as they grow and operate at scale. 
 
 ### Articles
 
