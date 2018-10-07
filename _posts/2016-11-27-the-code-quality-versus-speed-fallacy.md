@@ -7,6 +7,8 @@ category: development practices
 tags: ['code quality', 'coaching']
 ---
 
+<img src="/img/old-wagon.jpg" class="img-responsive" />
+
 For a number of reasons it is not uncommon for organizations with code quality problems to avoid attempts at improvement. From the perspective of someone new to the organization it may seem odd that developers are working harder than they need to be just to slowly churn through features. These developers are constantly frustrated by the codebase. However, enduring this pain is more comfortable than trying something different. Change is challenging for any organization and most people will think outsiders or newcomers to the organization don't understand their challenges. They may think their professional abilities are being questioned if someone is recommending improvements to how they build software.  
 
 Care certainly needs to be taken to introduce these types of changes into an organization. A healthy amount of empathy for these organizations is necessary to make any substantive change. These teams are facing organizational challenges and dysfunctions that have put them in this position to begin with. In order to be successful turning these organizations around it is of the utmost importance to start unraveling the myths about code quality. One of the first defenses of organizations holding on to problematic code and development practices is what I call the __*Code Quality vs. Speed Fallacy*__. This is the completely incorrect belief that you can't care about both code quality and shipping code quickly.
