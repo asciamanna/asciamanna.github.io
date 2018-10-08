@@ -7,7 +7,7 @@ category: development practices
 tags: ['code quality', 'coaching']
 ---
 
-<img src="/img/old-wagon.jpg" class="img-responsive" />
+<img src="/img/old-wagon.jpg" alt="old broken wagon" class="img-responsive" />
 
 For a number of reasons it is not uncommon for organizations with code quality problems to avoid attempts at improvement. From the perspective of someone new to the organization it may seem odd that developers are working harder than they need to be just to slowly churn through features. These developers are constantly frustrated by the codebase. However, enduring this pain is more comfortable than trying something different. Change is challenging for any organization and most people will think outsiders or newcomers to the organization don't understand their challenges. They may think their professional abilities are being questioned if someone is recommending improvements to how they build software.  
 
@@ -38,7 +38,7 @@ Let's discuss the question around professionalism briefly mentioned in the previ
 
 ## Turning the Tables
 
-Not only are these arguments inaccurate, in fact just the opposite. The developers who care about quality care very deeply about shipping features to production quickly. In fact, the best way to ship faster is not to rush through the code as fast as possible. Rather, slowing down to ensure that the code is always in a state that allows for easy modification is the only way to improve the effectiveness of development teams over time. Writing high quality code is the only way to ensure that development teams can continuously ship features to production as fast as possible.
+Not only are these arguments inaccurate, in fact just the opposite is true. The developers who care about quality care very deeply about shipping features to production quickly. In fact, the best way to ship faster is not to rush through the code as fast as possible. Rather, slowing down to ensure that the code is always in a state that allows for easy modification is the only way to improve the effectiveness of development teams over time. Writing high quality code is the only way to ensure that development teams can continuously ship features to production as fast as possible.
 
 ### Ease of Change
 
@@ -55,8 +55,7 @@ There are plenty of qualities of this type of code that I have talked about at l
 * Adheres to Single Responsibility Principle
 * Small classes
 * Short methods
-* Unit Tested
-* Dependencies injected / IoC Principal
+* Unit Tested / microtested
 * Contains no duplication
 * Well named methods and variables (not needing comments)
 
