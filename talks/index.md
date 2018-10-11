@@ -10,4 +10,4 @@ Here you can find a listing of the talks I've given. Each page contains a link t
 | October 27, 2017 | [Pair Programming & TDD Workshop - PhillyXP User Group]({{site.baseurl}}{% link talks/phillyxp-pair-programming-tdd-workshop/index.md %}) |
 | February 1, 2018 | [Ping Pong Pair Programming - PhillyXP User Group]({{site.baseurl}}{% link talks/phillyxp-ping-pong-pair-programming/index.md %}) |
 | September 25, 2018 | [Mob Programming: Whole Team Collaboration - eMoney Advisor Agile Month]({{site.baseurl}}{% link talks/emoney-mob-programming/index.md %}) |
-| October 10, 2018 | [Mob Programming: Whole Team Collaboration - Drexel University]({{site.baseurl}}{% link talks/drexel-university-mob-programming/index.md %}) |
+| October 10, 2018 | [Mob Programming: Whole Team Collaboration - Drexel University, College of Computing & Informatics]({{site.baseurl}}{% link talks/drexel-university-mob-programming/index.md %}) |
