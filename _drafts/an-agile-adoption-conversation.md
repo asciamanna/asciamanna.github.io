@@ -69,7 +69,7 @@ How does your team adopt retrospective goals if you can't change the way you wor
 
 __*We use the time to vent about problems in the organization and come up with requests for management, since we need their approval to make any changes.*__
 
-So what you are saying is you work on fixed scope and fixed time projects in two-week timeboxes without iterating or adjustments from customer or user feedback, and you cannot change the way you work based on retrospective outcomes?
+So what you are saying is you work on large, fixed scope and fixed time projects in two-week timeboxes without iterating or adjustments from customer or user feedback, and you cannot change the way you work based on retrospective outcomes?
 
 __*Yeah, exactly!*__
 
