@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Barcamp Philly 11 - Mob Programming Talk" 
+title: "BarCamp Philly 11 - Mob Programming Talk" 
 ---
-### Barcamp Philly 11 - Mob Programming: Whole Team Collaboration 
+### BarCamp Philly 11 - Mob Programming: Whole Team Collaboration 
 _November 10, 2018 - Philadelphia, PA_
 
 Here you will find all of the material referenced in the Mob Programming talk, as well as additional resources to continue learning about mob programming. 
