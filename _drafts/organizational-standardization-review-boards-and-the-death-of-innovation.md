@@ -14,7 +14,7 @@ In most companies struggling with these issues leaders say they want an innovati
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of [Powerful; Building a Culture of Freedom and Responsibility](https://www.amazon.com/Powerful-Building-Culture-Freedom-Responsibility/dp/1939714095)_
 
-The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language and actions of management, the processes in place, and the system of work it's obvious that company is 'optimized' for anything but innovation.
+The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language and actions of management, the processes in place, and the system of work it becomes obvious that the company is 'optimized' for anything but innovation.
 
 These companies have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (command-and-control waterfall projects wrapped in Scrum terminology) and Scaled Agile frameworks like SAFe, these problems thrive despite organizational claims about being "agile." 
 
@@ -45,13 +45,15 @@ The company signals that it values identical teams and organizational sameness o
 Now this doesn't mean that every team works in isolation and teams create inconsistency in the product in the name of autonomy. Rather teams can organize around areas requiring consistency and tools can be built for teams to use that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). The major difference here is that the team understands where consistency is required and they get to decide whether to adopt a tool that is supported for them and when they need to deviate and eliminate the dependency on another team's tools. I'll be discussing this nuance in more detail in a future post.
 
 ## An Organization Without Innovation
-What becomes obvious for anyone who has worked in a highly productive learning organization is that companies that centralize standards, decision making, and process change crush innovation. It sends a clear message that innovation and initiative is to be punished not celebrated. If you are on a delivery team, it is something to be done in secret if at all.
+What becomes obvious for anyone who has worked in a highly productive learning organization is that companies that centralize standards, decision making, and process change, crush innovation. It sends a clear message that innovation and initiative, at the team-level, is to be punished not celebrated. If you are on a delivery team, it is something to be done in secret if at all.
 
 ## Team Apathy
 If a team needs to convince organizational leadership, a review board, a team of architects, or even the other development teams of the merit of an improvement or experiment, they will simply stop trying to improve. Given the friction involved in getting any change through, teams stop trying to improve the way they work. Over time, the organization ends up creating apathetic teams because they just don’t have the time or energy to deliver on their team commitments and put in the heroic effort necessary to affect change in the organization.
 
 ## Lessons of Lean Software Development
 One of the many important lessons we've learned from lean is that process improvement should come from the practitioners. Mantras like **_"Move authority to the information"_** exist to remind leaders that in knowledge work separating decision making from doing the work is a fool's errand. 
+
+<img src="/img/taiichi-ohno-quote.jpg" class="img-responsive" />
 
 ## There is Hope
 This may seem depressing but there is hope. The most successful software companies today understand the creative, experimental, and team-based nature of software development; that it's a process of discovery. The great software companies have adopted principles and practices from DevOps, Lean Software Development, Extreme Programming, and [Modern Agile](http://www.modernagile.org). They focus on empowering autonomous teams, technical excellence, and continuous experimentation and learning, rather than stamping out order-taking cookie-cutter teams, and separating the decision makers from the software creators.
@@ -73,4 +75,3 @@ The last book I will recommend is Marty Cagan's _**[Inspired - How to Create Tec
 * [How Netflix Gets Out of the Way of Innovation](http://perfcap.blogspot.com/2011/12/how-netflix-gets-out-of-way-of.html) - Adrian Cockcroft
 * [Missionaries vs. Mercenaries](https://svpg.com/missionaries-vs-mercenaries/) - Marty Cagan
 * [Revenge of The PMO](https://svpg.com/revenge-of-the-pmo/) - Marty Cagan
-
