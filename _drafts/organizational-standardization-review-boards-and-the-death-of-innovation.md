@@ -4,7 +4,7 @@ section-type: post
 title: Organizational Standardization, Review Boards, and the Death of Innovation 
 comments: true
 category: leadership
-tags: ['anti-patterns']
+tags: ['anti-patterns', 'agile development']
 ---
 
 It's really quite simple to destroy innovation, effectiveness, and productivity on software development teams. Make it clear that initiative and experimentation are punishable and move the decision making away from the people building the software.
