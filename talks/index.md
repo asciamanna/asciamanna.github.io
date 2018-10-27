@@ -12,3 +12,4 @@ Here you can find a listing of the talks I've given. Each page contains a link t
 | September 25, 2018 | [Mob Programming: Whole Team Collaboration - eMoney Advisor Agile Month]({{site.baseurl}}{% link talks/emoney-mob-programming/index.md %}) |
 | October 10, 2018 | [Mob Programming: Whole Team Collaboration - Drexel University, College of Computing & Informatics]({{site.baseurl}}{% link talks/drexel-university-mob-programming/index.md %}) |
 | October 26, 2018 | [Mob Programming: Whole Team Collaboration - Picwell]({{site.baseurl}}{% link talks/picwell-mob-programming/index.md %}) |
+| November 10, 2018 | [Mob Programming: Whole Team Collaboration - Barcamp Philadelphia 11]({{site.baseurl}}{% link talks/barcamp-philly-mob-programming/index.md %}) |
