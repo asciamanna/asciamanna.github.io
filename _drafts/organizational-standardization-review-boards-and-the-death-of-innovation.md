@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Organizational Standardization, Review Boards, and the Death of Innovation 
+title: Standardization, Review Boards, and the Death of Innovation 
 comments: true
 category: leadership
 tags: ['anti-patterns', 'agile development']
@@ -19,10 +19,10 @@ The source of the problem lies in actions of company leadership and the old play
 These companies have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (command-and-control waterfall projects wrapped in Scrum terminology) and Scaled Agile frameworks like SAFe, these problems thrive despite organizational claims about being "agile." 
 
 ## Agile Teams in Corporate Scrum
-One of the key attributes of agile teams is that they are staffed with all of the skills and roles necessary to take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to transform themselves, create the environment necessary for autonomous teams, and upend some established company fiefdoms in the process. This results in doing work the _Same Old Way_, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
+One of the key attributes of agile teams is that they are staffed with all of the skills and roles necessary to take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to transform themselves, create the environment necessary for autonomous teams, and upend some entrenched company fiefdoms in the process. This results in doing work the _Same Old Way_, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
 
 Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all attempted progress. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without first:
-* getting permission to make a change to a company-wide framework
+* getting permission to make a change to a mandatory company-wide framework
 * presenting to a review board to change a standard
 * asking for management approval to run an experiment  
 * acquiring approval from a working group to try out new library or tool, etc.
@@ -66,7 +66,7 @@ If what I'm saying sounds impossible, I recommend a trio of books.
 ### Books 
 Mary and Tom Poppendieck's _**[Lean Software Development](https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)**_ describes how centralized standards results in the opposite of their intended affect. The book is teeming with incredible insights and is at the top of my list of recommended reading for software professionals.
 
-Nicole Forsgren (with Jez Humble and Gene Kim) have written _**[Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)**_ and are responsible for the annual State of DevOps Report. In it they describe the research that indicates that, among other practices, having a light-weight change review process like code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
+Nicole Forsgren (with Jez Humble and Gene Kim) have written _**[Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)**_ and are responsible for the annual State of DevOps Report. In it they describe the research that indicates that, among other practices, having a light-weight change review process like light-weight code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
 
 The last book I will recommend is Marty Cagan's _**[Inspired - How to Create Tech Products Customers Love](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/)**_, in it he describes how great software companies can maintain an innovative culture as they grow and operate at scale. 
 
