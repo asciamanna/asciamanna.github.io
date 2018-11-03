@@ -14,18 +14,18 @@ In most companies struggling with these issues leaders say they want an innovati
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of [Powerful; Building a Culture of Freedom and Responsibility](https://www.amazon.com/Powerful-Building-Culture-Freedom-Responsibility/dp/1939714095)_
 
-The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like 'innovative' and start looking at the language and actions of management, the processes in place, and the system of work it becomes obvious that the company is 'optimized' for anything but innovation.
+The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like "innovative" and start looking at the language and actions of management, the processes in place, and the system of work it becomes obvious that the company is "optimized" for anything but innovation.
 
 These companies have taken the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (command-and-control waterfall projects wrapped in Scrum terminology) and Scaled Agile frameworks like SAFe, these problems thrive despite organizational claims about being "agile." 
 
 ## Agile Teams in Corporate Scrum
 One of the key attributes of agile teams is that they are staffed with all of the skills and roles necessary to take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to transform themselves, create the environment necessary for autonomous teams, and upend some entrenched company fiefdoms in the process. This results in doing work the _Same Old Way_, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
 
-Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all attempted progress. This destroys any chance for the team to innovate, rendering them helpless to deliver anything without first:
+Companies often build what they believe are cross-functional teams, but these teams must take so much external direction that it serves to stymie all attempted progress. This destroys any chance for the team to innovate, and renders them helpless to deliver anything without first:
 * getting permission to make a change to a mandatory company-wide framework
 * presenting to a review board to change a standard
 * asking for management approval to run an experiment  
-* acquiring approval from a working group to try out new library or tool, etc.
+* acquiring approval from a working group to try a new library or tool, etc.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I regularly hear managers moan about “learned helplessness”—teams that are afraid to try stuff. If you tell the teams what to do, you&#39;re telling them not to try stuff. You can’t have it both ways. An org that imposes a company-wide framework is destroying innovation.</p>&mdash; Allen Holub (@allenholub) <a href="https://twitter.com/allenholub/status/1046791808129282048?ref_src=twsrc%5Etfw">October 1, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -42,16 +42,20 @@ The company signals that it values identical teams and organizational sameness o
 > Teams of missionaries are engaged, motivated, have a deep understanding of the business context, and tangible empathy for the customer. Teams of mercenaries feel no real sense of empowerment or accountability, no passion for the problem to be solved, and little real connection with the actual users and customers.     
 > _&mdash; Marty Cagan - [Missionaries vs. Mercenaries](https://svpg.com/missionaries-vs-mercenaries/)_
 
-Now this doesn't mean that every team works in isolation and teams create inconsistency in the product in the name of autonomy. Rather teams can organize around areas requiring consistency and tools can be built for teams to use that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). The major difference here is that the team understands where consistency is required and they get to decide whether to adopt a tool that is supported for them and when they need to deviate and eliminate the dependency on another team's tools. I'll be discussing this nuance in more detail in a future post.
+Now this doesn't mean that every team works in isolation and teams create inconsistency in the product in the name of autonomy. Rather teams can organize around areas requiring consistency and tools can be built for teams to use that provide consistency (e.g., a logging service to format log messages in a similar fashion across teams). The difference here is that the team understands where consistency is required and they get to decide whether to adopt a tool that is supported for them and when they need to deviate and eliminate the dependency on another team's tools. I'll be discussing this nuance in more detail in a future post.
 
 ## An Organization Without Innovation
-What becomes obvious for anyone who has worked in a highly productive learning organization is that companies that centralize standards, decision making, and process change, crush innovation. It sends a clear message that innovation and initiative, at the team-level, is to be punished not celebrated. If you are on a delivery team, it is something to be done in secret if at all.
+What becomes obvious for anyone who has worked in a highly productive learning organization is that companies that centralize standards, decision making, and process change, crush innovation. It sends a clear message that innovation and initiative, at the team-level, is to be punished not celebrated. 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Punish people for their improvements and the process of ongoing improvement comes to a grinding halt.&quot; —Eli Goldratt <a href="https://twitter.com/hashtag/tocot?src=hash&amp;ref_src=twsrc%5Etfw">#tocot</a></p>&mdash; Goldratt Books (@GoldrattBooks) <a href="https://twitter.com/GoldrattBooks/status/1057978062028062721?ref_src=twsrc%5Etfw">November 1, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Team Apathy
 If a team needs to convince organizational leadership, a review board, a team of architects, or even the other development teams of the merit of an improvement or experiment, they will simply stop trying to improve. Given the friction involved in getting any change through, teams stop trying to improve the way they work. Over time, the organization ends up creating apathetic teams because they just don’t have the time or energy to deliver on their team commitments and put in the heroic effort necessary to affect change in the organization.
 
 ## Lessons of Lean Software Development
-One of the many important lessons we've learned from lean is that process improvement should come from the practitioners. Mantras like **_"Move authority to the information"_** exist to remind leaders that in knowledge work separating decision making from doing the work is a fool's errand. 
+One of the many important lessons we've learned from lean is that process improvement should come from the practitioners. Mantras like **_"Move authority to the information"_** exist to remind leaders that, in knowledge work, separating decision making from doing the work is a fool's errand. 
 
 <img src="/img/taiichi-ohno-quote.jpg" class="img-responsive" />
 
