@@ -31,7 +31,7 @@ We talk about disciplined break taking as an important aspect of mob programming
 
 <img src="/img/pomodoro.jpg" alt="Pomodoro Timer" class="img-responsive" />
 
-The intervals are named __*pomodoros*__ the plural of the Italian word for tomato, named after the tomato-shaped kitchen timer. 
+The intervals are named __*pomodoros*__ the plural (in English) of the Italian word for tomato, named after the tomato-shaped kitchen timer. 
 
 ### Importance of Disciplined Breaks
 Tim Ottinger has written an excellent article about the importance of disciplined breaks in software development. Take a look at, [Taking Breaks in a Disciplined Way](http://agileotter.blogspot.com/2017/11/taking-breaks-in-disciplined-way.html).
@@ -52,6 +52,12 @@ Hunter Industries Mob Programming video from 2016. Catch up with the development
 ## Effective Practices
 
 Take a look at the article I wrote about mob programming practices to continue improving and adapting your mob programming sessions, [Practices for Effective Mob Programming]({{site.baseurl}}{% post_url 2018-06-29-practices-for-effective-mob-programming %}).
+
+## Pluralsight's Mob Programming
+We mentioned Pluralsight's mob proramming practices during the talk. You can read an article about it on their technical blog [here](https://www.pluralsight.com/tech-blog/mob-programming).
+
+## Industrial Logic's Mob Programming Cheat Sheet
+[Industrial Logic](https://www.industriallogic.com) has a [mob programming cheat sheet](https://docs.google.com/document/d/1Ve5LVAJvGqJbUZR6C2o3ZNvFPKpuJ6sfIwxlpgKpKCk/) available. 
 
 Do you have questions about the talk or Mob Programming in general? Or maybe just want to chat with us? The best way to get in touch with us is on twitter. Feel free to contact me ([@asciamanna](https://www.twitter.com/asciamanna)) or Nick ([@ngoede](https://www.twitter.com/ngoede)) there. 
 
