@@ -23,6 +23,10 @@ We reference Lean Software Development several times in our talk. It's worthwhil
 
 <img src="/img/lean-software-development.jpg" alt="Lean Software Development by Mary and Tom Poppendieck" class="img-responsive" />
 
+## Mobster
+
+We recommend getting started with the mob programming tool [mobster](http://mobster.cc/).
+
 ## Disciplined Break Taking
 
 ### The Pomodoro Technique
