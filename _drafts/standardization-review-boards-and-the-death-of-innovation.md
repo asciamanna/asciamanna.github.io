@@ -35,7 +35,7 @@ Companies often build what they believe are cross-functional teams, but these te
 The crux of this problem is that decision makers are separated from those who are doing the work. 
 
 ### Review Boards & Standards Bodies
-When coaching software development teams, one thing I focus on is helping to identify and minimize waste. One of the biggest sources of waste is the unwavering belief that for companies to grow and operate "at scale" an organizational optimization (and risk reduction technique) is to enforce organizational standards. This is often done by creating standards bodies, review boards, working groups, etc. This commonly results in the creation of several roles in the organization to create and manage standards. These board members can't possibly work on every team they are making decisions on behalf of. This separation of the decision makers from the workers creates broken feedback loops that slow down every team delivering software for the company.  
+When coaching software development teams, one thing I focus on is helping to identify and minimize waste. One of the biggest sources of waste is the unwavering belief that for companies to grow and operate "at scale" an organizational optimization (and risk reduction technique) is to enforce organizational standards. This is often done by creating standards bodies, review boards, working groups, etc. This commonly results in the creation of several roles in the organization to create and manage these standards. The board members can't possibly work on every team they are making decisions on behalf of. This separation of the decision makers from the workers creates broken feedback loops that slow down every team delivering software.  
 
 The company signals that it values identical teams and organizational sameness over creating empowered, autonomous teams. Consequently morale plummets when the realization sets in that the teams responsible for doing the actual work are just typists, mercenaries doing as they are instructed to the codebase. 
 
@@ -55,7 +55,7 @@ What becomes obvious for anyone who has worked in a highly productive learning o
 If a team needs to convince organizational leadership, a review board, a team of architects, or even the other development teams of the merit of an improvement or experiment, they will simply stop trying to improve. Given the friction involved in getting any change through, teams stop trying to improve the way they work. Over time, the organization ends up creating apathetic teams because they just don’t have the time or energy to deliver on their team commitments and put in the heroic effort necessary to affect change in the organization.
 
 ## Lessons of Lean Software Development
-One of the many important lessons we've learned from lean is that process improvement should come from the practitioners. Mantras like **_"Move authority to the information"_** exist to remind leaders that, in knowledge work, separating decision making from doing the work is a fool's errand. 
+One of the many important lessons we've learned from lean is that process improvement should come from the practitioners. Mantras like **_"Move Authority to the Information"_** exist to remind leaders that, in knowledge work, separating decision making from doing the work is a fool's errand. 
 
 <img src="/img/taiichi-ohno-quote.jpg" class="img-responsive" />
 
