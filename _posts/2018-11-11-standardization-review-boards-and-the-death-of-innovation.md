@@ -7,16 +7,16 @@ category: leadership
 tags: ['anti-patterns', 'agile development']
 ---
 
-It's really quite simple to destroy innovation and productivity on software development teams. Companies that send a clear message that initiative and experimentation are punishable and move the decision making away from the people building the software, create organizations where innovation and effectiveness is impossible.
+It's really quite simple to destroy innovation and productivity on software development teams. Companies that send a clear message that initiative and experimentation are punishable and move the decision making away from the people building the software, create organizations where innovation and effectiveness are impossible.
 
-In most companies struggling with these issues, leaders say they want the organization to innovate. They very well might, however, there is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies are, both in the way they structure their work, and how they treat their employees. Instead, they assume these companies must hire better engineers.
+In most companies struggling with these issues leaders say they want the organization to innovate. They very well might, however there is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies are, both in the way they structure their work, and how they treat their employees. Instead, they assume these companies must hire better engineers.
 
 > The more time managers spend communicating and elaborating and being transparent about the job to be done, about the challenges the business is facing and the larger competitive context, the less important policies, approvals, and incentives are.    
 > _&mdash; Patty McCord, former Chief Talent Officer at Netflix and Author of [Powerful; Building a Culture of Freedom and Responsibility](https://www.amazon.com/Powerful-Building-Culture-Freedom-Responsibility/dp/1939714095)_
 
 The source of the problem lies in actions of company leadership and the old playbook they are using to manage a software organization. If you strip away the thin veneer of generic company values that always include terms like "innovative" and start looking at the language and actions of management, the processes in place, and the system of work, it becomes obvious that the company is "optimized" for anything but innovation.
 
-These companies have taken the Taylorist playbook and continued to apply it to creative knowledge work. With the rise of poor Scrum implementations (command-and-control waterfall projects wrapped in Scrum terminology) and Scaled Agile frameworks like SAFe, these problems thrive despite organizational claims about being "agile." 
+These companies take the Taylorist playbook and continue to apply it to creative knowledge work. With the rise of poor Scrum implementations (command-and-control waterfall projects wrapped in Scrum terminology) and Scaled Agile frameworks like SAFe, these problems thrive despite organizational claims about being "agile." 
 
 ## Agile Teams in Corporate Scrum
 One of the key attributes of agile teams is that they are staffed with all of the skills and roles necessary to take an idea from formation to delivery. Lean software development calls this taking an idea _"from concept to cash."_ But companies often want the benefits of agile without putting in the hard work to transform themselves, create the environment necessary for autonomous teams, and upend some entrenched company fiefdoms in the process. This results in doing work the _Same Old Way_, Command-and-Control waterfall organizations adopting the terminology of agile without any of the substance. 
@@ -54,7 +54,7 @@ Those who have worked in highly productive learning organizations know that comp
 ## Team Apathy
 If a team needs to convince organizational leadership, a review board, or a team of architects of the merit of an improvement or experiment, they will simply stop trying to improve. There is too much friction involved in affecting change. Over time, these teams become apathetic because they don’t have the time or energy to deliver on their commitments and put in the effort necessary to create change.
 
-## Lessons of Lean Software Development
+## Lessons from Lean Software Development
 One of the many important lessons we've learned from lean is that process improvement should come from the practitioners. Mantras like **_"Move Authority to the Information"_** exist to remind leaders that, in knowledge work, separating decision making from doing the work is a fool's errand. 
 
 <img src="/img/taiichi-ohno-quote.jpg" class="img-responsive" />
@@ -70,7 +70,7 @@ If what I'm saying sounds impossible, I recommend a trio of books.
 ### Books 
 Mary and Tom Poppendieck's _**[Lean Software Development](https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)**_ describes how centralized standards results in the opposite of their intended affect. The book is teeming with incredible insights and is at the top of my list of recommended reading for software professionals.
 
-Nicole Forsgren (with Jez Humble and Gene Kim) have written _**[Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)**_ and are responsible for the annual State of DevOps Report. In it, they describe the research that indicates that among other practices, having a light-weight change review process like light-weight code reviews, pair programming, and mob programming is much more effective than review boards and centralized standards bodies. 
+Nicole Forsgren (with Jez Humble and Gene Kim) have written _**[Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)**_ and are responsible for the annual State of DevOps Report. In it, they describe the research that indicates that among other practices, having a light-weight change review process like light-weight code reviews, pair programming and mob programming (as an extension of pair programming) is much more effective than review boards and centralized standards bodies. 
 
 The last book I will recommend is Marty Cagan's _**[Inspired - How to Create Tech Products Customers Love](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/)**_. In it, he describes how great software companies can maintain an innovative culture as they grow and operate at scale. 
 
