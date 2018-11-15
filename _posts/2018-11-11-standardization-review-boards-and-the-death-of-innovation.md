@@ -7,7 +7,7 @@ category: leadership
 tags: ['anti-patterns', 'agile development']
 ---
 
-It's really quite simple to destroy innovation and productivity on software development teams. Companies that send a clear message that initiative and experimentation are punishable and move the decision making away from the people building the software, create organizations where innovation and effectiveness are impossible.
+It's really quite simple to prevent innovation and productivity on software development teams. Companies that send a clear message that initiative and experimentation are punishable and move the decision making away from the people building the software, create organizations where innovation and effectiveness are impossible.
 
 In most companies struggling with these issues leaders say they want the organization to innovate. They very well might, however there is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies are, both in the way they structure their work, and how they treat their employees. Instead, they assume these companies must hire better engineers.
 
