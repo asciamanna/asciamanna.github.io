@@ -35,13 +35,13 @@ __*No, our management and organizational leadership attend the meeting to see ou
 
 How does your team estimate their work?
 
-__*Our estimates are used to see if we will meet the deadline set by the organization. Management has said it's important that all of our teams estimate the same way since they are so interested in our velocity. They want it to be as similar as possible across teams. It helps them break projects up into smaller pieces and scatter them across the teams. We do a lot of high-level estimates for our large projects in addition to sprint estimates.*__
+__*Our estimates are used to see if we will meet the deadline set by the organization. Management has said it's important that all of our teams estimate the same way since they are so interested in our velocity. They want it to be as similar as possible across teams. It helps them break projects up into smaller pieces and scatter the work across the teams. We do a lot of high-level estimates for our large projects in addition to sprint estimates.*__`
 
 How do you do those?
 
 __*We have a brief fifteen to thirty minute conversation with management about a project idea and then we guess how long it will take to complete. If they think it's too long they will recommend we find a way to provide smaller estimates. If we can't decrease the estimates they scatter the work across more teams.*__
 
-Ah yes, the age-old idea that adding more people will finish a project faster. I have some classic books I can recommend about that, it might help to leave a few around your office. The estimating process sounds like it is fraught with problems. You don't have access to any details to make these guesses more meaningful?
+Ah yes, the age-old idea that you can complete a project faster just by adding more people. I have some classic books I can recommend on that topic, it might help to leave a few around your office. The estimating process sounds like it is fraught with problems. You don't have access to any details to make these guesses more meaningful?
 
 __*No, the people asking for the estimates wouldn't know any of the details anyway. The team ends up figuring out those details after we start the project.*__
 
@@ -55,7 +55,7 @@ __*Not exactly, he tells us how management wants us to work and makes sure we ar
 
 So if you wanted to stop using story point estimates in favor of a different forecasting method or wanted to replace Jira with a physical card wall could your Scrum Master help you with that?
 
-__*No, there's no way I would ask. Management would think I was a troublemaker. Those are things we're not permitted to change.*__
+__*No, there's no way I would ask. Management would think I was a troublemaker. Those are things we're not allowed to change.*__
 
 What if the change was more technical in nature? Let's say you wanted to change how you tested your API. What if it involved adopting a different third-party library and changing some infrastructure code shared by your tests? Could you do that?
 
@@ -85,4 +85,3 @@ It is too easy for companies to adopt Scrum (or SAFe) processes devoid of any of
 If a company is adopting agile for the wrong reasons, like to improve estimates or deliver projects faster, it's going to result in the opposite of the intended effect. Without a company-wide culture change, delivery teams will adopt practices to optimize for delivering very small batches of work, getting feedback, and iterating. This assumes a level of autonomy and ownership at the team level. If instead the company still works in big batches and has a command-and-control management style, it creates an impedance mismatch at the team level. 
 
 What we have learned is that by robbing teams of autonomy, mastery, and purpose (which is the result of command-and-control management structures) the best developers will leave to find work elsewhere. Add stress at the team level where mixed messages are sent, _**"we are adopting Scrum but only so you give us what we told you to give us faster"**_, and you'll find your best developers leaving your organization at an even faster rate. 
-
