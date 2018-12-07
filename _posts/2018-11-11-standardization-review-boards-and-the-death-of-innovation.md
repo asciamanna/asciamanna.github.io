@@ -34,6 +34,9 @@ Companies often build what they believe are cross-functional teams, but these te
 ## Decision Makers vs. Workers - Broken Feedback Loops
 The crux of this problem is that decision makers are separated from those who are doing the work. 
 
+> When teams can decide which tools they use, it contributes to software delivery performance and, in turn, to organizational performance.    
+> _&mdash; Nicole Forsgren, PhD - Accelerate: Building and Scaling High Performing Technology Orgnaizations_  
+
 ### Review Boards & Standards Bodies
 When coaching software development teams, one thing I focus on is helping to identify and minimize waste. One of the biggest sources of waste is the unwavering belief that for companies to grow and operate "at scale" an organizational optimization (and risk reduction technique) is to enforce organizational standards. This is often done by creating standards bodies, review boards, working groups, etc. This commonly results in the creation of several roles in the organization to create and manage these standards. The board members can't possibly work on every team they are making decisions on behalf of. This separation of the decision makers from the workers creates broken feedback loops that slow down every team delivering software.  
 
