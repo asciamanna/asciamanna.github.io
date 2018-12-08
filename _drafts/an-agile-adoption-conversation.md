@@ -9,13 +9,13 @@ tags: ['agile development', 'anti-patterns']
 
 __*The company I work for was interested in agile software development so we adopted Scrum a while ago.*__
 
-Really? Working on an XP team was easily the most rewarding experience of my career. It changed the focus of the rest of my career. How do you like it so far?
+Really? Working on an XP team was easily the most rewarding experience of my career so far. It changed the focus of the rest of my career. How do you like it?
 
 __*Uhm....Scrum is just a tool for micromanagement. Now I get hassled by a Product Owner, a Scrum Master, AND my manager.*__
 
 That sounds awful. Tell me more about it. Are you releasing after every sprint?
 
-__*No we work on big projects. Some may take up to a year. We deploy code more regularly but it doesn't get enabled in production until everything is complete. That's a business decision. We are only responsible for implementing the features not making those kinds of decisions.*__
+__*No, we work on big projects. Some may take up to a year to complete. We deploy code more regularly but it doesn't get enabled in production until everything is complete. That's a business decision. We are only responsible for implementing the features not making those kinds of decisions.*__
 
 That's a long time, are you getting feedback from customers and iterating based on that feedback?
 
@@ -39,13 +39,13 @@ __*Our estimates are used to see if we will meet the deadline set by the organiz
 
 How do you do those?
 
-__*We have a brief fifteen to thirty minute conversation with management about a project idea and then we estimate how long it will take to complete. If they think it's too long they will recommend we find a way to provide smaller estimates. If we can't decrease the estimates they spread the work across more teams.*__
+__*We have a brief thirty minute conversation with management about a project idea and then we estimate how long it will take to complete. If they think it's too long they will recommend we find a way to provide smaller estimates. If we can't decrease the estimates they spread the work across more teams.*__
 
 Ah yes, the age-old idea that you can complete a project faster just by adding more people. I have some books I can recommend on that topic, it might help to leave a few around your office. The estimating process sounds like it is fraught with problems. You don't have access to any details to make these guesses more meaningful?
 
 __*No, the people asking for the estimates wouldn't know any of the details anyway. The team ends up figuring out those details after we start the project.*__
 
-Does your development team practice any of the XP-based technical practices to help teams continuously deliver with high-quality? Like pair programming,mob programming, TDD, Continuous Integration, refactoring, and evolutionary design, for example?
+Does your development team practice any of the XP-based technical practices to help teams continuously deliver with high-quality? Like pair programming, mob programming, TDD, Continuous Integration, refactoring, and evolutionary design, for example?
 
 __*No, the agile consultants that ran our agile transition said it wasn't their place to tell us how to write the code. So we code the same way we always have.*__
 
@@ -53,7 +53,7 @@ Is your Scrum Master helping empower your team to improve yourselves and take ow
 
 __*Not exactly, he tells us how management wants us to work and makes sure we are adhering to those processes. It's important to management that all of our teams work the same way. Mostly he looks for opportunities for us to pull more work into the sprint and increase our velocity, otherwise he's organizing our team meetings.*__
 
-So if you wanted to stop using story point estimates in favor of a different forecasting method or wanted to replace Jira with a physical card wall could your Scrum Master help you with that?
+So if you wanted to experiment with no longer using story points or wanted to replace Jira with a physical card wall could your Scrum Master help you with that?
 
 __*No, there's no way I would ask. Management would think I was a troublemaker. Those are things we're not allowed to change.*__
 
@@ -80,8 +80,8 @@ __*Our leadership thought we'd give them better estimates and deliver our projec
 
 ## A Cautionary Tale
 
-It is too easy for companies to adopt Scrum (or now SAFe) devoid of any of the agile values and principles, then proclaim that they are now "agile." This allows leadership to push all of the change down to the teams without having to make any changes to how they work. As a result, none of the changes to organizational leadership or the rest of the company occurs, which are essential to becoming an agile software organization. The conversation above is common in companies that adopt Scrum ceremonies while still practicing waterfall development in a command-and-control management structure.
+It is too easy for companies to adopt Scrum (or scaling frameworks like SAFe) devoid of any of the agile values and principles, then proclaim that they are now "agile." This allows leadership to push all of the change down to the teams without having to make any changes to how they work. As a result, none of the changes to organizational leadership or the rest of the company occurs, which are essential to becoming an agile software organization. The conversation above is common in companies that adopt Scrum ceremonies while still practicing waterfall development in a command-and-control management structure.
 
-If a company is adopting agile for the wrong reasons, like to improve estimates or deliver large, multi-month, multi-team projects faster, it's going to result in the opposite of the intended effect. Without a company-wide culture change, delivery teams will adopt practices to optimize for delivering very small batches of work, getting feedback, and iterating. This assumes a level of autonomy and ownership at the team level. If instead the company still works in big batches and has a command-and-control management style, it creates an impedance mismatch at the team level. 
+If a company is adopting agile for the wrong reasons, like to improve estimates or deliver large, multi-month, multi-team projects faster, it's going to result in the opposite of the intended effect. Without a company-wide culture change, delivery teams will adopt practices to optimize for delivering very small batches of work, getting feedback, and iterating. This assumes a level of autonomy and ownership at the team level. If instead the company still works in big batches and has a command-and-control management style, it creates an impedance mismatch for the teams.
 
-What we have learned is that by robbing teams of autonomy, mastery, and purpose (which is a natural result of command-and-control management structures) the best developers will leave to find work elsewhere. Add stress at the team level where mixed messages are sent, _**"we are adopting Scrum but only so you give us what we told you to give us faster"**_, and you'll find your best developers leaving your organization at an even faster rate. 
+What we have learned is that by robbing teams of autonomy, mastery, and purpose (which is a natural result of command-and-control management structures) the best developers will leave to find work elsewhere. Add stress at the team level where mixed messages are sent, _**"we are adopting Scrum but only so you give us what we told you to give us faster"**_, and you'll find your best developers leaving your organization at an even faster rate.
