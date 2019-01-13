@@ -19,7 +19,7 @@ In addition to Opportunistic and Preparatory refactoring, [Bob Martin](https://t
 ## Avoid the Refactoring Project
 Implicit in these types of refactoring workflows is the idea that we don't treat refactoring as a separate project. The project refactoring idea introduces several problems, including the idea that we can clean up the code sometime in the future. This is akin to only cleaning your dishes once your sink is full of dirty dishes and overflowing. Instead, opportunistic refactoring techniques encourage building the habits and skills for daily improvements to the code. It helps teams practice and learn the value of continuous improvement, a key component of lean. If technical improvements (i.e., technical debt paydown) or design improvements aren't in support of delivering better experiences (e.g., operational stability, performance, etc.) or more value to customers, I would question their merit. 
 
-> We refactor the code that impedes us, not all that offends us. 
+> We refactor the code that impedes us, not all that offends us.    
 > _&mdash; [Tim Ottinger](http://agileotter.blogspot.com/)_
 
 ## High-Wire Act Without a Net
@@ -38,8 +38,6 @@ The changes without tests are just the first of several steps to get characteriz
 
 <img src="/img/legacy-code-dilemma.png" class="img-responsive" alt="Michael Feathers Legacy Code Dilemma." />
 
-##
-
 ## Last Mile 
 There is one situation in particular, where I recommend code changes and refactorings that aren't tied to adding business value or features. It is what, [Industrial Logic](https://www.industriallogic.com) senior consultant, [Mike Rieser](https://twitter.com/MichaelRieser) calls **_The Last Mile_**. Let's take a look at an example. 
 
@@ -52,7 +50,7 @@ The work that is required to replace the few instances of the old ORM is known a
 
 ## Conclusion
 
-> There is nothing so useless as doing efficiently that which should not be done at all.
+> There is nothing so useless as doing efficiently that which should not be done at all.    
 > _&mdash; Peter Drucker_
 
 Refactor code in support of the work your team is currently doing. Great software design is measured by how safe and simple the code is to change, maintain, and understand. We rarely know exactly how we will need to change the code in the future. Software design is a process of tradeoffs. Some designs make one kind of change easier at the expense of another. Refactoring is a vital step to always keep the code's design optimal for the kinds of changes that are required, without needing a crystal ball. 
