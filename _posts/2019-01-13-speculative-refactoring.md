@@ -46,7 +46,7 @@ A team has been using the same ORM (Object-Relational Mapping) since they starte
 
 Instead, they decide to use opportunistic refactoring techniques. When a new feature is added or an area of the code is modified, the team includes the work to refactor the infrastructure code necessary to transition to the new ORM. This workflow is part opportunistic refactoring, and part infrastructure improvement, but should not change any user-visible behavior of the system. After six months, 80% of the application has been converted to the new ORM. However, the team has a dilemma. They now need to support two third-party ORMs. The areas of the code that aren't using the new ORM are the areas that are rarely changed. So, they may indefinitely need to support both ORMs if they only rely on opportunistic refactoring techniques. 
 
-The work that is required to replace the few instances of the old ORM is known as _the Last Mile_ , and a commonly required final step in larger infrastructure and architecture changes. It is preferred over Big Design Up Front (BDUF), all-or-nothing projects, that are still common in organizations that have not adopted evolutionary design and emergent architecture practices. 
+The work that is required to replace the few instances of the old ORM is known as _the Last Mile_, and a commonly required final step in larger infrastructure and architecture changes. It is preferred over Big Design Up Front (BDUF), all-or-nothing projects, that are still common in organizations that have not adopted evolutionary design and emergent architecture practices. 
 
 ## Conclusion
 
