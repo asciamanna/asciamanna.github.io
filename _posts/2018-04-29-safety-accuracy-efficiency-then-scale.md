@@ -83,8 +83,6 @@ In a large, poorly designed software system, removing cross team code dependenci
 
 Decomposing areas of code and improving the packaging structure has the added benefit of improving local build times. This helps encourage developers to practice TDD and work in very small increments. If the test and build cycle is long (more than a few seconds) developers struggle with practices like TDD that rely on nearly instantaneous feedback loops. **Fast feedback loops are one of the keys to unlocking productive development teams**.
 
-### TDD and Autom
-
 ### Focus on Highest Value Work and Small Batches
 
 Are teams spending time on low value work? Are features sitting for months without being deployed or sometimes not being deployed at all? Just focusing teams on the highest value work can yield an immediate increase in productivity. There are longer term gains that come from increased morale when teams know that their work really matters.
