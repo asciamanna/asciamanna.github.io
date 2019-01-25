@@ -15,6 +15,10 @@ The history of software development is one where software existed as a back offi
 
 This cost center mentality has a serious impact on culture of software development in these companies. It is this culture and cost minimizing activities that drive a the decisions that further decrease the value of the software being created.  
 
+> The bitterness of poor quality remains long after the sweetness of low price is forgotten.  
+> &mdash; Benjamin Franklin
+
+
 ### Decision Makers vs. Workers
 I discuss the divide between decision makers and workers in software development regularly. This is one of those cultural issues that is hard to break and stands in the way of the real organizational change necessary to successfully adopt agile software development values. Software companies that continue to treat software development as a cost center often do it because they create a division between the decision makers and the workers. 
 
@@ -45,6 +49,7 @@ When software development is viewed as a commodity, the attributes of successful
 The thought is that the company can simply deliver more value faster by adding more developers. Unfortunately, as they add more developers the opposite often happens. As the number of developers increase and the leadership hierarchy grows it takes increasingly longer to deliver any software. Decisions that could be made by the development team (in successful agile teams) now takes weeks as leadership has meetings to set process and policy. As the number of developers increase and the dependencies between them increase a massive coordination effort is required to deliver any value to customers. 
 
 As companies grow, add more developers, and do it in such a way that doesn't minimize dependencies between teams even more leadership and process is necessary to manage and orchestrate these dependencies. As a result, more leadership and hierarchy is introduced outside of the development teams.
+
 
 ### Lack of Autonomy
 
