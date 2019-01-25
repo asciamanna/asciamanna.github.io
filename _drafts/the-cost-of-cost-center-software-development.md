@@ -37,6 +37,7 @@ This way of working introduces delays in work and creates a culture where teams 
 In fact, taking a look at the most succsessful tech giants versus companies that toil away trying and failing with agile scaling methodologies, it becomes obvious that the truly successful tech companies have cracked the riddle, and understand how to organize their company in this age of software, giving up the Taylorist management practices and organizational hierachy that seemed to work during the Industrial Resolution. 
 
 QUOTE FROM ACCELERATE
+this one maybe - The fact that software delivery performance matters provides a strong argument against outsourcing the development of software that is strategic to your business, and instead bringing this capability into the core of your organization.
 
 ### Organizational Hierarchy
 In cost center cultures teams are expected to deliver output and this creates a need for increased organizational hierarchy. If software teams aren't responsible for making decisions, and there is a focus to reduce their cost, the focus on investment is on the leadership and the organization responsible for making the product decisions. This is where we see organizational hierarchy grow; Development Managers, Development Directors, VPs of development, Product Managers, Project Managers, Program Managers, etc. 
