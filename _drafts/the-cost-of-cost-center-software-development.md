@@ -11,6 +11,9 @@ It is still the norm for software companies to have cost accounting tunnel visio
 
 The history of software development is one where software existed primarily as back office activities to automate and improve processes, etc. It is reasonable to see why, at that time, it was considered a cost center. Fast-forward to today where software is a critical part of most companies (tightly integrated with the business). Even more directly software is often the primary product that companies produce (SaaS for example). For most companies the accounting hasn't been so quick to adjust, while they still try to minimize the costs of software development. It may seem obvious to seasoned agile and lean practitioners, it is often hard to convince companies that minimizing the costs of the activity that creates their revenue is a bad idea. That would mean throwing out accounting metrics by which senior leadership is often judged. 
 
+> Cost Accounting is enemy number one of productivity.  
+> _&mdash;Eliyahu M. Goldratt, Creator of the Theory of Constraints and author of The Goal_
+
 ## Cost Center Culture
 
 This cost center mentality has a serious impact on the culture of software development in these companies. The decisions that get made in the interest of managing costs further complicate the organization, making it even harder to deliver value to customers quickly.  
@@ -56,8 +59,6 @@ The thought is that the company can simply deliver more value faster by adding m
 
 
 
-QUOTE TO USE:
-"Cost Accounting is enemy number one of productivity." -Eliyahu M. Goldratt
 
 ### Lack of Autonomy & Discipline
 One of the lessons we've learned from Netflix's success is that if you give teams a vision, a problem to solve, autonomy _AND_ the teams are disciplined you will surprised by the results. Minimizing costs of software development is often incompatible with disciplined development practices. In these organizations that focus on output, agile technical practices like TDD, pair & mob programming, microtesting, refacotring, and CI/CD are often ignored. Not only because these practices take time to master but because they are viewed as "slowing output." Internal quality is often invisible in these companies and ignored in favor of delivering more output. That is until the house of cards falls. 
