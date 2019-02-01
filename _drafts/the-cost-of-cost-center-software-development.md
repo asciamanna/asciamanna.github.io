@@ -23,24 +23,19 @@ This cost center mentality has a serious impact on the culture of software devel
 
 
 ### Decision Makers vs. Workers
-I discuss the divide between decision makers and workers in software development regularly. This is one of those cultural issues that is hard to break and stands in the way of the real organizational change necessary to successfully adopt agile software development values. Software companies that continue to treat software development as a cost center often do it because they create a division between the decision makers and the workers. This is often realized as a separation between IT and the business. They interact as separate functional silos in the company. 
+I discuss the divide between decision makers and workers in software development regularly. This is one of those cultural issues that is hard to break and stands in the way of the real organizational change necessary to successfully adopt agile software development values. Software companies that continue to treat software development as a cost center often do it because they create a division between the decision makers and the workers. This is typically realized as a separation between IT and the business. They interact as separate functional silos in the company. 
 
-In these organizations, the decision makers are the real brains of the product the company produces. The IT organization is just the order takers implementing the ideas of "the business." This chasm between the technology and the business is often a cause of the bottlenceks in the organization. 
+In these organizations, the decision makers are the real brains of the product the company produces. The IT organization is just the order takers implementing the ideas of "the business." This chasm between the technology and the business is often a cause of the bottlenceks in the value stream. Contrast this with the most successful software companies who move authority to the point of information, so that the teams creating the software are involved in the discovery process, identifying the business problems to solve, and solving the problems for their customers.
 
-The best software engineers want to solve business problems not to be handed solutions to implement. Similarly, the most successful software companies move authority to the point of information, so that the teams creating the software are involved in the discovery process, identifying the problems to solve, and solving business problems for their customers.
-
-> QUOTE HERE - ????
 
 #### Outsourcing and Offshoring
-If there is a functional divide between the decision makers and the workers, then the company is free to sell the software development to the lowest bidder. Even the most critical parts of development can be outsourced and offshored, because the company believes that the creation of the software, and the software developers, are a commodity. 
-
-#### Lean & Agile Lessons
-This way of working introduces significant delays in the company's value stream and creates a culture where teams are only focused on output not business outcomes. The lessons we've learned from Lean & Agile Software Development over the last two decades is that the best software (i.e., the best customer experiences and the software that delivers the most value to customers) is created by teams having ownership of the business outcomes, not output.  
-
-Take a look at how some of the most successful tech companies work, and compare that to the typical enteriprise software company. The differences are glaringly obvious, these enterprises toil away adopting and failing with agile scaling methodologies, while they cling to Taylorism, organizational hierarchy, and centralized power and planning structures. They are operating with a management playbook that worked 100 years ago and trying to apply that to creative knowledge work. They manage to cost reductions and project deadlines not business outcomes
+If there is a functional divide between the decision makers and the workers, then the company is free to sell the software development to the lowest bidder. Even the most critical parts of development can be outsourced and offshored, because the company believes that the creation of the software, and the software developers who create it, are a commodity. 
 
 > The fact that software delivery performance matters provides a strong argument against outsourcing the development of software that is strategic to your business, and instead bringing this capability into the core of your organization.
 > _&mdash;Nicole Forsgren, Accelerate_
+
+### Common Enterprise Trap
+Take a look at how some of the most successful tech companies work, and compare that to the typical enteriprise software company. The differences are glaring. These enterprises toil away adopting agile scaling methodologies and failing, while they cling to Taylorism, organizational hierarchy, and centralized power and planning structures. They are operating with a management playbook that worked 100 years ago and trying to apply that to creative knowledge work. They manage to cost reductions, project deadlines, and output not business outcomes.
 
 ### Organizational Hierarchy
 In cost center cultures teams are expected to deliver output and this creates a need for increased organizational hierarchy. If development teams aren't responsible for making decisions, and there is a focus to reduce their cost, the focus on investment is on the leadership and the organization responsible for making the product decisions. This is where we see organizational hierarchy grow. Combine this interest in hierachy with functional silos and we have a recipe for a massive leadership organization; Development Managers, Development Directors, VPs of Development, Product Managers, Project Managers, Program Managers, QA Managers, QA Directors, Operations Managers, UX managers, and on and on. 
@@ -49,8 +44,6 @@ Attempting to create cross-functional teams is an exercise in frustration, where
 
 ### Broken Feedback Loops
 As these hierarchies grow feedback loops, if they exist at all, become significantly lengthened so that they provide no value to the teams delivering software. The decision makers are so far removed from the decisions they make, they don't see the affect their decisions have on the software teams' abilities to deliver and the issues those decisions create in the software being delivered.
-
-QUOTE FROM NETFLIX BOOK HERE
 
 ### Obsession with Operating at Scale
 When software development is viewed as a commodity, the attributes of successful and productive software teams are obscured. Organizations wrongly think they can deliver more value faster by hiring a lot of low-cost developers instead of paying more for a small number of developers and creating conditions where they can thrive. The belief is that each developers is just a pair of hands to take orders and turn them into code. This is something that Industrial Logic Senior Consultant Tim Ottinger calls _the Context-Free Fungible Developer_, and it is a myth. 
