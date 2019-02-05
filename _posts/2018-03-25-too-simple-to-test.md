@@ -25,7 +25,7 @@ Instead we suggest that developers should test what is interesting. This is inte
 
 ## Benefits of Microtesting Simple Code
 
-Skilled TDD practitioners create isolated, object-level microtests. The resulting microtest suite contains many tiny tests that run extremely fast (60ms or less) and execute and test a very small path in the code. These tests are favored over larger and more complicated tests that lack isolation. TAD unit testing often results in extraneous tests and tests that are difficult to understand. 
+Skilled TDD practitioners create isolated, object-level microtests. The resulting microtest suite contains many tiny tests that run extremely fast (in a few milliseconds) and execute and test a very small path in the code. These tests are favored over larger and more complicated tests. TAD unit testing often results in extraneous tests and tests that are difficult to understand. 
 
 ### Error Localization
 
