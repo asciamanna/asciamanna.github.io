@@ -25,7 +25,7 @@ More recently I've been creating a handful of slides to describe the code smell 
 ### Scratch Refactoring
 Before starting I make it clear that these refactorings are for practice only. We will be scratch refactoring, practicing a refactoring and throwing away the changes at the end of the kata. The team may leave with an idea to clean up that code the next time the work takes them there, but it's important not to commit these refactorings. We're trying to maximize our learning and practice time in the kata, not making code production ready. 
 
-### No Tests, No Problem (Sort of)
+### What About the Tests? 
 It is important to remind the team that refactoring workflows rely on running tests between each step to ensure that behavior hasn't changed. However, the focus of this kata is identifying the code smell and the mechanics of the refactoring. Since we often do these kinds of katas in codebases that have spotty (if any) microtest coverage, we don't spend time trying to get the code under test or writing characterization tests for the code. If this is a concern, you can find refactoring katas that come with tests (the Gilded Rose Kata for example). I do both the Gilded Rose and Scavenger Hunt Kata, emphasizing different aspects of refactoring. 
 
 ## The Kata
