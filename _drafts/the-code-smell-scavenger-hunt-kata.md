@@ -15,6 +15,7 @@ It's worthwhile working this code kata into the team's practices if:
 * The team struggles with the attributes of high quality, changeable code
 * The team wants to be able to practice using their codebase
 
+<img src="/img/refactoring-both-editions.jpg" class="img-responsive" />
 
 ## Select a Code Smell
 I typically tailor each session around a specific code smell. I use Chapter 3 "Bad Smells in Code" from [Martin Fowler](https://www.martinfowler.com)'s Refactoring book as my guide. That is the chapter [Kent Beck](https://www.twitter.com/kentbeck) and [Martin Fowler](https://www.martinfowler.com) co-authored that lists out code smells and refactoring techniques to remedy them. I choose one of the code smells from that chapter as the focus of the kata. I try to start with the smells that are easier to identify or ones that we have already discovered and discussed in the team's code. 
