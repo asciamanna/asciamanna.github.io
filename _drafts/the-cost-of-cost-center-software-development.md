@@ -13,7 +13,7 @@ In the early days of software development, it existed primarily as back office s
 
 For most companies the accounting hasn't been as quick to adjust. While the role software plays in business has fundamentally changed, software projects are still temporary constructs and managed to minimizing costs. This may seem like a glaring issue for seasoned agile and lean practitioners, but changing the accounting metrics by which company leadership is judged can be a slow process requiring influence at the highest levels of the organization. 
 
-> Cost Accounting is enemy number one of productivity.  
+> Cost Accounting is enemy number one of productivity.   
 > _&mdash;Eliyahu M. Goldratt, Creator of the Theory of Constraints and author of The Goal_
 
 ## Cost Center Culture
@@ -29,7 +29,7 @@ In these organizations, the decision makers are the real brains of the product t
 ### Outsourcing and Offshoring
 If this divide exists between the decision makers and the workers, then the company is free to sell the software development to the lowest bidder. Even the most critical parts of development can be outsourced and off-shored, because the company believes that the creation of the software, and the people who create it, are a commodity. 
 
-> The fact that software delivery performance matters provides a strong argument against outsourcing the development of software that is strategic to your business, and instead bringing this capability into the core of your organization.
+> The fact that software delivery performance matters provides a strong argument against outsourcing the development of software that is strategic to your business, and instead bringing this capability into the core of your organization.  
 > _&mdash;Nicole Forsgren PhD, Jez Humble, and Gene Kim from the book Accelerate_
 
 ### A Common Enterprise Trap
