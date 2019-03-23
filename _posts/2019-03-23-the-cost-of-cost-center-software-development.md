@@ -44,7 +44,7 @@ Attempting to create cross-functional development teams in this environment is a
 As these hierarchies grow feedback loops, if they exist at all, they become significantly lengthened such that they provide no value to the teams delivering software. The decision makers are so far removed from the decisions they make, they don't see the affect their decisions have on the software teams' abilities to deliver. Nor do they see the affect of those decisions on the software being created.
 
 > In most organizations, the bottleneck is at the top of the bottle.  
-> &mdash;Peter F. Drucker
+> _&mdash;Peter F. Drucker_
 
 ### Obsession with Operating at Scale
 When software development is viewed as a commodity, the attributes of successful and productive software teams are obscured. Organizations wrongly think they can deliver more value faster by hiring a lot of low-cost developers instead of focusing on small, self-organizing teams and creating conditions where they can thrive. The belief is that each developer is just a pair of hands to take orders and turn them into code. This is something that Industrial Logic Senior Consultant [Tim Ottinger](http://agileotter.blogspot.com/) calls _**the Context-Free Fungible Developer**_, and it is a myth. This myth further impacts organizations as they organize around temporary projects and move developers between projects and teams. 
