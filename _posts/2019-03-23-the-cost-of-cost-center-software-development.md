@@ -9,7 +9,7 @@ tags: ['agile development', 'anti-patterns']
 
 It is common for software companies to have cost accounting tunnel vision, solely focused on decreasing the costs associated with developing software. Consequently, a strict focus on reducing costs can actually lead to higher costs for worse results when examining the entire lifecycle of the software. Worse still, poor delivery and development associated with this style of "lowest bidder" software development create ample opportunity for these companies to be eclipsed by their competitors. A myriad of factors can contribute to this kind of development culture, but it often starts with treating software development as a cost center.
 
-In the early days of software development, it existed primarily as back office support activities to automate and improve company processes. It is reasonable to see why, at that time, it was considered a cost center. Now fast-forward to today where software is a critical part of most companies, is tightly integrated with the business. The modern automobile, for example, contains more lines of code than the Windows operating system.[^1] Even more directly, software is often the primary product that companies produce (Software-as-a-Service companies for example).
+In the early days of software development, it existed primarily as back office support activities to automate and improve company processes. It is reasonable to see why, at that time, it was considered a cost center. Now fast-forward to today where software is a critical part of most companies, being tightly integrated with the business. The modern automobile, for example, contains more lines of code than the Windows operating system.[^1] Even more directly, software is often the primary product that companies produce (Software-as-a-Service companies for example).
 
 For most companies, the accounting hasn't been as quick to adjust. While the role software plays in business has fundamentally changed, software projects are still temporary constructs and managed to minimize costs. This may seem like a glaring issue for seasoned agile and lean practitioners, but changing the accounting metrics by which company leadership is judged can be a slow process. It requires influence at the highest levels of the organization. 
 
@@ -41,9 +41,9 @@ Cost center cultures often create large organizational hierarchies, further slow
 Attempting to create cross-functional development teams in this environment is an exercise in futility. Each team could have nearly as many direct managers as members of the team. Each of those managers is part of a hierarchy that has its own stake in what each team works on. The delivery teams often end up getting competing direction. They are asked to work together to deliver features, but also are required to adhere to each individual manager's goals &mdash; which can often be at odds with the team's goals. The unfortunate result is that the delivery teams are left to deal with the pressure and pull from competing functional managers.  
 
 #### Broken Feedback Loops
-As these hierarchies grow feedback loops, if they exist at all, they become significantly lengthened such that they provide no value to the teams delivering software. The decision makers are so far removed from the decisions they make, they don't see the effect their decisions have on the software teams' abilities to deliver. Nor do they see the effect of those decisions on the software being created.
+As these hierarchies grow feedback loops, if they exist at all, become significantly lengthened such that they provide no value to the teams delivering software. The decision makers are so far removed from the decisions they make, they don't see the effect their decisions have on the software teams' abilities to deliver. Nor do they see the effect of those decisions on the software being created.
 
-> In most organizations, the bottleneck is at the top of the bottle.  
+> In most organizations, the bottleneck is at the top of the bottle. 
 > _&mdash;Peter F. Drucker_
 
 ### Obsession with Operating at Scale
