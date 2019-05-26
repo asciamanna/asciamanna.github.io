@@ -7,7 +7,7 @@ category: development practices
 tags: ['code kata', 'refactoring']
 ---
 
-One of my favorite katas to work on with teams who are new to refactoring is _The Code Smell Scavenger Hunt Kata_. It gives development teams the opportunity to practice identifying and refactoring code smells in their own codebase. 
+One of my favorite katas to work on with teams who are new to refactoring is what I call the _The Code Smell Scavenger Hunt Kata_. It gives development teams the opportunity to practice identifying and refactoring code smells in their own codebase. 
 
 It's worthwhile to work this kata into the team's practices if:
 * The team needs practice identifying code smells
@@ -24,10 +24,10 @@ Early on I recommend tailoring each session around a specific code smell. As the
 Recently I've been creating a handful of slides to describe the code smell and kata, but you could forgo this and instead cover these topics in a conversation. In the slide deck I describe the code smell, why it's a problem, and signals in the code that help to identify the smell. I'll then describe the specific refactorings used to address the code smell. Finally, I describe any _"exceptions to the rule."_ Since code smells are heuristics, I like to describe cases when we may choose not to refactor, if that's applicable to the code smell. 
 
 ### Scratch Refactoring
-Before starting it's important to make it clear that these refactorings are for practice only. We will be scratch refactoring, practicing a refactoring and throwing away the changes at the end of the kata. The team may leave with some ideas around how to clean up the code the next time the work takes them there, but it's important not to commit these refactorings. We're trying to maximize our learning and practice time in the kata, and as a consequence we're not spending time making the code production ready. 
+Before starting it's important to make it clear that these refactorings are for practice only. We will be scratch refactoring, practicing a refactoring and throwing away the changes at the end of the kata. The team may leave with some ideas around how to clean up the code the next time the work takes them there, but it's important not to commit these refactorings to version control. We're trying to maximize our learning and practice time in the kata, and as a consequence we're not spending time making the code production ready. 
 
 ### What About the Tests? 
-It is important to remind the team that refactoring workflows rely on running tests between each micro-step of the refactoring to ensure that behavior hasn't changed. However, the focus of this kata is identifying the code smell and the mechanics of the refactoring. Since we often do these kinds of katas in codebases that have spotty (if any) microtest coverage, we don't spend time trying to get the code under test or writing characterization tests for the code. If this is a concern, you can find refactoring katas that come with tests ([the Gilded Rose Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata) for example). Or you can do other katas focused on characterization testing legacy code. I practice both types of katas with teams, emphasizing the different aspects of refactoring. 
+It is important to remind the team that refactoring workflows rely on running tests between each micro-step of the refactoring to ensure that behavior hasn't inadvertently been modified. However, the focus of this kata is identifying the code smell and the mechanics of the refactoring. Since we often do these kinds of katas in codebases that have spotty (if any) microtest coverage, we don't spend time trying to get the code under test or writing characterization tests for the code. If this is a concern, you can find refactoring katas that come with tests ([the Gilded Rose Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata) for example). Or you can practice other katas focused on characterization testing legacy code. I practice both types of katas with teams, emphasizing the different aspects of refactoring. 
 
 ## The Kata
 Once the team has an understanding of the code smell and the refactoring steps we begin the kata.
