@@ -7,7 +7,7 @@ category: development practices
 tags: ['code kata', 'refactoring']
 ---
 
-One of my favorite katas to work on with teams who are new to refactoring is what I call the _The Code Smell Scavenger Hunt Kata_. It gives development teams the opportunity to practice identifying and refactoring code smells in their own codebase. 
+When working with teams who are new to refactoring I like to help them practice techniques with code katas. A favorite of mine is one that I call _The Code Smell Scavenger Hunt Kata_. It gives development teams the opportunity to practice identifying and refactoring code smells in their own codebase. 
 
 It's worthwhile to work this kata into the team's practices if:
 * The team needs practice identifying code smells
