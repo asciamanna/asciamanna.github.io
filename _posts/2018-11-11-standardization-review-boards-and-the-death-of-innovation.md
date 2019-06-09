@@ -7,7 +7,7 @@ category: leadership
 tags: ['anti-patterns', 'agile development']
 ---
 
-It's really quite simple to prevent innovation and productivity on software development teams. Companies that send a clear message that initiative and experimentation are punishable and move the decision making away from the people building the software, create organizations where innovation and effectiveness are impossible.
+It's really quite simple to prevent innovation and ruin productivity on software development teams. Companies that send a clear message that initiative and experimentation are punishable and move the decision making away from the people building the software, create organizations where innovation and effectiveness are impossible.
 
 In most companies struggling with these issues leaders say they want the organization to innovate. They very well might, however there is often frustration around why they can't grow their organization and be as effective as companies like Netflix, Etsy, and Amazon. They don't recognize how fundamentally different these companies are, both in the way they structure their work, and how they treat their employees. Instead, they assume these companies must hire better engineers.
 
@@ -33,6 +33,9 @@ Companies often build what they believe are cross-functional teams, but these te
 
 ## Decision Makers vs. Workers - Broken Feedback Loops
 The crux of this problem is that decision makers are separated from those who are doing the work. 
+
+> When teams can decide which tools they use, it contributes to software delivery performance and, in turn, to organizational performance.    
+> _&mdash; Nicole Forsgren, PhD - Accelerate: Building and Scaling High Performing Technology Organizations_  
 
 ### Review Boards & Standards Bodies
 When coaching software development teams, one thing I focus on is helping to identify and minimize waste. One of the biggest sources of waste is the unwavering belief that for companies to grow and operate "at scale" an organizational optimization (and risk reduction technique) is to enforce organizational standards. This is often done by creating standards bodies, review boards, working groups, etc. This commonly results in the creation of several roles in the organization to create and manage these standards. The board members can't possibly work on every team they are making decisions on behalf of. This separation of the decision makers from the workers creates broken feedback loops that slow down every team delivering software.  
