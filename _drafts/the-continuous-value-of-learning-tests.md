@@ -23,9 +23,9 @@ In these tests the capabilities of the library are explored and tested outside o
 
 <img src="/img/feathers-quote-easel-sheet.jpg" alt="Michael Feathers Quote" />
 
-Developers often find themselves working with and learning about a library in the context of their application. They read vendor or open source documentation, try some things they've read about, and then observe the affect on their system, often repeating this loop until they discover the appropriate incantation to get the library to do what they want. This is an _**EXTREMELY**_ slow process. For more complicated APIs and interactions, unnecessary code often accumulates as the developers don't know the exact calls that resulted in the behavior that they desired. 
+Developers often find themselves working with and learning about a library in the context of their application. They read vendor or open source documentation, try some things they've read about, and then observe the affect on their system. Often this is repeated in a loop until they discover the appropriate incantation to get the library to do what they want. This is an _**EXTREMELY**_ slow process. For more complicated APIs and interactions, unnecessary code often accumulates as the developers don't know the exact code that resulted in the desired behavior. 
 
-Learning tests address this problem by separating learning about the library from its implementation and use in the system. This is similar to the workflow that Test-Driven Development (TDD) provides for developers, a workflow where software design and behavior implementation are separate steps in software development. It echoes a quote by Michael Feathers: 
+Learning tests address this problem by separating learning about the library from its implementation and use in the system. This is similar to the benefits found in the Test-Driven Development (TDD) workflow, where software design and behavior implementation are separate steps in software development. It echoes a quote by Michael Feathers: 
 
 > Programming is the art of doing exactly one thing at a time.    
 > _&mdash;Michael Feathers_
@@ -44,7 +44,7 @@ Here are the steps that I follow to create a suite of learning tests:
 2. Create a new test using the team's microtesting / unit testing framework in the appropriate suite.
 3. Create an instance of the third-party library object or its SDK in a test case. 
 4. Identify a method on the third-party library that is likely required by the application.
-5. Once a method is identified that the system will rely on that returns some result, call the method and assert null against the returned result.
+5. Once a method is identified call it in a test case and assert null against the returned result.
 6. Take the result from the assertion error and place that in an equals assertion to create a passing test. 
 7. Take another pass through the test and remove any unnecessary code by ensuring the test still passes.
 8. Repeat this process by creating a new test of another method on the third-party library that you need make use of in your application.
@@ -62,7 +62,7 @@ Once in place, these tests serve as executable documentation (like most well-wri
 ### Enabling Library Version Upgrades
 This is where teams get the big payoff of learning tests. When it comes time to upgrade your third-party library simply upgrade the version your learning tests are referencing and run your test suite. In a matter of seconds you know if you have a safe upgrade path or more work to do. I've worked on teams that had versions of third-party libraries that were over five years old, riddled with issues that were fixed in subsequent versions, but were too afraid to upgrade since it would require a massive (and often manual) regression effort. 
 
-There may even be breaking changes in the third-party library, but by focusing your learning tests on only the functions of the third-party library your application is dependent upon, you can find out quickly if any of functionality you rely on is affected by the breaking change. If a library upgrade breaks a test, you now have a testing environment and nearly instantaneous feedback loops so you can experiment to figure out the changes that you'll need to make to your application.
+There may even be breaking changes in the latest version of the third-party library, but by focusing your learning tests on only the functions of the third-party library your application is dependent upon, you can find out quickly if any of functionality you rely on is affected by the breaking change. If a library upgrade breaks a test, you now have a testing environment and nearly instantaneous feedback loops so you can experiment to figure out the changes that you'll need to make to your application.
 
 > In learning tests we call the third-party API, as we expect to use it in our application. We’re essentially doing controlled experiments that check our understanding of that API. The tests focus on what we want out of the API.  
 > _&mdash;James Grenning, from Clean Code_
