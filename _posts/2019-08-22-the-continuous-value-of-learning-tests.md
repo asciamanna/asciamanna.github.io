@@ -5,11 +5,13 @@ title: The Continuous Benefits of Learning Tests
 comments: true
 category: development practices
 tags: ['unit testing', 'clean code']
+excerpt_separator: <!--more-->
 ---
 
 <img src="/img/learning-test-header.jpg" alt="Learning Tests Header image" />
 
 Learning tests are an unfortunately underutilized practice on software development teams. These tests provide several benefits throughout the lifetime of a development project or product. In fact, learning tests have a unique quality in that their value changes over time. Learning tests can save teams significant amounts of research and regression testing time. They reduce typically high risk changes to running a small, fast test suite.  
+<!--more-->
 
 ## What is a Learning Test?
 
