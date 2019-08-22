@@ -8,7 +8,7 @@ tags: ['unit testing', 'clean code']
 excerpt_separator: <!--more-->
 ---
 
-<img src="/img/learning-test-header.jpg" alt="Learning Tests Header image" />
+<img src="/img/learning-test-header.jpg" alt="Learning Tests Header image" class="img-responsive" />
 
 Learning tests are an unfortunately underutilized practice on software development teams. These tests provide several benefits throughout the lifetime of a development project or product. In fact, learning tests have a unique quality in that their value changes over time. Learning tests can save teams significant amounts of research and regression testing time. They reduce typically high risk changes to running a small, fast test suite.  
 <!--more-->
@@ -23,7 +23,7 @@ In these tests the capabilities of the library are explored and tested outside o
 
 ## Separate Learning from Implementation
 
-<img src="/img/feathers-quote-easel-sheet.jpg" alt="Michael Feathers Quote" />
+<img src="/img/feathers-quote-easel-sheet.jpg" alt="Michael Feathers Quote" class="img-responsive" />
 
 Developers often find themselves working with and learning about a library in the context of their application. They read vendor or open source documentation, try some things they've read about, and then observe the affect on their system. Often this is repeated in a loop until they discover the appropriate incantation to get the library to do what they want. This is an _**EXTREMELY**_ slow process. For more complicated APIs and interactions, unnecessary code often accumulates as the developers don't know the exact code that resulted in the desired behavior. 
 
