@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: The Continuous Benefits of Learning Tests
+title: The Continuous Value of Learning Tests
 comments: true
 category: development practices
 tags: ['unit testing', 'clean code']
