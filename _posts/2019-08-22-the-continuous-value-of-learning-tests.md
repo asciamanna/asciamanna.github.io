@@ -30,13 +30,13 @@ Developers often find themselves working with and learning about a library in th
 
 Learning tests address this problem by separating learning about the library from its implementation and use in the system. This is similar to the benefits found in the Test-Driven Development (TDD) workflow, where software design and behavior implementation are separate steps in software development. It echoes a quote by Michael Feathers: 
 
-> Programming is the art of doing exactly one thing at a time. 
+> Programming is the art of doing exactly one thing at a time.   
 > _&mdash;Michael Feathers_
 
 ## Small Program Space
 I once received the great advice that you never debug large programs, only small ones. This is the second benefit of learning tests. You get isolated and focused learning about the third-party library in a very small program, typically an xunit-style test case that calls methods on a third-party library directly and asserts the results of those calls. 
 
-> Never debug a large program, only debug a small one. 
+> Never debug a large program, only debug a small one.   
 > _&mdash;Unknown_
 
 ## Creating a Learning Test
@@ -67,7 +67,7 @@ This is where teams get the big payoff of learning tests. When it comes time to 
 
 There may even be breaking changes in the latest version of the third-party library. By focusing your learning tests only on the functionality of the third-party library your application is dependent upon, you can find out quickly if your application is affected by the breaking change. If a library upgrade breaks a test, you now have a testing environment and nearly instantaneous feedback loops so you can experiment to figure out the changes that you'll need to make to your application.
 
-> In learning tests we call the third-party API, as we expect to use it in our application. We’re essentially doing controlled experiments that check our understanding of that API. The tests focus on what we want out of the API. 
+> In learning tests we call the third-party API, as we expect to use it in our application. We’re essentially doing controlled experiments that check our understanding of that API. The tests focus on what we want out of the API.   
 > _&mdash;James Grenning, from Clean Code_
 
 ## Conclusion
