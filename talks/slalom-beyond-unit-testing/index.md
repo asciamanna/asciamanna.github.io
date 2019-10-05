@@ -27,7 +27,7 @@ Take a look at Mike Hill's video and blog post about [TDD and the Lump of Coding
 If you are interested in reading my blog post that inspired this talk you can take a look at it [here]({{site.baseurl}}{% post_url 2017-06-18-tdd-is-not-a-testing-practice %}).
 
 ### Test Double Contributing Tests Wiki
-You can find Test Double's page on testing [here](https://github.com/testdouble/contributing-tests/wiki)
+You can find Test Double's page on testing [here](https://github.com/testdouble/contributing-tests/wiki).
 
 ### Industrial Logic eLearning
 Industrial Logic's eLearning is the best resource I've found for learning agile technical practices. You can learn more about it [on their website](https://www.industriallogic.com/elearning).
@@ -41,4 +41,4 @@ Here are the books I've referenced in the talk:
 Do you have questions about the talk or TDD in general? Or maybe just want to chat? The best way to get in touch with me is on twitter. Feel free to contact me at ([@asciamanna](https://www.twitter.com/asciamanna)).
 
 ### PhillyXP
-I am a founder and organizer of the PhillyXP user group. I encourage you to join our group [here on meetup](https://www.meetup.com/PhillyXP/) if you want to join us and learn more about XP, Modern Agile, and Lean Software Development.
+I am a founder and organizer of the PhillyXP user group. I encourage you to join our group [here on meetup](https://www.meetup.com/PhillyXP/) if you want to learn more about XP, Modern Agile, and Lean Software Development.
