@@ -14,3 +14,4 @@ Here you can find a listing of the talks I've given. Each page contains a link t
 | October 26, 2018 | [Mob Programming: Whole Team Collaboration - Picwell]({{site.baseurl}}{% link talks/picwell-mob-programming/index.md %}) |
 | November 10, 2018 | [Mob Programming: Whole Team Collaboration - BarCamp Philadelphia 11]({{site.baseurl}}{% link talks/barcamp-philly-mob-programming/index.md %}) |
 | November 13, 2018 | [Mob Programming: Whole Team Collaboration - PhillyXP]({{site.baseurl}}{% link talks/phillyxp-mob-programming/index.md %}) |
+| October 11, 2019 | [Beyond Unit Testing: The Real Value of Test-Driven Development - Slalom]({{site.baseurl}}{% link talks/slalom-beyond-unit-testing/index.md %}) |
