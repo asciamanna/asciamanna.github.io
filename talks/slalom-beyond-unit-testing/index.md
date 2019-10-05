@@ -5,7 +5,7 @@ title: "Slalom - Beyond Unit Testing Talk"
 ### Slalom - Beyond Unit Testing: The Real Value of Test-Driven Development 
 _October 11, 2019 - Philadelphia, PA_
 
-Thanks for attending my talk, Beyond Unit Testing! Here you will find all of the material I referenced during the talk. 
+Thanks for attending my talk, Beyond Unit Testing. Here you will find all of the material I referenced during the talk. 
 
 ## Slide Deck
 TODO
@@ -24,7 +24,7 @@ Here is the video from Just Searls' talk, [How To Stop Hating Your Test Suite](h
 Take a look at Mike Hill's video and blog post about [TDD and the Lump of Coding Fallacy](https://www.geepawhill.org/2018/04/14/tdd-the-lump-of-coding-fallacy/).
 
 ## TDD Is Not a Testing Practice 
-If you are interested in reading my blog post that inspired this talk you can take a look at it [here]({{site.baseurl}}{% post_url 22017-06-18-tdd-is-not-a-testing-practice %}).
+If you are interested in reading my blog post that inspired this talk you can take a look at it [here]({{site.baseurl}}{% post_url 2017-06-18-tdd-is-not-a-testing-practice %}).
 
 ## Test Double Contributing Tests Wiki
 You can find Test Double's page on testing [here](https://github.com/testdouble/contributing-tests/wiki)
