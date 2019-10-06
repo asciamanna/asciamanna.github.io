@@ -18,6 +18,8 @@ Here is a list of all of the articles and talks I referenced in my talk:
 * [Chrysler Comprehensive Compensation on C2 Wiki](http://wiki.c2.com/?ChryslerComprehensiveCompensation)
 * [C3](https://www.martinfowler.com/bliki/C3.html) - Martin Fowler
 * [TDD Is Not a Testing Practice]({{site.baseurl}}{% post_url 2017-06-18-tdd-is-not-a-testing-practice %}) - Anthony Sciamanna
+* [Unit Tests are FIRST](https://pragprog.com/magazines/2012-01/unit-tests-are-first) - Tim Ottinger & Jeff Langr
+* [SOS - To Save Sinking Test Suites]({{site.baseurl}}{% post_url 2018-01-30-sos-to-save-sinking-test-suites %}) - Anthony Sciamanna
 * [How To Stop Hating Your Test Suite](https://vimeo.com/145917204) - Justin Searls - RubyConf 2015
 * [TDD and the Lump of Coding Fallacy](https://www.geepawhill.org/2018/04/14/tdd-the-lump-of-coding-fallacy/) - Michael Hill
 * [Test Double's Contributing Tests Wiki](https://github.com/testdouble/contributing-tests/wiki)
@@ -32,4 +34,4 @@ Here are the books I've referenced in the talk:
 Do you have questions about the talk or TDD in general? Or maybe just want to chat? The best way to get in touch with me is on twitter. Feel free to contact me at ([@asciamanna](https://www.twitter.com/asciamanna)).
 
 ### PhillyXP
-I am a founder and organizer of the PhillyXP user group. I encourage you to join our group [here on meetup](https://www.meetup.com/PhillyXP/) if you want to join us and learn more about XP, Modern Agile, and Lean Software Development.
+I am a founder and organizer of the PhillyXP user group. I encourage you to join our group [here on meetup](https://www.meetup.com/PhillyXP/) if you are interested to learn more about XP, Modern Agile, and Lean Software Development.
