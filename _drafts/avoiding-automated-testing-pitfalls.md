@@ -5,8 +5,9 @@ title: Avoiding Automated Testing Pitfalls
 subtitle: How to Create Sustainable Test Suites
 comments: true
 excerpt_separator: <!--more-->
-category: leadership
+category: software craft 
 tags: ['agile development', 'unit testing', 'anti-patterns']
+---
 
 There is a pervasive problem in the software industry stemming from a misunderstanding of the risks and rewards of automated testing. I'm happy to see widespread adoption of automated testing, and the realization that it is a necessary compliment to manual, exploratory testing. However, many organizations don't understand the costs and benefits of the various types of automated tests available to them.
 <!--more-->
