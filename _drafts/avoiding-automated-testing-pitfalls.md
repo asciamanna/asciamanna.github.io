@@ -20,13 +20,13 @@ As compared to lower-level tests, end-to-end and UI tests are slow and brittle, 
 
 ### Lacking error-localization
 
-End-to-end and UI tests cover so much scope that they lack error localization. A failing test can cost the organization significant time trying to determine whether the failure was indeed a real failure and if it was, where is the error and how should they fix it. 
+End-to-end and UI tests cover so much scope that they lack error localization. A failing test can cost the organization significant time trying to determine whether the failure was indeed a real failure. If it is determined to be a real failure even more time is spent finding the code that caused the error and how it should be fixed.
 
 ## Test Pyramid Guide
 
 In these organizations I recommend sharing Mike Cohn's [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html). While it's not perfect (no model is) it is very effective in quickly showing organizations the mistake they are making when investing significant amounts money and time into complex automation testing frameworks, end-to-end tests, and UI tests. 
 
-IMAGE HERE
+<img src='/img/test-pyramid.png' alt='The Test Pyramid' />
 
 The test pyramid describes an approach to creating a sustainable test suite. The bottom of the pyramid consists of unit tests or, more recently known as, microtests. These should be the majority of tests in the suite. There should be a lot of them, they should be _**VERY**_ small and they should be _**VERY**_ fast (i.e., they should run in a few milliseconds). These tests should run in isolation on developer machines.  
 
@@ -48,7 +48,7 @@ With the creation of UI-testing tools like Selenium organizations have started d
 
 The result of this approach is the Test Ice Cream Cone where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this my goal is to help the organization flip the suite into a pyramid. 
 
-JIM SHORE IMAGE HERE
+<img src='img/test-ice-cream-cone.jpg' alt='james shore - test ice cream cone' />
 
 ## Push Tests Down 
 
