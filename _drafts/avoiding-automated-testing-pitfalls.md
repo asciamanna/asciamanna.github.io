@@ -18,6 +18,7 @@ There are two big misconceptions that set the stage for a risky and expensive ap
 As compared to lower-level tests, end-to-end and UI tests are slow and brittle, requiring significant time and often significant numbers of people to keep the tests working and investigate whether failures are false failures or real failures. Worse still, test suites occupied by a majority of these tests create a false sense of security for the organizations that rely on them. False failures are like broken windows and people begin to not take failing test suites seriously, _"Is it a real failure or a code change?"_ Because these tests can never cover all of the branching and business logic of the system, the suite lulls the organization into a false sense of security.
 
 ### Lacking error-localization
+
 End-to-end and UI tests cover so much scope that they lack error localization. A failing test can cost the organization significant time trying to determine whether the failure was indeed a real failure and if it was, where is the error and how should they fix it. 
 
 ## Test Pyramid Guide
@@ -49,6 +50,7 @@ The result of this approach is the Test Ice Cream Cone where a majority of the t
 JIM SHORE IMAGE HERE
 
 ## Push Tests Down 
+
 There are some organizations that will resist minimizing these end-to-end or UI tests because they managed to find an issue before it got to production. It's understandable to see why they wouldn't want to abandon these tests. But the fact remains that they are slower and less reliable than tests lower in the test pyramid. My advice has always been to push tests down. If a bug was caught in an end-to-end test or integration test, write a microtest that exposes the bug and then fix it. I was very pleased to see similar advice in the _The DevOps Handbook_.
 
 > Not only are errors detected during integration testing difficult and time-consuming for developers to reproduce, even validating that it has been fixed is difficult (i.e., a developer creates a fix but then needs to wait four hours to learn whether the integration tests now pass). Therefore, whenever we find an error with an acceptance or integration test, we should create a unit test that could find the error faster, earlier, and cheaper.   
@@ -57,6 +59,7 @@ There are some organizations that will resist minimizing these end-to-end or UI 
 There is often an argument that microtests and unit tests can't catch every bug. While I think this is true, it's often because of a gap in the microtests or quality issue with the microtests, not because of an inherent failure of that category of test. When this argument is employed teams miss an opportunity to improve their microtests. 
 
 ## Lacking Microtests
+
 The most common reason organizations adopt this approach is because they are lacking a high-quality and trusted unit test / microtest suite. Often teams abandon unit testing because they struggle with trying to wrap unit tests around untestable code. Or they may continue to wrap unit tests around untestable code and end up with a suite of tests that is a drag instead of an accelerator.
 
 > You can't write good tests for bad code.      
@@ -76,4 +79,5 @@ To help organizations improve their test suite start by mapping their tests to t
 Next begin to phase out complicated UI and end-to-end testing frameworks and outsourced test suites. Let teams own their test suites and decide how many, if any, end-to-end and UI tests they will need. While I believe some level of end-to-end tests are important they aren't always necessary. I worked on a team that practiced TDD and had robust suite of microtests and integration tests and didn't require end-to-end tests.
 
 ## Conclusion
+
 One key attribute to successful, high-performing software teams is the reliance on fast feedback loops. Test suites are one of the big feedback loops available to teams. Focusing on fast, reliable, repeatable tests are an accelerator for software organizations. Automated test suites are essential but be aware of the pitfalls in creating them. 
