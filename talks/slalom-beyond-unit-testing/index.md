@@ -12,12 +12,13 @@ Thanks for attending my talk, Beyond Unit Testing.
 
 ### Talk References
 
-Here is a list of all of the articles and talks I referenced in my talk:
+Here is a list of all of the articles and videos I referenced in my talk:
 
 * [You Won't Believe How Old TDD Is](https://arialdomartini.wordpress.com/2012/07/20/you-wont-believe-how-old-tdd-is/) - Arialdo Martini
 * [Chrysler Comprehensive Compensation on C2 Wiki](http://wiki.c2.com/?ChryslerComprehensiveCompensation)
 * [C3](https://www.martinfowler.com/bliki/C3.html) - Martin Fowler
 * [TDD Is Not a Testing Practice]({{site.baseurl}}{% post_url 2017-06-18-tdd-is-not-a-testing-practice %}) - Anthony Sciamanna
+* [Microtest: A GeePaw Hill Quickie](https://www.youtube.com/watch?reload=9&v=H3LOyuqhaJA) - Michael Hill
 * [Unit Tests are FIRST](https://pragprog.com/magazines/2012-01/unit-tests-are-first) - Tim Ottinger & Jeff Langr
 * [SOS - To Save Sinking Test Suites]({{site.baseurl}}{% post_url 2018-01-30-sos-to-save-sinking-test-suites %}) - Anthony Sciamanna
 * [How To Stop Hating Your Test Suite](https://vimeo.com/145917204) - Justin Searls - RubyConf 2015
