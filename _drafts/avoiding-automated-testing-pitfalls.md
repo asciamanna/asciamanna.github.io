@@ -48,7 +48,7 @@ With the creation of UI-testing tools like Selenium organizations have started d
 
 The result of this approach is the Test Ice Cream Cone where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this my goal is to help the organization flip the suite into a pyramid. 
 
-<img src='img/test-ice-cream-cone.jpg' alt='james shore - test ice cream cone' />
+<img src='/img/test-ice-cream-cone.jpg' alt='james shore - test ice cream cone' />
 
 ## Push Tests Down 
 
