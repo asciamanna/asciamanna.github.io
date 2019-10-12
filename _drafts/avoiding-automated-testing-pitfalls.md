@@ -26,7 +26,7 @@ End-to-end and UI tests cover so much scope that they lack error localization. A
 
 In these organizations I recommend sharing Mike Cohn's [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html). While it's not perfect (no model is) it is very effective in quickly showing organizations the mistake they are making when investing significant amounts money and time into complex automation testing frameworks, end-to-end tests, and UI tests. 
 
-<img src='/img/test-pyramid.png' alt='The Test Pyramid' />
+<img class='img-responsive' src='/img/test-pyramid.png' alt='The Test Pyramid' />
 
 The test pyramid describes an approach to creating a sustainable test suite. The bottom of the pyramid consists of unit tests or, more recently known as, microtests. These should be the majority of tests in the suite. There should be a lot of them, they should be _**VERY**_ small and they should be _**VERY**_ fast (i.e., they should run in a few milliseconds). These tests should run in isolation on developer machines.  
 
@@ -48,7 +48,7 @@ With the creation of UI-testing tools like Selenium organizations have started d
 
 The result of this approach is the Test Ice Cream Cone where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this my goal is to help the organization flip the suite into a pyramid. 
 
-<img src='/img/test-ice-cream-cone.jpg' alt='james shore - test ice cream cone' />
+<img class='img-responsive' src='/img/test-ice-cream-cone.jpg' alt='james shore - test ice cream cone' />
 
 ## Push Tests Down 
 
