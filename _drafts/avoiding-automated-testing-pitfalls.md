@@ -44,7 +44,7 @@ The most important thing to understand in this pyramid is the inverse relationsh
 
 #### The Big Failure
 
-The biggest failure of UI-driven and end-to-end focused test suites is that they try to test both high detail and large scope. This is the recipe for brittle and flaky tests. 
+The biggest failure of UI-driven and end-to-end focused test suites is that they try to test both high detail and large scope. This is the recipe for brittle and unreliable tests. 
 
 With the creation of UI-testing tools like Selenium organizations have started down a path to wrap these tools in complex, homegrown UI-testing frameworks in an attempt to create a comprehensive suite of end-to-end tests without understanding the drawbacks to this approach. 
 
@@ -52,14 +52,16 @@ With the creation of UI-testing tools like Selenium organizations have started d
 
 The result of this approach is the Test Ice Cream Cone where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this my goal is to help the organization shift their focus towards creating the pyramid.
 
-<img class='img-responsive' src='/img/test-ice-cream-cone.jpg' alt='james shore - test ice cream cone' />
+<img class='img-responsive' src='/img/test-ice-cream-cone-small.jpg' alt='james shore - test ice cream cone' />
 
 ## Push Tests Down 
 
 There are some organizations that will resist minimizing these end-to-end tests because they managed to find an issue before it got to production. It's understandable to see why they wouldn't want to abandon these tests. But the fact remains that they are slower and less reliable than tests lower in the test pyramid. My advice has always been to push tests down. If a bug was caught in an end-to-end test or integration test, write a microtest that exposes the bug and then fix it. I was very pleased to see similar advice in the _The DevOps Handbook_.
 
 > Not only are errors detected during integration testing difficult and time-consuming for developers to reproduce, even validating that it has been fixed is difficult (i.e., a developer creates a fix but then needs to wait four hours to learn whether the integration tests now pass). Therefore, whenever we find an error with an acceptance or integration test, we should create a unit test that could find the error faster, earlier, and cheaper.   
->&mdash;Gene Kim, The DevOps Handbook - Chapter 10
+>_**&mdash;Gene Kim, Jez Humble, Partick DeBois & John Willis - The DevOps Handbook - Chapter 10**_
+
+<img class='img-responsive' src='/img/devops-handbook.jpg' alt='the DevOps Handbook' />
 
 There is often an argument that microtests and unit tests can't catch every bug. While I think this is true, it's often because of a gap in the microtests or a quality issue with the microtests, not because of an inherent failure of that category of test. When this argument is employed teams miss an opportunity to improve their microtests. 
 
@@ -68,14 +70,16 @@ There is often an argument that microtests and unit tests can't catch every bug.
 The most common reason organizations adopt this approach is because they are lacking a high-quality and trusted unit test / microtest suite. Often teams abandon unit testing because they struggle with trying to wrap unit tests around untestable code. Some teams may continue to wrap unit tests around untestable code and end up with a suite of tests that is a drag instead of an accelerator.
 
 > You can't write good tests for bad code.      
-> &mdash;Unknown
+> _**&mdash;Unknown**_
 
 ## The Importance of Team-Owned Tests
 
 Organizations who outsource testing to another team or department to try to _"free up development teams"_ to focus on features miss the point. The best tests are the ones that can probe within the boundaries of the system. When testing is outsourced to another group (who aren't experts in the code that is being tested) they can only test from the perimeter. The book Accelerate, which describes the science and research behind high-performing and successful software teams, concluded that automated tests that were outsourced to another team or organization showed no correlation to organizational performance. 
 
 > Developers primarily create and maintain acceptance tests, and they can easily reproduce and fix them on their development workstations. It’s interesting to note that having automated tests primarily created and maintained either by QA or an outsourced party is not correlated with IT performance. The theory behind this is that when developers are involved in creating and maintaining acceptance tests, there are two important effects. First, the code becomes more testable when developers write tests. This is one of the main reasons why test-driven development (TDD) is an important practice—it forces developers to create more testable designs. Second, when developers are responsible for the automated tests, they care more about them and will invest more effort into maintaining and fixing them.   
-> &mdash;Nicole Forsgren, Jez Humble, Gene Kim - Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations - Chapter 4
+>_**&mdash;Nicole Forsgren, Jez Humble, Gene Kim - Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations - Chapter 4**_
+
+<img class='img-responsive' src='/img/accelerate-book.jpg' alt='accelerate book' />
 
 ## Turning the Ship Around
 
