@@ -32,7 +32,7 @@ lang: "en"
 author: "Anthony Sciamanna"
 title: "Anthony Sciamanna"
 description: "Anthony Sciamanna's Software Development Blog. Focusing on eXtreme Programming (XP), Lean Software Development, Modern Agile, DevOps,continuous improvement and experimentation."
-keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, microtesting, pair programming, mob programming agile, refactoring, no estimates"
+keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, microtesting, pair programming, mob programming, agile, refactoring, no estimates"
 favicon: "/img/favicon.ico"
 
 ################
@@ -94,14 +94,14 @@ post-preview-words: 96
 paginate: 5
 
 email-share: True
-fb-share: True
 twitter-share: True
 linkedin-share: True
+fb-share: True
 reddit-share: True
-google-plus-share: True
+google-plus-share: False
 tumblr-share: True
 pinterest-share: True
-pocket-share: False
+pocket-share: True
 vkontakte-share: False
 
 disqus-shortname: "anthonysciamanna"
