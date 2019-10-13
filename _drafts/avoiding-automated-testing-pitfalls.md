@@ -52,9 +52,14 @@ With the creation of UI-testing tools like Selenium organizations have started d
 
 The result of this approach is the Test Ice Cream Cone where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this my goal is to help the organization shift their focus towards creating the pyramid.
 
-<img class='img-responsive' src='/img/test-ice-cream-cone-small.jpg' alt='james shore - test ice cream cone' />
+<figure>
+    <img class='img-responsive' src='/img/test-ice-cream-cone-small.jpg' alt='james shore - test ice cream cone' width='75%' height='75%' />
+    <figcaption style='text-align:center'>James Shore - Test Ice Cream Cone - Agile 2019 Conference</figcaption>
+</figure>
 
-## Push Tests Down 
+<br />
+
+## Push Tests Down   
 
 There are some organizations that will resist minimizing these end-to-end tests because they managed to find an issue before it got to production. It's understandable to see why they wouldn't want to abandon these tests. But the fact remains that they are slower and less reliable than tests lower in the test pyramid. My advice has always been to push tests down. If a bug was caught in an end-to-end test or integration test, write a microtest that exposes the bug and then fix it. I was very pleased to see similar advice in the _The DevOps Handbook_.
 
