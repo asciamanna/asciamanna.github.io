@@ -12,15 +12,15 @@ tags: ['agile development', 'unit testing', 'anti-patterns']
 There is a pervasive problem in the software industry stemming from a misunderstanding of automated testing. Companies are investing increasing amounts of money and time into automated testing strategies and test suites, but are not seeing an increase in quality or value delivery to customers. I'm happy to see the realization that automated tests are a necessary compliment to manual, exploratory testing. However, many organizations don't understand the costs and benefits of the various types of automated tests available to them.
 <!--more-->
 
-There are two big misconceptions that set the stage for a risky and expensive approach to automating tests. First, is the idea that _automated testing_ is the process of automating the steps of manual QA; automating the script the manual tester would follow. Second, that the these automated tests should be written by the QA organization, outsourced, or written by a team of _"test engineers"_ who are not the team writing the software being tested. These misconceptions are travel companions, I rarely see one without the other, and it spells trouble for the software organizations trying to build their automated test suite.
+There are two big misconceptions that set the stage for a risky and expensive approach to automating tests. First, is the idea that _automated testing_ is the process of automating the steps of manual QA; automating the script the manual tester would follow. Second, is that the these automated tests should be written by the QA organization, outsourced, or written by a team of _"test engineers"_ who are not the team writing the software being tested. These misconceptions are travel companions, I rarely see one without the other, and it spells trouble for the software organizations trying to build their automated test suite.
 
 ## Who is Responsible for Quality?
 
-Often I see this mindset take hold in organizations that are still struggling with establishing cross-functional development teams. They cling to the outdated idea that _"testing is QA's responsibility"_ and developers should be focusing on writing production code. This disconnect makes it very difficult for organizations to improve their automated test strategy. In companies like these I often remind them that **cross-functional teams own their quality not a department**.
+Often I see this mindset take hold in organizations that are struggling with establishing cross-functional development teams. They cling to the outdated idea that _"testing is QA's responsibility"_ and developers should be focusing on writing production code. This disconnect makes it very difficult for organizations to improve their automated test strategy. In companies like these I often remind them that **cross-functional teams own their quality not a department**.
 
 ## The Risks of End-to-End Focused Testing
 
-As compared to lower-level tests, end-to-end and UI-driven tests are slow and brittle. They require significant time and often significant numbers of people to keep the tests working and investigate whether failing tests are false failures or real failures. Worse still, test suites occupied by a majority of these tests create a false sense of security for the organizations that rely on them. False failures are like broken windows and people begin to not take failing test suite seriously, _"Is this a real failure or an expected failure from a code change?"_ Because these tests can never cover all of the branching and business logic of the system, the suite lulls the organization into a false sense of security.
+As compared to lower-level tests, end-to-end and UI-driven tests are slow and brittle. They require a signficant amount of time and often significant numbers of people to keep the tests working and to investigate whether failing tests are false failures or real failures. Worse still, test suites occupied by a majority of these tests create a false sense of security for the organizations that rely on them. False failures are like broken windows and people begin to not take failing test suite seriously, _"Is this a real failure or an expected failure from a code change?"_ Because these tests can never cover all of the branching and business logic of the system, the suite lulls the organization into a false sense of security.
 
 ### Lacking error-localization
 
@@ -28,15 +28,15 @@ End-to-end and UI-driven tests cover so much scope that they lack error localiza
 
 ## The Test Pyramid 
 
-In these organizations I recommend sharing Mike Cohn's [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html). While it's not perfect (no model is), it is an effective way to show organizations how to structure their test suite suites to get the most benefit form them. It makes it clear that organizations are spending most of their time and money on the wrong category of tests when they invest heavily in complex automation testing frameworks, end-to-end tests, and UI-driven tests. 
+In these organizations I recommend sharing Mike Cohn's [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html). While it's not perfect (no model is), it is an effective way to show organizations how to structure their test suites to get the most benefit from them. The pyramid makes it clear that organizations are spending most of their time and money on the wrong category of tests when they invest heavily in complex automation testing frameworks, end-to-end tests, and UI-driven tests. 
 
 <img class='img-responsive' src='/img/test-pyramid.png' alt='The Test Pyramid' />
 
-The test pyramid describes an approach to creating a sustainable test suite. The bottom of the pyramid consists of unit tests or, more recently known as, microtests. These should be the majority of tests in the suite. There should be a lot of them, they should be _**VERY**_ small, verify a _**VERY**_ small area of code (i.e., a few lines of production code) and they should be _**VERY**_ fast (i.e., they should run in a few milliseconds). These tests should be able to run in isolation on developer machines.  
+The test pyramid describes an approach to creating a sustainable test suite. The bottom of the pyramid consists of unit tests or, more recently known as, microtests. The majority of the test suite should consist of these tests. There should be a lot of them, they should be _**VERY**_ small, verify a _**VERY**_ small area of code (i.e., a few lines of production code) and they should be _**VERY**_ fast (i.e., they should run in a few milliseconds). These tests should be able to run in isolation on developer machines.  
 
-The tests that occupy the middle tier are the integration and acceptance tests, these test more system scope and are more "connected" (e.g., they connect to a database, the filesystem, etc.) than microtests so there should be much fewer of these in the test suite.
+The tests that occupy the middle tier are the integration and acceptance tests, these tests cover more system scope and are more "connected" (e.g., they connect to a database, the filesystem, etc.) than microtests so there should be much fewer of these in the test suite.
 
-Finally the top is UI-driven or end-to-end tests, and there should be very few of these as they take longer and have an increased likelihood of identifying false failures. 
+Finally the top is UI-driven or end-to-end tests, and there should be very few of these as they take longer to execute and have an increased likelihood of identifying false failures. 
 
 ### The Inverse Relationship of Scope and Detail
 
@@ -44,16 +44,16 @@ The most important thing to understand in this pyramid is the inverse relationsh
 
 #### The Big Failure
 
-The biggest failure of UI-driven and end-to-end focused test suites is that they try to test both high detail and large scope. This is the recipe for brittle and unreliable tests. 
+The biggest failure of end-to-end focused test suites is that they try to test both high detail and large scope. This is the recipe for brittle and unreliable tests. 
 
-With the creation of UI-testing tools like Selenium organizations have started down a path to wrap these tools in complex, homegrown UI-testing frameworks in an attempt to create a comprehensive suite of end-to-end tests without understanding the drawbacks to this approach. 
+With the creation of UI-testing tools like Selenium organizations have started down a path to wrap these tools in complex, homegrown testing frameworks in an attempt to create a comprehensive suite of end-to-end tests without understanding the drawbacks to this approach. I've seen custom frameworks that use Cucumber (which is a fine tool for BDD) to drive UI-testing-tools to eventually exercise end-to-end tests. So much organizational time and money is spent on creating and maintaining this complex framework and the brittle tests the framework supports.
 
 ## The Test Ice Cream Cone
 
-The result of this approach is the Test Ice Cream Cone where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this my goal is to help the organization shift their focus towards creating the pyramid.
+The result of this approach is the _Test Ice Cream Cone_ where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this my goal is to help the organization shift their focus towards creating the pyramid.
 
 <figure>
-    <img class='img-responsive' src='/img/test-ice-cream-cone-small.jpg' alt='james shore - test ice cream cone' width='75%' height='75%' />
+    <img class='img-responsive' src='/img/test-ice-cream-cone-clean.jpg' alt='james shore - test ice cream cone' width='75%' height='75%' />
     <figcaption style='text-align:center'>James Shore - Test Ice Cream Cone - Agile 2019 Conference</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ The result of this approach is the Test Ice Cream Cone where a majority of the t
 
 ## Push Tests Down   
 
-There are some organizations that will resist minimizing these end-to-end tests because they managed to find an issue before it got to production. It's understandable to see why they wouldn't want to abandon these tests. But the fact remains that they are slower and less reliable than tests lower in the test pyramid. My advice has always been to push tests down. If a bug was caught in an end-to-end test or integration test, write a microtest that exposes the bug and then fix it. I was very pleased to see similar advice in the _The DevOps Handbook_.
+There are some organizations that will resist minimizing these end-to-end tests because they managed to find an issue before it got to production. They see these tests as beneficial since they have decreased the time it takes for manual testing. It's understandable to see why they wouldn't want to abandon these tests. But the fact remains that they are slower and less reliable than tests lower in the test pyramid. My advice has always been to push tests down. If a bug was caught in an end-to-end test or integration test, write a microtest that exposes the bug and then fix it. I was very pleased to see similar advice in the _The DevOps Handbook_.
 
 > Not only are errors detected during integration testing difficult and time-consuming for developers to reproduce, even validating that it has been fixed is difficult (i.e., a developer creates a fix but then needs to wait four hours to learn whether the integration tests now pass). Therefore, whenever we find an error with an acceptance or integration test, we should create a unit test that could find the error faster, earlier, and cheaper.   
 >_**&mdash;Gene Kim, Jez Humble, Partick DeBois & John Willis - The DevOps Handbook - Chapter 10**_
@@ -72,7 +72,7 @@ There is often an argument that microtests and unit tests can't catch every bug.
 
 ## Lacking Microtests
 
-The most common reason organizations adopt this approach is because they are lacking a high-quality and trusted unit test / microtest suite. Often teams abandon unit testing because they struggle with trying to wrap unit tests around untestable code. Some teams may continue to wrap unit tests around untestable code and end up with a suite of tests that is a drag instead of an accelerator.
+The most common reason organizations adopt this approach is because they are lacking a high-quality and trusted unit test / microtest suite. Often teams abandon unit testing because they struggle with trying to wrap unit tests around untestable code. Some teams may fight through the challenges and wrap unit tests around untestable code and end up with a suite of tests that are a drag instead of an accelerator.
 
 > You can't write good tests for bad code.      
 > _**&mdash;Unknown**_
@@ -88,7 +88,7 @@ Organizations who outsource testing to another team or department to try to _"fr
 
 ## Turning the Ship Around
 
-To help organizations improve their test suite start by mapping their tests to the testing pyramid. They should put their biggest investments in the lowest level tests, which means a focus on microtesting. This should include updating teams' Definition of Done to include microtests for all code changes and teaching teams Test-Driven Development and microtesting skills. Test-Driven Development and a focus on software design quality will help teams write testable code and improve both the internal and external quality of the system.  
+To help organizations improve their test suite start by mapping their tests to the test pyramid. They should put their biggest investments in the lowest level tests, which means a focus on microtesting. This should include updating teams' Definition of Done to include microtests for all code changes and teaching teams Test-Driven Development and microtesting skills. Test-Driven Development and a focus on software design quality will help teams write testable code and improve both the internal and external quality of the system.  
 
 Next begin to phase out complicated UI and end-to-end testing frameworks and outsourced test suites. Let teams own their test suites and decide how many, if any, end-to-end and UI tests they will need. While I believe some level of end-to-end tests are important they aren't always necessary. I worked on a team that practiced TDD and had robust suite of microtests and integration tests and didn't require end-to-end tests.
 
