@@ -30,7 +30,11 @@ End-to-end and UI-driven tests cover so much scope that they lack error localiza
 
 In these organizations I recommend sharing Mike Cohn's [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html). While it's not perfect (no model is), it is an effective way to show organizations how to structure their test suites to get the most benefit from them. The pyramid makes it clear that organizations are spending most of their time and money on the wrong category of tests when they invest heavily in complex automation testing frameworks, end-to-end tests, and UI-driven tests. 
 
-<img class='img-responsive' src='/img/test-pyramid.png' alt='The Test Pyramid' />
+<figure>
+    <img class='img-responsive' src='/img/test-pyramid.png' alt='The Test Pyramid' />
+    <figcaption style='text-align:center'>Mike Cohn's Test Pyramid - this version created by Anthony Sciamanna</figcaption>
+</figure>
+<br />
 
 The test pyramid describes an approach to creating a sustainable test suite. The bottom of the pyramid consists of unit tests or, more recently known as, microtests. The majority of the test suite should consist of these tests. There should be a lot of them, they should be _**VERY**_ small, verify a _**VERY**_ small area of code (i.e., a few lines of production code) and they should be _**VERY**_ fast (i.e., they should run in a few milliseconds). These tests should be able to run in isolation on developer machines.  
 
