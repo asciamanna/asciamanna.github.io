@@ -9,7 +9,7 @@ category: software craft
 tags: ['agile development', 'unit testing', 'anti-patterns']
 ---
 
-There is a pervasive problem in the software industry stemming from a misunderstanding of automated testing. Companies are investing increasing amounts of money and time into automated testing strategies and test suites, but are not seeing an increase in quality or value delivery to customers. I'm happy to see the realization that automated tests are a necessary complement to manual, exploratory testing. However, many organizations don't understand the costs and benefits of the various types of automated tests available to them.
+There is a pervasive problem in the software industry stemming from a misunderstanding of automated testing. Companies are investing increasing amounts of money and time into automated testing strategies and test suites, but are not seeing an increase in quality or value delivery to customers. Thankfully automated testing is now being seen as a necessary complement to manual, exploratory testing. However, many organizations don't understand the costs and benefits of the various types of automated tests available to them.
 <!--more-->
 
 Two big misconceptions set the stage for a risky and expensive approach to automating tests. First, is the idea that _automated testing_ is the process of automating the steps of manual QA; automating the script the manual tester would follow. Second, is that these automated tests should be written by the QA organization, outsourced, or written by a team of _"test engineers"_ who are not the team writing the software being tested. These misconceptions are travel companions. I rarely see one without the other, and it spells trouble for the software organizations trying to build their automated test suites.
@@ -20,7 +20,7 @@ Often I see this mindset take hold in organizations that are struggling with est
 
 ## The Risks of End-to-End Focused Testing
 
-As compared to lower-level tests, end-to-end and UI-driven tests are slow and brittle. They require a significant amount of time and often many people to keep the tests working and to investigate whether failing tests are false failures or real failures. Worse still, test suites occupied by a majority of these tests create a false sense of security for the organizations that rely on them. False failures are like broken windows and people begin to doubt failing test suites, _"Is this a real failure or an expected failure from a code change?"_ Because these tests can never cover all of the branching and business logic of the system, the suite lulls the organization into a false sense of security.
+As compared to lower-level tests, end-to-end tests are slow and brittle. They require a significant amount of time and often many people to keep the tests working and to investigate whether failing tests are false failures or real failures. Worse still, test suites occupied by a majority of these tests create a false sense of security for the organizations that rely on them. False failures are like broken windows and people begin to doubt failing test suites, _"Is this a real failure or an expected failure from a code change?"_ Because these tests can never cover all of the branching and business logic of the system, the suite lulls the organization into a false sense of security.
 
 ### Lacking error-localization
 
@@ -36,7 +36,7 @@ In these organizations, I recommend sharing Mike Cohn's [Test Pyramid](https://m
 </figure>
 <br />
 
-The test pyramid describes an approach to creating a sustainable test suite. The bottom of the pyramid consists of unit tests or, more recently known as, microtests. The majority of the test suite should consist of these tests. There should be a lot of them, they should be _**VERY**_ small, verify a _**VERY**_ small area of code (i.e., a few lines of production code) and they should be _**VERY**_ fast (i.e., they should run in a few milliseconds). These tests should be able to run in isolation on developer machines.  
+The test pyramid describes an approach to creating sustainable test suites. The bottom of the pyramid consists of unit tests or, more recently known as, microtests. The majority of the test suite should consist of these tests. There should be a lot of them, they should be _**VERY**_ small, verify a _**VERY**_ small area of code (i.e., a few lines of production code) and they should be _**VERY**_ fast (i.e., they should run in a few milliseconds). These tests should be able to run in isolation on developer computers.  
 
 The tests that occupy the middle tier are the integration and acceptance tests. These tests cover more system scope and are more "connected" (e.g., they connect to a database, the filesystem, etc.) than microtests, so there should be much fewer of these in the test suite.
 
@@ -54,7 +54,7 @@ Organizations adopt UI-testing tools like Selenium and attempt to wrap them in c
 
 ## The Test Ice Cream Cone
 
-The result of this approach is the _Test Ice Cream Cone_, where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this, my goal is to help the organization shift their focus towards creating the pyramid.
+The result of this approach is the _Test Ice Cream Cone_, where a majority of the test suite is occupied by end-to-end and UI-driven tests. When I encounter this, my goal is to help the organization shift their focus towards aligning their test suite to the test pyramid.
 
 <figure>
     <img class='img-responsive' src='/img/test-ice-cream-cone-clean.jpg' alt='james shore - test ice cream cone' width='75%' height='75%' />
@@ -83,7 +83,7 @@ The most common reason organizations adopt this approach is because they are lac
 
 ## The Importance of Team-Owned Tests
 
-Organizations that outsource testing to another team or department to try to _"free up development teams"_ to focus on features miss the point. The best tests are the ones that can probe within the boundaries of the system. When testing is outsourced to another group or QA department (who aren't experts in the code that is being tested) they can only test from the perimeter. The book Accelerate, which describes the science and research behind high-performing and successful software teams, concluded that automated tests that were outsourced to another team or organization showed no correlation to organizational performance. 
+Organizations that outsource testing to another team or department to try to _"free up development teams"_ to focus on features miss the point. The best tests are the ones that can probe within the boundaries of the system. When testing is outsourced to another group or QA department (who aren't experts in the code that is being tested) they can only test from the perimeter. The book _Accelerate_, which describes the science and research behind high-performing and successful software teams, concluded that automated tests that were outsourced to the QA department or another team showed no correlation to organizational performance. 
 
 > Developers primarily create and maintain acceptance tests, and they can easily reproduce and fix them on their development workstations. It’s interesting to note that having automated tests primarily created and maintained either by QA or an outsourced party is not correlated with IT performance. The theory behind this is that when developers are involved in creating and maintaining acceptance tests, there are two important effects. First, the code becomes more testable when developers write tests. This is one of the main reasons why test-driven development (TDD) is an important practice—it forces developers to create more testable designs. Second, when developers are responsible for the automated tests, they care more about them and will invest more effort into maintaining and fixing them.   
 >_**&mdash;Nicole Forsgren, Jez Humble, Gene Kim - Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations - Chapter 4**_
@@ -92,7 +92,7 @@ Organizations that outsource testing to another team or department to try to _"f
 
 ## Turning the Ship Around
 
-For software organizations to improve their test suite situation they should start by mapping their tests to the test pyramid. They should place their largest investments in the lowest level tests, which means a focus on microtesting. All new code should come with microtests, which will require teams to learn and improve Test-Driven Development and microtesting skills. 
+For software organizations to improve their test suite situation they should start by mapping their tests to the test pyramid. They should place their largest investments in the lowest level tests, which means a focus on microtesting. All new code should come with microtests, which will require teams to learn and improve their Test-Driven Development and microtesting skills. 
 
 As they build out the base of the pyramid, they can begin to phase out complicated end-to-end testing frameworks and outsourced test suites. Teams should own their test suites and decide how many if any, end-to-end and UI tests they will need. While I believe some level of end-to-end tests is important they aren't always necessary. 
 
