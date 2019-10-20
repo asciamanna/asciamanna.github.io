@@ -9,10 +9,10 @@ category: software craft
 tags: ['agile development', 'unit testing', 'anti-patterns']
 ---
 
-There is a pervasive problem in the software industry stemming from a misunderstanding of automated testing. Companies are investing increasing amounts of money and time into automated testing strategies and test suites, but are not seeing an increase in quality or value delivery to customers. I'm happy to see the realization that automated tests are a necessary compliment to manual, exploratory testing. However, many organizations don't understand the costs and benefits of the various types of automated tests available to them.
+There is a pervasive problem in the software industry stemming from a misunderstanding of automated testing. Companies are investing increasing amounts of money and time into automated testing strategies and test suites, but are not seeing an increase in quality or value delivery to customers. I'm happy to see the realization that automated tests are a necessary complement to manual, exploratory testing. However, many organizations don't understand the costs and benefits of the various types of automated tests available to them.
 <!--more-->
 
-There are two big misconceptions that set the stage for a risky and expensive approach to automating tests. First, is the idea that _automated testing_ is the process of automating the steps of manual QA; automating the script the manual tester would follow. Second, is that these automated tests should be written by the QA organization, outsourced, or written by a team of _"test engineers"_ who are not the team writing the software being tested. These misconceptions are travel companions. I rarely see one without the other, and it spells trouble for the software organizations trying to build their automated test suites.
+Two big misconceptions set the stage for a risky and expensive approach to automating tests. First, is the idea that _automated testing_ is the process of automating the steps of manual QA; automating the script the manual tester would follow. Second, is that these automated tests should be written by the QA organization, outsourced, or written by a team of _"test engineers"_ who are not the team writing the software being tested. These misconceptions are travel companions. I rarely see one without the other, and it spells trouble for the software organizations trying to build their automated test suites.
 
 ## Who is Responsible for Quality?
 
@@ -24,11 +24,11 @@ As compared to lower-level tests, end-to-end and UI-driven tests are slow and br
 
 ### Lacking error-localization
 
-End-to-end and UI-driven tests cover so much scope that they lack error localization. A failing test can cost the organization a significant amount of time to determine whether the failure was indeed a real failure. When legitimate failures are caught, even more time is spent finding the code that caused the error and determining where it should be fixed.
+End-to-end and UI-driven tests cover so much scope that they lack error localization. A failing test can cost the organization a significant amount of time to determine whether the failure was indeed a real failure. When legitimate failures are caught, additional time is spent finding the code that caused the error and determining where it should be fixed.
 
 ## The Test Pyramid 
 
-In these organizations I recommend sharing Mike Cohn's [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html). While it's not perfect (no model is), it is an effective way to show organizations how to structure their test suites to get the most benefit from them. The pyramid makes it clear that organizations are spending most of their time and money on the wrong category of tests when they invest heavily in complex automation testing frameworks and end-to-end tests. 
+In these organizations, I recommend sharing Mike Cohn's [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html). While it's not perfect (no model is), it is an effective way to show organizations how to structure their test suites to get the most benefit from them. The pyramid makes it clear that organizations are spending most of their time and money on the wrong category of tests when they invest heavily in complex automation testing frameworks and end-to-end tests. 
 
 <figure>
     <img class='img-responsive' src='/img/test-pyramid.png' alt='The Test Pyramid' />
@@ -65,7 +65,7 @@ The result of this approach is the _Test Ice Cream Cone_, where a majority of th
 
 ## Push Tests Down   
 
-There are some organizations that will resist minimizing these end-to-end tests because they managed to find an issue before it got to production. They see these tests as beneficial since they have decreased the time it takes for manual testing. It's understandable to see why they wouldn't want to abandon these tests, however, the fact remains that they are slower and less reliable than tests lower in the test pyramid. My advice has always been to push tests down. If a bug was caught in an end-to-end test or integration test, write a microtest that exposes the bug and then fix it. I was very pleased to see similar advice in the _The DevOps Handbook_.
+Some organizations will resist minimizing these end-to-end tests because they managed to find an issue before it got to production. They see these tests as beneficial since they have decreased the time it takes for manual testing. It's understandable to see why they wouldn't want to abandon these tests, however, the fact remains that they are slower and less reliable than tests lower in the test pyramid. My advice has always been to push tests down. If a bug was caught in an end-to-end test or integration test, write a microtest that exposes the bug and then fix it. I was very pleased to see similar advice in the _The DevOps Handbook_.
 
 > Not only are errors detected during integration testing difficult and time-consuming for developers to reproduce, even validating that it has been fixed is difficult (i.e., a developer creates a fix but then needs to wait four hours to learn whether the integration tests now pass). Therefore, whenever we find an error with an acceptance or integration test, we should create a unit test that could find the error faster, earlier, and cheaper.   
 >_**&mdash;Gene Kim, Jez Humble, Partick DeBois & John Willis - The DevOps Handbook - Chapter 10**_
@@ -83,7 +83,7 @@ The most common reason organizations adopt this approach is because they are lac
 
 ## The Importance of Team-Owned Tests
 
-Organizations who outsource testing to another team or department to try to _"free up development teams"_ to focus on features miss the point. The best tests are the ones that can probe within the boundaries of the system. When testing is outsourced to another group or QA department (who aren't experts in the code that is being tested) they can only test from the perimeter. The book Accelerate, which describes the science and research behind high-performing and successful software teams, concluded that automated tests that were outsourced to another team or organization showed no correlation to organizational performance. 
+Organizations that outsource testing to another team or department to try to _"free up development teams"_ to focus on features miss the point. The best tests are the ones that can probe within the boundaries of the system. When testing is outsourced to another group or QA department (who aren't experts in the code that is being tested) they can only test from the perimeter. The book Accelerate, which describes the science and research behind high-performing and successful software teams, concluded that automated tests that were outsourced to another team or organization showed no correlation to organizational performance. 
 
 > Developers primarily create and maintain acceptance tests, and they can easily reproduce and fix them on their development workstations. It’s interesting to note that having automated tests primarily created and maintained either by QA or an outsourced party is not correlated with IT performance. The theory behind this is that when developers are involved in creating and maintaining acceptance tests, there are two important effects. First, the code becomes more testable when developers write tests. This is one of the main reasons why test-driven development (TDD) is an important practice—it forces developers to create more testable designs. Second, when developers are responsible for the automated tests, they care more about them and will invest more effort into maintaining and fixing them.   
 >_**&mdash;Nicole Forsgren, Jez Humble, Gene Kim - Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations - Chapter 4**_
@@ -94,11 +94,11 @@ Organizations who outsource testing to another team or department to try to _"fr
 
 For software organizations to improve their test suite situation they should start by mapping their tests to the test pyramid. They should place their largest investments in the lowest level tests, which means a focus on microtesting. All new code should come with microtests, which will require teams to learn and improve Test-Driven Development and microtesting skills. 
 
-As they build out the base of the pyramid, they can begin to phase out complicated end-to-end testing frameworks and outsourced test suites. Teams should own their test suites and decide how many, if any, end-to-end and UI tests they will need. While I believe some level of end-to-end tests are important they aren't always necessary. 
+As they build out the base of the pyramid, they can begin to phase out complicated end-to-end testing frameworks and outsourced test suites. Teams should own their test suites and decide how many if any, end-to-end and UI tests they will need. While I believe some level of end-to-end tests is important they aren't always necessary. 
 
 ## Conclusion
 
-One key attribute of successful, high-performing software teams is the reliance on fast feedback loops. Test suites are one of the main feedback loops available to teams. Focusing on fast, reliable, repeatable tests are an accelerator for software organizations. Automated test suites are essential but be aware of the pitfalls in creating them. 
+One key attribute of successful, high-performing software teams is the reliance on fast feedback loops. Test suites are one of the main feedback loops available to teams. Focusing on fast, reliable, repeatable tests is an accelerator for software organizations. Automated test suites are essential, but be aware of the pitfalls in creating them. 
 
 ## Further Reading
 * [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html) - Martin Fowler
