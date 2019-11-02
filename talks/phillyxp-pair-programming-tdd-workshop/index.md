@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "PhillyXP - Pair Programming & TDD Workshop"
+title: ""
 ---
 
-_October 27, 2017 - Radnor, PA_
+## Pair Programming & TDD Workshop
+_PhillyXP &bull; October 27, 2017 &bull; Radnor, PA_
 
 Thanks for attending the inaugural meeting of the [PhillyXP](https://www.meetup.com/PhillyXP/) user group. For our first meeting I hosted a talk and workshop about Pair Programming and Test-Driven Development. 
 
