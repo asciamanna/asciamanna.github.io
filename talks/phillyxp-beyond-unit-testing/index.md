@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-### PhillyXP - Beyond Unit Testing: The Real Value of Test-Driven Development
 _November 19, 2019 - Radnor, PA_
 
 Thanks for attending my talk, Beyond Unit Testing. 
