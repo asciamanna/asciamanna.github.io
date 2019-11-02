@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "PhillyXP - Mob Programming Talk" 
+title: ""
 ---
-### PhillyXP - Mob Programming: Whole Team Collaboration 
-_November 13, 2018 - Philadelphia, PA_
+## Mob Programming: Whole Team Collaboration 
+_PhillyXP &bull; November 13, 2018 &bull; Philadelphia, PA_
 
 Here you will find all of the material referenced in the Mob Programming talk, as well as additional resources to continue learning about mob programming. 
 
