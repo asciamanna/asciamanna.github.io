@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Slalom - Beyond Unit Testing Talk" 
 ---
+
 ### Slalom - Beyond Unit Testing: The Real Value of Test-Driven Development 
 _October 11, 2019 - Philadelphia, PA_
 
