@@ -3,8 +3,7 @@ layout: default
 title: ""
 ---
 ## Beyond Unit Testing: The Real Value of Test-Driven Development 
-_Slalom Consulting_  
-_October 11, 2019 - Philadelphia, PA_
+_Slalom Consulting &bull; October 11, 2019 &bull; Philadelphia, PA_
 
 Thanks for attending my talk, Beyond Unit Testing. 
 
