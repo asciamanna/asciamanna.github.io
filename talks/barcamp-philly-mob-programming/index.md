@@ -3,7 +3,7 @@ layout: default
 title: ""
 ---
 ## Mob Programming: Whole Team Collaboration 
-_BarCamp Philly 11 &bull; November 10, 2018 &mbull; Philadelphia, PA_
+_BarCamp Philly 11 &bull; November 10, 2018 &bull; Philadelphia, PA_
 
 Here you will find all of the material referenced in the Mob Programming talk, as well as additional resources to continue learning about mob programming. 
 
