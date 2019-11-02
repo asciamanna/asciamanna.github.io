@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "eMoney - Mob Programming Talk" 
+title: ""
 ---
-### eMoney - Agile Month - Mob Programming: Whole Team Collaboration 
-_September 25, 2018 - Radnor, PA_
+## Mob Programming: Whole Team Collaboration 
+_eMoney - Agile Month &bull; September 25, 2018  &bull; Radnor, PA_
 
 Here you will find all of the material referenced in the Mob Programming talk, as well as additional resources to continue learning about mob programming. 
 
