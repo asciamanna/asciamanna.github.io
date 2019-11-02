@@ -58,7 +58,7 @@ The result of this approach is the _Test Ice Cream Cone_, where a majority of th
 
 <figure>
     <img class='img-responsive' src='/img/test-ice-cream-cone-clean.jpg' alt='james shore - test ice cream cone' width='75%' height='75%' />
-    <figcaption style='text-align:center'>James Shore - Test Ice Cream Cone - Agile 2019 Conference</figcaption>
+    <figcaption style='text-align:center'><a href="https://www.jamesshore.com/">James Shore</a> - Test Ice Cream Cone - Agile 2019 Conference</figcaption>
 </figure>
 
 <br />
