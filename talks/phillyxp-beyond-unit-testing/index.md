@@ -25,11 +25,14 @@ Here is a list of all of the articles and videos I referenced in my talk:
 * [TDD and the Lump of Coding Fallacy](https://www.geepawhill.org/2018/04/14/tdd-the-lump-of-coding-fallacy/) - Michael Hill
 * [Test Double's Contributing Tests Wiki](https://github.com/testdouble/contributing-tests/wiki)
 * [Industrial Logic eLearning](https://www.industriallogic.com/elearning) 
+* [Programming for Non-Programmers: Lean Agile Edinburgh](https://schmonz.com/2018/08/14/lean-agile-edinburgh-august-2018-programming-for-nonprogrammers/) - Amitai Schleier
+* [Test-Driven Development: A Guide for Non-Programmers](https://pragprog.com/magazines/2011-11/testdriven-development) - Jeff Langr
 
 ### Books
 Here are the books I've referenced in the talk:
 * [Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658/) - Kent Beck
 * [Test-Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/) - Kent Beck
+* [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/) - Nicole Forsgren, Jez Humble & Gene Kim
 * [Growing Object-Oriented Software Guided by Tests](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/) - Steve Freeman & Nat Pryce
 
 Do you have questions about the talk or TDD in general? Or maybe just want to chat? The best way to get in touch with me is on twitter. Feel free to contact me at ([@asciamanna](https://www.twitter.com/asciamanna)).
