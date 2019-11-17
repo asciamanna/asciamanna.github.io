@@ -8,7 +8,7 @@ _PhillyXP &bull; November 19, 2019 &bull; Radnor, PA_
 Thanks for attending my talk, Beyond Unit Testing. 
 
 ### Slide Deck
-TODO
+<script async class="speakerdeck-embed" data-id="95ad7d8af18447f69a81a21aac284516" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### Talk References
 
