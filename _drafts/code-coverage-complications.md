@@ -21,8 +21,11 @@ I continue to see the measurement of unit test coverage contribute to the contin
     * Org has two options - let the team make changes to code without business value - this is speculative changes just to get higher coverage with no benefit to the business - If the code doesn't have to be changed to support a feature - there is no risk to having it not tested. HOwever, if the teams are adding tests and changing the code to make it testable they are taking on risk with no benefit to the business.
     * They could also choose to only add tests without changing the code to avoid that risk. Those tests won't be the high quality tests that will provide the most benefit to the organization. These tests will simply wrap code that wasn't designed to be testable in the first place. 
     You can't write good tests for bad code --- Quote
+* Descirbe conversation with agile architect - that bad tests are better than no tests. 
 
-    
+* Places I've seen code coverage be beneficial - 2 places in 20 years - 
+    * NDepend
+    * Team level metric (not at the organization level) to assess how much progress they are making get a legacy code base under test.
 
 
 https://www.jamesshore.com/Blog/Dont-Measure-Unit-Test-Code-Coverage.html
