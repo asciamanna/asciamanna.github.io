@@ -5,8 +5,8 @@ title: Code Coverage Complications
 subtitle: This is not the metric you're looking for
 comments: true
 excerpt_separator: <!--more-->
-category: software craft 
-tags: ['agile development', 'unit testing', 'anti-patterns']
+category: development practices 
+tags: ['metrics', 'unit testing', 'tdd', 'anti-patterns']
 ---
 
 Commonly I see the measurement of unit test coverage contribute to the continuation of poor development practices. Often when teams try to improve their code coverage, they unwittingly create more problematic code that continues to be a drag on the organization. Trying to improve code coverage without improvements to development practices, won't lead to improvements in the quality of the software. 
