@@ -9,12 +9,16 @@ category: software craft
 tags: ['agile development', 'unit testing', 'anti-patterns']
 ---
 
-<img src="/img/messy-monitor.jpg" alt="Messy code on monitor screen" class="img-responsive" />
-
-<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@markusspiske?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Markus Spiske"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Markus Spiske</span></a>
-
 Commonly I see the measurement of unit test coverage contribute to the continuation of poor development practices. Often when teams try to improve their code coverage, they unwittingly create more problematic code that continues to be a drag on the organization. Trying to improve code coverage without improvements to development practices, won't lead to improvements in the quality of the software. 
 <!--more-->
+
+<figure>
+    <img src="/img/messy-monitor.jpg" alt="Messy code on monitor screen" class="img-responsive" />
+    <figcaption style='text-align:center'>
+        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@markusspiske?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Markus Spiske"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Markus Spiske</span></a>
+    </figcaption>
+</figure>
+<br />
 
 ## Coverage is a Result Not a Goal
 The crux of the problem is that high code coverage is the result of quality-first development practices. Naturally, organizations with low coverage are missing these practices. Instead of dedicating their time and effort into improving practices, they leap right to code coverage, misconstruing the result as the goal. 
@@ -30,7 +34,8 @@ Code coverage cannot assess the importance of the areas that are tested. Develop
 
 Organizations create these development and delivery problems because of a mindset that they clung to for too long. Ironically, it is that mindset, that shipping something to production is the only measure of success, that is the problem. In these organizations there is no time to learn, experiment, or improve the way the team works. Teams are laser-focused on today, cutting corners that add risk and delays tomorrow. It's in a system like this where developers need to increase coverage numbers as quickly and safely as possible so they can get back to delivering in the short term. They don't have the luxury of slowing down to learn.
 
-> Quote improving the code here 
+> Improving daily work is even more important than doing daily work.  
+> _&mdash; Gene Kim - The DevOps Handbook_ 
 
 Since developers aren't refactoring production code into testable designs, learning Test-Driven Development, nor learning legacy code techniques, they are finding any tests they can write without modifying production code. They end up with extremely simple tests that side-step the riskiest areas of the codebase, or large and brittle tests that suffer from false failures. 
 
@@ -48,7 +53,7 @@ The previous examples illuminate one of the biggest issues with trying to achiev
 ## Valuable Tests Achieve Lower Coverage Individually
 We have started calling the most valuable kinds of unit tests by a new name, microtests. Because the industry is trying to get away from useless debates over the definition of a "unit" of code, and the fact that people call very different looking tests "unit tests" the industry has adopted this term. Industrial Logic consultant Mike Hill originally coined the term. It serves to differentiate valuable unit tests, that are often developed using Test-Driven Development, from the less valuable tests. 
 
-### SOS
+## SOS
 When I teach microtesting and sustainable test suite design I use a pneumonic I've created called SOS. I've found that organizations suffering from a glut of poor unit tests are often sinking, so making use of a maritime distress signal acronym seems appropriate. I've written at length about this topic in this post, [SOS - To Save Sinking Test Suites]({% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). SOS stands for **_Small_**, **_Obvious_**, and **_Simple_**. It serves to remind developers of the attributes of high-quality microtests. 
 
 High-quality tests are quite small and only test a couple of lines of production code. It is the sheer number of these that contributes to the high test coverage. Organizations trying to achieve a high coverage will often write large tests that aren't obvious nor simple to get as much coverage per test as possible. 
