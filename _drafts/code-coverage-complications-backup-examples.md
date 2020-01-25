@@ -37,21 +37,29 @@ Organizations create these development and delivery problems because of a mindse
 > Improving daily work is even more important than doing daily work.  
 > _&mdash; Gene Kim - The DevOps Handbook_ 
 
-Since developers aren't refactoring production code into testable designs, learning Test-Driven Development, nor learning legacy code techniques, they are instead looking for any tests they can write without modifying production code. They end up with extremely simple tests that side-step the riskiest areas of the codebase, or create large and brittle tests that suffer from false failures. 
+Since developers aren't refactoring production code into testable designs, learning Test-Driven Development, nor learning legacy code techniques, they are finding any tests they can write without modifying production code. They end up with extremely simple tests that side-step the riskiest areas of the codebase, or create large and brittle tests that suffer from false failures. 
 
-### Test Quality is Paramount
-The previous example illuminates one of the biggest issues with trying to achieve high coverage without adopting improved development practices; it will result in additional low-quality code being introduced into the system. Tests getting produced without improving the design of the code results in tests that are brittle and hard to maintain, often testing the least important areas of the system. 
+## Real-World Examples
+
+## Writing the Simplest Test Possible
+Several years ago I was working on a team that took ownership of an existing area of code in a larger system. When I opened the project in the IDE I saw a lot of test classes, and immediately breathed a sigh of relief. I was happy to know I had inherited a well-tested area of the system I was supporting. My hopes were quickly dashed when I opened the test classes. Every test would call a method will null parameters and assert that null argument exceptions were thrown. After getting over the thought that having every single class in the system check every parameter for null was adding noise to every method, not to mention code that was only reachable by tests, I had a more frustrating realization. These were the only tests, not a single business rule or behavior of these classes was tested. 
+
+## The Massive Non-Test
+ Another example I have discovered was a massive and convoluted test that was impossible to follow. It was named after the bug number in a long deprecated bug tracking system that no one in the company had access to anymore, named something like **VI_2954** Worse still the test did not contain a single assertion. This test covered a large area of the code and would generously inflate code coverage metrics. However, it didn't test anything in the system. If an exception was thrown during execution and the test failed, a developer would undoubtedly need to spend hours trying to figure out why it was failing. These kinds of tests are often worse than having no tests at all. They are a drag that add no value to the organization.
+
+## Test Quality is Paramount
+The previous examples illuminate one of the biggest issues with trying to achieve high coverage without adopting improved development practices; it will result in additional low-quality code being introduced into the system. Tests getting produced without improving the design of the code results in tests that are brittle and hard to maintain, often testing the least important areas of the system. 
 
 > You can't write good tests for bad code.      
 > _**&mdash;Unknown**_
 
 ## Valuable Tests Achieve Lower Coverage Individually
-The industry has a adopted the term [microtests](https://www.industriallogic.com/blog/history-microtests/) to describe the attributes of the most valuable types of tests. Originally coined by Industrial Logic consultant [Mike Hill](https://www.geepawhill.org), it serves to differentiate valuable tests, that are often developed using Test-Driven Development, from the less valuable tests. 
+We have started referring to the most valuable kinds of unit tests by a new name, [microtests](https://www.industriallogic.com/blog/history-microtests/). Because the industry is trying to get away from fruitless debates over the definition of a "unit" of code, and the fact that people call very different looking tests "unit tests", the use of this term is becoming more common. Industrial Logic consultant [Mike Hill](https://www.geepawhill.org) originally coined the term. It serves to differentiate valuable unit tests, that are often developed using Test-Driven Development, from the less valuable tests. 
 
 ## SOS
 When I teach microtesting and sustainable test suite design I use a mnemonic I've created called SOS. I've found that organizations suffering from a glut of poor unit tests are often sinking, so making use of a maritime distress signal acronym seems appropriate. I've written at length about this topic in this post, [SOS - To Save Sinking Test Suites]({% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). SOS stands for **_Small_**, **_Obvious_**, and **_Simple_**. It serves to remind developers of the attributes of high-quality microtests. 
 
-High-quality microtests are **very** small and only test a couple of lines of production code. It is the sheer number of these tests that contributes to the high test coverage. Organizations trying to achieve high coverage will often write large tests that aren't obvious nor simple to get as much coverage per test as possible. 
+High-quality tests are quite small and only test a couple of lines of production code. It is the sheer number of these tests that contributes to the high test coverage. Organizations trying to achieve high coverage will often write large tests that aren't obvious nor simple to get as much coverage per test as possible. 
 
 ## Tests Without Business Value Increase Risk
 When organizations have coverage goals it often results in backlog items to write tests for areas of the code that are separate from the business value they are delivering. This is a significant and avoidable risk for organizations, and another sign that they aren't improving development practices. My recommendation is to build improvement habits by practicing them every day. The best way to do this is to write tests for all code changes. And code changes are driven by functional changes (e.g., user stories, new features, etc.). In other words, microtested code is part of the team _Definition of Done_ for every user story or bug going forward. 
