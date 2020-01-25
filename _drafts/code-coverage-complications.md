@@ -9,7 +9,7 @@ category: development practices
 tags: ['metrics', 'unit testing', 'tdd', 'anti-patterns']
 ---
 
-Commonly I see the measurement of unit test coverage contribute to the continuation of poor development practices. Often when teams try to improve their code coverage, they unwittingly create more problematic code that continues to be a drag on the organization. Increasing code coverage without improving development practices, isn't likely to lead to improvements in the quality of the software. 
+Commonly I see the measurement of unit test coverage contribute to the continuation of poor development practices. Often when teams try to improve their code coverage, they unwittingly create more problematic code that continues to be a drag on the organization. Increasing code coverage without improving development practices isn't likely to lead to improvements in the quality of the software. 
 <!--more-->
 
 <figure>
@@ -37,7 +37,7 @@ Organizations create these development and delivery problems because of a mindse
 > Improving daily work is even more important than doing daily work.  
 > _&mdash; Gene Kim - The DevOps Handbook_ 
 
-Since developers aren't refactoring production code into testable designs, learning Test-Driven Development, nor learning legacy code techniques, they are instead looking for any tests they can write without modifying production code. They end up with extremely simple tests that side-step the riskiest areas of the codebase, or create large and brittle tests that suffer from false failures. 
+Since developers aren't refactoring production code into testable designs, learning Test-Driven Development, nor learning legacy code techniques, they are instead looking for any tests they can write without modifying production code. They end up with extremely simple tests that side-step the riskiest areas of the codebase or create large and brittle tests that suffer from false failures. 
 
 ### Test Quality is Paramount
 The previous example illuminates one of the biggest issues with trying to achieve high coverage without adopting improved development practices; it will result in additional low-quality code being introduced into the system. Tests getting produced without improving the design of the code results in tests that are brittle and hard to maintain, often testing the least important areas of the system. 
@@ -46,7 +46,7 @@ The previous example illuminates one of the biggest issues with trying to achiev
 > _**&mdash;Unknown**_
 
 ## Valuable Tests Achieve Lower Coverage Individually
-The industry has a adopted the term [microtests](https://www.industriallogic.com/blog/history-microtests/) to describe the attributes of the most valuable types of tests. Originally coined by Industrial Logic consultant [Mike Hill](https://www.geepawhill.org), it serves to differentiate valuable tests, that are often developed using Test-Driven Development, from the less valuable tests. 
+The industry has adopted the term [microtests](https://www.industriallogic.com/blog/history-microtests/) to describe the attributes of the most valuable types of tests. Originally coined by Industrial Logic consultant [Mike Hill](https://www.geepawhill.org), it serves to differentiate valuable tests, that are often developed using Test-Driven Development, from the less valuable tests. 
 
 ## SOS
 When I teach microtesting and sustainable test suite design I use a mnemonic I've created called SOS. I've found that organizations suffering from a glut of poor unit tests are often sinking, so making use of a maritime distress signal acronym seems appropriate. I've written at length about this topic in this post, [SOS - To Save Sinking Test Suites]({% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). SOS stands for **_Small_**, **_Obvious_**, and **_Simple_**. It serves to remind developers of the attributes of high-quality microtests. 
@@ -54,7 +54,7 @@ When I teach microtesting and sustainable test suite design I use a mnemonic I'v
 High-quality microtests are **very** small and only test a couple of lines of production code. It is the sheer number of these tests that contributes to the high test coverage. Organizations trying to achieve high coverage will often write large tests that aren't obvious nor simple to get as much coverage per test as possible. 
 
 ## Tests Without Business Value Increase Risk
-When organizations have coverage goals it often results in backlog items to write tests for areas of the code that are separate from the business value they are delivering. This is a significant and avoidable risk for organizations, and another sign that they aren't improving development practices. My recommendation is to build improvement habits by practicing them every day. The best way to do this is to write tests for all code changes. And code changes are driven by functional changes (e.g., user stories, new features, etc.). In other words, microtested code is part of the team _Definition of Done_ for every user story or bug going forward. 
+When organizations have coverage goals it often results in backlog items to write tests for areas of the code that are separate from the business value they are delivering. This is a significant and avoidable risk for organizations and another sign that they aren't improving development practices. My recommendation is to build improvement habits by practicing them every day. The best way to do this is to write tests for all code changes. And code changes are driven by functional changes (e.g., user stories, new features, etc.). In other words, microtested code is part of the team _Definition of Done_ for every user story or bug going forward. 
 
 Too often organizations create separate projects or backlog items for unit testing that are completely separate from functional changes. To be able to write high-quality tests the development teams need to refactor existing code to make it testable. This incurs risk for the organization for no benefit. I often remind organizations in these situations that code that isn't being modified doesn't need tests until it's modified. Also, building backlog items and projects around writing tests will never build the team habits of having tests come with all functional changes. 
 
