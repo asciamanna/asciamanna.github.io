@@ -50,7 +50,12 @@ The previous example illuminates one of the biggest issues with trying to achiev
 ## Valuable Tests Achieve Lower Coverage Individually
 The industry has adopted the term [microtests](https://www.industriallogic.com/blog/history-microtests/) to describe the attributes of the most valuable types of tests. Originally coined by Industrial Logic consultant [Mike Hill](https://www.geepawhill.org), it serves to differentiate valuable tests, that are often developed using Test-Driven Development, from the less valuable tests. 
 
-<img src="/img/sos.jpg" alt="S.O.S." class="img-responsive" />
+<figure>
+    <img src="/img/sos.jpg" alt="S.O.S." class="img-responsive" />
+    <figcaption style='text-align:center'>
+        Image from <a href="https://www.flickr.com/photos/itupictures/16654290295">ITU Pictures on Flickr</a>
+    </figcaption>
+</figure>
 
 ## SOS
 When I teach microtesting and sustainable test suite design I use a mnemonic I've created called SOS. I've found that organizations suffering from a glut of poor unit tests are often sinking, so making use of a maritime distress signal acronym seems appropriate. I've written at length about this topic in this post, [SOS - To Save Sinking Test Suites]({% post_url 2018-01-30-sos-to-save-sinking-test-suites %}). SOS stands for **_Small_**, **_Obvious_**, and **_Simple_**. It serves to remind developers of the attributes of high-quality microtests. 
