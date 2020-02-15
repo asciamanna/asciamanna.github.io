@@ -27,8 +27,6 @@ We reference Lean Software Development several times in our talk. It's worthwhil
 
 We recommend getting started with the mob programming tool [mobster](http://mobster.cc/).
 
-## Disciplined Break Taking
-
 ### The Pomodoro Technique
 
 We talk about disciplined break taking as an important aspect of mob programming. Mob Programming incorporates the [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique) to encourage disciplined break taking. The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work intervals, traditionally 25 minutes in length, separated by short breaks. 
@@ -55,7 +53,7 @@ Hunter Industries Mob Programming video from 2016. Catch up with the development
 
 ## Effective Practices
 
-Take a look at the article I wrote about mob programming practices to continue improving and adapting your mob programming sessions, [Practices for Effective Mob Programming]({{siteA.baseurl}}{% post_url 2018-06-29-practices-for-effective-mob-programming %}).
+Take a look at the article I wrote about mob programming practices to continue improving and adapting your mob programming sessions, [Practices for Effective Mob Programming]({{site.baseurl}}{% post_url 2018-06-29-practices-for-effective-mob-programming %}).
 
 ## Pluralsight's Mob Programming
 We mentioned Pluralsight's mob proramming practices during the talk. You can read an article about it on their technical blog [here](https://www.pluralsight.com/tech-blog/mob-programming).
