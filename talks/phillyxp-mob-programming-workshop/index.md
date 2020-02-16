@@ -9,6 +9,7 @@ Thanks for attending the [PhillyXP](https://www.meetup.com/PhillyXP/) Mob Progra
 
 ### Slide Deck
 <script async class="speakerdeck-embed" data-id="32ffd5b6b7d346f9aee111efae71a1f2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<br />
 
 ### Workshop References
 
