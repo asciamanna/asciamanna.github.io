@@ -17,7 +17,7 @@ Thanks for attending the [PhillyXP](https://www.meetup.com/PhillyXP/) Mob Progra
 
 Here is a list of the resources mentioned in the workshop: 
 
-* The [Mob Programming Quick Start Guide]() that I created. 
+* The [Mob Programming Quick Start Guide](https://anthonysciamanna.com/2020/02/15/mob-programming-quick-start-guide.html) that I created. 
 * [Industrial Logic](https://www.industriallogic.com) has a [mob programming cheat sheet](https://docs.google.com/document/d/1Ve5LVAJvGqJbUZR6C2o3ZNvFPKpuJ6sfIwxlpgKpKCk/) available. 
 * We recommend getting started with the mob programming tool [mobster](http://mobster.cc/).
 * Learn more about the [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique) and it's creator Francesco Cirillo. 
