@@ -8,7 +8,7 @@ category: development practices
 tags: ['mob programming', 'coaching']
 ---
 
-I've spent the last few years coaching teams and introducing them to Mob Programming. I was fortunate to get to work with colleagues from [Industrial Logic](https://www.industriallogic.com), [Tim Ottinger](https://www.twitter.com/tottinge), [Michael Rieser](https://twitter.com/MichaelRieser), [Bill Wake](https://twitter.com/wwake), and [Steve Ropa](https://twitter.com/steveropa). During our time together, coaching over a dozen teams, we've discovered a set of starter practices that help teams find early success with Mob Programming.
+I've spent the last few years coaching teams and introducing them to Mob Programming. I was fortunate to get to coach with some of the finest technical coaches, [Industrial Logic](https://www.industriallogic.com) consultants [Tim Ottinger](https://www.twitter.com/tottinge), [Michael Rieser](https://twitter.com/MichaelRieser), [Bill Wake](https://twitter.com/wwake), and [Steve Ropa](https://twitter.com/steveropa). During our time together, coaching over a dozen teams, we've discovered a set of starter practices that help teams find early success with Mob Programming.
 <!--more-->
 
  Mob Programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, legacy code techniques, evolutionary design, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. More importantly, Mob Programming is a practice that helps teams increase the quality of their work *AND* the quality of their interactions.  
@@ -28,4 +28,4 @@ You can download this quick start guide here:
 
 ## Starter Recipes
 
-Remember that these recommendations are to get teams started and find early success with mob programming. As your teams progress with mob programming make these rules your own, change them, deviate from them, drop some, and add some others. Through continued inspection and adaptation you will come to find your own practices that work best for your context. 
+Remember that these recommendations are to get teams started and find early success with mob programming. As you progress with mob programming make these rules your own, change them, deviate from them, drop some, and add some others. Through continued inspection and adaptation, you will come to find your own practices that work best for your context. 
