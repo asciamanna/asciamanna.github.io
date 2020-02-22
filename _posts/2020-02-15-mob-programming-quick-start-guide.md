@@ -16,7 +16,7 @@ I've spent the last few years coaching teams and introducing them to Mob Program
 I've written about these recommendations previously in my article, [Effective Practices for Mob Programming]({ post_url 2018-06-29-practices-for-effective-mob-programming %}) and Tim Ottinger published a similar post on the Industrial Logic blog, [A Few Tips for Mob Programming](https://www.industriallogic.com/blog/a-few-tips-for-mob-programming/).  
 
 
-## Quick Reference Guide
+## The Guide
 
 As a companion to mob programming coaching sessions, I created a quick start guide that distills these recommendations into a short one-page poster that can be kept by the team's mobbing workstation.
 
