@@ -28,4 +28,4 @@ You can download this quick start guide here:
 
 ## Starter Recipes
 
-Remember that these recommendations are to get teams started and find early success with mob programming. As you progress with mob programming make these rules your own, change them, deviate from them, drop some, and add some others. Through continued inspection and adaptation, you will come to find your own practices that work best for your context. 
+Remember that these recommendations are to get teams started and find early success with Mob Programming. As you progress with Mob Programming determine what works best for you. [Woody Zuill](https://twitter.com/WoodyZuill/) was the coach for the team at Hunter Industries that first discovered Mob Programming. He often says there are no rules to Mob Programming; instead there is a core idea: _the team's dedication to learning how to work well together_. Through continued inspection and adaptation, you will come to find your own practices that work best for your team. 
