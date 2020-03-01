@@ -38,4 +38,4 @@ Hunter Industries Mob Programming video from 2016. Catch up with the development
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dVqUcNKVbYg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 
-Do you have questions about the talk or Mob Programming in general? Or maybe just want to chat with us? The best way to get in touch with us is on twitter. Feel free to contact me ([@asciamanna](https://www.twitter.com/asciamanna)) or Nick ([@ngoede](https://www.twitter.com/ngoede)) there. 
+Do you have questions about the workshop, the quick start guide, or Mob Programming in general? Or maybe just want to chat with us? The best way to get in touch with us is on twitter. Feel free to contact me ([@asciamanna](https://www.twitter.com/asciamanna)) or Nick ([@ngoede](https://www.twitter.com/ngoede)) there. 
