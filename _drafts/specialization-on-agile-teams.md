@@ -73,8 +73,8 @@ Specialization is often misunderstood or overlooked. It can have disastrous effe
 I recommend:
 * Populating teams with a mix of specialists and generalists
 * Hiring specialists with a focus on learning and collaboration
-* Hiring specialists who are on a path to becoming an E-shaped contributor
+* Hiring specialists who are on a path to becoming E-shaped contributors
 * Encouraging collaborative development practices on teams (team-based design, mob and pair programming)
 * Create an environment where learning happens on the job during the work day (learning hours, code katas, etc.)
-* Organize teams for a few to no handoffs
+* Organize teams for few to no handoffs (organize such that individual teams can deliver features end-to-end)
 * Create complicated subsystem teams where necessary for complex domain knowledge, but use them sparingly 
