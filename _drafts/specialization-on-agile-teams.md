@@ -5,8 +5,8 @@ title: Specialization on Agile Teams
 subtitle: Increasing Lead Times and a Risk to Flow
 comments: true
 excerpt_separator: <!--more-->
-category: coaching
-tags: ['coaching']
+category: leadership
+tags: ['coaching', 'agile development']
 ---
 
 It's been nineteen years since the creation of the agile manifesto, and with it came the popularization of an idea that teams should be organized cross-functionally. These cross-functional teams work together on solutions rather than being organized by function, relying on handoffs between organizational silos. While a lot of progress has been made on organization and team design I still see a lot companies struggling with issues stemming from an overreliance on specialized teams and specialist team members. 
