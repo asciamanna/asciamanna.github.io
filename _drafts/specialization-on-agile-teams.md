@@ -54,8 +54,8 @@ The result was a massive, year-long waterfall project in a self-proclaimed agile
 
 A key misunderstanding of specialization is conflating cross-functional teams with full stack developers. A cross-functional team doesn't require all full stack developers, especially from the start. The cross-functional team consists of all skills necessary to deliver a feature from concept to production. Finding only full stack experts as front-end and cloud technologies have emerged is a challenging proposition. This doesn't mean specialists should be avoided, but care needs to be taken when creating development teams. Specialists should be teamed with generalists and there should be a concerted focus on collaborative development behaviors. Hire specialists, but optimize for collaboration and a path towards the emergence of E-shaped team members. 
 
-
-!!!! QUOTE FROM MOUNTAIN GOAT SOFTWARE
+> Specialists can exist on high-performing agile teams. But it is the multi-skilled team members who allow that to be possible.
+> _**&mdash;Mike Cohn - <a href="https://www.mountaingoatsoftware.com/blog/cross-functional-doesnt-mean-everyone-can-do-everything">Cross-functional Doesn't Mean Everyone Can Do Everything</a>**_
 
 ## A Place for Specialized Teams?
 While I recommend not creating teams of specialists by function (e.g, front-end, back-end, middleware, infrastructure, database, etc.) there is a place for specialized teams. When organizing teams for fast flow you may find that there is a specific function of your software that is so specialized that it cannot be accomplished by generalists. The book _Team Topologies_ refers to these teams as _Complicated-Subsystem teams_. Some examples of complicated subsystems could include a video processing codec, a mathematical model, a real-time trade reconciliation algorithm, or a face-recognition engine. In these cases it may be necessary to create a specialized team, but these should be the exception not the rule. They should exist to help the other more generalized teams in the organization deliver faster and safer and decrease their cognitive load. 
