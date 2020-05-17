@@ -10,9 +10,9 @@ tags: ['coaching', 'agile development']
 ---
 
 It's been nineteen years since the creation of the agile manifesto, and with it came the popularization of an idea that teams should be organized cross-functionally. These cross-functional teams work together on solutions rather than being organized by function, relying on handoffs between organizational silos. While a lot of progress has been made on organization and team design I still see a lot companies struggling with issues stemming from an overreliance on specialized teams and specialist team members. 
-<!-- more -->
+<!--more-->
 
-<img src="/img/bottleneck.png" alt="bottleneck" class="img-responsive" />
+<img src="/img/bottleneck.jpg" alt="bottleneck" class="img-responsive" />
 
 ## Specialization and Solo Work 
 The problems with specialization within teams is compounded when teams (or their organizations) rely exclusively on solo work. Teams of specialists who don't collaborate on work create single points-of-failure and bottlenecks in development. One person getting sick or taking a vacation interrupts team flow making it harder to deliver consistently. How often have you seen user stories or features get started and then shelved because the expert is taking a vacation? This is a common indicator of over-specialization and solo work. 
@@ -36,9 +36,10 @@ _[The DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliab
 
 The accompanying table from _[The DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/)_ describes the important shift from specialist, to generalist and finally E-Shaped team members. 
 <figure>
-    <img src="/e-shaped-devops-handbook-table.png" alt="E-Shaped Skills - The DevOps Handbook" class="img-responsive" />
-    <figcaption>Specialists vs. Generalists vs. "E-Shaped" Staff - The DevOps Handbook, page 86</figcaption>
+    <img src="/img/e-shaped-devops-handbook-table.png" alt="E-Shaped Skills - The DevOps Handbook" class="img-responsive" />
+    <figcaption style="text-align:center">Specialists vs. Generalists vs. "E-Shaped" Staff - The DevOps Handbook, page 86</figcaption>
 </figure>
+<br/>
 
 ## Specialized Teams
 A greater challenge for companies wishing to improve their delivery capabilities is when they rely on entire teams of specialists, often returning to teams organized by function or specialty. With the rise of front-end, cloud, and infrastructure technologies the antipattern of organizing around these technologies is common. This results in the problems that cross-functional agile teams were intended to mitigate. Once teams are organized by function they create a system where feature development requires handoffs between several teams. This slows development to a crawl, increases lead times, and creates quality issues as with every team handoff the opportunity for mistakes, miscommunications, and defects increases. 
@@ -60,7 +61,7 @@ A key misunderstanding of specialization is conflating cross-functional teams wi
 ## A Place for Specialized Teams?
 While I recommend not creating teams of specialists by function (e.g, front-end, back-end, middleware, infrastructure, database, etc.) there is a place for specialized teams. When organizing teams for fast flow you may find that there is a specific function of your software that is so specialized that it cannot be accomplished by generalists. The book _[Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/)_ refers to these teams as _Complicated-Subsystem teams_. Some examples of complicated subsystems could include a video processing codec, a mathematical model, a real-time trade reconciliation algorithm, or a face-recognition engine.[^1]
 
-<img src="team-topologies.jpg" alt="Team Topologies by Matthew Kelton and Manuel Pais" class="img-responsive" />
+<img src="/img/team-topologies.jpg" alt="Team Topologies by Matthew Kelton and Manuel Pais" class="img-responsive" />
 
 To learn more about this concept I highly recommend reading _[Team Topologies](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/)_. In addition to _Complicated-Subsystem teams_ the book describes the other three types of teams required for fast flow of features in a software organization. Not surprisingly the largest percentage of teams are the generalized, value stream-aligned teams. The other team types exist to support the stream-aligned teams, who are responsible for delivering the lion's share of customer value in an organization. 
 
