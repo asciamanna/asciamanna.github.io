@@ -69,7 +69,7 @@ To learn more about this concept I highly recommend reading _[Team Topologies](h
 > _**&mdash;Matthew Skelton & Manuel Pais - Team Topologies, page 91
 
 ## Conclusion
-Specialization is often misunderstood or overlooked. It can have disastrous effects on an organization's ability to deliver working software on a consistent basis. It often increases lead times and is a barrier to continuous delivery.
+Specialization is often misunderstood or overlooked. It can have disastrous effects on an organization's ability to deliver working software consistently. It often increases lead times and is a barrier to continuous delivery.
 
 I recommend:
 * Populating teams with a mix of specialists and generalists
