@@ -9,7 +9,7 @@ category: leadership
 tags: ['coaching', 'agile development']
 ---
 
-It's been nineteen years since the creation of the agile manifesto, and with it came the popularization of an idea that teams should be organized cross-functionally. These cross-functional teams work together on solutions rather than being organized by function, relying on handoffs between organizational silos. While a lot of progress has been made on organization and team design I still see a lot companies struggling with issues stemming from an overreliance on specialized teams and specialist team members. 
+It's been nineteen years since the creation of the agile manifesto, and with it came the popularization of the idea that teams should be organized cross-functionally. These cross-functional teams work together on solutions rather than being organized by function, relying on handoffs between organizational silos. While a lot of progress has been made on organization and team design I still see a lot of companies struggling with issues stemming from an overreliance on specialized teams and specialist team members. 
 <!--more-->
 
 <img src="/img/bottleneck.jpg" alt="bottleneck" class="img-responsive" />
@@ -23,7 +23,7 @@ Teams trying to achieve delivery consistency, whether they are focusing on flow 
 ### Collaboration 
 Collaboration is often misunderstood by those who have never truly experienced it on a development team (which is a topic for a future post). Holding team stand-ups and attending the same team meetings may be a place to start but it isn't sufficient. When I talk about collaboration I mean teammates working together on a shared solution, this means group design sessions, pair programming, and mob programming. 
 
-Collaborative software development techniques and an organizational culture that prioritizes learning is required to move specialists from I-Shaped to T-Shaped and eventually E-Shaped individuals. Today's development teams are best suited by being populated by people who have deep expertise in a few key areas but are generalists in the other areas and activities necessary to continuously deliver working software. 
+Collaborative software development techniques and an organizational culture that prioritizes learning are required to move specialists from I-Shaped to T-Shaped and eventually E-Shaped individuals. Today's development teams are best suited by being populated by people who have deep expertise in a few key areas but are generalists in the other areas and activities necessary to continuously deliver working software. 
 
 ### From I-Shaped to E-Shaped Developers
 
@@ -42,7 +42,7 @@ The accompanying table from _[The DevOps Handbook](https://www.amazon.com/DevOps
 <br/>
 
 ## Specialized Teams
-A greater challenge for companies wishing to improve their delivery capabilities is when they rely on entire teams of specialists, often returning to teams organized by function or specialty. With the rise of front-end, cloud, and infrastructure technologies the antipattern of organizing around these technologies is common. This results in the problems that cross-functional agile teams were intended to mitigate. Once teams are organized by function they create a system where feature development requires handoffs between several teams. This slows development to a crawl, increases lead times, and creates quality issues as with every team handoff the opportunity for mistakes, miscommunications, and defects increases. 
+A greater challenge for companies wishing to improve their delivery capabilities is when they rely on entire teams of specialists, often returning to teams organized by function or specialty. With the rise of front-end, cloud, and infrastructure technologies the antipattern of organizing around these technologies is common. This results in the problems that cross-functional agile teams were intended to mitigate. Once teams are organized by function they create a system where feature development requires handoffs between several teams. This slows development to a crawl, increases lead times and creates quality issues as with every team handoff the opportunity for mistakes, miscommunications, and defects increases. 
 
 ### A Real World Example
 I once worked at a company that was beginning a large project for a new product offering. It was decided that there would be back-end teams in the local office while the front-end work would be offshored. The argument was that front-end technology stacks have become so complicated the only way to be successful was to have separate front-end and back-end teams.
@@ -53,7 +53,7 @@ The result was a massive, year-long waterfall project in a self-proclaimed agile
 
 ## Cross-functional or Full Stack?
 
-A key misunderstanding of specialization is conflating cross-functional teams with full stack developers. A cross-functional team doesn't require all full stack developers, especially from the start. The cross-functional **team** consists of all skills necessary to deliver a feature from concept to production. Finding only full stack experts as front-end and cloud technologies have emerged is a challenging proposition. This doesn't mean specialists should be avoided, but care needs to be taken when creating development teams. Specialists should be teamed with generalists and there should be a concerted focus on collaborative development behaviors. Hire specialists, but optimize for collaboration and a path towards the emergence of E-shaped team members. 
+A key misunderstanding of specialization is conflating cross-functional teams with full-stack developers. A cross-functional team doesn't require all full-stack developers, especially from the start. The cross-functional **team** consists of all skills necessary to deliver a feature from concept to production. Finding only full-stack experts as front-end and cloud technologies have emerged is a challenging proposition. This doesn't mean specialists should be avoided, but care needs to be taken when creating development teams. Specialists should be teamed with generalists and there should be a concerted focus on collaborative development behaviors. Hire specialists, but optimize for collaboration and a path towards the emergence of E-shaped team members. 
 
 > Specialists can exist on high-performing agile teams. But it is the multi-skilled team members who allow that to be possible.  
 > _**&mdash;Mike Cohn - <a href="https://www.mountaingoatsoftware.com/blog/cross-functional-doesnt-mean-everyone-can-do-everything">Cross-functional Doesn't Mean Everyone Can Do Everything</a>**_
@@ -65,7 +65,7 @@ While I recommend not creating teams of specialists by function (e.g, front-end,
 
 To learn more about this concept I highly recommend reading _[Team Topologies](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/)_. In addition to _Complicated-Subsystem teams_ the book describes the other three types of teams required for fast flow of features in a software organization. Not surprisingly the largest percentage of teams are the generalized, value stream-aligned teams. The other team types exist to support the stream-aligned teams, who are responsible for delivering the lion's share of customer value in an organization. 
 
-> A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge in order to understand and make changes to the subsystem.  
+> A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge to understand and make changes to the subsystem.  
 > _**&mdash;Matthew Skelton & Manuel Pais - Team Topologies, page 91
 
 ## Conclusion
@@ -76,8 +76,8 @@ I recommend:
 * Hiring specialists with a focus on learning and collaboration
 * Hiring specialists who are on a path to becoming E-shaped contributors
 * Encouraging collaborative development practices on teams (team-based design, mob and pair programming)
-* Create an environment where learning happens on the job during the work day (learning hours, code katas, etc.)
+* Create an environment where learning happens on the job during the workday (learning hours, code katas, etc.)
 * Organize teams for few to no handoffs (individual teams can deliver features end-to-end)
 * Create complicated subsystem teams where necessary for complex domain knowledge, but use them sparingly 
 
-[^1]: Examples of Complicated Subsystem Teams from the book _[Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/)_.
+[^1]: Examples of Complicated Subsystem Teams from the book _[Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/).
