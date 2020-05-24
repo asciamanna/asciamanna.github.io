@@ -49,7 +49,7 @@ I once worked at a company that was beginning a large project for a new product 
 
 This resulted in a disastrous waterfall project. The offshore front-end team was several weeks and even months ahead of other teams, they were busy building experiences against mock APIs. When the back-end onshore teams caught up rework ensued as the front-end and back-end didn't align. "User stories" were claimed to be "Done" but delivered no customer value. In fact "completed" work wasn't being deployed to production because it still needed to be integrated. All of this partially done work created integration risk and required waterfall testing strategies like an integrated test phase at the end of the project. 
 
-The result was a massive, year-long waterfall project in a self-proclaimed agile organization. Because it took the better part of a year to get any feedback it was an extremely expensive bet that eschewed all of the benefits of consistently delivering working software, fast feedback cycles, and tuning the solution to meet the users' needs. 
+The result was a massive, year-long waterfall project in a self-proclaimed agile organization. Because it took the better part of a year to get any feedback it was an extremely expensive bet that eschewed all of the benefits of consistently delivering working software, fast feedback cycles, and tuning the solution to meet the customers' needs. 
 
 ## Cross-functional or Full Stack?
 
@@ -69,7 +69,7 @@ To learn more about this concept I highly recommend reading _[Team Topologies](h
 > _**&mdash;Matthew Skelton & Manuel Pais - Team Topologies, page 91
 
 ## Conclusion
-Specialization is often misunderstood or overlooked. It can have disastrous effects on an organization's ability to deliver working software consistently. It often increases lead times and is a barrier to continuous delivery.
+Development team specialization is often misunderstood or overlooked. It can have disastrous effects on an organization's ability to deliver working software consistently. It often increases lead times and is a barrier to continuous delivery.
 
 I recommend:
 * Populating teams with a mix of specialists and generalists
