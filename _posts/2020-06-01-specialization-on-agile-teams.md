@@ -44,7 +44,7 @@ The accompanying table from _[The DevOps Handbook](https://www.amazon.com/DevOps
 ## Specialized Teams
 It's an even greater challenge to an organization's delivery capabilities when they staff teams of specialists, often returning to teams organized by function or specialty. With the rise of front-end, cloud, and infrastructure technologies the antipattern of organizing around these technologies is common. This results in the problems that cross-functional agile teams were intended to mitigate. 
 
-Once organized by function this creates a system where feature development requires handoffs between several teams. Organizing this way slows development to a crawl, increases lead times, and creates quality issues. Quality often suffers when handoffs are required as every handoff introduces an opportunity for mistakes, miscommunications, and defects. 
+Once organized by function this creates a system where feature development requires handoffs between several teams. Organizing this way slows development to a crawl, increases lead times, and creates quality issues. Quality often suffers when handoffs are required as every handoff introduces an opportunity for mistakes, miscommunication, and defects. 
 
 ### A Real World Example
 I once worked at a company that was beginning a large project for a new product offering. It was decided that there would be back-end teams in the local office while the front-end work would be offshored. The argument was that front-end technology stacks have become so complicated the only way to be successful was to have separate front-end and back-end teams.
