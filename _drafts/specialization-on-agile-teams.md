@@ -68,7 +68,7 @@ While I recommend not creating teams of specialists by function (e.g, front-end,
 To learn more about this concept I highly recommend reading _[Team Topologies](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/)_. In addition to _Complicated-Subsystem teams_ the book describes the other three types of teams required for the fast flow of features in a software organization. Not surprisingly, the largest percentage of teams are the generalized, value stream-aligned teams. The other team types exist to support the stream-aligned teams, who are responsible for delivering the lion's share of customer value in an organization. 
 
 > A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge to understand and make changes to the subsystem.  
-> _**&mdash;Matthew Skelton & Manuel Pais - Team Topologies, page 91
+> _**&mdash;Matthew Skelton & Manuel Pais - Team Topologies, page 91**_
 
 ## Conclusion
 Development team specialization is often misunderstood or overlooked. It can have disastrous effects on an organization's ability to deliver working software consistently. It often increases lead times and is a barrier to continuous delivery.
