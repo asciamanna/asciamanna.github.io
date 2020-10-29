@@ -13,6 +13,10 @@ Lean Coffee is a fantastic meeting facilitation technique. I've used it to host 
 
 When I was coaching development teams with [Industrial Logic](https://www.industriallogic.com), we started each day of the Dojo with a Lean Coffee session. It was a great idea to share knowledge across teams going through the Dojo experience separately, but also a way to include organizational leadership in conversations about what we were doing with the teams. 
 
+## What is Lean Coffee?
+
+IMAGE --- roman voting
+
 ## A Brief History
 
 
@@ -22,9 +26,11 @@ When I was coaching development teams with [Industrial Logic](https://www.indust
 * Democratizes convesrations - gives everyone a voice
 * increases the engagement of participants
 
-## What is Lean Coffee?
-
-IMAGE --- roman voting
+## When to use it
+Knowledge sharing
+retrospectives
+brainstorming
+getting equal particitipation
 
 ## Virtual Lean Coffees
 
@@ -40,3 +46,5 @@ Try it out in your next meeting. Come back and let me know how it goes.
 https://www.scrum.org/resources/blog/lean-coffee-5-minutes#:~:text=Lean%20Coffee%20is%20a%20powerful,It%20is%20also%20fun!
 
 https://www.markkilby.com/resources/virtual-lean-coffee/
+
+https://leancoffee.org/distributed-lean-coffee/
