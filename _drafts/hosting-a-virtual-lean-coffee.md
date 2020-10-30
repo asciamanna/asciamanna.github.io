@@ -8,14 +8,17 @@ category: coaching
 tags: ['coaching', 'retrospectives']
 ---
 
-Lean Coffee is a fantastic meeting facilitation technique. I've used it to host company meetings, user group meetings, knowledge sharing sessions, and even as a retrospective technique. It is simple to learn, has a lot of benefits over traditional meeting facilitation techniques, and is a lot of fun. At a time when more and more technology and software companies are going remote, there are plenty of tools available to facilitate a virtual lean coffee. 
+Lean Coffee is a fantastic technique to facilitate meetings. I've used it to host company meetings, user group meetings, knowledge sharing sessions, and even as a retrospective format. It is simple to learn, has a lot of benefits over traditional meeting facilitation techniques, and is a lot of fun. At a time when more and more technology and software companies are going remote, there are plenty of tools available to help you host a virtual lean coffee. 
 <!--more-->
 
-When I was coaching development teams with [Industrial Logic](https://www.industriallogic.com), we started each day of the Dojo with a Lean Coffee session. It was a great idea to share knowledge across teams going through the Dojo experience separately, but also a way to include organizational leadership in conversations about what we were doing with the teams. 
+When I was coaching development teams with [Industrial Logic](https://www.industriallogic.com), we started each day of the coaching Dojo with a Lean Coffee session. It was a great way to share knowledge across teams going through the Dojo experience separately, but also a way to include organizational leadership in conversations. 
 
 ## What is Lean Coffee?
 
-IMAGE --- roman voting
+> Lean Coffee is a structured, but agenda-less meeting. Participants gather, build an agenda, and begin talking. Conversations are directed and productive because the agenda for the meeting was democratically generated.  
+> **&mdash;Quoted from [leancoffee.org](http://leancoffee.org)**
+
+I typically describe lean coffee using 
 
 ## A Brief History
 
@@ -42,6 +45,7 @@ Miro, Lean cofee table, agile coffee
 Try it out in your next meeting. Come back and let me know how it goes. 
 
 
+## Additional Resources
 
 https://www.scrum.org/resources/blog/lean-coffee-5-minutes#:~:text=Lean%20Coffee%20is%20a%20powerful,It%20is%20also%20fun!
 
