@@ -185,6 +185,7 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 #######################
 #      Code Page      #
