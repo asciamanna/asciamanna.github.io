@@ -34,7 +34,7 @@ Follow the simple steps below to facilitate a session:
 1. When the timer is up everyone thumb votes on whether to continue the conversation (thumbs up), move on to the next topic (thumbs down) or if they don't feel strongly in either direction (thumbs middle). Middle thumbs are excluded from the voting. 
 1. If the discussion is continued reset the timer for an additional three minutes and repeat the voting when the timer is up.
 
-<img src=/img/lean-coffee.png class="img-responsive" alt="Lean Coffee steps" />
+<img src="/img/lean-coffee.png" class="img-responsive" alt="Lean Coffee steps" />
 
 
 ## A Brief History
@@ -51,8 +51,7 @@ While it's easier to hold these sessions in person. There is a variety of tools 
 #### [Miro](https://miro.com)
 
 Miro is one of my favorite collaboration tools, so it is the first one I reach for virtual collaboration
-<IMAGE>
-PRO CONS TABLE
+
 
 #### Lean Coffee Table
 
