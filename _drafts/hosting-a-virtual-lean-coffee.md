@@ -49,6 +49,7 @@ While it's easier to hold these sessions in person. There is a variety of tools 
 
 ### Tooling 
 #### [Miro](https://miro.com)
+
 Miro is one of my favorite collaboration tools, so it is the first one I reach for virtual collaboration
 <IMAGE>
 PRO CONS TABLE
