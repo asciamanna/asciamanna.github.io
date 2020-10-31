@@ -6,7 +6,7 @@ comments: true
 category: software craft
 tags: ['unit testing', 'tdd', 'code quality']
 ---
-Recently at work I showed a video of Gerard Meszaros' talk from CRAFT Conference 2014, [_**Find the Right Abstraction Level for Your Tests**_](http://www.ustream.tv/recorded/46744750 "Find the Right Abstraction Level for Your Tests") during one of our lunch and learn sessions. The audience was our development team with varying experience writing tests. A few of us had a lot of experience writing tests and practicing TDD, a majority had some experience writing tests but don't practice it regularly, and there were a few, I'm sure, who haven't written a unit test or an automated test before.
+Recently at work I showed a video of Gerard Meszaros' talk from CRAFT Conference 2014, [_**Find the Right Abstraction Level for Your Tests**_](\https://www.infoq.com/presentations/tests-vocabulary/ "Find the Right Abstraction Level for Your Tests") during one of our lunch and learn sessions. The audience was our development team with varying experience writing tests. A few of us had a lot of experience writing tests and practicing TDD, a majority had some experience writing tests but don't practice it regularly, and there were a few, I'm sure, who haven't written a unit test or an automated test before.
 
 During the discussion that followed the video a team member mentioned that the talk didn't address what the appropriate size for a test was. I thought that was a great question for a team that previously didn't have much success with their unit tests. 
 
