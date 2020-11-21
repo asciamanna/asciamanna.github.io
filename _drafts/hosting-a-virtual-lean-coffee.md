@@ -47,13 +47,13 @@ I use the lean coffee format often. It's easy to learn and fun, but more importa
 
 While it's easier to hold these sessions in person. There is a variety of tools available to help you facilitate a virtual lean coffee. 
 
-### Tooling 
-#### [Miro](https://miro.com)
+## Tooling 
+### [Miro](https://miro.com)
 <img src="/img/miro-lean-coffee.png" alt="Miro Lean Coffee board" class="img-responsive" />
 
 [Miro](https://miro.com) is one of my favorite collaboration tools, so it is the first one I reach for in virtual collaboration sessions.
 
-##### Pros
+#### Pros
 * Many collaborative use cases
 * Built in timer 
 * Built in voting
@@ -62,59 +62,59 @@ While it's easier to hold these sessions in person. There is a variety of tools 
 * Paid-tiers allow for collaborating on boards without a Miro account
 * Ability to export boards / post-its
 
-##### Cons
+#### Cons
 * Free-tier license requires every participant to have an account and share all boards in the group
 *  No Lean Coffee templates currently exist at the time of this writing. Some upfront work to build your board
 
-#### [Lean Coffee Table](https://www.leancoffeetable.com/)
+### [Lean Coffee Table](https://www.leancoffeetable.com/)
 
 <img src="/img/lean-coffee-table.png" alt="Lean coffee table website" class="img-responsive" />
 
 [Lean Coffee Table](https://www.leancoffeetable.com/) is an online tool build specifically for hosting lean coffee sessions. 
 
-##### Pros
+#### Pros
 * Support for lean coffee and other virtual meetings
 * Integrates with Zoom 
 * Built in timer
 * Built in voting
 
-##### Cons
+#### Cons
 * No free-tier license available
 
 
-#### [Agile Coffee](http://agile.coffee/)
+### [Agile Coffee](http://agile.coffee/)
 
 <img src="/img/agile-coffee.png" alt="Agile Coffee board" class="img-responsive" />
 
 [Agile Coffee](http://agile.coffee/) is a tool that is built using the [FunRetro](https://funretro.io/) virtual retrospective tool. While limited in functionality and not the slickest of the tools, it is a great option if you don't want to require your attendees to have an account. 
 
-##### Pros
+#### Pros
 * Free 
 * No accounts required
 * Built in voting
 * Customizable columns / column names 
 * Ability to export boards
 
-##### Cons
+#### Cons
 * Lacking in features compared to some of the other options 
 * No built in timer 
 * Cannot control access to the boards
 
-#### [Retrium](https://www.retrium.com/retrospective-techniques/lean-coffee)
+### [Retrium](https://www.retrium.com/retrospective-techniques/lean-coffee)
  
-<img src="img/retrium-lean-coffee.png" alt="Retrium Lean Coffee" class="img-responsive" />
+<img src="/img/retrium-lean-coffee.png" alt="Retrium Lean Coffee" class="img-responsive" />
 
- [Retrium](https://www.retrium.com/) is a virtual retrospective tool that has a Lean Coffee template.
+[Retrium](https://www.retrium.com/) is a virtual retrospective tool that has a Lean Coffee template.
 
- ##### Pros
+#### Pros
 * Customizable columns
 * Built in dot voting
 * Supports grouping notes (i.e., affinity mapping)
 
-##### Cons
+#### Cons
 * No free-tier license
-
- #### [Zoom](https://zoom.us/)
+ 
+### [Zoom](https://zoom.us/)
  [Zoom](https://zoom.us/) is a virtual meeting tool that can be paired with any of the above Lean Coffee tools. I recommend it here specifically because of its breakout room functionality. When you are hosting multiple groups for a virtual lean coffee the breakout room functionality is necessary to allow the groups to work together and then rejoin the larger group to share insights and decisions. 
 
 Breakout room features are currently in development for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software), once available that will become a viable alternative to Zoom for hosting Lean Coffee sessions. 
