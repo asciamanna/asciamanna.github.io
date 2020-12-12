@@ -50,8 +50,11 @@ By forcing the very people doing the uncertain work to commit to estimates (whic
 
 ## Getting to Agile Predictability 
 
-### Always Releasable / Always Releasing
-No unknowns - 
+### Always releasable 
+#### Organize teams for delivery flow
+#### Continuous Integration 
+
+No component teams  
 
 ### Continuous Quality
 
@@ -70,6 +73,9 @@ Quote L David Marquet quote
 ## Continuously Refine the Plan 
 Small detail 
 ## Cone of Uncertainty
+
+## Defer Constraining Commitments
+https://www.scrum.org/resources/defer-constraining-commitments
 
 ## The Myth
 There is a myth that you can be agile and have deadlines. This couldn't be further from the truth. We operate in a world where software is ubiquitous. This means we often have to meet regulatory dates or incur fines, deliver a feature before a competitor, or demonstrate a new capability at an important conference. By focusing on the aforementioned practices and not fixing specific scope for a deadline, there is no better way to hit a date than by using agile practices.  
