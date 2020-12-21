@@ -2,7 +2,7 @@
 layout: post
 section-type: post
 title: Demanding Predictability
-subtitle: An Agile Anti-pattern 
+subtitle: The Costs of Predictive Software Practices 
 comments: true
 excerpt_separator: <!--more-->
 category: leadership
