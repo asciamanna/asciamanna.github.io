@@ -9,10 +9,10 @@ category: leadership
 tags: ['agile development', 'anti-patterns']
 ---
 
-Collective code ownership is an essential practice (from Extreme Programming) for modern agile software organizations. However, in enterprises and multi-team software organizations it is often misunderstood. This misunderstanding is the source of expensive integration bugs, churn, and morale issues. 
+Collective code ownership is an essential practicefor modern agile software organizations, coming to us from Extreme Programming (XP). However, in enterprises and multi-team software organizations it is often misunderstood. This misunderstanding is the source of expensive integration bugs, churn, and morale issues. 
 <!-- more -->
 
-The value of collective code ownership can't be overstated. One of many brilliant aspects of Extreme Programming (XP) is how its practices support and reinforce each other. Collective code ownership when combined with TDD, refactoring, and team coding practices like pair or mob programming creates an environment where code can be created, improved, and maintained by the entire team. It reduces risk for the organization, decreases the bus factor, eliminates towers of knowledge in software organizations, and encourages the continuous improvement of the codebase by the entire team.  
+The value of collective code ownership can't be overstated. One of many brilliant aspects of XP is how its practices support and reinforce each other. Collective code ownership when combined with TDD, refactoring, and team coding practices like pair or mob programming creates an environment where code can be created, improved, and maintained by the entire team. It reduces risk for the organization, decreases the bus factor, eliminates towers of knowledge in software organizations, and encourages the continuous improvement of the codebase by the entire team.  
 
 ## Common Misunderstandings
 
