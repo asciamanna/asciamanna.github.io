@@ -9,17 +9,25 @@ category: leadership
 tags: ['agile development', 'anti-patterns']
 ---
 
-Collective code ownership is an essential practicefor modern agile software organizations, coming to us from Extreme Programming (XP). However, in enterprises and multi-team software organizations it is often misunderstood. This misunderstanding is the source of expensive integration bugs, churn, and morale issues. 
+Collective code ownership is an essential practice for modern agile software organizations. It was introduced to the masses via Extreme Programming (XP) in the late 1990s. However, in enterprises and multi-team software organizations it is often mischaracterized. The misapplication of this practice is the source of expensive integration bugs, churn, and morale issues. 
 <!-- more -->
 
-The value of collective code ownership can't be overstated. One of many brilliant aspects of XP is how its practices support and reinforce each other. Collective code ownership when combined with TDD, refactoring, and team coding practices like pair or mob programming creates an environment where code can be created, improved, and maintained by the entire team. It reduces risk for the organization, decreases the bus factor, eliminates towers of knowledge in software organizations, and encourages the continuous improvement of the codebase by the entire team.  
+The value of collective code ownership cannot be overstated. One of many brilliant aspects of XP is how its practices support and reinforce each other. Collective code ownership when combined with Test-Driven Development, refactoring, and team coding practices like pair or mob programming creates an environment where code can be created, improved, and maintained by the entire team. It reduces risk for the organization, decreases [the bus factor](https://en.wikipedia.org/wiki/Bus_factor), eliminates towers of knowledge in software organizations, and encourages the continuous improvement of the codebase by the entire team.  
 
-## Common Misunderstandings
+## Common Misapplication
 
-When considering collective code ownership the collective is the team. Now, the word team can mean different things to different people. By team, I mean the group of people who are collaborating daily on the codebase, hopefully using techniques like mob and pair programming. Commonly, multi-team organizations misunderstand collective code ownership to mean that anyone on any development team can make any code changes to the codebase. This often has disastrous effects for the quality of the software and the morale of the teams. 
+When considering collective code ownership the collective is the team. Now, the word team can mean different things to different people. I consider the team the group of people who are collaborating daily on changes in the codebase, hopefully using techniques like mob and pair programming. Commonly, multi-team organizations misunderstand collective code ownership to mean that anyone on any development team can make any code changes to any part of the codebase at any time. This often has disastrous effects for the quality of the software and the morale of the teams. 
 
 ## Problems with Organization-Wide Code Ownership
-As features get created, updated, and maintained it is important to have long term care of the codebase. Having a team focused on the health and vision of the codebase enables iterative and emergent techniques like evolutionary design. Allowing anyone to make any change to a codebase without the vision or context of the code often results churn for the development team and worse yet defects escaping into production.
+As features get created and code is changed it is important to have long term care of the codebase. Having a team focused on the health and vision of the codebase enables iterative and emergent techniques like evolutionary design. Allowing anyone to make any change to a codebase without the vision or context of the code often results churn for the software organization and worse yet defects escaping into production.
+
+There a few reasons organizations rely on organization-wide ownership models. The most common culprit is the design and architecture of the system. Commonly, I see monolithic applications with no separation of concerns which results in a [Big Ball of Mud architecture](https://en.wikipedia.org/wiki/Big_ball_of_mud). When there are no boundaries in the code there exists no team organization that can provide collective code ownership. 
+
+### Decision Paralysis & Long Lead Times
+When code ownership spans the entire organization no one is an expert at anything in the codebase. Every change requires input from the entire organization. When code and design decisions leave the team they become expensive to make and lead times increase for every change to the software. 
+
+### Change Implications & Cognitive Load
+When someone makes even a simple change to the code the expectation is that they know all of the implications of their change, which is frankly not possible. [Raffi Krikorian](https://twitter.com/raffi) (former VP of Engineering at Twitter) talks about these challenges and why he transitioned Twitter infrastructure from a monolithic Ruby on Rails application to a service-oriented architecture. When code can be modularized and team-owned the cognitive load required becomes reduced, making it much easier and safer to make changes and understand their implications to the rest of the system. 
 
 ### The Tragedy of the Commons 
 
@@ -37,9 +45,6 @@ To address this problem one only has to look as far as Conway's Law, named after
 > _**&mdash;Melvin E. Conway**_
 
 A humorous, often told, example of Conway's Law is that _"if a complier is designed by four groups, you will get a four-pass compiler."_ In what is ostensibly a simple law there lies deep understanding of the impacts people, teams, and their interactions have on the creation of software. 
-
-## Reversing Organization-Wide Code Ownership
-There a few reasons organizations rely on organization-wide ownership models. The most common culprit is the design and architecture of the system. Commonly, I see monolithic applications with no separation of concerns which results in the Ball of Mud pattern. When there are no boundaries in the code there is no team organization that can provide collective code ownership. 
 
 ## Inverse Conway Manuever
 The Inverse Conway Manuever is an idea stemming from Conway's law. This approach recommends that you structure your software teams to promote your desired architecture. The teams will naturally modularize their code so that it mimics the structure of their team. The problem that I've seen in practice is that in command-and-control organizations (usually giving lip service to agile in poor Scrum and scaled agile SAFe implementations) the teams aren't empowered to make those kinds of changes to the software, so they continue to churn. However, with the appropriate skills and authority this is a good approach to achieving collective code ownership. 
