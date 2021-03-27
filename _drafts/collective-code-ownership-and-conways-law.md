@@ -61,6 +61,6 @@ However, if collective code ownership is established, an open source approach ca
 For this approach to be successful these outside code contributions need to be the exception not the rule. If the inverse is true, experts in the code spend all of their time reviewing other contributors code and not enough time actively working in their codebase. This specific example I saw in organization struggling with multiple teams in a monolithic codebase. It resulted in a reduction in internal and external software quality and a significant number of software engineers leaving to find work elsewhere. 
 
 ## Further Study
-* Raffi Krikorian gave an insightful talk at PhillyETE 2016 - [How Your Organization is Killing Your Software](https://www.youtube.com/watch?v=9Zqt7UrAXns)
+* Raffi Krikorian gave an insightful talk at PhillyETE 2016 - [How Your Organization is Killing Your Software](https://www.youtube.com/watch?v=9Zqt7UrAXns) about how he helped restructure twitter as VP of Engineering.
 * The book [Team Topologies: Organization Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/) describes models for organizing multi-team software products for high quality and fast flow of value delivery. It describes how to find fracture planes in monolithic codebases, the types of teams to create, and interaction models for those teams. 
 
