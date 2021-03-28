@@ -10,7 +10,7 @@ tags: ['agile development', 'anti-patterns']
 ---
 
 Collective code ownership is an essential practice for modern agile software organizations. It was introduced to the masses via Extreme Programming (XP) in the late 1990s. However, in enterprises and multi-team software organizations, it is often mischaracterized. The misapplication of this practice is the source of expensive integration bugs, churn, and morale issues. 
-<!-- more -->
+<!--more-->
 
 The value of collective code ownership cannot be overstated. One of many brilliant aspects of XP is how its practices support and reinforce each other. Collective code ownership when combined with Test-Driven Development, refactoring, and team coding practices like pair or mob programming creates an environment where code can be created, improved, and maintained by the entire team. It reduces risks for the organization, decreases [the bus factor](https://en.wikipedia.org/wiki/Bus_factor), eliminates towers of knowledge in software organizations, and encourages the continuous improvement of the codebase by the entire team.  
 
@@ -61,6 +61,8 @@ However, if collective code ownership is established, an open source approach ca
 For this approach to be successful these outside code contributions need to be the exception, not the rule. If the inverse is true, experts in the code spend all of their time reviewing other contributors' code and not enough time actively working in their codebase. This specific example I saw in an organization struggling with multiple teams in a monolithic codebase. It resulted in a reduction in internal and external software quality and a significant number of software engineers leaving to find work elsewhere. 
 
 ## Further Study
+<img src='/img/team-topologies.jpg' alt='Team Topologies book' class='img-responsive' />
+
 * Raffi Krikorian gave an insightful talk at PhillyETE 2016 - [How Your Organization is Killing Your Software](https://www.youtube.com/watch?v=9Zqt7UrAXns) about how he helped restructure Twitter as VP of Engineering.
 * The book [Team Topologies: Organization Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/) by Matthew Skelton and Manuel Pais, describes models for organizing multi-team software products for high quality and fast flow of value delivery. It describes how to find fracture planes to split monolithic codebases, the types of teams to create, and interaction models for those teams. 
 
