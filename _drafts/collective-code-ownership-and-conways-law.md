@@ -16,7 +16,7 @@ The value of collective code ownership cannot be overstated. One of many brillia
 
 ## Common Misapplication
 
-When considering collective code ownership the collective is the team. To be clear, I consider the team the small group of people who are collaborating daily on changes in the codebase, hopefully using techniques like mob and pair programming. Commonly, multi-team organizations misunderstand collective code ownership to mean that anyone on any development team can make any code changes to any part of the codebase at any time; I call this organization-wide code ownership. This often has disastrous effects on the quality of the software and the morale of the teams. 
+When considering collective code ownership the collective is the team. To be clear, I consider the team the small group of people who are collaborating daily on changes in the codebase, hopefully relying on collaborative development techniques. Commonly, multi-team organizations misunderstand collective code ownership to mean that anyone on any development team can make any code changes to any part of the codebase at any time; I call this organization-wide code ownership. This often has disastrous effects on the quality of the software and the morale of the teams. 
 
 ## Problems with Organization-Wide Code Ownership
 As features get created and code is changed to support these new features, it is important to have long-term care of the codebase. Having a team focused on the health and vision of the codebase enables iterative and emergent techniques like evolutionary design. Allowing anyone to make any change to a codebase without the vision or context of the code often results in chaos and churn for the software organization and worse yet defects escaping into production.
@@ -44,7 +44,7 @@ To address this problem one only has to look as far as Conway's Law, named after
 > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.  
 > _**&mdash;Melvin E. Conway**_
 
-A humorous, often told, example of Conway's Law is that _"if a compiler is designed by four groups, you will get a four-pass compiler."_ In what is ostensibly a simple law there lies a deep understanding of the impacts people, teams, and their interactions have on the creation of software. 
+A humorous, often told, example of Conway's Law is that _"if a compiler is designed by four groups, you will get a four-pass compiler."_ In what is ostensibly a simple law there lies a deep understanding of the impacts social dynamics and team interaction have on the creation of software systems. 
 
 ## Inverse Conway Maneuver
 [The Inverse Conway Manuever](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver) is an idea stemming from Conway's law. This approach recommends that you structure your software teams to promote your desired architecture. The teams will naturally modularize their code so that it mimics the structure of their team. The problem that I've seen in practice is that in command-and-control organizations (usually giving lip service to agile in poor Scrum and SAFe implementations) the teams aren't empowered to make those kinds of changes to the software, so they continue to churn. However, with the appropriate skills and authority, this is a good approach to achieving collective code ownership. 
