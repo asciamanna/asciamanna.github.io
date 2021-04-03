@@ -9,17 +9,17 @@ category: leadership
 tags: ['agile development', 'anti-patterns']
 ---
 
-Collective code ownership is an essential practice for modern agile software organizations. It was introduced to the masses via Extreme Programming (XP) in the late 1990s. However, in enterprises and multi-team software organizations, it is often mischaracterized. The misapplication of this practice is the source of expensive integration bugs, churn, and morale issues. 
+Collective code ownership is an essential practice for modern agile software organizations. It was introduced to the masses via Extreme Programming (XP) in the late 1990s. However, in enterprises and multi-team software organizations, it is often mischaracterized. The misapplication of this practice is the source of expensive integration bugs, churn, and morale issues on teams. 
 <!--more-->
 
 The value of collective code ownership cannot be overstated. One of many brilliant aspects of XP is how its practices support and reinforce each other. Collective code ownership when combined with Test-Driven Development, refactoring, and team coding practices like pair or mob programming creates an environment where code can be created, improved, and maintained by the entire team. It reduces risks for the organization, decreases [the bus factor](https://en.wikipedia.org/wiki/Bus_factor), eliminates towers of knowledge in software organizations, and encourages the continuous improvement of the codebase by the entire team.  
 
 ## Common Misapplication
 
-When considering collective code ownership the collective is the team. To be clear, I consider the team the small group of people who are collaborating daily on changes in the codebase, hopefully relying on collaborative development techniques. Commonly, multi-team organizations misunderstand collective code ownership to mean that anyone on any development team can make any code changes to any part of the codebase at any time; I call this organization-wide code ownership. This often has disastrous effects on the quality of the software and the morale of the teams. 
+When considering collective code ownership the collective is the team. To be clear, I define the "team" to be the small group of people who are collaborating daily on changes in the codebase, hopefully relying on collaborative development techniques. Commonly, multi-team organizations misunderstand collective code ownership to mean that anyone on any development team can make any code changes to any part of the codebase at any time; I call this organization-wide code ownership. This often has disastrous effects on the quality of the software and the morale of the teams. 
 
 ## Problems with Organization-Wide Code Ownership
-As features get created and code is changed to support these new features, it is important to have long-term care of the codebase. Having a team focused on the health and vision of the codebase enables iterative and emergent techniques like evolutionary design. Allowing anyone to make any change to a codebase without the vision or context of the code often results in chaos and churn for the software organization and worse yet defects escaping into production.
+As features get created and code is developed and changed to support these new features, it is important to have long-term care of the codebase. Having a team focused on the health and vision of the codebase enables iterative and emergent techniques like [evolutionary design](https://www.industriallogic.com/blog/evolutionary-design/) and [opportunistic refactoring](https://martinfowler.com/bliki/OpportunisticRefactoring.html). Allowing anyone to make any change to a codebase without the vision or context of the code often results in chaos and churn for the software organization defects escaping into production.
 
 There a few reasons why companies rely on organization-wide code ownership. The most common culprit is the design and architecture of the system. Commonly, I see this practice in organizations supporting monolithic applications with no separation of concerns, which results in a [Big Ball of Mud](https://en.wikipedia.org/wiki/Big_ball_of_mud). When there are no boundaries in the code there exists no team organization that can provide collective code ownership. 
 
@@ -63,7 +63,5 @@ For this approach to be successful these outside code contributions need to be t
 ## Further Study
 <img src='/img/team-topologies.jpg' alt='Team Topologies book' class='img-responsive' />
 
-* Raffi Krikorian gave an insightful talk at PhillyETE 2016 - [How Your Organization is Killing Your Software](https://www.youtube.com/watch?v=9Zqt7UrAXns) about how he helped restructure Twitter as VP of Engineering.
+* Raffi Krikorian gave an insightful talk at PhillyETE 2016 - [How Your Organization is Killing Your Software](https://www.youtube.com/watch?v=9Zqt7UrAXns) about how he helped restructure Twitter as VP of Engineering 
 * The book [Team Topologies: Organization Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/) by Matthew Skelton and Manuel Pais, describes models for organizing multi-team software products for high quality and fast flow of value delivery. It describes how to find fracture planes to split monolithic codebases, the types of teams to create, and interaction models for those teams. 
-
-https://twitter.com/pati_gallardo/status/1373343835330383878?s=20
