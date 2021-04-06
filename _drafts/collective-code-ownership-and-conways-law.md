@@ -54,7 +54,7 @@ My recommendation is for team boundaries and code boundaries to be aligned. When
 > Align team boundaries and code boundaries
 
 ## Open Source Approach
-With the ubiquity of git and Github, open source workflows are being adopted to address the issue of collective code ownership. While there is some merit to these techniques in very specific circumstances, there are pitfalls with its general application. Open source (branch and pull request) models of software development aren't ideal within teams. Remember, a team is the small group that collaborates daily in the codebase. When looking through the lens of lean, the bottlenecks and queueing of value delivery that this model creates is not ideal and can be improved upon by more collaborative development techniques. 
+With the ubiquity of git and Github, open source workflows are being adopted to address the issue of collective code ownership. While there is some merit to these techniques in very specific circumstances, there are pitfalls with their general application. Open source (branch and pull request) models of software development aren't ideal within teams. Remember, a team is the small group that collaborates daily in the codebase. When looking through the lens of lean, the bottlenecks and queueing of value delivery that this model creates is not ideal and can be improved upon by more collaborative development techniques. 
 
 However, if collective code ownership is established, an open source approach can be utilized when someone outside of the team wants to make a change to code within the team's areas of ownership. The owning team can merge the pull request only when it aligns with their vision and standards and they take ownership of that code going forward.
 
