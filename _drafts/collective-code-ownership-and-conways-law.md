@@ -5,8 +5,8 @@ title: Collective Code Ownership and Conway's Law
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
-category: leadership
-tags: ['agile development', 'anti-patterns']
+category: team organization
+tags: ['code ownership', 'code quality', 'anti-patterns']
 ---
 
 Collective code ownership is an essential practice for modern agile software organizations. It was introduced to the masses via Extreme Programming (XP) in the late 1990s. However, in enterprises and multi-team software organizations, it is often mischaracterized. The misapplication of this practice is the source of expensive integration bugs, churn, and morale issues on teams. 
