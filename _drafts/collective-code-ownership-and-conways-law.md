@@ -40,14 +40,14 @@ When everyone owns the code no one owns the code. That is a mantra that I've use
 > _**&mdash;Michael Feathers - [Symbiosis - A Provocation About Organizations](https://www.r7krecon.com/provocation)**_ 
 
 ### Enter Conway's Law
-To address this problem one only has to look as far as Conway's Law, named after Melvin Conway who introduced the law in 1967. Conway's law states:
+To address this problem one only has to look as far as Conway's Law, named after Melvin Conway who introduced the law in his 1968 publication, [_How Do Committees Invent?_](http://www.melconway.com/Home/Committees_Paper.html). Conway's law states:
 > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.  
 > _**&mdash;Melvin E. Conway**_
 
 A humorous, often told, example of Conway's Law is that _"if a compiler is designed by four groups, you will get a four-pass compiler."_ In what is ostensibly a simple law there lies a deep understanding of the impacts social dynamics and team interaction have on the creation of software systems. 
 
 ## The Inverse Conway Maneuver
-[The Inverse Conway Maneuver](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver) is an idea stemming from Conway's law. This approach recommends that you structure your software teams to promote your desired architecture. The teams will naturally modularize their code so that it mimics the structure of their teams. In command-and-control organizations (usually giving lip service to agile in poor Scrum or SAFe implementations) teams aren't empowered to make the necessary changes to the software to modularize it, so they continue to churn. However, with the appropriate skills and authority, this is a good approach to achieving collective code ownership. 
+[The Inverse Conway Maneuver](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver) is an idea stemming from Conway's law. This approach recommends that you structure your software teams to promote your desired architecture. The teams will naturally modularize their code so that it mimics the structure of their teams. In command-and-control organizations (usually giving lip service to agile in poor Scrum or SAFe implementations) teams aren't often empowered to make the necessary changes to the software to modularize it, so they continue to churn. However, with the appropriate skills and authority, this is a good approach to achieving collective code ownership. 
 
 My recommendation is for team boundaries and code boundaries to be aligned. When this is achieved a team API is established. Dependencies between teams are explicit and the need for everyone to own everything quickly dissipates. 
 
@@ -65,6 +65,3 @@ For this approach to be successful these outside code contributions need to be t
 
 * Raffi Krikorian gave an insightful talk at PhillyETE 2016 - [How Your Organization is Killing Your Software](https://www.youtube.com/watch?v=9Zqt7UrAXns) about how he helped restructure Twitter as VP of Engineering 
 * The book [Team Topologies: Organization Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/) by Matthew Skelton and Manuel Pais, describes models for organizing multi-team software products for high quality and fast flow of value delivery. It describes how to find fracture planes to split monolithic codebases, the types of teams to create, and interaction models for those teams. 
-
-add this:
-http://www.melconway.com/Home/Committees_Paper.html
