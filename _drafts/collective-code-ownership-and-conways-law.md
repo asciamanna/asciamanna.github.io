@@ -65,3 +65,6 @@ For this approach to be successful these outside code contributions need to be t
 
 * Raffi Krikorian gave an insightful talk at PhillyETE 2016 - [How Your Organization is Killing Your Software](https://www.youtube.com/watch?v=9Zqt7UrAXns) about how he helped restructure Twitter as VP of Engineering 
 * The book [Team Topologies: Organization Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819/) by Matthew Skelton and Manuel Pais, describes models for organizing multi-team software products for high quality and fast flow of value delivery. It describes how to find fracture planes to split monolithic codebases, the types of teams to create, and interaction models for those teams. 
+
+add this:
+http://www.melconway.com/Home/Committees_Paper.html
