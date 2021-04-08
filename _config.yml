@@ -32,8 +32,8 @@ use-cookie-consent: True
 lang: "en"
 author: "Anthony Sciamanna"
 title: "Anthony Sciamanna"
-description: "Anthony Sciamanna's Software Development Blog. Focusing on eXtreme Programming (XP), Lean Software Development, Modern Agile, DevOps,continuous improvement and experimentation."
-keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, microtesting, pair programming, mob programming, agile, refactoring, no estimates"
+description: "Anthony Sciamanna's Software Development Blog. Focusing on Extreme Programming (XP), Lean Software Development, Modern Agile, DevOps, continuous improvement and experimentation."
+keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, unit testing, microtesting, pair programming, mob programming, ensemble programming, agile, refactoring"
 favicon: "/img/favicon.ico"
 
 ################
