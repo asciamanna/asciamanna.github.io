@@ -8,6 +8,14 @@ excerpt_separator: <!--more-->
 category: team organization
 tags: ['code ownership', 'code quality', 'anti-patterns']
 ---
+<figure>
+    <figcaption style='text-align:center'>
+        <img src="/img/weeding-mowing-small.jpg" alt="mowing an overgrown lawn of a historic house" class="img-responsive" />
+        Photo by <a href="https://unsplash.com/@awcreativeut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Winger</a> on <a href="https://unsplash.com/s/photos/weeding-a-garden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </figcaption>
+</figure>
+<br />
+
 
 Collective code ownership is an essential practice for modern agile software organizations. It was introduced to the masses via Extreme Programming (XP) in the late 1990s. However, in enterprises and multi-team software organizations, it is often mischaracterized. The misapplication of this practice is the source of expensive integration bugs, churn, and morale issues on teams. 
 <!--more-->
