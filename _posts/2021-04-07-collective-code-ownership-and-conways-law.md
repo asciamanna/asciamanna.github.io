@@ -66,7 +66,7 @@ With the ubiquity of git and Github, open source workflows are being adopted to 
 
 However, if collective code ownership is established, an open source approach can be used when someone outside of the team wants to make a change to code within the team's areas of ownership. The owning team can merge the pull request only when it aligns with their vision and standards and they take ownership of that code going forward.
 
-For this approach to be successful these outside code contributions need to be the exception, not the rule. If the inverse is true, experts in the code spend all of their time reviewing other contributors' code and not enough time actively working in their codebase. This specific example I saw in an organization struggling with multiple teams in a monolithic codebase. It resulted in a reduction in internal and external software quality and a significant number of software engineers leaving to find work elsewhere. 
+For this approach to be successful these outside code contributions need to be the exception, not the rule. If the inverse is true, experts in the code spend all of their time reviewing other contributors' code and not enough time actively working in their codebase. I've seen this specific examplme in an organization struggling with multiple teams in a monolithic codebase. It resulted in a reduction in internal and external software quality and a significant number of software engineers leaving to find work elsewhere. 
 
 ## Further Study
 <img src='/img/team-topologies.jpg' alt='Team Topologies book' class='img-responsive' />
