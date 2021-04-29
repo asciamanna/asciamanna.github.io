@@ -5,6 +5,7 @@ title: Collective Code Ownership and Conway's Law
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
+description: Collective code ownership is an essential practice but often misapplied in enterprises and multi-team software organizations, leading to churn, expensive integration bugs, and morale issues. Conway's Law can help to organize teams to get the benefits of collective code ownership.
 category: team organization
 tags: ['code ownership', 'code quality', 'anti-patterns']
 ---
