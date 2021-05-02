@@ -6,7 +6,7 @@ subtitle:
 comments: true
 excerpt_separator: <!--more-->
 category: coaching
-tags: ['coaching', 'anti-patterns']
+tags: ['coaching', 'anti-patterns', 'consulting']
 ---
 
 There are a handful of books that have had a substantial impact on me. One book, in particular, inspired me to become a software consultant, Gerald Weinberg's _**The Secrets of Consulting**_. If you don't know who Weinberg is I suggest reading [his Wikipedia entry](https://en.wikipedia.org/wiki/Gerald_Weinberg) as a first step. He was a well-known software consultant and author, having written over 40 books in his lifetime. His books are timeless and I find myself returning to them from time to time and getting more out of them each time I read them. As I read through **_The Secrets of Consulting_** again I am realizing that we can apply his _Bolden Rule_ to help software organizations and their leaders improve. 
