@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: How Can the Bolden Rule Improve Software Development Teams?
+title: How Can the Bolden Rule Help Improve Software Development Teams?
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
@@ -20,8 +20,13 @@ There are a handful of books that have had a substantial impact on me. One book,
 If you work in software development or are adjacent to it you most certainly know _the Bolden Rule_ though not necessarily by name. _The Bolden Rule_ states simply, **"If you can't fix it, feature it!"** Weinberg goes on to give several examples of _the Bolden Rule_ he has collected. Before we get to how it can be applied to help software organizations improve, I'd like to share my favorite Bolden Rule example.
 
 ## Intellivision's Bolden Rule Moment
-
-<img src="/img/bolden-rule/intellivision.jpg" alt="Mattel Electronics' Intellivision game console" class="img-responsive" />
+<figure>
+    <figcaption style='text-align:center'>
+        <img src="/img/bolden-rule/intellivision.jpg" alt="Mattel Electronics' Intellivision game console" class="img-responsive" />
+       <a href="https://creativecommons.org/licenses/by-sa/3.0">  Evan-Amos, CC BY-SA 3.0 via Wikimedia Commons</a> 
+    </figcaption>
+</figure>
+<br/>
 
 Growing up in the early 80s with older siblings meant that I got to experience what is known as the second generation of home video game consoles. Our family had an [Intellivision](https://en.wikipedia.org/wiki/Intellivision) console. The Intellivision console was Mattel Electronics' response to [the Atari 2600](https://en.wikipedia.org/wiki/Atari_2600). Development for the Intellivision started in 1977, the same year the Atari 2600 was released. We amassed a lot of games for the console over the years, and I played it long after my friends had switched to the Nintendo Entertainment System. 
 
@@ -33,7 +38,7 @@ During the testing of the game a bug was discovered in the code that was trigger
 
 Faced with a situation where they couldn't fix the bug and had run out of time but could still modify the instruction booklet the Space Hawk team decided to feature it. [The Space Hawk Instructions](https://www.gamesdatabase.org/Media/SYSTEM/Mattel_Intellivision//Manual/formated/Space_Hawk_-_1981_-_Mattel_Electronics.pdf) (see page 3) describes that the player may encounter black holes in space from time to time. When they encounter black holes hyperspace will be triggered automatically saving the player from certain death, but still causing them the reduction in their score. And just like that, the bug became a feature of the game that added some variability to the gameplay. 
 
-## Bolden's Rule Applied to Software Organizations
+## The Bolden Rule Applied to Software Organizations
 
 On the surface, it may seem like a terrible idea to apply the Bolden Rule to software development, right? Teams who produce bugs that they struggle to fix certainly shouldn't be looking to turn these bugs into features. But what if instead of applying it to bugs in the code we apply it to the way software development teams work? What if those of us in positions of influence can apply _the Bolden Rule_ to help change the thinking of organizations? I contend that anyone, software engineers, managers, consultants, anyone with some influence can apply this rule. 
 
@@ -42,9 +47,9 @@ Let's look at a very common but misguided example. Nearly every software organiz
 What if we look at the team's speed of development not as the bug that needs fixing, but the feature? What could we do differently? Maybe instead of adding more developers, more process, and more management, we would:
 
 * Begin to focus on customer outcomes instead of the output of code
-* Focus on practices that deliver work faster and safer rather than making developers work harder like decreasing WIP, and collaborative development techniques like pair and mob programming
+* Focus on practices that deliver work faster and safer rather than making sure everyone is busy like decreasing WIP, and collaborative development techniques (e.g., pair and mob programming)
 * Identify the smallest increments of value that can be delivered
-* Focus on things that prevent rework
+* Focus on practices that help to prevent rework
 * Find ways to automate repetitive tasks
 * Improve the speed and frequency of feedback loops (automated tests for example) 
 * Work in smaller batches
