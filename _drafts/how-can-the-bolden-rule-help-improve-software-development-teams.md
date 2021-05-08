@@ -9,7 +9,7 @@ category: coaching
 tags: ['coaching', 'anti-patterns', 'consulting']
 ---
 
-There are a handful of books that have had a substantial impact on me. One book, in particular, inspired me to become a software consultant, Gerald Weinberg's _**The Secrets of Consulting**_. If you don't know who Weinberg is I suggest reading [his Wikipedia entry](https://en.wikipedia.org/wiki/Gerald_Weinberg) as a first step. He was a well-known software consultant and author, having written over 40 books in his lifetime. His books are timeless and I find myself returning to them from time to time and getting more out of them each time I read them. As I read through **_The Secrets of Consulting_** again I am realizing that we can apply his _Bolden Rule_ to help software organizations and their leaders improve. 
+There are a handful of books that have had a substantial impact on me. One book, in particular, inspired me to become a software consultant, Gerald Weinberg's _**The Secrets of Consulting**_. If you don't know who Weinberg is I suggest reading [his Wikipedia entry](https://en.wikipedia.org/wiki/Gerald_Weinberg) as a first step. He was a well-known software consultant and author, having written over 40 books in his lifetime. His books are timeless and I find myself returning to them from time to time and getting more out of them each time I read them. As I read through **_The Secrets of Consulting_** again I realized that we can apply his _Bolden Rule_ to help software organizations and their leaders improve. 
 <!--more-->
 
 <img src="/img/bolden-rule/secrets-of-consulting.jpg" alt="The Secrets of Consulting book cover" class="img-responsive" />
@@ -28,11 +28,11 @@ If you work in software development or are adjacent to it you most certainly kno
 </figure>
 <br/>
 
-Growing up in the early 80s with older siblings meant that I got to experience what is known as the second generation of home video game consoles. Our family had an [Intellivision](https://en.wikipedia.org/wiki/Intellivision) console. The Intellivision console was Mattel Electronics' response to [the Atari 2600](https://en.wikipedia.org/wiki/Atari_2600). Development for the Intellivision started in 1977, the same year the Atari 2600 was released. We amassed a lot of games for the console over the years, and I played it long after my friends had switched to the Nintendo Entertainment System. 
+Growing up in the early 80s with older siblings meant that I got to experience what is known as the second generation of home video game consoles. Our family had an [Intellivision](https://en.wikipedia.org/wiki/Intellivision) console, Mattel Electronics' response to [the Atari 2600](https://en.wikipedia.org/wiki/Atari_2600). Development for the Intellivision started in 1977, the same year the Atari 2600 was released. We amassed a lot of games for the console over the years, and I played it long after my friends had switched to the Nintendo Entertainment System. 
 
 One of my favorite games was a game called Space Hawk, and it just so happens to be the Intellivision's Bolden Rule moment. Space Hawk was Mattel's attempt at their version of the popular game, Asteroids. In Space Hawk, you are floating through space with a rocket-powered space suit shooting at various hazards (the titular Space Hawks, bubbles, comets, etc.) before they come in contact with you. If you are in danger you can press the hyperspace button. Hyperspace relocates your character to a different part of space, but not without a cost. Each time hyperspace is used the player's score is decreased. 
 
-During the testing of the game a bug was discovered in the code that was triggering hyperspace. When simultaneously pressing the directional disc in a certain direction and pressing the side action buttons (which fire the player's weapon) a hyperspace button press would be triggered. This directional disc and side-action button combination is critical to the gameplay so it was a very common bug. However, the team couldn't solve the problem and deadlines were looming. 
+During the testing of the game a bug was discovered in the code that was triggering hyperspace. When simultaneously pressing the directional disc in a certain direction and pressing the side action buttons (which fire the player's weapon) a hyperspace button press would be triggered. This directional disc and side-action button combination is critical to the gameplay so it was a very common bug. However, the team couldn't solve the problem and deadlines were fast approaching. 
 
 <img src="/img/bolden-rule/space-hawk-cover.jpg" alt="Space Hawk game cover art" class="img-responsive" />
 
@@ -54,5 +54,5 @@ What if we look at the team's speed of development not as the bug that needs fix
 * Improve the speed and frequency of feedback loops (automated tests for example) 
 * Work in smaller batches
 
-So much of what makes software teams great works against a century of [Taylorism](https://en.wikipedia.org/wiki/Scientific_management) and people's instincts. If you can change the frame to get an organization to stop trying the same old techniques, that is a worthy tool to wield. Jerry Weinberg taught me that _the Bolden Rule_ could be one such tool.
+So much of what makes software teams great works against a century of [Taylorism](https://en.wikipedia.org/wiki/Scientific_management) and people's instincts. If you can change the frame to get an organization to stop trying the same old techniques, that is a worthy tool to wield. Jerry Weinberg describes _the Bolden Rule_ as one such tool.
 
