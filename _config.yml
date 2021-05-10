@@ -33,7 +33,7 @@ lang: "en"
 author: "Anthony Sciamanna"
 title: "Anthony Sciamanna"
 description: "Anthony Sciamanna's Software Development and Agile Coaching Blog. Focusing on Extreme Programming (XP), Lean Software Development, Modern Agile, DevOps, continuous improvement and experimentation."
-keywords: "sciamanna, software development, xp, extreme programming, test-driven development, tdd, bdd, behavior driven development, unit testing, microtesting, pair programming, mob programming, ensemble programming, agile, refactoring, legacy code"
+keywords: "sciamanna, software development, xp, extreme programming, modern agile, industrial logic, test-driven development, tdd, bdd, behavior driven development, unit testing, microtesting, pair programming, mob programming, ensemble programming, agile, refactoring, legacy code, Continous Integration, Continouous Delivery, Continuous Deployment, CI/CD"
 favicon: "/img/favicon.ico"
 
 ################
