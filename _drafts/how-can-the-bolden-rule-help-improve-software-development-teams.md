@@ -48,7 +48,7 @@ What if we look at the team's speed of development not as the bug that needs fix
 
 * Begin to focus on customer outcomes instead of the output of code
 * Focus on practices that deliver work faster and safer rather than making sure everyone is busy like decreasing WIP, and collaborative development techniques (e.g., pair and mob programming)
-* Identify the smallest increments of value that can be delivered
+* Identify the smallest increments of value that can be delivered (not deliver everything including the kitchen sink)
 * Focus on practices that help to prevent rework
 * Find ways to automate repetitive tasks
 * Improve the speed and frequency of feedback loops (automated tests for example) 
