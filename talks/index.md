@@ -17,3 +17,4 @@ Here you can find a listing of the talks I've given. Each page contains a link t
 | October 11, 2019 | [Beyond Unit Testing: The Real Value of Test-Driven Development - Slalom]({{site.baseurl}}{% link talks/slalom-beyond-unit-testing/index.md %}) |
 | November 19, 2019 | [Beyond Unit Testing: The Real Value of Test-Driven Development - PhillyXP]({{site.baseurl}}{% link talks/phillyxp-beyond-unit-testing/index.md %}) |
 | February 18, 2020 | [Mob Programming Workshop - PhillyXP]({{site.baseurl}}{% link talks/phillyxp-mob-programming-workshop/index.md %}) |
+| June 8, 2021 | [Beyond Unit Testing: The Real Value of Test-Driven Development - Client talk]({{site.baseurl}}{% link talks/beyond-unit-testing-2021/index.md %}) |
