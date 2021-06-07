@@ -9,6 +9,7 @@ Thanks for attending my talk, Beyond Unit Testing.
 
 ### Slide Deck
 
+<script async class="speakerdeck-embed" data-id="9b8a96643a5b48cfa25c687611b02a4b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### Talk References
 
