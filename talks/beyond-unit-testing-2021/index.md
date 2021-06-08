@@ -31,10 +31,11 @@ Here is a list of all of the articles and videos I referenced in my talk:
 Here are the books I've referenced in the talk:
 * [Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658/) - Kent Beck
 * [Test-Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/) - Kent Beck
+* [Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/) - Michael Feathers
 * [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/) - Nicole Forsgren, Jez Humble & Gene Kim
 * [Growing Object-Oriented Software Guided by Tests](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/) - Steve Freeman & Nat Pryce
 
 Do you have questions about the talk or TDD in general? Or maybe just want to chat? The best way to get in touch with me is on twitter. Feel free to contact me at ([@asciamanna](https://www.twitter.com/asciamanna)).
 
 ### PhillyXP
-Feel free to join the [PhillyXP user group](https://meetup.com/phillyxp) for more talks about agile software development, lean, modern agile, and team excellence.
+Feel free to join the [PhillyXP user group](https://meetup.com/phillyxp) for more talks about agile software development, lean, modern agile, and team excellence. We are currently 100% virtual so you can join from anywhere!
