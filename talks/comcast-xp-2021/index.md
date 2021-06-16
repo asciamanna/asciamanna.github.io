@@ -3,7 +3,7 @@ layout: default
 title: ""
 ---
 ## Extreme Programming: Past, Present, and Future!
-_Comcastd &bull; June 18, 2021 &bull; Virtual_
+_Comcast &bull; June 18, 2021 &bull; Virtual_
 
 Thanks for attending my talk about Extreme Programming.
 
