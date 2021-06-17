@@ -29,6 +29,7 @@ Here is a list of all of the articles and videos I referenced in my talk:
 * [Industrial Logic eLearning](https://www.industriallogic.com/elearning) 
 * [Hunter Industries - A Day of Mob Programming 2012 - Timelapse video](https://www.youtube.com/watch?v=p_pvslS4gEI)
 * [Hunter Industries - A Day of Mob Programming 2016 - Timelapse video](https://www.youtube.com/watch?v=dVqUcNKVbYg)
+* [Business Flow: Watch the Baton, Not the Runner](https://blog.planview.com/business-flow-watch-the-baton-not-the-runner/) - Chris Hefley
 * [The Art of Agile Development website](https://www.jamesshore.com/v2/books/aoad1) - James Shore
 
 ### Books
