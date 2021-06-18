@@ -43,7 +43,7 @@ Here are the books I've referenced in the talk:
 * [Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/) - Michael Feathers
 * [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/) - Nicole Forsgren, Jez Humble & Gene Kim
 * [Beyond Legacy Code](https://www.amazon.com/Beyond-Legacy-Code-Practices-Software/dp/1680500791/) - David Scott Bernstein
-* [Refacotring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/) - Martin Fowler
+* [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/) - Martin Fowler
 
 
 Do you have questions about the talk or TDD in general? Or maybe just want to chat? The best way to get in touch with me is on twitter. Feel free to contact me at ([@asciamanna](https://www.twitter.com/asciamanna)).
