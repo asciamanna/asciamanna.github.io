@@ -46,7 +46,7 @@ Here are the books I've referenced in the talk:
 * [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/) - Martin Fowler
 
 
-Do you have questions about the talk or TDD in general? Or maybe just want to chat? The best way to get in touch with me is on twitter. Feel free to contact me at ([@asciamanna](https://www.twitter.com/asciamanna)).
+Do you have questions about the talk or XP in general? Or maybe just want to chat? The best way to get in touch with me is on twitter. Feel free to contact me at ([@asciamanna](https://www.twitter.com/asciamanna)).
 If you are interested in learning more about how to work with me feel free to reach out on my [Industrial Logic page here](https://industriallogic.com/people/anthony/).
 
 ### PhillyXP
