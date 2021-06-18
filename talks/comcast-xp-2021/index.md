@@ -20,6 +20,7 @@ Here is a list of all of the articles and videos I referenced in my talk:
 * [C3](https://www.martinfowler.com/bliki/C3.html) - Martin Fowler
 * [Extreme Programming Revived?](https://ronjeffries.com/articles/2015-03-21-xp-revived/) - Ron Jeffries
 * [Are Agile Methodologies Really Different?](http://www.coldewey.com/publikationen/conferences/oopsla2003/KenSchwaber.pdf) - Ken Schwaber
+* [SAFe's Scrum vs Scrum According to the Scrum Guide - They Are Not the Same](https://medium.com/serious-scrum/safes-scrum-vs-scrum-according-to-the-scrum-guide-they-are-not-the-same-bea882add76d) - Willem-Jan Ageling
 * [Story Points Revisited](https://ronjeffries.com/articles/019-01ff/story-points/Index.html) - Ron Jeffries
 * [Planning Poker - The Original Paper](https://wingman-sw.com/articles/planning-poker) - James Grenning
 * [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html) - Martin Fowler
