@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: How Can the Bolden Rule Help Improve Software Development Teams?
+title: The Bolden Rule and Software Development Teams
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
@@ -28,7 +28,7 @@ If you work in software development or are adjacent to it you most certainly kno
 </figure>
 <br/>
 
-Growing up in the early 80s with older siblings meant that I got to experience what is known as the second generation of home video game consoles. Our family had an [Intellivision](https://en.wikipedia.org/wiki/Intellivision) console, Mattel Electronics' response to [the Atari 2600](https://en.wikipedia.org/wiki/Atari_2600). Development for the Intellivision started in 1977, the same year the Atari 2600 was released. We amassed a lot of games for the console over the years, and I played it long after my friends had switched to the Nintendo Entertainment System. 
+Growing up in the early 80s with older siblings meant that I got to experience what is referred to as the second generation of home video game consoles. Our family had an [Intellivision](https://en.wikipedia.org/wiki/Intellivision) console, Mattel Electronics' response to [the Atari 2600](https://en.wikipedia.org/wiki/Atari_2600). Development for the Intellivision started in 1977, the same year the Atari 2600 was released. We amassed a lot of games for the console over the years, and I played it long after my friends had switched to the Nintendo Entertainment System. 
 
 One of my favorite games was a game called Space Hawk, and it just so happens to be the Intellivision's Bolden Rule moment. Space Hawk was Mattel's attempt at their version of the popular game, Asteroids. In Space Hawk, you are floating through space with a rocket-powered space suit shooting at various hazards (the titular Space Hawks, bubbles, comets, etc.) before they come in contact with you. If you are in danger you can press the hyperspace button. Hyperspace relocates your character to a different part of space, but not without a cost. Each time hyperspace is used the player's score is decreased. 
 
@@ -42,12 +42,12 @@ Faced with a situation where they couldn't fix the bug and had run out of time b
 
 On the surface, it may seem like a terrible idea to apply the Bolden Rule to software development, right? Teams who produce bugs that they struggle to fix certainly shouldn't be looking to turn these bugs into features. But what if instead of applying it to bugs in the code we apply it to the way software development teams work? What if those of us in positions of influence can apply _the Bolden Rule_ to help change the thinking of organizations? I contend that anyone, software engineers, managers, consultants, anyone with some influence can apply this rule. 
 
-Let's look at a very common but misguided example. Nearly every software organization wants their teams to create code faster. Typically software organizations try the same things over and over again to no avail. They add more developers because surely more hands-on keyboards will create more code in less time. They add more process and more management because that should help make the team more "efficient" and ensure everyone is constantly busy and no one is loafing on the job. These practices often result in further team slowdowns, so more people, more process, more micromanagement is added. Before we know it we're stuck in a vicious cycle. 
+Let's look at a very common but misguided example. Nearly every software organization wants their teams to create code faster. Typically software organizations try the same things over and over again to no avail. They add more developers because surely more hands-on keyboards will create more code in less time. They add more process and more management because that should help make the team more "efficient" and ensure everyone is constantly busy and no one is slacking on the job. These practices often result in further team slowdowns, so more people, more process, more micromanagement is added. Before we know it we're stuck in a vicious cycle. 
 
 What if we look at the team's speed of development not as the bug that needs fixing, but the feature? What could we do differently? Maybe instead of adding more developers, more process, and more management, we would:
 
 * Begin to focus on customer outcomes instead of the output of code
-* Focus on practices that deliver work faster and safer rather than making sure everyone is busy like decreasing WIP, and collaborative development techniques (e.g., pair and mob programming)
+* Focus on practices that deliver work faster and safer rather than making sure everyone is busy. Practices like decreasing WIP and collaborative development techniques (e.g., pair and mob programming)
 * Identify the smallest increments of value that can be delivered (not deliver everything including the kitchen sink)
 * Focus on practices that help to prevent rework
 * Find ways to automate repetitive tasks
