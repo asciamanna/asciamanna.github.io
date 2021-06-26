@@ -5,6 +5,8 @@ title: The Bolden Rule and Software Development Teams
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
+summary: Jerry Weinberg's Bolden Rule (from the Secrets of Consulting) is well known axiom to software developers and marketers, "If you can't fix it, feature it!" Can we apply the Bolden Rule to help software organizations and their team's improve?
+image: /img/bolden-rule/secrets-of-consulting.jpg
 category: coaching
 tags: ['coaching', 'anti-patterns', 'consulting']
 ---
@@ -17,7 +19,7 @@ There are a handful of books that have had a substantial impact on me. One book,
 > **The Bolden Rule:** If you can’t fix it, feature it.  
 > &mdash;_**Gerald Weinberg - TheSecrets of Consulting**_  
 
-If you work in software development or are adjacent to it you most certainly know _the Bolden Rule_ though not necessarily by name. _The Bolden Rule_ states simply, **"If you can't fix it, feature it!"** Weinberg goes on to give several examples of _the Bolden Rule_ he has collected. Before we get to how it can be applied to help software organizations improve, I'd like to share my favorite Bolden Rule example.
+If you work in software development or marketing, or happen to work adjacent to those industries you've encountered the _the Bolden Rule_, though not necessarily by name. _The Bolden Rule_ states simply, **"If you can't fix it, feature it!"** Weinberg goes on to give several examples of _the Bolden Rule_ he has collected. Before we get to how it can be applied to help software organizations improve, I'd like to share my favorite Bolden Rule example.
 
 ## Intellivision's Bolden Rule Moment
 <figure>
@@ -47,11 +49,11 @@ Let's look at a very common but misguided example. Nearly every software organiz
 What if we look at the team's speed of development not as the bug that needs fixing, but the feature? What could we do differently? Maybe instead of adding more developers, more process, and more management, we would:
 
 * Begin to focus on customer outcomes instead of the output of code
-* Focus on practices that deliver work faster and safer rather than making sure everyone is busy. Practices like decreasing WIP and collaborative development techniques (e.g., pair and mob programming)
-* Identify the smallest increments of value that can be delivered (not deliver everything including the kitchen sink)
+* Focus on practices that reduce cycle time and deliver work more safely rather than making sure everyone is busy. Practices like decreasing work-in-progress (WIP) and collaborative development techniques (e.g., pair and mob programming)
+* Identify the smallest increments of value that can be delivered 
 * Focus on practices that help to prevent rework
 * Find ways to automate repetitive tasks
-* Improve the speed and frequency of feedback loops (automated tests for example) 
+* Improve the speed, accuracy, and frequency of feedback loops (automated tests for example) 
 * Work in smaller batches
 
 So much of what makes software teams great works against a century of [Taylorism](https://en.wikipedia.org/wiki/Scientific_management) and people's instincts. If you can change the frame to get an organization to stop trying the same old techniques, that is a worthy tool to wield. Jerry Weinberg describes _the Bolden Rule_ as one such tool.
