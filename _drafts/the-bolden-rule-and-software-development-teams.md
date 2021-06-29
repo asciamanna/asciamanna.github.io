@@ -5,7 +5,7 @@ title: The Bolden Rule and Software Development Teams
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
-summary: Jerry Weinberg's Bolden Rule (from the Secrets of Consulting) is well known axiom to software developers and marketers, "If you can't fix it, feature it!" Can we apply the Bolden Rule to help software organizations and their team's improve?
+summary: Jerry Weinberg's Bolden Rule (from the Secrets of Consulting) is a well known axiom to software developers and marketers, "If you can't fix it, feature it!" Can we apply the Bolden Rule to help software organizations and their team's improve?
 image: /img/bolden-rule/secrets-of-consulting.jpg
 category: coaching
 tags: ['coaching', 'anti-patterns', 'consulting']
