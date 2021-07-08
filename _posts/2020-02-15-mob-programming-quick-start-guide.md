@@ -13,7 +13,7 @@ I've spent the last few years coaching teams and introducing them to Mob Program
 
  Mob Programming is a fantastic way to teach technical practices like Test-Driven Development (TDD), refactoring, legacy code techniques, evolutionary design, etc. Teams adopt these practices quickly and continue to improve through mob programming sessions. More importantly, Mob Programming is a practice that helps teams increase the quality of their work *AND* the quality of their interactions.  
 
-I've written about these recommendations previously in my article, [Effective Practices for Mob Programming]({ post_url 2018-06-29-practices-for-effective-mob-programming %}) and Tim Ottinger published a similar post on the Industrial Logic blog, [A Few Tips for Mob Programming](https://www.industriallogic.com/blog/a-few-tips-for-mob-programming/).  
+I've written about these recommendations previously in my article, [Effective Practices for Mob Programming]({% post_url 2018-06-29-practices-for-effective-mob-programming %}) and Tim Ottinger published a similar post on the Industrial Logic blog, [A Few Tips for Mob Programming](https://www.industriallogic.com/blog/a-few-tips-for-mob-programming/).  
 
 
 ## The Guide
