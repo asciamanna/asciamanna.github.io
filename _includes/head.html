@@ -77,6 +77,16 @@
 <meta name="twitter:card"  content="summary">
 <meta name="twitter:image" content="{{ site.url }}{{ site.title_image }}">
 {% endif %}
+<!-- Twitter cards end -->
+<!-- Linkedin card start -->
+<meta name="title" property="og:title" content="{{ page.title }}">
+{% if page.image %}
+<meta name="image" property="og:image" content="{{ site.url }}{{ page.image }}">
+{% endif %}
+{% if page.summary %}
+<meta name="description" property="og:description" content="{{ page.summary }}">
+{% endif %}
+<!-- Linkedin card end -->
 
 </head>
 
