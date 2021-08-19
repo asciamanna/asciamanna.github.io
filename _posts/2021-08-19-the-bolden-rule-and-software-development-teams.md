@@ -38,7 +38,7 @@ During the testing of the game, a bug was discovered in the code that was trigge
 
 <img src="/img/bolden-rule/space-hawk-cover.jpg" alt="Space Hawk game cover art" class="img-responsive" />
 
-Faced with a situation where they couldn't fix the bug and had run out of time, the Space Hawk team decided to modified the instruction booklet to feature it. [The Space Hawk Instructions](https://www.gamesdatabase.org/Media/SYSTEM/Mattel_Intellivision//Manual/formated/Space_Hawk_-_1981_-_Mattel_Electronics.pdf) (see page 3) describes that the player may encounter black holes in space from time to time. When they encounter black holes, hyperspace will be triggered automatically saving the player from certain death, but still causing them the reduction in their score. And just like that, the bug became a feature of the game that added some variability to the gameplay. 
+Faced with a situation where they couldn't fix the bug and had run out of time, the Space Hawk team decided to modify the instruction booklet to feature it. [The Space Hawk Instructions](https://www.gamesdatabase.org/Media/SYSTEM/Mattel_Intellivision//Manual/formated/Space_Hawk_-_1981_-_Mattel_Electronics.pdf) (see page 3) describes that the player may encounter black holes in space from time to time. When they encounter black holes, hyperspace will be triggered automatically saving the player from certain death, but still causing them the reduction in their score. And just like that, the bug became a feature of the game that added some variability to the gameplay. 
 
 ## The Bolden Rule Applied to Software Organizations
 
