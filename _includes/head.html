@@ -6,9 +6,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.summary %}
-  <meta name="description" property="og:description" content="{{ page.summary }}">
-  {% elsif page.section-type == "post" and page.description %}
+
+  {% if page.section-type == "post" and page.description %}
   <meta name="description" content="{{page.description}}">
   {% elsif page.section-type == "post" %}
   <meta name="description" content="{{page.content | strip_html | truncate:157, '...'}}">
