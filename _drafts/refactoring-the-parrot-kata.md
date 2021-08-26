@@ -5,8 +5,8 @@ title: Refactoring - The Parrot Kata
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
-summary: Jerry Weinberg's Bolden Rule (from the Secrets of Consulting) is an axiom well-known to software developers and marketers, "If you can't fix it, feature it!" Can we apply the Bolden Rule to help software organizations and their teams improve?
-image: /img/bolden-rule/anthony-and-the-secrets-of-consulting.jpg
+summary: Follow along to practice removing the Switch Statement code smell with refactorings described in Martin Fowler's Refactoring book.
+image: /img/parrot-kata/header-image.jpg
 category: code craft
 tags: ['refactoring', 'java']
 ---
