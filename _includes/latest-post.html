@@ -14,7 +14,11 @@
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
         </h4>
 
+  {% if post.summary %}
+  {{ post.summary | strip_html | markdownify }}
+  {% else %}
 	{{ post.excerpt | strip_html | markdownify }}
+  {% endif %}
 
         <h4 class="text-center"><a href="{{site.baseurl}}/blog/">View more posts</a></h4>
 
