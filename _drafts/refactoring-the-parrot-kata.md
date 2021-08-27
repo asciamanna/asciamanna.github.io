@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 summary: Follow along to practice removing the Switch Statement code smell with refactorings described in Martin Fowler's Refactoring book.
 image: /img/parrot-kata/header-image.jpg
 category: code craft
-tags: ['refactoring', 'java']
+tags: ['video', 'refactoring', 'java']
 ---
 
 <img src="/img/parrot-kata/header-image.jpg" alt="The Parrot Kata" class="img-responsive" />
