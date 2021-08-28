@@ -13,7 +13,7 @@ tags: ['video', 'code kata', 'refactoring', 'java']
 
 <img src="/img/parrot-kata/header-image.jpg" alt="The Parrot Kata" class="img-responsive" />
 
-Code katas provide an opportunity to practice our software development skills, recognize patterns, and learn how to apply practices. In general professional software engineers spend too little time practicing. Code katas are one way we can practice. The Parrot Kata is based on a code sample in [Martin Fowler](https://martinfowler.com/)'s Refactoring book. It is inspired by Monty Python's Flying Circus [Dead Parrot sketch](https://en.wikipedia.org/wiki/Dead_Parrot_sketch).
+Code katas provide an opportunity to practice our software development skills, recognize patterns, and learn how to apply practices. In general, we professional software engineers don't spend enough time practicing. Code katas are one way we can practice. The Parrot Kata is based on a code sample in [Martin Fowler](https://martinfowler.com/)'s Refactoring book. It is inspired by Monty Python's Flying Circus [Dead Parrot sketch](https://en.wikipedia.org/wiki/Dead_Parrot_sketch).
 <!--more-->
 
 ## Code Smells & Refactorings
