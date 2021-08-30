@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 summary: Follow along while I practice the Parrot Kata in Java, making use of two refactorings introduced in Martin Fowler's book Refactoring to eliminate the Switch Statement code smell.
 image: /img/parrot-kata/parrot-kata-header2.jpg
 category: code craft
-tags: ['video', 'code kata', 'refactoring', 'java']
+tags: ['screencast', 'code kata', 'refactoring', 'java']
 ---
 
 <img src="/img/parrot-kata/parrot-kata-header1.jpg" alt="The Parrot Kata" class="img-responsive" />
