@@ -80,7 +80,11 @@
 {% endif %}
 <!-- Twitter cards end -->
 <!-- Linkedin card start -->
+{% if page.section-type == "post" %}
 <meta name="title" property="og:title" content="{{ page.title }}">
+{% else %}
+<meta name="title" property="og:title" content="{{ site.author }} | {{ page.title }}">
+{% endif %}
 {% if page.image %}
 <meta name="image" property="og:image" content="{{ site.url }}{{ page.image }}">
 {% endif %}
