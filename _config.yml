@@ -95,7 +95,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 post-preview-words: 96
 
-paginate: 5
+paginate: 1000
 
 email-share: True
 twitter-share: True
