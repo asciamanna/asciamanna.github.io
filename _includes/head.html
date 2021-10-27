@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{site.title}}{% if page.title and page.title != "" %} | {{page.title}}{% endif %}</title>
+  <meta name="title" content='{{site.title}}{% if page.title and page.title != "" %} | {{page.title}}{% endif %}'>
 
   {% if page.section-type == "post" and page.description %}
   <meta name="description" content="{{page.description}}">
@@ -17,12 +19,54 @@
 
   <meta name="author" content="{{site.author}}">
   <meta name="keywords" content="{{site.keywords}}">
+
+  <!-- Twitter cards start -->
+  <meta name="twitter:site"    content="{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  <meta name="twitter:title"   content="{{ page.title }}">
+
+
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+  
+  {% if page.image %}
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  {% else %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.title_image }}">
+  {% endif %}
+  <!-- Twitter cards end -->
+
+  <!-- Open Graph / Facebook card start -->
+  {% if page.section-type == "post" %}
+  <meta name="title" property="og:title" content="{{ page.title }}">
+  {% else %}
+  <meta name="title" property="og:title" content="{{ site.author }} | {{ page.title }}">
+  {% endif %}
+  {% if page.image %}
+  <meta name="image" property="og:image" content="{{ site.url }}{{ page.image }}">
+  {% endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{page.url | replace:'index.html','' | prepend: site.url}}">
+  {% if page.section-type == "post" and page.description %}
+  <meta property="og:description" content="{{page.description}}">
+  {% elsif page.section-type == "post" %}
+  <meta property="og:description" content="{{page.content | strip_html | truncate:157, '...'}}">
+  {% else %}
+  <meta property="og:description" content="{{site.description}}">
+  {% endif %}
+  <!-- Open Graph / Facebook card end -->
+
+
   {% if page.canonical-url %}
   <link rel="canonical" href="{{page.canonical-url}}">
   {% else %}
   <link rel="canonical" href="{{page.url | replace:'index.html','' | prepend: site.url}}">
   {% endif %}
-  <title>{{site.title}}{% if page.title and page.title != "" %} | {{page.title}}{% endif %}</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -59,37 +103,6 @@
   {% include color-browser.html %}
 
   {% include syntax-highlight.html %}
-
-  <!-- Twitter cards start -->
-<meta name="twitter:site"    content="{{ site.twitter_username }}">
-<meta name="twitter:creator" content="{{ site.twitter_username }}">
-<meta name="twitter:title"   content="{{ page.title }}">
-
-{% if page.summary %}
-<meta name="twitter:description" content="{{ page.summary }}">
-{% else %}
-<meta name="twitter:description" content="{{ site.description }}">
-{% endif %}
-
-{% if page.image %}
-<meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-{% else %}
-<meta name="twitter:card"  content="summary">
-<meta name="twitter:image" content="{{ site.url }}{{ site.title_image }}">
-{% endif %}
-<!-- Twitter cards end -->
-<!-- Linkedin card start -->
-{% if page.section-type == "post" %}
-<meta name="title" property="og:title" content="{{ page.title }}">
-{% else %}
-<meta name="title" property="og:title" content="{{ site.author }} | {{ page.title }}">
-{% endif %}
-{% if page.image %}
-<meta name="image" property="og:image" content="{{ site.url }}{{ page.image }}">
-{% endif %}
-<!-- Linkedin card end -->
-
 </head>
 
 <!-- HEAD End -->
