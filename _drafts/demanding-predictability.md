@@ -9,12 +9,14 @@ category: leadership
 tags: ['agile development', 'anti-patterns']
 ---
 
-One of the main reasons software organizations want to adopt agile ways of working is to become more predictable. Software drives businesses and businesses want to know when products will be delivered, the funding and personnel required to meet organizational goals, etc. The problem with how I see this being realized in the industry is that the vast majority of these companies have not made the cultural and organizational shifts to fundamentally change the way they work. Trying to demand predictability from teams creating software, which is uncertain and unpredictable by its nature, is a recipe for disaster. Often I tell organizations if they embrace agile ways of working, push authority to self-organizing software development teams and focus on continuous improvement they are likely to become more predictable, but this is not "predictability" as these organizations currently understand it. 
+One of the main reasons software organizations want to adopt agile ways of working is to become more predictable. Software drives businesses and businesses want to know when products will be delivered, the funding and personnel required to meet organizational goals, etc. The problem with how I see this being realized in the industry is that the vast majority of these companies have not made the cultural and organizational shifts to fundamentally change the way they work. Trying to demand predictability from teams creating software, which is uncertain and unpredictable by its nature, is a recipe for disaster. Often I tell organizations if they embrace agile ways of working, push authority to self-organizing software development teams and focus on continuous improvement they are likely to become more predictable. But I will caution that this is not "predictability" as these organizations currently understand it. 
 <!-- more -->
 
 It sounds like a riddle, but adopting agile practices that embrace the unpredictable and uncertain nature of knowledge work will enable organizations to better plan and address the challenges of the work. According to [the 14th Annual State of Agile Report](https://stateofagile.com/#ufh-i-615706098-14th-annual-state-of-agile-report/7027494), 39% of respondents adopted agile to become more predictable. Without understanding how they need to shed their old ways of planning and predicting they will be undermining their own efforts to improve the way they deliver value to their customers. 
 
 <img class="img-responsive" src="/img/reasons-for-adopting-agile.png" />
+
+When software organizations focus first on achieving predictability without achieving real agility, they are unwittingly pushes their development teams further away from being predictable. 
 
 ## Agile is Adaptive Not Predictive
 
@@ -48,16 +50,28 @@ Developers spend more time estimating work and trying to "improve estimation." S
 The best software development teams continuously experiment. Its through this experimentation the team continuously improves how they work and innovate. These activities will stop altogether when teams are under pressure. Without experimentation innovation is lost. 
 
 ### Morale Issues
-As a developer I have had first hand experience having my estimates used deadlines and then reprimanded when we didn't hit dates. As a technical lead I sat with Product Managers explaining agile estimation, the cone of uncertainty, estimate ranges, and not to commit to features but outcomes. Operating in a low-trust, dysfunctional organization - none of these approaches worked. Product Managers were perceived to be in a position of power over developers (thinkers versus the workers). So if the developers couldn't deliver what the Product organization told them to they'd just keep hiring more developers and offshoring more work. Not surprisingly, this further exacerbated the problem, slowed the development organization to a crawl, and the best developers left to find work elsewhere.  
+As a developer I have had first hand experience having my estimates used deadlines and then reprimanded when we didn't hit dates. As a technical lead I sat with Product Managers explaining agile estimation, the cone of uncertainty, estimate ranges, and not to commit to features but outcomes. Operating in a low-trust, dysfunctional organization none of these approaches worked. Product Managers were perceived to be in a position of power over developers (thinkers versus the workers). So if the developers couldn't deliver what the Product organization told them to they'd just keep hiring more developers and offshoring more work. Not surprisingly, this further exacerbated the problem, slowed the development organization to a crawl, and the best developers left to find work elsewhere.  
 
 ## Focus on Real Agility
 Software organizations become more predictable as a result of other practices that are typically absent when organizations push teams to meet their velocity or a "say/do ratio." The next blog post will discuss the agile practices that result in increased predictability.
 
-## Becoming More Predictable
-Predictability has very little to do with teams learning how to "estimate better", more time spent estimating, nor having teams push hard to meet their Say/Do ratio or known velocity. These are antipatterns because predictability is a result of a number of other practices. Rather than a continued focus on improved estimation, focus the organizations efforts in these areas.
+## Becoming More Predictable?
+Predictability has very little to do with teams learning how to "estimate better", more time spent estimating, nor having teams push hard to meet their Say/Do ratio or known velocity. These are antipatterns because predictability is a result of a number of other practices. Rather than a continued focus on improved estimation, focus the organizations efforts in these areas instead.
 
 ### 1. Always Releasable 
-If teams can finish every increment of work so that is is releasable the organization knows at the end of every timeboxed increment the software could be released. This helps make organizations more predictable as there isn't the unknown batch of work that gets pushed to the end of the project. Think of all of the waterfall testing approaches that still creep into agile projects; integration testing, UAT, regression testing, etc. All of the required testing should be happening within the timebox to avoid _**integration risk**_ that accumulates at the end of waterfall projects.
+Teams should adopt the agile technical practices that enable Continuos Integration and Continuous Delivery. Think of all of the waterfall testing approaches that still creep into agile projects; integration testing, UAT, regression testing, etc. What if all of these test phases can be dropped by a focus on Continuous Integration and Continuous Delivery? The code is always in a releasable state, making releasing software a business decision not a technical one. 
+
+### 2. Focus on Agile Technical Practices
+In my more than 20 years in the software industry the agile technical practices have been the biggest differentiator for successful software teams and organizations, not adherence to Scrum, certainly not massive scaling frameworks like SAFe, and teams don't get there by adding more project management and focusing on "better plans" and "better estimates."
+
+#### Test-Driven Development
+I recommend Test-Driven as the most important agile technical practice. When teams learn how to do TDD well, every commit comes with its own automated tests. Pairing TDD with learning how to create high-quality microtests means the team will have to learn software design skills. High quality microtests become the commit stage test suite of their build pipeline. TDD enables practicing CI and CD. 
+By learning TDD a focus on refactoring (one of the stages of TDD) will result. Having development teams focus on improving the design of code continuously the team will be encouraged to improve their software design and refactoring skills. 
+
+#### Continuous Integration / Continuous Delivery
+Integrate code continuously, more than once per day. This means integrating code that doesn't necessarily complete user stories or features. Teams will need to learn how to integrate code that is not finished without breaking the system. This means learning new skills, and often organizing the work and the code differently. Feature branches delay integration and create risk. Integration defects are often caught late and harder to fix as the exist in the space between the interaction of separate pieces of work, for this reason alone continuous integration is important. Don't fall into the trap that just because you have a build server that you call a CI server that you are doing Continuous Integration. Many organizations use build servers to build feature branches and think they are doing CI. If you aren't doing trunk based development and creating branches, those branches need to live for less than a day, or you aren't practicing Continuous Integration.
+
+Focus on automating the build pipeline where every commit results in a version of the software running in a test environment (to start with). By focusing on a real CI/CD pipeline and pairing it with a feature flag solution teams can continuously deliver integrated, working software and toggle switches to enable features. 
 
 ### 2. Organize Teams for Delivery Flow
 One of the most important aspects of predictability is how work and teams are organized. I recommend to align teams to value streams, focus on the fast flow of delivery to customers. This means eliminating handoffs so teams can deliver high-quality, working features within the team. This means not organizing around software components, not having front-end and back-end teams where every feature must span multiple teams, etc. Instead, teams need to truly be cross-functional with all of the skills required to deliver working features into production at the end of each increment. 
@@ -67,14 +81,7 @@ In the past I've recommended reading the book [Team Topologies](), as it is one 
 #### Focus on Decreasing Cycle Time
 Little's law states that if we want to decrease lead times (or cycle times) we increase throughput and decrease WIP. To improve delivery flow focus on decreasing lead and cycle times of work. This often means breaking work into smaller pieces, removing and reducing handoffs and places in your process where inventory accumulates. 
 
-### 3. Prioritize Agile Technical Practices
-In my 20 years in the industry the agile technical practices have been the biggest differentiator for successful software teams and organizations. 
 
-#### Continuous Integration
-Integrate code continuously, more than once per day. This means integrating code that doesn't necessarily complete user stories or features. Teams will need to learn how to integrate code that is not finished without breaking the system. This means learning new skills, and often organizing the work and the code differently. Feature branches delay integration and create risk. Integration defects are often caught late and harder to fix as the exist in the space between the interaction of separate pieces of work, for this reason alone continuous integration is important. Don't fall into the trap that just because you have a build server that you call a CI server that you are doing Continuous Integration. Many organizations use build servers to build feature branches and think they are doing CI. If you aren't doing trunk based development and creating branches, those branches need to live for a day or less, or you aren't practices Continuous Integration.
-
-#### Test-Driven Development
-For me, the place I start most teams in with Test-Driven Development. 
 
 #### Refactoring 
 
