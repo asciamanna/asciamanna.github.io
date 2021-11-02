@@ -5,10 +5,10 @@ title: Programming By Coincidence
 subtitle: A Barrier to High-Performing Teams
 comments: true
 excerpt_separator: <!--more-->
-summary: Want to get to Continuous Delivery and modernize your software development teams? It's time to leave practices like programming by coincidence behind. Read on to learn how to avoid it and adopt modern software development practices.
+summary: Want to get to Continuous Delivery and modernize your software development teams? It's time to leave practices like Programming by Coincidence behind. Read on to learn how to avoid it and adopt modern software development practices.
 image: /img/pocket-developer.jpg
 category: code craft
-tags: ['screencast', 'code kata', 'refactoring', 'java']
+tags: ['extreme programming', 'coaching', 'mob programming', 'tdd']
 ---
 
 <figure>
@@ -43,7 +43,7 @@ Code written in this manner share some common characteristics. They often contai
 
 #### Dead Code 
 
-Dead code is everywhere in these codebases obscuring the code's intent and creating an enormous maintenance burden. Unused fields and methods in classes, unused classes, unused tests, unused third-party libraries are all a result of copying and pasting code from elsewhere.
+Dead code is everywhere in these codebases obscuring the code's intent and creating an enormous maintenance burden. Unused fields and methods in classes, unused classes, invbalid test that still get run, unused third-party libraries are all a result of copying and pasting code from elsewhere.
 
 
 ####  Misleading Comments 
