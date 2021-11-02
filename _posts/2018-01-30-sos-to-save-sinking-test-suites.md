@@ -88,8 +88,7 @@ xUnit test frameworks come with a lot of extras. In some cases, they can help ma
 
 Tests should not contain any branching or control flow logic. Their existence is a code smell. Refactoring the code under test can obviate the need for branching in test cases.
 
-> Logic in tests confuses the story of what’s being tested.
-Test-scoped logic is hard to read and errors are easy to miss.  
+> Logic in tests confuses the story of what’s being tested. Test-scoped logic is hard to read and errors are easy to miss.  
 > &mdash; _Justin Searls, RubyConf 2015_
 
 ##### Tests are Untested Code

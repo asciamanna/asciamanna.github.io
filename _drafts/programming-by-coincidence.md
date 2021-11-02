@@ -58,10 +58,9 @@ This way of programming results in a "death spiral" for the codebase. Since deve
 
 > Number one in the stink parade is duplicated code. If you see the same code structure in more than one place, you can be sure that your program will be better if you find a way to unify them.
 > &mdash;Martin Fowler & Kent Beck, Refactoring (First Edition), page 76
-
-
+d
 ## Modern Development Practices
-Two of the most important practices that I focus on with teams to help them build a culture of technical excellence is Test-Driven Development (TDD) and collaborative development practices, ([pair]() and [mob/ensemble programming]()). Programming by Coincidence is barrier to adopting both of these practices. 
+Two of the most important practices that I focus on with teams to help them build a culture of technical excellence is Test-Driven Development (TDD) and collaborative development practices, ([pair]({{ site.baseurl }}{% post_url 2017-12-31-benefits-of-pair-programming %}) and [mob/ensemble programming]({{ site.baseurl }}{% post_url 2018-06-29-practices-for-effective-mob-programming %}). Programming by Coincidence is barrier to adopting both of these practices. 
 
 ## Practice Intentional Programming
 
