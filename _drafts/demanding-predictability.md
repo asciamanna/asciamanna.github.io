@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Stop Pursuing Predictability, Start Focusing on Real Agility
+title: Stop Pursuing Predictability
 subtitle: The Costs of Predictive Software Practices 
 comments: true
 excerpt_separator: <!--more-->
