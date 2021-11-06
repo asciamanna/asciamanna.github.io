@@ -5,7 +5,7 @@ title: Programming By Coincidence
 subtitle: A Barrier to High-Performing Teams
 comments: true
 excerpt_separator: <!--more-->
-summary: Programing by Coincidence is a common programming practice that presents an obstacle to team learning and technical excellence. It's important to learn how to spot it and reverse the trend if you want to create high-performing, modern software development teams. 
+summary: Programming by Coincidence is a common programming practice that presents an obstacle to team learning and technical excellence. It's important to learn how to spot it and reverse the trend if you want to create high-performing, modern software development teams. 
 image: /img/pocket-developer.jpg
 category: code craft
 tags: ['extreme programming', 'coaching', 'mob programming', 'tdd']
