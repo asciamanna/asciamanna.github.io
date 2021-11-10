@@ -22,16 +22,16 @@ One of my primary roles as a development coach is helping software development t
 
 ## What is Programming by Coincidence?
 
-Programming by Coincidence is one of the most detrimental practices for a team and their codebase.  I first discovered the term Programming by Coincidence as the title of Chapter 31 in the first edition of _The Pragmatic Programmer_. You may refer to this practice as [Copy-and-Paste programming](https://en.wikipedia.org/wiki/Copy-and-paste_programming) which is a common travel companion to Programming by Coincidence, or maybe you refer to it as "Stack Overflow programming." Regardless of what you call it, its effects remain the same. 
+Programming by Coincidence is one of the most detrimental practices for a team and their codebase. I first discovered the term Programming by Coincidence as the title of Chapter 31 in the first edition of _The Pragmatic Programmer_. You may refer to this practice as [Copy-and-Paste programming](https://en.wikipedia.org/wiki/Copy-and-paste_programming) which is a common travel companion to Programming by Coincidence, or maybe you refer to it as "Stack Overflow programming." Regardless of what you call it, its effects remain the same. 
 
-> We should avoid programming by coincidence&mdash;relying on luck and accidental successes&mdash;in favor of _programming deliberately_  
+> We should avoid programming by coincidence&mdash;relying on luck and accidental successes&mdash;in favor of _programming deliberately_.    
 > _**&mdash;Andy Hunt & David Thomas, The Pragmatic Programmer (First Edition), page 172**_
 
 
 A team practicing Programming by Coincidence favors working in isolation instead of collaboratively. They spend time hunting for code that looks like it is similar enough to solve their problem (whether it be in another part of their codebase, open source code examples, or websites like Stack Overflow). They copy and paste this code and tweak and edit the code until it works, without ever having an understanding of what the code is doing and why it addresses their problem. They often ignore automated tests unless they can copy them exactly from other areas of the codebase as well. When the code breaks no one knows why because they never understood why it worked in the first place.  
 
 ## The Problems it Creates
-When teams program by coincidence they never achieve a better understanding of their domain, their programming languages, development tools, or environment. This stifles growth, eliminates learning opportunities, and makes experimentation impossible. Focusing on copy-paste programming and tinkering with the code until it works reinforces the idea that development teams have to work in long-running feature branches and need time to "harden" the code before it's ready for release. This delays integration, letting the code deviate from trunk for the lifetime of the feature branch, creating integration risks when the feature branch can finally be merged. 
+When teams program by coincidence they never achieve a better understanding of their domain, their programming languages, development tools, or environment. This stifles growth, eliminates learning opportunities, and makes experimentation impossible. Focusing on copy-paste programming and tinkering with the code until it works reinforces the idea that development teams have to work in long-running feature branches and need time to "harden" the code before it's ready for release. This delays integration, letting the code deviate from trunk for the lifetime of the feature branch, which creates integration risks when the feature branch can finally be merged. 
 
 ### The Telltale Signs
 
@@ -43,7 +43,7 @@ Code written in this manner share some common characteristics. They often contai
 
 #### Dead Code 
 
-Dead code is everywhere in these codebases obscuring the code's intent and creating an unnecessary maintenance burden. Unused fields and methods in classes, unused classes, invalid tests that still get run, unused third-party libraries are all a result of copying and pasting code from elsewhere.
+Dead code is everywhere in these codebases obscuring the code's intent and creating an unnecessary maintenance burden. Unused fields and methods in classes, unused classes, unnecessary or invalid tests that still get run, unused third-party libraries are all a result of copying and pasting code from elsewhere.
 
 
 ####  Misleading Comments 
@@ -64,7 +64,7 @@ Two of the most important practices that I focus on with teams to help them buil
 
 ## Practice Intentional Programming
 
-Test-Driven Development requires intentionality. When we write a failing test first that means we need to be thinking about what the method we want to write needs to do. We focus on _what_ it needs to do before we worry about _how_ it is going to do that. In other words, we need to know where we are headed. What is the behavior this class and method are responsible for? What is its signature? How does it interact with its client objects? What other objects does it need to interact with to do its job? Every TDD cycle includes refactoring, which creates many opportunities throughout the day to improve the design of our code and the design of our tests. Programming by Coincidence makes it impossible to practice TDD. 
+Test-Driven Development requires intentionality. When we write a failing test first that means we need to be thinking about what the method we want to write needs to do. We focus on _what_ it needs to do before we worry about _how_ it is going to do that. In other words, we need to know where we are headed. What is the behavior this class and method are responsible for? What is its signature? How does it interact with its clients? What other objects does it need to interact with to do its job? Every TDD cycle includes refactoring, which creates many opportunities throughout the day to improve the design both the production code andd tests. Programming by Coincidence makes it impossible to practice TDD. 
 
 Similarly, collaborative practices require this same intentionality when we create software. Watching a mob/ensemble programming session where the driver codes alone while others in the group remain silent, not able to guide the driver is a sign that they are accustomed to Programming by Coincidence and working in isolation. To guide an ensemble or be a good pairing partner, you need to work deliberately. 
 
