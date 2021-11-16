@@ -22,7 +22,7 @@ One of my primary roles as a development coach is helping software development t
 
 ## What is Programming by Coincidence?
 
-Programming by Coincidence is one of the most detrimental practices for a team and their codebase. I first discovered the term Programming by Coincidence as the title of Chapter 31 of _The Pragmatic Programmer (First Edition)_. You may refer to this practice as [Copy-and-Paste programming](https://en.wikipedia.org/wiki/Copy-and-paste_programming) which is a common travel companion to Programming by Coincidence. Or maybe you call it _"Stack Overflow programming."_ Regardless of what you call it, its effects remain the same. 
+Programming by Coincidence is one of the most detrimental practices for a team and their codebase. I first discovered the term Programming by Coincidence as the title of Chapter 31 of _The Pragmatic Programmer (First Edition)_. You may refer to this practice as [Copy-and-Paste programming](https://en.wikipedia.org/wiki/Copy-and-paste_programming), which is a common travel companion to Programming by Coincidence. Or maybe you call it _"Stack Overflow programming."_ Regardless of what you call it, its effects remain the same. 
 
 > We should avoid programming by coincidence&mdash;relying on luck and accidental successes&mdash;in favor of _programming deliberately_.    
 > _**&mdash;Andy Hunt & David Thomas, The Pragmatic Programmer (First Edition), page 172**_
@@ -43,7 +43,7 @@ Code written in this manner share some common characteristics. They often contai
 
 #### Dead Code 
 
-Dead code is everywhere in these codebases obscuring the code's intent and creating an unnecessary maintenance burden. Unused fields and methods in classes, unused classes, unnecessary or invalid tests that still get run, unused third-party libraries are all a result of copying and pasting code from elsewhere.
+Dead code is everywhere in these codebases obscuring the code's intent and creating an unnecessary maintenance burden. Unused fields and methods in classes, unused classes, unnecessary or invalid tests that still get run, and unused third-party libraries are all a result of copying and pasting code from elsewhere.
 
 
 ####  Misleading Comments 
@@ -64,9 +64,9 @@ Two of the most important practices that I focus on with teams to help them buil
 
 ## Practice Intentional Programming
 
-Test-Driven Development requires intentionality. When we write a failing test first that means we need to be thinking about what the method we want to write needs to do. We focus on _what_ it needs to do before we worry about _how_ it is going to do that. In other words, we need to know where we are headed. What is the behavior this class and method are responsible for? What is its signature? How does it interact with its callers? What other objects does it need to interact with to do its job? Every TDD cycle includes refactoring, which creates many opportunities throughout the day to improve the design both the production code andd tests. Programming by Coincidence makes it impossible to practice TDD. 
+Test-Driven Development requires intentionality. When we write a failing test first, that means we need to be thinking about what the method we want to write needs to do. We focus on _what_ it needs to do before we worry about _how_ it is going to do that. In other words, we need to know where we are headed. What is the behavior this class and method are responsible for? What is its signature? How does it interact with its callers? What other objects does it need to interact with to do its job? Every TDD cycle includes refactoring, which creates many opportunities throughout the day to improve the design both the production code and tests. Programming by Coincidence makes it impossible to practice TDD. 
 
-Similarly, collaborative practices require this same intentionality when we create software. Watching a mob/ensemble programming session where the driver codes alone while others in the group remain silent, not able to guide the driver is a sign that they are accustomed to Programming by Coincidence and working in isolation. To be a good pairing partner or ensemble member, you need to work deliberately. 
+Similarly, collaborative practices require this same intentionality when we create software. Watching a mob/ensemble programming session where the driver codes alone while others in the group remain silent and not able to guide the driver, is a sign that they are accustomed to Programming by Coincidence and working in isolation. To be a good pairing partner or ensemble member, you need to work deliberately. 
 
 
 ## Create A Culture of Learning and Experimentation
