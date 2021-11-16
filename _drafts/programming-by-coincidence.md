@@ -12,7 +12,7 @@ tags: ['extreme programming', 'coaching', 'mob programming', 'tdd']
 ---
 
 <figure>
-    <img class='img-responsive' src='/img/pocket-developer.jpg' alt='Pocket Developer' height='50%' width='50%' />
+    <img class='img-responsive' src='/img/pocket-developer.jpg' alt='Pocket Developer' height='70%' width='70%' />
     <figcaption style='text-align:center'>Pocket Developer from <a href="https://pretendstore.co/collections/office/products/pocket-developer">Pretend Store</a></figcaption>
 </figure>
 <br />
@@ -39,7 +39,7 @@ Code written in this manner share some common characteristics. They often contai
 * Dead Code
 * Misleading Comments
 * Code Duplication
-* Long-running Feature Branches
+* Long-lived Branches
 
 #### Dead Code 
 
@@ -51,7 +51,7 @@ Since code is copied without understanding, the comments from other areas of cod
 
 
 #### Code Duplication 
-Since code is copied and pasted from elsewhere, this results in a massive amount of code duplication. The system bloats and defects increase. Understanding the code isn't a priority, so refactoring to remove duplication never occurs. Instead, more and more code is duplicated and modified until it works. 
+The act of copying code from elsewhere results in a massive amount of code duplication. The system bloats and defects increase. Understanding the code isn't a priority, so refactoring to remove duplication never occurs. Instead, more and more code is duplicated and modified until it works. 
 
 ### A Codebase Death Spiral
 This way of programming results in a "death spiral" for the codebase. Since developers don't rely on understanding code to change it, they continue programming by coincidence without ever trying to improve the code's readability or design. This results in an increase in defects as internal and external quality suffers. Quickly a codebase developed in this manner can accumulate so many problems that the organization chooses to abandon it in favor of a rewrite (since they lack the skills within the team to incrementally improve the code).
@@ -66,7 +66,7 @@ Two of the most important practices that I focus on with teams to help them buil
 
 Test-Driven Development requires intentionality. When we write a failing test first, that means we need to be thinking about what the method we want to write needs to do. We focus on _what_ it needs to do before we worry about _how_ it is going to do that. In other words, we need to know where we are headed. What is the behavior this class and method are responsible for? What is its signature? How does it interact with its callers? What other objects does it need to interact with to do its job? Every TDD cycle includes refactoring, which creates many opportunities throughout the day to improve the design both the production code and tests. Programming by Coincidence makes it impossible to practice TDD. 
 
-Similarly, collaborative practices require this same intentionality when we create software. Watching a mob/ensemble programming session where the driver codes alone while others in the group remain silent and not able to guide the driver, is a sign that they are accustomed to Programming by Coincidence and working in isolation. To be a good pairing partner or ensemble member, you need to work deliberately. 
+Similarly, collaborative practices require this same intentionality when we create software. A mob/ensemble programming session where the driver codes alone while others in the group remain silent, not able to guide the driver, is a sign that they are accustomed to Programming by Coincidence and working in isolation. To be a good pairing partner or ensemble member, you need to work deliberately. 
 
 
 ## Create A Culture of Learning and Experimentation
@@ -83,4 +83,4 @@ Teams who Program by Coincidence are primarily concerned with "getting the code 
 > _**&mdash;Gene Kim, The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win**_
 
 ## Conclusion
-Programming by Coincidence is a poisonous development practice that can ruin a codebase quickly and prevent a team from learning and growing. To combat it, adopt intentional, high-quality development practices like TDD, pair, and ensemble programming. Push through the discomfort and experiment with practices. Finding an experienced coach or developer will help get you there faster. 
+Programming by Coincidence is a poisonous development practice that can ruin a codebase quickly and prevent a team from learning and growing. To combat it, adopt intentional, high-quality development practices like TDD, pair, and ensemble programming. Push through the discomfort and experiment with practices. Finding an experienced coach will help get you there faster. 
