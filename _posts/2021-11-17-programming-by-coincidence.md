@@ -79,7 +79,7 @@ I've seen software organizations stuck in this way of working. They were faced w
 Teams who Program by Coincidence are primarily concerned with "getting the code working" and moving on. Improving the design, reducing the cognitive load for future developers, and making the code more intention revealing are skipped in favor of starting on the next feature. Successful software development teams prioritize both code improvement and learning. They spend time continuously learning and experimenting. This is how teams improve.
 
 
-> Improving daily work is even more important than doing daily work."   
+> Improving daily work is even more important than doing daily work.       
 > _**&mdash;Gene Kim, The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win**_
 
 ## Conclusion
