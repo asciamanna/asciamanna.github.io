@@ -12,7 +12,7 @@ tags: ['extreme programming', 'coaching', 'mob programming', 'tdd']
 ---
 
 <figure>
-    <img class='img-responsive' src='/img/pocket-developer.jpg' alt='Pocket Developer' height='70%' width='70%' />
+    <img class='img-responsive' src='/img/pocket-developer.jpg' alt='Pocket Developer' height='50%' width='50%' />
     <figcaption style='text-align:center'>Pocket Developer from <a href="https://pretendstore.co/collections/office/products/pocket-developer">Pretend Store</a></figcaption>
 </figure>
 <br />
