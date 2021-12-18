@@ -52,8 +52,8 @@
   {% endif %}
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{page.url | replace:'index.html','' | prepend: site.url}}">
-  {% if page.section-type == "post" and page.description %}
-  <meta property="og:description" content="{{page.description}}">
+  {% if page.section-type == "post" and page.summary %}
+  <meta property="og:description" content="{{page.summary}}">
   {% elsif page.section-type == "post" %}
   <meta property="og:description" content="{{page.content | strip_html | truncate:157, '...'}}">
   {% else %}
