@@ -5,7 +5,7 @@ title: What Can Miles Davis Teach Us About Agile Leadership?
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
-summary: Programming by Coincidence is a common programming practice that presents an obstacle to team learning and technical excellence. It's important to learn how to spot it and reverse the trend if you want to create high-performing, modern software development teams. 
+summary: Miles Davis was master innovator and mentored innovators throughout his career. What can we learn from him to help struggling software organization clinging to agile scaling frameworks and rule books that prevent productive, innovative software teams.
 image: /img/pocket-developer.jpg
 category: leadership
 tags: ['modern agile']
