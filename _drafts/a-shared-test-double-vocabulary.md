@@ -15,7 +15,7 @@ When software development teams begin practicing TDD and mircotesting they commo
 
 ## Test Double Vocabulary
 Gerard Meszaros developed a taxonomy for fake objects used in tests in his book _xUnit Test Patterns_. In it, he describes the generic term **_Test Double_** as any object that is used as a "stand in" for the real object during test execution. In his book he defined five types of test doubles. 
-- Dummy objects
+- Dummy Objects
 - Fakes
 - Stubs
 - Spies
@@ -24,7 +24,7 @@ Gerard Meszaros developed a taxonomy for fake objects used in tests in his book 
 Martin Fowler outlines each one in [this short blog post about Test Doubles](https://martinfowler.com/bliki/TestDouble.html);
 
 ### Alias overload
-A common problem that prevents deeper, more nuanced conversations (and test implementations), is the overloading of these terms. There are many terms for these test dobules and there are often overlaps and conflicts in the terminology depending on whose terminology you use. In my younger years I was quite pendantic about adopting Gerard's terminology. Now, I don't care what terms a team uses, as long as they choose one set of terminology and stick with it. At Industrial Logic our eLearning album about Faking & Moking uses a different set of terminology (in fairness our defintions were developed prior to Gerard's book). So use ours or the xUnit Test Patterns taxonomy, just don't offload the definitions to your framework.
+A common problem that prevents deeper, more nuanced conversations (and test implementations), is the overloading of these terms. There are many terms for these test dobules and there are often overlaps and conflicts in the terminology depending on whose terminology you use. In my younger years I was quite pendantic about adopting Gerard's terminology from _xUnit Test Patterns_. Now, I don't care what terms a team uses, as long as they choose one set of terminology and stick with it. At Industrial Logic our eLearning album about Faking & Moking uses a different set of terminology (in fairness our defintions were developed prior to Gerard's book). So use ours or the xUnit Test Patterns taxonomy, just don't offload the definitions to your framework.
 
 ### A Framework-Centric View
 Teams often adopt a mocking framework early in their development and use it everywhere. They automatically reach for it for every collaborator interaction. Additionally, they adopt the language of the framework. 
@@ -36,14 +36,14 @@ This outsourcing of test double vocabulary comes with a cost. We lose any of the
 
 ## Mocking Library Pain
 
-Now, these mocking libraries aren't all bad. They have their merit, but in practice they are overused. When everything is considered a _mock_, and your library produces _mock objects_, there is no need to ever deviate from it. Overuse of mocking frameworks has several negative effects on the codebase. 
+Now, these mocking libraries aren't all bad, and can still be valuable tool in your teams arsenal. They have their merit, but in practice they are overused. When everything is considered a _mock_, and your library produces _mock objects_, there is no need to ever deviate from it. Overuse of mocking frameworks has several negative effects on the codebase. 
 
 ### Noise & Duplication
-Mocking libraries tend to encourage duplication of the same mock setup in test clasess and across test classes. Yes, that code can be refactored too, but it often isn't. When it is refactored it can typically be replaced with a handrolled test double. The mocking library setup code tends to be noise that clogs tests and clouds the intention of the test case. Hand-rolled test double can be reused and often get out of the way, allowing for the tests to be more intention revealing.
+Mocking libraries tend to encourage duplication of the same mock setup in test clasess and across test classes. Yes, that code can be refactored too, but it often isn't in practice. When it is refactored it can typically be replaced with a handrolled test double. The mocking library setup code tends to be noise that clogs tests and clouds the intention of the test case. Hand-rolled test doubles can be reused and often get out of the way, allowing for the tests to be more intention revealing.
 
 
 ### Increase in Complexity
-Mocking libraries each have their own idiosyncracies and add complexity to tests. When I work with teams just learning TDD and microtesting I see an inordinate amount of time being spent trying to figure out why a test double setup resulted in a null return value. I've seen teams waste hours and hours doing this. Their time could have been better spent writing a small, simple test double. 
+Mocking libraries each have their own idiosyncracies and add complexity to tests. When I work with teams just learning TDD and microtesting I see an inordinate amount of time being spent trying to figure out why a mock object call resulted in a `null` return value. I've seen teams waste hours and hours doing this. Their time could have been better spent writing a small, simple test double. 
 
 ### Test execution time increases
 I can't claim this for every type of mocking framwork on every platform. However, the mocking frameworks that rely on reflection are a tax on your test suite runtime. I measured the impact on a .NET codebase and the use of a mocking library made a large impact on test execution times. We were able to speed up the test suite considerably by replacing mock library usage with some hand-rolled test doubles we could reuse. 
@@ -55,4 +55,7 @@ I can't claim this for every type of mocking framwork on every platform. However
 When we hand roll test objects and adopt a variety of test doubles we can use the appropriate test double for the scenario we are testing. We can stay focused on the object and scenario we are testing. When using a mocking library we often lose sight of the scenario and become more concerned with object interactions than behavior. 
 
 ## Advice
-My advice for teams beginning their journey into TDD, microtesting, and collaborative development practices is become adept at one mocking library for your platform. Experiment with writing your own test doubles and using the mocking library. Get a feel for when to reach for one over the other. Adopt a set of terminology around test doubles and learn when to employ each type. This will help you keep your tests focused on the behavior you are testing not get carried away into over mocking.
+My advice for teams beginning their journey into TDD, microtesting, and collaborative development practices is become adept at one mocking library for your platform. Experiment with writing your own test doubles and using the mocking library. Get a feel for when to reach for one over the other. Adopt a shared test double vocabulary and learn when to employ each type. This will help you keep your tests focused on the behavior you are testing and not get carried away into over mocking.
+
+## Further Reading
+One of my favorite articles on this topic is Martin Fowler's class (now 15 year old) blog post, [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html).
