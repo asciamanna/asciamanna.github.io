@@ -1,11 +1,11 @@
 ---
 layout: post
 section-type: post
-title: What Can Miles Davis Teach Us About Agile Leadership?
-subtitle: 
+title: Lessons on Modern Software Development from Miles Davis
+subtitle: What can a jazz icon teach us about innovative, productive, modern software development?
 comments: true
 excerpt_separator: <!--more-->
-summary: Miles Davis was master innovator and mentored innovators throughout his career. What can we learn from him to help struggling software organization clinging to agile scaling frameworks and rule books that prevent productive, innovative software teams.
+summary: Miles Davis was a jazz icon, masterful innovator, and mentored innovators throughout his career. What can we learn from him to help struggling software organization clinging to agile scaling frameworks and rule books that prevent productive, innovative software teams.
 image: /img/pocket-developer.jpg
 category: leadership
 tags: ['modern agile']
