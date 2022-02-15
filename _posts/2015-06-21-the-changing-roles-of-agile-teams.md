@@ -17,13 +17,13 @@ Prior to an organization adopting agile practices developers tend to have indivi
 
 ### Coaches & Mentors
 
-Once an organization adopts agile development practices getting the most "work" done is __*NOT*__ the most important quality of a senior developer. The senior developers should be spending a significant part of their day on coaching and mentoring activities in addition to software development. Listed below are responsibilities I would expect of senior developers on agile teams. The list is a combination of some of my own thoughts and some responsibilities that [Esther Derby](http://www.estherderby.com/ "Esther Derby's website") describes in her post, [But are they Working Hard?](http://www.estherderby.com/2012/02/but-are-they-working-hard.html)
+Once an organization adopts agile development practices getting the most "work" done is __*NOT*__ the most important quality of a senior developer. The senior developers should be spending a significant part of their day on coaching and mentoring activities in addition to software development. Listed below are responsibilities I would expect of senior developers on agile teams. The list is a combination of some of my own thoughts and some responsibilities that [Esther Derby](http://www.estherderby.com/ "Esther Derby's website") describes in her post, [But are they Working Hard?](https://www.estherderby.com/but-are-they-working-hard/)
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">When you&#39;re the senior in junior/senior pair programming, the measure of your success is how much the junior learns</p>&mdash; Kent Beck (@KentBeck) <a href="https://twitter.com/KentBeck/status/602892538337337345">May 25, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 #### Responsibilities
-* pair programming with other developers
+* pair & mob programming with other developers
 * coaching the team on the technologies used
 * coaching the team on domain concepts
 * coaching the team on working cross-functionally
