@@ -5,52 +5,66 @@ title: Writing Better User Stories?
 subtitle: 
 comments: true
 excerpt_separator: <!--more-->
-summary: Too often coaches and consultants address "problematic user stories" by helping organizations write better user stories by adopting a standard format. This sidesteps the real issue, one that an "improved" story format can't address. 
-image: 
+summary: Coaches and consultants often address "problematic user stories" by helping organizations improve their story writing by adopting a standard format. Focusing on writing better stories sidesteps the real problem, one that an "improved" story format can't address. 
+image: /img/drive-by-orders.jpg
 category: development practices
 tags: ['agile development', 'consulting']
 ---
 
-Issues with user stories are a common problem for software development organizations that adopt agile frameworks. At some point in their journey development organizations will ask, _"How do we write better user stories?"_ Well-meaning coaches or consultants come to the rescue. Their advice usually includes adopting the [Connextra user story format](https://www.agilealliance.org/glossary/user-story-template/) (also called _role-feature-reason_). Sometimes the advice includes standards for acceptance criteria like adopting the [gherkin syntax](https://cucumber.io/docs/gherkin/reference/). When starting with the goal of **_writing_** better stories the end result is often a large, overly complicated template to use in jira so that _"the team doesn't miss anything in the jira ticket"_. 
 
-Advice like this: ([User Story Template: How to Write User Stories Efficiently](https://hygger.io/blog/user-story-template-how-to-write-it/)) is all too common but sidesteps the real issue. I contend that the more boxes on your user story template or the more required data on your jira input screens, the more time and money you are spending addressing a symptom of your problem. As Jeff Patton states in the introduction of his book _User Story Mapping_, "Shared documents aren't shared understanding." Requirements documents are notoriously bad for establishing a shared understanding.
+<img src='/img/drive-by-orders.jpg' alt='Drive by orders sign' class='img-responsive' />
+
+Issues with user stories are a common problem for software development organizations that adopt agile frameworks. At some point in their journey development organizations will ask, _"How do we write better user stories?"_ Well-meaning coaches or consultants come to the rescue. Their advice usually includes adopting the [Connextra user story format](https://www.agilealliance.org/glossary/user-story-template/) (also called _role-feature-reason_). Sometimes the advice includes standards for acceptance criteria like adopting the [Gherkin syntax](https://cucumber.io/docs/gherkin/reference/). When the goal is **_writing_** better stories the result is often a large, overly complicated template for Jira. 
+
+Advice like this: ([User Story Template: How to Write User Stories Efficiently](https://hygger.io/blog/user-story-template-how-to-write-it/)) is all too common but sidesteps the real issue. I contend that the more boxes on a user story template or the more required data on a Jira input screen, the more time and money will be wasted on a symptom of the problem. As Jeff Patton states in the introduction of his book _User Story Mapping_, "Shared documents aren't shared understanding." Requirements documents, even ones that follow a template, are poor for establishing a shared understanding.
 
 > Shared documents aren't shared understanding
 > **_&mdash;Jeff Patton - User Story Mapping - Page xxxii_**
 
 ## What is the real issue?
 
-By probing a little deeper and asking why do organizations feel they need to write better user stories the responses I typically hear are: _"How can we convey all of the requirements to the developers efficiently so they can spend more time coding?"_ or _"How can we ensure we don't miss anything so the developers don't discover more stories as they develop"_. These responses expose the reality that these organizations are suffering from the problem that user stories were created to address. 
+By probing a little deeper and asking why organizations feel they need to write better user stories, the typical responses are: 
+- _"How can we convey all of the requirements to the developers efficiently so they can spend more time coding?"_ 
+- _"How can we ensure we don't miss anything so the developers don't discover more stories as they develop"_. 
+- _"How can we write these stories so the developers build it right the first time?"_
 
-Historically, software development processes have mimicked factory processes to their detriment. These include [Taylorism](https://en.wikipedia.org/wiki/Scientific_management) (a turn of the 20th century manufacturing processes attempting to optimize production lines with high amounts of managerial control over employees) and [Theory X management](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y), a management style that assumes workers have no ambition, avoid responsibility, and can't be trusted to do a good job. These practices are vestiges of applying factory processes to software development. It is still all too common, even in many software organizations claiming to be agile by implementing Scrum or SAFe, to view software developers as order takers, as typing automatons to turn requirements documents into working software. The less time that is required to describe the requirement the more time the developers can spend coding it. This focus on efficiency also results in the idea that if the organization can just describe the requirements in a way the software developers will more easily understand, they'll "get it right the first time." Losing all of the benefits of iterative and incremental development. 
+These responses expose the reality that these organizations suffer from the problem that user stories intended to address, attempting to replace collaborative conversations with a document.
+
+Historically, software development processes have mimicked factory processes to their detriment. These include: 
+- [Taylorism](https://en.wikipedia.org/wiki/Scientific_management) &mdash; a turn of the 20th-century manufacturing processes attempting to optimize production lines with high amounts of managerial control over employees
+- [Theory X management](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y) &mdash; a management style that assumes workers have no ambition, avoid responsibility, and can't be trusted to do a good job. 
+
+These practices are vestiges of applying factory processes to software development. They are still prevalent in the software industry, even in many software organizations claiming agility by implementing Scrum or SAFe. Commonly, developers are considered order takers, seen as typing automatons. They get tasked with turning requirements documents into working software. This focus on efficiency and _"getting it right the first time"_ eliminates any opportunity for iterative and incremental development (a foundational practice of agile software development).
 
 ## Agile Frameworks
-Unintentionally (or possibly intentionally) agile frameworks have helped to crystallize the idea that user stories are just a new format of user requirements delivered to a development team. Regardless of what the Scrum Guide may state, as it is practiced, Scrum teams typically consist of a Product Owner who is the only person in contact with the business, product users, or customers. More often even the Product Owners don't even have the connection to customers, but are the ones responsible for documenting requirements in jira). A popular agile scaling framework recommends that Product Managers should be externally focused (customers & organization) while Product Owners are internally facing (jira & developers). When this is what being on an agile team looks like, it becomes increasingly more difficult to shed this misunderstanding. In these environments user stories tend to be prescriptive requirements waterfalled onto development teams. 
+Unintentionally (or possibly intentionally) Agile frameworks have helped to crystallize the idea that user stories are just a new format of user requirements delivered to a development team. Regardless of what the Scrum Guide may state, as practiced, Scrum teams typically have a Product Owner who is the only person in contact with the business, users, or customers. Often Product Owners don't even have a connection to customers. Instead, they document requirements coming from their organization. 
+
+A popular agile scaling framework recommends that Product Managers be externally focused (customers & organization) while Product Owners are internally facing (Jira & developers). When being on an agile team looks like this, it becomes increasingly difficult to shed this misunderstanding about user stories. In these environments, user stories tend to be prescriptive requirements "waterfalled" onto development teams. 
 
 ## Software Organizations
-Product development organizations are often siloed off from engineering organizations and they rely on a PMO for coordination. I've witnessed consultants build that divide in software companies with the reasoning that, _"We can't have developers talking to users that's the Product Organization's job. They should be writing software, they might promise something we can't deliver because they don't know the big picture."_ This was an example of Taylorism and Theory X taking hold in a growing software company, while the engineering organization could still claim success because they went through an "Agile Transformation."
+Product development organizations are often siloed off from engineering organizations, relying on a Project Management Office (PMO) for coordination. I've witnessed consultants build that divide in a software company with the reasoning that, _"We can't have developers talking to users that's the Product Organization's job. They should be writing software, they might promise something we can't deliver because they don't know the big picture."_ While Taylorism and Theory X took hold in a growing software company, the engineering organization could still claim success because they went through an "Agile Transformation."
 
 > User stories are a promise for a conversation.
 > **_&mdash;Alistair Cockburn - Agile Manifesto Co-author_**
 
-## User Stories are Stories not Requirements
-The reason user stories are called stories and not "user requirements" is that they were meant to represent something very different than a requirements document. When Kent Beck introduced the idea of user stories in Extreme Programming (XP) it was precisely to get away from prescriptive requirements documents being delivered to order taking developers. The "story" represents a conversation between the people with the problem (the business, customers, users, etc.) and the people who can solve the problem (the development team). No standard template is going to help your teams improve if your organization is designed to keep developers from interacting with the people for whom they are creating the software.
+## User Stories are Stories, not Requirements
+User stories are stories (not requirements) because they are not intended to be requirements documents. When Kent Beck introduced the idea of user stories in Extreme Programming (XP), it was precisely to get away from prescriptive requirements documents delivered to order-taking developers. The "story" represents a conversation between the people with the problem (the business, customers, users, etc.) and the people who can solve the problem (the development team). No standard template can help a team improve if its organization is designed to keep developers from interacting with the people for whom they are creating the software.
 
 > ...It was at that moment that I learned the word "requirements" actually means "shut up". For a great many people, that is exactly what requirements do. They stop conversations about people and the problems we're solving. 
 > **_&mdash;Jeff Patton - User Story Mapping - Page xliii_**
 
 ## Bargain Hunting
-At [Industrial Logic](https://www.industriallogic.com/) we teach the practice of [Bargain Hunting](https://www.industriallogic.com/blog/bargain-hunting/). Bargains in software development are high-value features available at a fraction of the full price. You can only find bargains if the developers are having meaningful conversations and collaborating with the business. If the focus for improvement is on writing better requirements for developers to understand, you will be missing out on bargains. 
+At [Industrial Logic](https://www.industriallogic.com/) we teach [Bargain Hunting](https://www.industriallogic.com/blog/bargain-hunting/). Bargains in software development are high-value features available at a fraction of the full price. Finding bargains requires developers to have meaningful conversations and collaborate with the business. If the focus for improvement is on writing better requirements for developers to understand, you will be missing out on bargains. 
 
 > Having only one Product Owner authoritatively specify and prioritize features leads to high-priced development.
 > **_&mdashJoshua Kerievsky - [Bargain Hunting](https://www.industriallogic.com/blog/bargain-hunting/)_** 
 
 ## User Story Origins
-To really improve how your software is built learn about the origins of user stories:
+To improve collaboration and decide what to build next, apply learning gained from the sources of user stories:
 - Learn about [user stories in Extreme Programming](https://martinfowler.com/bliki/UserStory.html)
 - Learn about what Kent Beck (XP creator) has to say about user stories - the XP white book and XP dark green book are good starting points
 - Read about Agile Manifesto co-author and XP pioneer Ron Jeffries' [3Cs](https://ronjeffries.com/articles/019-01ff/3cs-revisited)
-- Learn how to story map, read Jeff Patton's _User Story Mapping_ and put it into practice
+- Read Jeff Patton's _User Story Mapping_ and put it into practice
 - Get your developers connected to the software's customers and users to have meaningful conversations
 - Disregard the plethora of advice about _writing_ better stories provided by scaling frameworks and blog authors
 
@@ -58,3 +72,7 @@ To really improve how your software is built learn about the origins of user sto
 - [User Story Mapping](https://www.jpattonassociates.com/story-mapping/) - Jeff Patton
 - [Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) (aka the XP white book) - Kent Beck, Cynthia Andres 
 - [Planning Extreme Programming](https://www.amazon.com/Planning-Extreme-Programming-Kent-Beck/dp/0201710919) (aka the XP dark green book) - Kent Beck, Martin Fowler
+
+---
+Photo by <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Visual Stories || Micheile</a> on <a href="https://unsplash.com/s/photos/order-takers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
