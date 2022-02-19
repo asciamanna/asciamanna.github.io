@@ -11,6 +11,8 @@ category: software craft
 tags: ['microtesting', 'tdd']
 ---
 
+<img src='/img/crash-test-dummy.jpg' alt='crash test dummy head' class='img-responsive' />
+
 When software development teams begin practicing TDD and mircotesting, they commonly adopt a mocking framework or library and use it everywhere. This practice tends to harm the codebase and the team's interactions. It's easy to overlook the overuse of mocking libraries without the experience of working with high-quality microtest suites. 
 
 ## Test Double Vocabulary
@@ -59,3 +61,6 @@ My advice for teams beginning their journey into TDD, microtesting, and collabor
 
 ## Further Reading
 One of my favorite articles on this topic is Martin Fowler's (now 15-year-old) blog post, [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html).
+
+---
+Image courtesy of [the National Museum of America](https://www.flickr.com/photos/nationalmuseumofamericanhistory/4796780409) - Creative Commons License
