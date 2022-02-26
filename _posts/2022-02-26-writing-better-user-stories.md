@@ -77,5 +77,5 @@ To improve collaboration and decide what to build next, apply learning gained fr
 
 <hr class='bottom-separator' />
 
-<small></small>Photo credit: <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Visual Stories || Micheile</a> on <a href="https://unsplash.com/s/photos/order-takers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
+<small>Photo credit: <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Visual Stories || Micheile</a> on <a href="https://unsplash.com/s/photos/order-takers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
   
