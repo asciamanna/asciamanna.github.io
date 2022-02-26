@@ -33,7 +33,7 @@ By probing a little deeper and asking why organizations feel they need to write 
 These responses expose the reality that these organizations suffer from the problem that user stories intended to address, attempting to replace collaborative conversations with a document.
 
 Historically, software development processes have mimicked factory processes to their detriment. These include: 
-- [Taylorism](https://en.wikipedia.org/wiki/Scientific_management) &mdash; a turn of the 20th-century manufacturing processes attempting to optimize production lines with high amounts of managerial control over employees
+- [Taylorism](https://en.wikipedia.org/wiki/Scientific_management) &mdash; a turn of the 20th-century manufacturing process attempting to optimize production lines with high amounts of managerial control over employees
 - [Theory X management](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y) &mdash; a management style that assumes workers have no ambition, avoid responsibility, and can't be trusted to do a good job. 
 
 These practices are vestiges of applying factory processes to software development. They are still prevalent in the software industry, even in many software organizations claiming agility by implementing Scrum or scaling frameworks like SAFe. Commonly, developers are considered order takers, seen as typing automatons. They get tasked with turning requirements documents into working software. This focus on efficiency and _"getting it right the first time"_ eliminates any opportunity for iterative and incremental development (a foundational practice of agile software development).
