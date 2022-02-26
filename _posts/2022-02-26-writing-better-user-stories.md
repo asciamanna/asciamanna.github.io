@@ -75,7 +75,7 @@ To improve collaboration and decide what to build next, apply learning gained fr
 - [Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) (aka the XP white book) - Kent Beck, Cynthia Andres 
 - [Planning Extreme Programming](https://www.amazon.com/Planning-Extreme-Programming-Kent-Beck/dp/0201710919) (aka the XP dark green book) - Kent Beck, Martin Fowler
 
-<hr />
+<div class="bottom-separator"></div>
 
 <small>Photo credit: <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Visual Stories || Micheile</a> on <a href="https://unsplash.com/s/photos/order-takers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
   
