@@ -20,7 +20,7 @@ Issues with user stories are a common problem for software development organizat
 
 Advice like this: ([User Story Template: How to Write User Stories Efficiently](https://hygger.io/blog/user-story-template-how-to-write-it/)) is all too common but sidesteps the real issue. I contend that the more boxes on a user story template or the more required data on a Jira input screen, the more time and money will be wasted on a symptom of the problem. As Jeff Patton states in the introduction of his book _User Story Mapping_, "Shared documents aren't shared understanding." Requirements documents do a poor job of establishing a shared understanding. Even the ones that follow a standard template.
 
-> Shared documents aren't shared understanding
+> Shared documents aren't shared understanding  
 > **_&mdash;Jeff Patton - User Story Mapping - Page xxxii_**
 
 ## What is the real issue?
@@ -46,19 +46,19 @@ A popular agile scaling framework recommends that Product Managers be externally
 ## Software Organizations
 Product development organizations are often siloed off from engineering organizations, relying on a Project Management Office (PMO) for coordination. I've witnessed consultants build that divide in a software company with the reasoning that, _"We can't have developers talking to users that's the Product Organization's job. They should be writing software, they might promise something we can't deliver because they don't know the big picture."_ While Taylorism and Theory X took hold in a growing software company, the engineering organization could still claim success because they went through an "Agile Transformation."
 
-> User stories are a promise for a conversation.
+> User stories are a promise for a conversation.  
 > **_&mdash;Alistair Cockburn - Agile Manifesto Co-author_**
 
 ## User Stories are Stories, not Requirements
 User stories were named stories (not requirements) because they were not meant to be a new form of requirements documentation. When Kent Beck introduced the idea of user stories in Extreme Programming (XP), it was precisely to get away from prescriptive requirements documents delivered to order-taking developers. The "story" represents a conversation between the people with the problem (the business, customers, users, etc.) and the people who can solve the problem (the development team). No standard template can help a team improve if its software organization is designed to keep developers from interacting with the people for whom they are creating the software.
 
-> ...It was at that moment that I learned the word "requirements" actually means "shut up". For a great many people, that is exactly what requirements do. They stop conversations about people and the problems we're solving. 
+> ...It was at that moment that I learned the word "requirements" actually means "shut up". For a great many people, that is exactly what requirements do. They stop conversations about people and the problems we're solving.   
 > **_&mdash;Jeff Patton - User Story Mapping - Page xliii_**
 
 ## Bargain Hunting
 At [Industrial Logic](https://www.industriallogic.com/) we teach [Bargain Hunting](https://www.industriallogic.com/blog/bargain-hunting/). Bargains in software development are high-value features available at a fraction of the full price. Discovering bargains requires developers to have meaningful conversations and collaborate with the business. If the focus for improvement is on writing better requirements for developers to understand, you will be missing out on bargains. 
 
-> Having only one Product Owner authoritatively specify and prioritize features leads to high-priced development.
+> Having only one Product Owner authoritatively specify and prioritize features leads to high-priced development.  
 > **_&mdashJoshua Kerievsky - [Bargain Hunting](https://www.industriallogic.com/blog/bargain-hunting/)_** 
 
 ## User Story Origins
