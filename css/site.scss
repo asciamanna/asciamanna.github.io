@@ -126,15 +126,15 @@ blockquote p {
   font-style: italic;
 }
 
-hr.bottom-separator {
-  margin: 12px 0;
-  border: 0;
+hr#bottom {
+  // margin: 12px 0;
+  border: 1;
   text-align: center;
   
 }
 
 hr.bottom-separator::after {
-  content: "\2022 \2022 \2022";
-  font-size: 55px;
-  color: #0550a0;
+  content: "\2022 \2022 \2022" !important;
+  font-size: 55px !important;
+  color: #0550a0 !important;
 }

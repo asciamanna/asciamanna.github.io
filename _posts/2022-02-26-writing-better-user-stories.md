@@ -59,7 +59,7 @@ User stories were named stories (not requirements) because they were not meant t
 At [Industrial Logic](https://www.industriallogic.com/) we teach [Bargain Hunting](https://www.industriallogic.com/blog/bargain-hunting/). Bargains in software development are high-value features available at a fraction of the full price. Discovering bargains requires developers to have meaningful conversations and collaborate with the business. If the focus for improvement is on writing better requirements for developers to understand, you will be missing out on bargains. 
 
 > Having only one Product Owner authoritatively specify and prioritize features leads to high-priced development.  
-> **_&mdashJoshua Kerievsky - [Bargain Hunting](https://www.industriallogic.com/blog/bargain-hunting/)_** 
+> **_&mdash;Joshua Kerievsky - [Bargain Hunting](https://www.industriallogic.com/blog/bargain-hunting/)_** 
 
 ## User Story Origins
 To improve collaboration and decide what to build next, apply learning gained from the sources of user stories:
@@ -75,7 +75,7 @@ To improve collaboration and decide what to build next, apply learning gained fr
 - [Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) (aka the XP white book) - Kent Beck, Cynthia Andres 
 - [Planning Extreme Programming](https://www.amazon.com/Planning-Extreme-Programming-Kent-Beck/dp/0201710919) (aka the XP dark green book) - Kent Beck, Martin Fowler
 
-<hr class='bottom-separator' />
+<hr />
 
 <small>Photo credit: <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Visual Stories || Micheile</a> on <a href="https://unsplash.com/s/photos/order-takers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
   
