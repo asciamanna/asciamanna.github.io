@@ -18,7 +18,7 @@ Issues with user stories are a common problem for software development organizat
 
 <!--more-->
 
-Advice like this: ([User Story Template: How to Write User Stories Efficiently](https://hygger.io/blog/user-story-template-how-to-write-it/)) is all too common but sidesteps the real issue. I contend that the more boxes on a user story template or the more required data on a Jira input screen, the more time and money will be wasted on a symptom of the problem. As Jeff Patton states in the introduction of his book _User Story Mapping_, "Shared documents aren't shared understanding." A requirements document does a poor job of establishing a shared understanding. Even the ones that follow a standard template.
+Advice like this article, [User Story Template: How to Write User Stories Efficiently](https://hygger.io/blog/user-story-template-how-to-write-it/) is all too common but sidesteps the real issue. I contend that the more boxes on a user story template or the more required data on a Jira input screen, the more time and money will be wasted on a symptom of the problem. As Jeff Patton states in the introduction of his book _User Story Mapping_, "Shared documents aren't shared understanding." A requirements document does a poor job of establishing a shared understanding. Even the ones that follow a standard template.
 
 > Shared documents aren't shared understanding  
 > **_&mdash;Jeff Patton - User Story Mapping - Page xxxii_**
