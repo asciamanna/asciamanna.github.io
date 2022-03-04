@@ -6,7 +6,7 @@ subtitle:
 comments: true
 excerpt_separator: <!--more-->
 summary: Follow along while I practice the Gilded Rose Kata in Java. We'll identify code smells in the existing code and refactor until we can easily and safely add the new feature.
-image: /img/gilded-rose-kata/gilded-rose-kata.jpg
+image: /img/gilded-rose-kata/gilded-rose-header.jpg
 category: code craft
 tags: ['screencast', 'code kata', 'refactoring', 'java']
 ---
