@@ -26,7 +26,7 @@ Gerard Meszaros developed a taxonomy for "fake" objects used in tests in his boo
 Martin Fowler outlines each one in [this short blog post about Test Doubles](https://martinfowler.com/bliki/TestDouble.html);
 
 ### Alias overload
-A common problem that prevents deeper, more nuanced conversations (and test implementations) is the overloading of these terms. There are many conflicting terms for these test doubles. At one time,  I was pedantic about adopting Gerard's terminology from _xUnit Test Patterns_. Now, I don't care what terms a team uses, as long as they choose one. At Industrial Logic, our eLearning album about Faking & Mocking uses a different set of terminology (created before the release of _xUnit Test Patterns_). So use ours or the xUnit Test Patterns taxonomy. Just don't offload the definitions to your framework.
+A common problem that prevents deeper, more nuanced conversations (and test implementations) is the overloading of these terms. There are many conflicting terms for these test doubles. At one time, I was pedantic about adopting Gerard's terminology from _xUnit Test Patterns_. Now, I don't care what terms a team uses, as long as they choose one. At Industrial Logic, our eLearning album about Faking & Mocking uses a different set of terminology (created before the release of _xUnit Test Patterns_). So use ours or the xUnit Test Patterns taxonomy. Just don't offload the definitions to your framework.
 
 ### A Framework-Centric View
 Teams often adopt a mocking framework early in their development and use it everywhere. They automatically reach for it for every collaborator interaction. Additionally, the language of the framework comes along for the ride.  
