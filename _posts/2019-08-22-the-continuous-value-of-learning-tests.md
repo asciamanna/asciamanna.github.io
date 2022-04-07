@@ -3,6 +3,7 @@ layout: post
 section-type: post
 title: The Continuous Value of Learning Tests
 comments: true
+image: /img/learning-test-header.jpg
 category: development practices
 tags: ['unit testing', 'clean code']
 excerpt_separator: <!--more-->
