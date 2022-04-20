@@ -6,7 +6,7 @@ subtitle:
 comments: true
 excerpt_separator: <!--more-->
 summary: Follow along while I practice the Roman Numeral TDD Kata in Kotlin.
-image: /img/roman-numeral-kata/roman-numeral-kata-header.jpg
+image: /img/roman-numeral-kata/roman-numeral-kata-header-update.jpg
 category: code craft
 tags: ['screencast', 'code kata', 'tdd', 'kotlin']
 ---
