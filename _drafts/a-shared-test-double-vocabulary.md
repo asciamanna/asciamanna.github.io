@@ -6,14 +6,14 @@ subtitle:
 comments: true
 excerpt_separator: <!--more-->
 summary: How can adopting a shared test double vocabulary improve our code and our interactions?
-image: 
+image: /img/crash-test-dummy.jpg
 category: software craft
 tags: ['microtesting', 'tdd']
 ---
 
 <img src='/img/crash-test-dummy.jpg' alt='crash test dummy head' class='img-responsive' />
 
-When software development teams begin practicing TDD and mircotesting, they commonly adopt a mocking framework or library and use it everywhere. This practice tends to harm the codebase and the team's interactions. It's easy to overlook the overuse of mocking libraries without the experience of working with high-quality microtest suites. 
+When software development teams begin practicing TDD and mircotesting, they commonly adopt a mocking library and use it everywhere. This practice tends to harm the codebase and the team's interactions. It's easy to overlook the overuse of mocking libraries without the experience of working with high-quality microtest suites. 
 
 ## Test Double Vocabulary
 Gerard Meszaros developed a taxonomy for "fake" objects used in tests in his book _xUnit Test Patterns_. He describes the generic term **_Test Double_** as any object used as a "stand-in" for the real object during test execution. In his book, he defined five types of test doubles. 
@@ -32,7 +32,7 @@ A common problem that prevents deeper, more nuanced conversations (and test impl
 Teams often adopt a mocking framework early in their development and use it everywhere. They automatically reach for it for every collaborator interaction. Additionally, the language of the framework comes along for the ride.  
 - If the team uses [Jest](https://jestjs.io/) (JavaScript), [Mockito](https://site.mockito.org/) (Java), or [Moq](https://github.com/moq/moq4) (C#) everything is a _**Mock**_
 - If the team uses [Jasmine](https://jasmine.github.io/) (JavaScript) everything is a _**Spy**_
-- If the team uses [FakeItEasy](https://fakeiteasy.github.io/), everything is a _**Fake**_
+- If the team uses [FakeItEasy](https://fakeiteasy.github.io/) (.NET) everything is a _**Fake**_
 
 This outsourcing of "test double" vocabulary comes with a cost. We lose all of the nuances in discussing collaborators in tests. When should we use a spy versus a stub? These conversations are non-existent because everything is a _mock_.
 
@@ -57,10 +57,11 @@ Mocking libraries have their idiosyncrasies and specialized syntax that increase
 When we hand roll test objects and adopt a variety of test doubles we can use the appropriate test double for the scenario we are testing. When using a mock library, we often lose sight of the scenario and become more concerned with object interactions than behavior. 
 
 ## Advice
-My advice for teams beginning their journey into TDD, microtesting, and collaborative development practices is to become adept at one mocking library for your platform. Experiment with writing your test doubles and using the mocking library. Get a feel for when to reach for one over the other. Adopt a shared test double vocabulary and learn when to employ each type. This will help keep tests focused on the behavior under test and hopefully avoid over mocking.
+My advice for teams beginning their journey into TDD, microtesting, and collaborative development practices is to become adept at one mocking library for your platform. Experiment with writing your own test doubles _and_ using the mocking library. Get a feel for when to reach for one over the other. Adopt a shared test double vocabulary and learn when to employ each type. This will help keep tests focused on the behavior under test and hopefully avoid over mocking.
 
 ## Further Reading
 One of my favorite articles on this topic is Martin Fowler's (now 15-year-old) blog post, [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html).
 
----
-Image courtesy of [the National Museum of America](https://www.flickr.com/photos/nationalmuseumofamericanhistory/4796780409) - Creative Commons License
+<div class="bottom-separator"></div>
+
+<small>Image courtesy of [the National Museum of America](https://www.flickr.com/photos/nationalmuseumofamericanhistory/4796780409) - Creative Commons License</small>
