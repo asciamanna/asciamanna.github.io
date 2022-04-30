@@ -184,6 +184,18 @@ a {
             }
         }
     }
+    @media(min-width:360px) {
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 100px;
+            }
+            .intro-text {
+                font-size: 18px;
+            }
+        }
+    }
 }
 
 @-webkit-keyframes pulse {
