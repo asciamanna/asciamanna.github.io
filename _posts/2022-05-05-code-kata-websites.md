@@ -16,7 +16,7 @@ tags: ['code kata']
 I frequently practice code katas with the development teams I coach and train. I've pulled this list of code kata websites out of my notes a few times in the past month, so I decided to publish this information as a listicle (list article). I've found code katas to be an important practice to help build new skills and establish habits. Practices like Test-Driven Development, refactoring, automated refactoring techniques, and microtesting can all be improved by practicing code katas. Now on to the list.
 
 ## Code Kata Resources
-- Industrial Logic offers a free [Code Katas album](https://www.industriallogic.com/katas/) from its eLearning &mdash; Java & C#
+- [Industrial Logic](https://www.industriallogic.com/) offers a free [Code Katas album](https://www.industriallogic.com/katas/) from its eLearning &mdash; Java & C#
 - [Coding Dojo Katas](https://codingdojo.org/kata/)
 - [Emily Bache's Github](https://github.com/emilybache/) contains many code kata repositories in a variety of programming languages
 - Dave Thomas’ [Code Kata site](http://codekata.com/)
