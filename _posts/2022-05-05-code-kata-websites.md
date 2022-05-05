@@ -31,7 +31,7 @@ I frequently practice code katas with the development teams I coach and train. I
 I've recently done a few code kata screencasts. You can find those screencasts [here on my blog](https://anthonysciamanna.com/tags/screencast.html).
 
 
-If you have other great code kata resources, feel free share them in the comments and I'll add them to the list! <i class="fa fa-solid fa-hand-back-point-down"></i>
+If you have other great code kata resources, feel free share them in the comments and I'll add them to the list! <i class="fa-solid fa-hand-point-down"></i>
 
 <div class="bottom-separator"></div>
 
