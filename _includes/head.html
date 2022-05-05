@@ -28,6 +28,8 @@
 
   {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}">
+  {% elsif page.section-type == "post" %}
+  <meta name="twitter:description" content="{{page.content | strip_html | truncate:157, '...'}}">
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
