@@ -139,17 +139,19 @@ email: "anthony@anthonysciamanna.com"
 ##################
 
 social:
-  - title: "twitter"
+  - title: "fa-brands fa-twitter"
     url: "https://twitter.com/asciamanna/"
-  - title: "github"
+  - title: "fa-brands fa-github"
     url: "https://github.com/asciamanna/"
 #  - title: "facebook"
 #    url: "https://facebook.com/asciamanna"
-  - title: "linkedin"
+  - title: "fa-brands fa-linkedin"
     url: "https://www.linkedin.com/in/asciamanna/"
-  - title: "lastfm"
+  - title: "fa-brands fa-speaker-deck"
+    url: "https://speakerdeck.com/asciamanna"
+  - title: "fa-brands fa-lastfm"
     url: "https://last.fm/user/asciamanna/"
-  - title: "rss"
+  - title: "fa-solid fa-rss"
     url: "/feed.xml"
 
 ############
