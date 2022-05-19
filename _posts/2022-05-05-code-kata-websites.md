@@ -25,6 +25,7 @@ I frequently practice code katas with the development teams I coach and train. I
 - [Exercism.org](https://exercism.org/dashboard)
 - [Kata Log](https://kata-log.rocks/)
 - [TDDBuddy](http://tddbuddy.com/)
+- [Five Legacy Code Katas](https://understandlegacycode.com/blog/5-coding-exercises-to-practice-refactoring-legacy-code/)
 
 
 ## Code Kata Screencasts
