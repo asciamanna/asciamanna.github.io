@@ -3,7 +3,7 @@ layout: default
 title: ""
 ---
 ## Beyond Unit Testing: The Real Value of Test-Driven Development 
-_ManTech &bull; June 1, 2022 &bull; Virtual_
+_Agile5 Technologies &bull; June 23, 2022 &bull; Virtual_
 
 Thanks for attending my talk, Beyond Unit Testing. 
 
