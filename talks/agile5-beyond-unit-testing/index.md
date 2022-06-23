@@ -9,13 +9,14 @@ Thanks for attending my talk, Beyond Unit Testing.
 
 ### Slide Deck
 
-UPDATE HERE
-<script async class="speakerdeck-embed" data-id="9b8a96643a5b48cfa25c687611b02a4b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="0f04e9b888ac4bc0970daaca4f8e8ba4" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### Talk References
 
 Here is a list of all of the articles and videos I referenced in my talk:
 
+* [Workflows of Refactoring - Slide Deck](https://martinfowler.com/articles/workflowsOfRefactoring/) - Martin Fowler
+* [Workflows of Refactoring - Talk](https://www.youtube.com/watch?v=vqEg37e4Mkw) - Martin Fowler
 * [You Won't Believe How Old TDD Is](https://arialdomartini.wordpress.com/2012/07/20/you-wont-believe-how-old-tdd-is/) - Arialdo Martini
 * [Chrysler Comprehensive Compensation on C2 Wiki](http://wiki.c2.com/?ChryslerComprehensiveCompensation)
 * [C3](https://www.martinfowler.com/bliki/C3.html) - Martin Fowler
@@ -36,7 +37,7 @@ Here are the books I've referenced in the talk:
 * [Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658/) - Kent Beck
 * [Test-Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/) - Kent Beck
 * [Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/) - Michael Feathers
-* [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/) - Nicole Forsgren, Jez Humble & Gene Kim
+* [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/) - Dr. Nicole Forsgren, Jez Humble & Gene Kim
 * [Growing Object-Oriented Software Guided by Tests](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/) - Steve Freeman & Nat Pryce
 
 Do you have questions about the talk or TDD in general? Or maybe just want to chat or learn more about Industrial Logic? The best way to get in touch with me is on twitter. Feel free to contact me at ([@asciamanna](https://www.twitter.com/asciamanna)).
