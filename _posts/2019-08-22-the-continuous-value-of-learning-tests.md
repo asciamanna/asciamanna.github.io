@@ -2,9 +2,10 @@
 layout: post
 section-type: post
 title: The Continuous Value of Learning Tests
+subtitle:
 comments: true
 image: /img/learning-test-header.jpg
-summary: Learning Tests provide many benefits throughout the life of a product. Learn more about how and why we create them.
+summary: Learning Tests provide many benefits throughout the life of a software product. Learn more about how and why we create them.
 category: development practices
 tags: ['unit testing', 'clean code']
 excerpt_separator: <!--more-->
