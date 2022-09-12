@@ -42,18 +42,18 @@ This outsourcing of the test double vocabulary comes at a cost. We lose all of t
 
 ## Mocking Framework Pain
 
-Now, these mocking libraries aren't all bad, they can be a valuable tool in your team's arsenal. They have their merit, but in practice, I see them overused. When every test double is considered a _mock_, and your library produces _mock objects_ there is no need to deviate. Overuse of mocking frameworks has harmful effects on the codebase. 
+Now, these mocking libraries aren't all bad, they can be a valuable tool in your team's arsenal. They have their merit, but in practice, I see them overused. When every test double is considered a _mock_, and your library produces _mock objects_ there is no need to deviate. Misuse of mocking frameworks has harmful effects on the codebase. 
 
 ### The ease of creating Pseudo-Tests
 
-Without fail, when joining a team that has some tests in place that use a mocking framework I invariably find tests that don't test anything; tests that test the mock instead of the object under test. GeePaw Hill talks about this in detail in his article, [On (Not) Using Mocking Frameworks](https://www.geepawhill.org/2021/07/13/on-not-using-mocking-frameworks/).
+When I join teams that have some tests in place using a mocking framework I invariably find tests that don't test anything; tests that test the mock instead of the object under test. GeePaw Hill talks about this in detail in his article, [On (Not) Using Mocking Frameworks](https://www.geepawhill.org/2021/07/13/on-not-using-mocking-frameworks/).
 
 ### Noise & Duplication
 Mocking libraries tend to encourage duplication of mock setup. The mock setup code can be refactored, but it often isn't in practice. When it is refactored, it can typically be replaced with a hand-rolled test double. The mocking library setup code tends to be noise that clogs tests and clouds the intention of the test case. Hand-rolled test doubles tend to require less setup code in test cases, making tests more intention-revealing.
 
 
 ### Increase in Complexity
-Mocking libraries have their idiosyncrasies and specialized syntax that increase complexity in tests. When I work with teams just learning microtesting, I see a significant amount of time spent understanding why a mock object call resulted in a `null` return value (**hint:** it's usually that the arguments you pass to the mocked call don't equal the ones in the production code). I've seen teams waste hours fighting with the framework to get their desired result. Instead, they could have written a small, simple test double. 
+Mocking libraries have their idiosyncrasies and specialized syntax that increase complexity in tests. When I work with teams just learning microtesting and still practicing *test-after development* I see a significant amount of time spent understanding why a mock object call resulted in a `null` return value (**hint:** it's usually that the arguments you pass to the mocked call don't equal the ones in the production code). I've seen teams waste hours fighting with the framework to get their desired result. Instead, they could have written a small, simple test double. 
 
 ### Test execution time increases
  Mocking frameworks that rely on reflection are a tax on test suite runtimes. I measured the impact of a mocking library on a .NET codebase. The test suite runtime decreased significantly by replacing a subset of the mock library usage with hand-rolled test doubles. Fast microtest runtimes are vitally important as they tend to be the most time-consuming part of a build. Furthermore, we want to run our tests constantly throughout the day. The slower the test suite, the less often we will run the tests.
