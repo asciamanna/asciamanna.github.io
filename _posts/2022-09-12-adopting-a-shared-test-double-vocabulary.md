@@ -11,7 +11,7 @@ category: software craft
 tags: ['microtesting', 'tdd']
 ---
 
-<img src='/img/crash-test-dummy.jpg' alt='crash test dummy head' class='img-responsive' />
+<img src='/img/crash-test-dummy.jpg' alt='crash test dummy head' class='img-responsive' style='max-width: 300px'/>
 
 
 
