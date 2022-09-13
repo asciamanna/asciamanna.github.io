@@ -59,10 +59,13 @@ Mocking libraries have their idiosyncrasies and specialized syntax that increase
  Mocking frameworks that rely on reflection are a tax on test suite runtimes. I measured the impact of a mocking library on a .NET codebase. The test suite runtime decreased significantly by replacing a subset of the mock library usage with hand-rolled test doubles. Fast microtest runtimes are vitally important as they tend to be the most time-consuming part of a build. Furthermore, we want to run our tests constantly throughout the day. The slower the test suite, the less often we will run the tests.
 
 ### Brittleness
- A topic covered in the [Industrial Logic Faking & Mocking eLearning](https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=collaborations&devLanguage=java) is that mocks focus on interactions. Overuse of mocking libraries can often result in mocking every dependency of an object under test. Tests quickly shift from testing behavior to testing interactions and implementation. There can be too much focus on interactions at the expense of testing behavior. It's easy to lose your way, and tests become brittle because they are coupled to the implementation.
 
- ### Over-specification
- When we reach for our mocking framework and mock every dependency, it is easy to fall into the trap of over-specifying our tests. Do we care about the parameters passed to the collaborator for this case? Do we care about the order that we call the methods on the collaborator? If it's not maintaining state we likely do not.  We tend to specify every collaboration with every dependency. Over-specifying our tests is another way to create brittle tests.
+A topic covered in the [Industrial Logic Faking & Mocking eLearning](https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=collaborations&devLanguage=java) is that mocks focus on interactions. Overuse of mocking libraries can often result in mocking every dependency of an object under test. Tests quickly shift from testing behavior to testing interactions and implementation. There can be too much focus on interactions at the expense of testing behavior. It's easy to lose your way, and tests become brittle because they are coupled to the implementation.  
+
+### Over-specification
+
+When we reach for our mocking framework and mock every dependency, it is easy to fall into the trap of over-specifying our tests. Do we care about the parameters passed to the collaborator for this case? Do we care about the order that we call the
+methods on the collaborator? If it's not maintaining state we likely do not.  We tend to specify every collaboration with every dependency. Over-specifying our tests is another way to create brittle tests.
 
 ### Lost Intent 
 When we hand roll test objects and adopt a variety of test doubles, we can use the appropriate test double for the scenario we are testing. When using a mocking framework, we often lose sight of the scenario and become more concerned with the implementation of object interactions than behavior. 
