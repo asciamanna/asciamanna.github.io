@@ -143,6 +143,8 @@ social:
     url: "https://twitter.com/asciamanna/"
   - title: "fa-brands fa-github"
     url: "https://github.com/asciamanna/"
+  - title: "fa-brands fa-mastodon"
+    url: "https://jawns.club/@asciamanna"
 #  - title: "facebook"
 #    url: "https://facebook.com/asciamanna"
   - title: "fa-brands fa-linkedin"
