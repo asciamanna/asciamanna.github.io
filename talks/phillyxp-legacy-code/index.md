@@ -2,7 +2,7 @@
 layout: default
 title: ""
 ---
-## Fearlessly Improving Legacy Code or: How I Learned to Stop Worrying to Love Dreadful Code
+## Fearlessly Improving Legacy Code or: How I Learned to Stop Worrying and Love Dreadful Code
 _PhillyXP &bull; November 15, 2022 &bull; Virtual_
 
 Thanks for joining my talk at PhillyXP about how to Fearlessly Improve Legacy Code. You'll find links to any of the resources I discussed in the talk on this page. 
