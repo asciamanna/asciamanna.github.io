@@ -8,6 +8,7 @@ _PhillyXP &bull; November 15, 2022 &bull; Virtual_
 Thanks for joining my talk at PhillyXP about how to Fearlessly Improve Legacy Code. You'll find links to any of the resources I discussed in the talk on this page. 
 
 ### Slide Deck
+<script async class="speakerdeck-embed" data-id="2052e493ccd24854b77a748b3014adf6" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
 
 
 ### Talk References
