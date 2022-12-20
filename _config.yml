@@ -149,6 +149,8 @@ social:
 #    url: "https://facebook.com/asciamanna"
   - title: "fa-brands fa-linkedin"
     url: "https://www.linkedin.com/in/asciamanna/"
+  - title: "fa-brands fa-youtube"
+    url: "https://www.youtube.com/@anthonysciamanna"
   - title: "fa-brands fa-speaker-deck"
     url: "https://speakerdeck.com/asciamanna"
   - title: "fa-brands fa-lastfm"
