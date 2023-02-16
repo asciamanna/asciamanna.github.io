@@ -11,13 +11,13 @@ function MainController($scope, $http) {
 
     $scope.getRecentTracks = function(recentTracks, displayData) {
         displayData.hideSpinner = false;
-        $http.jsonp('https://listeningto.apphb.com/api/recenttracks?callback=JSON_CALLBACK')
+        $http.get('https://music-stats-music-stats.azuremicroservices.io/musicstats/recenttracks')
             .success(function(data) {
                 recentTracks.length = 0;
-                angular.forEach(data, function(track, index) {
-                    track.IsNowPlaying = track.LastPlayed === "Now Playing";
-                    if(!track.AlbumArtLocation) {
-                        track.AlbumArtLocation = "/img/no-image-available.png";
+                angular.forEach(data.items, function(track, index) {
+                    track.IsNowPlaying = track.lastPlayed === "Now Playing";
+                    if(!track.albumArtLocation) {
+                        track.albumArtLocation = "/img/no-image-available.png";
                     }
                     recentTracks.push(track);
                 });
@@ -33,10 +33,10 @@ function MainController($scope, $http) {
 
     $scope.getTopArtists = function(topArtists, displayData) {
        displayData.hideSpinner = false;
-       $http.jsonp('https://listeningto.apphb.com/api/topArtists?callback=JSON_CALLBACK')
+       $http.get('https://music-stats-music-stats.azuremicroservices.io/musicstats/topartists')
            .success(function(data) {
               topArtists.length = 0;
-              angular.forEach(data, function(artist, index) {
+              angular.forEach(data.items, function(artist, index) {
                  topArtists.push(artist);
               });
               displayData.showRecentTracks = false;
@@ -44,7 +44,7 @@ function MainController($scope, $http) {
               displayData.hideSpinner = true;
             })
             .error(function(error) {
-               dispayData.connectError = true;
+               displayData.connectError = true;
                displayData.hideSpinner = true;
             });
     };

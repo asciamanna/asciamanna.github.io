@@ -175,7 +175,7 @@ pages_list:
   Blog: 'latest-post'
   Coaching: 'coaching'
 #  Code: 'code'
-#  "Listening To": 'listening-to'
+  "Listening To": 'listening-to'
 #  Timeline: 'timeline'
   Contact: 'contact'
 
