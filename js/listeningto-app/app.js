@@ -11,7 +11,7 @@ function MainController($scope, $http) {
 
     $scope.getRecentTracks = function(recentTracks, displayData) {
         displayData.hideSpinner = false;
-        $http.get('https://music-stats-music-stats.azuremicroservices.io/musicstats/recenttracks')
+        $http.get('https://music-stats.herokuapp.com/musicstats/recenttracks')
             .success(function(data) {
                 recentTracks.length = 0;
                 angular.forEach(data.items, function(track, index) {
@@ -33,7 +33,7 @@ function MainController($scope, $http) {
 
     $scope.getTopArtists = function(topArtists, displayData) {
        displayData.hideSpinner = false;
-       $http.get('https://music-stats-music-stats.azuremicroservices.io/musicstats/topartists')
+       $http.get('https://music-stats.herokuapp.com/musicstats/topartists')
            .success(function(data) {
               topArtists.length = 0;
               angular.forEach(data.items, function(artist, index) {
