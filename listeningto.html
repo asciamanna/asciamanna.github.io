@@ -13,9 +13,13 @@ section-type: listening-to
                 <i class="fa-solid fa-music"></i> Recent Tracks
             </a>
         </li>
-        <li ng-class="{active: !displayData.showRecentTracks}" ng-click="getTopArtists(topArtists, displayData)">
+        <li ng-class="{active: displayData.showTopArtists}" ng-click="getTopArtists(topArtists, displayData)">
             <a class="page-scroll" href="#listening-to">
                 <i class="fa-solid fa-guitar"></i> Top Artists</a>
+        </li>
+        <li ng-class="{active: displayData.showTopAlbums}" ng-click="getTopAlbums(topAlbums, displayData)">
+            <a class="page-scroll" href="#listening-to">
+                <i class="fa-solid fa-record-vinyl"></i> Top Albums</a>
         </li>
     </ul>
     <ul class='last-fm-list' ng-show="displayData.showRecentTracks && !displayData.connectError">
@@ -43,7 +47,7 @@ section-type: listening-to
             </div>
         </li>
     </ul>
-    <ul class='last-fm-list' ng-show="!displayData.showRecentTracks && !displayData.connectError">
+    <ul class='last-fm-list' ng-show="displayData.showTopArtists && !displayData.connectError">
         <li ng-repeat="artist in topArtists">
             <div ng-cloak class='last-fm-list-item ng-cloak'>
                 <!-- <div class='album-art'>
@@ -56,6 +60,24 @@ section-type: listening-to
                     </h4>
                     <span class='field'>Rank:</span> {{artist.rank}}<br/>
                     <span class='field'>Play Count:</span> {{artist.playCount}}<br/>
+                </div>
+                <div class='clear'></div>
+            </div>
+        </li>
+    </ul>
+    <ul class='last-fm-list' ng-show="displayData.showTopAlbums && !displayData.connectError">
+        <li ng-repeat="album in topAlbums">
+            <div ng-cloak class='last-fm-list-item ng-cloak'>
+                <div class='album-art'>
+                    <img ng-cloak class='ng-cloak img-thumbnail album-art'
+                    alt='{{album.artist}} - {{album.name}}' ng-src='{{album.albumUrl}}'/>
+                </div>
+                <div ng-cloak class='ng-cloak track-info'>
+                    <h4 class='artist-name'>
+                        {{album.artist}} - {{album.name}}
+                    </h4>
+                    <span class='field'>Rank:</span> {{album.rank}}<br/>
+                    <span class='field'>Play Count:</span> {{album.playCount}}<br/>
                 </div>
                 <div class='clear'></div>
             </div>
