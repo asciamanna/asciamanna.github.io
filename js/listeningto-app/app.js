@@ -62,6 +62,9 @@ function MainController($scope, $http) {
           .success(function(data) {
              topAlbums.length = 0;
              angular.forEach(data.items, function(album, index) {
+               if(!album.albumUrl) {
+                  album.albumUrl = "/img/no-image-available.png";
+              }
                 topAlbums.push(album);
              });
              displayData.showRecentTracks = false;
