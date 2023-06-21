@@ -15,9 +15,12 @@ released our debut album in 1999.
 
 I am a music geek and love listening to jazz, fusion, progressive rock, progressive metal, metal, and new wave / post punk. 
 
-#### Jazz
+#### Jazz <i class="fa-solid fa-guitar"></i>
 
 I often get asked about where to start with jazz music so I wrote this [Jazz 101](/jazz-101.html)
-article. If you are interested you can check out my [jazz music collection](/jazz-collection.html).
+article. 
+
+#### Music Collection <i class="fa-solid fa-record-vinyl"></i>
+If you are interested you can check out my [music collection](https://www.discogs.com/user/asciamanna/collection) on Discogs.
 
 <!-- <i class="fa-solid fa-music"></i> <i class="fa-solid fa-drum"></i> <i class="fa-solid fa-record-vinyl"></i> <i class="fa-solid fa-code"></i> <i class="fa-brands fa-python "></i> <i class="fa-brands fa-golang"></i> <i class="fa-brands fa-java"></i> <i class="fa-brands fa-apple"></i> <i class="fa-solid fa-whiskey-glass"></i> <i class="fa-solid fa-jedi"></i> <i class="fa-brands fa-mandalorian"></i> -->
