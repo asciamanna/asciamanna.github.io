@@ -4,6 +4,8 @@ function MainController($scope, $http) {
     $scope.topArtists = [];
     $scope.recentTracks = [];
     $scope.topAlbums = [];
+    $scope.playedToday = 0;
+    $scope.today = new Date().toLocaleString('en-US', { timeZone: 'America/New_York', weekday:'long', year:'numeric', month:'long', day:'numeric'});
     $scope.displayData = {
        showRecentTracks: true,
        showTopArtists: false,
@@ -78,4 +80,21 @@ function MainController($scope, $http) {
               displayData.hideSpinner = true;
            });
    };
+
+   $scope.getTodaysPlayCount = function(displayData) {
+      $http.get('https://music-stats.herokuapp.com/musicstats/recenttracks/playcount/today')
+         .success(function(data){
+            $scope.playedToday = data;
+            today = new Date().toLocaleString('en-US', { timeZone: 'America/New_York', weekday:'long', year:'numeric', month:'long', day:'numeric'});
+         })
+         .error(function(error) {
+            displayData.connectError = true;
+            displayData.hideSpinner = true;
+         });
+   };
+
+   $scope.init = function(recentTracks, displayData) {
+      $scope.getRecentTracks(recentTracks, displayData);
+      $scope.getTodaysPlayCount(displayData);
+   }
 }

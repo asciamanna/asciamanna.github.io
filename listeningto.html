@@ -5,7 +5,7 @@ layout: null
 section-type: listening-to
 ---
 <!-- {% raw %} -->
-<div class='app' data-ng-app='ListeningToApp' data-ng-controller='MainController' ng-init='getRecentTracks(recentTracks, displayData)'>
+<div class='app' data-ng-app='ListeningToApp' data-ng-controller='MainController' ng-init='init(recentTracks, displayData)'>
     <div class="nav-custom"></div>
     <ul class="nav nav-pills nav-justified"> 
         <li ng-class="{active: displayData.showRecentTracks}" ng-click="getRecentTracks(recentTracks, displayData)">
@@ -23,6 +23,7 @@ section-type: listening-to
         </li>
     </ul>
     <ul class='last-fm-list' ng-show="displayData.showRecentTracks && !displayData.connectError">
+        <div ng-cloak class="recent-tracks-stats ng-cloak">{{playedToday}} tracks played today <em>({{today}})</em></div>
         <li ng-repeat="track in recentTracks">
             <div ng-cloak class='last-fm-list-item ng-cloak'>
                 <div class='album-art'>
