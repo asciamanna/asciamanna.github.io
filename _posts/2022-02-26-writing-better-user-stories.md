@@ -77,5 +77,7 @@ To improve collaboration and decide what to build next, apply learning gained fr
 
 <div class="bottom-separator"></div>
 
+<small>This blog post was cross-posted on the Industrial Logic blog, it is available [here](https://www.industriallogic.com/blog/writing-better-user-stories/).</small> 
+
 <small>Photo credit: <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Visual Stories || Micheile</a> on <a href="https://unsplash.com/s/photos/order-takers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
   

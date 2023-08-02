@@ -83,3 +83,10 @@ When I've seen code coverage used successfully it was a team's internal measure 
 My recommendation is that software organizations should stop focusing on code coverage as a goal. Instead of investing time and money into increasing coverage, they should make investments in the technical practices and quality-first engineering discipline of their development teams. I would focus on learning Test-Driven Development, refactoring skills, legacy code techniques, and software design skills. Encourage developers to work and learn together. Leaders should be creating a learning environment where teams feel safe to take time to learn these skills. The result will be a significant improvement in quality and thus an improvement in productivity, morale, **and** code coverage. 
 
 Remember code coverage isn't a goal to achieve, but it's a byproduct of quality-first development practices that create not only high-quality changeable production code but also high-quality sustainable test suites. 
+
+<div class="bottom-separator"></div>
+
+<small>An updated version of this blog post was cross-posted on the Industrial Logic blog, it is available [here](https://www.industriallogic.com/blog/code-coverage-complications/).</small> 
+
+<small>We had a discussion about this topic on Industrial Logic's TwitterSpace. Here is the recording of that conversation:</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kGZliB2KiH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
