@@ -139,7 +139,7 @@ email: "anthony@anthonysciamanna.com"
 ##################
 
 social:
-  - title: "fa-brands fa-twitter"
+  - title: "fa-brands fa-square-x-twitter"
     url: "https://twitter.com/asciamanna/"
   - title: "fa-brands fa-github"
     url: "https://github.com/asciamanna/"
