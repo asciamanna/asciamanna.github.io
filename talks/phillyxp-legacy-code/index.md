@@ -24,7 +24,7 @@ Here is a list of all of the articles and videos I referenced in my talk:
 * [Taylorism](https://en.wikipedia.org/wiki/Scientific_management) - wikipedia
 * [History of the Gantt Chart](https://en.wikipedia.org/wiki/Gantt_chart) - wikipedia
 * [Theory X and Theory Y Management](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y) - wikipedia
-* [Low of Holes](https://en.wikipedia.org/wiki/Law_of_holes) - wikipedia
+* [Law of Holes](https://en.wikipedia.org/wiki/Law_of_holes) - wikipedia
 * [Claude Shannon's Problem Solving Process](https://www.businessinsider.com/engineer-claude-shannon-problem-solving-process-2017-7) - Business Insider
 * [The Core Six Refactorings](https://arlobelshee.com/the-core-6-refactorings/) - Arlo Belshee
 * [Approval Tests](https://approvaltests.com/)
