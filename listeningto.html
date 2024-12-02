@@ -5,7 +5,7 @@ layout: null
 section-type: listening-to
 ---
 <!-- {% raw %} -->
-<div class='app' data-ng-app='ListeningToApp' data-ng-controller='MainController' ng-init='init(recentTracks, displayData)'>
+<div class='app' data-ng-controller='MainController' ng-init='init(recentTracks, displayData)'>
     <div class="nav-custom"></div>
     <ul class="nav nav-pills nav-justified"> 
         <li ng-class="{active: displayData.showRecentTracks}" ng-click="getRecentTracks(recentTracks, displayData)">

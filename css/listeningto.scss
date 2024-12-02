@@ -26,6 +26,22 @@
    }
 }
 
+.goodreads-list-item {
+  margin-top: 15px;
+  margin-bottom: 5px !important;
+  background-color: #E8E8E8;
+  padding: 0px 15px 0px 15px;
+  border-radius: 10px;
+  color: black;
+  h4 {
+     text-transform: none;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     letter-spacing: 0px; 
+     margin-bottom: 10px;
+     margin-top: 14px;
+ }
+}
+
 .last-fm-text {
     padding-bottom: 10px;
     font-style: italic; 
@@ -43,9 +59,30 @@
     margin-top: 15px;
 }
 
+.current-book-art {
+  float: left;
+  margin-top: 15px;
+}
+
+.read-book-art {
+  float: left;
+  margin-top: 28px;
+}
+
 .track-info {
     margin-left: 10px;
     float: left;
+}
+
+.current-book-info {
+  margin-left: 10px;
+  float: left;
+}
+
+.read-book-info {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
 }
 
 .clear {

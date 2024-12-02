@@ -98,3 +98,61 @@ function MainController($scope, $http) {
       $scope.getTodaysPlayCount(displayData);
    }
 }
+
+
+function GoodreadsController($scope, $http) {
+   $scope.currentBooks = [];
+   $scope.readBooks = [];
+   $scope.displayData = {
+      showCurrentBooks: true,
+      showReadBooks: false,
+      connectError: false,
+      hideSpinner: true
+   };
+
+   $scope.getCurrentBooks = function(currentBooks, displayData) {
+       displayData.hideSpinner = false;
+       $http.get('https://goodreads-scraper-app-7faef6ed56fd.herokuapp.com/current_books')
+           .success(function(data) {
+               currentBooks.length = 0;
+               angular.forEach(data.current_books, function(book, index) {
+                   currentBooks.push(book);
+               });
+               displayData.showCurrentBooks = true;
+               displayData.showReadBooks = false;
+               displayData.connectError = false;
+               displayData.hideSpinner = true;
+            })
+            .error(function(error) {
+               console.log("ERROR: failed to get current books");
+               displayData.connectError = true;
+               displayData.hideSpinner = true;
+            });
+   };   
+
+   $scope.getReadBooks = function(readBooks, displayData) {
+      displayData.hideSpinner = false;
+      $http.get('https://goodreads-scraper-app-7faef6ed56fd.herokuapp.com/read_books')
+          .success(function(data) {
+            console.log("READ BOOKS: " + data.read_books)
+             readBooks.length = 0;
+             angular.forEach(data.read_books, function(book, index) {
+                readBooks.push(book);
+             });
+             displayData.showCurrentBooks = false;
+             displayData.showReadBooks = true;
+             displayData.connectError = false;
+             displayData.hideSpinner = true;
+           })
+           .error(function(error) {
+              console.log("ERROR: failed to get read books");
+              displayData.connectError = true;
+              displayData.hideSpinner = true;
+           });
+   };
+
+  $scope.initBooks = function(currentBooks, displayData) {
+     $scope.getCurrentBooks(currentBooks, displayData);
+  };
+};
+

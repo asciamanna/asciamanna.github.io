@@ -1,0 +1,67 @@
+---
+title: Reading
+readingApp: true
+layout: null
+section-type: reading
+---
+<!-- {% raw %} -->
+<div class='app' data-ng-controller='GoodreadsController' ng-init='initBooks(currentBooks, displayData)'>
+    <div class="nav-custom"></div>
+    <ul class="nav nav-pills nav-justified"> 
+        <li ng-class="{active: displayData.showCurrentBooks}" ng-click="getCurrentBooks(currentBooks, displayData)">
+            <a class="page-scroll" href="#reading">
+                <i class="fa-solid fa-book-open"></i> Currently Reading
+            </a>
+        </li>
+        <li ng-class="{active: displayData.showReadBooks}" ng-click="getReadBooks(readBooks, displayData)">
+            <a class="page-scroll" href="#reading">
+                <i class="fa-solid fa-book"></i> Recently Read </a>
+        </li>
+    </ul>
+    <ul class='last-fm-list' ng-show="displayData.showCurrentBooks && !displayData.connectError">
+        <li ng-repeat="book in currentBooks">
+            <div ng-cloak class='goodreads-list-item ng-cloak'>
+                <div class='current-book-art'>
+                    <img ng-cloak class='ng-cloak img-thumbnail current-book-art'
+                    alt='{{book.title}}' ng-src='{{book.cover_url}}'/>
+                </div>
+                <div ng-cloak class='ng-cloak current-book-info'>
+                    <h4 class='artist-name'>
+                        {{book.title}}
+                    </h4>
+                    <span class='field'>Author:</span> {{book.author}}<br/>
+                    <span class='field'>Date Started:</span> {{book.date_started}}<br/>
+                    <br/>
+                </div>
+                <div class='clear'></div>
+            </div>
+        </li>
+    </ul>
+    <ul class='last-fm-list' ng-show="displayData.showReadBooks && !displayData.connectError">
+        <li ng-repeat="book in readBooks">
+            <div ng-cloak class='goodreads-list-item ng-cloak'>
+                <div class='read-book-art'>
+                    <img ng-cloak class='ng-cloak img-thumbnail read-book-art'
+                    alt='{{book.title}}' ng-src='{{book.cover_url}}'/>
+                </div>
+                <div ng-cloak class='ng-cloak read-book-info'>
+                    <h4 class='artist-name'>
+                        {{book.title}}
+                    </h4>
+                    <span class='field'>Author:</span> {{book.author}}<br/>
+                    <span class='field'>Date Started:</span> {{book.date_started}}<br/>
+                    <span class='field'>Date Finished:</span> {{book.date_read}}<br/>
+                </div>
+                <div class='clear'></div>
+            </div>
+        </li>
+    </ul>
+   <div ng-cloak class="ng-cloak spinner" ng-hide="displayData.hideSpinner">
+	<i class="fa fa-spinner fa-spin loading-label"></i>Loading
+   </div>
+   <div ng-cloak class="ng-cloak error" ng-show="displayData.connectError">
+	Cannot connect to the Goodreads scraper.<br/>
+   </div>
+</div>
+<!-- {% endraw %} -->
+
