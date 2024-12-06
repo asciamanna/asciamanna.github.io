@@ -34,6 +34,10 @@ section-type: reading
                     <br/>
                 </div>
                 <div class='clear'></div>
+                <div ng-cloak class="progress ng-cloak">
+                    <div class="progress-bar bg-success" role="progressbar" ng-style="{'width': book.progress}" 
+                    aria-valuenow="{{book.progress}}" aria-valuemin="0" aria-valuemax="100">{{book.progress}}</div>
+                </div>
             </div>
         </li>
     </ul>

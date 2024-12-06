@@ -27,6 +27,7 @@
 }
 
 .goodreads-list-item {
+  overflow: hidden;
   margin-top: 15px;
   margin-bottom: 5px !important;
   background-color: #E8E8E8;
@@ -77,6 +78,14 @@
 .current-book-info {
   margin-left: 10px;
   float: left;
+}
+
+.progress {
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  font-size: 14px;
 }
 
 .read-book-info {
