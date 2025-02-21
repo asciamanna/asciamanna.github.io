@@ -109,6 +109,10 @@ function GoodreadsController($scope, $http) {
       connectError: false,
       hideSpinner: true
    };
+   $scope.readThisYear = 0;
+   $scope.readLastYear = 0;
+   $scope.currentYear = new Date().toLocaleString('en-US', { year: 'numeric', timeZone: 'America/New_York' });
+   $scope.lastYear = Number($scope.currentYear) - 1;
 
    $scope.getCurrentBooks = function(currentBooks, displayData) {
        displayData.hideSpinner = false;
@@ -151,8 +155,26 @@ function GoodreadsController($scope, $http) {
            });
    };
 
+   $scope.getThisYearsReadCount = function(displayData) {
+
+      $http.get('https://goodreads-scraper-app-7faef6ed56fd.herokuapp.com/books_read_count/'+ $scope.currentYear) 
+         .success(function(data) {
+             $scope.readThisYear = data.books_read_count;
+         });
+   };
+
+   $scope.getLastYearsReadCount = function(displayData) {
+
+      $http.get('https://goodreads-scraper-app-7faef6ed56fd.herokuapp.com/books_read_count/'+ $scope.lastYear) 
+         .success(function(data) {
+             $scope.readLastYear = data.books_read_count;
+         });
+   };
+
   $scope.initBooks = function(currentBooks, displayData) {
      $scope.getCurrentBooks(currentBooks, displayData);
+     $scope.getThisYearsReadCount(displayData);
+     $scope.getLastYearsReadCount(displayData);
   };
 };
 

@@ -19,6 +19,7 @@ section-type: reading
         </li>
     </ul>
     <ul class='last-fm-list' ng-show="displayData.showCurrentBooks && !displayData.connectError">
+        <div ng-cloak class="recent-tracks-stats ng-cloak">{{readThisYear}} books read this year <em>({{currentYear}})</em></div>
         <li ng-repeat="book in currentBooks">
             <div ng-cloak class='goodreads-list-item ng-cloak'>
                 <div class='current-book-art'>
@@ -42,6 +43,7 @@ section-type: reading
         </li>
     </ul>
     <ul class='last-fm-list' ng-show="displayData.showReadBooks && !displayData.connectError">
+        <div ng-cloak class="recent-tracks-stats ng-cloak">{{readLastYear}} books read last year <em>({{lastYear}})</em></div>
         <li ng-repeat="book in readBooks">
             <div ng-cloak class='goodreads-list-item ng-cloak'>
                 <div class='read-book-art'>
