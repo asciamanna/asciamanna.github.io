@@ -8,8 +8,7 @@ _Client Talk &bull; April 16, 2025 &bull; Virtual_
 Here are additional details from the Coaches Corner hosted by Anthony Sciamanna & Perry Reid. 
 
 ### Slide Deck
-TBD
-<script async class="speakerdeck-embed" data-id="9b8a96643a5b48cfa25c687611b02a4b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script defer class="speakerdeck-embed" data-id="57520bff5ac842cd97dfd3822b5c90eb" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### Talk References
 
