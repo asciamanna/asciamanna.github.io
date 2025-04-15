@@ -23,3 +23,4 @@ Here you can find a listing of the talks I've given. Each page contains a link t
 | July 22, 2022 | [Code Coverage Complications - Industrial Logic TwitterSpace]({{site.baseurl}}{% link talks/twitterspace-code-coverage-complications/index.md %}) |
 | November 11, 2022 | [SPOT and Coincidental Duplication - Industrial Logic TwitterSpace]({{site.baseurl}}{% link talks/twitterspace-spot-duplication/index.md %}) |
 | November 15, 2022 | [Fearlessly Improving Legacy code or: How I Learned to Stop Worrying and Love Dreadful Code - PhillyXP]({{site.baseurl}}{% link talks/phillyxp-legacy-code/index.md %}) |
+| April 16, 2025 | [Beyond Unit Testing: The Real Value of Test-Driven Development - Client talk]({{site.baseurl}}{% link talks/beyond-unit-testing-2025/index.md %}) |
