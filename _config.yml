@@ -32,8 +32,8 @@ use-cookie-consent: True
 lang: "en"
 author: "Anthony Sciamanna"
 title: "Anthony Sciamanna"
-description: "Industrial Logic Senior Consultant Anthony Sciamanna's Software Development and Coaching Blog. Focusing on Extreme Programming (XP), Lean Software Development, Modern Agile, DevOps, continuous improvement and experimentation."
-keywords: "sciamanna, software development, xp, extreme programming, modern agile, industrial logic, test-driven development, tdd, bdd, behavior driven development, unit testing, microtesting, pair programming, mob programming, ensemble programming, agile, refactoring, legacy code, Continuous Integration, Continuous Delivery, Continuous Deployment, CI/CD, code craft"
+description: "Anthony Sciamanna's Software Development and Coaching Blog. Focusing on Extreme Programming (XP), Lean Software Development, Modern Agile, DevOps, continuous improvement and experimentation."
+keywords: "sciamanna, scoir, software development, xp, extreme programming, modern agile, industrial logic, test-driven development, tdd, bdd, behavior driven development, unit testing, microtesting, pair programming, mob programming, ensemble programming, agile, refactoring, legacy code, Continuous Integration, Continuous Delivery, Continuous Deployment, CI/CD, code craft"
 favicon: "/img/favicon.ico"
 
 title_image: "/img/header-image.jpg"
