@@ -173,10 +173,10 @@ fourofour-img: "/img/adam-bomb.jpg"
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Coaching: 'coaching'
+#  Coaching: 'coaching'
 #  Code: 'code'
   "Listening To": 'listening-to'
-  Reading: 'reading'
+#  Reading: 'reading'
 #  Timeline: 'timeline'
   Contact: 'contact'
 
